@@ -32,18 +32,18 @@ httpServer.listen(wsPort, function () {
 });
 
 server.listen(PORT, async () => {
-    console.log('server started and listening on port ', PORT);
+  console.log('server started and listening on port ', PORT);
 
-    var exec  = require('child_process').exec;
+  var exec = require('child_process').exec;
 
-    exec('tsc -b 270.funfoot', async (err, stdout, stderr) => {
-        if (err) {
-            console.error(`exec error: ${err}`);
-        }
+  exec('tsc -b 100.fictiq', async (err, stdout, stderr) => {
+    if (err) {
+      console.error(`exec error: ${err}`);
+    }
 
-        init(PORT);
+    init(PORT);
 
-        })
+  })
 
 
 });
@@ -51,35 +51,35 @@ server.listen(PORT, async () => {
 
 const init = async (prt) => {
 
-    console.log("inits")
+  console.log("inits")
 
-    const local = 'ws://localhost:80';
-    //const local = 'wss://agent-network-8af0ee89ad26.herokuapp.com';
+  const local = 'ws://localhost:80';
+  //const local = 'wss://agent-network-8af0ee89ad26.herokuapp.com';
 
-    const localBit = { idx: 'local', src: local };
+  const localBit = { idx: 'local', src: local };
 
-    FICTIQ = require(path.resolve('./dist/100.fictiq/hunt'));
-    FICTIQ_ACTION = require(path.resolve('./dist/100.fictiq/00.fictiq.unit/fictiq.action'));
+  FICTIQ = require(path.resolve('./dist/100.fictiq/hunt'));
+  FICTIQ_ACTION = require(path.resolve('./dist/100.fictiq/00.fictiq.unit/fictiq.action'));
 
-    //SPACE = require(path.resolve('./002.space/index'));
-    //SPACE_ACTION = require(path.resolve('./002.space/00.space.unit/space.action'));
+  //SPACE = require(path.resolve('./002.space/index'));
+  //SPACE_ACTION = require(path.resolve('./002.space/00.space.unit/space.action'));
 
-    PIVOT = require(path.resolve('./999.pivot/index'));
-    PIVOT_ACTION = require(path.resolve('./999.pivot/00.pivot.unit/pivot.action'));
+  PIVOT = require(path.resolve('./999.pivot/index'));
+  PIVOT_ACTION = require(path.resolve('./999.pivot/00.pivot.unit/pivot.action'));
 
 
-    if ( pvt == false){
+  if (pvt == false) {
 
-      await PIVOT.hunt( PIVOT_ACTION.INIT_PIVOT, {  dat: MQTT, src: local });
-      //await SPACE.hunt( SPACE_ACTION.INIT_SPACE, {  dat: MQTT, src: local });
-      await FICTIQ.hunt( FICTIQ_ACTION.INIT_FICTIQ , { val: 1, dat: MQTT, src:  [localBit]  });
+    await PIVOT.hunt(PIVOT_ACTION.INIT_PIVOT, { dat: MQTT, src: local });
+    //await SPACE.hunt( SPACE_ACTION.INIT_SPACE, {  dat: MQTT, src: local });
+    await FICTIQ.hunt(FICTIQ_ACTION.INIT_FICTIQ, { val: 1, dat: MQTT, src: [localBit] });
 
-    }
-    else{
+  }
+  else {
 
-      await PIVOT.hunt( PIVOT_ACTION.INIT_PIVOT, { val:1, dat: MQTT, src: local });
-      //await SHADE.hunt( SHADE_ACTION.INIT_SHADE , { val: 1, dat: MQTT, src:  [localBit]  });
-    }
+    await PIVOT.hunt(PIVOT_ACTION.INIT_PIVOT, { val: 1, dat: MQTT, src: local });
+    //await SHADE.hunt( SHADE_ACTION.INIT_SHADE , { val: 1, dat: MQTT, src:  [localBit]  });
+  }
 
 
 };

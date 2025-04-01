@@ -33,7 +33,7 @@ export const initFictiq = async (cpy: FictiqModel, bal: FictiqBit, ste: State) =
 
             bit = await ste.hunt(ActMnu.INIT_MENU, {});
 
-        }, 18888 )
+        }, 33 )
 
        
 
@@ -43,7 +43,7 @@ export const initFictiq = async (cpy: FictiqModel, bal: FictiqBit, ste: State) =
 
     setTimeout(async () => {
 
-        bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: "cns00", src: "--- fictiq bundled" });
+       //bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: "cns00", src: "--- fictiq bundled" });
 
         if (bal.slv != null) bal.slv({ intBit: { idx: "init-fictiq" } });
     }, 3);
