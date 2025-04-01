@@ -1,7 +1,17 @@
 export const initKitchen = (cpy: KitchenModel, bal:KitchenBit, ste: State) => {
- debugger
+ 
+    bal.slv({ intBit: { idx: "init-kitchen" } });
+
  return cpy;
 };
+
+export const openKitchen = (cpy: KitchenModel, bal:KitchenBit, ste: State) => {
+    
+    
+    bal.slv({ intBit: { idx: "open-kitchen" } });
+
+    return cpy;
+   };
 
 export const updateKitchen = (cpy: KitchenModel, bal:KitchenBit, ste: State) => {
  return cpy;
