@@ -15,4 +15,10 @@ export class UpdateFictiq implements Action {
  constructor(public bale: FictiqBit) {}
 }
 
-export type Actions = | InitFictiq | UpdateFictiq ;
+export const BATCH_FICTIQ = "[Fictiq action] Batch Fictiq";
+export class BatchFictiq implements Action {
+ readonly type = BATCH_FICTIQ;
+ constructor(public bale: FictiqBit) {}
+}
+
+export type Actions = | InitFictiq | UpdateFictiq | BatchFictiq ;

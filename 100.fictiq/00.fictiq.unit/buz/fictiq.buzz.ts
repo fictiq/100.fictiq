@@ -19,45 +19,70 @@ import * as ActSow from "../../act/sower.action";
 
 var bit, lst, dex, src, dat;
 
+
+const { spawn, exec } = require('child_process');
+const path = require('path');
+
 export const initFictiq = async (cpy: FictiqModel, bal: FictiqBit, ste: State) => {
 
-
     bit = await ste.hunt(ActBus.INIT_BUS, { idx: cpy.idx, src: bal.src, lst: [ActFtq], dat: bal.dat });
-
     if (bal.val == 1) {
-
-
         bit = await ste.hunt(ActTrm.INIT_TERMINAL, {});
-
-        setTimeout( async ()=>{
-
+        setTimeout(async () => {
             bit = await ste.hunt(ActMnu.INIT_MENU, {});
-
-        }, 33 )
-
-       
-
+        }, 33)
     }
 
 
-
     setTimeout(async () => {
-
-       //bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: "cns00", src: "--- fictiq bundled" });
-
+        //bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: "cns00", src: "--- fictiq bundled" });
         if (bal.slv != null) bal.slv({ intBit: { idx: "init-fictiq" } });
     }, 3);
 
 
     return cpy;
 
-
-    return cpy;
 };
 
 export const updateFictiq = (cpy: FictiqModel, bal: FictiqBit, ste: State) => {
     return cpy;
 };
 
+
+export const batchFictiq = (cpy: FictiqModel, bal: FictiqBit, ste: State) => {
+
+    
+    //bal.idx = the root directory the app needs to return too
+    //bal.src = the directory the program needs to go into
+    //bal.dat.batch = the name of the batch file
+
+
+    if (bal.src == null || bal.idx == null) {
+        bal.slv({ ftqBit: { idx: "batch-fictiq-error", src: 'params' } })
+        return
+    }
+
+    if (bal.dat == null || bal.dat.batch == null) {
+        bal.slv({ ftqBit: { idx: "batch-fictiq-error", src: 'params' } })
+        return
+    }
+
+    process.chdir('../');
+    process.chdir('./' + bal.src);
+    launchBatchFile('D:/' + bal.src + '/' + bal.dat.batch);
+    process.chdir('../');
+    process.chdir('../' + bal.idx);
+
+    bal.slv({ ftqBit: { idx: "batch-fictiq", src: bal.src } })
+    return cpy;
+};
+
+
+
+const launchBatchFile = (userInputPath) => {
+    const sanitizedPath = path.normalize(userInputPath); // Sanitize the path
+    const batch = spawn('cmd', ['/c', sanitizedPath], { detached: true, stdio: 'ignore', shell: true });
+    console.log('Batch file launched! ' + userInputPath);
+}
 
 

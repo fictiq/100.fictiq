@@ -1,8 +1,9 @@
-import Kitchen from "./fce/Kitchen.interface";
+import Kitchen from "./fce/kitchen.interface";
 import KitchenBit from "./fce/kitchen.interface";
 
 export class KitchenModel implements Kitchen {
- //idx:string;
+ consoleProcess:any;
+    //idx:string;
  //kitchenBitList: KitchenBit[] = [];
  //kitchenBits: any = {};
 }

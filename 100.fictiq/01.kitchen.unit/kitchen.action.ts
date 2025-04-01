@@ -21,4 +21,10 @@ export class OpenKitchen implements Action {
  constructor(public bale: KitchenBit) {}
 }
 
-export type Actions = | InitKitchen | UpdateKitchen | OpenKitchen;
+export const CLOSE_KITCHEN = "[Kitchen action] Close Kitchen";
+export class CloseKitchen implements Action {
+ readonly type = CLOSE_KITCHEN;
+ constructor(public bale: KitchenBit) {}
+}
+
+export type Actions = | InitKitchen | UpdateKitchen | OpenKitchen | CloseKitchen;

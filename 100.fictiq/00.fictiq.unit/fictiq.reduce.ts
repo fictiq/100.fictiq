@@ -13,6 +13,9 @@ export function reducer(model: FictiqModel = new FictiqModel(), act: Act.Actions
  case Act.INIT_FICTIQ:
  return Buzz.initFictiq(clone(model), act.bale, state);
 
+ case Act.BATCH_FICTIQ:
+ return Buzz.batchFictiq(clone(model), act.bale, state);
+
  default:
  return model;
  }

@@ -11,6 +11,7 @@ import * as FOCUS from "../../val/focus";
 
 import * as ActMnu from "../menu.action";
 import * as ActFtq from "../../00.fictiq.unit/fictiq.action";
+import * as ActKit from "../../01.kitchen.unit/kitchen.action";
 
 import * as ActTrm from "../../80.terminal.unit/terminal.action";
 import * as ActChc from "../../85.choice.unit/choice.action";
@@ -41,45 +42,6 @@ export const initMenu = async (cpy: MenuModel, bal: MenuBit, ste: State) => {
   bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: "FICTIQ V0" })
   bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: "-----------" })
 
-  bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: "-----------" })
-
-  bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: "warming up llm..." })
-
-  bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: "-----------" })
-
-
-  //get a greeting here
-
-  var open;
-  //var value;
-  
-
-  if ( open == null ) open = "Tell me a hello in a fun way, please"
-   
-   bit = await ste.bus( ActPmt.WRITE_PROMPT, { src:open, val:1 })      
-   bit = await ste.bus(ActOlm.WRITE_OLLAMA, { src: 'committing control' })
-
-   var msg = bit.olmBit.lst.join('')
-
-  msg = msg.replace('?', '? \n')
-  msg = msg.replace('(', '( \n')
-  msg = msg.replace('.', '. \n')
-  msg = msg.replace(',', ', \n')
-  msg = msg.replace('!', '! \n')
-  msg = msg.replace('-', '- \n')
-  msg = msg.replace('and', 'and \n')
-
-   lst = msg.split('\n')
-
-   lst.forEach( async (a)=>{
-   bit = await ste.hunt(ActCns.WRITE_CONSOLE, { idx: 'cns00', src: a })
-   })
-
-
-   bit = await ste.hunt(ActCns.WRITE_CONSOLE, { idx: 'cns00', src: '---------------' })
-
-
-
   updateMenu(cpy, bal, ste);
 
   return cpy;
@@ -89,7 +51,7 @@ export const updateMenu = async (cpy: MenuModel, bal: MenuBit, ste: State) => {
 
   //lst = [ActPvt.CLOUD_PIVOT, ActPvt.UPDATE_PIVOT, ActPvt.OPEN_PIVOT, ActPvt.EDIT_PIVOT, ActSpc.MERGE_SPACE, ActMnu.FOCUS_MENU, ActMnu.HEXMAP_MENU, , ActMnu.RENDER_MENU]
 
-  lst = [ActFtq.UPDATE_FICTIQ]
+  lst = [ActKit.OPEN_KITCHEN, ActKit.CLOSE_KITCHEN, ActFtq.UPDATE_FICTIQ, ActFtq.BATCH_FICTIQ]
 
   bit = await ste.hunt(ActGrd.UPDATE_GRID, { x: 0, y: 4, xSpan: 4, ySpan: 12 })
   bit = await ste.hunt(ActChc.OPEN_CHOICE, { dat: { clr0: Color.BLACK, clr1: Color.YELLOW }, src: Align.VERTICAL, lst, net: bit.grdBit.dat })
@@ -98,12 +60,24 @@ export const updateMenu = async (cpy: MenuModel, bal: MenuBit, ste: State) => {
 
   switch (src) {
 
-
     case ActFtq.UPDATE_FICTIQ:
-
       bit = await ste.hunt(ActFtq.UPDATE_FICTIQ, {})
       bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: JSON.stringify(bit) })
+      break;
 
+    case ActFtq.BATCH_FICTIQ:
+      bit = await ste.hunt(ActFtq.BATCH_FICTIQ, {})
+      bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: JSON.stringify(bit) })
+      break;
+
+    case ActKit.OPEN_KITCHEN:
+      bit = await ste.hunt(ActKit.OPEN_KITCHEN, {idx:'100.fictiq'})
+      bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: JSON.stringify(bit) })
+      break;
+
+      case ActKit.CLOSE_KITCHEN:
+      bit = await ste.hunt(ActKit.CLOSE_KITCHEN, {})
+      bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: JSON.stringify(bit) })
       break;
 
     default:

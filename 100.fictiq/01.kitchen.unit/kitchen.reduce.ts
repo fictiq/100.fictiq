@@ -16,6 +16,9 @@ export function reducer(model: KitchenModel = new KitchenModel(), act: Act.Actio
         case Act.OPEN_KITCHEN:
             return Buzz.openKitchen(clone(model), act.bale, state);
 
+        case Act.CLOSE_KITCHEN:
+            return Buzz.closeKitchen(clone(model), act.bale, state);
+
         default:
             return model;
     }
