@@ -29,7 +29,13 @@ export const initFictiq = async (cpy: FictiqModel, bal: FictiqBit, ste: State) =
 
         bit = await ste.hunt(ActTrm.INIT_TERMINAL, {});
 
-        bit = await ste.hunt(ActMnu.INIT_MENU, {});
+        setTimeout( async ()=>{
+
+            bit = await ste.hunt(ActMnu.INIT_MENU, {});
+
+        }, 18888 )
+
+       
 
     }
 
