@@ -31,7 +31,7 @@ export const openKitchen = async (cpy: KitchenModel, bal: KitchenBit, ste: State
 
     consoleProcess = await spawn('cmd', ['/c', sanitizedPath], { detached: true, shell: true });
 
-    bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: 'Batch file launched! ' + userInputPath })
+    //bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: 'Batch file launched! ' + userInputPath })
 
     process.chdir('../');
     process.chdir('../');
