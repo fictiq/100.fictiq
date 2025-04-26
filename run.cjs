@@ -1,3 +1,6 @@
+require('dotenv').config();
+const { spawn } = require('child_process');
+
 const path = require('path');
 const MQTT = require('async-mqtt');
 const { program } = require('commander');
