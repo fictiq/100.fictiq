@@ -49,6 +49,49 @@ server.listen(PORT, async () => {
 });
 
 
+var batch;
+
+
+
+
+// Simulate some work
+//setTimeout(() => {
+//  console.log('Work completed.');
+//  process.exit(0); // Exit with success code
+//}, 10000);
+
+function launchBatchFile(userInputPath) {
+  const sanitizedPath = path.normalize(userInputPath); // Sanitize the path
+
+  batch = spawn('cmd', ['/c', sanitizedPath]);
+
+  batch.stdout.on('data', (data) => {
+    console.log(`stdout: ${data}`);
+  });
+
+  batch.stderr.on('data', (data) => {
+    console.error(`stderr: ${data}`);
+  });
+
+  batch.on('close', (code) => {
+    console.log(`child process exited with code ${code}`);
+
+    //FS.emptyDir( dest, ()=>{
+    //  FS.copySync('./dist/win-unpacked/' , dest )
+    //})
+
+    console.log( "application complete "  )
+
+  });
+
+
+  console.log('Batch file launched!');
+}
+
+launchBatchFile( process.env.MQTT_BAT );
+
+
+
 const init = async (prt) => {
 
   console.log("inits")
