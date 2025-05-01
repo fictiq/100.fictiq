@@ -12,6 +12,7 @@ import * as FOCUS from "../../val/focus";
 import * as ActMnu from "../menu.action";
 import * as ActFtq from "../../00.fictiq.unit/fictiq.action";
 import * as ActKit from "../../01.kitchen.unit/kitchen.action";
+import * as ActTtl from "../../10.title.unit/title.action";
 
 import * as ActTrm from "../../80.terminal.unit/terminal.action";
 import * as ActChc from "../../85.choice.unit/choice.action";
@@ -51,7 +52,7 @@ export const updateMenu = async (cpy: MenuModel, bal: MenuBit, ste: State) => {
 
   //lst = [ActPvt.CLOUD_PIVOT, ActPvt.UPDATE_PIVOT, ActPvt.OPEN_PIVOT, ActPvt.EDIT_PIVOT, ActSpc.MERGE_SPACE, ActMnu.FOCUS_MENU, ActMnu.HEXMAP_MENU, , ActMnu.RENDER_MENU]
 
-  lst = [ActKit.OPEN_KITCHEN, ActKit.CLOSE_KITCHEN, ActFtq.UPDATE_FICTIQ, ActFtq.BATCH_FICTIQ]
+  lst = [ ActTtl.LIST_TITLE, ActKit.OPEN_KITCHEN, ActKit.CLOSE_KITCHEN, ActFtq.UPDATE_FICTIQ, ActFtq.BATCH_FICTIQ]
 
   bit = await ste.hunt(ActGrd.UPDATE_GRID, { x: 0, y: 4, xSpan: 4, ySpan: 12 })
   bit = await ste.hunt(ActChc.OPEN_CHOICE, { dat: { clr0: Color.BLACK, clr1: Color.YELLOW }, src: Align.VERTICAL, lst, net: bit.grdBit.dat })
@@ -79,6 +80,13 @@ export const updateMenu = async (cpy: MenuModel, bal: MenuBit, ste: State) => {
       bit = await ste.hunt(ActKit.CLOSE_KITCHEN, {})
       bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: JSON.stringify(bit) })
       break;
+
+      case ActTtl.LIST_TITLE:
+      bit = await ste.hunt(ActTtl.LIST_TITLE, {})
+      bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: JSON.stringify(bit) })
+      break;
+
+      
 
     default:
       bit = await ste.hunt(ActTrm.CLOSE_TERMINAL, {})
