@@ -13,6 +13,9 @@ export function reducer(model: DiffusionModel = new DiffusionModel(), act: Act.A
  case Act.INIT_DIFFUSION:
  return Buzz.initDiffusion(clone(model), act.bale, state);
 
+case Act.CAPTURE_DIFFUSION:
+ return Buzz.captureDiffusion(clone(model), act.bale, state);
+ 
  default:
  return model;
  }

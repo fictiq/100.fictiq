@@ -15,4 +15,11 @@ export class UpdateDiffusion implements Action {
  constructor(public bale: DiffusionBit) {}
 }
 
-export type Actions = | InitDiffusion | UpdateDiffusion ;
+export const CAPTURE_DIFFUSION = "[Capture action] Capture Diffusion";
+ export class CaptureDiffusion implements Action {
+ readonly type = CAPTURE_DIFFUSION;
+ constructor(public bale: DiffusionBit) {}
+ }
+ 
+export type Actions = | InitDiffusion | UpdateDiffusion 
+| CaptureDiffusion
