@@ -52,6 +52,8 @@ export const captureDiffusion = (cpy: DiffusionModel, bal: DiffusionBit, ste: St
 
 
 
+    var FS = require('fs-extra')
+
     var list = [tmp00, tmp01, tmp02, tmp03, tmp04, tmp05, tmp06, tmp07, tmp08, tmp09, tmp10, tmp11, tmp12, tmp13, tmp14, tmp15, tmp16, tmp17, tmp18, tmp19, tmp20, tmp21, tmp22, tmp23]
 
     var output = list.join('\n')
