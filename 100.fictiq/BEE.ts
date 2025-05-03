@@ -2,6 +2,7 @@ import Model from "./99.core/interface/model.interface";
 
 import FictiqUnit from "./00.fictiq.unit/fictiq.unit";
 import KitchenUnit from "./01.kitchen.unit/kitchen.unit";
+import DiffusionUnit from "./02.diffusion.unit/diffusion.unit";
 import TitleUnit from "./10.title.unit/title.unit";
 import TerminalUnit from "./80.terminal.unit/terminal.unit";
 import GridUnit from "./81.grid.unit/grid.unit";
@@ -24,6 +25,8 @@ import Fictiq from "./00.fictiq.unit/fce/fictiq.interface";
 import { FictiqModel } from "./00.fictiq.unit/fictiq.model";
 import Kitchen from "./01.kitchen.unit/fce/kitchen.interface";
 import { KitchenModel } from "./01.kitchen.unit/kitchen.model";
+import Diffusion from "./02.diffusion.unit/fce/diffusion.interface";
+import { DiffusionModel } from "./02.diffusion.unit/diffusion.model";
 import Title from "./10.title.unit/fce/title.interface";
 import { TitleModel } from "./10.title.unit/title.model";
 import Terminal from "./80.terminal.unit/fce/terminal.interface";
@@ -58,10 +61,11 @@ import Bus from "./99.bus.unit/fce/bus.interface";
 import { BusModel } from "./99.bus.unit/bus.model";
 
 
-export const list: Array<any> = [FictiqUnit,KitchenUnit,TitleUnit,TerminalUnit,GridUnit,CanvasUnit,ConsoleUnit,InputUnit,ChoiceUnit,ContainerUnit,GraphicUnit,HexagonUnit,SpriteUnit,TextUnit,DiskUnit,CollectUnit,MenuUnit,BusUnit];
+export const list: Array<any> = [FictiqUnit,KitchenUnit,DiffusionUnit,TitleUnit,TerminalUnit,GridUnit,CanvasUnit,ConsoleUnit,InputUnit,ChoiceUnit,ContainerUnit,GraphicUnit,HexagonUnit,SpriteUnit,TextUnit,DiskUnit,CollectUnit,MenuUnit,BusUnit];
 
 import * as reduceFromFictiq from "./00.fictiq.unit/fictiq.reduce";
 import * as reduceFromKitchen from "./01.kitchen.unit/kitchen.reduce";
+import * as reduceFromDiffusion from "./02.diffusion.unit/diffusion.reduce";
 import * as reduceFromTitle from "./10.title.unit/title.reduce";
 import * as reduceFromTerminal from "./80.terminal.unit/terminal.reduce";
 import * as reduceFromGrid from "./81.grid.unit/grid.reduce";
@@ -83,6 +87,7 @@ import * as reduceFromBus from "./99.bus.unit/bus.reduce";
 export const reducer: any = {
  fictiq : reduceFromFictiq.reducer, 
 kitchen : reduceFromKitchen.reducer, 
+diffusion : reduceFromDiffusion.reducer, 
 title : reduceFromTitle.reducer, 
 terminal : reduceFromTerminal.reducer, 
 grid : reduceFromGrid.reducer, 
@@ -106,6 +111,7 @@ export default class UnitData implements Model {
  
  fictiq : Fictiq = new FictiqModel();
 kitchen : Kitchen = new KitchenModel();
+diffusion : Diffusion = new DiffusionModel();
 title : Title = new TitleModel();
 terminal : Terminal = new TerminalModel();
 grid : Grid = new GridModel();
