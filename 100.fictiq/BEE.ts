@@ -3,7 +3,13 @@ import Model from "./99.core/interface/model.interface";
 import FictiqUnit from "./00.fictiq.unit/fictiq.unit";
 import KitchenUnit from "./01.kitchen.unit/kitchen.unit";
 import DiffusionUnit from "./02.diffusion.unit/diffusion.unit";
+import OllamaUnit from "./03.ollama.unit/ollama.unit";
 import TitleUnit from "./10.title.unit/title.unit";
+import PromptUnit from "./12.prompt.unit/prompt.unit";
+import AuthorUnit from "./13.author.unit/author.unit";
+import GenreUnit from "./14.genre.unit/genre.unit";
+import SettingUnit from "./15.setting.unit/setting.unit";
+import GrammerUnit from "./20.grammer.unit/grammer.unit";
 import TerminalUnit from "./80.terminal.unit/terminal.unit";
 import GridUnit from "./81.grid.unit/grid.unit";
 import CanvasUnit from "./82.canvas.unit/canvas.unit";
@@ -27,8 +33,20 @@ import Kitchen from "./01.kitchen.unit/fce/kitchen.interface";
 import { KitchenModel } from "./01.kitchen.unit/kitchen.model";
 import Diffusion from "./02.diffusion.unit/fce/diffusion.interface";
 import { DiffusionModel } from "./02.diffusion.unit/diffusion.model";
+import Ollama from "./03.ollama.unit/fce/ollama.interface";
+import { OllamaModel } from "./03.ollama.unit/ollama.model";
 import Title from "./10.title.unit/fce/title.interface";
 import { TitleModel } from "./10.title.unit/title.model";
+import Prompt from "./12.prompt.unit/fce/prompt.interface";
+import { PromptModel } from "./12.prompt.unit/prompt.model";
+import Author from "./13.author.unit/fce/author.interface";
+import { AuthorModel } from "./13.author.unit/author.model";
+import Genre from "./14.genre.unit/fce/genre.interface";
+import { GenreModel } from "./14.genre.unit/genre.model";
+import Setting from "./15.setting.unit/fce/setting.interface";
+import { SettingModel } from "./15.setting.unit/setting.model";
+import Grammer from "./20.grammer.unit/fce/grammer.interface";
+import { GrammerModel } from "./20.grammer.unit/grammer.model";
 import Terminal from "./80.terminal.unit/fce/terminal.interface";
 import { TerminalModel } from "./80.terminal.unit/terminal.model";
 import Grid from "./81.grid.unit/fce/grid.interface";
@@ -61,12 +79,18 @@ import Bus from "./99.bus.unit/fce/bus.interface";
 import { BusModel } from "./99.bus.unit/bus.model";
 
 
-export const list: Array<any> = [FictiqUnit,KitchenUnit,DiffusionUnit,TitleUnit,TerminalUnit,GridUnit,CanvasUnit,ConsoleUnit,InputUnit,ChoiceUnit,ContainerUnit,GraphicUnit,HexagonUnit,SpriteUnit,TextUnit,DiskUnit,CollectUnit,MenuUnit,BusUnit];
+export const list: Array<any> = [FictiqUnit,KitchenUnit,DiffusionUnit,OllamaUnit,TitleUnit,PromptUnit,AuthorUnit,GenreUnit,SettingUnit,GrammerUnit,TerminalUnit,GridUnit,CanvasUnit,ConsoleUnit,InputUnit,ChoiceUnit,ContainerUnit,GraphicUnit,HexagonUnit,SpriteUnit,TextUnit,DiskUnit,CollectUnit,MenuUnit,BusUnit];
 
 import * as reduceFromFictiq from "./00.fictiq.unit/fictiq.reduce";
 import * as reduceFromKitchen from "./01.kitchen.unit/kitchen.reduce";
 import * as reduceFromDiffusion from "./02.diffusion.unit/diffusion.reduce";
+import * as reduceFromOllama from "./03.ollama.unit/ollama.reduce";
 import * as reduceFromTitle from "./10.title.unit/title.reduce";
+import * as reduceFromPrompt from "./12.prompt.unit/prompt.reduce";
+import * as reduceFromAuthor from "./13.author.unit/author.reduce";
+import * as reduceFromGenre from "./14.genre.unit/genre.reduce";
+import * as reduceFromSetting from "./15.setting.unit/setting.reduce";
+import * as reduceFromGrammer from "./20.grammer.unit/grammer.reduce";
 import * as reduceFromTerminal from "./80.terminal.unit/terminal.reduce";
 import * as reduceFromGrid from "./81.grid.unit/grid.reduce";
 import * as reduceFromCanvas from "./82.canvas.unit/canvas.reduce";
@@ -88,7 +112,13 @@ export const reducer: any = {
  fictiq : reduceFromFictiq.reducer, 
 kitchen : reduceFromKitchen.reducer, 
 diffusion : reduceFromDiffusion.reducer, 
+ollama : reduceFromOllama.reducer, 
 title : reduceFromTitle.reducer, 
+prompt : reduceFromPrompt.reducer, 
+author : reduceFromAuthor.reducer, 
+genre : reduceFromGenre.reducer, 
+setting : reduceFromSetting.reducer, 
+grammer : reduceFromGrammer.reducer, 
 terminal : reduceFromTerminal.reducer, 
 grid : reduceFromGrid.reducer, 
 canvas : reduceFromCanvas.reducer, 
@@ -112,7 +142,13 @@ export default class UnitData implements Model {
  fictiq : Fictiq = new FictiqModel();
 kitchen : Kitchen = new KitchenModel();
 diffusion : Diffusion = new DiffusionModel();
+ollama : Ollama = new OllamaModel();
 title : Title = new TitleModel();
+prompt : Prompt = new PromptModel();
+author : Author = new AuthorModel();
+genre : Genre = new GenreModel();
+setting : Setting = new SettingModel();
+grammer : Grammer = new GrammerModel();
 terminal : Terminal = new TerminalModel();
 grid : Grid = new GridModel();
 canvas : Canvas = new CanvasModel();

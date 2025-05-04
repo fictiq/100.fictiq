@@ -43,6 +43,36 @@ export const initMenu = async (cpy: MenuModel, bal: MenuBit, ste: State) => {
   bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: "FICTIQ V0" })
   bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: "-----------" })
 
+
+  
+  //open up 
+  bit = await ste.hunt(ActPmt.WRITE_PROMPT, { src: "please give me one verses of a nice beautiful greeting in iambic pentameter with no commentary", val: 1 })
+  bit = await ste.hunt(ActOlm.WRITE_OLLAMA, { src: 'committing control' })
+  lst = bit.olmBit.lst
+
+  var count = 0 
+  var line = []
+
+  lst.forEach( async (a)=>{
+
+    if ( count > 10 ){
+      
+      var phrase = line.join(' ')
+      bit = await ste.hunt(ActMnu.PRINT_MENU, { src: a })
+
+      line = []
+ 
+      count = 0
+    }
+
+    count +=1
+    line.push(a)
+
+  })
+  
+
+  bit = await ste.hunt(ActMnu.PRINT_MENU, { src: "ollama complete" })
+
   updateMenu(cpy, bal, ste);
 
   return cpy;
