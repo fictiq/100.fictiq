@@ -13,6 +13,12 @@ export function reducer(model: GrammerModel = new GrammerModel(), act: Act.Actio
  case Act.INIT_GRAMMER:
  return Buzz.initGrammer(clone(model), act.bale, state);
 
+case Act.OPEN_GRAMMER:
+ return Buzz.openGrammer(clone(model), act.bale, state);
+ 
+case Act.WRITE_GRAMMER:
+ return Buzz.writeGrammer(clone(model), act.bale, state);
+ 
  default:
  return model;
  }

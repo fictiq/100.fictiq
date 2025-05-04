@@ -15,4 +15,18 @@ export class UpdateGrammer implements Action {
  constructor(public bale: GrammerBit) {}
 }
 
-export type Actions = | InitGrammer | UpdateGrammer ;
+export const OPEN_GRAMMER = "[Open action] Open Grammer";
+ export class OpenGrammer implements Action {
+ readonly type = OPEN_GRAMMER;
+ constructor(public bale: GrammerBit) {}
+ }
+ 
+export const WRITE_GRAMMER = "[Write action] Write Grammer";
+ export class WriteGrammer implements Action {
+ readonly type = WRITE_GRAMMER;
+ constructor(public bale: GrammerBit) {}
+ }
+ 
+export type Actions = | InitGrammer | UpdateGrammer 
+| OpenGrammer
+| WriteGrammer
