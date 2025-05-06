@@ -4,6 +4,7 @@ import FictiqUnit from "./00.fictiq.unit/fictiq.unit";
 import KitchenUnit from "./01.kitchen.unit/kitchen.unit";
 import DiffusionUnit from "./02.diffusion.unit/diffusion.unit";
 import OllamaUnit from "./03.ollama.unit/ollama.unit";
+import GeminiUnit from "./04.gemini.unit/gemini.unit";
 import TitleUnit from "./10.title.unit/title.unit";
 import PromptUnit from "./12.prompt.unit/prompt.unit";
 import AuthorUnit from "./13.author.unit/author.unit";
@@ -35,6 +36,8 @@ import Diffusion from "./02.diffusion.unit/fce/diffusion.interface";
 import { DiffusionModel } from "./02.diffusion.unit/diffusion.model";
 import Ollama from "./03.ollama.unit/fce/ollama.interface";
 import { OllamaModel } from "./03.ollama.unit/ollama.model";
+import Gemini from "./04.gemini.unit/fce/gemini.interface";
+import { GeminiModel } from "./04.gemini.unit/gemini.model";
 import Title from "./10.title.unit/fce/title.interface";
 import { TitleModel } from "./10.title.unit/title.model";
 import Prompt from "./12.prompt.unit/fce/prompt.interface";
@@ -79,12 +82,13 @@ import Bus from "./99.bus.unit/fce/bus.interface";
 import { BusModel } from "./99.bus.unit/bus.model";
 
 
-export const list: Array<any> = [FictiqUnit,KitchenUnit,DiffusionUnit,OllamaUnit,TitleUnit,PromptUnit,AuthorUnit,GenreUnit,SettingUnit,GrammerUnit,TerminalUnit,GridUnit,CanvasUnit,ConsoleUnit,InputUnit,ChoiceUnit,ContainerUnit,GraphicUnit,HexagonUnit,SpriteUnit,TextUnit,DiskUnit,CollectUnit,MenuUnit,BusUnit];
+export const list: Array<any> = [FictiqUnit,KitchenUnit,DiffusionUnit,OllamaUnit,GeminiUnit,TitleUnit,PromptUnit,AuthorUnit,GenreUnit,SettingUnit,GrammerUnit,TerminalUnit,GridUnit,CanvasUnit,ConsoleUnit,InputUnit,ChoiceUnit,ContainerUnit,GraphicUnit,HexagonUnit,SpriteUnit,TextUnit,DiskUnit,CollectUnit,MenuUnit,BusUnit];
 
 import * as reduceFromFictiq from "./00.fictiq.unit/fictiq.reduce";
 import * as reduceFromKitchen from "./01.kitchen.unit/kitchen.reduce";
 import * as reduceFromDiffusion from "./02.diffusion.unit/diffusion.reduce";
 import * as reduceFromOllama from "./03.ollama.unit/ollama.reduce";
+import * as reduceFromGemini from "./04.gemini.unit/gemini.reduce";
 import * as reduceFromTitle from "./10.title.unit/title.reduce";
 import * as reduceFromPrompt from "./12.prompt.unit/prompt.reduce";
 import * as reduceFromAuthor from "./13.author.unit/author.reduce";
@@ -113,6 +117,7 @@ export const reducer: any = {
 kitchen : reduceFromKitchen.reducer, 
 diffusion : reduceFromDiffusion.reducer, 
 ollama : reduceFromOllama.reducer, 
+gemini : reduceFromGemini.reducer, 
 title : reduceFromTitle.reducer, 
 prompt : reduceFromPrompt.reducer, 
 author : reduceFromAuthor.reducer, 
@@ -143,6 +148,7 @@ export default class UnitData implements Model {
 kitchen : Kitchen = new KitchenModel();
 diffusion : Diffusion = new DiffusionModel();
 ollama : Ollama = new OllamaModel();
+gemini : Gemini = new GeminiModel();
 title : Title = new TitleModel();
 prompt : Prompt = new PromptModel();
 author : Author = new AuthorModel();

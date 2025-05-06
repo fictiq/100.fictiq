@@ -21,6 +21,9 @@ import * as ActGrd from "../../81.grid.unit/grid.action";
 import * as ActCvs from "../..//82.canvas.unit/canvas.action";
 import * as ActCns from "../../83.console.unit/console.action";
 
+
+
+import * as ActGem from "../../04.gemini.unit/gemini.action";
 import * as ActGrm from "../../20.grammer.unit/grammer.action";
 
 import * as ActPmt from "../../act/prompt.action";
@@ -84,7 +87,7 @@ export const updateMenu = async (cpy: MenuModel, bal: MenuBit, ste: State) => {
 
   //lst = [ActPvt.CLOUD_PIVOT, ActPvt.UPDATE_PIVOT, ActPvt.OPEN_PIVOT, ActPvt.EDIT_PIVOT, ActSpc.MERGE_SPACE, ActMnu.FOCUS_MENU, ActMnu.HEXMAP_MENU, , ActMnu.RENDER_MENU]
 
-  lst = [ ActGrm.OPEN_GRAMMER, ActTtl.LIST_TITLE, ActKit.OPEN_KITCHEN, ActKit.CLOSE_KITCHEN, ActFtq.UPDATE_FICTIQ, ActFtq.BATCH_FICTIQ]
+  lst = [ ActGem.INIT_GEMINI, ActGrm.OPEN_GRAMMER, ActTtl.LIST_TITLE, ActKit.OPEN_KITCHEN, ActKit.CLOSE_KITCHEN, ActFtq.UPDATE_FICTIQ, ActFtq.BATCH_FICTIQ]
 
   bit = await ste.hunt(ActGrd.UPDATE_GRID, { x: 0, y: 4, xSpan: 4, ySpan: 12 })
   bit = await ste.hunt(ActChc.OPEN_CHOICE, { dat: { clr0: Color.BLACK, clr1: Color.YELLOW }, src: Align.VERTICAL, lst, net: bit.grdBit.dat })
@@ -92,6 +95,16 @@ export const updateMenu = async (cpy: MenuModel, bal: MenuBit, ste: State) => {
   src = bit.chcBit.src;
 
   switch (src) {
+
+    case ActGem.INIT_GEMINI:
+      bit = await ste.hunt( ActGem.INIT_GEMINI, {})
+      bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: JSON.stringify(bit) })
+      break;
+
+    case ActFtq.UPDATE_FICTIQ:
+      bit = await ste.hunt(ActFtq.UPDATE_FICTIQ, {})
+      bit = await ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: JSON.stringify(bit) })
+      break;
 
     case ActFtq.UPDATE_FICTIQ:
       bit = await ste.hunt(ActFtq.UPDATE_FICTIQ, {})
