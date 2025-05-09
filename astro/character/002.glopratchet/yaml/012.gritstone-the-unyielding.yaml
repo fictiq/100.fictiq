@@ -1,0 +1,191 @@
+
+# Story World Codex: Glopratchet Fictional Person Constitution Protocol
+#  Based on Doležel's Heterocosmica III.B.II.C (Character as Property Bundle) & Gl opratchet Coherence Protocol v0.6
+
+world: Glopratchet
+codex_version: '0 .7 - Glob Constitution (The Bodily Imperative)'
+last_updated: '[Current Date]'
+lead_ architects: '[Your Name/Studio Name]'
+
+introduction: |
+  This protocol guides the detailed definition of Fictional  Persons (primarily Globs, but potentially Harvesters or other sentient entities if narratively significant) within the Gloprat chet heterocosm. Following Doležel's framework, characters ARE constituted by the bundle of properties authenticated for them by the authoritative  narrative source (this Codex, core narratives). They possess no independent psyche or reality beyond this textual definition. This protocol is  specifically tailored to the realities of Glopratchet, including the amorphous nature of Globs, their varying CMP states, their profound  spiritual responses (The Adamant Rite's "Bodily Imperative" and The Liquescent Way's " Spirit Flow"), and their existence within the indifferent, grinding Ratchetworks.
+
+  Use this template to systematically build Glob  characters by explicitly authenticating their properties. Focus on creating multifaceted individuals whose complexity arises from the richness, coherence, and potential tensions within their  authenticated bundle, and whose actions are logically grounded in their defined nature, their chosen (or unchosen) spiritual path, and  Glopratchet's unforgiving rules. Remember undersaturation: define what is essential, acknowledge what is intentionally left undefined regarding  their amorphous forms or fragmented histories.
+
+character_profile_template:
+  entity_id: '[Unique Identifier, e. g., GLOB_Gritstone_AR07]'
+  glob_name_descriptor: '[Name(s) /  Common Descriptor, e.g., Gritstone ''The Unyielding'', Flow-Chanter Whisper, Clump-Beta- 734]'
+  entity_type: 'Glob (Primary) / Harvester Unit (Secondary) / Other Sent ient Entity'
+  spiritual_path_adherence_if_glob: '[e.g., Adamant Rite  (Devout Elder), Liquescent Way (Neophyte Seeker), Unaligned (Pragmatist), Ske ptic of All Paths, Drifting towards Adamant]'
+  archetype_optional_starting_point: '[e. g., Adamant Rite Earth-Keeper, Liquescent Way Flow-Prophet, Cynical Survivor Glob, Naive  New-Formed Glob, Indifferent Harvester Unit]' # Note: The goal is to move beyond the archetype via specific property authentication 
+  primary_authentication_sources: '[e.g., This Codex Entry, Glopratchet Narrative Scene X.Y,  Glopratchet Coherence Protocol v0.6]'
+  canon_tier: '[Tier 1 / Tier 2 /  Tier 3]'
+  authentication_status: '[Authenticated_Canonical_Active | Authenticated_Canonical_Historical_ Shard | Legendary_Memory | etc.]'
+
+  authenticated_property_bundle:
+    physical_properties:
+       purpose: "Define the Glob's tangible presence and current physical condition, heavily influenced by CMP, environment, and  ritual."
+      appearance_general_form:
+        value: '[e.g., Roughly spherical Glob, maintains  a relatively consistent dense mass; or, Highly amorphous, shifting pseudopods, translucent edges.]'
+        auth_ source: '[Source]'
+      appearance_size_volume:
+        value: '[e.g., Approx.  0.7 cubic meters when at rest; or, Fluctuates between 0.3-0.9 cubic meters depending  on CMP and emotional state.]'
+        auth_source: '[Source]'
+      appearance_surface_texture_coloration :
+        value: '[e.g., Dull grey, matte, flecked with embedded Ratchetwork mineral dust s (Earth''s Kiss); or, Iridescent, semi-transparent, rippling surface, hints of blue from  excess CMP.]'
+        auth_source: '[Source - Visual Desc.]'
+      appearance_distinctive_inclusions_ markings:
+        value: '[e.g., Clearly visible "True Shard" fragment from a revered ancestor embedded  near core; or, Swirling internal currents of captured Kineto-Mist; Ritualistic compression lines from Adamant practices .]'
+        auth_source: '[Source]'
+      density_viscosity_state:
+        value:  '[e.g., High density, low viscosity (Adamant Path influence); or, Low density, high fluidity (Liquescent  Path influence); Brittle (CMP deprived); Hyper-fluid (Excess CMP or stressor).]'
+        auth_source:  '[World Rule Link, Ritual Impact]'
+      voice_vocalization_method:
+        value: '[e.g.,  Deep, resonant hum from vibrating core; or, Squelching, bubbling sounds from shifting surface; Series of rhythmic clicks  from hardened outer shell pieces.]'
+        auth_source: '[Source - Dialogue/Audio Ref]'
+      movement_loc omotion_style:
+        value: '[e.g., Slow, deliberate rolling/dragging, maintains cohesive form (Adamant ); or, Rapid flowing, amoeboid projection, readily deforms to pass obstacles (Liquescent); Kineto- Mist assisted drift.]'
+        auth_source: '[Action Description]'
+      associated_scent_residue _if_any:
+        value: '[e.g., Dry, dusty scent of specific minerals (Adamant "Earth'' s Kiss"); or, Damp, ozone-like scent of high CMP concentration; Slight metallic tang from Ratchetwork contact .]'
+        auth_source: '[Sensory Palette]'
+      physical_undersaturation:
+        value:  '[e.g., Exact internal structure beyond general density; precise number of pseudopods at any given moment; capacity  for fine manipulation not explicitly demonstrated.]'
+
+    functional_properties:
+      purpose: "Define what the Glob *can * and *cannot* do, including ritual efficacy and interaction with the Ratchetwork."
+      skills:
+         - description: '[e.g., Proficient in locating "Earth''s Kiss" mineral veins (Adamant Rite knowledge).]' 
+          auth_source: '[Demonstrated Actions]'
+        - description: '[e.g., Advanced rhythmic und ulation for communal CMP sharing (Liquescent Way practice).]'
+          auth_source: '[Demonstrated Actions]' 
+        - description: '[e.g., Navigating specific dangerous Ratchetwork conduits.]'
+          auth_source:  '[Narrative Feat]'
+      abilities_ritual_efficacy:
+        - type_path: 'Adamant '
+          description: '[e.g., "Grounding Rites" grant demonstrable (minor) increase in resistance  to forced Kineto-Mist dispersal for a short period.]'
+          auth_source: '[Coherence Protocol -  Ritual Efficacy, Narrative Event]'
+        - type_path: 'Liquescent'
+          description: '[ e.g., Can guide other Globs towards a "Catalyst Vent" by sensing subtle CMP flows.]'
+           auth_source: '[Narrative Event]'
+      limitation_physical_path_dependant:
+        value: '[e .g., Adamant: Reduced speed, difficulty traversing narrow gaps. Liquescent: Vulnerability to sudden desiccation, difficulty  maintaining form against strong forces.]'
+        auth_source: '[World Rules, Path Descriptions]'
+      limitation_knowledge: 
+        value: '[e.g., Limited understanding of Harvester programming; Ignorance of Liquescent philosophy  (if Adamant), or vice-versa.]'
+        auth_source: '[Dialogue, Internal Monologue]'
+       limitation_environmental:
+        value: '[e.g., Highly susceptible to "Shatter-Dust" zones;  Cannot survive prolonged CMP Deprivation Zone X without external aid.]'
+        auth_source: '[World Hazard Profile]'
+      functional _undersaturation:
+        value: '[e.g., Ability to interface directly with Ratchetwork tech; precise  limits of CMP storage/processing; combat capabilities beyond basic pushing/engulfing.]'
+
+    psychological_properties: 
+      purpose: "Define the Glob's textually constituted inner life, shaped by their existence and beliefs regarding the body  and fate."
+      core_traits_path_aligned:
+        - description: '[e.g., Adam ant: Stoicism, Reverence for Form, Discipline. Liquescent: Yearning for Transcendence, Adaptability, Empathy  (for merging).]'
+          auth_source: '[Dialogue, Actions, Internal Monologue]'
+      core_traits_general :
+        - description: '[e.g., Fear of Harvesters; Curiosity about ancient Ratchetwork sections ; Despair at the "Grinding Flow".]'
+          auth_source: '[Internal Monologue, Reactions]'
+      dominant _emotion_contextual:
+        value: '[e.g., Adamant: Grim Determination, Somber Acceptance. L iquescent: Serene Detachment, Hopeful Anticipation of Release.]'
+        auth_source: '[Narr ator Descriptions]'
+      key_motivator_path_driven:
+        value: '[e.g., Adam ant: To achieve "True Shattering," to protect a sacred "Grounding Plate," to teach "Bodily Mandalas."  Liquescent: To reach a "Catalyst Vent," to experience ultimate communal merging, to guide others to Dissolution.]' 
+        auth_source: '[Explicit Goals, Plot Driver]'
+      key_belief_path_driven:
+        value:  '[e.g., Adamant: "The body IS sacred, its integrity a testament;" "Earth''s Kiss provides  true grounding." Liquescent: "Form is a prison, flow is freedom;" "Dissolution is unity."]' 
+        auth_source: '[Coherence Protocol (Axiological/Epistemic), Dialogue]'
+      internal_conflict :
+        value: '[e.g., Adamant: Fear of undignified Shattering vs. commitment to HARD ening; Doubt about efficacy of "Earth Superstitions" during Ratchetwork upheaval. Liquescent: Instinctive fear  of Dissolution vs. belief in its transcendence; Frustration with physical limitations hindering flow.]'
+        auth_source: '[ Internal Monologue, Difficult Choices]'
+      subjective_memory_content:
+        value: '[e.g ., Authenticated memory of a mentor demonstrating a specific "Grounding Rite"; Sensory recall of the "hum" of a  Catalyst Vent; Fragmented images of previous Shatterings/Dissolutions of kin.]'
+        auth_source:  '[Narrative Depiction]'
+      psychological_undersaturation:
+        value: '[e.g., Specific  "childhood" experiences (if applicable to Glob life cycle); complex opinions on abstract concepts not related to survival/spirituality; subconscious  drives unless textually framed as, e.g., an ''ingrained CMP-seeking instinct''.]'
+
+    social_relational _categorical_properties:
+      purpose: "Define the Glob's place within Glopratchet's networks and its  broader ecosystem."
+      role_title_path_specific:
+        value: '[e.g., Adamant: " Earth Keeper," "Shard Guardian," "Ritual Compressor." Liquescent: "Flow Weaver," "Vent Seeker,"  "Merge Harmonist." Unaligned: "Scavenger," "Drifter."]'
+        auth_source: '[Dialogue , Social Interactions]'
+      social_status_within_path_group:
+        value: '[e.g., Res pected Elder (Adamant); Promising Initiate (Liquescent); Outcast (due to heresy/inaction).]'
+         auth_source: '[Interactions, Narrator Description]'
+      primary_affiliation:
+        value: '[e. g., Adamant Rite "Stoneheart" Conclave; Liquescent Way "Mist-Current" Collective; Solitary .]'
+        auth_source: '[Explicit Association]'
+      secondary_affiliations:
+        - description: '[e. g., Temporary alliance with Globs of differing paths for survival; Symbiotic relationship with a specific type of Ratchetwork flora /fauna (if any exists).]'
+          auth_source: '[Narrative Events]'
+      key_relationships_ glob:
+        - target: '[e.g., To GLOB_OldCrag (Mentor - Adamant)] '
+          description: '[e.g., Deep respect, learning "Earth Superstitions."]'
+          auth _source: '[Dialogue/Actions]'
+        - target: '[e.g., To GLOB_RippleGlim ( Debate Partner - Liquescent)]'
+          description: '[e.g., Frustrated affection, philosophical disagreement on  the body.]'
+          auth_source: '[Dialogue/Actions]'
+      perception_by_harvesters :
+        value: '[e.g., UNIT_GLOB_Gritstone_AR07 flagged for '' High Density Material suitable for X Process''; or, UNIT_GLOB_FlowChanter_LW12 noted for  ''Low Cohesion, potential processing contaminant''.]'
+        auth_source: '[Harvester Scan Readout Prop /  Implied Logic]'
+      species_strain_if_applicable:
+        value: '[e.g., Standard Glob ; Ancient Lineage Glob (claims descent from "First Forms"); Mineral-Infused Glob Subtype.]'
+        auth_ source: '[Worldbuilding Detail]'
+      social_undersaturation:
+        value: '[e.g., Detailed  network of distant kin; specific enemies outside immediate conflict; reputation among indifferent Harvester subroutines.]'
+
+    modal _properties:
+      purpose: "Define any inherent unique relationship to Glopratchet's laws, especially regarding  ritual efficacy or bodily transformation."
+      properties_list:
+        - id: 'MODAL-GLOB-[Name]-0 1'
+          property_name: '[e.g., "True Shard Resonance" (Alethic/Ep istemic Exception - Adamant)]'
+          description: '[Authenticated ability to sense the location or history of other "True  Shards" from its lineage, beyond typical Glob sensory limits. This is a rare, authenticated manifestation, not just belief.]' 
+          limits: '[Range limited; perception is vague, requires meditative focus and specific "Earth Superstition" practices.]'
+           authentication: '[Narrative event where this unique ability is demonstrably used and confirmed, distinct from general Adamant beliefs.]' 
+      note: 'Most Globs will have NO unique modal properties, their ritual outcomes falling within the general authenticated efficacy described in the  Coherence Protocol. This section is for truly exceptional individuals whose connection to Glopratchet''s rules is textually proven unique .'
+
+    axiological_properties:
+      purpose: "Define the Glob's value status as perceived by * other entities within Glopratchet*, based on their path and actions."
+      reputation_adamant_rite_ globs:
+        value: '[e.g., Authenticated as viewed as ''Pillar of Bodily Faith'',  ''Keeper of True Rituals'', or ''Dangerously Obsessed with Earthly Form''.]'
+        auth_source: '[ Dialogue from Adamant Globs]'
+      reputation_liquescent_way_globs:
+        value: '[ e.g., Authenticated as viewed as ''Tragically Clinging to Suffering'', ''Obstacle to True Release'', or ( rarely) ''A Strong Body to be Respected, then Released''.]'
+        auth_source: '[Dialogue from L iquescent Globs]'
+      reputation_unaligned_globs:
+        value: '[e.g., Authenticated  as ''Reliable for finding dry spots'', ''Too preachy about bodies'', ''A good buffer against Harvesters''.]' 
+        auth_source: '[Dialogue from Unaligned Globs]'
+      value_to_harvesters_ ratchetwork_system:
+        value: '[e.g., Prime Material (Adamant, high density);  Potential Contaminant (Liquescent, unstable); Standard Throughput Unit (Neutral).]'
+        auth_source : '[Implied by Harvester actions/Coherence Protocol]'
+      axiological_undersaturation:
+        value: '[ e.g., Reputation amongst obscure Ratchetwork sub-systems; individual Harvester unit ''opinions'' (if any could  be said to exist).]'
+
+    historical_properties:
+      purpose: "Define the Glob's known origins , experienced cycles, and connections to past events or significant shards/sites."
+      origin_cycle_location:
+        value : '[e.g., Authenticated as formed in Cycle of the Red Rust, Sector Gamma-7 Slurry P its. Approx. 12 Cycles experienced.]'
+        auth_source: '[Glob''s own memory, Elder testimony]' 
+      key_past_event_connection_witnessed_survived:
+        value: '[e.g., Sur vived the Great Conduit Collapse of Cycle 9; Witnessed the "Miracle of the Unbroken Shard" at  the Onyx Plate.]'
+        auth_source: '[Narrative flashback, Dialogue]'
+      inherited_ritual_objects _knowledge:
+        value: '[e.g., Authenticated custodian of a specific "Body Mandala" pattern passed  down generations; Possesses a "True Shard" from an ancestor who achieved noble Shattering.]'
+        auth _source: '[Narrative inventory, Dialogue]'
+      past_path_affiliations_if_changed:
+        value:  '[e.g., Was once Unaligned, converted to Adamant Rite after witnessing a "True Shattering".]' 
+        auth_source: '[Backstory]'
+      historical_undersaturation:
+        value: '[e. g., Precise details of all past cycles; full lineage beyond a few key ancestors; the "true" history of the Ratchetworks  or Glob origins, which is largely unknown to Globs themselves.]'
+
+  glob_constitution_summary_and_narrative _function:
+    purpose: "Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle,  grounded in Glopratchet's unique spiritual and physical landscape."
+    core_essence: |
+      [Summar ize the Glob based on the interplay of their key authenticated properties. e.g., Gritstone is constituted as an embodiment of the  Adamant Rite's "Bodily Imperative." His Physical density and "Earth's Kiss"-dusted form are tangible  manifestations of his Psychological commitment to "being in the body." His Functional resilience (minor resistance to dispersal) is an authenticated outcome of his  rituals, while his limitations (slow movement) are accepted facets of his path. His Social role as an "Earth Keeper" reinforces  his beliefs and dictates his interactions. He represents the struggle to find meaning and preserve identity through bodily integrity against the overwhelming, de -personalizing forces of Glopratchet.]
+    primary_narrative_function: '[e.g.,  Protagonist embodying the Adamant Rite''s philosophy; Antagonist representing the Liquescent Way''s opposing view; Mentor  figure passing on "Earth Superstitions"; Foil to a Glob struggling with their faith/form; Victim highlighting the brutality  of the Ratchetwork.]'
+    key_internal_conflicts_from_bundle_and_path: '[e .g., Adamant: Upholding "Bodily Integrity" vs. overwhelming destructive force of Ratchetwork; Faith  in "Earth Superstition" vs. apparent futility. Liquescent: Innate survival instinct vs. desire for Diss olution; Patience for achieving "perfect flow" vs. immediate threats. General: Hope vs. Despair in the face of  the Grinding Flow.]'
+    potential_for_development_based_on_bundle_and_glop ratchet_dynamics: '[e.g., Deepening of faith (Psychological) or crisis of faith due to Ratchetwork  events; Acquisition of new ritual knowledge (Functional/Historical); Shift in spiritual path (Psychological/Social change); Physical  alteration due to extreme environmental pressure or partial/failed ritual outcome (Physical/Functional change).]'
+
+# End of Fict ional Person Profile Template for Glopratchet
