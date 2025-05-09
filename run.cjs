@@ -103,6 +103,8 @@ const init = async (prt) => {
 
     
 
+    
+
     FICTIQ = require(path.resolve('./dist/100.fictiq/hunt'));
     FICTIQ_ACTION = require(path.resolve('./dist/100.fictiq/00.fictiq.unit/fictiq.action'));
 
@@ -117,7 +119,12 @@ const init = async (prt) => {
 
       //await PIVOT.hunt( PIVOT_ACTION.INIT_PIVOT, {  dat: MQTT, src: local });
       //await SPACE.hunt( SPACE_ACTION.INIT_SPACE, {  dat: MQTT, src: local });
+      
+      
+      
       await FICTIQ.hunt( FICTIQ_ACTION.INIT_FICTIQ , { val: 1, dat: MQTT, src:  [localBit]  });
+
+      
 
     
 

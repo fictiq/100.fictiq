@@ -28,10 +28,27 @@ const path = require('path');
 
 export const initFictiq = async (cpy: FictiqModel, bal: FictiqBit, ste: State) => {
 
+
+    
+    
+
     bit = await ste.hunt(ActBus.INIT_BUS, { idx: cpy.idx, src: bal.src, lst: [ActFtq], dat: bal.dat });
+
+    
+
     if (bal.val == 1) {
+        
+        
+
         bit = await ste.hunt(ActTrm.INIT_TERMINAL, {});
+        
+
+
+        
         setTimeout(async () => {
+            
+            
+
             bit = await ste.hunt(ActMnu.INIT_MENU, {});
         }, 33)
     }

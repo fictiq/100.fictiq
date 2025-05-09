@@ -6,6 +6,8 @@ var lst, idx, bit, src, dat, dex;
 
 export const initBus = (cpy: BusModel, bal: BusBit, ste: State) => {
 
+  
+
   cpy.actList = []
 
   if (bal == null) bal = { idx: null }
@@ -19,6 +21,8 @@ export const initBus = (cpy: BusModel, bal: BusBit, ste: State) => {
     }
   })
 
+  
+
   ste.bus = (idx, dat, bit) => updateBus(cpy, { idx, dat, bit }, ste)
 
   if (bal.dat != null) {
@@ -27,6 +31,8 @@ export const initBus = (cpy: BusModel, bal: BusBit, ste: State) => {
   else {
     console.log("return promise")
   }
+
+  
 
   if (lst == null) {
 
@@ -49,6 +55,8 @@ export const initBus = (cpy: BusModel, bal: BusBit, ste: State) => {
       if (bal.slv != null) bal.slv({ intBit: { idx: "init-bus" } })
     }
 
+    
+
 
     lst.forEach(async (a) => {
 
@@ -66,6 +74,8 @@ export const initBus = (cpy: BusModel, bal: BusBit, ste: State) => {
 
     })
   }
+
+  
 
 
   return cpy;

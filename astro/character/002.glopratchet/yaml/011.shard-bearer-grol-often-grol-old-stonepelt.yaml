@@ -1,0 +1,179 @@
+
+world : Glopratchet
+codex_version: '0.7 (Character Constitution - Adamant Focus)'
+ last_updated: '[Current Date]'
+lead_architects: '[Your Name/Studio Name]'
+
+introduction:
+   title: 'Constituting Fictional Persons Textually'
+  text: "This protocol guides the detailed definition of **Fict ional Persons** (Globs, significant sentient beings) within the **Glopratchet** heterocosm. Following  Doležel's framework, characters **ARE** constituted by the **bundle of properties authenticated for them** by the authoritative narrative source  (this Codex, core narratives, Glopratchet World Codex v0.6). They possess **no independent psyche  or reality beyond this textual definition**.\n\nUse this template to systematically build Glop characters by explicitly authenticating their properties  across relevant categories. Focus on creating multifaceted individuals whose complexity arises from the **richness, coherence, and potential tensions within their authenticated bundle **, and whose actions are logically grounded in their defined nature and the world's rules, particularly the spiritual responses to their  transient forms and the **bodily imperative** of beliefs like the Adamant Rite. Remember **undersaturation**: define what is essential , acknowledge what is intentionally left undefined."
+
+character_profile:
+  entity_id: 'GLOB_Grol_Adamant _01'
+  character_name: "Shard-Bearer Grol (often just 'Grol', sometimes 'Old  Stonepelt' by younger/less reverent Globs)"
+  entity_type: 'Person (Glob, Adamant Rite  Adherent)'
+  archetype: 'Devout Elder / Ritual Keeper / Guardian of Form'
+  primary_authentication _sources: 'This Codex Entry; Glopratchet World Codex v0.6 (The Bodily Imperative  of the Adamant Rite)'
+  canon_tier: 'Tier 1 (Represents a core spiritual path)'
+   authentication_status: 'Authenticated_Canonical_Active'
+
+authenticated_property_bundle:
+  physical_properties:
+     purpose: "Define Grol's tangible presence as an Adamant Rite Glob."
+    properties:
+       - name: Appearance_General
+        value: 'Glob, amorphous but with a pronounced tendency towards a dense, somewhat faceted  resting state. Appears larger than average due to accumulated density, not volume. Texture is rougher, less yielding than un initiated Globs.'
+        auth: '[Glopratchet Codex v0.6: Adamant Rite - density, resilience;  Implied from "Earth Superstition"]'
+      - name: Appearance_Specific_Features
+        value:  'Surface often subtly glitters with embedded mineral dust ("Earth''s Kiss"). Edges appear more defined, less prone to casual  flowing unless deliberately moving. Pseudopods, when extended, are thick and move with deliberation.'
+        auth: '[Glop ratchet Codex v0.6: "Earth''s Kiss"]'
+      - name: Appearance_Distinctive_Marks
+         value: 'Certain areas of Grol''s surface are noticeably compacted or subtly striated – evidence of prolonged self-compression rituals and  contact with Ratchetwork ("Grounding Rites"). May carry a small, particularly lustrous "True Shard" (of  a predecessor) embedded near its core mass.'
+        auth: '[Glopratchet Codex v0.6:  Adamant Rite practices, Deontic rules on True Shards]'
+      - name: Typical_Attire_Surface _Adornment
+        value: 'Deliberately maintains a coating of specific mineral dusts from favored "Mineral  Veins." May arrange loose particulate matter on its resting surface into simple "Body Mandalas" when undisturbed.'
+        auth : '[Glopratchet Codex v0.6: "Earth''s Kiss," "Body Mandalas"]'
+      -  name: Voice_Speech_Pattern
+        value: "If Globs \"speak\" through vibrations/surface modulations: G rol's \"voice\" is low, resonant, with a slight rasping or crystalline quality. Speech is deliberate, measured, often  invoking phrases about \"bodily truth\" or \"Earth's wisdom.\""
+        auth: '[Inferred from Adam ant Rite values and density]'
+      - name: Gait_Mannerisms
+        value: 'Moves with a  slow, ponderous grace, maintaining contact with Ratchetwork surfaces whenever possible. Exhibits controlled momentum. When still, often  presses against stable Ratchetwork sections in a "Grounding Rite." Resists being easily moved by minor Kineto-Mist  currents.'
+        auth: '[Glopratchet Codex v0.6: "Grounding Rites," KM  effects on HARDened Globs]'
+      - name: Associated_Scent_If_Any
+        value: 'Faint , dry scent of pulverized stone, minerals, and the ozone tang of ancient Ratchetwork.'
+        auth: '[Inferred from  "Earth Superstition" and environment]'
+    undersaturation: '[Exact internal structure (beyond "amorphous but dense "); precise mechanisms of "speech"; maximum speed.]'
+
+  functional_properties:
+    purpose: "Define what G rol *can* and *cannot* do, shaped by Adamant Rite practices."
+    properties:
+      - name : Skill_Adamant_Rite_Rituals
+        value: 'Expert in Adamant Rite Rituals (self- compression, voluntary CMP restriction, "Grounding Rites," identification and application of "Earth''s Kiss" from various "Mineral  Veins").'
+        auth: '[Glopratchet Codex v0.6: Adamant Rite practices]' 
+      - name: Skill_Sacred_Sites_Interpretation
+        value: 'Identifying sacred sites ("Dry Conduits ," stable Ratchetwork plates) and interpreting "Earth Scrimshaw."'
+        auth: '[Glopratchet Codex v0 .6: Adamant Rite epistemology]'
+      - name: Skill_Teaching_Guiding
+        value: 'Teaching/ Guiding other Globs in the "Path of HARDening" and principles of **"being in the body."**' 
+        auth: '[Implied role as "Shard-Bearer," Glopratchet Codex v0.6: De ontic rules - "Guardians of the Form"]'
+      - name: Ability_Subtle_Physical
+         value: 'Slightly enhanced resistance to minor impacts and environmental desiccation due to accumulated density and practiced CMP restriction. Sh ards produced upon eventual Shattering are more likely to be "True Shards."'
+        auth: '[Gloprat chet Codex v0.6: Core Rules 1 & 3a, Alethic Consistency Question on "Earth'' s Kiss" effects]'
+      - name: Limitation_Physical
+        value: 'Reduced locomotive speed and pliability compared to SOFT ened or uninitiated Globs. More vulnerable to sudden, overwhelming crushing forces (brittleness) than a hyper-fluid Glob .'
+        auth: '[Logical trade-off for density and HARDening]'
+      - name: Limitation_Knowledge
+         value: 'Limited understanding of Liquescent Way philosophy beyond its perceived "neglect of **the body**." Little  technical knowledge of Ratchetwork mechanics or Harvester intent beyond their observed impact.'
+        auth: '[Glopratchet  Codex v0.6: Epistemic limits of Globs]'
+      - name: Limitation_Social
+         value: "Difficulty empathizing with Globs who do not share the reverence for **the body**; may appear aloof or judgmental  to them."
+        auth: '[Glopratchet Codex v0.6: Axiological - Adamant Rite  view on others]'
+    undersaturation: '[Ability to manipulate complex external objects; precise limits of CMP restriction tolerance.]'
+
+   psychological_properties:
+    purpose: "Define Grol's textually constituted inner life, centered on **\" the importance of the body.\"**"
+    properties:
+      - name: Core_Trait_Faith_In _Body
+        value: "Unwavering Faith in **the importance of the body** as the locus of meaning and existence ."
+        auth: '[Glopratchet Codex v0.6: Axiological - Adamant Rite values]'
+      -  name: Core_Trait_Stoic_Discipline
+        value: 'Stoic Discipline & Resilience (mental and  physical commitment to HARDening practices).'
+        auth: '[Glopratchet Codex v0.6: Adamant Rite practices]' 
+      - name: Core_Trait_Reverence_For_Earth
+        value: 'Reverence for " Earth" elements and tangible, stable aspects of the Ratchetwork.'
+        auth: '[Glopratchet Codex v0. 6: "Earth Superstition"]'
+      - name: Dominant_Emotion
+        value: 'A profound,  quiet Conviction; a grim Determination in the face of inevitable Shattering; Serenity derived from **"being in the  body."**'
+        auth: '[Inferred from Adamant Rite philosophy]'
+      - name: Key_ Motivator
+        value: 'To achieve a noble, controlled Shattering leaving "True Shards"; to uphold  and pass on the tenets of the Adamant Rite; to affirm the physical self against the indifferent flow of Glopratchet.'
+         auth: '[Glopratchet Codex v0.6: Adamant Rite goals]'
+      - name: Key_Bel ief
+        value: '"The body is sacred. Its integrity, density, and the form it holds are testaments. Earth  guides us to True Form." Believes Dissolution is an abhorrent erasure.'
+        auth: '[Glopratchet Codex v 0.6: Axiological - Adamant Rite values]'
+      - name: Internal_Conflict
+        value:  "The imperative to maintain **bodily integrity** vs. the undeniable, relentless destruction by the Ratchetwork. The  drive to guide others vs. the despair when some choose SOFTening or are senselessly destroyed before achieving True Form."
+        auth : '[Inferred from world context]'
+      - name: Subjective_Memory_Content
+        value: ' Rich sensory memories of contact with "Earth-blessed" sites; the feeling of successful self-compression; the patterns of " Earth Scrimshaw"; the forms and fates of past Adamant adherents.'
+        auth: '[Glopratchet Codex  v0.6: Epistemic - embodied wisdom]'
+    undersaturation: "[Specific \"childhood\" experiences  as a young, unformed Glob; personal fears beyond the degradation of **the body** or failure of the Rite.]" 
+
+  social_relational_categorical_properties:
+    purpose: "Define Grol's place within Gl op society and the Ratchetwork."
+    properties:
+      - name: Official_Role
+        value:  'Shard-Bearer (respected elder, ritual leader, and teacher within the Adamant Rite community – an informal but deeply  significant role). "Guardian of the Form."'
+        auth: '[Glopratchet Codex v0.6: De ontic - possible roles like "Earth Keepers"]'
+      - name: Social_Status
+        value:  "Highly respected, almost revered, among followers of the Adamant Rite. Viewed as misguided, pitiable, or dangerously  obstinate by Liquescent Way followers. Ignored as mere material by Harvesters."
+        auth: '[ Glopratchet Codex v0.6: Axiological differences]'
+      - name: Primary_Affiliation
+         value: 'The Adamant Rite (Path of HARDening / The Bodily Way).'
+        auth: '[Character concept]' 
+      - name: Secondary_Affiliations
+        value: 'None formally. May have transactional, wary interactions with other  Glop groups if it serves the Rite''s access to sacred sites/materials.'
+        auth: '[Implied from  focus]'
+      - name: Key_Relationship_1
+        value: 'To Adamant Disciples (e.g.,  CHAR_Glob_Acolyte_Fenna): Mentor, guide, imparting wisdom of **"being in the body."**' 
+        auth: '[Implied by role]'
+      - name: Key_Relationship_2
+        value:  "To Liquescent Counterparts (e.g., CHAR_Glob_Mystic_Fluus): Philosophical antagonist, embodying  the opposing view on **the body** and fate."
+        auth: '[Glopratchet Codex v0. 6: Opposing paths]'
+      - name: Key_Relationship_3
+        value: 'To "Unbodied" Glo bs: Sees them as adrift, lacking **bodily discipline**, potential subjects for conversion to the Adamant Rite.'
+         auth: '[Glopratchet Codex v0.6: Deontic - Adamant views on others]'
+      -  name: Species_Type
+        value: 'Glob (Glopratchet native sentient entity)'
+        auth: '[Gl opratchet Codex v0.6: Core Rules]'
+    undersaturation: "[Specific family/clutch ties (if Glo bs have them); precise number of direct disciples.]"
+
+  modal_properties:
+    purpose: "Define any  inherent unique relationship to Glopratchet's laws, particularly concerning **the body.**"
+    properties:
+      -  property_id: 'MODAL-GROL-01'
+        property_name: 'Ritualistically Enhanced Som atic Integrity (Alethic/Axiological)'
+        description: "Grol's dedicated adherence to Adam ant Rite practices (decades of voluntary CMP restriction, absorption of specific mineral dusts from \"Earth's Kiss,\"  ritual self-compression, and \"Grounding Rites\") has resulted in an authenticated, albeit subtle, increase in bodily  density and structural coherence beyond that of an average Glob. This directly influences the quality of Shattering, making \"True Shards\"  more probable, and offers marginally increased resistance to incidental Kineto-Mist displacement or minor environmental stressors. This is an effect of ** \"being in the body\"** as a practiced discipline, not a supernatural power."
+        limits: "Does not grant immunity  to significant Ratchetwork operations or direct Harvester actions. The enhancement is relative and subtle, primarily impacting the *nature* of G rol's end rather than preventing it."
+        authentication: "Glopratchet Codex v0.6: Core Rule  1 (rituals influence fate); Core Rule 3a (Adamant Rite seeks integrity/density); Core Rule 4 ( KM effects); Core Rule 6 (sacred sites); Alethic Consistency Question on physical effects of \"Earth's Kiss .\" This property authenticates a minor physical ramification of the \"Earth Superstition\" and the \"bodily imperative.\ ""
+    note: 'This modal property arises from consistent, long-term engagement with authenticated world rules and ritual systems, not  from an arbitrary unique power.'
+
+  axiological_properties:
+    purpose: "Define Grol's value status  *within* Glopratchet, especially concerning **the body.**"
+    properties:
+      - name:  Reputation_Adamant_Rite_Followers
+        value: 'Authenticated as a "True Shard-Bearer," a wise  elder embodying the highest ideals of **bodily integrity** and "Earth Wisdom." His form is seen as a testament.'
+         auth: '[Implied from role and Adamant values]'
+      - name: Reputation_Liquescent_Way_ Followers
+        value: 'Authenticated as "Old Stonepelt," pitiably clinging to transient form, embodying a fearful rejection of  true release. His focus on **the body** is seen as a spiritual trap.'
+        auth: '[Glop ratchet Codex v0.6: Axiological - Liquescent views]'
+      - name: Reputation_Har vesters
+        value: "If processed, Grol's material would be noted as slightly denser, perhaps more  brittle. His beliefs about **the body** are entirely irrelevant data."
+        auth: '[Glopratchet Codex  v0.6: Harvester values]'
+      - name: Moral_Alignment_Narrative_Framing
+         value: "Authenticated via narrative focus as a figure of profound, if perhaps ultimately tragic, dignity; a staunch believer in  the meaning found within one's own physical existence (**the body**) against an indifferent, crushing universe."
+        auth: '[Impl ied by heroic/stoic archetype in this context]'
+    undersaturation: "[Reputation among Globs neutral to either  path; specific legends or stories told about Grol by Adamant followers.]"
+
+  historical_properties:
+    purpose: " Define Grol's known origins and connections to past events, as they relate to **the body** and the Rite."
+     properties:
+      - name: Origin
+        value: 'Authenticated as a long-time practitioner of the Adamant  Rite, initiated many "Cycles" ago. Remembers a time when certain "Mineral Veins" now exhausted were plentiful.'
+         auth: '[Implied by "elder" status and world''s diachronic nature]'
+      - name : Key_Past_Event_Connection
+        value: 'Witnessed the "Great Crushing of Sector Gamma-7 ," where many Globs were indiscriminately destroyed, hardening his resolve to achieve a "True Shattering" and preserve **bod ily meaning**. Was present at the consecration of the "Last Standing Pillar" as a sacred Grounding site.'
+         auth: '[Plausible significant past event within Glopratchet]'
+      - name: Inherited_ Items_Knowledge
+        value: 'Carries a "True Shard" from his own long-Shattered  mentor. Possesses knowledge of forgotten "Earth Scrimshaw" patterns and the location of dwindling "Earth''s Kiss" sources .'
+        auth: '[Glopratchet Codex v0.6: Deontic/Epistemic aspects of Rite]' 
+    undersaturation: "[Specifics of Grol's existence before dedicating to the Adamant Rite; the exact identity of his  mentor.]"
+
+character_constitution_summary_narrative_function:
+  purpose: "Synthesize Grol's core  identity, internal conflicts, and narrative role emerging from his authenticated property bundle, heavily influenced by the **bodily imperative.** "
+  core_essence: "Grol is constituted as the embodiment of the Adamant Rite's profound **\"bod ily imperative\"** within Glopratchet. His entire being – physical, functional, psychological – is a testament to the belief  that **the body is sacred** and that meaning is found in its integrity, density, and connection to \"Earth\" elements.  He is a being of deliberate HARDening, ritual devotion, and stoic faith, seeking a \"True Shattering\" as the  ultimate affirmation of his physical existence against the transient, indifferent chaos of the Ratchetwork."
+  primary_narrative_ function: "To serve as a primary exponent and living example of the Adamant Rite philosophy; to provide exposition on its rituals , beliefs (\"Earth Superstition,\" **\"being in the body\"**), and values; to act as a mentor or  tragic figure; to showcase the philosophical conflict with the Liquescent Way; and to embody the desperate search for meaning in  a body-centric spirituality within a de-personalizing system."
+  key_internal_conflicts_from_bundle:  "The unwavering faith in **the importance of the body** versus the overwhelming, destructive reality of the Ratchetwork.  The drive to preserve and perfect his own form and guide others versus the constant threat of undignified destruction or the \" heresy\" of SOFTening. The potential erosion of faith if \"Earth Superstitions\" prove entirely ineffective against a new  Ratchetwork transformation."
+  potential_for_development_based_on_bundle: "Leading a group of  Adamant followers in a defiant last stand at a desecrated sacred site. Achieving a uniquely \"perfect\" or unexpectedly significant Shat tering. A crisis of faith if a core \"Earth Superstition\" (e.g., a specific mineral)  is proven inert or even detrimental by a Ratchetwork event. Grappling with a grotesque physical transformation that violates his ideal  of **bodily integrity** but doesn't lead to Shattering."
+
+end_of_profile_id: ' GLOB_Grol_Adamant_01'

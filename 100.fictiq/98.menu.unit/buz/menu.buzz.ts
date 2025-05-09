@@ -38,6 +38,8 @@ export const initMenu = async (cpy: MenuModel, bal: MenuBit, ste: State) => {
 
   //bit = await ste.hunt(ActTrm.CLEAR_TERMINAL, {})
 
+  
+
 
   bit = await ste.hunt(ActGrd.UPDATE_GRID, { x: 3, y: 0, xSpan: 1, ySpan: 12 })
   bit = await ste.hunt(ActCvs.WRITE_CANVAS, { idx: 'cvs1', dat: { clr: Color.CYAN, net: bit.grdBit.dat }, })

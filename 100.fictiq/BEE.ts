@@ -12,6 +12,7 @@ import SettingUnit from "./15.setting.unit/setting.unit";
 import GrammerUnit from "./20.grammer.unit/grammer.unit";
 import KitchenUnit from "./41.kitchen.unit/kitchen.unit";
 import DiffusionUnit from "./42.diffusion.unit/diffusion.unit";
+import RemotionUnit from "./50.remotion.unit/remotion.unit";
 import TerminalUnit from "./80.terminal.unit/terminal.unit";
 import GridUnit from "./81.grid.unit/grid.unit";
 import CanvasUnit from "./82.canvas.unit/canvas.unit";
@@ -53,6 +54,8 @@ import Kitchen from "./41.kitchen.unit/fce/kitchen.interface";
 import { KitchenModel } from "./41.kitchen.unit/kitchen.model";
 import Diffusion from "./42.diffusion.unit/fce/diffusion.interface";
 import { DiffusionModel } from "./42.diffusion.unit/diffusion.model";
+import Remotion from "./50.remotion.unit/fce/remotion.interface";
+import { RemotionModel } from "./50.remotion.unit/remotion.model";
 import Terminal from "./80.terminal.unit/fce/terminal.interface";
 import { TerminalModel } from "./80.terminal.unit/terminal.model";
 import Grid from "./81.grid.unit/fce/grid.interface";
@@ -85,7 +88,7 @@ import Bus from "./99.bus.unit/fce/bus.interface";
 import { BusModel } from "./99.bus.unit/bus.model";
 
 
-export const list: Array<any> = [FictiqUnit,AstrokahnUnit,OllamaUnit,GeminiUnit,TitleUnit,PromptUnit,AuthorUnit,GenreUnit,SettingUnit,GrammerUnit,KitchenUnit,DiffusionUnit,TerminalUnit,GridUnit,CanvasUnit,ConsoleUnit,InputUnit,ChoiceUnit,ContainerUnit,GraphicUnit,HexagonUnit,SpriteUnit,TextUnit,DiskUnit,CollectUnit,MenuUnit,BusUnit];
+export const list: Array<any> = [FictiqUnit,AstrokahnUnit,OllamaUnit,GeminiUnit,TitleUnit,PromptUnit,AuthorUnit,GenreUnit,SettingUnit,GrammerUnit,KitchenUnit,DiffusionUnit,RemotionUnit,TerminalUnit,GridUnit,CanvasUnit,ConsoleUnit,InputUnit,ChoiceUnit,ContainerUnit,GraphicUnit,HexagonUnit,SpriteUnit,TextUnit,DiskUnit,CollectUnit,MenuUnit,BusUnit];
 
 import * as reduceFromFictiq from "./00.fictiq.unit/fictiq.reduce";
 import * as reduceFromAstrokahn from "./01.astrokahn.unit/astrokahn.reduce";
@@ -99,6 +102,7 @@ import * as reduceFromSetting from "./15.setting.unit/setting.reduce";
 import * as reduceFromGrammer from "./20.grammer.unit/grammer.reduce";
 import * as reduceFromKitchen from "./41.kitchen.unit/kitchen.reduce";
 import * as reduceFromDiffusion from "./42.diffusion.unit/diffusion.reduce";
+import * as reduceFromRemotion from "./50.remotion.unit/remotion.reduce";
 import * as reduceFromTerminal from "./80.terminal.unit/terminal.reduce";
 import * as reduceFromGrid from "./81.grid.unit/grid.reduce";
 import * as reduceFromCanvas from "./82.canvas.unit/canvas.reduce";
@@ -129,6 +133,7 @@ setting : reduceFromSetting.reducer,
 grammer : reduceFromGrammer.reducer, 
 kitchen : reduceFromKitchen.reducer, 
 diffusion : reduceFromDiffusion.reducer, 
+remotion : reduceFromRemotion.reducer, 
 terminal : reduceFromTerminal.reducer, 
 grid : reduceFromGrid.reducer, 
 canvas : reduceFromCanvas.reducer, 
@@ -161,6 +166,7 @@ setting : Setting = new SettingModel();
 grammer : Grammer = new GrammerModel();
 kitchen : Kitchen = new KitchenModel();
 diffusion : Diffusion = new DiffusionModel();
+remotion : Remotion = new RemotionModel();
 terminal : Terminal = new TerminalModel();
 grid : Grid = new GridModel();
 canvas : Canvas = new CanvasModel();
