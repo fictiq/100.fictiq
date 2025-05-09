@@ -1,2 +1,0 @@
-cd mqtt
-node mqtt

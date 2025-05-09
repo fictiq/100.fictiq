@@ -1,1 +1,0 @@
-taskkill /FI "WINDOWTITLE eq KITCHEN" /F
