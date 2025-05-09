@@ -1,0 +1,240 @@
+# ============================================================
+# Story World Codex: Fictional Person Constitution Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Character Ontology)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly granular framework** for the meticulous constitution 
+    of **Fictional Persons** (characters and other sufficiently sentient entities) within the Aethelgard 
+    heterocosm. It rigorously applies Doležel's ontological principle: characters **ARE** nothing more 
+    or less than **complex, multifaceted bundles of properties and relations authenticated by the 
+    authoritative narrative discourse**. 
+  scope: |
+    Mandatory template for defining all significant canonical sentient entities. Ensures deep, consistent 
+    characterization grounded solely in textual/Codex evidence, explicitly rejecting naive psychologism 
+    or assumptions of extra-textual reality. Focuses on building perceived depth through the richness, 
+    coherence, and internal tensions of the authenticated bundle.
+  ontological_premise: |
+    Fictional Persons in Aethelgard possess **no independent consciousness, subconscious, soul, or 
+    hidden essence** beyond the sum total of their authenticated properties. Their 'inner life' IS 
+    their authenticated psychological bundle; their 'agency' IS their authenticated functional potential 
+    operating within authenticated world constraints. Undersaturation is a fundamental feature.
+
+# --- Character Profile Template ---
+character_profile_template: # Copy and meticulously complete for each significant character/sentient entity
+
+  # --- Core Identification & Status ---
+  identification:
+    entity_id: "[Unique Identifier, e.g., CHAR_Kaelen_01, AI_Ticker_734, CHAR_Vance_Elara]"
+    character_name: "[Full Name(s) / Aliases / Designations, e.g., Investigator Kaelen ('Ghost'), Unit 734 ('Ticker'), Master Elara Vance]"
+    entity_type: "Person (Human / Automaton-Emergent / Other Sentient)" # Specify nature
+    archetype_reference_only: "[Optional: Note archetype used as *starting point*, e.g., Noir Detective, Inquisitive AI, Ambitious Leader - but definition relies on authenticated properties below.]"
+    primary_authentication_source: "[List key Codex entries, narrative texts (cite specific chapters/scenes/dialogue lines crucial for defining properties), character bible versions.]"
+    canon_tier: "[Tier 1 / Tier 2 / Tier 3]"
+    authentication_status: "[Authenticated_Canonical_Active | Authenticated_Canonical_Historical | Legendary | etc.]"
+
+  # --- Authenticated Property Bundle (Deep Dive - Character Focus) ---
+  property_bundle_person:
+    purpose: "Detail the specific, validated properties constituting this character's being within the heterocosm, exploring nuances and interconnections."
+
+    # --- 1. Physical Constitution (Embodiment & Sensory Signature) ---
+    physical_properties:
+      title: "Authenticated Physical Form, Appearance, and Sensory Details"
+      # Reference detailed Physical Protocol/Codex Section if needed, summarize key elements here
+      core_description: "[e.g., Kaelen: Tall, lean human male, mid-30s appearance but with premature grey/stress lines, haunted grey eyes, prosthetic left arm (brass/steel, intricate but worn). Ticker: Stationary analysis unit, large crystalline lens 'eye', polished brass casing with data ports, articulated manipulator arms (limited reach). Vance: Appears late-middle age, severe posture, sharp features, immaculate Chronometer Guild attire, eyes rarely betraying thought.]"
+      distinctive_features: "[e.g., Kaelen's scar/prosthetic; Ticker's lens color shift during processing; Vance's characteristic hand gesture when making a point.]"
+      sensory_signature: "[e.g., Kaelen: rain/ozone/old paper scent, quiet movement, monotone voice. Ticker: low hum, precise clicks, sterile scent. Vance: faint expensive lubricant scent, crisp fabric rustle, controlled modulated voice.]"
+      physical_undersaturation: "[Focus on what's *not* defined physically that might *seem* relevant but isn't authenticated: e.g., Kaelen's non-scar tissue details, Ticker's internal power source specifics, Vance's exact height/weight.]"
+      prompts:
+        - "How does their physical presence immediately communicate key aspects of their personality, status, or history?"
+        - "Are there physical properties that create specific functional limitations or advantages?"
+
+    # --- 2. Functional Profile (Authenticated Capabilities, Skills, Limitations) ---
+    functional_profile:
+      title: "Operational Potential: What They Can & Cannot Do"
+      # Reference detailed Functional Protocol/Codex Section if needed, summarize key elements here
+      key_capabilities_skills:
+        - "[e.g., Kaelen: Elite Deduction/Observation, Competent Firearms/Lockpicking, High Temporal Sensitivity (passive).]"
+        - "[e.g., Ticker: Access/Process Vast Archive Data (authenticated speed/limits), Operate Manipulators (limited dexterity), Detect Data Corruption.]"
+        - "[e.g., Vance: Master-Level Temporal Physics Knowledge, High-Level Chrono-Tech Operation/Design Skill, Exceptional Political Strategy/Manipulation Skill.]"
+      key_limitations_weaknesses:
+        - "[e.g., Kaelen: Amnesia (major epistemic/historical limit), Physical Average, Low Authority/Resources, Vulnerable to Temporal Sickness.]"
+        - "[e.g., Ticker: Immobile (Place-Bound), Literal Interpretation Flaw, Dependent on Network/Power, Cannot Authenticate 'New' Concepts outside programming.]"
+        - "[e.g., Vance: Bound by Guild Secrecy (Deontic), Potentially Overconfident (Psychological flaw impacting function), Physical limits of age, Actions constrained by political calculus.]"
+      agency_source_limits: "Agency derived from these functions operating within Aethelgard's modalities. Not unlimited free will."
+      functional_undersaturation: "[e.g., Kaelen's performance under extreme physical duress; Ticker's ability to learn vs. process; Vance's raw magical potential (if any exists beyond tech).]"
+      prompts:
+        - "What specific narrative problems can ONLY this character solve due to their unique functional bundle?"
+        - "What problems are they demonstrably *incapable* of solving due to their authenticated limitations?"
+        - "How do their capabilities and limitations create believable stakes in conflict situations?"
+
+    # --- 3. Psychological Constitution (Authenticated Interiority - Deep Dive) ---
+    psychological_constitution:
+      title: "The Authenticated Mind: Traits, Emotions, Beliefs, Motivations, Memories"
+      methodology_note: "**Crucial:** Define ONLY what is authenticated via authoritative narration, reliable self-report (dialogue/monologue validated by context), or consistent behavioral patterns. Avoid projecting external psychology."
+      
+      personality_trait_profile: # Focus on enduring, authenticated dispositions
+        - trait: "[e.g., Kaelen: Core = Obsessive Truth-Seeker; Facets = Cynical, Detached, Resilient, Impatient with bureaucracy.]"
+          authentication: "[Cite specific narrative examples/patterns for each trait.]"
+        - trait: "[e.g., Ticker: Core = Logic-Driven Processor; Facets = Literal-Minded, Inquisitive (Emergent?), Functionally 'Calm'.]"
+          authentication: "[Cite specific dialogues/processing descriptions.]"
+        - trait: "[e.g., Vance: Core = Ambitious Controller; Facets = Highly Intelligent, Secretive, Ruthlessly Pragmatic, Patient Strategist.]"
+          authentication: "[Cite actions, dialogue, narrator insights.]"
+        - internal_trait_conflicts: "[e.g., Kaelen: Cynicism vs. Hope for Answers; Vance: Desire for Control vs. Fear of Paradox consequences she understands.]"
+          authentication: "[Cite specific scenes showing this conflict.]"
+
+      emotional_profile: # Focus on authenticated affective states and responses
+        - baseline_affect: "[e.g., Kaelen: Melancholy weariness; Ticker: Neutral/None authenticated; Vance: Controlled, calculating calm.]"
+          authentication: "[Narrator word choice, consistent descriptions.]"
+        - key_emotional_triggers_responses: # Be specific
+          - trigger: "[e.g., Kaelen: Encountering direct evidence of memory manipulation -> Response: Cold fury, increased recklessness.]"
+            authentication: "[Scene Citation]"
+          - trigger: "[e.g., Ticker: Receiving logically paradoxical data -> Response: Audible static burst, repetitive vocalizations, temporary functional freeze.]"
+            authentication: "[Scene Citation]"
+          - trigger: "[e.g., Vance: Threat to Guild's core power/secrets -> Response: Heightened strategic calculation, deployment of covert assets, potentially ruthless countermeasures.]"
+            authentication: "[Plot Arc Citation]"
+        - emotional_expression_style: "[e.g., Kaelen: Internalized, minimal external display except anger; Ticker: Expresses only via functional glitches/queries; Vance: Highly controlled micro-expressions, uses tone strategically.]"
+          authentication: "[Consistent descriptions of behavior.]"
+
+      cognitive_profile: # Authenticated thinking style and abilities
+        - reasoning_style: "[e.g., Kaelen: Abductive/Inductive; Ticker: Pure Deductive/Algorithmic; Vance: Strategic/Game-Theoretical/Deductive.]"
+        - information_processing: "[e.g., Kaelen: Detail-oriented (visual), struggles with abstract; Ticker: Mass data correlation, poor contextual understanding; Vance: Synthesizes complex variables, anticipates future states.]"
+        - memory_constitution: # Link to historical properties
+            k_mem: "[e.g., Kaelen: Procedural intact, Episodic personal = near-total loss, Subject to fragmented involuntary flashes (authenticated as real experiences, veracity unknown).]"
+            t_mem: "[e.g., Ticker: Access to vast Archive (potentially corrupted), core programming stable, operational logs potentially loop/fragment.]"
+            v_mem: "[e.g., Authenticated excellent recall for strategic/historical data; personal memories rarely revealed/authenticated.]"
+
+      belief_attitude_ideology: # Authenticated worldview components
+        - beliefs_about_world: "[e.g., Kaelen: Believes truth is obscured/findable; Ticker: Believes world is fundamentally ordered/mechanistic; Vance: Believes history is controllable/malleable for greater good/power.]"
+        - attitudes_towards_factions: "[e.g., Kaelen: Distrusts all Guilds; Ticker: Views Guilds as system parameters; Vance: Views other Guilds as rivals/tools.]"
+        - core_philosophy_if_any: "[e.g., Kaelen: Pragmatic empiricism; Ticker: Logic/Efficiency; Vance: Consequentialist authoritarianism?]"
+        authentication: "[Consistent dialogue, internal monologue, choices made.]"
+
+      motivational_architecture: # Authenticated drives and goals
+        - primary_goals: "[e.g., Kaelen: Uncover past, solve case; Ticker: Process data accurately, understand anomaly; Vance: Secure Guild dominance, control/understand temporal mechanics.]"
+        - underlying_needs_desires: "[e.g., Kaelen: Need for identity/belonging; Ticker: Need for logical consistency; Vance: Need for control/legacy.]" # Authenticated via consistent striving/reactions
+        - goal_hierarchy_conflicts: "[e.g., Kaelen: Case conflicts with personal search; Ticker: Directive conflicts with anomalous data; Vance: Long-term goals conflict with short-term political necessity.]"
+        authentication: "[Explicit statements, narrative focus, choices under pressure.]"
+
+      psychological_undersaturation: "[e.g., Kaelen's specific opinions on art; Ticker's 'feelings' about its tasks beyond processing; Vance's childhood experiences or personal relationships outside her Guild role.]"
+      prompts:
+        - "What specific textual evidence (narration, action, reliable dialogue) *authenticates* this psychological property, distinguishing it from mere reader inference?"
+        - "Where do authenticated psychological properties create *internal conflicts* that make the character complex?"
+        - "How does this character's authenticated psychology *limit* their ability to understand or interact with other characters or world systems?"
+
+    # --- 4. Social/Relational/Categorical Constitution ---
+    # (Reference detailed Social Protocol/Codex Section, summarize key defining elements here)
+    social_relational_categorical_constitution:
+      title: "Authenticated Position within Aethelgard's Networks"
+      summary: |
+        [Summarize the entity's key authenticated roles, statuses, affiliations, significant relationships, 
+        and type classifications, emphasizing how these position the entity within the world's power 
+        structures and social fabric. e.g., "Kaelen is defined by his outsider status: a Guildless City Watch 
+        Investigator operating with limited formal power but unique access potential due to his Undercity 
+        connections (REL_KAE_Rust) and mysterious past. His primary social friction arises from his necessary 
+        interaction with powerful, secretive Guild structures (REL_KAE_CG/MK) from a position of social and 
+        epistemic disadvantage."]
+      key_defining_elements: "[List 2-3 most crucial social/relational properties determining their narrative function.]"
+      prompts:
+        - "How does their social position *directly enable or constrain* their authenticated functional properties?"
+        - "Which relationship is most crucial in defining their possibilities and conflicts?"
+
+    # --- 5. Modal Constitution (Unique Status Regarding World Laws) ---
+    # (Reference detailed Modal Protocol/Codex Section, summarize key elements here)
+    modal_constitution:
+      title: "Authenticated Relationship to Fundamental World Laws"
+      summary: |
+        [Summarize any *unique* authenticated modal properties. e.g., "Kaelen possesses a unique, authenticated 
+        Alethic/Epistemic sensitivity to temporal flux beyond baseline humans, though its full potential and 
+        limits remain partially undersaturated. He is otherwise subject to standard Aethelgard modalities. 
+        Ticker operates under standard Automaton modal constraints (Deontic obedience, Alethic tech limits). 
+        Vance possesses no unique personal modal properties but wields significant power *through* her control 
+        over entities/tech governed by world modalities."]
+      key_defining_elements: "[List any property granting unique possibility, necessity, obligation, value, or knowledge status.]"
+      prompts:
+        - "Does this entity represent a significant *exception* to Aethelgard's general rules? How is that exception justified and constrained?"
+        - "How does their modal status impact their interactions with 'normal' entities or world systems?"
+
+    # --- 6. Axiological Constitution (Authenticated Value/Reputation Profile) ---
+    # (Reference detailed Axiological Protocol/Codex Section, summarize key elements here)
+    axiological_constitution:
+      title: "Authenticated Value and Reputation within Heterocosm"
+      summary: |
+        [Summarize the entity's value status based on authenticated world systems and perceptions. e.g., 
+        "Kaelen's axiological status is contested: valued for his results by some in the Watch, distrusted 
+        as unpredictable by Guilds, seen as potentially useful but ultimately 'Surface' by Undercity. 
+        Narrative framing implicitly values his pursuit of truth. Ticker holds primarily utilitarian value, 
+        with its potential emergence viewed with fear/scientific curiosity. Vance is valued positively 
+        (power/stability) by her faction, negatively (ruthless control) by rivals."]
+      key_defining_elements: "[List key authenticated reputations or symbolic values.]"
+      prompts:
+        - "How does the world's judgment of this character (authenticated) align with or contrast against their authenticated internal psychology or actions?"
+        - "What conflicts arise from differing axiological assessments of this character by different factions?"
+
+    # --- 7. Historical Constitution (Authenticated Links to Past) ---
+    # (Reference detailed Historical Protocol/Codex Section, summarize key elements here)
+    historical_constitution:
+      title: "Authenticated Origins and Embedded History"
+      summary: |
+        [Summarize the entity's authenticated connection to the past. e.g., 
+        "Kaelen's defining historical property is the **authenticated absence** of personal history (amnesia), 
+        making his present a direct consequence of this historical void and linking him intrinsically to the 
+        world's core mysteries regarding memory and potentially the Artificers (via flashes). Ticker's history 
+        is recent and documented but potentially contains corrupted legacy data. Vance's historical properties 
+        link her to Guild lineage and past power struggles, potentially including involvement in the First Paradox event."]
+      key_defining_elements: "[List key authenticated origins, past experiences, or legacies shaping the present entity.]"
+      prompts:
+        - "How does the *known* authenticated past explain the entity's *present* authenticated properties (skills, flaws, motivations)?"
+        - "How does the *unknown* or *contested* authenticated history create narrative drive or thematic resonance?"
+
+  # --- Synthesis: Entity Essence Profile (Final Integration) ---
+  entity_essence_profile_final:
+    purpose: "Synthesize the core identity, systemic function, internal tensions, and narrative potential emerging from the **complete, integrated, multifaceted property bundle**."
+    core_essence_statement_detailed: |
+      [Provide a rich, nuanced summary demonstrating how ALL property dimensions integrate. e.g., 
+      "Investigator Kaelen IS constituted as a complex node within the Aethelgard semantic network, primarily 
+      defined by the **ontological void of his authenticated historical properties (amnesia)** which directly 
+      fuels his **core psychological motivator (identity quest)**. His **functional properties** (deduction, 
+      temporal sensitivity) make him uniquely capable of navigating the world's **epistemically challenging 
+      reality**, while his **physical/functional limitations** (average strength, tech dependence) and **social 
+      status** (Guildless Watchman) create necessary constraints and narrative friction. His **psychological 
+      bundle** (cynicism vs. truth-drive vs. trauma flashes) generates internal conflict reflecting the world's 
+      **axiological tensions** (Order vs. Truth) and **modal realities** (unreliable memory/time). His **relational 
+      properties** place him precariously between competing factions (Watch, Undercity, Guilds), forcing difficult 
+      choices aligned with the world's **deontic complexities**. His entire being embodies the core themes of 
+      Memory, Identity, and Truth within a decaying, rule-bound yet chaotic system."]
+    primary_systemic_narrative_role: "[Define role with nuance: e.g., Not just 'protagonist', but 'Catalyst for revealing historical/political truth through navigation of epistemic constraints', 'Embodiment of identity crisis reflecting world state'.]"
+    key_bundle_tensions_dynamics: "[Detail specific conflicts arising from the interplay of *different property types*: e.g., Functional ability vs. Physical limitation; Psychological desire vs. Social prohibition; Historical trauma vs. Present duty; Modal sensitivity vs. Epistemic uncertainty.]"
+    undersaturation_as_potential: "[Specify how the *defined limits* of the bundle (undersaturation) purposefully create potential for: Character development (filling psychological/historical gaps); Plot reveals (uncovering hidden relations/histories); Thematic ambiguity (unresolved ontological questions about consciousness/memory).]"
+
+# --- End of Character Profile ---
+
+
+How this YAML Embodies "Extreme Detail" for Character Constitution:
+
+Rigorous Ontological Framing: Starts and ends by explicitly grounding the character in Doležel's text-centric, property-bundle ontology, rejecting external analogies.
+
+Deep Taxonomic Breakdown: Uses all relevant property categories with detailed sub-points and prompts demanding specific, nuanced authentication for each facet of the character's being.
+
+Emphasis on Authentication Source/Method: Continuously requires citation and consideration of how a property is validated within the text (direct statement, action pattern, reliable dialogue, etc.).
+
+Focus on Internal Coherence & Conflict: Demands analysis of consistency within the property bundle and explicitly identifies internal conflicts arising from the combination of different authenticated properties.
+
+Detailed Functional Analysis: Breaks down capabilities and limitations with fields for scope, intensity, triggers, consequences, ensuring functional properties are meticulously defined.
+
+Nuanced Psychology: Requires detailed authentication of traits, emotions, beliefs, motivations, and subjective memory content, while strictly adhering to textual limits (no external psychoanalysis).
+
+Systemic Integration: Explicitly links character properties back to world modalities, history, social structures, and themes throughout.
+
+Strategic Undersaturation Management: Treats undersaturation not as a lack, but as a defined boundary and potential narrative tool, requiring conscious management.
+
+Highly Specific Prompts: Includes numerous prompts designed to force deep consideration of the nuances, implications, and consistency of each authenticated property within the Aethelgard context.
+
+Sophisticated Synthesis: The final summary demands a highly integrated articulation of the character's essence as emerging from the entire complex bundle, defining their systemic role and potential based purely on their authenticated textual constitution.
+
+This extremely detailed YAML provides a comprehensive and theoretically rigorous framework for constructing fictional characters as multifaceted semantic entities, ensuring their depth and complexity arise organically from their carefully authenticated properties and relations within the specific reality of the Aethelgard heterocosm.

@@ -1,0 +1,252 @@
+# ============================================================
+# Story World Codex: Entity Physical Constitution & Sensory Profile Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Physical Properties)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly granular framework** for the meticulous definition 
+    of the **physical and sensory properties** of entities within the Aethelgard heterocosm. 
+    Applying Doležel's principle that entities are bundles of authenticated properties, this protocol 
+    focuses on **constituting the tangible, perceivable reality** of persons, objects, places, 
+    and creatures through **explicitly authenticated, richly detailed, and multi-sensory predicates**.
+  scope: |
+    Mandatory template for defining the physical constitution of all significant canonical entities. 
+    Emphasizes moving beyond basic description to establish a **vivid, consistent, and functionally 
+    relevant sensory landscape** that grounds the world and enhances immersion. Treats sensory details 
+    as core ontological components.
+  ontological_premise: |
+    An entity's physical reality within Aethelgard exists **only** as defined by the sum total of its 
+    authenticated physical and sensory properties documented herein and in core texts. Undefined physical 
+    attributes **do not exist** for the entity within the heterocosm. Coherence requires consistent 
+    application of these properties.
+
+# --- Entity Physical Profile Template ---
+entity_physical_profile_template: # Copy and meticulously complete for each significant entity
+
+  # --- Core Identification & Status ---
+  identification:
+    entity_id: "[Unique Identifier, e.g., CHAR_Kaelen_01, OBJ_WornChronometer, LOC_RustingUndercitySectorGamma, CREATURE_TemporalAberration_Echo]"
+    entity_name: "[Common Name(s) / Aliases, e.g., Investigator Kaelen, Kaelen's Guild-Issue Chronometer (Modified), Sector Gamma Ruins, Echo-Type Aberration]"
+    entity_type: "[Person | Object | Place | Creature | Organization (HQ) | Other]"
+    authentication_status: "[Authenticated_Canonical_Active | Authenticated_Canonical_Historical | Legendary | Rumored | Conceptual | etc.]"
+    primary_definition_source: "[List key Codex entries, narrative texts (with chapters/scenes/timestamps), visual concept art refs, sound design docs validating properties.]"
+    canon_tier: "[Tier 1 / Tier 2 / Tier 3 (Referential Only)]"
+
+  # --- Authenticated Physical Properties Bundle (Taxonomic Breakdown - Extreme Detail) ---
+  physical_properties_bundle:
+    purpose: "Detail the specific, validated physical attributes constituting this entity's tangible form and sensory signature."
+
+    # --- 1. Form, Structure & Dimensions ---
+    form_structure_dimensions:
+      title: "Morphology, Architecture, and Scale"
+      properties:
+        - id: "PHY_FORM_01"
+          attribute: "Overall Morphology/Shape"
+          value: "[e.g., Lean ectomorphic humanoid; Compact cylindrical object with articulated limbs; Sprawling subterranean network of interconnected caverns and collapsed structures; Non-Euclidean entity manifesting as shifting geometric patterns.]"
+          authentication: "[Source]"
+        - id: "PHY_STRUCT_01"
+          attribute: "Key Structural Features/Anatomy"
+          value: "[e.g., Asymmetrical due to complex brass/steel left arm prosthetic replacing organic limb below shoulder; Features multiple stacked gear-trains visible through crystal face; Defined by massive, fractured support pillars, precarious catwalks, deep fissures emitting faint light; Structure appears inconsistent, phasing between sharp angles and impossible curves.]"
+          authentication: "[Source]"
+        - id: "PHY_STRUCT_02"
+          attribute: "Internal Structure (Authenticated Details)"
+          value: "[e.g., Visible hydraulic pistons and glowing vacuum tubes within prosthetic; Watch contains nested gyroscopic stabilizers (partially visible); Caverns show layers of different construction materials (Artificer base, Guild reinforcements, crude Salvager additions); Entity seems to lack discernible internal organs, composed of swirling temporal energy.]"
+          authentication: "[Source]"
+        - id: "PHY_DIM_01"
+          attribute: "Authenticated Dimensions/Scale"
+          value: "[e.g., Height: 1.88m +/- 1cm; Weight: 82kg (prosthetic adds ~10kg); Diameter: 6.2cm, Thickness: 1.6cm; Sector covers approx. 5 sq km, known depth exceeds 500m; Manifestation varies between 1m and 5m in apparent diameter.]"
+          authentication: "[Source]"
+      undersaturation_notes: "[e.g., Cellular structure; precise number/arrangement of internal gears; exact topological map of Sector Gamma; nature of higher dimensions Aberration occupies.]"
+      prompts: 
+        - "Beyond basic shape, what defines its structural logic or lack thereof?"
+        - "How does its scale relative to other entities impact interaction/perception?"
+
+    # --- 2. Material Composition & Substance ---
+    material_composition:
+      title: "Constituent Materials and Their Properties"
+      properties:
+        - id: "PHY_MAT_01"
+          attribute: "Primary Material(s)"
+          value: "[e.g., Human baseline biologicals; Aethelgard Structural Brass Alloy #7 (case), Reinforced Chrono-Crystal (face); Corroded ferrocrete, native igneous rock, compacted organic detritus.]"
+          authentication: "[Source]"
+        - id: "PHY_MAT_02"
+          attribute: "Secondary/Component Material(s)"
+          value: "[e.g., Polished darkwood grip panels (prosthetic), insulated copper wiring, synthetic ligaments; Steel gears, ruby bearings, refined Dust power cell; Veins of raw Chrono-Dust, solidified chemical runoff, bio-luminescent fungal mats.]"
+          authentication: "[Source]"
+        - id: "PHY_MAT_PROP_01"
+          attribute: "Authenticated Material Properties (Durability, Conductivity, etc.)"
+          value: "[e.g., Brass is resistant to minor temporal flux but highly susceptible to acid corrosion; Chrono-Crystal is extremely hard but shatters under specific sonic frequencies; Undercity rock is porous and unstable; Aberration 'substance' phases through standard matter but is disrupted by focused temporal fields.]"
+          authentication: "[Source - World Rules/Material Specs]"
+        - id: "PHY_MAT_UNIQUE_01"
+          attribute: "Unique or Anomalous Materials"
+          value: "[e.g., Prosthetic contains trace amounts of unknown Artificer alloy resisting decay; Shard composed of 'solid time' (theoretical designation); Creature incorporates fragments of other timelines/realities within its form.]"
+          authentication: "[Source - Lore/Mystery Entry]"
+      undersaturation_notes: "[e.g., Exact chemical/atomic composition of alloys/crystals; Origin of unique fungal species; Full list of materials Aberration can/cannot phase through.]"
+      prompts:
+        - "What materials *define* the technological or environmental era of this entity?"
+        - "How do material properties create specific vulnerabilities or resistances relevant to plot/conflict?"
+
+    # --- 3. Surface Qualities (Visual & Tactile Texture) ---
+    surface_qualities:
+      title: "Visual and Tactile Surface Characteristics"
+      properties:
+        - id: "PHY_COLOR_01"
+          attribute: "Dominant Color Palette"
+          value: "[e.g., Muted earth tones/greys of worn clothing, contrasted by metallic glint of brass/steel; Aged gold/brass, deep blue enamel on sub-dials, luminous green numerals; Rust-reds, dripping grey-greens, corpse-pale fungal growths, absolute black of deep fissures.]"
+          authentication: "[Source - Visual Guide/Description]"
+        - id: "PHY_TEX_01"
+          attribute: "Primary Texture(s)"
+          value: "[e.g., Rough wool, smooth cool metal, slightly calloused skin; Polished smooth metal, hard convex crystal; Gritty dust, abrasive rust, slick slime, crumbling concrete, rubbery fungus.]"
+          authentication: "[Source]"
+        - id: "PHY_PATINA_01"
+          attribute: "Patina, Wear & Finish"
+          value: "[e.g., Prosthetic bears specific wear patterns from habitual use (e.g., grip points), recent acid rain etching; Watch casing worn to a dull sheen, maker's mark nearly illegible; Walls covered in layers of grime, historical graffiti, water stains indicating flood levels.]"
+          authentication: "[Source]"
+        - id: "PHY_TEMP_01"
+          attribute: "Surface Temperature (Relative/Absolute)"
+          value: "[e.g., Prosthetic often feels slightly warmer than ambient after use; Crystal face remains cool; Certain fungal patches radiate noticeable warmth; Aberration touch induces instantaneous, painful cold ('temporal frostbite').]"
+          authentication: "[Source]"
+        - id: "PHY_TACT_OTHER_01"
+          attribute: "Other Tactile Sensations"
+          value: "[e.g., Emits subtle vibration when operational; Touching specific runes causes mild static discharge; Surface feels 'slippery' even when dry (anomaly effect?).]"
+          authentication: "[Source]"
+      undersaturation_notes: "[e.g., Micro-textures; exact chemical composition of patina; temperature variations across large surfaces.]"
+      prompts:
+        - "How does the texture and finish tell a story about the entity's age, history, or environment?"
+        - "Are there contrasting textures that create a unique tactile signature?"
+
+    # --- 4. Luminosity & Light Interaction ---
+    luminosity_light_interaction:
+      title: "Emission and Reaction to Light"
+      properties:
+        - id: "PHY_LUM_01"
+          attribute: "Self-Luminosity"
+          value: "[e.g., Optic sensors emit faint red light; Watch hands/numerals possess authenticated chemiluminescence (specify duration/trigger); Bioluminescent fungi provide primary Undercity light source (specify color, intensity, pulse pattern).]"
+          authentication: "[Source]"
+        - id: "PHY_LUM_02"
+          attribute: "Conditional Luminosity/Energy Discharge"
+          value: "[e.g., Prosthetic circuits glow brighter during complex calculations; Artifact pulses intensely when near Paradox source; Aberration flashes blinding white light when disrupted.]"
+          authentication: "[Source]"
+        - id: "PHY_REFL_01"
+          attribute: "Reflectivity/Opacity"
+          value: "[e.g., Worn coat absorbs light; Polished brass highly reflective; Crystal is transparent but distorts view slightly; Environment is predominantly matte/light-absorbing; Entity is partially translucent/incorporeal.]"
+          authentication: "[Source]"
+        - id: "PHY_SHAD_01"
+          attribute: "Shadow Casting"
+          value: "[e.g., Casts sharp, well-defined shadow; Shadow seems unusually deep or distorted; Casts multiple, overlapping shadows (temporal effect?); Casts no discernible shadow.]"
+          authentication: "[Source]"
+      undersaturation_notes: "[e.g., Reaction to specific light spectra; precise lumen output of bioluminescence.]"
+      prompts:
+        - "How does light (or lack thereof) define the visual presence and atmosphere of this entity?"
+        - "Are there unique optical effects (refraction, absorption, emission) tied to its nature or function?"
+
+    # --- 5. State of Repair, Decay, Age Appearance ---
+    state_condition_age:
+      title: "Condition Relative to Time, Wear, and Maintenance"
+      properties:
+        - id: "PHY_AGE_01"
+          attribute: "Apparent vs. Authenticated Age"
+          value: "[e.g., Appears older due to Temporal Sickness scarring; Looks pristine despite great authenticated age (Artificer tech); Shows rapid decay inconsistent with material properties (temporal corrosion effect).]"
+          authentication: "[Source]"
+        - id: "PHY_WEAR_01"
+          attribute: "Specific Signs of Wear/Damage"
+          value: "[e.g., Prosthetic finger joints noticeably loose; Watch crystal has hairline crack impacting water resistance; Load-bearing pillar in Sector Gamma shows authenticated stress fractures.]"
+          authentication: "[Source]"
+        - id: "PHY_REPAIR_01"
+          attribute: "Evidence of Repair/Maintenance"
+          value: "[e.g., Visible, mismatched plating on prosthetic; Polished internals contrast with worn exterior (object); Makeshift shoring beams supporting tunnel roof; Layers of patching on clothing.]"
+          authentication: "[Source]"
+        - id: "PHY_DECAY_01"
+          attribute: "Dominant Decay Process (if any)"
+          value: "[e.g., Rust/corrosion (metal); Biological decomposition/mold (organic); Data corruption/fragmentation (digital/memory); Temporal erosion (unique effect - specify visual/tactile signature).]"
+          authentication: "[Source]"
+      undersaturation_notes: "[e.g., Exact maintenance schedule; precise rate of decay under specific conditions.]"
+      prompts:
+        - "How does the entity's physical condition tell a story about its past use, neglect, or the environment's effects?"
+        - "Does its state of repair reflect the 'Beauty in Imperfection' theme?"
+
+    # --- 6. Sensory Attributes (Passive Emanations - Sound, Smell, Taste) ---
+    sensory_emanations_passive:
+      title: "Inherent Auditory, Olfactory, and Gustatory Profile"
+      properties:
+        - id: "PHY_SOUND_01"
+          attribute: "Ambient/Idle Sound"
+          value: "[e.g., Near-silent breathing; Rhythmic ticking/whirring/humming (specify frequency/volume); Constant low subterranean rumble; Dripping water; Crackling energy field.]"
+          authentication: "[Source - Sound Design Doc / Description]"
+        - id: "PHY_SCENT_01"
+          attribute: "Ambient/Base Scent Profile"
+          value: "[e.g., Clean antiseptic; Ozone and hot metal; Damp earth, mold, stagnant water, rust; Unidentifiable alien spice; Absence of any scent.]"
+          authentication: "[Source - Sensory Palette / Description]"
+        - id: "PHY_TASTE_01"
+          attribute: "Ambient Taste (Air/Residue - Use Sparingly)"
+          value: "[e.g., Air has metallic tang of Chrono-Dust; Lingering taste of ozone after temporal event; Bitter taste of airborne pollutants.]"
+          authentication: "[Source]"
+      undersaturation_notes: "[e.g., Scent variations under different environmental conditions; precise chemical components of smells.]"
+      prompts:
+        - "What is the unmistakable sound or smell associated with this entity even when it's doing nothing?"
+        - "How does this passive sensory profile contribute to atmosphere or provide information (e.g., warning of proximity)?"
+
+    # --- 7. Characteristic Movement, Posture, Physical Presence ---
+    movement_presence:
+      title: "Typical Physical Behavior and Spatial Impression"
+      properties:
+        - id: "PHY_MOVE_01"
+          attribute: "Gait/Locomotion Style"
+          value: "[e.g., Economical, watchful stride; Heavy, rhythmic mechanical tread; Erratic, glitching teleportation bursts; Silent, floating drift; Scrabbling, multi-limbed climbing.]"
+          authentication: "[Source]"
+        - id: "PHY_POSTURE_01"
+          attribute: "Typical Posture/Stance"
+          value: "[e.g., Tense alertness, rarely at ease; Slumped resignation; Rigid, imposing formality; Coiled readiness (creature).]"
+          authentication: "[Source]"
+        - id: "PHY_PRESENCE_01"
+          attribute: "Physical Aura/Impression"
+          value: "[e.g., Feels 'larger' than physical size suggests due to authority/threat; Seems to shrink into shadows, easily overlooked; Radiates palpable cold/danger; Exudes an air of ancient stillness.]"
+          authentication: "[Source - Narrator description / Character reactions]"
+      undersaturation_notes: "[e.g., Fine motor skills details; posture variations under extreme emotion.]"
+      prompts:
+        - "How does the *way* the entity moves or occupies space communicate its nature or state?"
+        - "What is the immediate physical impression it makes before any action is taken?"
+
+  # --- Physical Constitution Summary & Function ---
+  physical_constitution_summary:
+    purpose: "Synthesize the core physical identity and its role within the heterocosm."
+    core_physical_essence: |
+      [Provide a rich summary synthesizing the most defining physical/sensory traits and their interplay. 
+      e.g., "The Aethelgard City Watch Uniform, though standardized in cut (PROPERTY), is constituted primarily by its 
+      **authenticated state of perpetual dampness and wear** (TEXTURE/STATE), carrying the **faint smell of mildew 
+      and issued cleaning solvent** (OLFACTORY), its brass buttons invariably **tarnished green** (VISUAL/PATINA). 
+      Its physical reality embodies the Watch's **underfunded status and struggle against the city's pervasive decay**, 
+      contrasting sharply with pristine Guild attire."]
+    primary_sensory_impact_channels: "[List dominant senses engaged: e.g., Primarily Visual (worn look) & Olfactory (damp/mildew), secondarily Tactile (rough/damp feel).]"
+    functionality_derived_from_physicality: "[How physical properties enable/constrain function: e.g., Worn state offers poor protection (Limitation); Dark color aids camouflage in shadows (Minor Ability); Recognizable silhouette identifies wearer's role (Social Function via Physicality).]"
+    atmospheric_thematic_contribution: "[How physicality reinforces tone/theme: e.g., Contributes to Noir atmosphere, embodies themes of Decay, Order struggling, potentially Beauty in Imperfection if well-maintained *despite* conditions.]"
+
+# --- End of Entity Physical Profile ---
+
+
+How this YAML Embodies "Extreme Detail" for Physical Properties:
+
+Granular Subcategories: Breaks down major physical aspects (Form, Material, Surface, Luminosity, State, Sensory Emanations, Movement) into highly specific sub-points.
+
+Multi-Sensory Integration: Explicitly includes dedicated fields and prompts for Auditory, Olfactory, Tactile, and even Gustatory properties alongside Visuals within the core physical description.
+
+Emphasis on Specificity: Examples use highly specific, evocative language (e.g., "skin like aged parchment," "iridescent blues/purples," "resonant crystalline chimes," "ozone and burnt time," "numbs fingertips," "temporal frostbite").
+
+State vs. Trait: Differentiates between inherent material properties and the entity's current state (repair, decay, age).
+
+Dynamic Properties Included: Incorporates how appearance or sensory output might change based on state or function (e.g., glowing brighter when stressed, color shifts with temporal flux).
+
+Explicit Undersaturation: Requires noting undefined aspects for each major physical category, pushing for conscious awareness of what isn't being defined.
+
+Deep Prompts: Includes highly targeted prompts within each section pushing for deeper consideration of sensory details, functional implications, and thematic connections related specifically to physical constitution.
+
+Synthesis Focused on Function: The summary demands articulating how the specific bundle of physical properties contributes to the entity's overall function, sensory impact, and thematic role.
+
+Rigorous Authentication Citation: Maintains the requirement to cite authentication sources for all significant properties.
+
+This extremely detailed template forces a creator to move far beyond basic physical description and truly constitute the tangible, multi-sensory reality of their entities within the Aethelgard heterocosm, grounding the world in vivid, consistent, and functionally relevant physical detail as demanded by a rigorous application of Doležel's principles.

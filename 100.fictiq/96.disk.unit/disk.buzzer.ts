@@ -1,0 +1,16 @@
+export { initDisk } from "./buz/disk.buzz";
+export { updateDisk } from "./buz/disk.buzz";
+export { writeDisk } from "./buz/disk.buzz";
+export { readDisk } from "./buz/disk.buzz"
+export { indexDisk  } from "./buz/disk.buzz";
+export { load_listDisk  } from "./buz/disk.buzz";
+export { copyDisk  } from "./buz/disk.buzz";
+export { frameDisk  } from "./buz/disk.buzz";
+export { batchDisk  } from "./buz/disk.buzz";
+export { trashDisk  } from "./buz/disk.buzz";
+export { ensureDisk  } from "./buz/disk.buzz";
+export { deleteDisk  } from "./buz/disk.buzz";
+export { existDisk  } from "./buz/disk.buzz";
+export { swatchDisk  } from "./buz/disk.buzz";
+export { colorDisk  } from "./buz/disk.buzz";
+export { typeDisk  } from "./buz/disk.buzz";

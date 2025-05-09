@@ -1,0 +1,240 @@
+# ============================================================
+# Story World Codex: Entity Functional Profile Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Functional Properties)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly granular framework** for the meticulous definition 
+    of the **functional properties** of entities within the Aethelgard heterocosm. Building upon 
+    Doležel's ontology, it focuses on constituting the **dynamic potential** of entities – what they 
+    *can* and *cannot* do, *how* they operate, their inherent skills, acquired expertise, unique 
+    powers, critical weaknesses, operational costs, and action parameters – all through **explicitly 
+    authenticated predication**.
+  scope: |
+    Mandatory template for defining the functional dimension of all significant canonical entities 
+    (persons, objects, places with active functions, creatures, organizations, systems). Ensures 
+    consistent application of world rules (modalities), grounds narrative action in believable 
+    (internal logic) capabilities, establishes clear stakes, and defines mechanisms for conflict 
+    and problem-solving.
+  ontological_premise: |
+    An entity's functional potential exists **only** as defined by its bundle of authenticated 
+    functional properties (capabilities & limitations). These properties directly instantiate and 
+    are constrained by the heterocosm's established **Alethic Modality** (laws of possibility/necessity) 
+    and often interact with Deontic, Axiological, and Epistemic structures. Undefined functions 
+    are non-existent for the entity within the canonical heterocosm.
+
+# --- Entity Functional Profile Template ---
+entity_functional_profile_template: # Copy and meticulously complete for each entity
+
+  # --- Core Identification ---
+  identification:
+    entity_id: "[Unique Identifier, e.g., CHAR_Kaelen_01, OBJ_ChronoViewerMk3, CREATURE_Aberration_Echo, FACTION_Gearwrights, SYSTEM_CityPowerGrid]"
+    entity_name: "[Common Name, e.g., Investigator Kaelen, Chrono-Viewer Mk3, Echo Aberration, Gearwrights Guild, Aethelgard Steamworks Grid]"
+    entity_type: "[Person | Object | Place | Creature | Organization | Concept | System | Other]"
+    primary_authentication_source: "[List key Codex entries, narrative actions (with citations), tech specs, design docs validating functions.]"
+    canon_tier: "[Tier 1 / Tier 2 / Tier 3]"
+
+  # --- Authenticated Functional Properties Bundle (Capabilities, Limitations, Actions) ---
+  functional_properties_bundle:
+    purpose: "Detail the specific, validated functions, capabilities, operational logic, costs, and limitations constituting this entity's dynamic potential."
+
+    # --- 1. Core Function / Purpose within Heterocosm ---
+    core_function_purpose:
+      title: "Primary Operational Role & Narrative Function"
+      properties:
+        - id: "FUNC_ROLE_01"
+          attribute: "Primary Designated Function" # What it's *supposed* to do or primarily does
+          value: "[e.g., Investigate temporal anomalies; Allow limited past observation; Manifest temporal chaos; Produce mechanical goods; Distribute steam power city-wide.]"
+          authentication: "[Source]"
+        - id: "FUNC_ROLE_02"
+          attribute: "Secondary/Emergent Function(s)" # Other roles it plays due to its nature/interactions
+          value: "[e.g., Catalyst for political change; Unreliable historical data source; Ecological niche disruptor; Source of economic/political power; Single point of failure for city infrastructure.]"
+          authentication: "[Source - Often derived from interplay/narrative]"
+      prompts:
+        - "Beyond its basic description, what is this entity's primary *job* or *impact* within the world system?"
+        - "Does it have unintended functions or consequences arising from its core design?"
+
+    # --- 2. Key Capabilities, Powers, & Skills (Authenticated Strengths) ---
+    capabilities_powers_skills:
+      title: "Authenticated Abilities & Proficiencies"
+      entries: # Use a list for multiple capabilities
+        - capability_id: "CAP_KAE_Deduction"
+          name: "Advanced Deductive & Analytical Reasoning"
+          type: "[Cognitive Skill (Learned/Innate?)]"
+          description: "[e.g., Exceptional ability to synthesize fragmented data, recognize subtle patterns, construct logical hypotheses under pressure. Functions even with personal memory gaps.]"
+          scope_intensity: "[e.g., Effective on complex crime scenes, logical puzzles, deciphering coded messages. Less effective against pure temporal chaos or highly irrational actors.]"
+          authentication: "[Source - Demonstrated actions Ch 2, 5, 7; Character Profile]"
+          sensory_tell: "[e.g., Often accompanied by Kaelen entering a state of intense visual focus, filtering external stimuli (authenticated internal experience).]"
+        - capability_id: "CAP_CV3_ViewEcho"
+          name: "Temporal Echo Visualization"
+          type: "[Technological Function (Device)]"
+          description: "[e.g., Renders faint, shimmering visual/auditory reconstructions of events within 10m radius occurring within previous 23.9 hours (calibrated daily). Requires user concentration.]"
+          scope_intensity: "[e.g., Clarity degrades rapidly with time passed and intensity of original event's temporal signature. Cannot penetrate certain shielding materials.]"
+          authentication: "[Source - Tech Spec Doc v1.2, Usage Scene S1E2]"
+          sensory_tell: "[e.g., Device emits low blue light and audible chronometric ticking; user often experiences mild nausea/headache.]"
+        - capability_id: "CAP_ABE_Phasing"
+          name: "Intermittent Corporeal Phasing"
+          type: "[Innate Ability (Creature, Alethic Anomaly)]"
+          description: "[e.g., Can voluntarily shift physical form into partial temporal displacement, allowing passage through solid matter of standard density.]"
+          scope_intensity: "[e.g., Duration max ~3 seconds per shift; frequency limited; appears visually as momentary static/translucence.]"
+          authentication: "[Source - Bestiary Entry, Encounter Log Prop]"
+          sensory_tell: "[e.g., Accompanied by sharp drop in local temperature and distinctive 'tearing static' sound.]"
+        - capability_id: "CAP_GWG_Manufacture"
+          name: "Mass Clockwork Assembly"
+          type: "[Organizational Capability]"
+          description: "[e.g., Possesses factory infrastructure and workforce (human/automaton) capable of producing standardized mechanical parts and automatons at scale.]"
+          scope_intensity: "[e.g., Production levels defined by resource inputs (metal, Dust) and current Council quotas.]"
+          authentication: "[Source - Faction Profile, Economic State Doc]"
+          sensory_tell: "[e.g., Constant auditory signature of heavy machinery, visual of smokestacks.]"
+        # --- Add detailed entries for all significant capabilities ---
+      prompts:
+        - "For each capability, define its *exact* scope, intensity, duration, range, and any known trigger conditions."
+        - "How does this capability *specifically* interact with Aethelgard's established physics or Chrono-Tech rules?"
+        - "What are the *sensory manifestations* of this capability being used?"
+
+    # --- 3. Inabilities & Lack of Function (Authenticated Incapabilities) ---
+    inabilities:
+      title: "Explicitly Authenticated Functional Inabilities"
+      entries:
+        - inability_id: "INAB_KAE_MemoryAccess"
+          description: "[e.g., Authenticated as **incapable** of voluntarily accessing or recalling specific episodic memories from prior to [Date X].]"
+          implication: "[Requires external means (investigation, unreliable tech) to reconstruct past.]"
+          authentication: "[Source - Core Character Concept, Narrative Depiction]"
+        - inability_id: "INAB_CV3_Alteration"
+          description: "[e.g., Chrono-Viewer Mk3 is authenticated as **incapable** of altering viewed past events; it is a passive observation device only.]"
+          implication: "[Reinforces Alethic limit on changing past; prevents device being used for easy solutions.]"
+          authentication: "[Source - Tech Spec Doc v1.2, Failed Attempt Scene X]"
+        - inability_id: "INAB_ABE_Communication"
+          description: "[e.g., Echo Aberrations are authenticated as **incapable** of coherent linguistic communication, emitting only distorted sounds/temporal noise.]"
+          implication: "[Prevents negotiation/understanding through standard means; reinforces alien/chaotic nature.]"
+          authentication: "[Source - Bestiary Entry, Autopsy Report Prop (failed vocal analysis).]"
+        - inability_id: "INAB_Human_TemporalSense"
+          description: "[e.g., Baseline humans are authenticated as **incapable** of directly perceiving temporal flux or echoes without Chrono-Tech augmentation or rare sensitivity.]"
+          implication: "[Makes temporal phenomena dangerous/undetectable for most; creates value for sensitives/tech.]"
+          authentication: "[Source - World Rules - Species]"
+        # --- Add other crucial inabilities ---
+      prompts:
+        - "What common actions or abilities (from AW or genre expectations) are explicitly *impossible* for this entity or type in Aethelgard?"
+        - "How do these inabilities create specific narrative problems or force reliance on other methods/entities?"
+
+    # --- 4. Vulnerabilities & Weaknesses (Authenticated Failure Points) ---
+    vulnerabilities_weaknesses:
+      title: "Authenticated Susceptibilities and Failure Conditions"
+      entries:
+        - vulnerability_id: "VULN_KAE_TemporalSensitivity"
+          description: "[e.g., Authenticated hypersensitivity to temporal flux causes debilitating migraines, sensory distortion, and potential memory fragmentation upon moderate exposure.]"
+          trigger: "[e.g., Proximity to anomalies/Aberrations, use of powerful/unshielded Chrono-Tech.]"
+          consequence: "[e.g., Impaired function, risk of collapse, potential for revealing hidden memories chaotically.]"
+          narrative_function: "[Personal cost/risk for core ability; weakness exploitable by antagonists; source of unreliable perception.]"
+          authentication: "[Source - Character Profile, Narrative Depiction]"
+        - vulnerability_id: "VULN_AUTO_EMPulse"
+          description: "[e.g., Standard Automaton clockwork brain/core *is* susceptible to disruption/temporary shutdown by focused electromagnetic pulses of specific authenticated frequencies.]"
+          trigger: "[e.g., Use of specialized EMP device (rare/Guild tech).]"
+          consequence: "[e.g., Temporary incapacitation; potential memory loop corruption.]"
+          narrative_function: "[Provides non-lethal method for dealing with common automatons; creates basis for specific countermeasures/shielding.]"
+          authentication: "[Source - Tech Spec Doc - Automatons]"
+        - vulnerability_id: "VULN_ABE_SonicResonance"
+          description: "[e.g., Echo Aberration's phased form *can be destabilized/dispersed* by sustained exposure to precisely modulated sonic frequencies (as discovered via HIST_Event_X).]"
+          trigger: "[e.g., Use of specialized sonic resonator device (complex calibration needed).]"
+          consequence: "[e.g., Temporary dispersal (not destruction); potential for unpredictable temporal backlash.]"
+          narrative_function: "[Provides the *only* known non-containment method for combating threat; requires specific knowledge/tech.]"
+          authentication: "[Source - Bestiary, Historical Record]"
+        - vulnerability_id: "VULN_PLACE_StructuralDecay"
+          description: "[e.g., LOC_RustingUndercitySectorGamma possesses authenticated widespread structural weakness; specific areas prone to sudden collapse triggered by vibration or minor temporal flux.]"
+          trigger: "[e.g., Explosions, heavy machinery operation, nearby anomaly emergence.]"
+          consequence: "[e.g., Environmental hazard, impassable routes, potential character injury/death.]"
+          narrative_function: "[Makes exploration inherently dangerous; adds tension; allows for environmental plot twists.]"
+          authentication: "[Source - Location Profile]"
+        # --- Add other critical vulnerabilities ---
+      prompts:
+        - "What is the 'Achilles Heel' for powerful entities or systems?"
+        - "How do environmental conditions create specific vulnerabilities?"
+        - "Are weaknesses absolute, or do they have thresholds/conditions?"
+        - "How can knowledge of these authenticated vulnerabilities drive plot (both for protagonists and antagonists)?"
+
+    # --- 5. Costs, Dependencies & Operational Constraints (The Price of Function) ---
+    costs_dependencies_constraints:
+      title: "Authenticated Requirements and Limitations on Functionality"
+      entries:
+        - constraint_id: "COST_ChronoViewerDustDrain"
+          applies_to: "[OBJ_ChronoViewerMk3]"
+          type: "[Resource Cost]"
+          description: "[e.g., Consumes 1 unit Refined Dust per 4.7 minutes active viewing (precisely authenticated); efficiency decreases with echo complexity.]"
+          consequence_if_unmet: "[e.g., Device shuts down abruptly; potential minor paradox feedback.]"
+          narrative_function: "[Limits usage, creates resource need, adds strategic layer.]"
+          authentication: "[Source - Tech Manual Prop]"
+        - constraint_id: "COST_TemporalMagicVitality"
+          applies_to: "[e.g., Any character using authenticated Temporal Magic]"
+          type: "[Physiological Cost]"
+          description: "[e.g., Causes direct, measurable drain on 'Vitality' property (specify scale/mechanic); severe use leads to authenticated stages of Temporal Sickness.]"
+          consequence_if_unmet: "[e.g., Spell failure, fainting, accelerated aging, potential memory loss/paradox sickness.]"
+          narrative_function: "[High stakes for magic use; limits power levels; thematic link (cost of tampering with time).]"
+          authentication: "[Source - Magic System Rules Doc]"
+        - constraint_id: "DEPEND_AutomatonNetwork"
+          applies_to: "[Standard Guild Automatons]"
+          type: "[Dependency]"
+          description: "[e.g., Require periodic connection to secure Guild network for diagnostic checks, software updates, and potentially directive overrides. Autonomous operation time is limited.]"
+          consequence_if_unmet: "[e.g., Increased glitch rate, potential shutdown, vulnerability to hacking if network compromised.]"
+          narrative_function: "[Reinforces Guild control; provides plot point for hacking/sabotage; explains limits of independent action.]"
+          authentication: "[Source - Tech Spec Doc - Automatons]"
+        - constraint_id: "OPCON_ArchiveAccessProtocol"
+          applies_to: "[LOC_MemoryArchive]"
+          type: "[Operational Constraint]"
+          description: "[e.g., Access requires authenticated Tier 3+ Guild Clearance, multi-factor biometric scan (retinal + chrono-signature), navigation through timed security checkpoints, and queries logged.]"
+          consequence_if_unmet: "[e.g., Alarms triggered, intruder containment protocols activated, potential memory flag/wipe.]"
+          narrative_function: "[Creates significant barrier for information retrieval; necessitates heist/infiltration plot mechanics.]"
+          authentication: "[Source - Location Security Protocol Doc]"
+        - constraint_id: "OPCON_ArtifactAttunement"
+          applies_to: "[OBJ_MoonShardHeart]"
+          type: "[Operational Constraint]"
+          description: "[e.g., Can only be safely wielded/activated by individuals possessing specific authenticated genetic marker OR having undergone dangerous ritual attunement (details obscure/lost?).]"
+          consequence_if_unmet: "[e.g., Violent energy discharge, severe Temporal Sickness/mutation, artifact rejection.]"
+          narrative_function: "[Limits usability of powerful object; creates 'chosen one' potential or quest for attunement method; adds risk.]"
+          authentication: "[Source - Artifact Lore Entry]"
+        # --- Add other crucial costs, dependencies, procedural rules ---
+      prompts:
+        - "For every significant capability, what is its necessary *price* (energy, resource, time, health, sanity, social standing)?"
+        - "What *external factors* (tools, locations, other people, specific conditions) are required for a function to operate?"
+        - "What are the precise *steps* or *procedures* required to use a complex piece of tech or perform a ritualistic magic?"
+
+  # --- Functional Profile Summary & Narrative Role ---
+  functional_profile_summary:
+    purpose: "Synthesize the entity's dynamic potential, operational logic, and role within the narrative arising from its functional properties."
+    core_functional_identity: |
+      [Summarize the entity's essential function based on the balance of its capabilities and limitations. 
+      e.g., "The Chrono-Viewer Mk3 functions as a **limited but vital investigative tool**, its authenticated ability 
+      to glimpse the immediate past constrained by **severe resource costs, operational complexities, and inherent 
+      paradox risks**. Its primary role is providing fragmented clues while simultaneously driving resource 
+      conflict and narrative tension through its limitations and dangers."]
+    primary_narrative_functions_served: "[List key roles: e.g., Problem-Solving Tool, Information Source (Flawed), Source of Conflict/Stakes, Plot Device Enabler, Embodiment of Tech Limits/Risks.]"
+    relationship_to_alethic_modality: "[How does this entity's function exemplify, test, or operate at the edges of the world's laws of possibility? e.g., Operates within possibility but pushes close to forbidden paradox thresholds.]"
+    key_functional_tensions_tradeoffs: "[Identify inherent conflicts: e.g., Need for information vs. High cost/risk of using Viewer; Capability for observation vs. Impossibility of intervention; Reliability vs. Degradation.]"
+    overall_systemic_impact: "[How does this entity's function influence other world systems? e.g., Viewer use impacts Dust economy, Guild politics (control), and potentially environmental stability (paradox risk).]"
+
+# --- End of Entity Functional Profile ---
+
+
+How this YAML Embodies "Extreme Detail" for Functional Properties:
+
+Granular Categorization: Breaks down function into Capabilities (Innate, Learned, Tech/Magic), Inabilities, Vulnerabilities, and Costs/Dependencies/Operational Constraints, demanding detailed consideration of each facet.
+
+Specific Parameter Fields: Within capabilities and constraints, includes fields for scope_intensity, limits/nuances, trigger, consequence, justification, forcing precise definition beyond simple statements.
+
+Explicit Authentication Citation: Maintains the requirement to link each functional property back to its canonical source.
+
+Sensory Integration: Includes fields for sensory_tell associated with functions, linking dynamic potential back to perceivable reality.
+
+Narrative Function Analysis: Explicitly requires analyzing the purpose of each limitation or capability within the narrative (e.g., "drives core motivation," "creates specific obstacle," "limits power scaling").
+
+Deep Prompts: Includes highly specific prompts pushing for detailed consideration of interactions with world rules, potential for exploitation, conditions of failure, and systemic impact.
+
+Rigorous Synthesis: The summary section demands a detailed articulation of the entity's functional identity based on the complex interplay of its strengths and weaknesses, its role, and its relationship to core world mechanics.
+
+Focus on Internal Logic: Continuously emphasizes defining functions within the established rules (modalities) of the Aethelgard heterocosm.
+
+This extremely detailed YAML template provides a robust framework for defining the dynamic potential of entities within your world. By meticulously authenticating not just what they can do, but precisely how, at what cost, and what they cannot do, you build a foundation for logical action, meaningful conflict, and a truly coherent and functional heterocosmic system.

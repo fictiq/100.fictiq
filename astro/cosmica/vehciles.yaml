@@ -1,0 +1,56 @@
+aethelgard_vehicles:
+  description: Mobile entities and transport mechanisms within the clockwork city of Aethelgard and its environs. Reflects the world's Chrono-Noir aesthetic, reliance on Chrono-Tech/Steam, Guild structures, and environmental hazards. (Derived from Aethelgard Codex v0.9).
+
+  # --- Automatons (Explicitly Mentioned Mobile Entities) ---
+  automatons:
+    description: Clockwork entities powered by Chrono-Dust cores. While diverse in function (labor, security, data), some variants likely serve transport roles. Prone to glitches and potential emergent consciousness. (Codex Sec 2, 4, 5).
+    guild_influence: Different Guilds likely have proprietary designs and control access (Codex Sec 2, 5).
+    potential_transport_variants:
+      cargo_hauler_automaton:
+        description: Robust, large-scale automatons designed for moving goods, prevalent in industrial zones like the Gearwright's Quarter and Brass Market. Likely steam-augmented.
+      guild_transport_automaton:
+        description: Specialized, possibly armored or secured automatons used by Guilds for personnel or sensitive material transport within controlled districts like the Grand Orrery.
+      maintenance_drone: # Related to 'Mechanical Fauna/Golems' when malfunctioning (Codex Sec 4)
+        description: Smaller automated units for infrastructure repair. Not primary transport, but mobile within the city's systems. Can become hazards in the Undercity if damaged/rogue.
+
+  # --- Intra-City Transport (Implied by City Structure) ---
+  intra_city_transport_systems:
+    description: Mechanisms facilitating movement across Aethelgard's concentric rings and vertical layers. Reflects the city's scale, clockwork nature, and societal stratification. (Implied by Codex Sec 3).
+    potential_types:
+      steam_tram_network:
+        description: Likely Guild-operated or regulated trams running on fixed tracks connecting major districts. Powered primarily by steam, potentially using minor Chrono-Tech for scheduling or stabilization. Aesthetics blend function with Guild insignia.
+      clockwork_cab_conveyance:
+        description: Smaller, perhaps automated or piloted pods running on guideways or designated routes for personal transport. Access likely restricted by cost or Guild affiliation. Features intricate gearwork and brass fittings.
+      vertical_lift_systems:
+        description: Essential for navigating between the upper city and the Undercity, or within tall spires. Designs range from ornate Guild lifts in the Orrery District to precarious, steam-powered cages descending into the depths. Critical infrastructure and points of conflict/control.
+
+  # --- Industrial & Utility Vehicles (Implied by Industry/Function) ---
+  industrial_vehicles:
+    description: Heavy-duty vehicles focused on resource extraction, processing, construction, and waste management, primarily seen in the Gearwright's Quarter and supporting infrastructure. Often prioritize function over finesse. (Implied by Codex Sec 3, 5, 6).
+    potential_types:
+      steam_hauler_rig:
+        description: Large, ground-based vehicles (wheeled or tracked) for bulk transport of raw materials (like salvaged scrap) or industrial components. Noisy, polluting, utilitarian design.
+      foundry_ladle_carrier:
+        description: Specialized platforms, possibly rail-bound or using heavy-duty hydraulics/gears, for moving molten metals or heavy machinery within foundries and workshops.
+      construction_automaton_platform: # Combines automaton + vehicle concept
+        description: Mobile platforms integrated with specialized automatons (welders, riveters, lifters) used in large-scale construction or repair efforts, possibly by the Gearwright Guild.
+
+  # --- Undercity Transport (Implied by Environment/Activities) ---
+  undercity_vehicles:
+    description: Rugged, often salvaged or heavily modified vehicles adapted for the dangerous, unstable, and poorly mapped environment of the Rusting Undercity. Emphasize durability and improvisation. (Implied by Codex Sec 3, 4 & Story Seed "Echoes in the Rust").
+    potential_types:
+      salvage_skiff_crawler:
+        description: Small, maneuverable craft, possibly using tracks, multiple legs, or rudimentary repulsors (if advanced salvage tech), designed for navigating collapsed tunnels and tight spaces to retrieve salvage. Often heavily customized by crews.
+      armored_explorer_rig:
+        description: Larger, more robust tracked or multi-legged vehicles used for deeper Undercity exploration or traversing particularly hazardous zones (e.g., near temporal pockets or Aberration nests). May incorporate salvaged armor plating and basic environmental sensors.
+      waste_disposal_barge: # Connects to city function
+        description: Grim, heavily reinforced barges or submersible containers used (officially or unofficially) to transport hazardous waste or unwanted materials into the deepest, most forgotten parts of the Undercity.
+
+  # --- Specialized & Chrono-Tech Vehicles (Implied by Technology) ---
+  chrono_tech_vehicles:
+    description: Vehicles incorporating significant Chrono-Tech beyond basic stabilization, likely rare, Guild-controlled, or experimental. High risk/reward potential. (Implied by Codex Sec 2, 5).
+    potential_types:
+      temporal_field_generator_platform:
+        description: Mobile platforms mounting localized Preservation Field generators or Time-Stutter devices. Used for delicate salvage, containment of anomalies, or potentially as weapons. Extremely energy-intensive and unstable. (Based on known Chrono-Tech applications).
+      chrono_anomaly_response_unit:
+        description: Hypothetical fast-response vehicles used by Chronometers Guild or elite security forces, equipped with sensors to detect temporal distortions and tools/containment gear for dealing with minor Aberrations or Paradox events. Likely shielded and incorporating advanced chronometric instruments.

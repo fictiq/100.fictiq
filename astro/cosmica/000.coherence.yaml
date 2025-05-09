@@ -1,0 +1,389 @@
+# ============================================================
+# Story World Codex: Advanced Coherence & Logic Protocol
+# Version: 1.0 (Based on Doležel - Coherence as Creative Achievement - EXTREME DETAIL)
+# Last Updated: [Current Date]
+# Keeper of the Codex: [Your Name/Studio Name]
+# World: [Your Story World Name, e.g., Aethelgard]
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol guides the **rigorous evaluation and reinforcement** of **internal coherence** within the 
+    [Your Story World Name] heterocosm. Inspired by Doležel's framework, it treats coherence – the logical 
+    compatibility of all authenticated facts, rules (modalities), properties, events, states, and histories 
+    *according to the world's own established principles* – not merely as the absence of error, but as a 
+    **primary, demanding, and sophisticated creative achievement**. It is the bedrock of audience trust, 
+    immersive believability, and meaningful narrative consequence.
+  focus: |
+    Systematically interrogate the world's structure for potential contradictions at all levels 
+    (modal, historical, synchronic). Validate the internal logic, ensuring the heterocosm functions 
+    as a believable (though not necessarily realistic), self-consistent semantic system. 
+    Push beyond surface consistency to examine deep structural integrity.
+
+# --- I. Core Modality Consistency Check (The World's Constitution) ---
+core_modality_consistency:
+  purpose: |
+    Ensure the fundamental governing laws of the world (its 'constitution') are clearly 
+    authenticated, internally compatible, and consistently applied without arbitrary exception.
+  
+  alethic_modality_check: # Possibility / Necessity / Impossibility (Physics, Magic, Tech Rules)
+    authenticated_core_rules_summary: |
+      [Summarize 2-5 absolutely fundamental alethic laws/limits, e.g., 
+      1. No True Time Travel (Observation/Stutter Only). 
+      2. Paradox Risk Escalates with Manipulation Scope/Duration. 
+      3. Magic Requires Vitality/Sanity Cost (Specific Mechanics TBD/Detailed Elsewhere). 
+      4. Aberrations Immune to Conventional Damage. 
+      5. Artificer Tech Operates on Unknown Principles (Potentially Bypasses Some Current Limits).]
+    consistency_interrogation:
+      - question: "Are there *any* authenticated instances (plot events, character abilities, object functions) that directly contradict these core alethic limits?"
+        analysis_notes: "[e.g., Initial plot idea involved Kaelen accidentally reversing time locally - DIRECT VIOLATION of Rule 1. Needs fundamental rework or justification via extremely rare/costly Artificer tech (Rule 5)."
+        resolution_action: "[e.g., Rework plot point to involve replaying/observing past events, not altering them. OR Introduce specific MacGuffin with authenticated, limited rule-bending capability & high cost/risk.]"
+      - question: "Are the *costs and risks* (Paradox, Vitality Drain, Sickness) associated with using magic/tech applied consistently and proportionally across different characters and situations?"
+Okay, Artist of Worlds, let's convert the "Internal Coherence Protocol" into YAML and expand it with **extreme detail** and        analysis_notes: "[e.g., Protagonist seems to recover from magic drain faster than established norms for other characters. Antagonist uses powerful Chrono-Tech repeatedly without apparent Paradox risk accumulation.]"
+        resolution_action: "[e.g., Justify protagonist's recovery (unique physiology? hidden artifact? – must be authenticated) OR scale more **granular checks**. This version aims to be an exhaustive tool for meticulously auditing the logical integrity of Aethelgard, treating coherence not just as a goal, but as the fundamental physics and metaphysics ensuring the heterocosm doesn't collapse under its own complexity.
+
+```yaml
+# ============================================================
+# Story World Codex: Deep Coherence Audit & Integration Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Coherence Im back usage OR show hidden costs later. Detail antagonist's risk mitigation/consequences (shielding tech? accumulating hidden temporal debt?).]"
+      - question: "Do proposed solutions to narrative problems respect established impossibilities, or do they rely on convenient, unauthenticated exceptions?"
+        analysis_notes: "[e.g., Plan for defeating Aberration reliesplication)
+# Last Updated: [Current Date]
+# Keeper of the Codex: [Your Name/Studio Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an exhaustive framework for auditing and reinforcing the **deep internal coherence** 
+    of the Aethelgard heterocosm. Building on Doležel's principle that coherence is a **primary creative achievement**, 
+    this document guides a meticulous examination of the logical compatibility and consistent application of 
+    ** on standard explosives, contradicting Rule 4.]"
+        resolution_action: "[e.g., Redesign encounter to focus on containment, banishment via authenticated temporal frequency, or exploiting specific environmental weakness consistent with Aberration lore.]"
+      - question: "If rules *can* be bent/broken (e.g., via Artificer tech), are the conditions, costs, and consequences for doing so *themselves* clearly authenticated and consistently applied?"
+        analysis_notes: "[e.g., Artificer tech seems like a potential 'get out of jail free' card. Its limits and risks need clearer authentication.]"
+        resolution_action: "[e.g., Define specific, rare power sources needed; authenticate severe potential side-effects or paradox risks associated with Artificer tech misuse.]"
+
+  deall** authenticated elements – modalities, history, global states, entity properties, narrative events – 
+    according to the world's established internal rules.
+  focus: |
+    To identify and resolve potential contradictions, inconsistencies, or violations of established world logic 
+    at both micro and macro levels, ensuring structural integrity, maximizing audience trust and immersion, 
+    ontic_modality_check: # Obligation / Permission / Prohibition (Laws, Ethics, Codes)
+    authenticated_core_rules_summary: |
+      [Summarize 2-5 key deontic principles, e.g., 
+      1. Guild Law: Tech secrecy paramount, unauthorized Archive access forbidden (Memory Wipe penalty). 
+      2. Salvager Code: Mutual aid, territorial respect (enforced by crews, not Council). 
+      3. Council Edicts: Curfews in outer rings, Dust harvesting quotas. 
+      4. Implicit Social Norm: Strong taboo against uncontrolled Aberration summoning/study.]
+    consistency_interrogation:
+      - question: "Are theand validating the heterocosm as a believable, self-consistent semantic system. This audit treats coherence 
+    not just as desirable, but as the essential operational integrity of the world-machine.
+
+# --- I. Core Modality Consistency Audit (Fundamental Laws Check) ---
+modality_consistency_audit:
+  purpose: "Ensure the foundational rules governing possibility, necessity, obligation, value, and knowledge are rigorously and consistently applied across all authenticated instances."
+  
+  alethic_modality: # Possibility / Necessity / Impossibility (Physics, Magic, Tech Rules)
+    authenticated_core_rules_summary: 
+      - "[e.g., Chrono-Tech Limitations: No true time travel (only observation/local stutter); Paradox Risk severe & unpredictable; Requires refined Dust; Tech degrades.]"
+      - "[e.g., Physics Baseline: Earth-normal unless altered by authenticated Chrono-Tech/Anomaly; No inherent supernatural abilities in baseline humans.]"
+      - "[e.g., Aberration Ontology: Cannot be permanently destroyed by known means; Exist partially outside normal time-flow; Triggered/attracted by paradox/instability.]"
+    consistency_checks:
+      - check_id: "ALE-C01"
+        question: "Are * *consequences* for violating key deontic rules consistently and plausibly depicted for different characters/factions? (Consider power dynamics - does a Guild Master face the same penalty as a novice?)"
+        analysis_notes: "[e.g., Consequences for Guild Law violations seem strict for low ranks, but powerful figures appear to bypass them. Needs justification or signifies authenticated corruption.]"
+        resolution_action: "[e.g., Show powerful figures using influence/bribery/all* depicted uses of Chrono-Tech strictly within authenticated limits (e.g., no accidental 'rewinds', power source always accounted for)? Are paradox risks consistently portrayed as dangerous?"
+        assessment_notes: "[e.g., Generally yes, but Scene X in Draft Y shows Kaelen seemingly 'nudging' an object back a second - needs clarification/revision to be observation only, or requires authenticating a very rare/dangerous device function.]"
+        action_item: "[e.g., Revise Scene X description OR add Codex entry for rare 'Nudge Device' with extreme costs/risks.]"
+      - check_id: "ALE-C02"
+        question: "Do characters exhibit *only* the physical/metaphysical capabilities authenticated for their species/type/augmentations (loopholes (authenticating corruption) OR show hidden consequences later OR revise rule application consistency.]"
+      - question: "Do characters' internal ethical struggles realistically reflect the pressures and contradictions *within* the authenticated deontic systems?"
+        analysis_notes: "[e.g., Kaelen's conflict between City Watch duty and Undercity contacts feels grounded in opposed deontic codes. Need more exploration of Chronomancer ethics re: Paradox risk vs. potential benefits.]"
+        resolution_action: "[e.g., Develop internal monologue/dialogue for Chronomancer characters grappling with the ethics of their research based on authenticated risks/rules.]"
+      - question: "Are permissions and obligations tied to specific social roles (e.g., Investigator, Guild Artisan, Council Member) consistently portrayed?"
+        analysis_notes: "[e.g., Generally yes. Ensure Investigator K-'s access/authority aligns with authenticated City Watch protocols.]"
+        resolution_action: "[e.g., Detail City Watch procedural rules in relevant Codex section.]"
+
+  axiological_modality_check: # Values / Desirability / Taboos
+    authenticated_core_values_summary: |
+      [Summarize key authenticated values, e.g., 
+      1. Guilds Value: Order, Control, Efficiency, Knowledge (Guild-specific). 
+      2. Undercity Values: Survival, Autonomy, Practicale.g., no unexplained super strength, flight, telepathy)?"
+        assessment_notes: "[e.g., Human capabilities consistent. Need to better define sensory range/limits for specific Automaton types.]"
+        action_item: "[e.g., Add sensory spec details to Automaton entity profiles.]"
+      - check_id: "ALE-C03"
+        question: "Are encounters with Temporal Aberrations consistently reflecting their authenticated nature (indestructibility, temporal effects, triggers)? Are containment/dispersal methods adhering to world rules?"
+        assessment_notes: "[e.g., Most encounters consistent. One early draft scene had an Aberration easily 'killed' - needs rewrite to reflect dispersal/temporary defeat.]"
+        action_item: "[e.g., Rewrite Aberration encounter in Draft Z to emphasize containment/evasion, not destruction.]"
+      - check_id: "ALE-C04"
+        question: "Are the fundamental 'impossibilities' of the world (e.g., creating Dust from nothing, reversing major historical events) consistently upheld?"
+        assessment_notes: "[e.g., So far, yes. Ensure no MacGuffins are introduced that violate these core impossibilities without fundamentally altering the world's authenticated nature.]"
+        action_itemity, Community (local). 
+      3. General Taboo: Uncontrolled Temporal Power (Hubris), Revealing Pre-Shattering Truths (Destabilizing). 
+      4. Contested Value: Preservation vs. Progress.]
+    consistency_interrogation:
+      - question: "Do character motivations and narrative rewards/punishments consistently align with these authenticated value systems?"
+        analysis_notes: "[e.g., Characters pursuing Order often succeed within Guild structure, those seeking pure Chaos face consequences. Narrative seems ambivalent on Preservation vs. Progress – needs clearer thematic outcome or embrace ambiguity.]"
+        resolution_action: "[e.g., Ensure consequences for characters embodying Progress vs. Preservation: "[e.g., Maintain strict adherence to core impossibilities in future plotting.]"
+
+  deontic_modality: # Obligation / Permission / Prohibition (Laws, Ethics, Codes)
+    authenticated_core_rules_summary:
+      - "[e.g., Guild Laws: Strict hierarchy, secrecy oaths, control over tech/Dust, punishment for unauthorized temporal manipulation (memory-wipe).]"
+      - "[e.g., Council Decrees: Surface regulations, inter-Guild mediation (often ineffective), Undercity access control.]"
+      - "[e.g., Undercity Codes: Survival paramount, crew loyalty valued (but betrayal common), 'finders keepers' for salvage (often contested), distrust of Surface law.]"
+    consistency_checks:
+      - check_id: "DEO-C01"
+        question: "Are consequences for violating authenticated laws/codes consistently depicted (both formally via Watch/Guilds and socially via reputation/ostracism)?"
+        assessment_notes: "[e.g., Consequences for major Guild violations seem clear. Social consequences of violating Undercity codes need more varied depiction beyond simple violence.]"
+        action_item: "[e.g., Brainstorm non-violent consequences for breaking Salvager code (e.g., loss of network align with intended theme, or explicitly authenticate the value system as being in flux/contested.]"
+      - question: "Are 'good' and 'evil' (or analogous concepts) defined and applied consistently *according to this world's authenticated standards*, not just the author's/reader's external values?"
+        analysis_notes: "[e.g., Actions deemed 'necessary for order' by Guilds might be seen as 'evil' by Undercity; narrative needs to consistently portray these *perspectives* while potentially having the authoritative discourse subtly favor one or authenticate objective negative consequences.]"
+        resolution_action: "[e.g., Use focalization carefully to show differing value judgments; ensure narrative consequences flow logically from actions within the world's established moral causality, if any.]"
+
+  epistemic_modality_check: # Knowledge / Belief / Information Access
+    authenticated_core_rules_summary: |
+      [Summarize key knowledge constraints, e.g., 
+      1. History Fragmented/Manipulated (Memory Keepers). 
+      2. Artificer Knowledge Lost/Inaccessible. 
+      3. Guild Info Compartmentalized. 
+      4. Direct Observation Reliable (barring temporal effects). 
+      5. Rumor/Folklore Unreliable but Prevalent.]
+    consistency_interrogation:
+      - question: "Do characters acquire crucial information through means consistent with these authenticated limitations? Or do they experience convenient 'info dumps' or unearned insights?"
+        analysis_notes: "[e.g., Kaelen's deductions based on observation seem consistent. Planned reveal where minor character suddenly possesses deep Artificer knowledge feels unearned.]"
+        resolution_action: "[e.g., Justify minor character's knowledge (secret lineage, found hidden text – needs authentication) OR make information partial/misleading OR have Kaelen acquire it through difficult access, blacklisting).]"
+      - check_id: "DEO-C02"
+        question: "Do characters holding specific roles (Councilor, Guild Master, Watch Captain, Salvager Crew Boss) consistently act within the authenticated permissions and obligations of those roles (or face consequences for failing to do so)?"
+        assessment_notes: "[e.g., Consistent. Roles clearly define spheres of influence and expected duties.]"
+        action_item: "[N/A]"
+      - check_id: "DEO-C03"
+        question: "Are ethical dilemmas presented as genuine conflicts between authenticated, often competing, deontic rules or values (e.g., Guild loyalty vs. personal morality; survival vs. Salvager code)?"
+        assessment_notes: "[e.g., Yes, ethical dilemmas often arise from conflicting obligations inherent in the world structure.]"
+        action_item: "[N/A]"
+
+  axiological_modality: # Values / Disvalues
+    authenticated_core_values_summary:
+      - "[e.g., Guilds: Order, Precision, Control, Knowledge (hoarded), Pragmatism.]"
+      - "[e.g., Undercity: Survival, Resourcefulness, Independence, Community (crew-level), Distrust.]"
+      - "[e.g., General Taboos: Uncontrolled Temporal Effects (hubris), Pre-Shattering Tech (dangerous/unpredictable), Questioning Official History (subversive).]"
+    consistency_checks:
+      - check_id: "AXI-C01"
+        question: "Do character motivations and goals generally align with pursuing authenticated values or avoiding disvalues relevant to their background/faction?"
+        assessment_notes: "[e.g., Guild characters consistently seek order/control. Salvagers prioritize survival. Need to better exemplify characters actively valuing investigation respecting epistemic limits.]"
+      - question: "Is the unreliability of certain sources (Memory Keepers, propaganda, rumors) consistently portrayed, forcing characters (and readers) to engage in critical assessment?"
+        analysis_notes: "[e.g., Yes, Memory Keeper pronouncements are often framed ambiguously. Need more examples of characters *acting* on false rumors with negative consequences.]"
+        resolution_action: "[e.g., Add subplot where reliance on Undercity rumor leads characters into a trap.]"
+
+  overall_modality_prompt: |
+    Consider the core modalities together. Do they form a coherent, functional system? Are there points where the authenticated rules of possibility, obligation, value, and knowledge seem to clash illogically?
+
+# --- II. Diachronic Consistency Check (Across Time) ---
+diachronic_consistency:
+  purpose: |
+    Ensure authenticated facts, properties, and states remain stable over the narrative timeline 
+    unless changes are explicitly authenticated and logically justified within world rules.
+  
+  check_areas:
+    - area: "Character Properties (Physical/Psychological/Functional)"
+      consistency_question: "Do characters retain core traits unless development/change is authenticated (e.g., via training, trauma, tech, magic, significant plot event)?"
+      potential_issue_example: "[Character loses a specific fear instantly without cause.]"
+      resolution_approach: "[Authenticate the event causing the change OR revise characterization for consistency.]"
+
+    - area: "Historical Facts & Timelines"
+      consistency_question: "Once authenticated, are historical events, dates, figures, and established lore treated as stable background? Are details consistent across references?"
+      potential_issue_example: "[Conflicting dates given for the same past event in different narrative sections.]"
+      resolution_approach: "[Establish definitive canon date in Codex and revise text OR authenticate the differing dates as evidence of unreliable in-world records/sources.]"
+
+    - area: "Global States Evolution"
+      consistency 'Beauty in Imperfection' theme.]"
+        action_item: "[e.g., Add character subplot involving meticulous repair/appreciation of a 'broken' but functional object.]"
+      - check_id: "AXI-C02"
+        question: "Does the narrative framing and consequences consistently (even subtly) reinforce the authenticated value system, or does it sometimes seem to reward actions deemed 'bad' within the world without justification?"
+        assessment_notes: "[e.g., Consistent reinforcement that hubris related to Chrono-Tech leads to disaster. Need to ensure 'bad guys' don't always win solely through violating world values without facing *some* form of consequence (even internal).]"
+        action_item: "[e.g., Review antagonist arcs for appropriate consequences aligned with world axiology.]"
+
+  epistemic_modality: # Knowledge / Belief / Information Flow
+    authenticated_core_rules_summary:
+      - "[e.g., Knowledge Limits: True cause of Shattering unknown; Artificer tech largely incomprehensible; Aberration nature mysterious; Future uncertain (no reliable prophecy).]
+      - "[e.g., Info Control: Guilds hoard technical/historical data; Memory Keepers potentially alter records; Council controls public chronocasts; Undercity relies on rumor/scuttlebutt.]"
+      - "[e.g., Source Reliability: Direct sensory observation = generally reliable but can be distorted by temporal effects; Guild records = comprehensive but potentially biased/censored; Undercity oral history = passionate but variable accuracy; Aberration encounters = inherently confusing/traumatizing.]"
+    consistency_checks:
+      - check_id: "EPI-C01"
+        question: "Do characters struggle appropriately to obtain information established as rare, restricted, or unreliable? Do 'information discoveries' feel earned and plausible given the epistemic constraints?"
+        assessment_notes: "[e.g., Struggle for historical truth seems well-established. Need to ensure technical data isn't acquired too easily, respecting Guild secrecy rules.]"
+        action_item: "[e.g_question: "Do changes in political climate, environment, economy, etc., occur as plausible consequences of authenticated plot events or historical forces, rather than arbitrary shifts?"
+      potential_issue_example: "[Sudden economic boom occurs with no authenticated cause.]"
+      resolution_approach: "[Invent and authenticate a preceding cause (new resource discovery, trade deal) OR remove/modify the unexplained boom.]"
+
+    - area: "Object/Technology States"
+      consistency_question: "Do artifacts/tech retain functions/limits unless authenticated events (damage, upgrade, power loss) alter them?"
+      potential_issue_example: "[A device's established energy cost is ignored in a later scene.]"
+      resolution_approach: "[Reinforce the cost (show consequence) OR authenticate a reason for temporary efficiency (rare power surge, character's unique skill).]"
+
+  temporal_logic_prompt: |
+    If using temporal manipulation/loops/anomalies: Are the internal rules of *how* these phenomena work applied consistently every time they occur? Are paradoxes handled according to pre-established consequences?
+
+# --- III. Synchronic Consistency Check (At the Same Time) ---
+synchronic_consistency:
+  purpose: |
+    Ensure different authenticated elements existing or occurring simultaneously are logically 
+    compatible according to the world's established rules and state.
+
+  check_areas:
+    - area: "Entity Properties vs. World Laws (Modalities)"
+      consistency_question: "Can an entity possess an authenticated property that directly violates an authenticated fundamental law of the world without specific justification?"
+      potential_issue_example: "[Character authenticated as 'standard human' suddenly flies, violating authenticated alethic limits.]"
+      resolution_approach: "[Provide authenticated reason (hidden tech, temporary magic effect consistent with rules, revealed non-human nature) OR remove the inconsistent ability.]"
+
+    - area: "Entity Actions vs. World Laws/States"
+      consistency_question: "Are characters' actions plausible given their own properties *and* the constraints of the current authenticated Global State and Modalities?"
+      potential_issue_example: "[Impoverished character easily bribes powerful official, contradicting both character's economic property and world's political state/risk structure., Plot point requiring technical data must involve espionage, infiltration, or bribing a source with authenticated access.]"
+      - check_id: "EPI-C02"
+        question: "Is the established reliability (or lack thereof) of different sources consistently maintained? Do characters exhibit appropriate skepticism or trust based on the source?"
+        assessment_notes: "[e.g., Consistent portrayal of distrust towards Memory Keepers. Ensure characters don't blindly trust Undercity rumors without corroboration.]"
+        action_item: "[e.g., Add scene where character acts on faulty Undercity rumor with negative consequences.]"
+      - check_id: "EPI-C03"
+        question: "Are there instances where characters seem to possess knowledge they couldn't plausibly acquire under the world's authenticated epistemic rules?"
+        assessment_notes: "[e.g., One scene implies Kaelen knows a specific historical detail seemingly erased by Memory Keepers - needs justification (perhaps a fragmented memory resurfacing, not conscious knowledge).]"
+        action_item: "[e.g., Reframe Kaelen's knowledge as an intuitive flash or feeling, consistent with his amnesia/fragmented memory properties.]"
+
+# --- II. Diachronic Consistency Audit (Across Time) ---
+diachronic_consistency_audit:
+  purpose: "Ensure authenticated facts, properties, and states remain stable over the narrative timeline unless changes are explicitly and consistently authenticated."
+  
+  check_areas:
+    - area: "Character Property Stability vs. Development"
+      question: "Do characters retain core authenticated traits unless narrative events explicitly authenticate change/development? Is development gradual and plausible within world context?"
+      potential_issue_example: "Character suddenly develops mastery of Chrono-Tech with no authenticated training period or explanation."
+      resolution_strategy: "Authenticate training montage, discovery of innate talent (if world allows), or acquisition of knowledge-imparting artifact; OR revise ability level."
+      
+    - area: "Historical Fact Stability"
+      question: "Once authenticated, are historical facts treated as fixed points in the world's past?.]"
+      resolution_approach: "[Justify the bribe (stolen funds, hidden leverage) OR make bribe fail OR revise character/state properties.]"
+
+    - area: "Inter-Compatibility of Global States"
+      consistency_question: "Do different aspects of the authenticated Global State logically coexist? (e.g., 'Thriving Arts Scene' vs. 'Brutal Authoritarian Censorship')."
+      potential_issue_example: "[World authenticated as having near-total information control AND simultaneously having easy, widespread access to truthful underground news.]"
+      resolution_approach: "[Explain the relationship (control *causes* underground news but makes it dangerous/difficult access) OR revise one of the state predications for better alignment.]"
+
+    - area: "System Interactions (Tech/Magic/Society)"
+      consistency_question: "Do the authenticated rules and functions of different world systems (technology, magic, politics, economy, ecology) interact in a logical and consistent manner?"
+      potential_issue_example: "[A magical effect authenticated as 'transient' somehow creates a permanent, economically disruptive resource.]"
+      resolution_approach: "[Revise magical effect consistency OR introduce authenticated secondary effect explaining resource permanence OR remove contradiction.]"
+
+  holistic_prompt: |
+    Take a complex scenario involving multiple entities, world rules, and state conditions. Does the interaction flow logically according to ALL relevant authenticated propositions? Where do potential logical conflicts arise?
+
+# --- IV. Managing Complexity and Avoiding "Worldbuilder's Disease" ---
+complexity_management:
+  purpose: |
+    Ensure the pursuit of coherence and detail serves narrative/thematic goals, rather than 
+    becoming an exercise in unmanageable or irrelevant complexity.
+
+  consistency_checks:
+    - area: "Complexity vs. Clarity"
+      question: "Is the world's structure (rules, history) becoming so convoluted that it hinders narrative clarity or consistent application, even for the creator?"
+      assessment_notes: "[e.g., Are dates, sequences, and core details consistent across all references?"
+      potential_issue_example: "The date or key participants of the Founding Compact differ between two narrative sources without acknowledgement of discrepancy/unreliability."
+      resolution_strategy: "Establish definitive canon date/details in Codex and correct inconsistent references; OR explicitly frame one source as potentially inaccurate within the narrative."
+
+    - area: "Global State Continuity"
+      question: "Do established world conditions persist until events authenticate a change? Are changes depicted with plausible scope and timeframe?"
+      potential_issue_example: "World described as suffering resource scarcity, but characters suddenly have easy access to abundant fuel in the next chapter."
+      resolution_strategy: "Justify resource access (new discovery, theft, specific location); OR revise scarcity description; OR authenticate event causing resource availability change."
+
+    - area: "Object/Technology Function Stability"
+      question: "Do established devices/artifacts retain their authenticated functions and limitations across the narrative?"
+      potential_issue_example: "A simple Chrono-Viewer suddenly gains ability to project users physically into the past."
+      resolution_strategy: "Adhere to established limits OR introduce authenticated upgrade/modification/power source explaining new capability *within world rules*."
+
+    - area: "Sensory Legacy Consistency"
+      question: "Are the established sensory footprints of past events or historical eras consistently reflected in descriptions of relevant present-day locations or artifacts?"
+      potential_issue_example: "Ruins described initially as feeling 'cold and silent' are later depicted as 'warm and humming' without explanation."
+      resolution_strategy: "Maintain initial sensory profile OR authenticate an event/reason for the change (e.g., activation of dormant tech)."
+
+  prompts:
+    - "Read chronologically: Do any later events or descriptions directly contradict firmly established earlier facts or rules?"
+    - "Does character knowledge or capability seem to regress or advance illogically without authenticated cause?"
+    - "Is the 'passage of time' itself The five competing systems for calculating Paradox Risk are overly complex and rarely impact plot directly.]"
+      action_item_if_needed: "[e.g., Streamline Paradox Risk into one core mechanic with clearer consequences.]"
+
+    - area: "Functional Detail vs. Extraneous Detail"
+      question: "Does every significant authenticated detail potentially serve a purpose (plot, character, theme, atmosphere, constraint)? Are there large sections of lore/rules that have no narrative payoff?"
+      assessment_notes: "[e.g., Detailed lineage of minor Guild families seems extraneous currently.]"
+      action_item_if_needed: "[e.g., Mark lineage as Tier 3 flavor OR find way to link it meaningfully to current plots/mysteries.]"
+
+    - area: "Audience Accessibility"
+      question: "Is the world's core logic understandable enough for the intended audience to follow the narrative, even if deeper complexities exist for dedicated fans?"
+      assessment_notes: "[e.g., Core Chrono-Tech limits are intuitive; nuances of modal interaction might require subtle demonstration within the narrative.]"
+      action_item_if_needed: "[e.g., Plan scenes specifically demonstrating key rule interactions organically.]"
+
+  worldbuilders_disease_prompt: |
+    Are you spending more time refining obscure details of the world than developing compelling stories *within* it? Is the complexity serving the narrative, or has documentation become the primary goal?
+
+# --- V. Conclusion: Coherence as Craft and treated consistently according to world rules?"
+
+# --- III. Synchronic Consistency Audit (Simultaneous States) ---
+synchronic_consistency_audit:
+  purpose: "Ensure different authenticated elements existing or occurring simultaneously are logically compatible according to the world's internal rules."
+
+  check_areas:
+    - area: "Entity Properties vs. World Laws (Modalities)"
+      question: "Do individual entity properties (e.g., ability 'Can phase through walls') align with the global alethic modality (e.g., 'Phasing requires immense, rare energy source')?"
+      potential_issue_example: "Character possesses phasing ability but world rules state phasing tech doesn't exist / is forbidden / requires unavailable power."
+      resolution_strategy: "Justify the character's ability as unique/exceptional (authenticate *why*); OR revise the ability; OR revise the world rule (major change)."
+
+    - area: "Entity Actions vs. World Laws/States"
+      question: "Are actions performed plausible given the entity's properties AND the constraints of the current global state and modalities?"
+      potential_issue_example: "Character easily travels through heavily polluted/guarded zone authenticated as nearly impassable without special gear/clearance they lack."
+      resolution_strategy: "Authenticate possession of required gear/clearance; OR show them using exceptional authenticated skills to overcome obstacles; OR revise zone's difficulty; OR show consequences of attempting passage unprepared."
+
+    - area: "Inter-Compatibility of Global States"
+      question: "Do different authenticated global states (e.g., political, economic, environmental) existing at the same time logically cohere or influence each other plausibly?"
+      potential_issue_example: "State A: 'Booming, prosperous economy'. State B (simultaneously): 'Critical shortage of essential Chrono-Dust resource'."
+      resolution_strategy: "Explain the dissonance (e. Creative Achievement ---
+conclusion:
+  summary: |
+    This protocol treats **internal coherence** as a deliberate creativeg., prosperity based on *hoarded* Dust creating illusion, boom is in non-Dust sectors, shortage is *imminent* but not yet fully impacting surface economy); OR revise one of the state descriptions for better alignment."
+
+    - area: "Sensory Coherence"
+      question: "Do the authenticated sensory details of different elements present at the same time create a coherent, believable atmosphere? (e.g., Does a 'silent archive' also contain descriptions of loud machinery operating nearby without explanation?)"
+      potential_issue_example: "Scene describes biting cold wind (ENV State) but character is comfortably standing outside in light clothing (IND Property/Action)."
+      resolution_strategy: "Add description of character's authenticated cold-resistant clothing/biology; OR revise environmental description for that moment; OR show character suffering from cold."
+
+  prompts:
+    - "Take a detailed 'snapshot' of a key scene/location. achievement born from the 
+    **consistent and strategic application of textual authentication**. A coherent heterocosm, 
+    where all authenticated elements function logically according to self-defined rules, provides 
+    the stable foundation for audience trust, deep immersion, meaningful narrative, and resonant themes.
+  final_recommendation: |
+    Continuously use this protocol and the master World Bible/Codex to interrogate the structural 
+    integrity of [Your Story World Name]. View consistency not as a limitation, but as the essential 
+    craft that makes imaginative creation believable, functional, and enduring. Coherence is the 
+    architecture that gives imagination lasting form.
+
+# ============================================================
+# End of Advanced Coherence & Logic Protocol v1.0
+# ============================================================
+
+
+How this YAML Functions:
+
+Deep Interrogation: Uses consistency_interrogation and specific consistency_question fields under each modality/area to prompt deep, critical thinking about potential logical flaws or inconsistencies.
+
+Focus on Mechanisms: Asks how rules are applied, how consequences manifest, how information flows, demanding analysis of the world's functional logic.
+
+Emphasis on Justification: Repeatedly asks for justification within world rules for apparent exceptions or changes, reinforcing internal logic over authorial convenience.
+
+Practical Examples: Includes fields for noting potential_issue_example and resolution_action, making the abstract check concrete and actionable for the creator.
+
+Nuance Acknowledged: Recognizes complexities like power dynamics influencing rule application or the need to balance accessibility with depth.
+
+Explicit Connection to Doležel: Frames the entire process through the lens of authentication, modalities, and the heterocosm as a semantic system requiring internal logical integrity.
+
+Self-Reflection: Includes prompts encouraging the creator to reflect on their own process and potential biases (e.g., "Worldbuilder's Disease" check).
+
+This extremely detailed YAML provides a rigorous framework for ensuring the Aethelgard heterocosm is not just imaginative, but possesses the profound internal coherence that Doležel identifies as a hallmark of masterful fictional creation.

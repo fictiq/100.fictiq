@@ -1,0 +1,214 @@
+# ============================================================
+# Story World Codex: Advanced Modal Structure Analysis Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Analytical Engine)
+# Last Updated: [Current Date]
+# Analyst(s): [Your Name / Research Group]
+# World Under Analysis: Aethelgard
+# Canonical Corpus Defined: [List specific texts/games/films/Codex version being analyzed]
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly detailed methodology** for the **systematic analysis 
+    and deep structural mapping** of the **Governing Modalities** of the Aethelgard heterocosm. 
+    Building upon Doležel's core thesis, it treats the modal structure (Alethic, Deontic, 
+    Axiological, Epistemic) not merely as world features, but as the **fundamental analytical engine** 
+    for understanding the world's internal logic, narrative potential, thematic preoccupations, 
+    and generic identity.
+  scope: |
+    Guides the analyst in moving beyond surface description to rigorously reconstruct and interpret 
+    the complex system of authenticated rules governing possibility, obligation, value, and knowledge. 
+    Focuses on identifying precise modal configurations, analyzing their intricate interplay, and 
+    understanding their foundational role in constituting the heterocosmic reality.
+  methodological_stance: |
+    **Strictly Text-Centric & Semantic:** Analysis is based *solely* on identifying patterns of 
+    **authenticated predication** within the defined canonical corpus. Inferred modal rules must be 
+    demonstrably supported by consistent textual evidence (explicit statements or validated patterns 
+    of events/properties). External logic or AW assumptions are used only for contrast or baseline 
+    understanding (minimal departure).
+
+# --- I. Theoretical Foundation Recap (Modal Logic Adapted for Heterocosms) ---
+theoretical_foundation:
+  purpose: "Briefly reaffirm the specific Doležel-inspired adaptation of modal logic being employed."
+  principles:
+    - id: "MODAL_THEORY_01"
+      name: "Rejection of Metaphysical Realism"
+      description: "Analysis uses modal logic structure but makes NO claims about the actual existence of Aethelgard as a parallel world. It is a textually constituted semantic system."
+    - id: "MODAL_THEORY_02"
+      name: "Internal Focus & Textual Authentication"
+      description: "Modal operators (Possibly, Necessarily, Obligatory, Permitted, etc.) refer *exclusively* to states/actions within the Aethelgard heterocosm as validated by its authoritative narrative discourse (Codex/texts)."
+    - id: "MODAL_THEORY_03"
+      name: "Modalities as Authenticated World Properties"
+      description: "The specific configuration of possibilities, norms, values, and knowledge limits IS an intrinsic, high-level property *of* the Aethelgard heterocosm itself, legislated into being through predication."
+
+# --- II. Detailed Alethic Modality Analysis (The Laws of Possibility & Necessity) ---
+alethic_analysis:
+  purpose: "Meticulously reconstruct the authenticated rules governing what CAN, MUST, or CANNOT physically, metaphysically, or technologically occur in Aethelgard."
+  analytical_tasks:
+    - task: "Identify Baseline Physics & Deviations"
+      methodology: "Assume AW-analogous physics (ALE_BASE_001) as default. Catalog ALL authenticated deviations (Chrono-Tech effects, Aberration properties, Artificer phenomena) and their precise parameters."
+      evidence_sources: "[Codex: Modalities-Alethic, Technology, Bestiary; Narrative descriptions of phenomena.]"
+      output_example: "[List of specific authenticated non-AW physical possibilities/impossibilities, e.g., 'Authenticated: Local temporal stutter possible via Mk3 Viewer under X conditions'; 'Authenticated: Permanent destruction of Echo Aberration impossible via conventional means'.]"
+    - task: "Map Core System Mechanics (Magic/Tech)"
+      methodology: "For Chrono-Tech (Aethelgard's 'magic system'), exhaustively document authenticated: Sources, Costs (Dust units, sickness levels), Limits (range, duration, accuracy), Prerequisites (skill, calibration, components), Failure Modes, Paradox Triggers/Spectrum (ALE_CTECH_003), Impossibilities (ALE_CTECH_001, ALE_CTECH_005)."
+      evidence_sources: "[Codex: Technology Specs, Modalities; Narrative depictions of successful/failed usage; In-world manuals.]"
+      output_example: "[Detailed functional schematic of Chrono-Tech possibilities and constraints, cross-referenced with Paradox rules.]"
+    - task: "Define Biological/Ontological Parameters"
+      methodology: "Document authenticated rules for life, death, sentience, species capabilities/limits for humans, automatons, aberrations, unique flora/fauna (ALE_BIO_001-004)."
+      evidence_sources: "[Codex: Species/Bestiary entries, Character profiles; Narrative descriptions of life cycles/death/consciousness.]"
+      output_example: "[Comparative table of alethic biological properties for key Aethelgard entities.]"
+    - task: "Analyze Temporal Logic & Causality"
+      methodology: "Detail authenticated rules governing time flow, sequence, potential for loops/stasis, relationship between action and consequence (ALE_BASE_002), impossibility of macro-history alteration."
+      evidence_sources: "[Codex: Modalities-Alethic; Narrative structure; Depictions of temporal anomalies/tech use.]"
+      output_example: "[Formal description of Aethelgard's specific temporal logic model.]"
+    - task: "Assess Consistency of Alethic System"
+      methodology: "Cross-reference all authenticated alethic propositions. Identify any potential contradictions or areas where rules seem inconsistently applied across different narrative instances or entities. Evaluate justifications for apparent exceptions (e.g., Artificer tech)."
+      output_example: "[Coherence report detailing strengths and any identified alethic inconsistencies requiring clarification/retcon.]"
+  alethic_profile_summary: "[Synthesize findings into a concise statement of Aethelgard's core physical/metaphysical operating system and its primary deviations from AW reality.]"
+  thematic_links: "[Analyze how this specific alethic structure explores themes like Nature of Time, Order vs. Chaos, limits of control, consequences of power.]"
+
+# --- III. Detailed Deontic Modality Analysis (The Laws of Obligation & Permission) ---
+deontic_analysis:
+  purpose: "Meticulously reconstruct the authenticated normative systems governing behavior – laws, ethics, social codes, roles, and consequences for transgression."
+  analytical_tasks:
+    - task: "Map Formal Legal & Political Structures"
+      methodology: "Document authenticated laws/edicts from Cogwork Council and Major Guilds. Analyze their scope, enforcement mechanisms (authenticated effectiveness), jurisdictional boundaries, and punishment structures (DEO_LEGAL_001-004)."
+      evidence_sources: "[Codex: Faction Profiles, Governance Protocol; In-world legal document props; Narrative depictions of law enforcement/trials.]"
+      output_example: "[Organizational chart of legal authority; List of key authenticated statutes and their associated penalties.]"
+    - task: "Analyze Factional/Cultural Codes & Oaths"
+      methodology: "Detail authenticated internal codes, oaths, and unwritten norms for significant groups (Guilds, Undercity Crews, Cults). Identify core obligations, prohibitions, and permissions specific to each group (DEO_GUILD_*, DEO_UNDERCITY_*)."
+      evidence_sources: "[Codex: Faction Profiles; Character dialogue/actions reflecting code adherence/violation; Ritual descriptions.]"
+      output_example: "[Comparative analysis of the deontic systems of major factions, highlighting key differences and potential conflict points.]"
+    - task: "Identify Role-Based Obligations/Permissions"
+      methodology: "For key social roles (Investigator, Guild Master, Salvager, Automaton), document the specific deontic properties (duties, rights, authorized actions) authenticated for that role."
+      evidence_sources: "[Codex: Character Profiles, Faction Structures; Narrative depiction of role performance.]"
+      output_example: "[Matrix mapping key roles to their core authenticated obligations and permissions.]"
+    - task: "Analyze Enforcement & Consequences"
+      methodology: "Document the *authenticated* mechanisms and *consistency* of enforcement for different rules and different social strata. Are laws applied equally? What are the actual consequences shown in narrative for transgression?"
+      evidence_sources: "[Narrative event analysis; Comparison of outcomes for different characters violating similar rules.]"
+      output_example: "[Analysis of the 'realpolitik' vs. the 'written law' regarding deontic enforcement.]"
+    - task: "Assess Consistency of Deontic System"
+      methodology: "Identify potential contradictions *between* different authenticated codes (e.g., Guild law vs. Undercity code vs. personal ethics), or inconsistencies in the *application* of a single code."
+      output_example: "[Coherence report detailing points of normative conflict and consistency within Aethelgard's social/legal structure.]"
+  deontic_profile_summary: "[Synthesize findings into a statement describing Aethelgard's complex, often conflicting, normative landscape and its impact on social order/disorder.]"
+  thematic_links: "[Analyze how this deontic structure explores themes like Order vs. Chaos/Freedom, Justice vs. Law, Corruption, Social Contract, Duty vs. Individual Conscience.]"
+
+# --- IV. Detailed Axiological Modality Analysis (The Laws of Value) ---
+axiological_analysis:
+  purpose: "Meticulously reconstruct the authenticated value systems operating within Aethelgard, defining what is considered good/bad, desirable/undesirable, beautiful/ugly *by the world's internal standards*."
+  analytical_tasks:
+    - task: "Identify & Map Core Value Hierarchies"
+      methodology: "For dominant cultures/factions (Guilds, Undercity, etc.), reconstruct the hierarchy of authenticated values and disvalues (AXIO_LAW_001-003), citing evidence from authoritative narration, consistent character motivations/judgments, and narrative consequences."
+      evidence_sources: "[Codex: Faction Profiles, World Identity; Narrative analysis (framing, focus, outcomes); Character goals.]"
+      output_example: "[Detailed comparison of the axiological priorities of different groups, highlighting core conflicts like Order vs. Resilience.]"
+    - task: "Determine Authenticated Value of Key Entities/Concepts"
+      methodology: "Assign specific authenticated axiological status (Moral, Aesthetic, Utilitarian, Social Reputation) to crucial elements (Chrono-Dust, Artificer Legacy, Aberrations, Memory, Truth, Repair, specific characters/objects), noting contested or multifaceted values."
+      evidence_sources: "[Codex: Entity Profiles; Narrative descriptions; Dialogue reflecting value judgments.]"
+      output_example: "[Aethelgard 'Value Lexicon' defining the authenticated worth/status of core concepts.]"
+    - task: "Analyze Basis of Moral Judgment"
+      methodology: "Determine the primary framework(s) authenticated for moral reasoning within the world (consequentialist, deontological, virtue-based, other?). Analyze how moral judgments are justified *within the narrative*."
+      evidence_sources: "[Character justifications for actions; Narratorial framing of moral choices; Philosophical snippets in lore.]"
+      output_example: "[Description of the dominant (and potentially competing) ethical reasoning styles authenticated.]"
+    - task: "Distinguish Internal vs. External Axiology"
+      methodology: "Explicitly differentiate the world's authenticated value system(s) from potential authorial viewpoints or default AW reader assumptions. Analyze points of potential friction or thematic commentary arising from this gap."
+      evidence_sources: "[Comparison of world values to AW norms; analysis of narrative irony or satire.]"
+      output_example: "[Analysis of how Aethelgard's unique axiology challenges or reflects external values.]"
+    - task: "Assess Consistency of Axiological System"
+      methodology: "Check if narrative outcomes, character rewards/punishments, and authoritative framing consistently reinforce the established value hierarchies, or if there are unexplained contradictions."
+      output_example: "[Coherence report on the application and consistency of Aethelgard's value system(s).]"
+  axiological_profile_summary: "[Synthesize findings into a statement describing Aethelgard's core value conflicts, aesthetic principles, and moral landscape.]"
+  thematic_links: "[Analyze how this axiological structure directly explores themes of Good/Evil, Progress/Cost, Beauty/Decay, Worth/Utility, Cultural Relativism.]"
+
+# --- V. Detailed Epistemic Modality Analysis (The Laws of Knowledge & Belief) ---
+epistemic_analysis:
+  purpose: "Meticulously reconstruct the authenticated rules governing the possibility, acquisition, reliability, and control of information within Aethelgard."
+  analytical_tasks:
+    - task: "Define Boundaries of Knowability"
+      methodology: "Identify domains authenticated as fundamentally unknowable or inaccessible to current understanding/technology within Aethelgard (EPI_LIMIT_001-004)."
+      evidence_sources: "[Codex: Modalities-Epistemic, Core Mysteries; Explicit narrative statements; Consistent failure of characters to obtain certain info.]"
+      output_example: "[Map of the 'known unknowns' – what the world structure itself dictates cannot be fully known.]"
+    - task: "Establish Hierarchy of Source Reliability"
+      methodology: "Analyze and rank the authenticated reliability of all major information sources (direct perception, specific tech, specific document types, specific character types/factions, rumor networks) based on consistent narrative portrayal and explicit statements (EPI_LAW_00X, Reliability Tiers)."
+      evidence_sources: "[Narrative outcomes based on different sources; Narrator commentary on sources; World rules about tech limits/memory corruption.]"
+      output_example: "[Aethelgard Epistemic Source Reliability Chart.]"
+    - task: "Map Mechanisms of Information Control"
+      methodology: "Document all authenticated methods used by entities (Guilds, Council, individuals) to restrict, manipulate, censor, or control the flow of information (EPI_LAW_00X Mechanisms)."
+      evidence_sources: "[Codex: Faction profiles; Narrative depiction of secrecy, surveillance, propaganda, archive manipulation.]"
+      output_example: "[Analysis of Aethelgard's 'Information Economy' focusing on control points and bottlenecks.]"
+    - task: "Analyze Belief Formation & Justification"
+      methodology: "Examine how characters *within the world* are shown to form beliefs and justify knowledge claims according to authenticated world norms (EPI_LAW_00X Basis). How does skepticism function? What counts as 'proof'?"
+      evidence_sources: "[Character reasoning depicted in dialogue/monologue; Cultural attitudes towards evidence vs. faith/rumor.]"
+      output_example: "[Description of Aethelgard's operative epistemology/epistemic culture.]"
+    - task: "Assess Consistency of Epistemic System"
+      methodology: "Check if characters' access to knowledge, the reliability of information they receive, and the limits of their understanding align consistently with the established epistemic rules throughout the narrative."
+      output_example: "[Coherence report on the world's knowledge system.]"
+  epistemic_profile_summary: "[Synthesize findings into a statement describing Aethelgard as an epistemic landscape characterized by fragmentation, manipulation, technological mediation, and the difficulty of ascertaining objective truth.]"
+  thematic_links: "[Analyze how this epistemic structure directly explores themes of Truth vs. Secrecy, Memory & Identity, Propaganda, Limits of Perception, Conspiracy.]"
+
+# --- VI. Synthesizing the Modal Configuration & World Typology ---
+modal_synthesis_typology:
+  purpose: "Analyze the unique interplay and hierarchy of all authenticated modalities to define Aethelgard's overall 'world signature' and classify its structural genre."
+
+  modal_interplay_analysis:
+    methodology: "Identify and analyze key points of interaction, synergy, or conflict *between* different modalities."
+    examples:
+      - "[Alethic risk (Paradox) drives Deontic restrictions on tech use.]"
+      - "[Epistemic uncertainty (contested history) fuels Axiological conflict (differing values based on perceived past).]"
+      - "[Deontic social hierarchy grants privileged Epistemic access (Guild archives).]"
+      - "[Axiological value of 'Order' justifies potentially harsh Deontic measures.]"
+    output: "[Analysis of the specific dynamic logic emerging from modal interplay in Aethelgard.]"
+
+  modal_dominance_hierarchy:
+    methodology: "Assess which modalities appear most foundational, pervasive, or influential in shaping the world's core identity and narrative possibilities."
+    assessment: "[e.g., Alethic (due to pervasive temporal instability) and Epistemic (due to focus on memory/truth/secrets) seem highly dominant, strongly shaping Deontic and Axiological responses. Aethelgard is a world fundamentally defined by broken time and unreliable knowledge.]"
+
+  world_signature_description: "[Provide a concise description of Aethelgard's unique operational logic based on its total modal configuration.]"
+
+  genre_typology_structural:
+    methodology: "Classify Aethelgard based primarily on its unique modal configuration, comparing it to standard genre modal patterns."
+    classification: "[e.g., Primarily **Chrono-Noir** (dominant Epistemic limits/investigation + specific Noir Axiology/Atmosphere) built on a **Speculative Fiction (Steampunk/Temporal SF)** base (unique Alethic modality regarding time/tech), with elements of **Post-Cataclysm/Survival** (History/Environment shaping Deontic/Axiological codes).]"
+    justification: "[Explain classification by referencing specific dominant/deviant modal authentications.]"
+
+  rationale_synthesis: "Understanding the total modal configuration and interplay reveals the deepest level of the heterocosm's structural identity and provides the most rigorous basis for comparative genre analysis."
+
+# --- VII. Conclusion: Modality as the Key to Heterocosmic Logic ---
+conclusion:
+  summary: |
+    This protocol provides the **analytical engine** for dissecting the **fundamental operational logic** 
+    of the Aethelgard heterocosm through the rigorous mapping of its **authenticated modal structures**. 
+    By systematically analyzing the world's legislated rules of **Possibility (Alethic), Obligation 
+    (Deontic), Value (Axiological), and Knowledge (Epistemic)**, and their intricate **interplay**, 
+    we move beyond surface description to grasp the deep architecture governing all entities and events.
+  final_statement: |
+    The modal structure **IS** the constitution of Aethelgard's reality. Its specific configuration defines 
+    the world's unique signature, enables and constrains its narrative potential, grounds its thematic inquiries, 
+    and provides the ultimate basis for assessing its internal coherence. Mastering the analysis of these 
+    foundational laws, as authenticated by the narrative discourse, is therefore indispensable for any profound 
+    understanding of this, or any, fictional heterocosm within Doležel's powerful semantic framework. It reveals 
+    the sophisticated logic underlying the linguistic forge.
+
+# ============================================================
+# End of Advanced Modal Structure Analysis Protocol v1.1
+# ============================================================
+
+
+How this YAML Embodies "Extreme Detail" for Modal Analysis:
+
+Rigorous Theoretical Framing: Introduction and Conclusion strongly emphasize modalities as the foundational operating system and world constitution, using precise Doležel-inspired terminology.
+
+Exhaustive Task Breakdown: Each modality analysis (Sections II-V) is broken down into multiple specific analytical tasks, demanding comprehensive investigation (e.g., baseline physics vs. tech limits vs. biology under Alethic; formal laws vs. faction codes vs. social norms under Deontic).
+
+Mandatory Evidence & Authentication Focus: Continuously stresses the need to base analysis only on authenticated textual evidence and to consider the mode and reliability of authentication for modal rules.
+
+Deep Interplay Analysis: Section VI requires not just identifying modalities but analyzing their specific configuration, hierarchy, and points of interaction, defining the world's unique "signature."
+
+Structurally Grounded Genre Typology: Section VI uses the detailed modal analysis to provide a structural justification for genre classification, moving beyond simple content markers.
+
+Granular Prompts & Checks: Includes highly specific prompts pushing the analyst to consider edge cases, consistency across different domains, thematic links, and potential ambiguities within the modal framework.
+
+Emphasis on Systemic Logic: Frames the entire exercise as uncovering the deep logical structure that governs the heterocosm's functioning.
+
+Clear Output Definition: Suggests specific outputs for different analytical tasks (e.g., "modal profile summary," "comparative analysis," "coherence report," "epistemic source reliability chart").
+
+This extremely detailed YAML template provides a comprehensive and theoretically rigorous guide for conducting an advanced analysis of the modal structures governing Aethelgard, enabling a deep understanding of its fundamental operational logic and unique identity within Doležel's framework.

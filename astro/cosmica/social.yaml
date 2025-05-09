@@ -1,0 +1,238 @@
+# ============================================================
+# Story World Codex: Entity Social & Relational Profile Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Systemic Placement)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly granular framework** for the meticulous definition 
+    of the **social, relational, and categorical properties** of entities within the Aethelgard heterocosm. 
+    Building upon Doležel's principle that entities are constituted by property bundles, this protocol focuses 
+    on the **extrinsic dimensions** – defining an entity by its **authenticated position, function, and 
+    connections within the intricate socio-political, cultural, familial, and taxonomic networks** 
+    of the world.
+  scope: |
+    Mandatory template for defining the systemic placement of all significant canonical entities. Ensures 
+    complex social dynamics are grounded in authenticated structures, clarifies power relations, establishes 
+    context for character motivation/conflict, and links individual entities explicitly to the macro-level 
+    organization of the heterocosm.
+  ontological_premise: |
+    An entity's social identity and function are not inherent but are **constituted by the specific set of 
+    authenticated roles, statuses, affiliations, relationships, and classifications** assigned to it by 
+    the narrative discourse, as codified herein. These properties operate within and are constrained by 
+    the world's established Deontic, Axiological, and Epistemic modalities.
+
+# --- Entity Social/Relational Profile Template ---
+entity_social_relational_profile_template: # Copy and meticulously complete for each significant entity
+
+  # --- Core Identification ---
+  identification:
+    entity_id: "[Unique Identifier, e.g., CHAR_Kaelen_01, FACTION_ChronometersGuild, LOC_Undercity_SectorGamma, SPECIES_Automaton_ClassIV]"
+    entity_name: "[Common Name, e.g., Investigator Kaelen, The Chronometers Guild, Sector Gamma Ruins, Class IV Analysis Automaton]"
+    entity_type: "[Person | Organization | Place | Creature | Object (if socially significant) | Species/Type | Other]"
+    primary_authentication_source: "[List key Codex entries, narrative texts (cite specific chapters/scenes/dialogue), faction bibles, location profiles validating social/relational properties.]"
+    canon_tier: "[Tier 1 / Tier 2 / Tier 3]"
+
+  # --- Authenticated Social/Relational/Categorical Property Bundle (Deep Dive) ---
+  social_relational_categorical_bundle:
+    purpose: "Detail the specific, validated properties defining the entity's place and function within the Aethelgard systemic network."
+
+    # --- 1. Formal Social Roles & Functions ---
+    formal_social_roles:
+      title: "Authenticated Roles within Established Structures (Guilds, Council, Watch, etc.)"
+      entries: # List all applicable roles
+        - role_id: "ROLE_KAE_Investigator"
+          role_name: "Investigator, City Watch (Precinct 4)"
+          scope_authority: "[e.g., Authorized to investigate authenticated anomalies/crimes within city limits (Surface); Limited authority within Guild enclaves; Can make arrests (Watch protocols apply); Can request low-level Guild data via formal channels.]"
+          key_duties_obligations: "[e.g., File regular reports; Maintain neutrality (officially); Respond to authenticated distress calls; Uphold Council edicts.]"
+          associated_tools_permissions: "[e.g., Standard issue sidearm & chronometer; Level 2 Archive Access Card; Basic anomaly detection kit.]"
+          authentication: "[Source - Character Bible, Org Chart Prop]"
+        - role_id: "ROLE_CG_Master" # Example for Faction
+          role_name: "Master Chronomancer (Head of Chronometers Guild)"
+          scope_authority: "[e.g., Absolute authority over Guild internal affairs, research direction, Dust refinement quotas; Significant influence on Cogwork Council via Guild seat; Can authorize high-level temporal observation.]"
+          key_duties_obligations: "[e.g., Maintain Guild secrecy/monopoly; Ensure steady Dust supply; Advance Guild's political/technological standing; Prevent catastrophic Paradox events (officially).]"
+          associated_tools_permissions: "[e.g., Master Key access to all Guild facilities; Control over experimental temporal devices; Command over Guild security forces.]"
+          authentication: "[Source - Faction Bible, Political Structure Doc]"
+      role_undersaturation: "[e.g., Specific day-to-day tasks of minor roles; Informal roles not officially recognized.]"
+      prompts: 
+        - "What are the exact *powers* and *limitations* authenticated for this role?"
+        - "What specific *obligations* (Deontic) does this role impose?"
+
+    # --- 2. Social Status, Class & Hierarchy Position ---
+    social_status_hierarchy:
+      title: "Authenticated Position within Societal Strata"
+      properties:
+        - property_id: "STATUS_KAE_GuildlessOfficial"
+          status_tier: "[e.g., Mid-Low Surface Status]"
+          description: "[e.g., Guildless status grants basic citizenship but severely limits economic/political influence compared to Guild members. Watch position provides some authority but little social prestige outside specific contexts.]"
+          privileges_authenticated: "[e.g., Freedom of movement (Surface, non-restricted zones); Access to public utilities; Basic legal protections.]"
+          restrictions_authenticated: "[e.g., Denied access to Guild resources/facilities/markets; Subject to Guild member authority in many situations; Social prejudice from Guild elite.]"
+          potential_mobility: "[e.g., Extremely limited upwards mobility without Guild sponsorship; Risk of falling to Undercity status if employment lost.]"
+          authentication: "[Source - Social Structure Doc, Narrative Interactions]"
+        - property_id: "STATUS_UndercityDweller" # Example Category
+          status_tier: "[e.g., Lowest Surface Status / Outside Formal Hierarchy]"
+          description: "[e.g., Not recognized as citizens by Council; Lack formal rights/protections; Subject to exploitation/neglect by Surface powers; Possess own informal status systems based on crew affiliation, salvage skill, reputation.]"
+          privileges_authenticated: "[e.g., Relative freedom from direct Guild/Council surveillance/rules within deep Undercity.]"
+          restrictions_authenticated: "[e.g., Denied access to Surface resources/services; Constant environmental/physical danger; Subject to arbitrary violence/factionalism.]"
+          authentication: "[Source - Faction Profile Salvagers, Global States Doc]"
+      status_undersaturation: "[e.g., Nuances of status *within* specific Guild ranks; Precise mechanisms of (rare) social mobility.]"
+      prompts:
+        - "How does this status *tangibly affect* the entity's daily life, access, and opportunities?"
+        - "What are the specific *social markers* (visual, auditory, behavioral) associated with this status?"
+
+    # --- 3. Factional Affiliations, Allegiances & Enmities ---
+    factional_profile:
+      title: "Authenticated Memberships, Loyalties, and Antagonisms"
+      entries: # List all significant affiliations/stances
+        - affiliation_id: "AFFIL_KAE_CityWatch"
+          faction_id: "ORG_CityWatch"
+          membership_status: "Active Investigator (Precinct 4)"
+          loyalty_level_authenticated: "[e.g., Professional/Duty-Bound but Cynical. Loyalty is to abstract 'Justice'/'Truth' rather than the institution itself. Will bend rules if deemed necessary for 'true' justice.]"
+          authentication: "[Source - Character actions, internal monologue]"
+        - affiliation_id: "AFFIL_KAE_UndercityNetwork"
+          faction_id: "ORG_UndercityNetwork (Informal)"
+          membership_status: "Reluctant Informant / Occasional Ally"
+          loyalty_level_authenticated: "[e.g., Purely Transactional & Situational. Based on mutual need (information/access). Deep underlying mistrust remains.]"
+          authentication: "[Source - Narrative interactions with Rust]"
+        - affiliation_id: "AFFIL_CG_Core" # Example for Chronometers Guild
+          faction_id: "ORG_ChronometersGuild"
+          membership_status: "Dominant Ruling Faction"
+          authenticated_goals: "[e.g., Maintain Dust monopoly; Advance temporal science (controlled); Increase political influence; Suppress knowledge of Artificers/Shattering Cause; Prevent Paradox events (publicly); Contain Aberrations.]"
+          authenticated_allies: "[List specific authenticated allies, e.g., Tentative alliance with Council Chair]"
+          authenticated_rivals_enemies: "[List specific authenticated rivals, e.g., Gearwrights Guild (Primary Rival), Memory Keepers (Suspicious), Undercity Salvagers interfering with operations.]"
+          authentication: "[Source - Faction Bible, Political Plots]"
+      affiliation_undersaturation: "[e.g., Full extent of internal factions within major Guilds; Kaelen's potential past affiliations pre-amnesia; Precise nature of alliances (formal treaty vs. informal understanding).]"
+      prompts:
+        - "What are the *specific authenticated obligations and benefits* conferred by membership in this faction?"
+        - "Where do loyalties *conflict* for entities affiliated with multiple groups?"
+        - "How are allegiances *demonstrated* behaviorally or visually?"
+
+    # --- 4. Kinship & Significant Personal Relationships ---
+    kinship_personal_relations:
+      title: "Authenticated Familial and Close Interpersonal Bonds"
+      entries:
+        - relation_id: "REL_KAE_Rust"
+          related_entity_id: "CHAR_Rust"
+          nature_of_relationship: "[e.g., Professional Necessity & Mutual Exploitation, evolving towards Grudging Respect. Characterized by cynical banter, transactional exchanges, rare moments of shared vulnerability/protection.]"
+          strength_stability: "[e.g., Fragile, based on immediate utility, high potential for betrayal or deepening trust depending on circumstances.]"
+          authentication: "[Source - Dialogue scenes, joint actions in narrative]"
+        - relation_id: "REL_KAE_SisterLia"
+          related_entity_id: "CHAR_Sister_Lia (Status: Authenticated Deceased/Missing)"
+          nature_of_relationship: "[e.g., Deep Familial Bond (based on Kaelen's fragmented feelings/drive). Her fate is a core motivator.]"
+          strength_stability: "[e.g., Exists primarily as a motivating memory/mystery.]"
+          authentication: "[Source - Kaelen's internal monologue, recovered partial locket object]"
+        # --- Add other key authenticated relationships (Mentor, Rival, Partner, etc.) ---
+      kinship_undersaturation: "[e.g., Details of Kaelen's pre-amnesia relationships; Rust's family background; Nature of relationships between secondary characters not central to plot.]"
+      prompts:
+        - "How does this specific relationship *function* narratively (e.g., provides support, creates conflict, drives plot, reveals character)?"
+        - "What are the *authenticated rules or expectations* governing this type of relationship (e.g., familial duty, Guild loyalty vs. friendship) within Aethelgard society?"
+
+    # --- 5. Species, Race, or Type Classification ---
+    species_type_classification:
+      title: "Authenticated Biological, Ethnic, or Artificial Categorization"
+      entries:
+        - classification_id: "TYPE_HumanBaselineAE"
+          category: "Species"
+          definition: "[e.g., Standard Homo Sapiens adapted to Aethelgard environment; possesses baseline physical/cognitive properties defined in world rules; susceptible to Temporal Sickness.]"
+          associated_social_perception: "[e.g., Default/majority on Surface; viewed differently based on Guild/Unguilded status.]"
+          authentication: "[Source - World Rules]"
+        - classification_id: "TYPE_Automaton_ClassIV_Analysis"
+          category: "Artificial Type"
+          definition: "[e.g., Gearwright-designed analytical engine; clockwork brain; limited mobility; vast data access via network; operates on authenticated programming loops; legally property.]"
+          associated_social_perception: "[e.g., Viewed as highly specialized tool; sometimes unnerving due to apparent intelligence within limits.]"
+          authentication: "[Source - Tech Spec Doc]"
+        - classification_id: "TYPE_Aberration_Echo"
+          category: "Anomalous Creature/Entity"
+          definition: "[e.g., Temporally displaced entity manifesting as distorted sensory echo of past event/person; non-corporeal elements; unpredictable behavior; conventional immunity.]"
+          associated_social_perception: "[e.g., Object of extreme fear and containment protocols; subject of folklore/superstition.]"
+          authentication: "[Source - Bestiary]"
+        # --- Add other defined species/types ---
+      classification_undersaturation: "[e.g., Full biodiversity of Undercity; potential sub-races/ethnic groups among humans; detailed classification of all Aberration types.]"
+      prompts:
+        - "What specific *functional or physical properties* are directly linked to this authenticated classification?"
+        - "What are the *social implications* (prejudice, privilege, specific laws) associated with belonging to this category?"
+
+    # --- 6. Geographical & Locational Affiliations ---
+    geographical_locational_affiliations:
+      title: "Authenticated Ties to Specific Places"
+      entries:
+        - affiliation_id: "LOCAFF_KAE_Precinct4"
+          location_id: "LOC_Precinct4_Holdings"
+          nature: "[e.g., Official Assignment / Primary Workspace]"
+          implication: "[e.g., Defines operational area, provides limited resources/authority, source of routine cases.]"
+          authentication: "[Source]"
+        - affiliation_id: "LOCAFF_Rust_DeepUndercity"
+          location_id: "LOC_Undercity_DeepSectors"
+          nature: "[e.g., Native Habitat / Territory of Operation]"
+          implication: "[e.g., Grants unique environmental knowledge/survival skills; restricts Surface access/influence; shapes worldview.]"
+          authentication: "[Source]"
+        - affiliation_id: "LOCAFF_Shard_CraterRimCache"
+          location_id: "LOC_CraterRim_CacheAlpha"
+          nature: "[e.g., Current Authenticated Location (Object)]"
+          implication: "[e.g., Makes acquisition difficult/dangerous; potentially influences local environment.]"
+          authentication: "[Source - Narrative reveal]"
+      location_undersaturation: "[e.g., Kaelen's precise apartment location/details; full map of Rust's known safe zones.]"
+      prompts:
+        - "How does an entity's primary location *define or constrain* their lifestyle, resources, and perspective?"
+        - "Are there locations this entity is *forbidden* from entering or *compelled* to inhabit?"
+
+    # --- 7. Cultural Significance & Symbolic Role ---
+    cultural_symbolic_role:
+      title: "Authenticated Reputation and Symbolic Function within World Culture(s)"
+      entries:
+        - perception_id: "PERC_KAE_Symbol"
+          symbolic_role: "[e.g., Represents 'The Questioner' in some Undercity narratives; Symbol of failing system for cynical Guild members; Potential 'Truth-Seeker' archetype.]" # Note: These are authenticated *as perceptions/roles within the world*
+          authentication: "[Source - In-world folklore prop, Character dialogues reflecting reputation]"
+        - perception_id: "PERC_Guilds_Symbol"
+          symbolic_role: "[e.g., Collectively represent Order, Progress, Control *but also* Oppression, Secrecy, Inequality depending on perspective.]"
+          authentication: "[Source - Analysis of narrative framing, competing propaganda props]"
+        - perception_id: "PERC_Shattering_Symbol"
+          symbolic_role: "[e.g., Universal symbol of Lost Past, Divine Punishment, Technological Hubris, or Necessary Renewal depending on factional ideology.]"
+          authentication: "[Source - Cultural analysis texts prop, Religious/Philosophical texts prop]"
+      symbolic_undersaturation: "[e.g., Full range of interpretations by minor factions; personal symbolic meaning for every individual.]"
+      prompts:
+        - "Beyond its literal function, what does this entity *represent* within the different cultures or belief systems authenticated for Aethelgard?"
+        - "How does its symbolic role influence how characters interact with or react to it?"
+
+  # --- Social/Relational Constitution Summary & Narrative Function ---
+  social_relational_summary:
+    purpose: "Synthesize the core identity emerging from the entity's authenticated position within the world's social, political, and relational networks."
+    core_social_identity: |
+      [Provide a rich summary focusing on the interplay of roles, status, affiliations, and key relationships. e.g., 
+      "The Chronometers Guild is constituted as the **apex predator** within Aethelgard's socio-political ecosystem. 
+      Its **authenticated control over Chrono-Dust refinement (Economic/Tech Relation)** grants it **immense leverage** 
+      over other Guilds (Political Relation) and dictates much of the city's **economic reality**. Its **internal 
+      structure is rigidly hierarchical** (Social Property), valuing **precision and secrecy** (Axiological/Deontic), 
+      and its **relationship with historical truth is suspect** (Epistemic/Social Reputation). Its **primary functional 
+      role** is maintaining temporal stability (officially) while consolidating power (unofficially), placing it in 
+      **inherent conflict** with factions seeking autonomy (Undercity) or alternative power bases (Gearwrights)."]
+    primary_narrative_functions_social: "[List key roles: e.g., Primary Antagonistic Force (Systemic); Source of Political Conflict; Gatekeeper of Key Resource/Knowledge; Representation of 'Order' Theme.]"
+    key_conflicts_arising_from_position: "[Identify conflicts generated *by* social/relational properties: e.g., Guild vs. Guild rivalry; Surface vs. Undercity prejudice; Role obligations vs. personal desires; Conflict between stated ideology and actual practice.]"
+    potential_for_social_change: "[Based on authenticated properties/world rules, what potential exists for shifts in status, allegiance, or overall structure? e.g., Potential for internal Guild schism; possibility of Undercity gaining political voice; likelihood of social mobility (low?).]"
+
+# --- End of Entity Social/Relational Profile ---
+
+
+How this YAML Embodies "Extreme Detail" for Social/Relational Properties:
+
+Granular Categories: Breaks down the social dimension into distinct facets: Formal Roles, Status/Hierarchy, Factional Profile, Kinship, Species/Type, Location Affiliation, Cultural Significance.
+
+Focus on Authenticated Detail: Demands explicit authentication for each property, including specific ranks, titles, legal statuses, relationship dynamics, and perceived reputations within the world.
+
+Integration with Modalities: Explicitly links social roles to Deontic obligations, status to Axiological perception, affiliations to Epistemic access, etc.
+
+Dynamic Relationships: Encourages defining the nature and stability of relationships, not just their existence.
+
+Multi-faceted Perspective: Includes analysis of how an entity is perceived differently by various groups (Cultural Significance / Reputation).
+
+Emphasis on Function: Requires articulating the narrative function served by the entity's specific social position and relationships.
+
+Deep Prompts: Includes prompts pushing for highly specific details about powers, limitations, social markers, conflicts arising from status, and mechanisms of social change within Aethelgard.
+
+Systemic Synthesis: The summary requires articulating the entity's identity as emerging from its complex position within the entire social, political, and relational network.
+
+This extremely detailed YAML template guides the creator to meticulously construct the social and relational identity of entities within Aethelgard, ensuring they are deeply embedded within a complex, coherent, and functionally significant societal fabric, fully realizing the potential of Doležel's framework for analyzing the systemic placement of fictional beings.

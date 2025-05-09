@@ -1,0 +1,158 @@
+
+world: Glopratchet
+codex_version: 0.7 ( Character Constitution - Adamant Scion)
+last_updated: "[Current Date]"
+lead_architects: "[ Your Name/Studio Name]"
+
+character_profile:
+  entity_id: GLOB_Korundum_AR_ 042
+  character_name: Globule Designate Korundum (Self-styled 'Shard-Seeker ')
+  entity_type: Glob (Person)
+  archetype: Adamant Rite Devotee / Earth Super stition Practitioner / Stoic Survivor
+  primary_authentication_sources: "Glopratchet Codex v0.6 ( Bodily Imperative), This Codex Entry, Narrative Outline: 'The Ballad of Dry Conduits'"
+   canon_tier: Tier 1 (Illustrative Character for Core Philosophy)
+  authentication_status: Authenticated_ Canonical_Active
+
+  authenticated_property_bundle:
+    Physical_Properties:
+      Appearance_General:
+         description: "Authenticated as a Glob of notably higher density than average, exhibiting a somewhat faceted, less overtly amorphous form . Reflects a state of managed CMP restriction."
+        authentication: "[Glopratchet Codex 0.6 : Alethic Rule 1 & 3a, Visual Design Notes]"
+      Appearance_Specific_Features: 
+        description: "Surface exhibits a dull, matte texture from absorbed mineral dusts (\"Earth's Kiss\").  Faint, embedded particulate glitter in certain light, particularly dust from \"Vein of Whispering Iron.\" Small, self-inf licted compression marks visible as denser patches."
+        authentication: "[Glopratchet Codex 0.6: Ale thic Rule 3a, Narrative Description]"
+      Appearance_Distinctive_Marks:
+        description: " A series of three parallel, slightly darker striations across their upper third, from a past \"Grounding Rite\" near a vibrating Rat chetwork plate."
+        authentication: "[Narrative Vignette: 'Korundum's Vigil']"
+       Typical_Attire:
+        description: "N/A (Globs do not wear attire). However, Korundum is authenticated  to often carry a small, particularly resonant \"True Shard\" fragment (OBJ_MentorShard_K01)  pressed into their own substance near their core."
+        authentication: "[Narrative Description, Object Codex]"
+      Voice_Speech_ Pattern:
+        description: "Authenticated as a low, slightly grating vibratory sound, akin to stone shifting on stone . Speech is deliberate, often invoking phrases related to solidity, endurance, and \"the sanctity of form.\""
+         authentication: "[Dialogue Examples, Glopratchet Codex 0.6: Axiological Values 2a]"
+       Gait_Mannerisms:
+        description: "Moves with a controlled, deliberate momentum, slightly less susceptible  to ambient Kineto-Mist drift due to practiced density. Frequently engages in \"Grounding Rites\" – prolonged, still contact  with stable Ratchetwork sections. Habit of tracing \"Body Mandalas\" with a pseudopod in loose dust when contemplative."
+         authentication: "[Glopratchet Codex 0.6: Alethic Rules 3a & 4, Action Descriptions ]"
+      Associated_Scent:
+        description: "Authenticated to exude a faint, dry, earthy scent  of mineral dust and desiccated CMP."
+        authentication: "[Sensory Palette Guide]"
+      Physical_Unders aturation: "Exact internal CMP distribution, precise reaction thresholds to specific environmental stressors not yet encountered."
+
+    Functional_Properties:
+       Skill_Voluntary_CMP_Restriction_Mastery:
+        description: "Voluntary CMP Restriction Mastery (Core Skill)  - Authenticated ability to consciously limit CMP intake and maintain a higher density state for prolonged periods, delaying Desiccation to a  controlled point."
+        authentication: "[Glopratchet Codex 0.6: Alethic Rule 3 a, Demonstrated Actions]"
+      Skill_Ritualistic_Self_Compression_Adept:
+        description: " Ritualistic Self-Compression (Adept) - Practiced in techniques to increase own density, enhancing resilience against minor  impacts and affirming \"being in the body.\""
+        authentication: "[Glopratchet Codex 0.6: Aleth ic Rule 3a, Narrative Action]"
+      Skill_Sacred_Mineral_Identification_Proficient:
+         description: "Sacred Mineral Identification (Proficient) - Able to identify beneficial mineral dusts for \"Earth' s Kiss\" and recognize Ratchetwork formations suitable for \"Grounding Rites.\""
+        authentication: "[Gloprat chet Codex 0.6: Deontic Rule 2a, Narrative Action]"
+      Ability_Slight ly_Enhanced_Shard_Cohesion:
+        description: "Slightly Enhanced Shard Cohesion - Authent icated that, should Korundum achieve Shattering through Adamant practices, their \"True Shards\" are likely to be marginally more coherent  and structurally sound due to lifelong dedication to bodily integrity and \"Earth Superstition.\" This is a subtle, not miraculous, effect ."
+        authentication: "[Glopratchet Codex 0.6: Alethic Rule 1 & Resolution  for Core Modality]"
+      Limitation_Physical:
+        description: "Slower, less adaptable movement compared  to Liquescent Globs. More vulnerable to sudden, overwhelming crushing forces despite density (density resists attrition, not brute  force beyond a threshold)."
+        authentication: "[Glopratchet Codex 0.6: Alethic Rule  4, World Physics]"
+      Limitation_Knowledge:
+        description: "Limited understanding or appreciation of L iquescent Way philosophies; dismissive of \"formless transcendence.\" Knowledge of Harvester mechanics is superficial, focused only on avoidance." 
+        authentication: "[Dialogue, Glopratchet Codex 0.6: Deontic Rule 2a]"
+       Limitation_Social:
+        description: "Can be perceived as rigid or dogmatic by Globs not of  the Adamant Rite. Often solitary due to specific environmental needs (desiccating areas)."
+        authentication: "[Social Interaction  Descriptions]"
+      Functional_Undersaturation: "Precise limits of self-compression; ability to teach Adamant Rites to  novices effectively."
+
+    Psychological_Properties:
+      Core_Trait_Stoic_Resolve:
+        description: " Stoic Resolve / Unwavering Faith in the Adamant Rite"
+        authentication: "[Glopratchet Codex 0. 6: Axiological Values 2a, Consistent Actions]"
+      Core_Trait_Deep_Reverence_ for_Physical_Form:
+        description: "Deep Reverence for Physical Form (Own and Others Committed to HARD ening)"
+        authentication: "[Internal Monologue (Implied through action focus), Dialogue]"
+      Core_Trait_Disciplined _Self_Control:
+        description: "Disciplined Self-Control (Regarding CMP, movement, reaction to stressors)"
+         authentication: "[Demonstrated Behaviors]"
+      Dominant_Emotion_Sober_Determination:
+        description : "Sober Determination / Purposeful Serenity (when practicing Rites)"
+        authentication: "[Narrator Descriptions , Tone]"
+      Key_Motivator_Achieve_True_Shattering:
+        description:  "Achieve a \"True Shattering\" leaving meaningful \"True Shards\"; Uphold the sanctity of the body  against the chaos of Glopratchet."
+        authentication: "[Glopratchet Codex 0.6: Alethic  Rule 1 & 3a, Explicit Goals]"
+      Key_Belief_Body_is_Vessel :
+        description: "\"The body is the vessel of truth and the ultimate testament of existence. Its integrity is the highest virtue . Earth elements connect us to this truth.\""
+        authentication: "[Glopratchet Codex 0.6 : Axiological/Epistemic Rules, Dialogue]"
+      Internal_Conflict_Integrity_vs_Chaos:
+         description: "The constant effort to maintain bodily integrity vs. the overwhelming forces of Glopratchet; Occasional doubts about the  efficacy of \"Earth Superstition\" when sacred sites are destroyed, quickly suppressed by renewed ritual focus."
+        authentication : "[Narrative Tension, Glopratchet Codex 0.6: Diachronic Check - Ratchetwork  Sacred Sites]"
+      Subjective_Memory_Content:
+        description: "Authenticated memories of powerful \"Grounding  Rites,\" the texture of \"Earth's Kiss\" from various sacred veins, the sight of a revered Elder's \" True Shattering.\""
+        authentication: "[Flashback Vignettes]"
+      Psychological_Undersaturation: " Specific origin of their faith (e.g.: a particular formative event beyond general acculturation); Personal aesthetic preferences beyond \" density is beauty.\""
+
+    Social_Relational_Categorical_Properties:
+      Official_Role:
+         description: "None formally, but recognized among local Adamant followers as a \"Shard-Seeker\" – one deeply committed to  the path and knowledgeable in \"Earth Superstitions.\" Sometimes acts as an informal \"Earth Keeper\" for a small,  desiccated niche in Ratchetwork Sector 7."
+        authentication: "[Glopratchet Codex 0. 6: Deontic Rule 2a - Guardians, Narrative Context]"
+      Social_Status:
+        description : "Respected among fellow Adamant Rite practitioners. Viewed with suspicion or pity by Liquescent Way followers. Ignored by Har vesters."
+        authentication: "[Interaction Scenes]"
+      Primary_Affiliation:
+        description: "The  Adamant Rite (Loosely, as it's more a shared philosophy than a formal organization)"
+        authentication : "[Beliefs and Practices]"
+      Secondary_Affiliations:
+        description: "Informal group that  frequents the \"Whispering Iron Vein\" sacred site."
+        authentication: "[Narrative Groupings]"
+       Key_Relationship_1_Mentor_Shard:
+        description: "To GLOB_ElderShard_Remnant  (Mentor's True Shard, OBJ_MentorShard_K01): Object of veneration and guidance,  reinforcing the importance of the body represented by the shard."
+        authentication: "[Narrative Focus, Item Interaction]"
+       Key_Relationship_2_Fluxia:
+        description: "To GLOB_Fluxia_LW_10 1 (Liquescent Way Debater): Occasional, tense philosophical debates about the body vs. transcendence."
+         authentication: "[Dialogue Scenes, Glopratchet Codex 0.6: Synchronic Check - Inter-Path Deb ates]"
+      Key_Relationship_3_Neophyte_Pebble:
+        description: "To GLOB _Neophyte_Pebble (Aspiring Adamant): Informal mentorship, teaching practices of \"being in the body.\"" 
+        authentication: "[Interaction Scenes]"
+      Species_Type:
+        description: "Glob"
+        authentication : "[World Rules]"
+      Social_Undersaturation: "Precise number of Adamant Globs Korundum interacts with;  relationships with Globs neutral to either path."
+
+    Modal_Properties:
+      Property_MODAL_KOR_01 :
+        property_name: "Subtle Physical Reinforcement via \"Earth Superstition\" (Alethic /Psychosomatic)"
+        description: "Authenticated that dedicated practice of \"Earth's Kiss\" (absorbing specific  mineral dusts) and \"Grounding Rites\" (prolonged contact with sacred Ratchetwork) has a  minor, localized, and temporary physical effect on Korundum's density and resistance to minor stresses. This effect is primarily a psychos omatic reinforcement of their commitment to \"being in the body,\" but with a measurable, albeit small, physical correlate consistent with  Glopratchet's subtle ritual efficacy."
+        limits: "Effect is not invulnerability; offers no protection  against significant Ratchetwork transformations or Harvester actions. Specific minerals have diminishing returns. Primarily reinforces the Glop's * belief* and *resolve*, which then translates to more focused physical self-maintenance."
+        authentication: "Glop ratchet Codex 0.6: Alethic Rule 1 & Resolution for Core Modality (Subtle physical  effects); Narrative descriptions comparing Korundum's resilience in minor specific instances to a baseline Glob."
+      Note: " This modal property is directly tied to the established rules for ritual efficacy in Glopratchet, emphasizing subtle, belief- driven physical influence rather than outright magic."
+
+    Axiological_Properties:
+      Reputation_Adamant_Rite_Pe ers:
+        description: "Authenticated as 'Devout', 'Resolute', 'Knowledgeable in Earth's Kiss', ' Embodiment of Bodily Integrity'."
+        authentication: "[Dialogue from other Adamant Globs]"
+      Rep utation_Liquescent_Way_Globs:
+        description: "Authenticated as 'Tragically Clinging  to Form', 'Fearful of True Release', 'Obsessed with Dust and Stone', 'Ignoring the Spirit Flow for  a mere body'."
+        authentication: "[Dialogue from Liquescent Globs]"
+      Reputation_Harves ters:
+        description: "Unremarkable Glop material, differentiated only by slightly higher density which might affect processing minimally  but is otherwise irrelevant to their Prime Ratcheting Imperative. Spiritual beliefs about the body are unperceived and valueless to  them."
+        authentication: "[Glopratchet Codex 0.6: Axiological Core Value 1]" 
+      Moral_Alignment_Narrative_Framing:
+        description: "Authenticated as a figure of tragic, noble adherence to  a chosen spiritual path (affirming the body) in a universe that is indifferent or hostile to such meaning-making."
+         authentication: "[Narrative Tone, Thematic Emphasis]"
+      Axiological_Undersaturation: "How neutral Globs , unaligned with either path, perceive Korundum's extreme focus on the body."
+
+    Historical_Properties: 
+      Origin:
+        description: "Authenticated as having survived the \"Sector Gamma Grinding Event\" Cycle 3 .45, where they witnessed the chaotic dissolution of many Globs and the contrasting, dignified \"True Shattering\"  of a single Adamant Elder. This event is the authenticated catalyst for their devotion to the Adamant Rite and the importance of the body ."
+        authentication: "[Backstory Flashback Sequence]"
+      Key_Past_Event_Connection_Subjective:
+         description: "Possesses vivid memory of the Elder's final words: \"The Form Holds Truth. Seek the Stone 's Embrace. Let your body be your testament.\""
+        authentication: "[Narrative description of memory]"
+       Inherited_Items:
+        description: "OBJ_MentorShard_K01 - a key shard from  the aforementioned Elder, serving as a constant reminder of their path and the potential of a noble end for the body."
+        authentication:  "[Narrative Inventory, Object Codex]"
+      Historical_Undersaturation: "Korundum's existence prior to  the Sector Gamma event; specific details of their early attempts at Adamant practices."
+
+  character_constitution_summary_and_ narrative_function:
+    core_essence: "Shard-Seeker Korundum is constituted as a devout follower of the Adam ant Rite, their entire being—Physical, Functional, and Psychological—shaped by the profound belief in the importance of the body and the  practices of \"Earth Superstition.\" Their higher density, ritualistic behaviors, stoic resolve, and the subtle Modal  influence of their faith all stem from this core. Korundum embodies a defiant assertion of form and meaning in the face of Gloprat chet's entropic, grinding indifference. Their existence is a testament to the desperate, creative ways sentient life seeks to  find value in its transient, physical manifestation, making their body a spiritual project."
+    primary_narrative_function: "To  exemplify the Adamant Rite philosophy in action; To provide a focal point for exploring themes of embodiment, faith, resilience vs . futility, and the search for meaning through physical integrity; To act as a philosophical counterpoint to Liquescent Way characters and  the nihilistic mechanics of Glopratchet; To showcase how \"Earth Superstition\" and \"being in the body\"  are lived practices."
+    key_internal_conflicts_from_bundle: "Maintaining faith in the body's sacredness  amidst constant destruction (Glopratchet Codex IV. V. Prompts): The tension between the desire for a \" True Shattering\" and the instinct for self-preservation; The struggle to find \"Earth-blessed\" sites when the  Ratchetwork constantly changes (Glopratchet Codex II. Diachronic): Philosophical clashes with Globs who devalue the  body (Glopratchet Codex III. Synchronic)."
+    potential_for_development_based_on_bundle: " Deepening understanding or reinterpretation of \"Earth Superstition\" after loss of a sacred site; Facing a crisis of  faith when bodily integrity is grotesquely violated without noble Shattering (Glopratchet Codex IV. V. Prom pts): Becoming a more formal \"Earth Keeper\" or teacher of \"being in the body\"; A tragic confrontation where their stubborn adherence to  the body proves fatal or counterproductive (Glopratchet Codex IV. V. Prompts)."

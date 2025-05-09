@@ -1,0 +1,130 @@
+Okay, Artist of Worlds, here is the combined and enhanced content focused on "II. Predicating Global States of Affairs: Defining the 'Now' of the Heterocosm," presented as a single, comprehensive YAML file.
+
+This YAML structure incorporates the organizational logic from the first Markdown document (defining different types of states) and integrates the rich, extreme sensory details and prompts from the second Markdown document directly into the examples and guiding notes. The goal is a practical tool that guides you to define your world's present state with both factual consistency and profound sensory immersion, grounded in Doležel's principles.
+
+# ============================================================
+# AETHELGARD - Story World Codex: Global States Protocol
+# Version: 1.0 (Integrated Sensory Definition)
+# Based on Doležel's Heterocosmica III.B.V.II
+# Last Updated: [Current Date]
+# Keeper of the Codex: [Your Name/Studio Name]
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol focuses on defining the **Global States of Affairs** – the prevailing political, social, economic, environmental, technological/magical, and atmospheric conditions – that constitute the 'present moment' or the 'Now' of the Aethelgard heterocosm for the specified timeline. 
+    Following Doležel's framework, these states are not mere background; they are **actively constituted through authenticated predication** by the narrative authority (i.e., the creator defining canon). 
+    This version emphasizes embedding **extreme, evocative, and specific sensory details** within these predications to define not just the facts of the 'Now,' but its tangible, visceral reality, crucial for immersion and creative expression.
+  focus_note: |
+    Treat sensory details as authenticated properties of the world state. Be specific, aim for uniqueness reflecting Aethelgard's Chrono-Noir Steampunk themes (clockwork, decay, temporal anomalies, atmospheric presence). Use comments `#` for nuances, planned changes, or subjective character perceptions distinct from authenticated world-facts.
+
+# --- Timeline Definition ---
+timeline_defined:
+  point_in_time: "Year 312 After Reconstruction (The 'Ticking Year')"
+  context: "Applies immediately following the 'Guild Skirmish of '10', a period of heightened tension and fragile recovery."
+
+# --- I. Authenticated Political & Geopolitical State ---
+political_state:
+  purpose: |
+    Define the authenticated reality of power structures, governance, major conflicts, alliances, and overall stability within the relevant scope (city, nation, region, etc.), focusing on how these manifest sensorially.
+  predicated_states:
+    - state: |
+        Governance Model: The Cogwork Council *operates* from the Spire, a place where the recycled air *tastes* faintly metallic and of ozone from humming server banks; polished brass corridors *reflect* cold lumen-light in dizzying patterns, and boot steps *echo* with sharp authority on marble laid over the *barely audible thrum* of unseen regulatory mechanisms.
+      # Authentication Source: Core World Doc, Location Profile - Spire
+    - state: |
+        Major Conflict Status: A 'Cold War' *simmers* between the Chronometers and Gearwrights Guilds, *smelling* of paranoia and industrial espionage – the sharp, acrid *scent* of chrono-solvents near sabotaged junctions, the discordant *grinding* of deliberately misaligned public clocktowers, and streetlights *flickering* erratically, casting long, dancing shadows that heighten unease in contested districts.
+      # Authentication Source: Faction Relations Doc, Sensory Palette Guide
+    - state: |
+        External Relations: Aethelgard's isolation within the crater *feels* like a tangible pressure, a heavy sonic dampening beyond the rim, punctuated only by the desolate *howl* of temporal winds carrying the *coppery tang* of raw Chrono-Dust that *irritates* the lungs and *blurs* vision with shimmering particles.
+      # Authentication Source: World Geography Doc, Environmental Doc
+    - state: |
+        Internal Stability: Undercity autonomy *resonates* as distant, muffled *booms* from gang conflicts or tunnel collapses, carries the pervasive *smell* of damp earth, rusted metal, fungal decay, and unwashed desperation, and is *felt* as the constant, low vibration of unstable ground threatening to give way.
+      # Authentication Source: Faction Relations Doc, Location Profile - Undercity
+    - state: |
+        Law Enforcement Status: The City Watch's strained authority *is visible* in their perpetually damp, non-standardized uniforms that *smell* faintly of mildew and cheap pipe tobacco, the hesitant *shuffle and scrape* of their boots on rain-slicked cobbles, and the weak, sputtering *hiss* of their gas-lanterns casting uncertain circles of light in the pervasive gloom.
+      # Authentication Source: Organization Profile - City Watch
+    - state: |
+        Recent Political Shift: Councilor Thorne's (Gearwright) ascent *is sensorially marked* by the increased *heavy clang and rhythmic march* of Gearwright automaton patrols, the *aggressive gleam* of newly installed brass fixtures in their territory, and a subtle but undeniable *shift* in the city's ambient clockwork symphony towards a louder, more forceful industrial tempo.
+      # Authentication Source: Recent Events Timeline, Auditory Palette Guide
+  prompts:
+    - "What does raw power *sound, smell, look, feel* like in different centers of authority (Council vs. Guild HQs vs. Undercity bosses)?"
+    - "Are there specific sensory 'signatures' associated with peace vs. tension vs. open conflict in this world?"
+    - "How does surveillance or lack thereof manifest sensorially (e.g., visible watchers, echoing footsteps, pervasive quiet, hidden microphones humming)?"
+    - "What is the sensory experience of crossing political or jurisdictional boundaries?"
+  implications:
+    - "How does the sensory reality of political power/conflict affect the mood and actions of ordinary citizens?"
+    - "What narrative opportunities arise from sensory clues related to political intrigue or control?"
+  dominant_sensory_texture: |
+    A constant low thrum of hidden control mechanisms beneath layers of sharp, metallic sounds of enforcement (patrols, gates), competing industrial scents (oil, solvents, steam), cold reflective surfaces, and pervasive, watchful shadows.
+
+# --- II. Authenticated Social & Cultural Conditions ---
+social_conditions:
+  purpose: |
+    Define the authenticated reality of societal structure, dominant ideologies, cultural trends, public morale, and prevailing social norms through their sensory manifestations.
+  predicated_states:
+    - state: |
+        Social Structure: The rigid Guild hierarchy *is sensorially palpable*; high Guild members move with an *audible* rustle of expensive, non-standard fabrics and the *faint, clean scent* of specialized atmospheric filters, their private spaces often *silent* and temperature-controlled. Lower strata are immersed in the *cacophony* of crowded tenements, the *feel* of rough-spun utility cloth, the *smell* of recycled protein paste and unfiltered air thick with dust.
+      # Authentication Source: Core World Doc, Character Design Principles
+    - state: |
+        Dominant Ideology: Clockwork Determinism *is visually omnipresent* in public chronometers, time-stamped everything, intricate gear motifs in architecture; *audibly reinforced* by synchronized chimes, factory rhythms, and the precise cadence expected in official speech; *felt* in the pressure of schedules and the perceived 'correctness' of mechanical order.
+      # Authentication Source: Faction Ideology Doc, World Details Doc
+    - state: |
+        Public Morale/Mood: Weary resilience *looks like* perpetually mended clothes showing layers of repair, faces etched with fatigue lines illuminated by flickering gaslight, structures held together with visible rivets and bracing; *sounds like* hushed conversations punctuated by sudden, harsh laughter or arguments, overlaid with the constant *drip* of acidic rain and the *sigh* of steam vents.
+      # Authentication Source: Narrative Tone Guide
+    - state: |
+        Cultural Trends: The underground fascination with 'Lost History' *carries the scent* of disturbed dust from sealed archives and the *cool, smooth feel* of potentially pre-Shattering artifacts; *manifests visually* in coded graffiti resembling forgotten symbols; *heard* in snippets of ancient, fragmented melodies hummed in secret.
+      # Authentication Source: Plot Hook Doc
+    - state: |
+        Prejudice/Discrimination: Prejudice against the 'Unclocked' *is felt* as a subtle, almost imperceptible *tightening* in the posture of Guild members when near them, a slight *increase* in conversational volume to talk over them, the *visual* act of pointedly checking one's own chronometer. The disdain for Undercity dwellers *carries olfactory weight* - associating them with the *smell* of stagnant water, rust, and 'unfiltered humanity'.
+      # Authentication Source: Social Conflict Doc
+    - state: |
+        Religious/Spiritual State: Defunct old temples *feel* hollow and cold, their grand spaces *echoing* unnaturally with mundane warehouse sounds, the air *tasting* of dust instead of incense. Temporal cult meeting spots *radiate* a strange warmth, *hum* with discordant energy fields, and often *feature visual motifs* blending clockwork with unsettling organic or impossible geometry.
+      # Authentication Source: World History Doc, Location Descriptions
+  prompts:
+    - "What are the unique sensory markers (dress, scent, dialect, body language, associated sounds) of different social classes or cultural groups?"
+    - "How does the dominant ideology try to shape the sensory environment (e.g., imposing order, suppressing certain sounds/sights)?"
+    - "What does hope *look/sound/smell* like in this world? What about despair?"
+    - "Are there specific sensory experiences associated with major life rituals (birth, death, coming-of-age, Guild induction)?"
+  implications:
+    - "How can sensory details instantly communicate social status or cultural affiliation/conflict?"
+    - "How can sensory experiences be used to explore themes of conformity, rebellion, or cultural identity?"
+  dominant_sensory_texture: |
+    A stratified sensory experience: polished, controlled, and often artificially scented environments for the elite, contrasting sharply with the rough textures, unfiltered smells (labor, decay, cheap fuel), loud noises, and visual clutter experienced by the lower classes, all unified by the world's underlying melancholic atmosphere.
+
+# --- III. Authenticated Economic Conditions ---
+economic_conditions:
+  purpose: |
+    Define the authenticated reality of trade, resources, wealth distribution, labor, and overall economic health through its tangible, sensory impacts.
+  predicated_states:
+    - state: |
+        Core Resource: Chrono-Dust's economic dominance *is sensorially pervasive* – the *metallic tang* in the air near processing plants, the *shimmering visual coating* on everything downwind, the *constant, earth-shaking rumble* of deep-crater harvesting drills, the *cool, slightly buzzing feel* of refined Dust ingots.
+      # Authentication Source: Core World Doc, Sensory Palette Guide
+    - state: |
+        Wealth Distribution: Stark inequality *is visually jarring* – compare the *gleaming, steam-hissing, self-polishing* brass facades of Chronometer mansions with the *leprous, peeling, rust-weeping* corrugated iron shacks of the outer Undercity fringes. *Audibly* different too: the *muffled elegance* within Guild halls vs. the *desperate cacophony* of a slum market.
+      # Authentication Source: Social Structure Doc, Visual Design Guide
+    - state: |
+        Labor System: Automaton labor *creates* a relentless, city-wide *soundscape* of non-human industry – rhythmic clanking, hydraulic sighs, servo whines, punctuated by synthesized alerts. Decommissioned units form *mountains of cold, silent metal*, occasionally *emitting* sparks or leaking viscous, foul-smelling lubricants. Human labor zones *smell* intensely of sweat, exertion, and specific industrial materials (coal, chemicals, processed food).
+      # Authentication Source: Technology Doc, Auditory Palette
+    - state: |
+        Trade Status: Regulated markets *feature* orderly stalls, goods displayed under harsh lumen-globes that *reveal every flaw*, the air *carrying* mixed but distinct smells of packaged wares and the faint *scent* of ozone from security fields. Black markets *assault the senses* – thick smoke from unregulated braziers, overwhelming *mixtures of exotic and rotten smells*, the *shouting* of hawkers, the *visual chaos* of stolen/jury-rigged goods piled high, the *feel* of jostling crowds.
+      # Authentication Source: Economic System Doc, Location Profiles
+    - state: |
+        Currency: Brass Cogs *feel* distinctly weighted, often worn smooth or slightly greasy from handling, and *possess* a specific resonant *clink*. Guild scrip *feels* like rough, durable fabric, sometimes *imprinted* with tactile security features and carrying the *faint, specific scent* of the issuing Guild (e.g., ozone for Chronometers, oil for Gearwrights).
+      # Authentication Source: World Details Doc
+    - state: |
+        Economic Strain: Increased quotas *translate* sensorially into the *visible exhaustion* etched on workers' faces, the *higher pitch* of strained machinery operating near tolerance limits, the *taste* of cheaper, less nutritious rations becoming standard, and an *audible increase* in arguments and desperate pleas in marketplaces.
+      # Authentication Source: Current Events Timeline
+  prompts:
+    - "What are the sensory byproducts of the main industries? (e.g., specific pollution smells/colors, characteristic noises)."
+    *   - "How does the sensory experience of 'luxury' differ from 'poverty' in this world? (Textures, scents, sounds, quality of light)."
+    *   - "What does 'work' feel/smell/sound like for different types of laborers?"
+    *   - "Are there unique sensory elements associated with the currency or methods of exchange?"
+    *   - "How would an economic boom or bust *sensorially manifest* in the city?"
+  implications:
+    - "How can sensory details about the economy drive plots related to survival, ambition, or rebellion?"
+    - "How do they reveal the true cost of the city's functioning?"
+  dominant_sensory_texture: |
+    A foundation of overwhelming industrial noise and smells (metal, steam, chemicals, dust), sharply bifurcated between the controlled, often sterile or artificially pleasant sensory environments of wealth, and the raw, decaying, often desperate sensory overload of poverty and illicit activity.
+
+# --- IV. Authe

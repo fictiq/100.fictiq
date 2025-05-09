@@ -1,0 +1,215 @@
+# ============================================================
+# Story World Codex: Core Analytical Focus & Design Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Mandated Analytical Foci)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly detailed framework** for guiding the **design and critical 
+    self-evaluation** of the Aethelgard heterocosm by focusing intensely on the **key analytical loci** 
+    mandated by Doležel's semantic theory. It translates the core tasks of the *analyst* into rigorous 
+    *design imperatives* for the *creator*.
+  focus: |
+    To ensure that the world's architecture is deliberately constructed with profound attention to: 
+    1) The **clarity, reliability, and strategic deployment of Authentication Sources**; 
+    2) The **explicit definition and rigorously consistent application of Governing Modalities**; 
+    3) The **rich, multifaceted, and purposefully assigned Semantic Content** (Properties & Relations); 
+    4) The achievement of demonstrable **Internal Coherence** at all structural levels; and 
+    5) The design of complex and meaningful **Systemic Interplay**. Adherence to these foci is paramount 
+    for building a theoretically sound and narratively potent heterocosm.
+
+# --- Focus Area I: Authentication Sources & Reliability (The Epistemology of Canon) ---
+focus_authentication:
+  mandate: "Rigorously define and consistently manage the sources and perceived reliability of all information constituting the Aethelgard heterocosm."
+  design_imperatives:
+    - imperative_id: "AUTH_IMP_01"
+      principle: "Define Primary Narrative Authority Explicitly"
+      detailed_guidelines: |
+        - Clearly codify the nature, scope, limitations, and established reliability level of the primary narrative voice(s) 
+          (e.g., Third-Person Limited - Kaelen POV: Reliable for his direct perception/thoughts, unreliable for events outside his knowledge; 
+          Occasional Omniscient Narrator Inserts: Highest authority for objective facts/modalities).
+        - Document specific linguistic markers or stylistic conventions signalling shifts in narrative authority or reliability.
+        - Ensure all contributors understand and consistently adhere to the capabilities and limitations of the chosen narrative voice(s).
+      codex_link: "[Codex Section: Narrative Voice & Authentication Protocols]"
+      self_critique_prompt: "Can a reader *always* discern the source and likely reliability of any given piece of information based on consistent textual cues?"
+
+    - imperative_id: "AUTH_IMP_02"
+      principle: "Establish Clear Rules for Character Discourse Authentication"
+      detailed_guidelines: |
+        - Define default assumption: Character statements authenticate *only their subjective belief/perception*, unless explicitly corroborated by higher authority or context makes them a demonstrably reliable expert on *that specific topic*.
+        - Create profiles for key characters detailing their *authenticated* knowledge domains, biases, typical veracity level, and known areas of ignorance or potential deception.
+        - Use narrative techniques (e.g., contrasting dialogue with action, internal monologue contradicting speech, reliable narrator commentary) to signal the reliability (or lack thereof) of character assertions *within the story*.
+      codex_link: "[Codex Section: Character Profiles (Epistemic Status); Dialogue Authentication Rules]"
+      self_critique_prompt: "Are there instances where crucial world-building relies *solely* on uncorroborated character dialogue without acknowledging its potential subjectivity?"
+
+    - imperative_id: "AUTH_IMP_03"
+      principle: "Authenticate the Status of In-World Media/Documents"
+      detailed_guidelines: |
+        - For every significant in-world document, recording, or media source presented, explicitly authenticate its likely **origin, purpose, potential biases, physical condition (e.g., fragmentation, censorship), and generally accepted reliability level *within the heterocosm***.
+        - Use the presentation of these sources to explore themes of history manipulation, propaganda, or epistemic uncertainty.
+      codex_link: "[Codex Section: Key Artifacts/Documents; Faction Profiles (Propaganda Methods)]"
+      self_critique_prompt: "Does the world treat all discovered texts as equally truthful, or is their reliability actively questioned and investigated within the narrative?"
+
+    - imperative_id: "AUTH_IMP_04"
+      principle: "Strategic Deployment of Unreliability & Ambiguity"
+      detailed_guidelines: |
+        - Where unreliability or ambiguity is intended (e.g., unreliable narrator, conflicting historical accounts, core mysteries), ensure this is a **conscious design choice** serving narrative/thematic purpose, not accidental inconsistency.
+        - Provide sufficient (though perhaps subtle) textual cues to signal the *presence* of unreliability or ambiguity to the attentive reader, guiding interpretation without necessarily resolving the uncertainty immediately.
+      codex_link: "[Codex Section: Core Mysteries; Narrative Strategy Guide]"
+      self_critique_prompt: "Are your mysteries truly grounded in authenticated ambiguity and epistemic limits, or do they rely on withholding information the primary narrator *should* know?"
+
+# --- Focus Area II: Governing Modalities (Legislating World Physics & Ethics) ---
+focus_modalities:
+  mandate: "Define the fundamental rules of Aethelgard with utmost clarity, precision, and ensure their inviolable application (barring formally approved retcons)."
+  design_imperatives:
+    - imperative_id: "MODAL_IMP_01"
+      principle: "Explicit & Granular Codification"
+      detailed_guidelines: |
+        - **Alethic:** Define precise limits, costs, failure rates, energy sources, paradox triggers, side-effects for *all* core technologies and phenomena (Chrono-Tech, Aberrations, Artificer remnants). Specify what is *absolutely impossible*.
+        - **Deontic:** Codify major legal statutes (Council), binding Guild laws/oaths, core tenets of significant ethical codes (Salvager), and *authenticated* consequences for violation (formal and social).
+        - **Axiological:** Define explicit value hierarchies for major factions/cultures. What actions/qualities are *consistently authenticated* as heroic, villainous, desirable, taboo? Define the world's core moral compass, even if contested.
+        - **Epistemic:** Detail the limits of knowledge, the reliability spectrum of information sources (observation vs. tech vs. memory vs. texts vs. rumor), and mechanisms of information control/suppression.
+      codex_link: "[Codex Sections: Modalities (Alethic, Deontic, Axiological, Epistemic), System Mechanics]"
+      self_critique_prompt: "Could a new creator, reading *only* the modality sections, accurately predict whether a specific complex action is possible, permissible, valuable, and knowable in Aethelgard?"
+
+    - imperative_id: "MODAL_IMP_02"
+      principle: "Demonstrate Rules Through Consistent Application"
+      detailed_guidelines: |
+        - Ensure narrative events *consistently demonstrate* the operation of these modalities. Show the costs of magic/tech. Show the consequences of breaking laws (or the systemic reasons why consequences are sometimes avoided by the powerful). Show characters struggling with epistemic limits.
+        - Avoid 'telling' rules without 'showing' them in action. Avoid authenticating rules that are then ignored in practice.
+      codex_link: "[Cross-reference Modality sections with Narrative Outlines, Scene Breakdowns]"
+      self_critique_prompt: "Can you cite multiple, consistent examples within your planned narratives for the application of each core world rule?"
+
+    - imperative_id: "MODAL_IMP_03"
+      principle: "Analyze Inter-Modal Interactions"
+      detailed_guidelines: |
+        - Consciously design and analyze scenarios where different modalities intersect or conflict (e.g., something is *possible* but *forbidden*; something *valuable* is *unknowable*; an *obligation* requires using *dangerous/limited* abilities).
+        - Ensure the resolution of these conflicts adheres logically to the established hierarchy or interaction rules of the modalities themselves.
+      codex_link: "[Codex Section: Systemic Interplay Analysis; Thematic Guides]"
+      self_critique_prompt: "Where do the different rule systems of your world create the most interesting friction or dilemmas?"
+
+# --- Focus Area III: Semantic Content (Meticulous Entity Constitution) ---
+focus_semantic_content:
+  mandate: "Build entities through rich, diverse, and coherently integrated bundles of authenticated properties and relations."
+  design_imperatives:
+    - imperative_id: "SEMCON_IMP_01"
+      principle: "Multifaceted Property Bundles"
+      detailed_guidelines: |
+        - For all significant entities, ensure properties are authenticated across **multiple relevant taxonomic categories** (Physical, Functional, Psychological, Social, Modal, Axiological, Historical). Avoid one-dimensional definitions.
+        - Pay extreme attention to **sensory details** within Physical properties, grounding the entity tangibly.
+        - Define **Functional limitations, costs, and weaknesses** as rigorously as capabilities.
+        - Constitute **Psychological** states through authenticated evidence (narration, action, reliable dialogue), avoiding projection. Detail core traits, motivations, beliefs, *and* internal conflicts.
+        - Map **Social/Relational** positioning meticulously (roles, status, affiliations, key relationships).
+      codex_link: "[Entity Constitution Protocols (Taxonomy, Property Bundle, Sensory, Social, Modal, Historical)]"
+      self_critique_prompt: "Pick a major entity. Can you articulate its definition across at least 5 different property dimensions using only authenticated information?"
+
+    - imperative_id: "SEMCON_IMP_02"
+      principle: "Coherent Bundle Integration"
+      detailed_guidelines: |
+        - Ensure all properties authenticated within a single entity's bundle are **logically compatible** according to world rules.
+        - Analyze and design the **interplay between different property types** within the bundle (e.g., how physical limits affect functional choices, how historical trauma shapes psychology).
+        - Use **internal tensions** within the bundle (authenticated contradictions) purposefully to create complexity, not accidental incoherence.
+      codex_link: "[Entity Constitution Protocols (Synthesis/Richness Review)]"
+      self_critique_prompt: "Does the entity feel like a cohesive whole, or a collection of potentially contradictory attributes? Can you explain how its different properties logically influence each other?"
+
+    - imperative_id: "SEMCON_IMP_03"
+      principle: "Purposeful Attribute Selection"
+      detailed_guidelines: |
+        - Authenticate properties **strategically**, focusing on those essential for the entity's narrative function, thematic role, and core identity.
+        - Utilize **undersaturation** deliberately, leaving non-essential details undefined to maintain focus and mystery. Avoid excessive, non-functional detail ('worldbuilder's disease').
+        - Ensure property choices reinforce the world's **core themes and tone**.
+      codex_link: "[Entity Constitution Protocols; Purpose-Driven Design Protocol]"
+      self_critique_prompt: "For a key entity, can you justify the narrative/thematic necessity of its 5 most prominent authenticated properties? Could any be cut without loss?"
+
+# --- Focus Area IV: Internal Logic & Coherence (Architectural Soundness) ---
+focus_internal_coherence:
+  mandate: "Maintain rigorous internal consistency across all levels and temporal dimensions of the heterocosm as the paramount architectural virtue."
+  design_imperatives:
+    - imperative_id: "COHER_IMP_01"
+      principle: "Diachronic Consistency (Temporal Stability)"
+      detailed_guidelines: |
+        - **Absolute Requirement:** Authenticated facts, established character properties, and world states MUST remain consistent over time unless change is explicitly authenticated through plausible narrative events *adhering to world modalities*.
+        - Maintain and rigorously consult the Master Timeline. Track character arcs and state evolution systematically.
+        - Implement strict protocols for reviewing continuity across installments/platforms.
+      codex_link: "[Master Timeline; Character Arc Trackers; Retcon Policy]"
+      self_critique_prompt: "Can you trace a key element (character state, political situation) across its entire authenticated history without encountering unexplained contradictions?"
+
+    - imperative_id: "COHER_IMP_02"
+      principle: "Synchronic Consistency (Simultaneous Compatibility)"
+      detailed_guidelines: |
+        - **Absolute Requirement:** All elements authenticated as co-existing at a single point in time MUST be logically compatible according to the world's rules.
+        - Perform consistency checks across interacting systems (e.g., Does the authenticated tech level support the authenticated economic activity? Do social norms align with the authenticated political reality? Do environmental hazards plausibly affect entity properties?).
+      codex_link: "[Systemic Interplay Protocol; Coherence Checklists]"
+      self_critique_prompt: "Take a 'snapshot' of a complex scene involving multiple systems. Does every element function according to its authenticated properties and the world's rules without logical clashes?"
+
+    - imperative_id: "COHER_IMP_03"
+      principle: "Plausible Causality (Internal Logic)"
+      detailed_guidelines: |
+        - Ensure all significant narrative events have clear, authenticated causes *within the world's established logic* (which may include specific magic/tech causality).
+        - Ensure the consequences of actions align consistently and plausibly with the world's modalities and entity properties. Avoid arbitrary or convenient outcomes.
+      codex_link: "[Modalities definitions; Causal Chain mapping in Interplay Protocol]"
+      self_critique_prompt: "For a major plot point, can you map the chain of cause-and-effect using only authenticated world rules and entity capabilities?"
+
+# --- Focus Area V: Structure & Systemic Interplay (The Integrated Architecture) ---
+focus_systemic_interplay:
+  mandate: "Design and analyze Aethelgard not as a collection of parts, but as a deeply interconnected system where components mutually influence each other."
+  design_imperatives:
+    - imperative_id: "INTER_IMP_01"
+      principle: "Map Multi-Level Interactions"
+      detailed_guidelines: |
+        - Actively analyze and document the **reciprocal influences** between Macro-structures (Modalities, History, Global States) and Micro-components (Entity Properties/Relations).
+        - Use protocols (e.g., Systemic Interplay Protocol) to trace how historical legacies shape present constraints, how global states impact individual choices, how entity actions test modal limits, etc.
+      codex_link: "[Systemic Interplay Protocol; links between various Codex sections.]"
+      self_critique_prompt: "Can you demonstrate how a change in one core system (e.g., a new law - Deontic) would plausibly ripple through at least three other systems (e.g., Economy, Social, Character Psychology)?"
+
+    - imperative_id: "INTER_IMP_02"
+      principle: "Design for Functional Integration"
+      detailed_guidelines: |
+        - Ensure unique world elements (Chrono-Tech, Aberrations, specific Guilds) are not isolated but **functionally integrated**, demonstrably impacting multiple facets of the world system (politics, economy, daily life, environment).
+        - Evaluate the **systemic necessity** of key elements – what would unravel if they were removed?
+      codex_link: "[Functional Integration Audit (within Richness Protocol)]"
+      self_critique_prompt: "Take Aethelgard's most unique element. List 5 concrete ways it changes how *other*, seemingly unrelated parts of the world function."
+
+    - imperative_id: "INTER_IMP_03"
+      principle: "Cultivate Emergent Complexity & Resonance"
+      detailed_guidelines: |
+        - Design foundational rules and interactions with an eye towards **emergent possibilities** – complex dynamics or thematic resonances that arise *from the system itself*, not just from explicit authorial statements.
+        - Analyze how the **overall structure and interplay** function metaphorically or architecturally to explore core themes.
+      codex_link: "[Thematic Resonance Protocol (Systemic Interplay section)]"
+      self_critique_prompt: "What unintended (but logically consistent and interesting) consequences arise from the interaction of your core world rules? How do these contribute to depth or theme?"
+
+# --- Conclusion: The Analyst's Mindset as Creator's Imperative ---
+conclusion:
+  summary: |
+    This protocol mandates that the creator(s) of Aethelgard adopt the **rigorous mindset of the structural semantic analyst** during the design process. By intensely focusing on **clear authentication, consistent modality application, detailed semantic constitution, unwavering internal coherence, and deep systemic integration**, we move beyond surface invention.
+  final_statement: |
+    Adherence to these core analytical foci elevates world-building from mere description to the **deliberate architecture of a meaningful semantic universe**. It ensures the Aethelgard heterocosm possesses the structural integrity, logical depth, and functional coherence necessary to support compelling narratives, foster deep audience engagement, and stand as a testament to the power of language to forge believable, resonant 'other worlds'. This disciplined focus *is* the pathway to realizing Aethelgard's full potential.
+
+# ============================================================
+# End of Core Analytical Focus & Design Protocol v1.1 (Extreme Detail)
+# ============================================================
+
+
+How this YAML Embodies "Extreme Detail" for Analytical Foci:
+
+Explicit Mandates: Each focus area is framed as a non-negotiable "Mandate" for the design process.
+
+Granular Imperatives: Breaks down each focus area into specific, actionable "Design Imperatives" with detailed guidelines and rationale.
+
+Deep Interrogation: The assessment_questions and self_critique_prompts within each imperative demand rigorous self-examination and justification based on Doležel's core principles.
+
+Integration with Other Protocols: Explicitly references and requires alignment with other detailed protocols (Entity Constitution, Systemic Interplay, Coherence Checks, Governance), creating a fully integrated system.
+
+Focus on Mechanism & Justification: Constantly asks how consistency is achieved, how rules are applied, how systems interact, demanding analysis of the underlying mechanisms.
+
+Emphasis on Rigor & Precision: Uses language emphasizing thoroughness, meticulousness, clarity, avoidance of ambiguity (unless intentional), and logical soundness.
+
+Codex Centrality: Reinforces the Master Codex as the essential tool for documenting and verifying adherence to these analytical foci during design.
+
+Theoretical Foundation: Explicitly links the practical design imperatives back to the theoretical necessity derived from Doležel's framework (e.g., need for clear authentication, importance of modal consistency, entities as property bundles).
+
+This extremely detailed YAML serves as a demanding but comprehensive guide for creators committed to building their fictional world with the utmost structural integrity and semantic precision, fully internalizing the analytical priorities mandated by Doležel's powerful theory.

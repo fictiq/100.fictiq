@@ -1,0 +1,286 @@
+# ============================================================
+# Story World Codex: Axiological Framework Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Assigning World-Internal Value)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly granular framework** for the meticulous definition 
+    and strategic deployment of the **axiological system** within the Aethelgard heterocosm. 
+    Building upon Doležel's theory, it treats values – good/bad, beautiful/ugly, honorable/
+    dishonorable, sacred/profane, desirable/undesirable – not as universal assumptions or purely 
+    subjective opinions, but as **objective properties constituted and authenticated by the 
+    authoritative narrative discourse *within* the specific world**.
+  scope: |
+    Mandatory for defining the core value structures, moral landscapes, aesthetic standards, and 
+    reputational economies of Aethelgard. Guides the consistent application of these values across 
+    narratives, ensuring they shape character motivation, drive conflict, establish stakes, and 
+    contribute profoundly to thematic resonance.
+  ontological_premise: |
+    Within the Aethelgard heterocosm, 'goodness', 'beauty', 'honor', etc., exist as **authenticated 
+    semantic properties**, assigned to entities, actions, or states by the Sovereign Authenticator(s)/CAA. 
+    Their validity is internal to the world's structure, independent of Actual World ethics or aesthetics 
+    (unless AW values are explicitly authenticated as relevant). Analysis requires distinguishing 
+    authenticated world-axiology from unauthenticated character judgments.
+
+# --- I. Core Authenticated Value Systems & Hierarchies ---
+# Purpose: Define the dominant and significant competing value systems authenticated for key cultures, 
+#          factions, or the world's underlying cosmology.
+core_value_systems:
+
+  - system_id: "VALSYS_GuildCoalition_Official"
+    dominant_groups: "[Cogwork Council, Chronometers Guild (Public Doctrine), Gearwrights (Pragmatic Wing)]"
+    system_description: "A system prioritizing perceived stability, technological control, information management, and the preservation of the current Guild-dominated order, often justifying morally ambiguous actions through appeals to preventing chaos or ensuring efficiency."
+    authenticated_value_hierarchy: # Ordered roughly by authenticated importance
+      - value: "Order & Stability"
+        definition: "Maintaining predictable function, suppressing temporal anomalies, enforcing social hierarchy, preventing relapse into Dark Year chaos."
+        manifestation_sensory: "[Visually: Polished surfaces, regulated architecture, uniformed patrols. Auditorily: Rhythmic machinery, synchronized chimes, suppression of dissent. Atmospherically: Controlled, predictable, sometimes sterile/oppressive feel.]"
+        authentication: "[Source: Council Edicts, Guild Charters, Narrator descriptions framing chaos negatively.]"
+      - value: "Control & Knowledge (Managed)"
+        definition: "Monopolizing Chrono-Dust/Tech, controlling historical narratives, hierarchical information flow, valuing expertise loyal to the system."
+        manifestation_sensory: "[Visually: Restricted archives, secure labs, symbols of Guild authority. Auditorily: Coded language, information blackouts. Atmospherically: Secrecy, paranoia.]"
+        authentication: "[Source: Faction actions, Secrecy oaths, plot points involving info control.]"
+      - value: "Efficiency & Precision"
+        definition: "Valuing functional optimization, predictability in mechanics/schedules, quantifiable results, technological solutions."
+        manifestation_sensory: "[Visually: Intricate clockwork aesthetic, standardized components. Auditorily: Rhythmic operations, emphasis on timing. Culturally: Punctuality valued.]"
+        authentication: "[Source: Gearwright philosophy, Chronometer methods, aesthetic descriptions.]"
+      - value: "Pragmatism (Conditional)"
+        definition: "Valuing practical outcomes over abstract ideals, sometimes justifying ethically dubious means for perceived greater stability/Guild benefit."
+        manifestation_sensory: "[Behavioral: Decisions based on resource cost/benefit, alliances of convenience. Less distinct sensory signature, more action-based.]"
+        authentication: "[Source: Political maneuvering depicted, specific character justifications.]"
+    authenticated_disvalues_taboos:
+      - disvalue: "Uncontrolled Chaos/Instability (Temporal & Social)"
+        consequence: "[Extreme containment measures, fear/prejudice towards sources (Aberrations, Undercity).]"
+      - disvalue: "Inefficiency/Waste (by Guild standards)"
+        consequence: "[Derision, resource denial, potential demotion.]"
+      - disvalue: "Unsanctioned Historical Truth / Artificer Hubris"
+        consequence: "[Suppression, censorship, memory alteration (rumored/actual), social taboo.]"
+      - disvalue: "Individual Autonomy (when challenging Guild Order)"
+        consequence: "[Surveillance, re-education, exile, memory wipe.]"
+
+  - system_id: "VALSYS_Undercity_Survivalist"
+    dominant_groups: "[Salvager Crews, Independent Settlers, Black Marketeers (variable adherence)]"
+    system_description: "A pragmatic, often brutal value system prioritizing immediate survival, resourcefulness, localized loyalty, and freedom from Surface interference, forged in a hazardous and resource-scarce environment."
+    authenticated_value_hierarchy:
+      - value: "Survival (Immediate & Crew-Level)"
+        definition: "Securing basic needs (shelter, food, clean air/water, safety from hazards) for oneself and one's immediate trusted group."
+        manifestation_sensory: "[Visually: Focus on functional repairs, scavenging usable materials, fortified safe zones. Olfactorily: Driven by scents indicating resources or danger.]"
+        authentication: "[Source: Constant narrative focus on survival challenges, character motivations.]"
+      - value: "Resourcefulness & Ingenuity"
+        definition: "Ability to repair, repurpose, jury-rig technology with limited resources; clever navigation of environmental/social dangers."
+        manifestation_sensory: "[Visually: Prevalent 'patchwork' aesthetic of tech/shelter. Functionally: Surprising effectiveness of crude-looking devices.]"
+        authentication: "[Source: Character skills, descriptions of Undercity tech.]"
+      - value: "Autonomy & Independence (from Surface)"
+        definition: "Strong resistance to Guild/Council control; valuing freedom of movement/action within Undercity; operating by local codes."
+        manifestation_sensory: "[Behavioral: Evasion of Watch patrols, use of hidden routes. Socially: Disdainful language/attitude towards Surface laws/people.]"
+        authentication: "[Source: Faction descriptions, plot conflicts.]"
+      - value: "Crew/Community Loyalty (Localized & Conditional)"
+        definition: "Strong bonds and mutual support *within* established crews/settlements; adherence to local codes of sharing vital info/defense."
+        manifestation_sensory: "[Behavioral: Sharing resources within group, collective defense actions. Auditorily: Use of coded signals/language.]"
+        authentication: "[Source: Character interactions, Salvager Code references.]"
+      - value: "Grit & Resilience ('Mended Beauty')"
+        definition: "Stoic endurance of hardship; finding aesthetic value in things that are worn, damaged but still functional; pride in survival itself."
+        manifestation_sensory: "[Visually: Acceptance/valuing of scars, patched clothing, weathered surfaces. Behaviorally: Lack of complaint, focus on immediate tasks.]"
+        authentication: "[Source: Character attitudes, descriptive focus.]"
+    authenticated_disvalues_taboos:
+      - disvalue: "Surface Authority/Interference"
+        consequence: "[Evasion, sabotage, potential violence.]"
+      - disvalue: "Wastefulness/Uselessness"
+        consequence: "[Derision, abandonment of non-functional items/people.]"
+      - disvalue: "Betrayal of Crew/Community (Severe Local Taboo)"
+        consequence: "[Ostracism, violence, loss of all support networks.]"
+      - disvalue: "Unnecessary Risk / Recklessness (Threatening Crew)"
+        consequence: "[Reprimand, potential expulsion from crew.]"
+
+  # --- Define other potential value systems ---
+  # - system_id: "VALSYS_Artificer_Legendary" (Values associated with lost age: Perfection? Knowledge? Power? Control over Time?)
+  # - system_id: "VALSYS_TemporalCult_Fringe" (Values associated with worshipping/appeasing Aberrations or seeking Paradox?)
+
+  prompts_value_systems:
+    - "How do these competing value systems create inherent conflict points between factions/cultures?"
+    *   - "Are there values that are *universally* accepted or rejected across most groups in Aethelgard, or is axiology highly fragmented?"
+    *   - "How does the *sensory environment* of different groups reflect their core values (e.g., pristine Guild halls vs. functional Undercity workshops)?"
+    *   - "Is there a 'natural law' or cosmic value system hinted at (related to Time/Paradox/Aberrations) that overrides societal values?"
+
+# --- II. Assigning Authenticated Axiological Properties to Specific Entities ---
+entity_axiological_profiles:
+  purpose: "Explicitly define the authenticated value status, reputation, and moral/aesthetic properties of key entities according to the established world-internal value systems."
+  methodology_note: "Distinguish carefully between objective properties authenticated by the highest narrative authority versus subjective perceptions authenticated *as perceptions* held by specific characters/groups."
+
+  entity_analyses:
+    - entity_id: "CHAR_Kaelen_01"
+      axiological_properties:
+        - property_id: "AXIO_KAE_MoralStanding"
+          value_status: "[Ambiguous/Contested]"
+          authenticated_perceptions:
+            - perspective: "Guild Establishment View"
+              value: "'Dangerous Radical', 'Loose Cannon', potentially 'Corrupted by Undercity Influence'."
+              authentication: "[Dialogue of Guild officials, internal reports prop.]"
+            - perspective: "Undercity View (Rust's Crew)"
+              value: "'Useful Outsider', 'Honorable Fool' (for risking self for truth), 'Potentially Exploitable'."
+              authentication: "[Dialogue/Actions of Rust and crew.]"
+            - perspective: "Authoritative Narrative Framing"
+              value: "Actions consistently framed as motivated by 'Search for Truth' (implicitly positive within Noir context), though methods are often 'Rule-Bending' (Deontically problematic)."
+              authentication: "[Narrator focus, consequences depicted.]"
+        - property_id: "AXIO_KAE_Aesthetic"
+          value_status: "[Unremarkable / Functional (by Surface standards)]"
+          authenticated_perceptions:
+            - perspective: "General Surface View"
+              value: "'Worn', 'Standard Issue', 'Lacking Guild Polish'."
+              authentication: "[Lack of positive aesthetic commentary, comparison to Guild member descriptions.]"
+            - perspective: "Potential Undercity View"
+              value: "'Practical', 'Unpretentious' (potentially positive within their value system)."
+              authentication: "[Implied by contrast/Salvager values.]"
+
+    - entity_id: "OBJ_ArtificerHeart"
+      axiological_properties:
+        - property_id: "AXIO_HEART_InherentValue"
+          value_status: "[Inherently Sacred / Embodiment of Order (High Positive Axiological Modality)]"
+          authenticated_effects: "[Repels base Aberrations, inspires hope/calm in attuned individuals.]" # Linked to MODAL-AXI-HEART-SACRED
+          authentication: "[Requires high authority - Ancient texts, consistent demonstration.]"
+        - property_id: "AXIO_HEART_PerceivedWorth"
+          value_status: "[Universally Priceless / Object of Ultimate Desire]"
+          authenticated_perceptions:
+            - perspective: "Chronometers Guild"
+              value: "Key to understanding/controlling Time/Shattering."
+            - perspective: "Gearwrights Guild"
+              value: "Ultimate power source."
+            - perspective: "Memory Keepers"
+              value: "Repository of true history/Artificer intent."
+            - perspective: "Temporal Cults"
+              value: "Object of worship / Tool for desired future."
+          authentication: "[Faction goals documents, character motivations related to object.]"
+
+    - entity_id: "ACTION_MemoryWipe"
+      axiological_properties:
+        - property_id: "AXIO_WIPE_MoralStatus"
+          value_status: "[Highly Contested / Morally Ambiguous]"
+          authenticated_perceptions:
+            - perspective: "Official Justification (Guild/Council)"
+              value: "'Necessary tool for maintaining order, preventing dangerous knowledge leaks, ensuring security'." (Framed as pragmatic good/necessity)
+            - perspective: "Protagonist/Dissident View"
+              value: "'Ethical atrocity, violation of identity, tool of oppression'." (Framed as profound evil)
+            - perspective: "Authoritative Narrative Framing"
+              value: "[Likely implicitly framed negatively through focus on victim impact and use by antagonists, aligning with Memory/Identity theme.]" # Requires analysis of specific narrative presentation
+          authentication: "[Official propaganda props vs. protagonist internal monologue vs. narrator focus/tone.]"
+
+    # --- Assign axiological properties to other key entities, actions, concepts, places ---
+
+  prompts_entity_axiology:
+    - "According to the *dominant authenticated value system* (e.g., Guilds), is this entity considered Good/Bad, Useful/Useless, Honorable/Dishonorable, Beautiful/Ugly? Provide textual evidence."
+    - "Does this entity possess an *inherent* modal-axiological property (Sacred, Cursed) authenticated by the highest narrative authority, or is its value purely perceptual/contextual?"
+    - "What *conflicting value judgments* are applied to this entity by different authenticated factions or characters? How does this create tension?"
+    - "How does the entity's perceived value *directly influence* how other characters interact with it or attempt to acquire/destroy it?"
+
+# --- III. Narrative & Thematic Function of Axiological Structure ---
+axiology_narrative_thematic_function:
+  purpose: "Analyze how the world's authenticated value system(s) actively drive narrative, generate conflict, and explore core themes."
+
+  narrative_functions:
+    - function: "Driving Character Motivation"
+      analysis: |
+        The pursuit of entities/states authenticated as valuable (knowledge, power, safety, Dust, historical truth, social status, 'true' identity) and the avoidance of those deemed disvaluable (chaos, paradox, dishonor, poverty, memory loss) are primary drivers for nearly all character actions. Axiology defines *what is worth fighting for* in Aethelgard.
+      examples: "[Kaelen's quest driven by value placed on Truth/Identity; Guild conflict driven by value placed on Control/Resources; Salvager actions driven by value of Survival.]"
+    - function: "Generating Value-Based Conflict"
+      analysis: |
+        Conflict arises directly from:
+        1.  **Clashing Value Systems:** Guild Order vs. Undercity Freedom; Preservation vs. Progress ideologies.
+        2.  **Competition for Valued Entities:** Multiple factions seeking the Artificer Heart or control of Dust.
+        3.  **Moral Dilemmas:** Characters forced to choose between two authenticated 'goods' or compromise a core value for survival/another goal.
+        4.  **Transgression & Judgment:** Characters violating authenticated taboos or moral codes and facing consequences.
+      examples: "[Guild vs. Salvager clashes; Kaelen's ethical compromises; debates over using dangerous Artificer tech.]"
+    - function: "Structuring Plot & Quests"
+      analysis: "Many narratives are structured around achieving axiologically significant goals: obtaining a valued object, attaining an honorable status, defeating an entity defined as evil, restoring a valued past state, preserving a sacred place."
+      examples: "[Quest for Artificer Key; struggle to maintain Undercity autonomy; plot to expose Guild corruption (deemed negative).]"
+    - function: "Guiding Audience Alignment & Judgment"
+      analysis: |
+        The authoritative discourse, through its authentication of values (often via framing, consequences, sympathetic focus), subtly or overtly guides the audience to align with certain characters/causes and judge others according to the *heterocosm's internal standards*, even if complex or ambiguous.
+      examples: "[Framing of Memory Keepers' actions likely guides audience disapproval; depiction of Undercity resilience likely guides sympathy despite their 'chaotic' nature according to Guilds.]"
+
+  thematic_functions:
+    - theme_link: "Memory & Identity"
+      analysis: "[Axiology explores: Is authentic memory valued over fabricated stability? What is the moral value of a being (Automaton) defined by potentially false memories?]"
+    - theme_link: "Order vs. Chaos"
+      analysis: "[Directly explored through competing value systems – Guilds valuing Control/Precision vs. Undercity valuing Resilience/Autonomy amidst chaos. What is the 'cost' (axiological price) of absolute order?]"
+    - theme_link: "Legacy & Consequence"
+      analysis: "[How are past actions/figures *valued* in the present? Is legacy a burden (valued negatively) or inspiration (valued positively)? Are consequences judged fairly by world standards?]"
+    - theme_link: "Beauty in Imperfection"
+      analysis: "[Explicitly explored through the authenticated value placed on repair, salvage, endurance vs. potentially flawed pursuit of Artificer 'perfection'.]"
+    # --- Link axiology to other core themes ---
+
+  prompts_function:
+    - "What are the top 3 conflicts in Aethelgard driven primarily by clashes over authenticated values?"
+    - "How does the world's axiology force your protagonist to make difficult, thematically significant choices?"
+    - "How does the narrative guide the audience's *axiological* judgment of characters and events?"
+
+# --- IV. Consistency Check for Axiology ---
+axiological_consistency_check:
+  purpose: "Ensure the authenticated value system(s) are applied consistently throughout the narrative and world structure."
+
+  checkpoints:
+    - checkpoint: "Narrator/Discourse Consistency"
+      question: "Does the authoritative narrative voice consistently frame actions/entities according to the established world axiology? Or does it send contradictory signals about what is 'good' or 'desirable' without justification (e.g., unreliable narrator shift)?"
+      assessment: "[e.g., Generally consistent focus on consequences of hubris. Needs check for consistency in portraying 'Beauty in Imperfection' – is it always valued, or sometimes just decay?]"
+      action_item: "[e.g., Review descriptive passages; ensure 'mended beauty' is consistently framed with positive or resilient connotations where intended.]"
+    - checkpoint: "Consequence Alignment"
+      question: "Do narrative consequences (rewards/punishments, success/failure) generally align with the world's authenticated values? If 'bad guys' prosper, is this framed as injustice/corruption *within the world's system*?"
+      assessment: "[e.g., Guilds often succeed through morally dubious means, aligning with theme of Order valuing control over ethics. Ensure protagonists face realistic consequences for ethical compromises.]"
+      action_item: "[N/A - seems aligned with thematic intent.]"
+    - checkpoint: "Character Value Consistency"
+      question: "Do characters consistently act according to the core values authenticated for their profile/faction, or do they shift values arbitrarily for plot convenience?"
+      assessment: "[e.g., Kaelen's core value of 'Truth' seems consistent driver. Ensure Guild members' actions consistently reflect authenticated Guild values (even if internally conflicted).]"
+      action_item: "[e.g., Review motivations for key Guild antagonist actions; ensure alignment with VALSYS_GuildCoalition_Official.]"
+    - checkpoint: "Internal Value System Logic"
+      question: "Are the different high values within a single system (e.g., Guild Order vs. Guild Knowledge Hoarding) sometimes shown to be in logical tension or conflict, creating believable internal friction?"
+      assessment: "[e.g., Yes, tension between Chronometer secrecy and Gearwright need for technical data is well established.]"
+      action_item: "[N/A]"
+
+  prompts_consistency:
+    - "Identify an action universally condemned within Aethelgard's authenticated axiology. Are there *any* instances where a character performs this action without facing appropriate internal or external consequence?"
+    - "Identify an object/status universally desired. Is the struggle to attain it depicted consistently across different characters/situations?"
+    - "Where might your *own* external values potentially interfere with consistently portraying the *world's* authenticated axiology?"
+
+# --- V. Conclusion: Axiology as the Heterocosm's Moral & Aesthetic Compass ---
+conclusion:
+  summary: |
+    This protocol underscores the critical role of **authenticated axiological properties** in defining the 
+    **moral, ethical, and aesthetic landscape** of the Aethelgard heterocosm. By strategically legislating 
+    what is valued and disvalued *within the world itself* through authoritative predication, the creator 
+    establishes the compass guiding character motivation, generating value-based conflict, shaping societal 
+    norms, and driving thematic exploration.
+  final_statement: |
+    The successful construction of Aethelgard's axiology lies in its **internal consistency**, its **deep 
+    integration** with other world systems (deontic, epistemic, historical), its **functional role** in 
+    driving narrative, and its **resonance** with the core themes. Recognizing and meticulously designing 
+    this value-laden architecture, while carefully distinguishing it from external judgment, allows for 
+    the creation of a heterocosm that possesses not just rules and facts, but a defined – possibly complex 
+    and contested, yet authenticated – **system of worth and significance**.
+
+# ============================================================
+# End of Advanced Axiological Framework Protocol v1.1
+# ============================================================
+
+
+How this YAML Embodies "Extreme Detail" for Axiological Properties:
+
+Value Systems Defined: Section I requires defining entire value systems associated with key groups, including hierarchies, manifestations, consequences, and taboos, rather than just listing individual values.
+
+Explicit Authentication Focus: Continuously stresses that values exist only as authenticated by the text, demanding evidence for how this authentication occurs (narration, consequences, reliable consensus).
+
+Multi-Dimensional Value: Breaks down axiology into moral, aesthetic, utilitarian, and social/reputational aspects for individual entities in Section II.
+
+Contested Values: Explicitly includes analysis of conflicting value judgments applied to the same entity by different groups or perspectives within the world.
+
+Deep Narrative/Thematic Links: Section III demands detailed analysis of how the axiological structure specifically drives plot mechanics (motivation, conflict, goals) and explores each core theme.
+
+Rigorous Consistency Checks: Section IV includes specific checks for consistency in narratorial framing, consequence alignment, and character adherence to authenticated values.
+
+Internal vs. External Distinction: Explicitly prompts consideration of the distinction between the world's internal axiology and external reader/author values.
+
+Granular Prompts: Throughout, includes highly specific prompts pushing for detailed examples, analysis of mechanisms, and consideration of systemic implications related to value.
+
+This extremely detailed YAML provides a robust framework for consciously designing and evaluating the complex system of values that gives the Aethelgard heterocosm its moral and aesthetic character, ensuring this crucial layer is as rigorously constructed and thematically resonant as its physical and logical foundations.

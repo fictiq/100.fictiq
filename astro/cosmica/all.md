@@ -1,0 +1,268 @@
+```yaml
+# ============================================================
+# Story World Codex: Entity Ontology & Definition Guide
+# Version: 1.1 (Extreme Detail - Based on Doležel's Ontology of Fictional Existence)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly detailed framework** for establishing and maintaining 
+    the **fundamental ontology** governing all entities within the Aethelgard heterocosm. It rigorously 
+    applies the ontological consequences derived from Doležel's semantic theory, focusing on the specific 
+    nature of **Persons, Objects, and Places** as purely **textually constituted realities**.
+  scope: |
+    Mandatory foundational document guiding all entity creation, description, representation, and analysis 
+    across all canonical media. Ensures a consistent, theoretically sound understanding of *what it means 
+    to be* an entity within Aethelgard, preventing metaphysical drift and interpretive fallacies.
+  ontological_premise: |
+    The Aethelgard heterocosm operates under a strict **semantic ontology**. Entities (Persons, Objects, 
+    Places, etc.) possess **NO independent substance, hidden essence, extra-textual reality, or direct 
+    analogy to Actual World (AW) counterparts** beyond what is explicitly or implicitly **authenticated** 
+    by the authoritative narrative discourse (Codex & primary texts). Their entire being **IS** the structured, 
+    necessarily undersaturated bundle of validated semantic properties and relations.
+
+# --- I. Core Ontological Commitment: Textual Constitution as Absolute Reality ---
+core_ontological_commitment:
+  purpose: "To formally ratify the absolute foundation of existence and essence within the Aethelgard heterocosm."
+  
+  principles:
+    - principle_id: "ONTO_COMMIT_01"
+      name: "Textual Genesis, Sustenance, and Limitation"
+      declaration: |
+        **Affirmed:** All canonical Aethelgard entities **originate solely** from authenticated linguistic acts 
+        within the narrative discourse. Their existence **is sustained only** by their continued presence and 
+        validation within the canonical corpus. Their being **terminates precisely** where textual authentication ends. 
+        There is **no ontological spillover** from authorial imagination or reader interpretation into the 
+        heterocosm itself.
+      implication: "Analysis and creation must treat the authenticated text/Codex as the absolute boundary of the entity's reality."
+
+    - principle_id: "ONTO_COMMIT_02"
+      name: "Bundle Ontology Supremacy (No Hidden Substance)"
+      declaration: |
+        **Affirmed:** Each authenticated entity **IS IDENTICAL TO** the unique, structured bundle of all its 
+        authenticated properties (across all taxonomic categories) and its position within the authenticated 
+        relational network. The concept of an underlying, property-less 'substance' or hidden 'true self' 
+        independent of these authenticated attributes is **explicitly rejected** for Aethelgard entities.
+      implication: "Entity identity is defined by its complete, authenticated semantic profile. 'Depth' arises from bundle complexity, not hidden essence."
+
+    - principle_id: "ONTO_COMMIT_03"
+      name: "Semantic Nature of Being (Meaning as 'Matter')"
+      declaration: |
+        **Affirmed:** The 'stuff' constituting Aethelgard entities is **semantic information validated as true** 
+        for the heterocosm. Physicality, functionality, psychology, etc., are all constituted through the 
+        **authenticated assignment of meaningful predicates**. The world operates on semantic logic and textual causality.
+      implication: "Analysis focuses on meaning structures, predicate logic (internal), and information flow as the core of reality."
+
+  self_reflection_prompt: |
+    When describing an entity's 'core' or 'essence', am I pointing to specific bundles of *authenticated properties* 
+    or lapsing into assumptions about an underlying, non-textual nature?
+
+# --- II. Specific Ontology of Fictional Persons (Characters, Sentient Beings) ---
+ontology_fictional_persons:
+  purpose: "Apply the core ontology rigorously to characters/sentient entities, preempting anthropomorphic or psychological fallacies."
+
+  defining_principles:
+    - principle_id: "PERSON_ONT_01"
+      name: "Rejection of Independent Consciousness/Psyche"
+      statement: |
+        Fictional persons in Aethelgard **do not possess** consciousness, subconscious drives, qualia, or 
+        psychological depth analogous to or independent of their textual constitution. Their 'inner life' 
+        **IS** the set of psychological properties (thoughts, emotions, beliefs, motivations, memories) 
+        **explicitly or implicitly authenticated** by the authoritative narrative discourse.
+      analytical_guideline: "**Prohibition of External Psychoanalysis:** Applying real-world psychological theories 
+                            (Freudian, Jungian, etc.) to diagnose unauthenticated 'subconscious' motives or interpret 
+                            authenticated properties as mere 'symptoms' of a deeper, non-textual psyche is methodologically 
+                            invalid within this framework. Analyze the authenticated psychological bundle itself."
+
+    - principle_id: "PERSON_ONT_02"
+      name: "Constitution via Multifaceted Property Bundle"
+      statement: |
+        A character's identity and complexity are **wholly constituted** by the rich, diverse, and potentially 
+        conflicting bundle of properties authenticated across **all** relevant taxonomic categories (Physical, 
+        Functional, Psychological, Social, Modal, Axiological, Historical). 'Roundness' emerges from the 
+        **authenticated complexity and coherence of this bundle**, not from mimicking AW human totality.
+      analytical_guideline: "Assess character complexity based on the breadth, depth, internal consistency, and 
+                            potential authenticated tensions within their documented property bundle."
+
+    - principle_id: "PERSON_ONT_03"
+      name: "Radical Undersaturation of Persons"
+      statement: |
+        Fictional persons are **fundamentally and necessarily undersaturated**. They lack the infinite biographical 
+        details, unspecified physical attributes, opinions on unmentioned topics, full range of potential emotional 
+        responses, and complete cognitive history of real individuals. Their definition is finite, bounded by textual 
+        authentication.
+      analytical_guideline: "Acknowledge unanswerable questions about unauthenticated aspects as reflecting ontological 
+                            limits, not narrative flaws or hidden information *within the entity*. Focus on the rich 
+                            information *provided* by the authenticated bundle."
+
+    - principle_id: "PERSON_ONT_04"
+      name: "Agency as Authenticated Functional/Psychological Potential"
+      statement: |
+        A character's ability to act and make choices (agency) arises solely from their **authenticated functional 
+        properties (skills, powers, limitations)** operating within the world's **alethic modalities**, driven by 
+        their **authenticated psychological properties (motivations, beliefs, traits)**, and constrained by their 
+        **authenticated social/relational context and deontic modalities**. It is not equivalent to undefined AW 'free will'.
+      analytical_guideline: "Explain character actions by referencing specific authenticated properties and world rules, 
+                            demonstrating internal narrative logic."
+
+  prompts_persons:
+    - "How does Kaelen's authenticated amnesia (Historical/Psychological Property) specifically interact with his authenticated Investigative Drive (Psychological) and limited City Watch authority (Social/Deontic) to create his unique narrative function?"
+    - "What specific authenticated properties constitute Ticker's 'emergent consciousness'? Avoid projecting external AI concepts; focus only on textually validated behaviors, glitches, and internal state descriptions."
+    - "Identify an instance where assuming a character possesses 'normal human psychology' beyond their authenticated properties would lead to a misinterpretation of their actions or motivations within Aethelgard's specific context."
+
+# --- III. Specific Ontology of Fictional Objects (Things, Artifacts, Technologies) ---
+ontology_fictional_objects:
+  purpose: "Apply the core ontology rigorously to inanimate objects, focusing on their functional and physical constitution within world rules."
+
+  defining_principles:
+    - principle_id: "OBJECT_ONT_01"
+      name: "Constitution via Physical & Functional Properties Primarily"
+      statement: |
+        Fictional objects are constituted primarily by their **authenticated physical properties** (material, form, 
+        sensory signature) and, crucially, their **authenticated functional properties** (what they *do*, their 
+        capabilities, operational rules, limitations, costs, energy sources). Psychological properties are absent 
+        unless sentience is explicitly authenticated for the object.
+      analytical_guideline: "Prioritize mapping the object's precise function, operational parameters, and limitations 
+                            as defined by world rules (Aletheic/Tech Modalities). Analyze physical description for 
+                            functional implications (e.g., material dictates vulnerability)."
+
+    - principle_id: "OBJECT_ONT_02"
+      name: "Radical Undersaturation of Objects"
+      statement: |
+        Objects possess **only** the physical details, functional parameters, historical provenance, and axiological 
+        status authenticated for them. They lack the infinite micro-details, full material history, or potential 
+        alternative uses present in real-world objects. A Chrono-Viewer *is* only what the text/Codex authenticates 
+        it can do and how it looks/operates.
+      analytical_guideline: "Avoid assuming AW physics or material properties unless explicitly authenticated as the 
+                            baseline. Focus on the *authenticated function* within Aethelgard's specific tech/modal system."
+
+    - principle_id: "OBJECT_ONT_03"
+      name: "Function Defined by Heterocosmic Context"
+      statement: |
+        An object's function and significance are determined by its **authenticated properties interacting with the 
+        heterocosm's rules and relational network**. A 'key' (object) only functions if there are authenticated 
+        'locks' (related entities/places) it interacts with according to specific rules. Its value (axiological) 
+        depends on who seeks it (relations) and what it enables (function).
+      analytical_guideline: "Analyze objects systemically – how do their properties enable interactions within the 
+                            world's established network and modalities?"
+
+    - principle_id: "OBJECT_ONT_04"
+      name: "Potential for Modal/Axiological Properties"
+      statement: |
+        Objects *can* possess authenticated **Modal Properties** (e.g., 'indestructible', 'usable only by X') or 
+        **Axiological Properties** (e.g., 'inherently cursed', 'sacred relic'), directly embedding world laws or 
+        values onto them. These require strong authentication.
+      analytical_guideline: "Identify and analyze these special properties rigorously, linking them to overarching 
+                            world modalities and thematic concerns."
+
+  prompts_objects:
+    - "Take a key artifact (e.g., Moon Shard Heart). Deconstruct it *solely* based on its authenticated properties bundle (physical, functional, historical, modal, axiological). What *is* it according to the text?"
+    - "How does the *undersaturation* of a specific technology (e.g., precise energy efficiency of automatons unknown) create narrative potential or reflect thematic points?"
+    - "Identify an object whose primary significance comes from its *relations* (e.g., who owned it, who seeks it) rather than its intrinsic functional properties."
+
+# --- IV. Specific Ontology of Fictional Places (Settings, Locations, Environments) ---
+ontology_fictional_places:
+  purpose: "Apply the core ontology rigorously to settings, treating them as constituted environments with active properties, not passive backdrops."
+
+  defining_principles:
+    - principle_id: "PLACE_ONT_01"
+      name: "Constitution via Comprehensive Property Bundle"
+      statement: |
+        Fictional places are constituted by authenticated bundles including **Physical** (geography, architecture, 
+        climate, sensory atmosphere), **Functional** (enables/constrains movement, provides resources, contains 
+        hazards), **Social/Political** (jurisdiction, cultural significance, typical inhabitants/activities), 
+        **Modal** (zones of altered physics/magic, hallowed/forbidden ground), **Axiological** (reputation, 
+        perceived beauty/danger), and **Historical** properties (site of past events, age, layers of construction).
+      analytical_guideline: "Analyze places holistically across all relevant property dimensions, treating them as 
+                            complex entities within the heterocosm."
+
+    - principle_id: "PLACE_ONT_02"
+      name: "Environment as Active System Component"
+      statement: |
+        Places are **not passive backdrops** but active components of the heterocosmic system. Their authenticated 
+        properties (environmental hazards, resource availability, spatial layout, social norms) directly **enable, 
+        constrain, and influence** the actions and states of entities within them. They participate in the 
+        systemic interplay.
+      analytical_guideline: "Focus analysis on how the place's authenticated properties *dynamically interact* 
+                            with the entities inhabiting or traversing it. How does the place 'act' upon the characters?"
+
+    - principle_id: "PLACE_ONT_03"
+      name: "Undersaturation and Selective Focus"
+      statement: |
+        Fictional places are necessarily undersaturated. Texts authenticate only a **selection** of features 
+        relevant to narrative/thematic purpose. Maps represent authenticated **spatial relations and key features**, 
+        not exhaustive topographical surveys. Vast areas remain undefined.
+      analytical_guideline: "Focus on the *function* of the authenticated details. Acknowledge undefined areas. 
+                            Analyze how selective focus shapes perception and atmosphere."
+
+    - principle_id: "PLACE_ONT_04"
+      name: "Autonomy from Real-World Counterparts"
+      statement: |
+        Even if inspired by real locations, fictional places like 'Aethelgard's Brass Market' are **autonomous 
+        heterocosmic entities**, defined *solely* by their own authenticated properties, history, atmosphere, 
+        and function within Aethelgard's specific reality. Direct comparison to AW markets is secondary to 
+        analyzing its internal constitution.
+      analytical_guideline: "Prioritize internal analysis based on textual authentication over external comparison."
+
+  prompts_places:
+    - "Describe the Undercity *only* using its explicitly authenticated properties (physical hazards, social norms, resources, history). What 'being' emerges?"
+    - "How do the *modal* properties of a specific location (e.g., a 'no magic zone', a 'temporally stable sanctuary') fundamentally alter narrative possibilities within it?"
+    - "How does the *undersaturation* of the world map (e.g., unexplored crater rim) function narratively and thematically?"
+
+# --- V. Maintaining Ontological Boundaries (Methodological Discipline) ---
+ontological_boundaries_maintenance:
+  purpose: "Reinforce the strict methodological separation between the textually constituted heterocosm and external realities or assumptions."
+
+  guidelines:
+    - guideline_id: "BOUND_01"
+      principle: "Internal Focus Supremacy"
+      directive: "All primary analysis of entity nature MUST prioritize and be grounded in the **internal structure, logic, and authenticated properties** of the Aethelgard heterocosm as documented."
+    - guideline_id: "BOUND_02"
+      principle: "Controlled Use of AW Analogy/Minimal Departure"
+      directive: "Reference to AW concepts or reliance on minimal departure assumptions should be **explicitly acknowledged** and used primarily for **contrast** or explaining **baseline defaults**, not as a substitute for authenticating Aethelgard-specific properties or rules."
+    - guideline_id: "BOUND_03"
+      principle: "Strict Creator/Reader Separation"
+      directive: "Maintain the ontological boundary. Avoid treating creator intentions or reader subjective experiences as **constitutive properties** of the heterocosmic entities themselves (unless exploring authenticated metafiction)."
+    - guideline_id: "BOUND_04"
+      principle: "Adaptation as Re-Authentication"
+      directive: "Treat each adaptation (game, film, etc.) as requiring its own process of **authentication**, potentially resulting in a *new* heterocosm related to but distinct from the original, possessing its own slightly different property bundles mandated by the new medium/authorship."
+
+  prompts_boundaries:
+    - "Identify a recent analytical claim made about an entity. Can it be supported *entirely* by authenticated Codex/textual evidence, or does it rely on unstated AW assumptions?"
+    - "How can we discuss reader immersion *without* violating the principle that the reader remains ontologically external to the heterocosm?"
+
+# --- VI. Conclusion: The Rigor and Power of Textual Ontology ---
+conclusion:
+  summary: |
+    This protocol reaffirms the **specific ontological nature** of all entities within Aethelgard, derived 
+    from Doležel's semantic theory. Persons, objects, and places **ARE** their **authenticated bundles of 
+    properties and relations**, constituted entirely by the authoritative narrative discourse. They are 
+    **textually real, semantically defined, necessarily undersaturated, and autonomous** within their heterocosm.
+  final_statement: |
+    Embracing this **rigorous textual ontology** is not merely a theoretical exercise; it is essential for 
+    **maintaining coherence, designing purposefully, analyzing accurately, and fully appreciating the unique 
+    world-making power of language** in fiction. By consistently defining and evaluating entities based on 
+    their authenticated semantic constitution, we ensure the structural integrity and profound potential 
+    of the Aethelgard heterocosm as a compelling architecture of meaning.
+
+# ============================================================
+# End of Advanced Entity Ontology & Definition Protocol v1.1
+# ============================================================
+```
+
+**How this YAML Embodies "Extreme Detail" for Ontology:**
+
+1.  **Explicit Ontological Premise:** The Introduction and Article I use strong, definitive language to establish the specific semantic ontology (Textual Constitution, Bundle Supremacy, Semantic Nature) as non-negotiable for this world.
+2.  **Categorical Rigor:** Sections II, III, and IV apply this ontology meticulously to Persons, Objects, and Places, explicitly rejecting common alternative assumptions (independent psyche, real-world physics analogies, passive setting) for each.
+3.  **Deep Dive into Consciousness/Life:** Section II.V provides a detailed, theoretically grounded approach to defining these complex concepts purely through authenticated properties, avoiding anthropomorphism.
+4.  **Undersaturation as Proof:** Consistently links undersaturation back to the bundle ontology and textual finitude, treating it as key evidence.
+5.  **Boundary Enforcement:** Section V explicitly details the necessary separations (from AW, creator, reader) and how to manage them methodologically.
+6.  **Focus on Authentication Detail:** Implicitly demands that the properties *being bundled* are themselves defined with extreme detail and clear authentication (referencing previous protocols).
+7.  **Theoretical Language:** Uses precise Doležel-inspired terminology consistently (heterocosm, authentication, predication, modality, bundle, undersaturation, semantic).
+8.  **Methodological Imperatives:** Frames the ontological principles as direct guides for both creation and analysis, emphasizing the practical consequences of adopting this specific view of fictional being.
+
+This extremely detailed YAML serves as a foundational constitutional document for Aethelgard's reality, ensuring that all subsequent creative and analytical work operates from a shared, rigorous understanding of *what it means for anything to exist* within this specific, textually forged universe.

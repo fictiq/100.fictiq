@@ -1,0 +1,204 @@
+# ============================================================
+# Story World Codex: Coherence & Resonance Design Protocol
+# Version: 1.0 (Based on Doležel - Re-evaluating Originality)
+# Last Updated: [Current Date]
+# Keeper of the Codex: [Your Name/Studio Name]
+# World: [Your Story World Name, e.g., Aethelgard]
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol guides the evaluation and refinement of the [Your Story World Name] heterocosm, 
+    emphasizing principles of **internal coherence, systemic richness, and thematic resonance** 
+    alongside imaginative invention. Inspired by Doležel's framework, it encourages moving 
+    beyond a sole focus on 'pure novelty' to value the creative achievement inherent in 
+    building a well-structured, internally consistent, and meaningful fictional universe.
+  focus: |
+    Assess how world elements (even familiar ones) are synthesized into a unique system, 
+    how structure supports themes, and how consistency contributes to overall power and believability.
+
+# --- I. Assessing Originality: Premise vs. System ---
+originality_assessment:
+  purpose: |
+    To distinguish between the novelty of core concepts and the originality of their 
+    systemic integration and execution.
+  
+  core_concept_premise:
+    description: "[Briefly restate the central 'hook', e.g., Chrono-Noir city under a shattered, time-altering moon.]"
+    premise_novelty_assessment: "[Rate or describe: Highly Original / Familiar Genre Blend / Twist on Existing Trope / etc. e.g., Steampunk + Noir + Temporal Anomalies = Relatively unique blend.]"
+
+  key_element_novelty:
+    - element: "Chrono-Dust Mechanics"
+      novelty_level: "[e.g., Specific mechanics (Dust shedding, Paradox risk) feel fairly original.]"
+    - element: "Guild Structures"
+      novelty_level: "[e.g., Guild trope is familiar, but specific functions (Memory Keepers) offer novelty.]"
+    - element: "Clockwork Automatons"
+      novelty_level: "[e.g., Familiar steampunk element.]"
+    - element: "Temporal Aberrations"
+      novelty_level: "[e.g., Concept of 'time monsters' has precedent, but specific manifestation ('glitches', 'splinters') aims for uniqueness.]"
+    # - Add assessments for other key elements...
+
+  systemic_synthesis_originality:
+    assessment: |
+      How original is the *way* these elements (novel or familiar) are **combined, interconnected, 
+      and governed by internal rules** within *this specific* heterocosm? Does the overall 
+      *system* feel unique and coherent?
+    notes: |
+      [e.g., The core originality lies in how unstable time (Moon/Dust/Aberrations) interacts 
+      directly with the rigid clockwork society (Guilds/Automatons) and noir themes (memory/truth). 
+      The *interplay* feels distinct.]
+    action_items: |
+      [e.g., Strengthen unique interactions between tech system and social structure; 
+      ensure familiar tropes get a distinct 'Aethelgard spin' via specific properties/rules.]
+
+  reflection_prompt: |
+    Where does the true originality lie? Primarily in inventing new concepts, or in the unique 
+    way concepts are structured, combined, and made internally consistent?
+
+# --- II. Evaluating Internal Coherence & Consistency ---
+coherence_evaluation:
+  purpose: |
+    To assess the logical and semantic integrity of the world, recognizing coherence 
+    as a major creative achievement.
+
+  consistency_areas:
+    - area: "Governing Modalities (Physics/Magic/Tech Rules)"
+      assessment: "[Are fundamental rules authenticated clearly and applied consistently? Are costs/limits respected?]"
+      notes: "[e.g., Chrono-Tech limits seem consistent. Need to ensure plot devices adhere strictly.]"
+      action_items: "[e.g., Create quick-ref sheet for Chrono-Tech rules.]"
+      
+    - area: "Historical Causality"
+      assessment: "[Does Present State logically follow from Authenticated History? Are causal links believable *within world logic*?]"
+      notes: "[e.g., Guild rise post-Shattering logical. Undercity Collapse impact clear. First Paradox -> Policy link needs strengthening.]"
+      action_items: "[e.g., Add textual links (dialogue/docs) explicitly connecting First Paradox to current Chronometer caution.]"
+
+    - area: "Character Properties & Actions"
+      assessment: "[Do characters act plausibly given their authenticated properties and situation? Is development authenticated?]"
+      notes: "[e.g., Kaelen's actions align with profile. Need to ensure Guild leader actions reflect their resources/limits.]"
+      action_items: "[e.g., Review political plot points against Guild power structures and character profiles.]"
+
+    - area: "Terminology & Naming"
+      assessment: "[Is world-specific terminology used consistently and defined clearly (implicitly/explicitly)?]"
+      notes: "[e.g., Core terms consistent. Need to finalize Automaton classification names.]"
+      action_items: "[e.g., Add Automaton classification to relevant Codex section.]"
+
+  reflection_prompt: |
+    Where does the world feel most logically sound? Where do potential contradictions lurk? 
+    How crucial is rigorous consistency for this world's believability/themes?
+
+# --- III. Assessing Systemic Richness & Interconnection ---
+systemic_richness_assessment:
+  purpose: |
+    To evaluate the complexity and integration of the world's elements, valuing the 
+    creative work of building a dense, interconnected system.
+
+  interconnection_areas:
+    - area: "Technology <-> Society"
+      assessment: "[How deeply/plausibly does Chrono-Tech influence social structure, daily life, politics, economics, culture?]"
+      notes: "[e.g., Strong link via Guild control/Automatons. Could explore impact on art, philosophy more deeply.]"
+      action_items: "[e.g., Brainstorm cultural practices/art styles influenced by temporal instability/clockwork aesthetics.]"
+
+    - area: "Environment <-> Inhabitants"
+      assessment: "[How does the environment (Moon, Dust, decay) demonstrably shape inhabitants' biology, culture, tech, psychology?]"
+      notes: "[e.g., Undercity adaptation clear. Surface obsession with order as reaction to chaos established. Physical adaptations could be explored further.]"
+      action_items: "[e.g., Consider adding specific authenticated physiological traits for long-term Undercity dwellers.]"
+
+    - area: "History <-> Present Conflicts"
+      assessment: "[Are present conflicts clearly/complexly rooted in specific authenticated historical events/legacies?]"
+      notes: "[e.g., Guild tensions link to past. Shattering mystery central. Need to weave character backstories more deeply into specific historical moments.]"
+      action_items: "[e.g., Tie key character family histories directly to authenticated events like Undercity Collapse.]"
+
+    - area: "Functional Detail Assessment"
+      assessment: "[Do authenticated details serve purpose (narrative/thematic) or feel extraneous ('worldbuilder's disease')?]"
+      notes: "[e.g., Most details functional. Clock repair complexity possibly extraneous unless linked. Sensory details serve atmosphere well.]"
+      action_items: "[e.g., Review minor artifacts list; ensure plot/theme relevance or cut/simplify.]"
+
+  reflection_prompt: |
+    Does the world feel like a complex ecosystem? Where could interconnections be deepened 
+    or made more surprising? Is the detail level functional or overwhelming?
+
+# --- IV. Evaluating Thematic Resonance Through Structure ---
+thematic_resonance_evaluation:
+  purpose: |
+    To assess how the world's authenticated architecture (modalities, history, social structures) 
+    inherently supports and explores the core themes.
+
+  theme_analysis:
+    - theme: "Memory & Identity"
+      structural_support_assessment: "[How is theme embedded in world structure? e.g., Memory Keepers, amnesia prevalence, Automaton memory glitches, contested History, Temporal Sickness effects.]"
+      strength: "[e.g., Very Strong. Structurally central.]"
+      
+    - theme: "Order vs. Chaos"
+      structural_support_assessment: "[e.g., Guild/Council structure vs. Undercity; struggle against temporal instability/Aberrations; Clockwork vs. Decay aesthetic; Determinism ideology.]"
+      strength: "[e.g., Strong. Central conflict reflected across layers.]"
+
+    - theme: "Legacy & Consequence"
+      structural_support_assessment: "[e.g., Shattering consequences; inherited statuses/conflicts; repair/salvage culture.]"
+      strength: "[e.g., Moderate. Could be strengthened by linking more specific historical choices to specific present dilemmas.]"
+      action_items: "[e.g., Detail authenticated long-term consequences of First Paradox Event more clearly.]"
+
+    # - Assess other core themes...
+
+  reflection_prompt: |
+    Does the world's fundamental design naturally generate questions/situations related to core themes? 
+    Could the structure itself be interpreted as a statement? Where can structure be adjusted to enhance resonance?
+
+# --- V. Synthesizing Familiar Elements Creatively ---
+familiar_elements_synthesis:
+  purpose: |
+    To evaluate how familiar tropes/elements are recombined, modified, or integrated 
+    within the world's unique system to create originality through synthesis.
+
+  element_analysis:
+    - element_trope: "Steampunk Automatons"
+      unique_integration_twist: "[e.g., Linked to Chrono-Tech (memory loops, temporal glitches); central labor role creates specific social tensions; potential consciousness tied to memory themes; decay aesthetic.]"
+      assessment: "[e.g., Well-integrated and given unique function/thematic weight.]"
+
+    - element_trope: "Noir Detective"
+      unique_integration_twist: "[e.g., Amnesia links to core Memory/Identity themes; investigation grapples with temporal anomalies/unreliable history; operates within unique Guild/Undercity politics.]"
+      assessment: "[e.g., Classic trope effectively repurposed for specific world context.]"
+
+    - element_trope: "Competing Guilds/Factions"
+      unique_integration_twist: "[e.g., Power based specifically on Chrono-Dust/Temporal Tech aspects. Ideologies provide flavor.]"
+      assessment: "[e.g., Integration functional but could enhance unique *philosophical* differences between Guilds.]"
+      action_items: "[e.g., Develop more distinct axiological/epistemic stances for major Guilds.]"
+
+    # - Assess other familiar elements...
+
+  reflection_prompt: |
+    Where does the world successfully synthesize familiar elements into something new/coherent? 
+    Where might tropes feel generic? How can the world's unique *rules* and *history* further 
+    transform familiar elements?
+
+# --- Conclusion ---
+conclusion:
+  summary: |
+    This review emphasizes originality extending beyond novel concepts to include the creative 
+    achievement of constructing a **coherent, richly interconnected, and thematically resonant system**.
+  final_recommendation: |
+    Assess the [Your Story World Name] heterocosm for the elegance, robustness, and internal logic 
+    of its overall architecture. Focus refinement on strengthening **internal consistency**, 
+    deepening **systemic interconnections**, and ensuring the world's **structure powerfully serves** 
+    its narrative and thematic ambitions. A well-architected world provides enduring value.
+
+# ============================================================
+# End of Coherence & Resonance Design Protocol v1.0
+# ============================================================
+
+
+How this YAML Functions:
+
+Structured Evaluation: Organizes the review into distinct sections focusing on different aspects of coherence, originality-via-synthesis, and resonance.
+
+Clear Assessment Points: Uses fields like assessment, notes, and action_items within each review point for concrete evaluation and planning.
+
+Comparative Thinking: Encourages comparing premise novelty vs. systemic originality, and evaluating how familiar tropes are integrated.
+
+Thematic Link: Directly prompts analysis of how world structure supports core themes.
+
+Action-Oriented: Designed to lead to specific refinements in the world design based on the assessment.
+
+Concise Language: Uses YAML structure for clarity and ease of parsing key points and assessments.
+
+This YAML provides a practical framework for applying the sophisticated concept of "re-evaluating originality" to your world-building, guiding you to focus on the deep creative work involved in building meaningful and coherent systems.

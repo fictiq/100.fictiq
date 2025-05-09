@@ -1,0 +1,205 @@
+# ============================================================
+# Story World Codex: Entity Historical Properties Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Imbuing Entities with Past)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly granular framework** for the meticulous definition 
+    and strategic deployment of **Historical Properties** assigned to entities within the Aethelgard 
+    heterocosm. Building upon Doležel's theory, it focuses on how the **authenticated past** is 
+    **constitutively embedded** within present entities (persons, objects, places, factions, etc.) 
+    through explicit predication, shaping their identity, function, motivations, and narrative potential.
+  scope: |
+    Mandatory template for defining the historical constitution of all significant canonical entities. 
+    Ensures backstory is not mere exposition but an **integral, authenticated component** of the entity's 
+    present being, deeply woven into the world's established timeline and causal network. Demands rigorous 
+    authentication and exploration of consequences.
+  ontological_premise: |
+    An entity's past, within the Aethelgard heterocosm, exists **only** as authenticated through narrative 
+    discourse and codified herein. Historical properties are **constitutive attributes**, defining the entity's 
+    temporal dimension and linking it inextricably to the validated history of its world. Undefined past 
+    aspects **do not exist** for the entity within the canonical framework.
+
+# --- Entity Historical Profile Template ---
+entity_historical_profile_template: # Copy and meticulously complete for entities where history is significant
+
+  # --- Core Identification ---
+  identification:
+    entity_id: "[Unique Identifier, e.g., CHAR_Kaelen_01, OBJ_ArtificerKey, FACTION_MemoryKeepers, PLACE_OldObservatory, EVENT_Shattering_Echoes]"
+    entity_name: "[Common Name, e.g., Investigator Kaelen, The Artificer Key, The Silent Order, The Shattered Observatory, Shattering Echo Phenomena]"
+    entity_type: "[Person | Object | Place | Creature | Organization | Concept | Event (as entity) | Other]"
+    primary_authentication_source: "[List key Codex entries, narrative texts (cite specific flashbacks, dialogues, descriptions), historical records props, design docs validating historical properties.]"
+    canon_tier: "[Tier 1 / Tier 2 / Tier 3]"
+
+  # --- Authenticated Historical Properties Bundle (Deep Dive) ---
+  historical_properties_bundle:
+    purpose: "Detail the specific, validated properties connecting this entity to the heterocosm's past, including origins, experiences, legacies, and temporal traces."
+
+    # --- 1. Properties of Origin, Creation & Provenance ---
+    origin_creation_provenance:
+      title: "Authenticated Genesis within World History"
+      entries: 
+        - property_id: "HIST_ORIG_001"
+          attribute: "Authenticated Creation/Birth Event & Period"
+          value: "[e.g., Kaelen: Appeared Year 310 AR, apparent age ~30s, no prior authenticated record ('Generated Anomaly'?). Artificer Key: Forged during High Mythic Age (est. ~500 years Pre-Shattering). Memory Keepers: Founded formally Year 65 AR from coalesced archivist groups. Observatory: Commissioned Year 120 AR.]"
+          authentication: "[Cite specific source: Official Record Prop, Legendary Text Analysis, Guild Charter, Council Construction Log]"
+          implications: "[Defines maximum potential age/experience, links to specific historical context/tech level.]"
+        - property_id: "HIST_ORIG_002"
+          attribute: "Authenticated Creator(s) / Parentage / Precursor"
+          value: "[e.g., Kaelen: Unknown / Core Mystery. Key: Attributed to 'Artificer Vance Forge Collective' (legendary, specifics unverified). Keepers: Founded by Master Theron et al. (names listed in Charter). Observatory: Designed by Lead Gearwright Anya Sharma (deceased).]"
+          authentication: "[Source: Lack of records vs. Specific document/legend.]"
+          implications: "[Establishes potential lineage, creator intent (if known), links to other historical figures.]"
+        - property_id: "HIST_ORIG_003"
+          attribute: "Authenticated Initial Purpose/Function at Creation"
+          value: "[e.g., Kaelen: Purpose unknown. Key: Believed universal access/control device for Artificer network. Keepers: Preserve vital data for Reconstruction. Observatory: Lunar fragment tracking and temporal anomaly prediction.]"
+          authentication: "[Source: Design Spec Prop, Mission Statement Prop, Lore Analysis.]"
+          implications: "[Defines original 'intent' against which current function/state can be measured; potential source of irony or conflict.]"
+        - property_id: "HIST_ORIG_004"
+          attribute: "Authenticated Place of Origin / Manufacture"
+          value: "[e.g., Kaelen: Unknown origin point. Key: Forged in legendary 'Sky-Forge' (location unknown). Keepers: Originated in multiple scattered archive-bunkers. Observatory: Built on Crater Rim Sector Delta.]"
+          authentication: "[Source]"
+          implications: "[Links entity to specific geographical history/resources/dangers.]"
+      origin_undersaturation: "[e.g., Precise method of Key forging; Specific individuals involved in founding Keepers beyond Theron; Kaelen's entire pre-appearance existence.]"
+      prompts_origin:
+        - "What does the *authenticated* story of this entity's beginning reveal about the world *at that time*?"
+        - "How does its origin story create specific mysteries or narrative hooks relevant to the present?"
+
+    # --- 2. Properties of Lineage, Heritage & Succession ---
+    lineage_heritage_succession:
+      title: "Authenticated Connections to Ancestry and Predecessors"
+      entries:
+        - property_id: "HIST_LIN_001"
+          attribute: "Authenticated Bloodline / Ancestry"
+          value: "[e.g., Kaelen: Officially 'No Known Relatives'; Possesses authenticated biological marker potentially linked to rare Pre-Shattering bloodline (disputed significance). Guild Master Vance: Direct descendant of documented Reconstruction-era Guild leadership.]"
+          authentication: "[Source: Official Records vs. Medical Scan Prop / Genetic Analysis Report (in-world).]"
+          implications: "[Establishes/denies claims to inherited status/power; source of identity quest/conflict; potential unique abilities linked to lineage.]"
+        - property_id: "HIST_LIN_002"
+          attribute: "Inherited Titles / Roles / Property"
+          value: "[e.g., Kaelen: Inherited Investigator badge/case files from predecessor (authenticated). Place 'Old Town Square': Inherited status as 'Protected Historical Landmark' via Council Edict HIST-EDICT-42.]"
+          authentication: "[Source: Narrative event; Official decree documentation.]"
+          implications: "[Confers specific rights, responsibilities, resources, or restrictions based on past precedent.]"
+        - property_id: "HIST_LIN_003"
+          attribute: "Inherited Feuds / Debts / Oaths / Curses"
+          value: "[e.g., Faction 'Gearwrights Guild': Inherited deep-seated rivalry with Chronometers Guild originating from HIST_Event_FoundingCompact disputes. Character X: Bound by authenticated ancestral oath to guard [Y].]"
+          authentication: "[Source: Historical records of conflict; Oath Text Prop.]"
+          implications: "[Creates pre-existing conflicts/motivations; imposes obligations/restrictions based on actions of predecessors.]"
+      lineage_undersaturation: "[e.g., Full genealogies; exact wording/conditions of all ancient oaths; specific details of inherited feuds beyond general animosity.]"
+      prompts_lineage:
+        - "How does this entity's authenticated connection (or lack thereof) to past generations shape its present opportunities and limitations?"
+        - "What specific burdens or privileges does its heritage confer within Aethelgard's social/political system?"
+
+    # --- 3. Properties Derived from Authenticated Past Experiences & Actions ---
+    past_experiences_actions:
+      title: "Defining Attributes Acquired Through Authenticated History"
+      entries: # Link to specific HIST_Event IDs where possible
+        - property_id: "HIST_EXP_001"
+          linked_event_id: "[e.g., HIST_Event_UndercityCollapse]"
+          authenticated_experience: "[e.g., Entity CHAR_Witness_Elara (different Elara?) was trapped for 3 days; Object OBJ_SalvagedAutomatonArm was recovered from deep debris field.]"
+          resulting_present_property: "[e.g., Elara: Authenticated severe claustrophobia & recurring nightmares featuring specific *sensory details* (sound of grinding rock, smell of dust). Automaton Arm: Authenticated *physical property* of temporal scarring inconsistent with its age.]"
+          authentication: "[Source: Character psychological profile; Artifact analysis report.]"
+        - property_id: "HIST_EXP_002"
+          linked_event_id: "[e.g., HIST_War_GuildSkirmish10]"
+          authenticated_experience: "[e.g., Character CHAR_Veteran_Gris served as frontline Gearwright shock trooper; Place LOC_SectorBetaWall was breached during the conflict.]"
+          resulting_present_property: "[e.g., Gris: Authenticated *functional properties* (expert in specific heavy weaponry, cynical attitude towards Guild command); Authenticated *physical property* (multiple prosthetic limbs). Wall: Authenticated *physical property* (visible repairs, weakened structural integrity point).]"
+          authentication: "[Source: Character combat record prop; Engineering survey prop.]"
+        - property_id: "HIST_EXP_003"
+          linked_event_id: "[e.g., Self-Initiated Action: Character CHAR_Smuggler_Jin previously double-crossed FACTION_Undercity_Crew_X.]"
+          authenticated_experience: "[e.g., Successfully stole shipment of refined Dust.]"
+          resulting_present_property: "[e.g., Jin: Authenticated *social property* (marked enemy of Crew X); Authenticated *axiological property* (reputation for untrustworthiness within Undercity); Authenticated *psychological property* (paranoia about retribution).]"
+          authentication: "[Source: Narrative backstory reveal; Current character interactions/internal state.]"
+      experience_undersaturation: "[e.g., Full details of every battle fought; exact psychological impact on every survivor; minute-by-minute account of past actions.]"
+      prompts_experience:
+        - "What specific, authenticated past event most profoundly shaped this entity's current state (physical, functional, psychological, social)?"
+        - "How do past *failures* or *successes* define the entity's current limitations or capabilities?"
+        - "Are there *conflicting accounts* of the entity's past actions, and is this conflict itself authenticated?"
+
+    # --- 4. Properties of Historical Possession or Association ---
+    historical_possession_association:
+      title: "Authenticated Links to Significant Historical Items, Places, or Information"
+      entries:
+        - property_id: "HIST_ASSOC_001"
+          associated_element_id: "[e.g., OBJ_ArtificerKey]"
+          nature_of_association: "[e.g., Currently Held By: CHAR_Kaelen_01 (secretly); Historically Linked To: Artificer Vance Collective (legendary); Actively Sought By: FACTION_ChronometersGuild.]"
+          implication: "[Possession grants potential power/access but also significant danger; links Kaelen to core world mystery.]"
+          authentication: "[Source: Narrative possession; Lore texts; Faction documents.]"
+        - property_id: "HIST_ASSOC_002"
+          associated_element_id: "[e.g., PLACE_Sanctuary_Vault]"
+          nature_of_association: "[e.g., Organization FACTION_MemoryKeepers *is* authenticated as the sole official guardian; Creature CREATURE_GuardianGolem *is bound* to defend it (Deontic/Modal Property).]"
+          implication: "[Establishes control over historically significant location; creates inherent defense mechanism tied to historical mandate.]"
+          authentication: "[Source: Faction charter; Golem profile.]"
+        - property_id: "HIST_ASSOC_003"
+          associated_element_id: "[e.g., CONCEPT_TrueShatteringCause]"
+          nature_of_association: "[e.g., Character CHAR_Oracle_Silas *possesses* authenticated fragmented, cryptic knowledge related to it; FACTION_MemoryKeepers *actively suppress* authenticated records pertaining to it.]"
+          implication: "[Positions entities relative to core world mystery and epistemic constraints.]"
+          authentication: "[Source: Character profile; Faction analysis.]"
+      association_undersaturation: "[e.g., Full list of artifacts Kaelen might have unknowingly encountered; complete inventory of Memory Keeper archives.]"
+      prompts:
+        - "How does possessing (or lacking) specific historical knowledge/objects define this entity's role and potential?"
+        - "Is the entity defined by its *connection to* a specific historical place or lineage?"
+
+    # --- 5. Properties Reflecting Historical Change/Continuity ---
+    historical_change_continuity:
+      title: "Embodiment of Temporal Passage and Legacy"
+      entries:
+        - property_id: "HIST_CHANGE_001"
+          attribute: "Represents Historical Phase/Style"
+          value: "[e.g., Entity OBJ_WornChronometer *is* an authenticated example of Early Reconstruction Era Gearwright tech (less efficient, more robust); PLACE_OrreryDistrict *embodies* High Guild Period architectural style (precision, order, imposing scale).]"
+          authentication: "[Source: Tech history doc; Architectural guide prop.]"
+          implication: "[Provides tangible comparison point across eras; grounds entity visually/functionally in specific period.]"
+        - property_id: "HIST_CHANGE_002"
+          attribute: "Status as Relic or Last Survivor"
+          value: "[e.g., Character CHAR_OldestSalvager *is* authenticated as one of the last individuals with direct memory of the late Dark Years; Creature SPECIES_X *is* the last known authenticated surviving pre-Shattering fauna.]"
+          authentication: "[Source: Character bio; Ecological survey prop.]"
+          implication: "[Source of unique historical knowledge/perspective; carries symbolic weight of lost past; potential plot point (protecting/studying last survivor).]"
+        - property_id: "HIST_CHANGE_003"
+          attribute: "Evidence of Adaptation/Evolution Over Time"
+          value: "[e.g., FACTION_UndercityCommunities *demonstrate* authenticated social structures/technologies evolved specifically in response to post-Collapse conditions, distinct from Surface Guilds. Automaton AI *shows potential* for deviation from original programming over long operational periods (Emergence?).]"
+          authentication: "[Source: Faction comparison analysis; Automaton behavior logs.]"
+          implication: "[Demonstrates world dynamism; explores themes of adaptation/evolution vs. stasis.]"
+      change_undersaturation: "[e.g., Precise rate of technological evolution; full details of cultural drift.]"
+      prompts:
+        - "How does this entity physically or functionally *show* the passage of time within Aethelgard?"
+        - "Does it represent a continuity with the past, a break from it, or an adaptation to historical change?"
+
+  # --- Historical Constitution Summary & Narrative Function ---
+  historical_constitution_summary:
+    purpose: "Synthesize the core identity emerging from the entity's authenticated links to the past and its function within the temporal dimension of the heterocosm."
+    core_historical_identity: |
+      [Summarize how the authenticated past defines the entity. e.g., 
+      "The Memory Keepers Guild is constituted historically as an **institution born from the chaos of the Dark Years** 
+      (HIST_ORIGIN), explicitly mandated by the **Founding Compact** (HIST_ASSOC) to preserve knowledge. However, 
+      its **authenticated control over fragmented and potentially unreliable records** (HIST_ASSOC/EPISTEMIC), coupled 
+      with **rumored past actions of suppression** (HIST_EXP - contested), positions it as a powerful, ambiguous 
+      force whose present actions are deeply intertwined with the **world's central epistemic and historical mysteries**. 
+      Its identity *is* its relationship to the contested past."]
+    primary_narrative_functions_historical: "[List key roles enabled by historical properties: e.g., Provide Exposition (reliable or unreliable); Embody Legacy/Tradition; Drive Mystery/Investigation Plots; Act based on Historical Motivations (revenge, fulfilling prophecy); Be a Living Relic/Witness.]"
+    key_conflicts_arising_from_history: "[Identify conflicts generated *by* historical properties: e.g., Clashing interpretations of past events; Burden of inherited obligations/feuds; Need to overcome past trauma; Conflict between historical truth and present political expediency.]"
+    undersaturation_potential_historical: "[Highlight how undefined historical properties create narrative potential: e.g., Kaelen's entire pre-amnesia past is open for reveals; true Artificer motivations offer vast exploratory space.]"
+
+# --- End of Entity Historical Profile ---
+
+
+How this YAML Embodies "Extreme Detail" for Historical Properties:
+
+Granular Categories: Breaks down History into Origin/Creation, Lineage/Heritage, Past Experiences/Actions, Possession/Association, and Change/Continuity, demanding comprehensive consideration.
+
+Explicit Authentication & Sourcing: Requires citing authentication sources for each historical property, reinforcing textual grounding.
+
+Focus on Consequences/Legacy: Explicitly links past events/experiences to resulting present properties (physical, psychological, social, functional), emphasizing history's active influence.
+
+Distinction Between Fact & Belief: Differentiates between objectively authenticated history and authenticated beliefs or legends about history (e.g., Artificer Vance's status).
+
+Integration with Other Properties: Shows how Historical properties directly influence or are reflected in Physical (scars), Psychological (trauma, memory), Social (lineage, status), Functional (skills from experience), and Modal (inherited obligations/curses) properties.
+
+Deep Prompts for Nuance: Includes highly specific prompts pushing consideration of causal links, sensory legacies, conflicting accounts, thematic functions, and strategic undersaturation related to history.
+
+Rigorous Synthesis: The summary demands articulating the entity's core identity as defined by its authenticated past and analyzing its function within the world's temporal network.
+
+Event/Figure Linking: Encourages linking properties directly to specific HIST_Event_ID or HIST_Figure_ID entries defined elsewhere in the Codex for strong cross-referencing.
+
+This extremely detailed YAML template provides a robust framework for meticulously constructing the historical dimension of entities within Aethelgard, ensuring their pasts are not just backstory but are deeply woven, authenticated components of their present being, driving narrative and enriching the heterocosm's temporal depth.

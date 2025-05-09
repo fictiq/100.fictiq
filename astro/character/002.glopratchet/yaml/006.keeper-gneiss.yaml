@@ -1,0 +1,93 @@
+
+World: Glopratchet
+Codex_Version: '0.7 ( Character Constitution - Adamant Example)'
+Last_Updated: '[Current Date]'
+Lead_Architects: '[Your  Name/Studio Name]'
+
+Character_Profile:
+  Entity_ID: GLOB_GNEISS_SK01 
+  Character_Name: 'Shard-Keeper Gneiss'
+  Entity_Type: 'Person (Glob , Adamant Rite Adherent)'
+  Archetype: 'Devout Elder / Guardian of Tradition / Austere Sage '
+  Primary_Authentication_Sources: 'This Codex Entry; Glopratchet Internal Coherence Protocol v0.6;  Narrative Vignettes: "The Dust Catechism," "Echoes in the Dry Conduit"'
+  Canon_Tier : 'Tier 1 (Exemplar of Adamant Rite Philosophy)'
+  Authentication_Status: Authenticated_ Canonical_Active
+
+Authenticated_Property_Bundle:
+  Physical_Properties:
+    _Purpose: "Define Gne iss's tangible presence, reflecting Adamant Rite ideals."
+    Appearance_General: '[Glob of notably high density and defined , though still amorphous, form. Surface texture is matte and slightly granular, with visibly less internal translucency than average Glo bs, suggestive of deliberate CMP restriction and mineral absorption. Appears "older" through compaction and surface "patina"  rather than degradation.] # Auth: [Glopratchet Coherence Protocol (GCP) I.A.1 , I.A.3.a; Narrative Desc. "The Dust Catechism"]'
+    Appearance_Specific_Features : '[Edges maintain a degree of sharpness even when in motion, a testament to "being in the body." Patches of darker,  more crystalline material (absorbed "Earth''s Kiss") are visible on their surface, arranged in subtle, almost imperceptible  patterns resembling "Body Mandalas."] # Auth: [GCP I.A.3.a; Visual Ref.  "Gneiss Concept Art"]'
+    Appearance_Distinctive_Marks: '[Several small, "True Shard"  fragments from revered shattered predecessors are partially embedded in their outer layer, carried as marks of respect and spiritual lineage. A faint,  dry dusting of specific mineral powders often clings to their lower sections from "Grounding Rites."] # Auth: [GCP I .B.2.q1; Narrative Desc. "Echoes in the Dry Conduit"]'
+    Typical_Attire_ Surface_Adornments: '[Beyond embedded shards and ritual dusts, Gneiss eschews superficial additions, believing the body  itself is the ultimate statement.] # Auth: [GCP I.C.2.q1; Character Philosophy]'
+    Voice _Speech_Pattern: '[Voice is low, with a resonant timbre that seems to vibrate from deep within their dense form. Speech is  slow, deliberate, and measured, each word chosen with care, often invoking phrases about "bodily integrity" or "the wisdom of  the Earth."] # Auth: [Dialogue in "The Dust Catechism"]'
+    Gait_Manner isms: '[Movement is ponderous but purposeful, demonstrating the "controlled momentum" of a HARDened Glob. Often observed in prolonged  stillness during "Grounding Rites" or meticulously tracing patterns on Ratchetwork walls ("Earth Scrimshaw"). Exhibits  ritualistic self-compression gestures when emphasizing a point about "the importance of the body."] # Auth: [GCP  I.A.4, I.A.3.a, I.D.2; Action Descriptions]'
+     Associated_Scent_If_Any: '[Faint, dry scent of mineral dust, crushed stone, and  the desiccated air of "Dry Conduits."] # Auth: [Sensory Palette - Glopratchet]' 
+    Physical_Undersaturation_Note: '[Exact internal CMP ratio (though known to be low); precise resonant frequency;  specific mineral composition of embedded shards beyond "True Shard" quality.]'
+
+  Functional_Properties:
+    _ Purpose: "Define what Gneiss can and cannot do, guided by Adamant Rite practices."
+    Skill_Adam ant_Rite_Rituals: '[Expert knowledge of Adamant Rite rituals, including optimal techniques for voluntary CMP restriction,  ritualistic self-compression, and identifying potent "Earth''s Kiss" sources.] # Auth: [GCP I .A.3.a; Narrative "The Dust Catechism"]'
+    Skill_Guide_Grounding_Rites : '[Ability to guide other Globs in "Grounding Rites" and the creation of "Body Mandalas,"  fostering a collective sense of "being in the body."] # Auth: [GCP I.A.3.a , I.B.2.q3; Depicted Actions]'
+    Skill_Interpret_Earth_Scrimshaw : '[Interpretation of "Earth Scrimshaw" – deciphering subtle patterns on ancient Ratchetwork plates for spiritual guidance related to  bodily affirmation.] # Auth: [GCP I.D.2; Narrative "Echoes in the Dry Conduit"]' 
+    Ability_Unique_Earth_Sense: '[Possesses a heightened "Earth Sense" – a subtle, intuitive connection to stable  Ratchetwork sections and mineral veins, allowing for more effective location of sacred sites or "True" minerals. This is an embodied wisdom , not a magical power.] # Auth: [GCP I.D.2.q2 (Implied);  Modal Property below]'
+    Limitation_Physical_Agility: '[Significantly slower and less agile than Liquescent or average  Globs due to high density and commitment to form. Vulnerable to sudden, overwhelming Ratchetwork reconfigurations despite inherent resilience.] #  Auth: [GCP I.A.4; Narrative Trade-offs]'
+    Limitation_Knowledge_Other_Philosoph ies: '[Limited understanding or patience for Liquescent philosophies beyond dismissing them as a "flight from the self." Knowledge  of Harvester mechanics is minimal, filtered through Adamant Rite interpretations of impersonal forces.] # Auth: [GCP I.B .2.a, I.D.1; Dialogue/Internal Monologue]'
+    Limitation_Adaptability : '[Finds it difficult to quickly alter form or behavior in response to novel threats if it compromises perceived "bodily integrity." This  can be a tragic flaw.] # Auth: [GCP IV.Prompts.3; Character Psychology]'
+     Functional_Undersaturation_Note: '[Precise degree of Kineto-Mist influence resistance; ability to manipulate external objects  beyond arranging particulates; capacity for large-scale communal merging (antithetical to belief).]'
+
+  Psychological_Properties: 
+    _Purpose: "Define Gneiss's textually constituted inner life, centered on Adamant Rite values."
+     Core_Trait_Devotion_to_Body: '[Unshakeable Devotion to the importance of the body as the locus of  being.] # Auth: [GCP I.C.2.a; All Actions/Dialogue]'
+    Core_Trait _Stoic_Resilience: '[Stoic Resilience – enduring hardship as a test and affirmation of bodily commitment.] #  Auth: [GCP I.A.1; Behavior under duress]'
+    Core_Trait_Reverence_for _Earth: '[Reverence for "Earth" elements and tangible, stable aspects of the Ratchetwork.] # Auth:  [GCP I.A.3.a, I.A.6; Ritual Practices]'
+    Dominant_Emotion:  '[A profound, solemn Serenity derived from conviction in their path, occasionally tinged with stern disapproval of "Softening" tendencies.]  # Auth: [Narrative Tone; Interactions]'
+    Key_Motivator: '[To achieve a "True  Shard" state upon Shattering, to preserve and pass on the wisdom of the Adamant Rite, and to guide others towards  understanding "being in the body."] # Auth: [GCP I.A.1, I.B.2.q3 ; Stated Goals]'
+    Key_Belief: '"The body is sacred; its current physical manifestation is the primary locus  of being and meaning. Dissolution is an abhorrent erasure of this valued form." (Directly from GCP I.C. 2.a) # Auth: [GCP I.C.2.a; Core Philosophy]'
+    Internal _Conflict: '[The challenge of maintaining faith when sacred "Grounding Plates" are destroyed by the Ratchetwork.  The subtle fear that even "True Shards" are meaningless to Glopratchet. The frustration of seeing other Glo bs embrace "easy" Dissolution.] # Auth: [GCP II.Check.Area.Ratchetwork; Character  Nuance]'
+    Subjective_Memory_Content: '[Rich memories of ritual practices, the textures of sacred minerals , the resonant feeling of "Grounding Rites," and the oral traditions of the Adamant Rite. Carries the "im print" of teachings from past Shard-Keepers.] # Auth: [Narrative Interiority]'
+    Psych ological_Undersaturation_Note: '[Specific origins of their initial faith (beyond general Adamant Rite teachings); personal ambitions beyond spiritual  fulfillment; detailed opinions on neutral Glop lifestyles.]'
+
+  Social_Relational_Categorical_Properties:
+    _ Purpose: "Define Gneiss's place within Glop society and the Ratchetwork."
+    Official_Role: '[ Shard-Keeper of the Adamant Rite (informal but highly respected leadership role). Guardian of the "Echoing Conduit " sacred site.] # Auth: [GCP I.B.2.q3; Narrative Role]'
+     Social_Status: '[Highly revered among Adamant followers; viewed as archaic, stubborn, or pitiable by many L iquescent Globs and some neutrals.] # Auth: [Inter-Path Dynamics GCP III.Check.Area.Inter- Path]'
+    Primary_Affiliation: '[The Adamant Rite (specifically, the "Stone Testament" faction/lineage if  further differentiation exists).] # Auth: [Core Identity]'
+    Secondary_Affiliations: '[Informal council of Adam ant Elders; loose network of "Earth Superstition" practitioners across different Ratchetwork segments.] # Auth: [ Narrative Context]'
+    Key_Relationship_1_Adamant_Acolytes: '[To younger Adamant Acol ytes (e.g., CHAR_FLINT_01): Mentor, spiritual guide, teacher of "being in  the body."] # Auth: [Narrative Interactions]'
+    Key_Relationship_2_Liquescent_Preceptors: '[ To Liquescent Way Preceptors (e.g., CHAR_AQUA_01): Philosophical opponent, engages in (often  fruitless) debates about the importance of the body vs. transcendence.] # Auth: [GCP III.Check.Area .Inter-Path]'
+    Key_Relationship_3_Ratchetwork: '[To the Ratchetwork itself : Viewed as both a sacred source of "Earth" elements and a constant, indifferent force testing their commitment to bodily integrity.] # Auth : [GCP I.D.2.q1; Thematic Relationship]'
+    Species_Type: '[ Glob (Adamant Hardened Strain)] # Auth: [GCP I.A.3.a]'
+     Social_Undersaturation_Note: '[Specific number of direct disciples; relationships with individual Harvesters (likely none beyond object of  indifference); precise lineage of previous Shard-Keepers they succeeded.]'
+
+  Modal_Properties:
+    _ Purpose: "Define Gneiss's unique relationship to Glopratchet's laws, tied to Adamant  practice."
+    MODAL_GNEISS_01:
+      Property_ID: MODAL-G NEISS-01
+      Property_Name: '"Earth Attunement" (Epistemic/Subtle  Alethic Exception)'
+      Description: '[Through decades of "Grounding Rites," absorption of "Earth''s Kiss,"  and meditation on "being in the body," Gneiss has an authenticated, subtly enhanced ability to sense the purity of  mineral veins, the stability of Ratchetwork sections, and the "vibrational signature" of "True Shards." This is  not foresight, but a deeply embodied sensitivity.]'
+      Limits: '[Passive, requires calm and focus. Provides impressions , not explicit data. Offers no protection beyond what their hardened form already provides. Cannot influence the Ratchetwork, only  better perceive its relevant aspects for Adamant practice.]'
+      Authentication: '[GCP I.A.3.a , I.A.6, I.D.2.q2 (as development of embodied wisdom); Consistently successful guidance in  finding "Earth''s Kiss" or stable ritual sites in narrative vignettes.]'
+    Modal_Note: 'This  modal property is a direct result of their devout adherence to the Adamant Rite, not an innate "superpower." It reflects a  deep, practiced connection to their chosen spiritual path''s focus on material reality.'
+
+  Axiological_Properties: 
+    _Purpose: "Define Gneiss's value status within Glopratchet, as perceived by others ."
+    Reputation_Adamant_Rite: '[Authenticated as ''Pillar of Faith,'' ''Embodiment of Bod ily Truth,'' ''Keeper of the Ancient Ways,'' ''Master of Earth''s Kiss Lore.''] # Auth: [Dialogue  of Adamant followers]'
+    Reputation_Liquescent_Way: '[Authenticated as perceived as ''Trag ically Body-Bound,'' ''Fearful of True Flow,'' ''Stone-Headed Obstruction to Release,'' ''Clinging to  Illusion.''] # Auth: [Dialogue of Liquescent followers; GCP I.B.2.a]'
+    Rep utation_Harvesters_Glopratchet_System: '[Irrelevant. Gneiss is simply material, slightly denser than  average, processed like any other Glob. Their values of the body are unperceived and unvalued by the system.] #  Auth: [GCP I.C.1]'
+    Moral_Alignment_Narrative_Framing: '[ Authenticated via narrative focus as a figure of profound, if perhaps ultimately futile, dignity and spiritual conviction, upholding the importance of  the body against a backdrop of cosmic indifference.] # Auth: [Narrator Tone, Thematic Emphasis]'
+    A xiological_Undersaturation_Note: '[Reputation among unaligned Globs (likely varied: curiosity, respect,  pity); specific views of individual Harvester units (if they even differentiate).]'
+
+  Historical_Properties:
+    _Purpose:  "Define Gneiss's known origins and connections to past events within the Adamant Rite."
+    Origin: '[Authenticated  as having undergone the "First Desiccation" rituals during the "Great Grinding Cycle." Survivor of the destruction of the "Adam ant Spire," a former major sacred site for the Rite.] # Auth: [Backstory Vignette "The Sp ire''s Fall"]'
+    Key_Past_Event_Connection: '[The loss of the "Adamant Spire"  is authenticated as a formative event that solidified Gneiss''s commitment to preserving the body and its associated lore, leading  to their role as Shard-Keeper.] # Auth: [Internal Monologue "Echoes in the Dry Conduit"]'
+     Inherited_Items_Knowledge: '[Authenticated as the current guardian of a specific "True Shard" from the founder of  their lineage, and the oral traditions of the "Stone Testament" interpretation of "being in the body." Also maintains a mental  catalogue of "Body Mandala" patterns.] # Auth: [GCP I.B.2.q1; Narrative  Elements]'
+    Historical_Undersaturation_Note: '[Exact number of cycles Gneiss has endured; specifics  of their pre-Shard-Keeper life; the full history of all previous Shard-Keepers in their lineage.] '
+
+Character_Constitution_Summary_Narrative_Function:
+  _Purpose: "Synthesize the core identity , internal conflicts, and narrative role emerging from Gneiss's authenticated property bundle, particularly as an exemplar of the  Adamant Rite."
+  Core_Essence: 'Shard-Keeper Gneiss is constituted as the living embodiment  of the Adamant Rite''s "Bodily Imperative." Their Physical density, Functional skills in ritual and "Earth Superstition ," and profound Psychological conviction in "the importance of the body" are all interwoven. Gneiss''s Social role as a  Shard-Keeper and their Modal "Earth Attunement" are direct manifestations of this deep, practiced faith. They represent a principled , stoic defiance against the de-personalizing, body-crushing forces of Glopratchet, finding meaning and identity in  the very physical form the world seeks to unmake. Their Axiological value is deeply polarized within Glop society but utterly  ignored by the Ratchetwork itself, highlighting the tragic heroism of their chosen path.'
+  Primary_Narrative_ Function: 'To act as a primary exponent and exemplar of the Adamant Rite''s philosophy; to serve as a  mentor or wisdom figure for characters exploring this path; to provide a stark contrast to Liquescent ideals and the indifference of Gl opratchet; to embody the themes of faith, resilience, the search for meaning in embodiment, and the dignity of resistance even in  the face of inevitable Shattering.'
+  Key_Internal_Conflicts_From_Bundle: 'Maintaining unwavering faith in the body  when sacred sites ("Earth-blessed" manifestations of stability) are obliterated by the Ratchetwork; reconciling the desire  for "True Shards" with the system''s utter disregard for such distinctions; the sorrow of witnessing other Globs abandon  "bodily integrity" for what Gneiss perceives as the illusion of Dissolution; the internal struggle to find new "Earth ly" anchors when old ones are lost (GCP II.Check.Area.Ratchetwork).'
+  Potential_for _Development_Based_on_Bundle: 'Gneiss could face a crisis of faith if a core tenet of " Earth Superstition" is irrefutably disproven or rendered impossible. They might have to adapt their interpretation of "being in  the body" in the face of unprecedented Ratchetwork changes (GCP II.Check.Area.Evolution). Their passing  could be a significant event, with their "True Shards" becoming relics or their teachings evolving/ossifying among survivors.' 

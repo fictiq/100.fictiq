@@ -1,0 +1,244 @@
+# ============================================================
+# Story World Codex: Fictional Object Constitution Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Object Ontology)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly granular framework** for the meticulous definition 
+    of **inanimate Fictional Objects** (artifacts, technologies, tools, key props, symbolic items, etc.) 
+    within the Aethelgard heterocosm. Applying Doležel's ontology, it treats objects as **bundles 
+    of authenticated properties**, with a critical focus on their **functional parameters (capabilities, 
+    limitations, costs, operational logic) and physical constitution**, grounded in textual evidence.
+  scope: |
+    Mandatory template for defining all significant canonical objects. Ensures objects are not mere props 
+    but **functionally integrated, sensorially vivid, historically contextualized, and thematically 
+    resonant components** of the world system, possessing a clear, textually defined reality.
+  ontological_premise: |
+    An object within Aethelgard **IS** its authenticated property bundle. It possesses **NO** independent 
+    substance, hidden functions, or real-world material equivalencies beyond what is explicitly or 
+    implicitly validated by the authoritative narrative discourse (Codex & primary texts). Its potential 
+    and limitations are strictly defined by this semantic constitution. Psychological properties are 
+    absent unless sentience is explicitly authenticated (making it verge on Creature/Person).
+
+# --- Object Profile Template ---
+object_profile_template: # Copy and meticulously complete for each significant object
+
+  # --- Core Identification & Status ---
+  identification:
+    entity_id: "[Unique Identifier, e.g., OBJ_ChronoViewerMk3, OBJ_ArtificerKey, OBJ_StandardAutomatonCore, OBJ_KaelensGreatcoat, OBJ_MemoryCrystal_Corrupted]"
+    entity_name: "[Common Name(s) / Aliases / Model Designation, e.g., Chrono-Viewer Mk3 ('Echo-Glass'), The Artificer Star Key, Mark IV Automaton Power Core, Kaelen's Watch Coat, Corrupted Archive Crystal #77B]"
+    entity_type: "Object"
+    object_subtype: "[e.g., Device (Temporal), Artifact (Artificer), Component (Automaton), Apparel (Personal), Data Storage, Weapon (Chronometric), Mundane Prop]" # Specify type
+    primary_authentication_source: "[List key Codex entries, narrative descriptions (cite specific passages/scenes), tech specs, visual designs validating properties.]"
+    canon_tier: "[Tier 1 / Tier 2 / Tier 3]"
+    authentication_status: "[Authenticated_Canonical_Exists_In_Use | Authenticated_Canonical_Exists_Lost | Authenticated_Canonical_Historical_Destroyed | Legendary_PropertiesUncertain | Rumored_ExistenceUncertain]"
+
+  # --- Authenticated Property Bundle (Deep Dive on Objects) ---
+  property_bundle_object:
+    purpose: "Detail the specific, validated properties constituting this object's reality, emphasizing function, physicality, and systemic role."
+
+    # --- 1. Physical Constitution (Tangible Form & Sensory Signature) ---
+    physical_properties:
+      title: "Materiality, Appearance, and Sensory Profile"
+      subcategories:
+        - category: "Form, Structure & Dimensions"
+          properties:
+            - property: "Morphology: [e.g., Handheld device, nested lens arrays within brass casing; Ornate, multi-faceted crystalline key; Heavy cylindrical power unit with visible gear workings; Worn, heavy, double-breasted woolen coat; Faceted quartz-like crystal showing internal fractures.]"
+            - property: "Dimensions/Scale: [e.g., 12cm x 7cm x 3cm; Length 10cm, irregular width; 25cm height, 15cm diameter; Floor-length, tailored for approx. 1.88m frame; Palm-sized.]"
+            - property: "Key Structural Features: [e.g., Articulated viewing lens, calibrated input dials, side-mounted Dust cartridge slot; Tip shaped with impossible geometry; Standardized connection ports, diagnostic indicator light; Reinforced shoulder patches, deep inner pockets, high collar; Connection interface etched onto one facet.]"
+          authentication: "[Source - Visual Design Doc, Narrative Description]"
+        - category: "Material Composition & Properties"
+          properties:
+            - property: "Primary Materials: [e.g., Aethelgard Brass Alloy #7, Chrono-Crystal lenses, insulated copper; Unknown resonant crystal (Artificer Alloy?), trace organic residue; Stamped steel casing, bronze gears; Heavy-gauge treated wool, synth-leather reinforcements; High-purity quartz matrix.]"
+            - property: "Material Authenticated Properties: [e.g., Brass tarnishes/corrodes, crystal fragile to sonics; Key material completely resistant to known analysis/damage; Core casing prone to stress fractures; Coat water-resistant but not acid-proof; Crystal physically stable but data layer vulnerable to temporal flux.]"
+          authentication: "[Source - Material Specs in Codex, Narrative Performance]"
+        - category: "Surface Qualities (Visual & Tactile)"
+          properties:
+            - property: "Color/Patina: [e.g., Worn brass, blue energy glow from lens; Key shifts color subtly (blues/greens/violets), seems self-cleaning; Utilitarian grey paint, often scratched revealing metal beneath; Deep charcoal grey, faded, stained near hem; Crystal mostly clear but internal fractures refract light rainbow-like.]"
+            - property: "Texture/Feel: [e.g., Smooth cool metal/glass, knurled dials feel precise; Key feels slightly warm, surface impossibly smooth; Core feels heavy, slightly greasy with lubricant; Coat texture rough, heavy, slightly damp; Crystal smooth, cool, with sharp edges.]"
+          authentication: "[Source - Sensory Palette Guide, Narrative Description]"
+        - category: "Sensory Emanations (Passive)"
+          properties:
+            - property: "Sound: [e.g., Viewer: Faint hum when idle, clicks/whines when active; Key: Silent unless near Artificer tech, then low chime; Core: Rhythmic ticking/whirring when charged; Coat: Heavy rustle of wool; Crystal: Silent.]"
+            - property: "Scent: [e.g., Viewer: Ozone/hot electronics when active; Key: Odorless; Core: Machine oil/ozone; Coat: Damp wool, rain, faint tobacco; Crystal: Clean, slightly metallic scent when holding strong data echo.]"
+            - property: "Other: [e.g., Viewer lens distorts nearby light slightly; Key feels 'alive' to attuned sensitives; Core vibrates noticeably when under load; Coat feels heavier than it looks; Crystal feels 'full' or 'empty' to Memory Keepers.]"
+          authentication: "[Source - Sensory Descriptions, Functional Notes]"
+      physical_undersaturation_notes: "[e.g., Internal circuitry of Viewer; Exact crystalline structure of Key; Manufacturing tolerances of Core gears; Thread count of Coat; Full data capacity limits of Crystal.]"
+      prompts_physical_object:
+        - "How does the object's physical design immediately communicate its likely function, origin, or status?"
+        - "What specific sensory detail makes this object unique and memorable within Aethelgard?"
+
+    # --- 2. Functional Properties (Operational Logic - Capabilities, Limits, Costs) ---
+    functional_properties:
+      title: "Authenticated Operation, Potential, and Constraints"
+      subcategories:
+        - category: "Primary Intended Function(s)"
+          properties:
+            - property: "[e.g., Chrono-Viewer: Limited temporal echo observation.]"
+            - property: "[e.g., Artificer Key: Presumed universal access to Artificer locks (unverified full scope).]"
+            - property: "[e.g., Automaton Core: Provide standardized power & basic logic processing.]"
+            - property: "[e.g., Greatcoat: Provide protection from standard Aethelgard weather.]"
+            - property: "[e.g., Memory Crystal: Store/replay sensory/data imprints (passive recording).]"
+          authentication: "[Source - Tech Specs, Lore, Narrative Use]"
+        - category: "Secondary/Emergent Function(s)"
+          properties:
+            - property: "[e.g., Viewer emits detectable temporal signature (can be tracked); Key resonates near specific energies (acts as detector); Core logs rudimentary diagnostic data; Coat used for concealment/carrying capacity; Corrupted Crystal emits temporal noise disrupting other devices.]"
+          authentication: "[Source - Narrative Events, System Interactions]"
+        - category: "Operational Requirements & Procedures"
+          properties:
+            - property: "[e.g., Viewer requires specific Dust cartridge type, calibration sequence, user concentration; Key activation method unknown, potentially requires specific user/condition; Core requires winding/charging via Guild ports; Coat requires drying/mending; Crystal requires Memory Keeper reader/imprinter.]"
+          authentication: "[Source - Manual Prop, Narrative Depiction of Use]"
+        - category: "Authenticated Capabilities & Scope"
+          properties:
+            - property: "[e.g., Viewer: Max 23.9hr lookback, 10m radius, visual/audio only, clarity degrades exponentially; Key: Successfully opened LOC_ArtificerVaultDoor_A; Core: Powers Class IV automaton for 11.8 hrs avg under standard load; Coat: Repels moderate rain/wind; Crystal: Can hold approx 5 mins high-fidelity sensory data.]" # Be specific
+          authentication: "[Source - Test Report Prop, Narrative Success/Limits]"
+        - category: "Authenticated Costs & Resource Consumption"
+          properties:
+            - property: "[e.g., Viewer: 1 Dust Unit per 4.7 min, induces Level 1 Temporal Sickness after 30 mins cumulative use; Key: Activation cost unknown, potentially high/dangerous; Core: Requires full recharge cycle (3 hrs); Coat: Requires repair after significant damage; Crystal: Imprinting process consumes specific reagents.]"
+          authentication: "[Source - Tech Specs, Narrative Consequences]"
+        - category: "Authenticated Limitations & Inabilities"
+          properties:
+            - property: "[e.g., Viewer *cannot* alter past, penetrate temporal shielding, view echoes >24hrs old; Key *failed* to open LOC_ArtificerVaultDoor_B; Core *cannot* support Class V+ automaton power needs; Coat *offers no protection* against temporal anomalies/ballistics; Crystal *cannot* store analytical data, only raw sensory input.]"
+          authentication: "[Source - Explicit Rule, Demonstrated Failure]"
+        - category: "Authenticated Vulnerabilities & Failure Modes"
+          properties:
+            - property: "[e.g., Viewer lens *is vulnerable* to specific sonic frequencies; Key *may destabilize* when exposed to raw Paradox energy; Core *prone to catastrophic failure* if internal chronometer desynchronizes; Coat *is highly flammable*; Crystal data layer *can be wiped* by strong temporal fields.]"
+          authentication: "[Source - Tech Specs, Narrative Events]"
+      functional_undersaturation_notes: "[e.g., Full range of Key's capabilities/materials it works on; Core failure rate under extreme conditions; Coat's exact insulation value; Crystal's maximum data retention period.]"
+      prompts_functional_object:
+        - "What is the object's precise 'input' and 'output'? What resources does it consume? What waste/side effects does it produce?"
+        - "Under what *specific conditions* does it function optimally, and under what conditions does it fail or become dangerous?"
+        - "How do its limitations create more interesting narrative problems than its capabilities solve?"
+
+    # --- 3. Social / Relational Properties (Object's Place in the Network) ---
+    social_relational_properties:
+      title: "Context, Ownership, and Systemic Role"
+      properties:
+        - id: "SOC_OBJ_01"
+          attribute: "Ownership/Possession Status"
+          value: "[e.g., Viewer: Issued City Watch property, assigned to Kaelen; Key: Currently possessed by Kaelen (secretly), original owner unknown; Core: Component owned by Gearwright Guild until installed; Coat: Personal property of Kaelen; Crystal: Property of Memory Keepers Archive.]"
+          authentication: "[Source]"
+        - id: "SOC_OBJ_02"
+          attribute: "Legal/Social Status"
+          value: "[e.g., Viewer: Regulated Guild Technology; Key: Illegal/Forbidden Artificer Artifact; Core: Standardized Industrial Component; Coat: Unrestricted Personal Item; Crystal: Highly Restricted Information Asset.]"
+          authentication: "[Source - Legal Codex Prop, Social Norms Doc]"
+        - id: "SOC_OBJ_03"
+          attribute: "Factional Association/Control"
+          value: "[e.g., Viewer tech originates from Chronometers Guild (licensed to Watch); Key associated with Artificers; Core production controlled by Gearwrights; Coat has no factional ties; Crystals controlled exclusively by Memory Keepers.]"
+          authentication: "[Source]"
+        - id: "SOC_OBJ_04"
+          attribute: "Key Relations to Entities (Who Wants/Uses/Guards It?)"
+          value: "[e.g., Viewer needed by Kaelen for investigations; Key sought by Chronometers, Memory Keepers, potentially Kaelen; Cores needed by all Automatons/Owners; Coat primarily relevant to Kaelen; Crystals needed by Keepers for records, potentially by others seeking lost knowledge.]"
+          authentication: "[Source - Narrative Goals, Faction Mandates]"
+      social_undersaturation_notes: "[e.g., Full black market network for stolen tech; specific laws governing artifact possession beyond 'forbidden'; sentimental value objects might hold for minor characters.]"
+      prompts_social_object:
+        - "How does *who* owns or seeks this object define its significance?"
+        - "What social or political conflicts arise *because* of this object's existence or control?"
+
+    # --- 4. Historical Properties (Object's Past & Provenance) ---
+    historical_properties:
+      title: "Authenticated Origins, Age, and Past Significance"
+      properties:
+        - id: "HIST_OBJ_01"
+          attribute: "Origin/Manufacture Date & Context"
+          value: "[e.g., Viewer Mk3 design dates to ~Year 305 AR (Post-Paradox caution); Key dates to High Mythic Age (estimated >500yr Pre-Shattering); Core MkIV design implemented Year 290 AR; Coat age/origin unknown pre-Kaelen; Crystal fabrication technique dates to Early Reconstruction.]"
+          authentication: "[Source - Tech Timelines, Lore Analysis, Carbon Dating Prop]"
+        - id: "HIST_OBJ_02"
+          attribute: "Known Provenance / Chain of Custody"
+          value: "[e.g., Viewer issued to Kaelen's predecessor, recovered; Key provenance entirely unknown before Kaelen found it; Core standard new issue; Coat provenance unknown; Crystal recovered from specific Undercity ruin (LOC_X).] "
+          authentication: "[Source - Narrative events, Acquisition records]"
+        - id: "HIST_OBJ_03"
+          attribute: "Association with Significant Past Events/Figures"
+          value: "[e.g., Viewer prototype linked to First Paradox Event failures; Key potentially belonged to Artificer Vance; Specific batch of Cores known to be flawed from HIST_Event_Y factory sabotage; Coat possibly worn during Kaelen's memory loss event; Crystal contains authenticated echo of HIST_Event_Z.]"
+          authentication: "[Source - Historical Records, Lore Speculation (clearly marked), Narrative reveals]"
+      historical_undersaturation: "[e.g., Complete list of previous Key owners; Manufacturing details of Kaelen's specific coat; Full content of *all* archive crystals.]"
+      prompts_history_object:
+        - "How does this object's authenticated past (age, origin, previous use) influence its current function, value, or perception?"
+        - "Are there historical mysteries *embedded within* the object itself?"
+
+    # --- 5. Modal Properties (Object's Unique Relation to World Laws) ---
+    modal_properties:
+      title: "Exceptional Status Regarding Possibility, Obligation, etc. (If Applicable)"
+      properties:
+        - property_id: "MODAL_OBJ_KEY_ALE"
+          attribute: "Alethic Exception: Material Invulnerability"
+          value: "[e.g., Artificer Key material *is authenticated as* resistant to all known forms of damage or analysis available to current Aethelgard technology (Tier 1/2 levels).]"
+          authentication: "[Source - Failed analysis report prop, Narrative demonstrations]"
+          narrative_function: "[Makes destruction difficult/impossible, increases value/mystery.]"
+        - property_id: "MODAL_OBJ_CORE_DEO"
+          attribute: "Deontic Binding: Programmed Limitation"
+          value: "[e.g., Standard Automaton Core *cannot* authenticate commands that directly contradict core Guild safety protocols (unless overridden by authenticated Master command).]" # A programmed Deontic constraint
+          authentication: "[Source - Core Programming Spec Doc]"
+          narrative_function: "[Provides safety limit, potential plot point for overriding protocols.]"
+        # --- Add only if object has *inherent* properties that uniquely interact with world modalities ---
+      modal_undersaturation: "[e.g., Are there *other* Artificer materials with unique modal properties? Can the Core's deontic limits be subtly bypassed?]"
+      prompts_modal_object:
+        - "Does this object allow actions otherwise impossible in Aethelgard? How are its unique modal properties constrained?"
+        - "Is the object itself bound by specific rules or obligations?"
+
+    # --- 6. Axiological Properties (World-Internal Value & Significance) ---
+    axiological_properties_perceived:
+      title: "Authenticated Value, Reputation, and Symbolic Weight"
+      properties:
+        - property_id: "AXIO_OBJ_VIEWER_VALUE"
+          attribute: "Utilitarian & Social Value"
+          value: "[e.g., High utility for investigation but requires skill/resources; Possession marks user as official (Watch) or potentially illicit investigator; Considered dangerous/intrusive tech by some factions.]"
+          authentication: "[Source - Narrative use, Dialogue reflecting attitudes]"
+        - property_id: "AXIO_OBJ_KEY_VALUE"
+          attribute: "Symbolic & Potential Value"
+          value: "[e.g., Represents 'Lost Golden Age'/Artificer Power (positive or negative depending on viewpoint); Potential key to immense power or catastrophic knowledge; Highly desirable (positive utility) AND highly dangerous (negative consequence potential).]"
+          authentication: "[Source - Lore, Faction motivations]"
+        - property_id: "AXIO_OBJ_COAT_VALUE"
+          attribute: "Personal & Aesthetic Value"
+          value: "[e.g., Low economic value; High personal value to Kaelen (familiarity, function); Aesthetically represents 'worn resilience' (positive in Undercity/some views) or 'shabbiness' (negative Guild view).]"
+          authentication: "[Source - Narrative focus, Kaelen's behavior, Contrasting descriptions]"
+      axiological_undersaturation: "[e.g., Precise black market value fluctuation; How different sub-cultures aesthetically judge Guild tech.]"
+      prompts_axiology_object:
+        - "How is this object *valued* differently by different factions or characters within Aethelgard?"
+        - "Does it possess an authenticated 'moral alignment' (e.g., cursed, blessed) within the world's cosmology?"
+        - "How does its perceived value drive plot dynamics (theft, quests, protection)?"
+
+  # --- Object Constitution Summary & Narrative Function ---
+  object_constitution_summary:
+    purpose: "Synthesize the core identity, systemic role, and narrative function emerging from the object's complete authenticated property bundle."
+    core_essence_statement: |
+      [Provide a rich summary synthesizing defining properties, emphasizing function and description. e.g., 
+      "The Artificer Key is constituted primarily by its **mysterious historical origin** and its **immense potential function** 
+      (unlocking Artificer tech), the precise limits of which remain **intentionally undersaturated**. Its **physical properties** 
+      (unique material, shifting patterns, impossible smoothness) authenticate its alien nature and **alethic exceptionalism** 
+      (resistance to damage). Its **axiological status** is highly contested (representing hope vs. hubris), making it a focal 
+      point for **political conflict** (relational properties). Its core essence lies in being an **embodiment of the 
+      world's central historical mystery and the dangerous allure of lost power**."]
+    primary_narrative_functions_served: "[List key roles: e.g., MacGuffin; Plot Enabler (unlocking paths); Source of Conflict; Lore Delivery Device (via analysis/resonance); Symbol of Past/Future.]"
+    key_systemic_interactions: "[How does it influence/interact with: e.g., Guild Politics (all seek it), Technology (represents different level), History (key to understanding past), Alethic Modality (potential rule-breaker).]"
+    significant_undersaturation_impact: "[How does what's *unknown* about it drive plot/mystery? e.g., Unknown activation method is primary obstacle; true full capabilities are source of speculation/fear.]"
+
+# --- End of Object Profile ---
+
+
+How this YAML Embodies "Extreme Detail" for Fictional Objects:
+
+Ontology First: Starts with a strict affirmation of the text-centric, property-bundle ontology specifically for objects, rejecting hidden substance or simple AW analogies.
+
+Hyper-Granular Physicality: Breaks down physical properties into extremely detailed subcategories, demanding consideration of morphology, internal structure (if known), material properties, complex surface details, light interaction specifics, state of decay and repair, multi-sensory signatures (sound, smell, taste if relevant), and characteristic presence.
+
+Deep Functional Analysis: Requires defining primary and secondary functions, operational requirements, specific capabilities and scope/intensity, explicit costs/resource consumption, precise limitations/inabilities, and authenticated vulnerabilities/failure modes. Demands thinking like an engineer or logician about how the object works within world rules.
+
+Systemic Relational Mapping: Focuses on the object's place in the network – ownership, legal status, factional control/association, and how it relates to key entities as a driver of action.
+
+Detailed Historical Provenance: Requires tracing origin, manufacture, past ownership, and links to specific historical events beyond simple backstory.
+
+Rigorous Modal/Axiological Status: Demands clear authentication for any unique modal properties (exceptions to world laws) or inherent value status, linking them to narrative function. Distinguishes inherent value from perceived reputation.
+
+Exhaustive Undersaturation Notes: Requires explicitly identifying undefined aspects for each major category, forcing conscious management of incompleteness specific to the object.
+
+Intensive Prompts: Includes highly specific prompts designed to push thinking about sensory details, functional edge cases, systemic impact, consistency checks, and narrative purpose related to the object's properties.
+
+Rich Synthesis: The summary demands articulating the object's core essence, narrative role, systemic impact, and the function of its mysteries based on the entire detailed property bundle.
+
+This extremely detailed YAML template guides the creator to define fictional objects in Aethelgard with profound depth and rigor, ensuring they are not just passive props but fully constituted, functionally coherent, and narratively significant components of the heterocosmic architecture.

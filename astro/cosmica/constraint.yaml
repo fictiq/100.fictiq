@@ -1,0 +1,187 @@
+# ============================================================
+# Story World Codex: Constraint as Creative Engine Protocol
+# Version: 1.0 (Based on Doležel's Implications of Constraint)
+# Last Updated: [Current Date]
+# Keeper of the Codex: [Your Name/Studio Name]
+# World: [Your Story World Name, e.g., Aethelgard]
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol guides the **strategic design and application of constraints** within the 
+    [Your Story World Name] heterocosm. Inspired by Doležel's framework, it posits that 
+    well-defined limitations – authenticated rules (modalities), historical precedents, 
+    entity weaknesses, environmental hazards, social barriers – are not obstacles but 
+    **essential engines** driving narrative conflict, shaping character, enhancing 
+    believability, and focusing imaginative invention.
+  focus: |
+    Explicitly identify key constraints, analyze their narrative functions, and brainstorm 
+    creative possibilities that arise *because of* these limitations, not in spite of them.
+
+# --- I. Identifying Core World Constraints ---
+core_constraints:
+  purpose: |
+    Catalog the fundamental, authenticated limitations governing the heterocosm. 
+    Reference Mythology, History, and Global State protocols.
+
+  alethic_constraints: # Laws of Possibility/Necessity
+    - constraint_id: "ALE-01"
+      rule: "Chrono-Tech cannot achieve true time travel, only localized observation/stuttering; paradox risk severe."
+      source: "Mythology Doc - Chrono-Tech Limitations"
+      narrative_function: "Prevents easy plot solutions, creates inherent danger around core tech, grounds sci-fi element, fuels mystery re: Artificers."
+    - constraint_id: "ALE-02"
+      rule: "Unaided human flight is impossible; standard physics apply unless overridden by specific authenticated tech/anomaly."
+      source: "Assumed Minimal Departure / Physics Section"
+      narrative_function: "Makes verticality of Aethelgard a real obstacle, necessitates specific transport tech, grounds setting."
+    - constraint_id: "ALE-03"
+      rule: "Temporal Aberrations cannot be permanently destroyed by conventional means, only dispersed or contained temporarily."
+      source: "Bestiary Doc - Aberrations"
+      narrative_function: "Creates persistent threat, necessitates creative containment strategies, source of horror/suspense."
+    # - Add more alethic constraints...
+
+  deontic_constraints: # Laws of Obligation/Permission
+    - constraint_id: "DEO-01"
+      rule: "Unauthorized access to Guild Archives is strictly forbidden and punishable by memory-wipe."
+      source: "Guild Law Codex Prop"
+      narrative_function: "Creates high stakes for investigation plots, establishes Guild control over information, source of ethical dilemmas."
+    - constraint_id: "DEO-02"
+      rule: "Undercity Salvager Code requires sharing vital survival info (e.g., new tunnel collapses) within one's immediate crew/network."
+      source: "Faction Profile - Salvagers"
+      narrative_function: "Enables cooperation/community, creates conflict when code is broken (betrayal), contrasts with Guild secrecy."
+    # - Add more deontic constraints...
+
+  axiological_constraints: # Values/Taboos
+    - constraint_id: "AXI-01"
+      value_taboo: "Open display of pre-Shattering Artificer tech is considered dangerous hubris and socially taboo by most Guilds."
+      source: "Social Norms Doc"
+      narrative_function: "Creates conflict for characters finding/using such tech, reinforces theme of fear of the past, explains suppression of knowledge."
+    # - Add more axiological constraints...
+
+  epistemic_constraints: # Knowledge Limits
+    - constraint_id: "EPI-01"
+      limit: "The true cause of The Shattering is unknown; available evidence is contradictory and suppressed."
+      source: "Core Mystery Doc"
+      narrative_function: "Central mystery driving long-term plots, source of speculation/theories, allows for unreliable historical narratives."
+    - constraint_id: "EPI-02"
+      limit: "Direct communication between Surface districts and Deep Undercity is technologically unreliable and heavily monitored/restricted by Guilds."
+      source: "Technology Doc, Political State Doc"
+      narrative_function: "Creates obstacles for cross-divide communication, enables misunderstandings, reinforces control."
+    # - Add more epistemic constraints...
+
+  historical_constraints: # Precedents from the Past
+    - constraint_id: "HIST-01"
+      past_event: "The First Paradox Event demonstrated the catastrophic potential of large-scale temporal manipulation."
+      source: "History Protocol"
+      narrative_function: "Justifies current research restrictions (Deontic/Political), creates fear/caution, raises stakes for similar attempts."
+    # - Add more historical constraints...
+
+  environmental_constraints: # Hazards of the World
+    - constraint_id: "ENV-01"
+      hazard: "Frequent acid rain necessitates protective gear and corrodes exposed metal."
+      source: "Global States Protocol"
+      narrative_function: "Constant minor obstacle, affects equipment, contributes to atmosphere, creates situational challenges."
+    # - Add more environmental constraints...
+
+  prompts:
+    - "What are the absolute 'cannots' of this world (physical, magical, technological)?"
+    - "What actions carry significant, authenticated negative consequences?"
+    - "What knowledge is fundamentally limited or inaccessible?"
+    - "What historical events act as major constraints on present actions or beliefs?"
+
+# --- II. Constraint Driving Conflict & Plot ---
+constraint_driving_conflict:
+  purpose: |
+    Brainstorm specific narrative conflicts and plot hooks that arise *directly* 
+    from the authenticated constraints.
+  
+  hooks_examples:
+    - constraint_id: "ALE-01: No True Time Travel, Paradox Risk"
+      potential_plots:
+        - "Characters need past info, must use flawed Chrono-Viewers, risking corruption/Aberrations."
+        - "Antagonist attempts forbidden ritual/machine to break constraint; heroes must stop using existing rules."
+        - "Plot deals with cleaning up consequences (paradoxes, anomalies) of a *past* attempt to break the rule."
+
+    - constraint_id: "DEO-01: Archive Access Forbidden"
+      potential_plots:
+        - "Heist narrative: Infiltrate Archives for info, facing ethical dilemmas and Guild Law."
+        - "Political thriller: Factions manipulate access rules against each other."
+        - "Character falsely accused of violation must clear their name."
+
+    - constraint_id: "EPI-01: Cause of Shattering Unknown"
+      potential_plots:
+        - "Investigative arc: Piecing together fragmented clues from unreliable sources."
+        - "Ideological conflict: Factions promote conflicting 'truths' about the Shattering."
+        - "MacGuffin hunt: Quest for a single artifact potentially holding the real answer."
+
+    # - Brainstorm plots for other key constraints...
+
+  prompts:
+    - "For each major constraint, what immediate problems does it create?"
+    - "What stories emerge from characters trying to overcome, circumvent, exploit, or enforce these limits?"
+    - "How can combining different constraints create unique, complex challenges (e.g., needing forbidden knowledge guarded by hostile entities in a temporally unstable zone)?"
+
+# --- III. Constraint Defining Character & Enabling Ingenuity ---
+constraint_defining_character:
+  purpose: |
+    Explore how constraints shape character properties, motivations, and force 
+    creative problem-solving within the narrative.
+
+  examples:
+    - constraint: "Economic State: Severe scarcity of refined Chrono-Dust outside Guild control."
+      impact:
+        property_shaped: "Undercity Salvagers authenticated with high 'Resourcefulness' & 'Jury-Rigging Skill'."
+        motivation_driven: "Intense drive for Guild membership OR finding alternative power OR stealing Dust."
+        creative_solution_example: "Character devises way to run vital gear on unstable raw Dust, accepting high risk."
+
+    - constraint: "Alethic Modality: Temporal Aberrations cannot be killed conventionally."
+      impact:
+        property_shaped: "Specialized 'Anomaly Containment Units' authenticated with unique tech/training."
+        motivation_driven: "Fear drives social behavior; Guilds motivated to research containment."
+        creative_solution_example: "Protagonists must use environment, specific frequency, or Artificer artifact (consistent with lore) to banish/trap Aberration."
+
+    - constraint: "Deontic Modality: Strict Guild secrecy oaths regarding certain technologies."
+      impact:
+        property_shaped: "Guild members authenticated as 'Disciplined', 'Loyal', potentially 'Conflicted'/'Paranoid'."
+        motivation_driven: "Internal conflict for characters with dangerous secrets; motivates espionage by rivals."
+        creative_solution_example: "Character must leak info via coded language, anonymous drops, or exploiting semantic loopholes without technically breaking oath."
+
+    # - Analyze impacts of other key constraints...
+
+  prompts:
+    - "How do world limits force characters to develop specific, non-generic skills/traits?"
+    - "What interesting moral compromises or difficult choices arise from navigating deontic/axiological constraints?"
+    - "How do *specific* world constraints force *unique*, world-specific solutions to common narrative problems?"
+    - "How can character weaknesses (authenticated limits) force reliance on others or cleverness over power?"
+
+# --- IV. Constraint Enhancing Believability & Immersion ---
+constraint_enhancing_believability:
+  purpose: |
+    Ensure authenticated constraints are applied consistently to ground the world 
+    and maintain audience trust and immersion.
+
+  consistency_checks:
+    - area: "Chrono-Tech Energy Costs"
+      check: "Are powerful temporal effects consistently shown requiring significant, authenticated power sources/costs?"
+      impact_on_immersion: "Consistent costs = 'realism'/stakes. Arbitrary use = plot device/breaks immersion."
+      action_item_if_needed: "Review scenes; ensure power sources/costs are accounted for per rules."
+
+    - area: "Information Access (Epistemic Limits)"
+      check: "If history/records are fragmented/censored, do characters struggle plausibly to find info, or find it too conveniently?"
+      impact_on_immersion: "Realistic struggle = reinforces world state. Convenient discovery = contrived."
+      action_item_if_needed: "Ensure info discovery involves plausible effort/overcoming obstacles."
+
+    - area: "Social Taboos (Deontic/Axiological)"
+      check: "If an action is strongly taboo, are consistent social/narrative consequences depicted when it occurs?"
+      impact_on_immersion: "Consistent consequences = real social structure. Ignored taboo = inconsistent world."
+      action_item_if_needed: "Review scenes involving taboo actions; ensure appropriate consequences are shown/credibly avoided."
+
+    # - Review consistency for other key constraint areas...
+
+  prompts:
+    - "Are the 'rules' applied consistently to all characters (protagonists/antagonists)?"
+    - "When a constraint is overcome, is the method plausible *within the world's established logic*?"
+    - "Are costs/consequences associated with limitations consistently depicted?"
+    - "Where might the temptation exist to 'break the rules' for plot? How can this be resisted via solutions *within* the rules?"
+
+# --- V. Constraint Focusi

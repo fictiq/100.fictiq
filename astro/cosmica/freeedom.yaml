@@ -1,0 +1,75 @@
+# ============================================================
+# Story World Codex: Contributor's Guide to Structured Creativity & Innovation
+# Version: 1.1 (Extreme Detail - Based on Doležel's Collaborative Constraint)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides **advanced guidelines and philosophical grounding** for individual creative 
+    contributors operating within the **formally constrained ecosystem** of the Aethelgard heterocosm. 
+    Building upon Doležel's framework, it elaborates on the concept of **Structured Freedom**, moving 
+    beyond basic adherence to canon towards **masterful innovation *through* deep engagement** with 
+    the world's established rules, history, entities, and thematic imperatives.
+  target_audience: "All writers, designers, artists, developers, and other creative personnel contributing canonical content."
+  core_philosophy: |
+    True creative power in this collaborative context lies not in disregarding boundaries, but in 
+    **understanding the intricate machinery of the authenticated world so profoundly** that one can 
+    operate within it with **ingenuity, depth, and purposeful impact**. Constraints are not limitations 
+    to be resented, but **complex instruments to be played skillfully**.
+
+# --- I. Deep Understanding of Foundational Constraints (Mandatory Prerequisite) ---
+foundational_constraints_mastery:
+  purpose: "Ensure creators possess deep, nuanced understanding of the established world architecture before attempting innovation."
+  requirements:
+    - requirement: "Comprehensive Codex Familiarity"
+      description: |
+        Demonstrable understanding (beyond surface level) of core Codex sections: 
+        - **Modalities:** Not just *what* the rules are, but *why* they were authenticated (narrative/thematic purpose) and their subtle *interactions*. Understanding the *spirit* as well as the *letter* of world law.
+        - **History:** Key events, figures, *and* their authenticated consequences/legacies. Understanding the *weight* of the past.
+        - **Key Entities:** Core properties, established relationships, motivations, limitations, and *sensory signatures* of major characters, factions, locations.
+        - **Global States:** The current baseline reality and its systemic interconnections.
+      verification_method: "[e.g., Initial onboarding review with Keeper/Lead; Ongoing demonstration through consistent proposals/drafts; Periodic optional 'lore mastery' sessions.]"
+    - requirement: "Understanding Canon Hierarchy & Status"
+      description: "Clear understanding of Tier 1 (immutable foundations), Tier 2 (expandable but consistent), and Tier 3 (referential flavor) distinctions. Knowing what is 'load-bearing' canon versus peripheral detail."
+      verification_method: "[e.g., Correct application of tiers in proposals; Queries directed appropriately based on desired impact level.]"
+    - requirement: "Acknowledging Intentional Undersaturation"
+      description: "Recognizing areas deliberately left ambiguous or undefined in the Codex (Core Mysteries, unmapped regions) and respecting those boundaries unless operating under specific CAA mandate to explore them."
+      verification_method: "[e.g., Proposals clearly delineate between elaborating existing canon and filling major established gaps (requiring higher scrutiny).]"
+  rationale: |
+    Deep mastery of the existing structure is the prerequisite for meaningful innovation. 
+    One cannot creatively play with or subvert rules one does not fully understand. 
+    This prevents naive errors and ensures contributions are deeply rooted in the world's logic.
+
+# --- II. Modes of Advanced Creative Contribution (Structured Freedom in Action) ---
+modes_of_advanced_creativity:
+  purpose: "Outline sophisticated methods for contributing original and valuable content while enhancing, rather than disrupting, the established heterocosm."
+
+  # --- Mode 1: Deep Elaboration & Nuance ---
+  - mode: "Deep Elaboration & Nuance"
+    description: "Adding layers of complexity, sensory detail, psychological depth, or cultural specificity to **existing authenticated elements** in a way that is **fully consistent** with and **enriches** their established core properties."
+    techniques:
+      - "Develop intricate secondary characteristics for established characters that logically flow from their core authenticated traits (e.g., specific hobbies, fears, speech patterns)."
+      - "Flesh out the detailed daily operations, internal politics, or specific rituals of an established faction *within* its defined structure and ideology."
+      - "Provide rich, multi-sensory descriptions of established locations during different times/conditions, reinforcing their atmosphere and function."
+      - "Explore the 'undersaturated' aspects of established entities *without contradicting* their core definition (e.g., minor details of a known historical figure's early life that align with their known achievements)."
+    consistency_guardrail: "Elaboration must not alter core authenticated properties, functions, or historical outcomes without formal CAA approval."
+    value_proposition: "Adds texture, depth, realism (internal), and immersion without risking major canon conflicts."
+
+  # --- Mode 2: Rigorous Consequence Exploration ---
+  - mode: "Rigorous Consequence Exploration"
+    description: "Crafting narratives focused on exploring the **logical, often unforeseen, second and third-order consequences** of established world rules, historical events, or technological/magical systems."
+    techniques:
+      - "Show the long-term societal impact of a 'minor' authenticated historical event."
+      - "Depict the unexpected ways different groups adapt to or exploit a specific limitation of Chrono-Tech."
+      - "Explore the psychological toll on individuals forced to constantly navigate specific deontic or epistemic constraints."
+      - "Trace the environmental cascade effects resulting from a historically authenticated industrial practice."
+    consistency_guardrail: "Consequences explored must flow logically from the authenticated rules/events as documented in the Codex."
+    value_proposition: "Makes the world feel dynamic, causal, and deeply interconnected. Generates organic plotlines from existing structure. Reinforces the significance of world rules."
+
+  # --- Mode 3: Ingenious Application & Systemic Exploitation ---
+  - mode: "Ingenious Application & Systemic Exploitation"
+    description: "

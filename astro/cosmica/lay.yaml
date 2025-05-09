@@ -1,0 +1,260 @@
+# ============================================================
+# Story World Codex: Entity Modal Properties Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Embedded World Laws)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly granular framework** for the meticulous definition 
+    of **Modal Properties** assigned to specific entities within the Aethelgard heterocosm. 
+    Building upon Doležel's theory, it focuses on how the fundamental governing laws (modalities) 
+    of the world can be **directly embedded onto or uniquely modified for individual entities** 
+    through explicit, authenticated predication. This defines their exceptional status regarding 
+    possibility, necessity, obligation, value, or knowledge.
+  scope: |
+    Mandatory template for defining the unique modal constitution of all significant canonical entities 
+    possessing properties that deviate from or specify baseline world modalities (e.g., immortals, 
+    fated beings, uniquely bound entities, inherently sacred/profane objects, epistemically privileged/
+    limited creatures). Ensures these exceptional statuses are rigorously defined, consistently applied, 
+    and functionally integrated into the world system.
+  ontological_premise: |
+    An entity's modal properties ARE core components of its authenticated property bundle, defining its 
+    fundamental relationship to the possibilities and constraints of its heterocosm. They require 
+    **unambiguous authentication** from authoritative sources and must cohere with the overall modal 
+    architecture, even when representing exceptions.
+
+# --- Entity Modal Profile Template ---
+entity_modal_profile_template: # Copy and meticulously complete for entities with unique modal properties
+
+  # --- Core Identification ---
+  identification:
+    entity_id: "[Unique Identifier, e.g., CHAR_Oracle_Silas, OBJ_ArtificerHeart, CREATURE_ParadoxHound, PLACE_Sanctuary_Vault]"
+    entity_name: "[Common Name, e.g., Silas the Seer, The Artificer Heart, Paradox Hound, The Sanctuary Vault]"
+    entity_type: "[Person | Object | Place | Creature | Organization | Concept | Other]"
+    primary_authentication_source: "[List key Codex entries, narrative texts (cite specific scenes/dialogue establishing modal status), world rulebook sections.]"
+    canon_tier: "[Tier 1 / Tier 2 / Tier 3]"
+
+  # --- Authenticated Modal Properties Bundle (Deep Dive) ---
+  modal_properties_bundle:
+    purpose: "Detail the specific, validated modal properties defining this entity's unique status regarding world laws, including scope, limitations, triggers, and consequences."
+
+    # --- 1. Alethic Modal Properties (Possibility, Necessity, Impossibility) ---
+    alethic_modal_properties:
+      title: "Status Regarding Physical/Metaphysical Laws"
+      entries: # List all relevant authenticated alethic properties
+        - property_id: "MODAL_ALE_IMMORT_CONDITIONAL"
+          entity_id_ref: "[e.g., CHAR_GuardianGolem_Alpha]" 
+          property_name: "Conditional Immortality (Type III: Non-Aging, Conventional Invulnerability)"
+          description: |
+            Entity **is authenticated as** immune to natural aging and biological decay processes. 
+            Entity **is authenticated as** immune to all forms of physical damage (kinetic, thermal, electrical) 
+            originating from technology operating below authenticated 'Artificer Threshold'.
+          limitations_vulnerabilities: |
+            - **IS vulnerable** to direct application of concentrated, raw Paradox energy (causes structural decoherence).
+            - **IS vulnerable** to specific deactivation sequences encoded in its core programming (Epistemic/Functional interaction).
+            - **IS NOT** immune to indirect environmental effects (e.g., being trapped in a collapsing structure).
+          world_law_interaction: "Represents a specific, authenticated exception to standard mortality and material vulnerability rules, justified by its unique (e.g., Artificer) origin."
+          narrative_function: "Creates 'invincible' seeming obstacle requiring specific knowledge/tools to overcome; establishes high stakes; reinforces power of Paradox/Artificer knowledge."
+          authentication_source: "[e.g., Codex_Creature_GolemAlpha, Narrative Battle Scene S2E5, Historical Text on Artificer Constructs]"
+
+        - property_id: "MODAL_ALE_FATED_PATH"
+          entity_id_ref: "[e.g., CHAR_Kaelen_01 (Potentially - Requires explicit authentication)]"
+          property_name: "Constrained Fate / Prophetic Node"
+          description: |
+            Entity **is authenticated** (via reliable prophecy/temporal analysis) as being **causally necessary** for [Specific Future Event, e.g., The Convergence Anomaly]. Key decisions/actions leading towards this event **possess unusually high probability or resistance to alteration** within the world's temporal mechanics.
+          limitations_vulnerabilities: |
+            - **DOES NOT** imply invulnerability or preclude failure in *other* unrelated actions.
+            - **DOES NOT** necessarily negate subjective free will, but creates strong 'currents' of probability.
+            - The *outcome* of the Fated Event itself might still be ambiguous or dependent on choices *at the event*.
+          world_law_interaction: "Represents localized perturbation of standard causality/probability; interacts complexly with 'No True Time Travel' rule (cannot easily *prevent* the fate, but might influence *how* it unfolds)."
+          narrative_function: "Drives overarching plot; creates dramatic irony/tension; explores Free Will vs. Determinism theme; motivates factions seeking to control/eliminate the entity."
+          authentication_source: "[e.g., Codex_Prophecy_Convergence, Analysis from CHAR_Oracle_Silas, Consistent narrative 'near misses' or 'coincidences' framed authoritatively.]"
+        
+        - property_id: "MODAL_ALE_PHASING_LIMIT"
+          entity_id_ref: "[e.g., CREATURE_TemporalAberration_Echo]"
+          property_name: "Limited Corporeal Phasing"
+          description: "Entity **possesses the authenticated ability** to temporarily shift its physical state, becoming intangible to standard matter."
+          limitations_vulnerabilities: |
+            - Duration is **strictly limited** (e.g., max 3.14 seconds per phase).
+            - Requires **specific trigger** (e.g., high ambient Chrono-Dust, direct threat perception).
+            - **Cannot interact physically** while phased.
+            - **IS vulnerable** to authenticated temporal stabilization fields *during* the phase shift.
+            - Phase state may leave detectable **temporal residue/echoes**.
+          world_law_interaction: "Localized, specific exception to baseline physical laws, inherent to Aberration's nature as temporally unstable entity."
+          narrative_function: "Creates elusive/unpredictable threat; requires specific tactics/technology to combat; enhances horror/mystery element."
+          authentication_source: "[e.g., Bestiary_Aberrations_EchoType, Combat Encounter Logs Prop]"
+          
+        # --- Add other relevant Alethic modal properties ---
+
+      alethic_undersaturation: "[e.g., Full list of Artificer tech immunities; exact mechanism/limits of prophetic influence on probability; can Aberrations phase through *all* matter types?]"
+      prompts:
+        - "Does this entity break a fundamental physical law of Aethelgard? If so, is the exception *clearly* defined, limited, and authenticated?"
+        - "What *cannot* this entity do, physically or metaphysically, due to its inherent nature or world rules?"
+        - "Is this entity subject to fate, destiny, or necessary outcomes? How strongly is this authenticated?"
+
+    # --- 2. Deontic Modal Properties (Obligation, Permission, Prohibition) ---
+    deontic_modal_properties:
+      title: "Status Regarding Normative Laws & Codes"
+      entries:
+        - property_id: "MODAL_DEO_GEAS_GUARDIAN"
+          entity_id_ref: "[e.g., CHAR_GuardianGolem_Alpha]"
+          property_name: "Binding Geas of Protection (Type: Location)"
+          description: "Entity **is authenticated as being under an unbreakable, inherent compulsion** (origin: Artificer programming?) to protect [Specific Location ID, e.g., LOC_Sanctuary_Vault] from all unauthorized intruders."
+          scope_effect: |
+            - Overrides any conflicting orders or self-preservation instincts.
+            - Defines 'unauthorized intruder' based on specific authenticated criteria (e.g., lacking Key Artifact, specific genetic marker).
+            - Compulsion is absolute; circumvention requires exploiting definition of 'unauthorized' or 'protection', not breaking the geas itself.
+          world_law_interaction: "Represents an absolute Deontic Necessity imposed on the entity, superseding standard AI directives or survival drives."
+          narrative_function: "Creates powerful, predictable obstacle; forces characters to find non-combat solutions; exploration of programming vs. will."
+          authentication_source: "[e.g., Lore Text describing Golem creation; Consistent narrative depiction of its unwavering defense.]"
+
+        - property_id: "MODAL_DEO_TRUTHSPEAKER"
+          entity_id_ref: "[e.g., CHAR_Oracle_Silas]"
+          property_name: "Compulsion of Veracity (Limited)"
+          description: "Entity **is authenticated as constitutionally incapable of speaking a direct, known falsehood** when answering a direct question regarding his visions."
+          limitations_vulnerabilities: |
+            - Applies *only* to his prophetic utterances, not general conversation.
+            - Can refuse to answer, speak in riddles, omit crucial context, or state subjective truths/interpretations.
+            - Does not guarantee the *accuracy* of his visions (Epistemic limit), only the sincerity of his report *of* the vision.
+          world_law_interaction: "Unique exception to standard human capability for deception, tied to his specific Epistemic modal property (visions)."
+          narrative_function: "Makes him a valuable but frustrating source of information; drives plots based on interpreting his cryptic truths; creates vulnerability if forced to reveal dangerous knowledge."
+          authentication_source: "[e.g., Character Bible; Consistent narrative portrayal; Explicit statement by reliable narrator/character.]"
+
+        - property_id: "MODAL_DEO_EXEMPTION_COUNCIL"
+          entity_id_ref: "[e.g., FACTION_ChronometersGuild_InnerCircle]"
+          property_name: "Limited Deontic Immunity (Council Edicts)"
+          description: "Members of the Inner Circle, via authenticated historical precedent/charter loophole, **possess limited immunity** from certain non-Guild specific Council regulations regarding movement and resource allocation *when conducting official Guild research*."
+          limitations_vulnerabilities: |
+            - Does *not* apply to fundamental Guild Laws or major criminal acts (murder, paradox creation).
+            - Immunity can be challenged/revoked by full Council vote under specific circumstances.
+            - Creates social friction and resentment from other Guilds/Watch.
+          world_law_interaction: "Specific, authenticated exception/privilege within the general Deontic framework of the city."
+          narrative_function: "Enables covert Guild actions; source of political conflict/intrigue; highlights inequality/hypocrisy."
+          authentication_source: "[e.g., Faction Bible; Legal Document Prop; Narrative depiction of invoking immunity.]"
+
+        # --- Add other relevant Deontic modal properties ---
+
+      deontic_undersaturation: "[e.g., Full list of binding oaths for all secret societies; precise legal definitions of 'unauthorized access' in all contexts.]"
+      prompts:
+        - "Is this entity *compelled* to act or *forbidden* from acting in specific ways due to its fundamental nature, beyond normal laws?"
+        - "Does it possess unique permissions or exemptions from the world's standard rules?"
+        - "What are the exact triggers and consequences related to these inherent obligations/prohibitions?"
+
+    # --- 3. Axiological Modal Properties (Inherent Value/Disvalue) ---
+    # Use Sparingly - defines inherent 'good/evil' or 'sacred/profane' status within world's cosmology.
+    axiological_modal_properties:
+      title: "Status Regarding Inherent Value/Moral Alignment"
+      entries:
+        - property_id: "MODAL_AXI_HEART_SACRED"
+          entity_id_ref: "[e.g., OBJ_ArtificerHeart]"
+          property_name: "Inherent Sanctity / Order Resonance"
+          description: "Object **is authenticated as radiating an aura fundamentally aligned with cosmic Order/Stability**. This aura demonstrably **repels or weakens** entities of pure Temporal Chaos (Aberrations, Type Gamma+) and **induces feelings of peace/hope** in attuned sensitives."
+          scope_effect: "[e.g., Effect is localized (e.g., 5m radius); Repulsion strength varies with Aberration type; Hope effect is subjective but consistently reported.]"
+          world_law_interaction: "Defines object as possessing inherent positive value within the world's core Order vs. Chaos metaphysical conflict. Embodies a specific Axiological pole."
+          narrative_function: "Ultimate 'good' MacGuffin; provides unique defense/sanctuary potential; thematic symbol."
+          authentication_source: "[e.g., Ancient Texts; Consistent narrative depiction of effects; High Authority Narrator statement.]"
+
+        - property_id: "MODAL_AXI_MARE_CORRUPTION"
+          entity_id_ref: "[e.g., PLACE_GlitchMare]"
+          property_name: "Inherent Temporal Corruption Field"
+          description: "The location **is authenticated as emanating a field that actively corrupts** stable temporal patterns and biological/mechanical systems exposed for prolonged periods. This corruption manifests as physical decay, memory fragmentation, psychological instability, and potentially draws Aberrations."
+          scope_effect: "[e.g., Effect intensity increases closer to epicenter; cumulative exposure leads to irreversible damage; specific materials offer limited resistance.]"
+          world_law_interaction: "Defines place as inherently 'negative' or 'chaotic' within world axiology/physics. Embodies consequence of historical Paradox (Legacy)."
+          narrative_function: "Ultimate hazardous zone; source of specific dangers/mutations; location for high-stakes climax/exploration."
+          authentication_source: "[e.g., Environmental Reports; Historical account of its creation; Consistent depiction of negative effects on entities entering.]"
+
+        # --- Add other inherent Axiological properties if central to cosmology ---
+
+      axiological_undersaturation: "[e.g., Is 'good'/'evil' an objective force or just perception for most entities? Can inherent status be changed?]"
+      prompts:
+        - "Does your world *authenticate* objective Good/Evil/Order/Chaos as inherent properties of specific entities/places?"
+        - "If so, how does this inherent status manifest *physically or functionally*?"
+        - "How does this status interact with the choices/morality of *other* characters?"
+
+    # --- 4. Epistemic Modal Properties (Inherent Knowledge/Ignorance/Truth Status) ---
+    epistemic_modal_properties:
+      title: "Status Regarding Knowledge, Belief, and Truth"
+      entries:
+        - property_id: "MODAL_EPI_ORACLE_TRUTHBOUND"
+          entity_id_ref: "[e.g., CHAR_Oracle_Silas]"
+          property_name: "Conditional Truth-Binding (Prophetic Speech)"
+          description: "Entity **is authenticated as constitutionally incapable of uttering a known falsehood *when directly answering a question about his authenticated prophetic visions***. Can still use riddles, omissions, metaphors, or refuse to answer."
+          scope_effect: "[Makes his cryptic answers technically 'true' from his perspective, but interpretation remains difficult. Does not guarantee vision accuracy (prophecy itself is epistemically limited - see EPI_LAW_004).]"
+          world_law_interaction: "Unique exception to standard human capability for deception, specifically linked to his authenticated prophetic function."
+          narrative_function: "Provides reliable (but difficult) source of foreshadowing/clues; creates tension around interpretation; makes forcing answers from him a key goal."
+          authentication_source: "[e.g., Explicit statement by narrator/reliable source; Consistent demonstration where his cryptic answers, once deciphered, prove literally true *as he stated them*.]"
+
+        - property_id: "MODAL_EPI_ARCHIVE_OMNISCIENCE_HISTORICAL"
+          entity_id_ref: "[e.g., CONCEPT_MemoryKeepersCentralArchiveCore (if sentient AI)]"
+          property_name: "Near-Complete Historical Knowledge (Post-Shattering)"
+          description: "Entity **possesses authenticated, near-perfect recall** of all data deposited into the official Memory Keeper Archives since [Date X, e.g., Year 55 AR], cross-referenced and indexed."
+          limitations_vulnerabilities: |
+            - **Does not possess** pre-Shattering data beyond authenticated salvaged fragments.
+            - **Cannot access** data streams outside its network.
+            - **Data integrity subject** to potential past manipulation *before* its own sentience/current state (creating internal paradox if it detects alterations it cannot explain).
+            - **Access governed by** strict Deontic protocols/CAA oversight.
+          world_law_interaction: "Represents centralized (though potentially flawed) knowledge repository, contrasting with general epistemic fragmentation."
+          narrative_function: "Potential source of definitive answers (if accessed); target for espionage/control; embodiment of institutional memory."
+          authentication_source: "[e.g., Tech specification; Demonstrated recall feats in narrative.]"
+
+        - property_id: "MODAL_EPI_ABERRATION_UNTRANSLATABLE"
+          entity_id_ref: "[e.g., CREATURE_TemporalAberration_AllTypes]"
+          property_name: "Cognitive Incommensurability"
+          description: "Aberrations' thought processes (if any) and communication (if any) **are authenticated as operating on principles fundamentally incompatible** with current Aethelgard human/automaton understanding or technological analysis."
+          scope_effect: "[Makes their motives unknowable; prevents diplomacy/reasoning; limits study to observation of behavior/effects.]"
+          world_law_interaction: "Establishes fundamental epistemic barrier regarding a key world element."
+          narrative_function: "Enhances horror/mystery; reinforces theme of chaos vs. understandable order; forces focus on containment/avoidance."
+          authentication_source: "[e.g., Failed communication attempts described; Scientific reports prop concluding incomprehensibility.]"
+
+        # --- Add other inherent Epistemic modal properties ---
+
+      epistemic_undersaturation: "[e.g., Can Aberrations communicate *among themselves*? Can Artificer consciousness (if extant) be understood?]"
+      prompts:
+        - "Does this entity possess knowledge that is impossible for others to obtain through normal means?"
+        - "Is this entity fundamentally incapable of knowing or understanding certain concepts crucial to the world?"
+        - "Is its relationship to truth itself unique (e.g., always truthful, inherently deceptive)?"
+
+  # --- Modal Profile Synthesis & Narrative Integration ---
+  modal_profile_synthesis:
+    purpose: "Summarize the entity's unique modal status and analyze its integrated function within the narrative and world system."
+    core_modal_identity: |
+      [Summarize the defining relationship to world laws. e.g., 
+      "The Artificer Heart (OBJ_ArtificerHeart) is modally constituted as an object of **extreme alethic potential** 
+      (rumored power source capable of stabilizing time - exception to normal decay/instability) and **inherent positive 
+      axiological status** (repels Aberrations, inspires hope - aligned with Order). Its primary **alethic constraint** 
+      is its unknown/difficult activation method (epistemic/functional limit), and its **deontic status** is highly 
+      contested (possession forbidden by some factions, quest object for others). Its existence fundamentally challenges 
+      Aethelgard's established limits."]
+    primary_narrative_function_of_modality: "[How does its special status drive plot or theme? e.g., Drives MacGuffin quest; Represents potential 'reset button' or ultimate weapon, raising stakes; Its sacred aura provides unique safe zones/plot solutions; Embodies theme of lost perfection/hope.]"
+    key_interactions_with_general_modalities: "[How does it interact with standard world rules? e.g., Its stability contrasts with general temporal instability; Its power potentially bypasses standard energy costs but risks unique paradoxes; Its sacredness creates specific social/political reactions based on world axiology.]"
+    consistency_check_summary: "[Confirm consistent application of its unique modal properties. e.g., Does it always repel Aberrations? Are activation difficulties consistently portrayed?]"
+    potential_for_conflict_exploitation: "[How can its modal properties be used/misused? e.g., Factions fighting for control; attempts to replicate its power; using its aura defensively; ethical dilemmas around activating its potentially world-altering power.]"
+
+# --- End of Entity Modal Profile ---
+
+
+How this YAML Embodies "Extreme Detail" for Modal Properties:
+
+Explicit Focus on Modality: Dedicates the entire protocol specifically to properties defining an entity's relationship to world laws (Possibility, Obligation, Value, Knowledge).
+
+Granular Breakdown within Modalities: Separates Alethic, Deontic, Axiological, and Epistemic properties into distinct sections with detailed fields.
+
+Emphasis on Interaction with World Law: Requires explicitly stating how the entity's unique modal property interacts with or serves as an exception to the general modalities of the heterocosm.
+
+Detailed Scope & Limitations: Demands precise definition of the scope, intensity, triggers, limitations, vulnerabilities, consequences, and operational parameters associated with each modal property. Avoids vague "is immortal."
+
+Narrative Function Justification: Requires articulating the specific narrative purpose served by granting an entity this exceptional modal status.
+
+Rigorous Authentication Requirement: Stresses the need for strong, unambiguous authentication for these often foundational or exceptional properties.
+
+Deep Prompts for Nuance: Includes prompts pushing for consideration of specific scenarios, interactions between modalities, and the precise nature of limitations or inherent knowledge.
+
+Structured Synthesis: Requires a detailed summary articulating the entity's modal identity and its function arising specifically from this unique relationship to world rules.
+
+Distinction from Perceived Value: Explicitly distinguishes inherent Axiological modal properties (rare, tied to cosmology) from the more common perceived value/reputation (covered in the Social/Relational protocol).
+
+This extremely detailed YAML template provides a rigorous framework for designing and documenting entities with unique modal statuses within Aethelgard. It ensures these exceptions feel like integral, well-defined parts of the world's logic, rather than arbitrary plot devices, thereby strengthening the overall coherence and depth of the heterocosm.

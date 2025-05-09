@@ -1,0 +1,191 @@
+Okay, Artist of Worlds, let's convert the Markdown protocol based on **"VII. Implications for Critical Judgment"** into YAML format and significantly expand it with **extreme detail**. This version aims to provide a highly rigorous framework for critically evaluating a fictional world (either your own in self-critique or someone else's) based on the structural and semantic principles derived from Doležel's *Heterocosmica*. It pushes beyond surface judgments to demand deep analysis of internal logic, systemic integration, purposeful originality, and structural thematic resonance.
+
+```yaml
+# ============================================================
+# Story World Codex: Critical Evaluation Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Implications for Critical Judgment)
+# Last Updated: [Current Date]
+# Evaluator: [Your Name / Critic Name]
+# World Under Review: [Story World Name, e.g., Aethelgard]
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides a framework for the **rigorous critical evaluation** of the [World Name] heterocosm, 
+    grounded in the principles derived from Doležel's semantic theory of fiction. It moves beyond purely 
+    mimetic, thematic, authorial, affective, or novelty-focused criteria to assess the world based on its 
+    **internal coherence, systemic richness and integration, purposeful originality (systemic focus), 
+    and structural thematic resonance**.
+  focus: |
+    To conduct a deep, evidence-based analysis of the world's **authenticated architecture** as presented 
+    in its primary narrative texts and supporting canonical materials (e.g., World Bible/Codex, if available). 
+    The goal is to evaluate the *craft* of world construction and its effectiveness *on its own terms*.
+
+# --- I. Evaluation of Internal Coherence & Logical Integrity (The Foundational Check) ---
+internal_coherence_evaluation:
+  purpose: "Assess the world's adherence to its *own* authenticated rules and facts, treating consistency as a primary measure of structural soundness and prerequisite for believability."
+  
+  criteria:
+    - criterion: "Modal Consistency (Alethic, Deontic, Axiological, Epistemic)"
+      assessment_questions:
+        - "Are the fundamental governing laws (physics, magic, tech limits; ethics, laws; values; knowledge rules) clearly discernible (explicitly/implicitly authenticated)?"
+        - "Are these modalities applied *universally and consistently* across all relevant entities and situations within the narrative?"
+        - "Are apparent violations of core modalities convincingly justified *within the world's logic* (e.g., rare exception with authenticated cause, unreliable narrator, deliberate paradox as world feature) or do they feel like arbitrary authorial fiat/plot convenience?"
+        - "Do the different modalities interact logically (e.g., deontic rules reflect axiological values; epistemic limits affect ability to adhere to deontic codes)?"
+      evidence_required: "[Cite specific examples of rule application, potential violations, justifications, and inter-modal interactions from text/Codex.]"
+      evaluation_scale: "[Rate: Rigorously Consistent / Generally Consistent with Minor Lapses / Moderately Inconsistent / Fundamentally Incoherent]"
+      detailed_critique: "[Provide specific analysis of strengths/weaknesses in modal consistency, citing evidence.]"
+
+    - criterion: "Diachronic Consistency (Temporal Coherence)"
+      assessment_questions:
+        - "Do authenticated facts (historical events, entity properties established early) remain stable throughout the narrative timeline unless change is explicitly authenticated and causally justified *within world rules*?"
+        - "Is character development (change in properties) portrayed as a plausible evolution given past authenticated states and intervening events?"
+        - "Does the world's progression through time feel logical based on its established history and dynamics? Are 'retcons' handled transparently and minimally, or do they create jarring discontinuities?"
+      evidence_required: "[Track key facts/properties across narrative timeline; analyze character arcs for consistency; identify potential retcons or unexplained changes.]"
+      evaluation_scale: "[Rate: Highly Continuous / Generally Continuous / Noticeable Lapses / Chronologically Chaotic]"
+      detailed_critique: "[Analyze specific examples of continuity success or failure, impact on world stability.]"
+
+    - criterion: "Synchronic Consistency (Simultaneous Compatibility)"
+      assessment_questions:
+        - "Are elements authenticated as co-existing at the same narrative moment logically compatible according to world rules (e.g., entity properties vs. environmental state vs. active laws)?"
+        - "Do different sub-systems (magic, tech, politics, ecology) interact plausibly without violating each other's established principles?"
+        - "Does the 'snapshot' of the world at key moments present a coherent, functioning system?"
+      evidence_required: "[Analyze complex scenes involving multiple interacting elements; cross-reference different Codex sections (Entities, States, Rules) for compatibility.]"
+      evaluation_scale: "[Rate: Highly Integrated / Generally Compatible / Some Frictions / Systemically Contradictory]"
+      detailed_critique: "[Identify points of successful integration or logical friction between co-existing elements.]"
+
+  overall_coherence_judgment:
+    summary: "[Synthesize findings: Is the world fundamentally built on a sound internal logic, even if complex or fantastical?]"
+    implications: "[How does the level of coherence impact potential audience trust, immersion, and the perceived 'reality' of the heterocosm?]"
+
+# --- II. Evaluation of Systemic Richness & Functional Integration ---
+systemic_richness_evaluation:
+  purpose: "Assess the complexity, depth, and functional integration of the world's components, valuing meaningful interconnection over mere detail accumulation."
+
+  criteria:
+    - criterion: "Density and Meaningfulness of Interconnections"
+      assessment_questions:
+        - "Are the key systems (History, Politics, Economy, Tech/Magic, Environment, Society, etc.) demonstrably and non-trivially interconnected?"
+        - "Do actions or changes in one system plausibly ripple through and affect other systems? Are these consequences explored?"
+        - "Does the world feel like an integrated ecosystem or a collection of loosely related domains?"
+      evidence_required: "[Map key causal links and feedback loops between different world systems documented in Codex/narrative.]"
+      evaluation_scale: "[Rate: Deeply Interconnected Ecosystem / Moderately Interconnected / Somewhat Siloed Systems / Poorly Integrated Elements]"
+      detailed_critique: "[Analyze the strength, plausibility, and narrative significance of key systemic links.]"
+
+    - criterion: "Functional Integration of Unique Elements"
+      assessment_questions:
+        - "Do the world's most defining or unique elements (e.g., specific magic system, core technology, central political conflict, unique species) actively *function* within the narrative and world system? Do they shape plot, constrain characters, generate themes, influence other systems?"
+        - "Or do some unique elements feel like 'wallpaper' – aesthetically present but functionally inert or underdeveloped?"
+        - "If a key unique element were removed, how much of the world's fundamental structure and narrative potential would collapse?"
+      evidence_required: "[Trace the specific narrative and systemic impacts of 3-5 core unique world elements.]"
+      evaluation_scale: "[Rate: Elements Highly Functional & Integrated / Mostly Functional / Some Decorative / Significant 'Wallpaper']"
+      detailed_critique: "[Assess the functional necessity vs. aesthetic presence of key world-defining features.]"
+
+    - criterion: "Presence of Emergent Complexity"
+      assessment_questions:
+        - "Does the interaction of relatively simple authenticated rules and entities lead to complex, believable, and perhaps unforeseen systemic behaviors (e.g., intricate social dynamics, black markets, ecological shifts, political maneuvering)?"
+        - "Does the world feel 'alive' with emergent possibilities arising from its core structure, or does everything feel directly and simply dictated?"
+      evidence_required: "[Identify examples where complex outcomes arise from the interplay of established rules/entities, not just explicit authorial statement.]"
+      evaluation_scale: "[Rate: Rich Emergence / Moderate Emergence / Limited Emergence / Overly Determined System]"
+      detailed_critique: "[Analyze the world's capacity for generating complexity from its foundational rules.]"
+
+  overall_richness_judgment:
+    summary: "[Synthesize findings: Does the world exhibit satisfying depth and complexity arising from well-integrated systems?]"
+    implications: "[How does systemic richness contribute to the world's immersive quality, replay/re-read value, and potential for diverse storytelling?]"
+
+# --- III. Evaluation of Originality (Systemic & Synthesis Focus) ---
+originality_evaluation:
+  purpose: "Assess originality based not just on novel concepts, but on the unique synthesis, modification, and coherent integration of elements within the world's specific architecture."
+
+  criteria:
+    - criterion: "Originality of Systemic Synthesis"
+      assessment_questions:
+        - "Even if using familiar elements/tropes, is the *specific combination* and *interaction* of these elements within this world's unique authenticated ruleset genuinely novel?"
+        - "Does the overall *architecture* – the way history, modalities, entities, and states are integrated – create a system that functions or feels distinct from its predecessors or genre conventions?"
+        - "Does the world achieve a unique 'flavor' or identity through this synthesis?"
+      evidence_required: "[Compare world structure to common genre patterns; identify unique points of intersection between different systems/tropes.]"
+      evaluation_scale: "[Rate: Highly Original Synthesis / Creative Recombination / Competent Genre Execution / Feels Generic/Derivative]"
+      detailed_critique: "[Pinpoint where the combination of elements generates true systemic originality.]"
+
+    - criterion: "Creative Modification of Familiar Tropes"
+      assessment_questions:
+        - "Where familiar tropes (character archetypes, plot structures, setting elements) are used, are they merely replicated, or are they significantly **modified, recontextualized, or subverted** by Aethelgard's specific authenticated properties, modalities, or history?"
+        - "Do these modifications feel purposeful and integrated, adding new layers or challenging expectations, or do they feel superficial?"
+      evidence_required: "[Analyze specific tropes (from Trope Protocol); detail how their function/properties differ here compared to standard usage, linking to authenticated world rules.]"
+      evaluation_scale: "[Rate: Tropes Significantly Transformed / Tropes Creatively Adapted / Tropes Used Conventionally / Tropes Feel Unintegrated]"
+      detailed_critique: "[Assess the degree and effectiveness of trope modification/recontextualization within the heterocosm.]"
+
+    - criterion: "Valuation of Coherence as Achievement"
+      assessment_questions:
+        - "Does the world demonstrate a high degree of internal coherence across its complex systems (as assessed in Section I)? Is this structural integrity itself recognizable as a significant creative accomplishment, regardless of component novelty?"
+      evidence_required: "[Reference findings from Section I on Coherence.]"
+      evaluation_scale: "[Acknowledge/Rate the creative value derived from achieved structural integrity.]"
+      detailed_critique: "[Discuss how the world's coherence contributes to its overall artistic success.]"
+
+  overall_originality_judgment:
+    summary: "[Synthesize findings: Does the world achieve originality primarily through novel premises, masterful synthesis/modification of familiar elements, its sheer structural coherence, or a combination?]"
+    implications: "[How does the specific *type* of originality contribute to the work's overall impact and potential longevity?]"
+
+# --- IV. Evaluation of Thematic Resonance via Structure ---
+thematic_resonance_evaluation:
+  purpose: "Assess how effectively the world's fundamental architecture (modalities, history, systems) inherently embodies and explores the core themes, valuing structural resonance."
+
+  criteria:
+    - criterion: "Structural Embodiment of Core Themes"
+      assessment_questions:
+        - "Can core themes be directly traced to specific authenticated world structures (e.g., Memory/Identity theme linked to Memory Keeper function & Temporal Sickness rules; Order/Chaos theme linked to Guild structure vs. Aberrations/Undercity)?"
+        - "Are the world's governing modalities (alethic, deontic, axiological, epistemic) purposefully designed to generate thematic questions or commentary?"
+        - "Does the authenticated history provide a resonant backdrop or causal foundation for the exploration of themes?"
+      evidence_required: "[Map core themes to specific authenticated world structures listed in Codex/Protocols.]"
+      evaluation_scale: "[Rate: Themes Deeply Embedded in Structure / Moderately Embedded / Superficially Linked / Structure Seems Thematically Arbitrary]"
+      detailed_critique: "[Analyze the strength and specificity of the link between structure and theme.]"
+
+    - criterion: "Thematic Resonance Through Systemic Interplay"
+      assessment_questions:
+        - "Do the *interactions* between different authenticated world systems (e.g., technology vs. society, history vs. environment) naturally generate or complicate thematic meaning?"
+        - "Does the world system as a whole seem to function as a metaphor or argument related to the core themes?"
+        - "Are thematic tensions reflected in the inherent conflicts *between* different structural components (e.g., clash between deontic laws and axiological values)?"
+      evidence_required: "[Analyze examples of systemic interaction (from Interplay Protocol) for their thematic implications.]"
+      evaluation_scale: "[Rate: Strong Emergent Thematic Resonance / Moderate / Limited / Little Thematic Resonance from Interplay]"
+      detailed_critique: "[Discuss how the interplay of systems contributes to (or fails to contribute to) thematic depth.]"
+
+    - criterion: "Subtlety and Implicit Meaning (vs. Explicitness)"
+      assessment_questions:
+        - "Does the world structure allow themes to emerge organically for the audience to interpret, or does it rely heavily on explicit narratorial/character statements about meaning?"
+        - "Is there a satisfying balance between showing themes through world function and telling themes through exposition?"
+      evidence_required: "[Compare structural thematic elements with explicit thematic statements in the narrative.]"
+      evaluation_scale: "[Rate: Primarily Implicit/Structural / Good Balance / Relies Heavily on Explicit Statement]"
+      detailed_critique: "[Assess the effectiveness and sophistication of how themes are conveyed structurally vs. explicitly.]"
+
+  overall_thematic_judgment:
+    summary: "[Synthesize findings: How effectively and deeply does the world's architecture itself serve as a vehicle for thematic exploration?]"
+    implications: "[How does the structural embedding of themes contribute to the work's potential intellectual and emotional impact?]"
+
+# --- V. Final Critical Synthesis ---
+final_critical_synthesis:
+  purpose: "Provide a holistic evaluation based on the preceding analyses, summarizing the world's architectural strengths and weaknesses according to Doležel-inspired criteria."
+  
+  overall_strengths: "[Summarize key areas where the world excels in coherence, richness, systemic originality, and structural thematic resonance. Cite specific examples/analyses from above.]"
+  overall_weaknesses: "[Summarize key areas where internal consistency falters, integration is weak, originality is lacking (at systemic level), or structure fails to support themes effectively. Cite specific examples/analyses.]"
+  dominant_impression: "[What is the lasting critical impression of this heterocosm's architecture? Is it a masterfully crafted system, a flawed but ambitious structure, a collection of brilliant but disconnected ideas, etc.?]"
+  recommendations_for_creator_or_further_study: "[Suggest areas for potential refinement if critiquing own work. Suggest avenues for further scholarly analysis if critiquing published work.]"
+
+# ============================================================
+# End of Deep Coherence & Resonance Critical Evaluation Protocol v1.1
+# ============================================================
+```
+
+**How this YAML Functions as a Detailed Critical Tool:**
+
+1.  **Explicit Criteria:** Breaks down evaluation into core Doležel-inspired criteria (Coherence, Richness, Originality-as-System, Structural Theme).
+2.  **Targeted Questions:** Uses highly specific assessment questions under each criterion to guide deep analysis.
+3.  **Evidence Requirement:** Explicitly demands citing textual/Codex evidence to support evaluations, enforcing rigor.
+4.  **Granular Scales:** Suggests evaluation scales to encourage nuanced judgment beyond simple pass/fail.
+5.  **Detailed Critique Space:** Provides fields for in-depth written analysis justifying the evaluation for each point.
+6.  **Systemic Focus:** Consistently directs attention to the interaction between elements and the overall system architecture.
+7.  **Nuanced Originality:** Implements the specific distinction between premise and systemic originality in its evaluation criteria.
+8.  **Structural Theme Analysis:** Provides detailed prompts for assessing how theme arises from world architecture itself.
+9.  **Holistic Synthesis:** Concludes with a section demanding an overall judgment based on the detailed preceding analysis.
+
+This YAML template serves as a comprehensive framework for conducting a rigorous, Doležel-inspired critical evaluation of a fictional world, focusing intensely on its internal logic, systemic complexity, architectural originality, and structurally embedded thematic depth. It's designed for deep analysis, whether applied to one's own work for refinement or to existing works for scholarly critique.

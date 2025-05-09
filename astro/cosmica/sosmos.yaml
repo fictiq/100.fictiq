@@ -1,0 +1,213 @@
+# ============================================================
+# AETHELGARD - Story World Codex: Entity Constitution Protocol
+# Version: 0.3 (Imaginative Sensory Expansion)
+# Last Updated: [Current Date]
+# Keeper of the Codex: [Your Name/Studio Name]
+# Codex Philosophy: A living document built on Doležel's ontology, focusing on 
+#                   authenticated properties & relations. This version emphasizes 
+#                   evocative, marvelous sensory details as core constitutive elements 
+#                   to maximize creative inspiration and world immersion.
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol guides the definition of entities within the Aethelgard heterocosm. 
+    Entities are constituted by the bundle of properties and relations explicitly 
+    **authenticated** within the narrative framework. This version places special 
+    emphasis on incorporating **marvelous and specific sensory details** as core 
+    properties, recognizing their power to create immersion, atmosphere, unique 
+    characterization, and evocative world-building.
+  focus_note: |
+    Sensory details are **authenticated properties**, not mere flavor. Focus on details 
+    unique to Aethelgard's Chrono-Noir Steampunk reality (temporal distortions, 
+    clockwork intricacies, atmospheric decay, memory echoes). Use comments `#` for 
+    speculation, subjective character perceptions, or unauthenticated ideas.
+
+---
+
+# --- Entity Profile Template ---
+# (Copy and reuse this structure for each entity)
+entity_profile_template:
+
+  # --- Basic Identification ---
+  entity_id: "[Unique Identifier, e.g., CHAR_Kaelen_01, OBJ_ChronosLens, LOC_Undercity_Chimefall]"
+  entity_name: "[Common Name(s), e.g., Investigator Kaelen, The Chronos Lens, The Chimefall]"
+  entity_type: "[Person | Object | Place | Creature | Organization | Concept | Other]"
+  authentication_source_primary: "[e.g., Core Narrative Doc, Character Bible, This Codex Entry]"
+  domain_status: "[Authenticated | Legendary/Mythical | Rumored | Extinct | Paradox-Duplicate | Other]"
+
+  # --- Constitutive Properties (The Authenticated Bundle - SENSORY FOCUS) ---
+  constitutive_properties:
+
+    # --- 1. Physical Properties & Appearance ---
+    physical_properties:
+      # --- VISUAL MANIFESTATION ---
+      visual_manifestation:
+        - property: "Form/Shape: [e.g., Humanoid but unnaturally thin, limbs augmented with visible brass pistons; A district seemingly built inside the carcass of a giant, ancient automaton; A handheld device resembling a complex astrolabe made of cloudy crystal and humming wires]"
+          # Authentication: [Source]
+        - property: "Material/Texture: [e.g., Skin possesses a subtle, oily sheen like aged mother-of-pearl, cool to the touch; Walls weep a corrosive, phosphorescent slime that etches intricate patterns; Object's surface shifts between smooth obsidian and rough, time-pitted iron]"
+          # Authentication: [Source]
+        - property: "Color Palette & Detail: [e.g., Eyes are lens-like apertures glowing with captured starlight, irises rotating like camera shutters; Buildings constructed from salvaged ship hulls, painted in peeling layers revealing decades of forgotten colors beneath rust blooms; Creature's chitin is iridescent, shifting from deep violet to electric blue under stress]"
+          # Authentication: [Source]
+        - property: "Light Interaction: [e.g., Absorbs ambient light, creating pools of unnatural shadow around itself; Casts fragmented, rainbow-like refractions when light hits its temporal core; Possesses internal bioluminescence that pulses in sync with the Shattered Moon's phases]"
+          # Authentication: [Source]
+        - property: "State of Repair/Decay/Temporality: [e.g., Exhibits micro-stutters, brief visual 'ghosting' from past moments; Covered in verdigris patterns resembling fractal algorithms; Parts seem perpetually phasing between rusted decay and pristine newness; Overgrown with 'time moss' that visibly ages or rejuvenates small objects touching it]"
+          # Authentication: [Source]
+        - property: "Characteristic Movement/Posture (if applicable): [e.g., Moves with unsettlingly smooth, frictionless glides; Walks with a heavy, syncopated limp caused by a mismatched gear-leg; Structure groans and visibly sags under gravitational/temporal stress; Floats with deliberate, slow rotations, trailing motes of Chrono-Dust]"
+          # Authentication: [Source]
+        - property: "Unique Visual Feature: [e.g., A visible network of fluid-filled tubes beneath translucent skin carrying shimmering Chrono-Dust; A massive, cracked lens in the central tower that occasionally reflects glimpses of a *different* sky; A creature whose shadow moves independently or slightly out of sync]"
+          # Authentication: [Source]
+        # --- Visual Prompt ---
+        # Prompt: What detail makes it instantly recognizable? How does its appearance reflect its function, history, or the world's themes (time, decay, mechanics)? What happens when light hits it unexpectedly?
+
+      # --- AUDITORY SIGNATURE ---
+      auditory_signature:
+        - property: "Voice Quality (if applicable): [e.g., Speaks in perfect, uninflected Aethelian Standard, but with faint undertones of grinding gears; Voice seems to echo slightly, arriving a fraction of a second after lip movement; Communicates through modulated bursts of resonant crystal chimes]"
+          # Authentication: [Source]
+        - property: "Movement Sound: [e.g., Utterly silent movement despite metallic components; Accompanied by the sound of dripping water and distant, mournful foghorns (for a location); Creates a cascade of fine sand-like sounds as Chrono-Dust sheds from its form]"
+          # Authentication: [Source]
+        - property: "Ambient Sound Emission/Aura: [e.g., Radiates a constant, low 'thrum' that causes temporary tinnitus in listeners; The area around it is unnaturally silent, dampening nearby sounds; Emits barely audible, high-frequency pulses that make teeth ache]"
+          # Authentication: [Source]
+        - property: "Characteristic Sounds: [e.g., A specific three-beat hydraulic hiss upon activation; The melodic, yet off-key, striking of the Chimefall tower fragments during temporal winds; The wet, tearing sound associated with Temporal Aberration appearances]"
+          # Authentication: [Source]
+        # --- Auditory Prompt ---
+        # Prompt: If you couldn't see it, what sound would identify it? Does its sound change with its state or actions? Does it create silence? Does it mimic or distort other sounds?
+
+      # --- OLFACTORY PROFILE ---
+      olfactory_profile:
+        - property: "Ambient Scent: [e.g., Sharp ozone and ionized dust near temporal anomalies; Sickly sweet smell of decaying organic matter mixed with industrial solvents (Undercity); Clean, sterile scent of filtered air and polished metal (Council Spire); No discernible scent whatsoever]"
+          # Authentication: [Source]
+        - property: "Situational Scent: [e.g., Emits scent of burnt copper when processing large amounts of Chrono-Dust; Releases a calming, lavender-like aroma when pacified (creature); Air smells like petrichor (rain on dry earth) just before a localized time-slip]"
+          # Authentication: [Source]
+        - property: "Lingering Scent: [e.g., Leaves behind a faint, persistent smell of formaldehyde and regret (Memory Keepers); Its passage briefly scents the air with exotic, alien spices from a different timeline]"
+          # Authentication: [Source]
+        # --- Olfactory Prompt ---
+        # Prompt: What does the air *around* it smell like? Does it leave a scent trail? Is its smell natural or artificial? Pleasant, unpleasant, or simply strange? Does it trigger memories (a key Aethelgard theme)?
+
+      # --- TACTILE QUALITIES ---
+      tactile_qualities:
+        - property: "Surface Texture/Feel: [e.g., Feels like touching static electricity made solid; Unnaturally smooth, frictionless material; Rough, abrasive surface composed of fused clockwork debris; Yields slightly like cold flesh despite metallic appearance]"
+          # Authentication: [Source]
+        - property: "Temperature Emission/Feel: [e.g., Radiates a bone-chilling cold unrelated to ambient temperature; Certain components run incredibly hot during operation; Feels perpetually damp or clammy; Touching it induces a brief feeling of temporal 'drag']"
+          # Authentication: [Source]
+        - property: "Vibration/Resonance: [e.g., Emits a deep, subsonic vibration felt in the bones; Surface thrums with barely contained energy; Touching it reveals intricate micro-movements beneath the casing]"
+          # Authentication: [Source]
+        - property: "Consistency/Weight: [e.g., Surprisingly light for its size; Impossibly heavy, seems anchored in time; Has a shifting, non-uniform density]"
+          # Authentication: [Source]
+        # --- Tactile Prompt ---
+        # Prompt: Imagine touching it – what surprises you? Is it uniform? Does the feel match the look? How does its presence affect the physical 'feel' of the immediate environment?
+
+      # --- GUSTATORY NOTE (Use Sparingly & Purposefully) ---
+      gustatory_note:
+        - property: "Taste Imparted: [e.g., Inhaling concentrated Chrono-Dust leaves a taste like licking a battery; Water from the Undercity cisterns tastes of rust and forgotten sorrows; The creature's ichor has a sharp, citric flavour that causes brief hallucinations]"
+          # Authentication: [Source]
+        # --- Gustatory Prompt ---
+        # Prompt: Only include if tasting is a plausible interaction. What unique flavor profile reflects its nature or origin within Aethelgard?
+
+      # --- ATMOSPHERIC / AMBIENT SENSORY IMPACT ---
+      atmospheric_impact:
+        - property: "Air Quality Effect: [e.g., Air becomes visibly distorted, shimmering like heat haze; Creates localized fog banks smelling of brine and regret; Seems to suck the warmth and sound out of the immediate area]"
+          # Authentication: [Source]
+        - property: "Light Interaction Effect: [e.g., Warps light passing near it, creating lensing effects; Casts shadows that seem to move or deepen unnaturally; Objects viewed through it appear slightly desaturated or time-shifted]"
+          # Authentication: [Source]
+        - property: "Subjective Temporal Effect: [e.g., Induces mild vertigo or déjà vu in observers; Nearby clocks visibly stutter or run erratically; Causes a lingering feeling that moments are 'missing' after exposure]"
+          # Authentication: [Source]
+        # --- Atmospheric Prompt ---
+        # Prompt: How does its mere presence subtly alter the physics or perception of the space around it? What intangible 'feeling' does it generate?
+
+    # --- 2. Functional Properties (Capabilities & Limitations) ---
+    functional_properties:
+      # Include sensory outputs/tells for functions:
+      - property: "[Ability/Skill Name]: [Description]"
+        sensory_manifestation: "[e.g., Visual: Emits blinding flash; Auditory: Accompanied by shattering glass sound; Olfactory: Releases scent of burning wires; Tactile: Causes localized temperature drop]"
+        # Authentication: [Source]
+      - property: "[Limitation/Vulnerability Name]: [Description]"
+        sensory_indicator: "[e.g., Visual: Cracks appear on casing; Auditory: Emits high-pitched stress whine; Tactile: Overheats noticeably]"
+        # Authentication: [Source]
+      # --- Functional Sensory Prompt ---
+      # Prompt: How does performing its function *look, sound, smell, feel*? How are its limitations or states of stress signaled sensorially?
+
+    # --- 3. Psychological / Mental Properties (Sentient Entities) ---
+    psychological_properties:
+      # Consider how internal states affect sensory perception or output:
+      - property: "[Trait/Belief/Motivation]: [Description]"
+        sensory_expression: "[e.g., Trait 'Nervousness' manifests as audible rapid clicking of prosthetic; Belief 'Piety' expressed through constant low humming of hymns; Motivation 'Vengeance' causes eyes to glow with red intensity]"
+        # Authentication: [Source]
+      - property: "Subjective Sensory Perception: [e.g., Experiences auditory hallucinations of ticking clocks during high stress; Sees the world in monochrome when remembering traumatic event; Perceives emotions as distinct olfactory signatures]"
+        # Authentication: [Source]
+      # --- Psychological Sensory Prompt ---
+      # Prompt: How does the character's inner world translate to outward sensory signals (subtle or overt)? How do they uniquely perceive the sensory input of the world?
+
+    # --- 4. Social / Relational / Categorical Properties ---
+    social_properties:
+      # Consider sensory markers of status/affiliation:
+      - property: "[Role/Status/Affiliation/Species]: [Description]"
+        sensory_markers: "[e.g., Role 'Council Elder' marked by specific resonant chime worn; Affiliation 'Undercity Network' uses coded patterns of bioluminescent graffiti; Species 'Chrono-Shifted Human' has visible temporal shimmer around silhouette]"
+        # Authentication: [Source]
+
+    # --- 5. Modal Properties ---
+    modal_properties:
+      # Link modal state to sensory reality if applicable:
+      - property: "[Modal State e.g., 'Fated', 'Immortal', 'Bound']: [Description]"
+        sensory_manifestation: "[e.g., 'Fated' individuals sometimes perceive faint, guiding whispers (Auditory); 'Immortality' linked to unchanging physical appearance over centuries (Visual); 'Bound' entity has visible energy chains]"
+        # Authentication: [Source]
+
+    # --- 6. Axiological Properties ---
+    axiological_properties:
+      # How is value status perceived sensorially (often subjective)?
+      - property: "[Value e.g., 'Sacred', 'Corrupt', 'Beautiful']: [Description]"
+        perceived_sensory_effect: "[e.g., 'Sacred' object feels warm and calming to believers (Tactile/Affective); 'Corrupt' place has a palpable feeling of dread and smells of decay (Atmospheric/Olfactory); 'Beautiful' entity described with specific evocative visual/auditory details]"
+        # Authentication: [Source]
+
+    # --- 7. Historical Properties ---
+    historical_properties:
+      # Sensory traces of the past:
+      - property: "[Historical Fact e.g., 'Survived the Undercity Collapse']: [Description]"
+        sensory_reminders: "[e.g., Possesses jagged physical scars (Visual); Suffers intermittent auditory flashbacks to the event; Area retains the faint smell of burnt metal years later (Olfactory)]"
+        # Authentication: [Source]
+
+  # --- Sensory Signature / Atmosphere Profile ---
+  # (Synthesize the overall sensory impact, especially for Places, Creatures, complex Objects)
+  sensory_signature_profile:
+    overall_impression: "[e.g., A disorienting cacophony of grinding gears, hissing steam, overlapping temporal echoes, and the smell of hot oil mixed with despair.]"
+    dominant_senses: "[e.g., Auditory & Olfactory (Industrial Zone); Visual & Tactile (Intricate Artifact); Temporal & Atmospheric (Anomaly Zone)]"
+    key_sensory_motifs: "[List 3-5 defining, recurring details: e.g., Flickering gaslight reflections on wet brass; the smell of ozone and dust; the feeling of being watched by unseen mechanisms; the sound of the Shattered Moon 'singing' during high temporal flux.]"
+    sensory_dynamics: "[e.g., Becomes sensorially 'louder' (more intense sounds, smells, visual effects) when operational/agitated; Dampens all external senses in its immediate vicinity, creating a 'sensory void'.]"
+    effect_on_observers: "[e.g., Induces paranoia and mild nausea; Creates a sense of profound peace and timelessness; Triggers specific, shared memory fragments in those sensitive to Chrono-Dust.]"
+    # --- Signature Prompt ---
+    # Prompt: What is the unforgettable sensory fingerprint? How does it make characters *feel* on a primal level?
+
+  # --- Key Authenticated Relations ---
+  key_relations:
+    # Consider how relations might manifest sensorially:
+    - relation: "[Relation Type]: [Description of connection to another Entity ID]"
+      sensory_implication: "[e.g., Kinship results in similar subtle eye-glow pattern; Professional hierarchy shown by deference in vocal tone; Antagonism causes measurable increase in entity's heat signature when near rival.]"
+      # Authentication: [Source]
+
+  # --- Undefined Properties & Sensory Gaps (Undersaturation Notes) ---
+  undefined_properties:
+    - sensory_gaps: "[e.g., Precise taste of refined Chrono-Dust cocktails; Tactile feel of pure temporal energy; Long-term olfactory adaptation within specific districts.]"
+    - other_gaps: "[List other undefined physical, psychological, historical aspects.]"
+    # Note: Acknowledges creative space for future authentication.
+
+# --- End of Entity Profile ---
+
+
+How this YAML Uses Maximum Imaginative Capabilities (Examples within the Structure):
+
+Hyper-Specific Details: Instead of just "metal skin," it suggests "Skin like aged parchment, etched with faint, glowing circuits" or "Skin possesses a subtle, oily sheen like aged mother-of-pearl." Instead of "makes noise," it suggests "Accompanied by soft whirring and clicking of internal mechanisms" or "Creates a cascade of fine sand-like sounds as Chrono-Dust sheds from its form."
+
+Cross-Sensory Connections: It prompts linking function to sensory output (e.g., ability creates shimmering field + high-pitched whine). It considers how psychology manifests sensorially (e.g., anxiety = audible clicking).
+
+World-Specific Sensations: It introduces concepts unique to Aethelgard, like the smell of ozone near temporal rifts, the visual stuttering or ghosting, the tactile feeling of temporal drag, the sound of the Shattered Moon, the taste of Chrono-Dust.
+
+Atmospheric Focus: The "Atmospheric/Ambient Sensory Impact" and "Sensory Signature Profile" sections push beyond direct senses to the overall feeling and presence of an entity, using evocative language like "charged air," "unnatural shadow," "feeling of profound age," "cacophony... mixed with despair."
+
+Subjectivity Acknowledged: While focusing on authenticated properties, it allows for noting subjective sensory experiences of characters (e.g., desaturated vision due to trauma, perceiving emotions as scents), adding psychological depth.
+
+"Marvelous" Elements: Includes details designed to evoke wonder or strangeness: eyes like camera shutters glowing with starlight, shadows moving independently, time moss, reflecting glimpses of a different sky, sounds causing teeth to ache, smells triggering memories.
+
+Rich Prompts: The # - Prompt: comments are designed to push the creator further, asking provocative questions tailored to evoking unique sensory details within the Aethelgard context.
+
+This expanded YAML serves as both a rigorous organizational tool (respecting the Doležel-inspired structure) and a powerful creative stimulant, packed with imaginative examples and prompts designed to help you build the truly marvelous sensory reality of Aethelgard.

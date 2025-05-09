@@ -1,0 +1,216 @@
+# ============================================================
+# Story World Codex: Scene-Painting & Atmospheric Design Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Localized Description)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly granular framework** for the **meticulous design and critical 
+    evaluation of individual scenes** within the Aethelgard heterocosm, focusing specifically on the art of 
+    **"Scene-Painting"**. Inspired by Doležel's distinction, this involves creating **vivid, sensorially rich, 
+    atmospherically potent, and narratively functional localized environments** through precise textual authentication.
+  scope: |
+    Guides the creation of immersive moments, ensuring each key scene possesses a unique and powerful sense of 
+    place and mood. Emphasizes the deliberate selection and authentication of details that serve immediate 
+    narrative/thematic purposes, while also considering (where relevant) their consistency with the broader 
+    heterocosmic architecture. Treats scene-painting as a vital component of world evocation.
+  ontological_premise: |
+    Within the context of a specific scene, its "reality" is constituted by the **authenticated properties of its 
+    spatio-temporal coordinates, its atmospheric qualities, and the scene-specific manifestations of entities 
+    within it**. While potentially relying on broader world rules (modalities), the focus here is on the 
+    **immediate, perceivable details** that define *this particular moment and place*. Undersaturation is expected 
+    for elements not directly serving the scene.
+
+# --- Scene Profile Template ---
+scene_profile_template: # Copy and meticulously complete for each significant scene
+
+  # --- Core Identification & Context ---
+  identification:
+    scene_id: "[Unique Identifier, e.g., SCENE_KaelensOffice_Intro_S1E1, SCENE_UndercityMarket_Chase_Ch7, SCENE_VanceConfrontation_S2Finale]"
+    scene_name_descriptive: "[e.g., Kaelen's Rain-Streaked Office - The Assignment; Steam-Choked Undercity Pursuit; Vance's Revelation in the Orrery Chamber]"
+    narrative_context:
+      story_arc_id: "[Link to overall plot/arc ID]"
+      preceding_scene_id: "[Link/ID]"
+      succeeding_scene_id: "[Link/ID]"
+      primary_narrative_function: |
+        [Describe the scene's core purpose in the plot: e.g., "Introduce protagonist and core conflict"; 
+        "Heighten tension and showcase character abilities under duress"; "Deliver crucial plot twist and shift power dynamics"; 
+        "Provide key exposition through environmental storytelling."]
+
+  # --- I. Spatio-Temporal Authentication (The Immediate "Where & When") ---
+  spatio_temporal_authentication:
+    purpose: "Establish the explicit, sensorially grounded physical and temporal boundaries of the scene."
+    
+    location_authentication:
+      place_id_ref: "[Link to detailed Location Codex Entry if exists, e.g., LOC_KaelensOffice]"
+      specific_focus_for_scene: "[e.g., Kaelen's desk area and the window overlooking the street; A specific crowded thoroughfare within the market; The central control platform of the Orrery.]"
+      key_spatial_properties_active_in_scene: # What is sensorially dominant *now*?
+        - property: "Dominant Architecture/Layout Feature: [e.g., Cramped, cluttered with data-slates and old tech; Labyrinthine stalls constructed from salvaged metal and tarps; Vast, high-ceilinged chamber with intricate brass mechanisms.]"
+          authentication: "[Cite specific descriptive passages planned/written for this scene.]"
+        - property: "Key Interactive Objects/Furniture: [e.g., Worn synth-leather chair, flickering lumen-globe, malfunctioning data-viewer; Collapsible market stalls, overflowing refuse bins, steaming food carts; Ornate console with multiple dials/lenses, holographic star chart projector.]"
+          authentication: "[Cite]"
+        - property: "Boundaries/Exits Visible/Relevant: [e.g., Single door to corridor, rain-streaked window; Multiple alleyway exits (potential escape routes), dense crowd limiting movement; Heavy blast doors (sealed), narrow gantry access.]"
+          authentication: "[Cite]"
+      sensory_link_to_location_codex: "Ensure details align with broader authenticated properties of LOC_KaelensOffice."
+
+    temporal_authentication:
+      time_of_day_world_specific: "[e.g., Late evening, 'Second Dimming Cycle' - city power rationed, ambient light significantly reduced.]"
+      date_world_specific: "[e.g., Day 3, Month of Cogs, Year 312 After Reconstruction.]"
+      duration_of_scene_approx: "[e.g., 5 minutes real-time narration; Implied to last several hours (market scene); Tense confrontation lasting ~15 minutes.]"
+      key_temporal_features_active_in_scene: # How does time *feel* or manifest *now*?
+        - property: "[e.g., Pace of External Events: Rain intensity increasing; Market activity reaching peak; Orrery mechanisms cycling at specific slow rhythm.]"
+          authentication: "[Cite]"
+        - property: "[e.g., Subjective Time Perception (if relevant & authenticated for character/situation): Time feels 'slowed' due to Kaelen's focus; Time feels 'rushed' during chase; Time feels 'suspended' in Orrery Chamber.]"
+          authentication: "[Via internal monologue or authoritative narrator description of character's state.]"
+        - property: "[e.g., Any Active Temporal Anomalies Present: Minor 'echoes' or visual stutters authenticated for this specific office due to proximity to old Chrono-Tech.]"
+          authentication: "[Cite scene description.]"
+      sensory_link_to_temporality: "[e.g., Sound of distant chimes marking specific hour; changing light quality indicating time passing.]"
+
+    design_check_spatio_temporal: "Are the where/when immediately graspable? Are they evocative? Do they serve the scene's narrative function (e.g., cramped office for noir intimacy, chaotic market for chase)? Do they align with established broader world states/timelines?"
+
+  # --- II. Dominant Sensory & Atmospheric Authentication (Scene-Specific Palette) ---
+  scene_sensory_palette_atmosphere:
+    purpose: "Define the primary sensory experiences and overall mood meticulously constructed for *this specific scene*, treating them as authenticated properties of the moment."
+
+    visual_atmosphere:
+      dominant_lighting_source_quality: "[e.g., Office: Single, harsh, underpowered lumen-globe casting long, flickering shadows, cold blue light from rainy window. Market: Chaotic mix of flaring gas lamps, sputtering bioluminescent fungi, neon signs (illicit), steam creating hazy diffusion. Orrery: Dim, ambient light from celestial projections, sharp pinpoint lights from consoles, vast pools of absolute darkness.]"
+      color_palette_dominant_in_scene: "[e.g., Office: Monochromatic greys, desaturated browns, sickly yellow from lamp, glint of wet brass. Market: Riot of faded primary colors, rust oranges, sickly greens, flashes of neon. Orrery: Deep blues, obsidian black, cold starlight silver, occasional warm brass/copper.]"
+      key_visual_textures_foregrounded: "[e.g., Office: Gritty dust on surfaces, condensation on glass, peeling paint. Market: Rough canvas, dented metal, slick cobblestones, varied textures of strange goods. Orrery: Smooth polished metal, intricate etched glass, vast empty space.]"
+      visual_obstructions_clarity: "[e.g., Office: Clutter, deep shadows. Market: Dense steam, crowds, low-hanging awnings. Orrery: Extreme scale, darkness, complex machinery obscuring full view.]"
+      intended_visual_mood: "[e.g., Oppressive, Claustrophobic, Intimate; Overwhelming, Disorienting, Dangerous; Awe-inspiring, Intimidating, Mysterious.]"
+      authentication_method: "[Focus on specific predicates in planned descriptive passages; link to overall World Style Guide but detail scene-specific application.]"
+
+    auditory_landscape:
+      dominant_ambient_sounds: "[e.g., Office: Relentless drumming of acid rain, distant wail of city sirens, internal hum of failing tech. Market: Cacophony of alien/human bartering, clatter of goods, automaton street cleaners, rhythmic steam hisses. Orrery: Profound, resonant silence broken by distant, massive gear shifts, faint celestial harmonies (real or imagined?).]"
+      key_incidental_sounds: "[e.g., Office: Kaelen's chair creaking, data-slate clicking, a rat skittering in walls. Market: Specific vendor calls, distinct warning chime of a security automaton, sizzle of street food. Orrery: Vance's measured footsteps on gantry, subtle whir of hidden mechanisms.]"
+      sound_qualities_character: "[e.g., Echoing, Muffled, Sharp, Distant, Close, Distorted (if temporal anomaly present).]"
+      intended_auditory_mood: "[e.g., Isolated, Tense; Chaotic, Threatening; Reverent, Unnerving.]"
+      authentication_method: "[Specific predicates for sounds; link to Sound Design Bible if available.]"
+
+    olfactory_profile:
+      dominant_scents_in_scene: "[e.g., Office: Stale air, damp wool, old paper, cold ozone, hint of Kaelen's cheap pipe tobacco. Market: Overpowering mix of synthetic spices, cooked alien meats, unwashed bodies, industrial solvents, leaking fuel, wet earth, sweet decay. Orrery: Sterile, filtered air, cold metal, faint ozone from high-energy equipment, hint of ancient dust.]"
+      intensity_pervasiveness: "[e.g., Office scents are subtle, ingrained. Market scents are overwhelming, shifting. Orrery scents are faint, almost an absence.]"
+      emotional_thematic_link: "[e.g., Office: weariness, neglect. Market: vitality, danger, desperation. Orrery: power, sterility, hidden knowledge.]"
+      intended_olfactory_mood: "[e.g., Stagnant, Confining; Overwhelming, Primal; Aseptic, Intimidating.]"
+      authentication_method: "[Specific predicates in description; link to World Sensory Palette.]"
+
+    tactile_atmospheric_sensations: # Beyond just surface textures
+      dominant_temperature_humidity: "[e.g., Office: Damp chill seeping from window, localized warmth from lumen-globe. Market: Oppressive, humid heat from steam vents and crowds. Orrery: Consistent, artificial coolness, very low humidity.]"
+      air_quality_feel: "[e.g., Office: Stale, slightly gritty. Market: Thick, heavy, difficult to breathe deeply. Orrery: Crisp, clean, almost unnaturally pure.]"
+      ground_feel_vibration: "[e.g., Office: Solid but worn floorboards. Market: Slick, uneven cobblestones, occasional tremor from Undercity. Orrery: Smooth, seamless gantry floor, slight vibration from planetary mechanism below.]"
+      ambient_pressure_other: "[e.g., Office: Normal. Market: Feeling of being pressed by crowds. Orrery: Slight feeling of altered pressure or 'thinness' in air due to scale/tech?]"
+      intended_tactile_atmospheric_mood: "[e.g., Uncomfortable, Grounded; Claustrophobic, Unpredictable; Controlled, Alienating.]"
+      authentication_method: "[Specific predicates; link to Environmental rules; character reactions.]"
+
+    overall_authenticated_scene_atmosphere: |
+      [Synthesize into a rich, evocative summary. e.g., "Kaelen's office is a microcosm of Aethelgard's weary decay: 
+      a confined, dimly lit space where the **sensory input is muted but insistent** – the **drumming acid rain**, 
+      the **smell of damp and old data**, the **flickering light failing against encroaching shadows**. It's a space that 
+      **feels** like a temporary, fragile bastion against a hostile city, reflecting his internal state of besieged cynicism 
+      and persistent investigation. The sensory details aim to authenticate **claustrophobic intimacy and noirish gloom**."]
+
+    design_check_sensory_atmosphere: "Do the authenticated sensory details for *this scene* synergize to create a powerful and consistent atmosphere? Does this atmosphere directly serve the scene's narrative function (e.g., building suspense, revealing character mood, foreshadowing) and thematic resonance?"
+
+  # --- III. Entity Constitution within the Scene (Localized & Functional Focus) ---
+  scene_entity_constitution:
+    purpose: "Define properties of entities *as they are relevant and authenticated for this specific scene*, acknowledging this is a focused subset of their total heterocosmic definition."
+
+    entity_focus: # Repeat for each key entity IN THIS SCENE
+      - entity_id_ref: "[e.g., CHAR_Kaelen_01]"
+        scene_specific_properties_manifested:
+          physical: "[e.g., Authenticated as hunched over desk, rain-slicked greatcoat steaming slightly, prosthetic hand drumming impatiently on data-slate, eyes showing fatigue in the harsh lumen-light.]"
+          functional: "[e.g., Actively using authenticated 'Observational Scan' function of his optic implant on new evidence; Limited by authenticated lack of access to Guild-level databases for cross-referencing.]"
+          psychological: "[e.g., Internal monologue reveals authenticated cynicism about the new case, but also the compulsive pull of an unsolved puzzle; Frustration at tech limits shown via authenticated sigh/gesture.]"
+          social_relational: "[e.g., Current interaction dominated by his official role as 'City Watch Investigator' when addressing Client X, but internal monologue reveals his 'Outsider' perspective.]"
+        scene_function: "[e.g., To analyze new information, embody noir detective archetype, reveal internal state through reaction to external stimuli.]"
+        undersaturation_for_scene: "[Many of Kaelen's broader historical properties or Undercity contacts are unstated/irrelevant *for this specific scene's focus*.]"
+
+      - entity_id_ref: "[e.g., OBJ_MysteriousDataCrystal_S1E1]"
+        scene_specific_properties_manifested:
+          physical: "[e.g., Authenticated as small, unusually cold to Kaelen's touch, emitting a faint, irregular blue pulse of light, surface etched with unknown symbols.]"
+          functional: "[e.g., Authenticated as containing encrypted data; Its unique energy signature is later shown to bypass standard Guild decryption (a function revealed *through* this scene's interaction).]"
+          social_relational: "[e.g., Authenticated as object of transfer from Client X to Kaelen; Its possession immediately places Kaelen in danger from unknown parties.]"
+          historical: "[e.g., Client X hints at its 'ancient and dangerous' origin (authenticated as Client's belief/claim, not yet objective fact for the crystal itself).]"
+        scene_function: "[e.g., Inciting incident/MacGuffin; Introduce mystery/danger; Showcase unique properties that drive future plot.]"
+        undersaturation_for_scene: "[Full data content, precise origin, exact function of symbols = unauthenticated *within this scene*.]"
+
+    design_check_entity_focus: "Are entities defined with *just enough authenticated detail* to fulfill their immediate narrative role and contribute to the scene's atmosphere, while strategically withholding information for later reveals (undersaturation)?"
+
+  # --- IV. Interaction with Broader World Logic (Consistency & Grounding) ---
+  scene_world_consistency_check:
+    purpose: "Briefly analyze how the scene's localized authentications align with, rely upon, or subtly reinforce the established global rules and realities of the Aethelgard heterocosm."
+
+    reliance_on_aw_defaults: "[e.g., Basic physics of object interaction (Kaelen picking up crystal), human conversation dynamics assumed AW-like unless specific Aethelgard rules apply.]"
+    
+    alignment_with_aethelgard_modalities:
+      alethic: "[e.g., Flickering lumen-globe consistent with authenticated unreliability of city power grid (Global State linked to Alethic potential of tech). Crystal emitting light consistent with known Chrono-Crystal properties (Entity Property aligned with world's 'magic/tech' rules).]"
+      deontic: "[e.g., Client's secrecy/Kaelen's unofficial meeting location reflect authenticated dangers of sharing certain info/operating outside Guild channels.]"
+      axiological: "[e.g., Kaelen's worn office/attire visually reinforces his low status within Guild-valued hierarchy; mysterious crystal immediately valued as 'important clue' by detective archetype.]"
+      epistemic: "[e.g., Shadows, partial information from Client, encrypted crystal all reinforce noir epistemic uncertainty and drive for knowledge.]"
+
+    potential_for_broader_world_authentication:
+      question: "Does any detail authenticated *specifically for this scene's richness* have significant implications for, or require further explicit authentication within, the global heterocosmic rules or history?"
+      analysis: "[e.g., If the Data Crystal's encryption is *unlike any known Guild tech*, this implies a new technological origin (Artificer? Rival faction?) that needs to be consistently explored/authenticated in the broader world lore. The 'temporal echoes' Kaelen perceives in his office must align with the established rules of his authenticated sensitivity and local temporal instability factors.]"
+      action_item_if_needed: "[e.g., Flag Data Crystal encryption for further definition in Tech Codex; Ensure Kaelen's office location is noted in Codex as having minor authenticated temporal instability.]"
+
+    design_check_integration: "Does this scene feel organically part of Aethelgard, reflecting its established physics, society, and dangers? Or could it be transplanted to another world with minimal changes? Where can its 'Aethelgard-ness' be deepened through specific reference to authenticated global rules/states?"
+
+  # --- V. Narrative Function & Localized Generative Potential ---
+  scene_narrative_function_potential:
+    purpose: "Assess the scene's direct contribution to the immediate plot and atmosphere, and its potential for generating minor subsequent narrative threads or reinforcing motifs."
+
+    immediate_narrative_purpose_achieved: "[e.g., Successfully introduces central case for Kaelen; Establishes key mystery of Data Crystal; Defines Kaelen's working conditions and cynical outlook; Introduces untrustworthy Client archetype; Builds noir suspense.]"
+    atmospheric_contribution_achieved: "[e.g., Strongly reinforces core Chrono-Noir tone and Aethelgard's 'Hopeful Decay' aesthetic through consistent application of sensory details (rain, shadows, failing tech, old paper).]"
+    
+    localized_generative_potential: # Beyond this scene but not necessarily world-altering
+      question: "Do any entities, objects, or minor details authenticated *primarily for this scene's richness* possess potential for recurrence or development in subsequent localized scenes, or as recurring motifs?"
+      analysis: "[e.g., The specific *type* of malfunction in Kaelen's lumen-globe could be a recurring minor annoyance or clue. The Client, if compelling, could become a recurring unreliable informant. The *specific symbols* on the Data Crystal are now an authenticated mystery for Kaelen to pursue. The *smell of ozone* in the office could be a recurring sensory motif linked to Kaelen's temporal sensitivity or hidden tech.]"
+      # Note: This focuses on reuse/elaboration of scene-specific details, distinct from the broad generativity of a fully defined heterocosmic feature which would be covered in a different protocol.
+
+    design_check_effectiveness: "Does this scene *efficiently and evocatively* achieve its primary narrative/atmospheric goals through its specific authenticated details? Are there any 'painted' elements with compelling potential for further, albeit localized, narrative use?"
+
+# --- Conclusion: The Art of Immersive Scene-Painting as World Evocation ---
+conclusion:
+  summary: |
+    This protocol champions the **art of Scene-Painting** as defined within Doležel's broader framework: 
+    the meticulous creation of **vivid, sensorially rich, atmospherically potent, and narratively functional 
+    localized moments and environments** through precise **authenticated predication**. While distinct from 
+    the architectonic construction of the entire heterocosmic system, masterful scene-painting is essential 
+    for immediate audience immersion, establishing tone, grounding character action, and making the abstract 
+    rules of the world tangible.
+  final_statement: |
+    Each scene in Aethelgard should be approached as an opportunity to **authenticate a specific, resonant reality**. 
+    By focusing on a dense weave of **sensory details**, consistent application of **localized properties**, and 
+    clear alignment with the **immediate narrative purpose**, while maintaining awareness of broader **heterocosmic 
+    coherence**, we transform mere backdrops into **experientially rich components** of the world. Skillful 
+    scene-painting breathes immediate, perceivable life into the abstract architecture of the Aethelgard heterocosm, 
+    making its 'otherness' tangible, moment by immersive moment.
+
+# ============================================================
+# End of Advanced Scene-Painting & Atmospheric Design Protocol v1.1
+# ============================================================
+
+
+How this YAML Embodies "Extreme Detail" for Scene-Painting:
+
+Granular Sensory Breakdown: Section II demands explicit authentication across all sensory modalities (visual, auditory, olfactory, tactile, atmospheric/ambient) with detailed sub-points for lighting, color, texture, specific sounds, etc.
+
+Focus on "Active in Scene": Consistently asks what properties are actively manifesting or relevant for entities within this specific scene, acknowledging that not all of an entity's global properties are always pertinent.
+
+Explicit Link to Narrative Function: Demands justification for why specific spatio-temporal choices or sensory details are included in terms of the scene's immediate plot purpose or atmospheric goal.
+
+Nuanced Undersaturation: Requires acknowledging what is not being defined for this scene, highlighting strategic omission for focus or mystery.
+
+Consistency Check with Global Rules: Includes a dedicated section (IV) for ensuring that even localized scene-painting details remain consistent with, or plausibly rely on, the broader authenticated modalities and states of Aethelgard.
+
+Detailed Prompts: Each section includes highly specific prompts designed to push the creator to consider minute sensory details, atmospheric effects, and the functional integration of descriptive choices.
+
+Concept of "Sensory Signature" for Scene: Encourages synthesizing the overall sensory impact to define the unique "feel" of the scene.
+
+Localized Generative Potential: Differentiates between the global generativity of the world and the more limited (but still valuable) potential for scene-specific elements to recur or carry forward.
+
+This extremely detailed YAML template guides the creator to approach each scene not just as a plot point, but as an opportunity to authenticate a rich, multi-sensory, and atmospherically coherent micro-world that contributes powerfully to the audience's immersion in the Aethelgard heterocosm, all while respecting the underlying principles of Doležel's semantic framework.

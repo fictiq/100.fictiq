@@ -1,0 +1,234 @@
+# ============================================================
+# Story World Codex: Advanced Heterocosmic Analysis Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Analyst Toolkit)
+# Last Updated: [Current Date]
+# Analyst(s): [Your Name / Research Group]
+# World Under Analysis: [Story World Name, e.g., Aethelgard]
+# Canonical Corpus Defined: [List specific texts/games/films/Codex version being analyzed]
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly detailed methodology** for the **systematic analysis 
+    and structural mapping** of the [World Name] heterocosm, rigorously applying the core analytical 
+    procedures derived from Doležel's semantic theory of fiction. It serves as an exhaustive toolkit 
+    for dissecting the world's **textually constituted reality**.
+  scope: |
+    Guides the analyst through identifying authenticated propositions, mapping entity property bundles, 
+    charting relational networks, reconstructing macro-structures (modalities, history, states), 
+    and evaluating systemic coherence based *solely* on evidence within the defined canonical corpus.
+  methodological_stance: |
+    **Strictly Text-Centric & Semantic:** Analysis prioritizes the objective (intersubjectively verifiable 
+    within the text) semantic and logical structures authenticated by the authoritative narrative discourse. 
+    External factors (author biography, reader psychology, AW physics unless authenticated) are bracketed 
+    during the core structural analysis. Focus is on the architecture *as built by language*.
+
+# --- Procedure 1: Exhaustive Authentication Audit & Proposition Logging ---
+# Purpose: Meticulously identify ALL potentially constitutive propositions within the canon and rigorously 
+#          evaluate their authentication status to establish the world's factual baseline.
+authentication_audit_logging:
+  
+  step_1_1_corpus_scan:
+    method: "Systematic reading/viewing/playing of the defined canonical corpus."
+    objective: "Identify *every* sentence, image, sound cue, or gameplay mechanic that potentially predicates existence, assigns a property, establishes a relation, states a rule, depicts an event, or describes a state relevant to the heterocosm."
+    tooling: "[e.g., Digital annotation software, searchable text corpus, detailed scene/chapter logs, gameplay recording/analysis.]"
+
+  step_1_2_source_authority_analysis:
+    method: "For each potential proposition, identify its precise source within the narrative discourse."
+    analysis_points:
+      - "Identify Narrator Type/Voice: Omniscient, Limited Third, Reliable/Unreliable First, Implicit Discourse, etc. Assess its established reliability level based on internal textual evidence."
+      - "Analyze Character Discourse: Determine character reliability regarding specific topics based on their authenticated knowledge (Epistemic), biases (Psychological/Axiological), and narrative function. Distinguish between authenticated subjective belief/perception and objective world-fact assertion."
+      - "Evaluate In-World Documents/Media: Assess the authenticated reliability of texts, recordings, or interfaces presented *within* the heterocosm."
+      - "Cross-Reference Sources: Check for corroboration or contradiction between different narrative sources regarding the same proposition."
+    output: "Assign an 'Authentication Strength' score/category (e.g., High Authority, Moderate Authority, Low Authority/Subjective, De-Authenticated/Unreliable) to each proposition based on source analysis."
+
+  step_1_3_proposition_cataloging:
+    method: "Log all propositions deemed to have sufficient positive authentication into a structured database or detailed index."
+    required_fields_per_entry:
+      - "Proposition ID (Unique)"
+      - "Proposition Text/Description (Exact wording or precise summary)"
+      - "Subject Entity ID(s)"
+      - "Predicate Type (Existence, Property Assignment, Relation, Rule, Event, State)"
+      - "Property/Relation Category (if applicable - using Doležel's taxonomy)"
+      - "Authentication Source(s) (Specific Textual Citation - page, timestamp, dialogue line, Codex entry ref)"
+      - "Authenticating Voice/Narrator Type"
+      - "Authentication Strength (Rated in Step 1.2)"
+      - "Temporal Context (Specific time/era within heterocosm)"
+      - "Canon Tier (If applicable)"
+      - "Analyst Notes (Ambiguities, cross-references, potential issues)"
+    tooling: "[e.g., Relational database (Airtable, SQL), structured spreadsheet, dedicated qualitative analysis software.]"
+
+  rationale_step_1: |
+    This exhaustive, evidence-based logging creates the verifiable dataset upon which all subsequent structural 
+    analysis depends. Rigorous authentication assessment is non-negotiable for maintaining analytical objectivity 
+    within Doležel's framework.
+
+# --- Procedure 2: Detailed Entity Constitution Mapping (Property Bundle Reconstruction) ---
+# Purpose: Systematically reconstruct the 'property bundle' for key entities by collating and categorizing 
+#          their authenticated predicates according to Doležel's taxonomy.
+entity_constitution_mapping:
+
+  step_2_1_entity_selection:
+    method: "Identify key entities (persons, objects, places, creatures, factions, concepts) crucial for understanding the world's structure, narrative, or themes."
+    criteria: "[e.g., Narrative centrality, frequency of appearance, thematic significance, embodiment of unique world rules/elements.]"
+
+  step_2_2_predicate_collation:
+    method: "Query/filter the logged propositions (from Procedure 1) to gather ALL authenticated predicates associated with the selected entity."
+
+  step_2_3_taxonomic_categorization:
+    method: "Assign each authenticated predicate to its appropriate category within Doležel's taxonomy:"
+    categories_detailed:
+      - "Physical Properties (Form, Material, Sensory Signature - visual, auditory, olfactory, tactile, gustatory, atmospheric)"
+      - "Functional Properties (Innate Abilities, Learned Skills, Tech/Magic Functions, Operational Parameters, Inabilities, Vulnerabilities, Costs, Dependencies, Constraints)"
+      - "Psychological Properties (Traits, Emotions, Cognitive Style/Abilities, Beliefs, Motivations, Subjective Memories, Flaws)"
+      - "Social/Relational Properties (Formal Roles, Social Status/Hierarchy, Factional Affiliations/Allegiances, Kinship Ties)"
+      - "Categorical Properties (Species, Type, Classifications)"
+      - "Modal Properties (Unique Alethic Status - e.g., immortality; Unique Deontic Status - e.g., binding oath; Unique Axiological Status - e.g., inherently sacred; Unique Epistemic Status - e.g., cannot lie)"
+      - "Axiological Properties (Perceived Value - Reputation, Moral Standing *within world*, Aesthetic Judgment *within world*)"
+      - "Historical Properties (Origin, Past Experiences, Lineage, Provenance, Embodied Change/Continuity)"
+    technique: "Requires careful semantic analysis of the predicate's content and function."
+
+  step_2_4_bundle_synthesis_analysis:
+    method: "Synthesize the categorized properties into a coherent profile for the entity."
+    analysis_points:
+      - "Multifacetedness Assessment: Across how many categories is the entity significantly defined? How detailed is the definition within key categories?"
+      - "Internal Coherence Check: Are there logical contradictions *within* the authenticated bundle itself (e.g., conflicting functional properties, psychological traits incompatible with actions)?"
+      - "Identification of Core Essence: What specific combination of properties defines the entity's unique identity and primary function within the world?"
+      - "Undersaturation Mapping: Explicitly identify significant properties *not* authenticated for this entity across all relevant categories."
+
+  output_step_2: "Detailed, evidence-based constitutional profiles for key heterocosmic entities, structured by property type."
+  rationale_step_2: "Provides a systematic anatomy of fictional beings based purely on their authenticated textual definition."
+
+# --- Procedure 3: Comprehensive Relational Network Analysis ---
+# Purpose: Map the authenticated connections between entities to reveal the structural fabric of the heterocosm 
+#          (social, political, spatial, causal networks).
+relational_network_analysis:
+
+  step_3_1_relation_identification_logging:
+    method: "Scan authenticated propositions (from Procedure 1) specifically identifying predicates establishing relations *between two or more* authenticated entities."
+    relation_types_to_map: "[Spatial (location, proximity, topology), Temporal (sequence, simultaneity), Social (hierarchy, alliance, enmity, affiliation), Kinship, Causal (event/action links), Intentional (belief, desire, emotion *towards* another entity), Part-Whole, Comparative.]"
+    logging_fields: "[e.g., Relation ID, Entity A ID, Entity B ID, Relation Type, Specific Nature (e.g., 'Antagonistic - Active Pursuit'), Authentication Source, Temporal Context, Canon Tier.]"
+
+  step_3_2_network_mapping_visualization:
+    method: "Organize the identified relations to reveal structural patterns."
+    techniques:
+      - "Social Network Graphs: Visualizing alliances, rivalries, communication flows between persons/factions."
+      - "Spatial Mapping: Linking entities to locations, mapping territories, analyzing proximity/distance constraints."
+      - "Causal Chain Diagrams: Mapping key plot events and their authenticated causes/effects."
+      - "Hierarchical Charts: Depicting authenticated political or organizational structures."
+    tooling: "[e.g., Network analysis software (Gephi), diagramming tools (Lucidchart, draw.io), GIS for spatial mapping if applicable.]"
+
+  step_3_3_network_structure_analysis:
+    method: "Analyze the properties of the mapped network."
+    analysis_points:
+      - "Density & Connectivity: Is the network sparsely or densely connected? Are there isolated clusters or central hubs?"
+      - "Dominant Relation Types: Are certain types of relations (e.g., conflict, hierarchy) particularly prevalent?"
+      - "Structural Holes & Bridges: Are there entities connecting otherwise separate groups? Are there significant gaps in expected relations?"
+      - "Power Dynamics: How does the network structure reflect and reinforce authenticated power relations?"
+
+  output_step_3: "A detailed map and analysis of the heterocosm's structural organization based on authenticated relations."
+  rationale_step_3: "Reveals the systemic context in which entities operate, moving beyond individual constitution to world architecture."
+
+# --- Procedure 4: Macro-Structure Reconstruction (Modalities, History, States) ---
+# Purpose: Synthesize authenticated data to define the overarching rules, history, and context governing the entire heterocosm.
+macro_structure_reconstruction:
+
+  step_4_1_modal_system_inference:
+    method: "Analyze patterns across *all* authenticated propositions (entity properties, relations, events) to infer the world's fundamental governing modalities."
+    process_per_modality:
+      - "Alethic: Collate all authenticated possibilities/impossibilities, costs/limits of forces (magic/tech). Formulate concise statements of the core physical/metaphysical laws."
+      - "Deontic: Collate all authenticated laws, codes, obligations, permissions, prohibitions, and consistent consequences for adherence/violation. Define the normative system(s)."
+      - "Axiological: Collate all authenticated value judgments, depictions of desirable/undesirable states, recurring symbols of value. Reconstruct the core value hierarchy/system."
+      - "Epistemic: Collate all authenticated limits on knowledge, statements about source reliability, patterns of information flow/control. Define the rules of knowing."
+    output: "Explicit definition of the core authenticated modalities governing Aethelgard."
+
+  step_4_2_historical_timeline_construction:
+    method: "Assemble all authenticated historical facts and temporal relations into a coherent, chronologically ordered Master Timeline."
+    process: "Verify dates, sequences, causal links between authenticated events. Explicitly document periods of authenticated uncertainty or conflicting accounts (based on source reliability). Identify major turning points and their authenticated consequences."
+    output: "The definitive authenticated historical record of the Aethelgard heterocosm."
+
+  step_4_3_global_state_definition:
+    method: "Collate authenticated propositions describing the prevailing political, social, economic, environmental, etc., conditions for specific key narrative periods (especially the 'Now')."
+    process: "Synthesize these into a coherent description of the world state, ensuring consistency between different aspects (e.g., economy aligns with tech level and political situation)."
+    output: "Defined snapshots of the heterocosm's global state at crucial points."
+
+  rationale_step_4: "Reconstructs the foundational 'operating system' and contextual backdrop against which all specific entities and events must be understood."
+
+# --- Procedure 5: Systemic Interplay Analysis & Final Coherence Evaluation ---
+# Purpose: Synthesize all preceding analyses to evaluate the heterocosm as an integrated system and assess its overall internal coherence.
+systemic_interplay_coherence_evaluation:
+
+  step_5_1_mapping_interconnections_detailed:
+    method: "Explicitly trace and analyze the causal and influential links *between* the different identified layers: How do specific Modal laws constrain specific Entity properties? How does History shape specific Global States? How do Entity actions (driven by Properties/Relations) operate within Global States and test Modal limits?"
+    technique: "Use case studies of key narrative sequences or systemic processes (e.g., 'The Dust Economy Cycle,' 'Investigating a Temporal Anomaly')."
+
+  step_5_2_rigorous_consistency_audit:
+    method: "Actively search for contradictions or inconsistencies across *all* levels of authenticated data."
+    checklist_items:
+      - "Are any entity properties incompatible with established Modalities?"
+      - "Do any narrative events violate established causal logic or Alethic limits?"
+      - "Does the present Global State contradict authenticated History?"
+      - "Are character actions inconsistent with their authenticated Psychological/Functional/Social profile within the given context?"
+      - "Do different canonical sources present conflicting authenticated realities (after accounting for reliability/perspective)?"
+    output: "A list of identified points of coherence and documented inconsistencies requiring explanation or acknowledgement."
+
+  step_5_3_evaluating_structural_integrity:
+    method: "Based on the consistency audit and interplay analysis, make a final assessment of the heterocosm's overall structural integrity and logical soundness *on its own terms*."
+    criteria: "[e.g., Degree of internal consistency, richness of meaningful interconnections, plausible causality (within world rules), functional coherence of systems.]"
+    output: "A critical evaluation of the world's architectural success according to Doležel's principles."
+
+  rationale_step_5: "Moves beyond analyzing parts to assessing the functional coherence and integration of the heterocosm as a complete semantic system."
+
+# --- VI. Methodological Stance & Boundaries (Analyst's Guide) ---
+methodological_stance_boundaries:
+  purpose: "Reiterate the guiding principles and limitations for analysts employing this protocol."
+  core_principles:
+    - "**Textual Evidence Paramount:** All analytical claims MUST be directly supported by specific, cited evidence of authentication within the defined canonical corpus."
+    - "**Internal Logic First:** Evaluate consistency and plausibility based on Aethelgard's *own established rules (modalities)*, not external AW standards."
+    - "**Semantic & Structural Focus:** Prioritize analysis of meaning structures, logical relations, property bundles, and systemic interplay."
+    - "**Respect Undersaturation:** Clearly distinguish authenticated facts from undefined gaps; avoid speculative filling presented as objective analysis."
+  bracketed_areas: "[Authorial biography/psychology, subjective reader response/affect (as primary data), external scientific/historical critique (unless invited by realist mode), non-canonical sources.]"
+  goal_of_analysis: "To produce a rigorous, evidence-based, structural-semantic map and analysis of the Aethelgard heterocosm as constituted by its authoritative discourse."
+
+# --- Conclusion: The Analyst as Semantic Cartographer & Architect ---
+conclusion:
+  summary: |
+    This protocol outlines the core methodological procedures derived from Doležel's framework for 
+    analyzing the Aethelgard heterocosm. It mandates a rigorous, text-centric approach focused on 
+    **identifying authentications, mapping property bundles, charting relational networks, reconstructing 
+    macro-structures (modalities, history, states), and evaluating systemic coherence**.
+  role_of_analyst: |
+    The analyst employing this toolkit functions as a **semantic cartographer**, meticulously mapping the 
+    terrain of the textually constituted reality, and as a **structural architect (in reverse)**, 
+    deconstructing the edifice to understand its design principles, load-bearing elements, internal logic, 
+    and overall integrity.
+  final_statement: |
+    By adhering to these procedures, the analyst can move beyond impressionistic readings to provide a deep, 
+    evidence-based understanding of the intricate 'Architecture of Meaning' that defines Aethelgard, revealing 
+    the full scope and power of its linguistic forge.
+
+# ============================================================
+# End of Advanced Heterocosmic Analysis Protocol v1.1
+# ============================================================
+
+
+How this YAML Embodies "Extreme Detail" for Methodology:
+
+Explicit Procedural Steps: Breaks down the overall analysis into highly specific, sequential procedures (Identify Auth -> Map Entities -> Map Relations -> Reconstruct Macro -> Synthesize/Evaluate).
+
+Granular Tasks within Steps: Each procedure details multiple sub-steps, required fields for logging data, specific analytical questions, and necessary tools or techniques.
+
+Emphasis on Rigor and Evidence: Repeatedly stresses the need for meticulous close reading, critical evaluation of sources, citation of textual evidence, and distinguishing authenticated fact from subjectivity or speculation.
+
+Integration of All Concepts: Shows how each procedural step builds upon the previous ones and contributes to the final holistic understanding, explicitly linking back to core Doležel concepts (authentication, properties, relations, modalities, coherence, undersaturation).
+
+Formalized Output: Defines the expected output for each major analytical stage (e.g., "database of authenticated propositions," "constitutional profiles," "network map," "definition of modalities," "coherence evaluation").
+
+Clear Methodological Boundaries: Explicitly states the text-centric focus and lists areas deliberately bracketed by this specific analytical approach.
+
+Sophisticated Analyst Role: Frames the analyst's role using advanced metaphors (Semantic Cartographer, Structural Architect in reverse) reflecting the complexity of the task.
+
+Exhaustive Scope: Aims to provide a framework capable of handling extremely large and complex heterocosms by demanding systematic documentation and analysis at every level.
+
+This extremely detailed YAML serves as a comprehensive guide for conducting a thorough, rigorous, and theoretically grounded analysis of a fictional world like Aethelgard, adhering closely to the methodological implications of Doležel's semantic theory of heterocosms.

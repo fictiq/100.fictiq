@@ -1,0 +1,290 @@
+# ============================================================
+# Story World Codex: Entity Constitution Protocol (Property Bundle Method)
+# Version: 1.1 (Extreme Detail - Based on Doležel's Bundle Ontology)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced framework for the meticulous constitution of entities** 
+    within the Aethelgard heterocosm, rigorously applying Doležel's foundational principle: 
+    fictional entities **ARE** nothing more or less than **complex bundles of diverse properties 
+    and relations, authenticated by the authoritative narrative discourse**. This protocol guides 
+    the explicit definition of these constitutive bundles, moving beyond surface description to 
+    define the core semantic and operational reality of each entity.
+  scope: |
+    Mandatory template for defining all significant canonical entities (persons, objects, places, 
+    creatures, organizations, core concepts). Ensures consistency, facilitates deep analysis, 
+    and clarifies the boundaries of authenticated reality versus undersaturation.
+  ontological_premise: |
+    Entities possess **no inherent substance or hidden essence** beyond the sum of their 
+    authenticated properties and relations as documented herein and in core narrative texts. 
+    'Depth' arises from the richness, complexity, and coherence of this authenticated bundle, 
+    not from analogy to Actual World entities. All properties listed require textual/Codex 
+    authentication; unlisted properties are definitively **undefined** within the heterocosm.
+
+# --- Entity Profile Template ---
+entity_profile_template: # Copy and meticulously complete for each entity
+
+  # --- Core Identification & Status ---
+  identification:
+    entity_id: "[Unique Identifier, e.g., CHAR_Kaelen_01, OBJ_ArtificerKey, LOC_MemoryArchive]"
+    entity_name: "[Primary Name(s) / Aliases, e.g., Investigator Kaelen, 'The Ghost', 'Unit 734', The Silent Library]"
+    entity_type: "[Person | Object | Place | Creature | Organization | Concept | System | Event | Other]"
+    authentication_status: "[Authenticated_Canonical | Legendary_CoreFactAuthenticated | Rumored_ExistenceUncertain | Conceptual_Abstract | Paradox_Duplicate_Stable | Paradox_Duplicate_Unstable | Extinct_HistoricallyAuthenticated]"
+    primary_definition_source: "[List key documents/narratives authenticating its core existence & nature, e.g., Codex_Character_Kaelen_v1.1, 'Aethelgard Chronicles' S1E01 Script, 'Echoes in Rust' GDD v0.8]"
+    canon_tier: "[Tier 1 / Tier 2 / Tier 3 (Referential Only)]" # Aligned with Governance Protocol
+
+  # --- Authenticated Property Bundle (The Constitutive Essence) ---
+  property_bundle:
+    purpose: "Detail the specific, validated properties constituting this entity across all relevant dimensions."
+
+    # --- 1. Physical Properties (Sensory & Material Constitution) ---
+    physical_properties:
+      visual_appearance:
+        - property: "Form & Structure: [e.g., Bipedal humanoid, pronounced asymmetry due to prosthetic; Labyrinthine complex carved into crater wall; Amorphous, shifting cloud of Chrono-Dust and fractured light.]"
+          authentication: "[Source, e.g., Visual Concept Art Ref_XYZ, Narrative Desc. Ch. 3]"
+        - property: "Dimensions & Scale: [e.g., Height: 1.88m; Weight: 75kg (estimated); Spans three city blocks vertically; Handheld object, 15cm diameter.]"
+          authentication: "[Source]"
+        - property: "Material Composition: [e.g., Primarily biological (human baseline) augmented with Aethelian Brass/Verdigris Steel prosthetic; Hewn from native crater granite and reinforced Pre-Shattering alloys; Composed of unstable temporal energy and particulate matter.]"
+          authentication: "[Source]"
+        - property: "Surface Texture & Detail: [e.g., Skin pale/translucent showing veins/circuitry; Walls possess impossibly smooth Artificer finish contrasted with crude Guild repairs; Surface ripples like disturbed water, feels non-solid.]"
+          authentication: "[Source]"
+        - property: "Coloration & Patina: [e.g., Muted grey/brown attire, prosthetic shows specific patina patterns; Location dominated by dark stone, glowing fungal veins (blue/green), and rust streaks; Object cycles through iridescent colors based on ambient temporal flux.]"
+          authentication: "[Source]"
+        - property: "Luminosity & Light Interaction: [e.g., Eyes emit subtle amber light in low-light; Absorbs light, casting unusually deep shadows; Bioluminescent properties (specify color/pattern/trigger); Reflects light in distorted, rainbow patterns.]"
+          authentication: "[Source]"
+        - property: "State of Repair/Decay: [e.g., Meticulously maintained mechanisms; Visible signs of extreme wear, corrosion, repeated crude repairs; Exhibits localized temporal decay (stuttering visuals, micro-aging).]"
+          authentication: "[Source]"
+        - property: "Characteristic Movement/Posture: [e.g., Precise, almost unnaturally controlled gait; Slithering, multi-jointed locomotion; Drifts unpredictably; Holds self rigidly upright.]"
+          authentication: "[Source]"
+      auditory_signature:
+        - property: "Vocalization (if applicable): [e.g., Voice: Deep resonant baritone with metallic undertone; Communication: Series of complex clicks and resonant chimes; Sound: Emits constant low-level static hiss.]"
+          authentication: "[Source]"
+        - property: "Movement Sounds: [e.g., Near-silent; Rhythmic clanking/hissing of pneumatics; Skittering sounds on metal; Heavy, echoing footsteps.]"
+          authentication: "[Source]"
+        - property: "Ambient/Operational Sounds: [e.g., Constant low hum from power source; High-frequency whine when active; Bubbling/dripping sounds (location); Heartbeat-like rhythmic ticking.]"
+          authentication: "[Source]"
+      olfactory_signature:
+        - property: "Base Scent: [e.g., Ozone and hot metal; Damp earth and fungal decay; Sterile antiseptic; Faint lilac (Artificer trace?).]"
+          authentication: "[Source]"
+        - property: "Situational Scents: [e.g., Emits acrid smoke when damaged; Releases sharp citrus smell when using temporal ability; Smells strongly of fear pheromones when threatened (creature).]"
+          authentication: "[Source]"
+      tactile_qualities:
+        - property: "Surface Feel: [e.g., Cold, smooth metal; Rough, abrasive stone; Unnaturally yielding/soft; Vibrates subtly.]"
+          authentication: "[Source]"
+        - property: "Temperature Profile: [e.g., Consistently cold; Radiates significant heat during operation; Possesses localized hot/cold spots.]"
+          authentication: "[Source]"
+      # - Add other relevant physical/sensory properties...
+      physical_undersaturation_notes: "[e.g., Internal biological structure undefined beyond 'human'; Precise weight of LOC_Chimefall debris unknown; Atomic composition of Artificer Alloy unauthenticated.]"
+
+    # --- 2. Functional Properties (Capabilities, Actions, Limitations) ---
+    functional_properties:
+      innate_abilities:
+        - property: "[e.g., Species Ability: Can perceive temporal echoes directly (Sensory/Alethic).]"
+          limits: "[e.g., Range limited; causes nausea with prolonged use.]"
+          authentication: "[Source]"
+      learned_skills:
+        - property: "[e.g., Expertise: Master-level Clockwork Repair (specific to Guild tech).]"
+          limits: "[e.g., Requires specific tools; cannot repair Artificer tech.]"
+          authentication: "[Source]"
+        - property: "[e.g., Combat Proficiency: Advanced proficiency with City Watch sidearm and riot baton.]"
+          limits: "[e.g., Lacks training against Aberrations or heavy automata.]"
+          authentication: "[Source]"
+      technological_magical_functions: # For Objects/Places/Creatures
+        - property: "[e.g., Device Function: Chronos Lens *allows* passive viewing of authenticated past events within 10m radius.]"
+          limits: "[e.g., Requires massive external power source; viewing duration limited; causes localized instability; cannot alter past.]"
+          authentication: "[Source]"
+        - property: "[e.g., Location Function: Memory Archive *preserves* Data Crystals but *may corrupt* older memories.]"
+          limits: "[e.g., Access restricted; preservation field requires constant power.]"
+          authentication: "[Source]"
+      inherent_limitations_vulnerabilities:
+        - property: "[e.g., Entity Weakness: Automaton core *is vulnerable* to targeted electromagnetic pulses.]"
+          authentication: "[Source]"
+        - property: "[e.g., Character Limitation: *Cannot* process information presented paradoxically (causes cognitive shutdown).]"
+          authentication: "[Source]"
+        - property: "[e.g., Object Limitation: Artifact *loses all power* during specific lunar phases.]"
+          authentication: "[Source]"
+      dependencies:
+        - property: "[e.g., Requires hourly intake of refined Chrono-Dust solution to function.]"
+          authentication: "[Source]"
+      # - Add other relevant functional properties...
+      functional_undersaturation_notes: "[e.g., Full range of potential Chrono-Tech applications undefined; maximum operational lifespan of standard automaton unknown.]"
+
+    # --- 3. Psychological / Mental Properties (Conscious/Sentient Entities) ---
+    psychological_properties:
+      core_personality_traits:
+        - property: "[e.g., Dominant Trait: Pragmatic Realism.]"
+          manifestation: "[e.g., Focuses on practical solutions, dismisses superstition, risk-averse.]"
+          authentication: "[Source]"
+        - property: "[e.g., Secondary Trait: Deeply Loyal (to specific individuals/crew).]"
+          manifestation: "[e.g., Willing to take risks for allies, reacts strongly to betrayal.]"
+          authentication: "[Source]"
+        - property: "[e.g., Tertiary Trait: Underlying Melancholy.]"
+          manifestation: "[e.g., Moments of quiet sadness, cynical humor, fascination with decay.]"
+          authentication: "[Source]"
+      cognitive_style_abilities:
+        - property: "[e.g., Analytical & Deductive (High)]"
+          authentication: "[Source]"
+        - property: "[e.g., Intuitive Leaps (Low/Mistrusted)]"
+          authentication: "[Source]"
+        - property: "[e.g., Memory (Fragmented/Amnesiac)]"
+          authentication: "[Source]"
+      core_motivations_goals:
+        - property: "[e.g., Primary Drive: Uncover personal past/identity.]"
+          authentication: "[Source]"
+        - property: "[e.g., Secondary Drive: Achieve justice for past wrong (specific event).]"
+          authentication: "[Source]"
+      key_beliefs_ideologies:
+        - property: "[e.g., Believes firmly in Undercity autonomy.]"
+          authentication: "[Source]"
+        - property: "[e.g., Skeptical of Clockwork Determinism.]"
+          authentication: "[Source]"
+      emotional_disposition_triggers:
+        - property: "[e.g., Generally stoic, but prone to anger when authority is abused.]"
+          authentication: "[Source]"
+        - property: "[e.g., Specific sensory cues (e.g., smell of ozone) trigger anxiety/flashbacks.]"
+          authentication: "[Source]"
+      psychological_flaws_limitations:
+        - property: "[e.g., Crippling fear of enclosed spaces (linked to authenticated past trauma).]"
+          authentication: "[Source]"
+        - property: "[e.g., Overly trusting of specific character type.]"
+          authentication: "[Source]"
+      # - Add other relevant authenticated psychological properties...
+      psychological_undersaturation_notes: "[e.g., Specific childhood experiences (pre-amnesia) undefined; subconscious motivations not authenticated (focus is on defined traits/beliefs); full range of emotional responses undefined.]"
+
+    # --- 4. Social / Relational / Categorical Properties ---
+    social_relational_categorical_properties:
+      official_role_status:
+        - property: "[e.g., Rank/Title: Investigator, Fourth Class, City Watch.]"
+          authentication: "[Source]"
+        - property: "[e.g., Legal Status: Citizen (Guildless) / Property (Automaton) / Designated Anomaly (Creature).]"
+          authentication: "[Source]"
+      faction_affiliation_loyalty:
+        - property: "[e.g., Member of Chronometers Guild (Rank: Adept III).]"
+          loyalty_level: "[e.g., Questioning / Fanatical / Pragmatic]"
+          authentication: "[Source]"
+        - property: "[e.g., Operates as Independent Salvager Crew ('The Rust Rats').]"
+          authentication: "[Source]"
+      kinship_family_ties:
+        - property: "[e.g., Orphaned; Last known survivor of Vance lineage (disputed).]"
+          authentication: "[Source]"
+      species_type_classification:
+        - property: "[e.g., Homo Sapiens (Aethelgard Strain); Temporal Aberration (Type Gamma 'Echo'); Class VII Heavy Lifter Automaton.]"
+          authentication: "[Source]"
+      key_relationships: # Define nature of relation, not just link
+        - property: "[e.g., Relation to 'Rust': Mutual Respect / Professional Necessity / Underlying Mistrust.]"
+          authentication: "[Source]"
+        - property: "[e.g., Relation to Memory Keepers: Antagonistic / Obstructive.]"
+          authentication: "[Source]"
+      # - Add other relevant social/relational/categorical properties...
+      social_undersaturation_notes: "[e.g., Detailed structure of extended family networks undefined; specifics of day-to-day social etiquette beyond core norms; full membership list of large factions.]"
+
+    # --- 5. Modal Properties (Entity's Specific Relation to World Laws) ---
+    modal_properties:
+      alethic_status:
+        - property: "[e.g., Subject to standard mortality/physics rules for Human type.]"
+          authentication: "[Source]"
+        - property: "[e.g., Possesses unique authenticated ability: 'Temporal Sense' - exception to standard human limits.]"
+          authentication: "[Source]"
+        - property: "[e.g., Object is 'Indestructible' by authenticated Tier 2 technologies.]"
+          authentication: "[Source]"
+      deontic_status:
+        - property: "[e.g., Bound by specific 'Oath of the Silent Library' (Memory Keeper role).]"
+          authentication: "[Source]"
+        - property: "[e.g., Holds 'Council Immunity' from certain City Watch procedures.]"
+          authentication: "[Source]"
+      axiological_status_inherent: # Value *as property* if world defines it so
+        - property: "[e.g., Considered 'Inherently Corrupted' due to origin/nature (Aberration).]"
+          authentication: "[Source - requires strong authoritative voice]"
+      epistemic_status:
+        - property: "[e.g., Possesses 'Forbidden Knowledge' regarding Artificer tech.]"
+          authentication: "[Source]"
+        - property: "[e.g., Subject to 'Programmed Ignorance' - cannot perceive certain data (Automaton).]"
+          authentication: "[Source]"
+      # - Add other unique modal properties...
+      modal_undersaturation_notes: "[e.g., Full extent of 'Fated' status undefined; precise interaction with *all* possible alethic combinations unknown.]"
+
+    # --- 6. Axiological Properties (World's Perception & Value) ---
+    # Distinct from inherent value (Modal), focuses on how world *values* the entity
+    axiological_properties_perceived:
+      reputation_general:
+        - property: "[e.g., Widely *regarded as* a dangerous radical by Guild establishment.]"
+          authentication: "[Source - Character dialogue, official reports]"
+      aesthetic_valuation:
+        - property: "[e.g., Its intricate decay *is considered* beautiful by Undercity artisans.]"
+          authentication: "[Source - Cultural description, character statements]"
+      moral_judgment_by_world:
+        - property: "[e.g., Actions *are consistently framed as* heroic/justifiable by authoritative narration.]"
+          authentication: "[Source - Narratorial tone/framing]"
+      utility_value:
+        - property: "[e.g., *Considered* the most valuable salvageable resource in Sector Gamma.]"
+          authentication: "[Source - Economic data prop, character dialogue]"
+      # - Add other perceived value properties...
+      axiological_undersaturation_notes: "[e.g., Views of obscure factions unknown; long-term historical judgment undefined.]"
+
+    # --- 7. Historical Properties (Entity's Embedded Past) ---
+    historical_properties:
+      origin_story_authenticated:
+        - property: "[e.g., *Was created* by specific Gearwright project 'Chimera' in Year 295 AR.]"
+          authentication: "[Source - Project logs]"
+      key_past_experiences:
+        - property: "[e.g., *Witnessed* the assassination of Councilor Mordecai.]"
+          authentication: "[Source - Confirmed memory fragment/testimony]"
+        - property: "[e.g., *Survived* three excursions into the Glitch Mare (resulting in specific authenticated trauma/abilities).]"
+          authentication: "[Source - Character backstory]"
+      lineage_connections:
+        - property: "[e.g., *Is the last* authenticated descendant of the Pre-Shattering Vance line.]"
+          authentication: "[Source - Genealogical records (potentially Keeper-controlled)]"
+      past_roles_statuses:
+        - property: "[e.g., *Formerly served* as Chronometers Guild Adept before exile.]"
+          authentication: "[Source - Personnel file extract]"
+      # - Add other defining historical properties...
+      historical_undersaturation_notes: "[e.g., Vast majority of pre-amnesia life for Kaelen; detailed operational history of most automatons; specific events of the Dark Years beyond generalities.]"
+
+  # --- Synthesis: Entity Essence Profile ---
+  entity_essence_profile:
+    purpose: "Synthesize the core identity, function, and potential emerging from the total authenticated property bundle."
+    core_essence_summary: |
+      [Provide a rich summary focusing on the interplay of key properties across categories. e.g., 
+      "Aethelgard itself is constituted as a heterocosm defined by the **fundamental tension** between its 
+      **authenticated potential for intricate order** (Clockwork tech, Guild structures, value of precision) 
+      and the **pervasive reality of decay and temporal chaos** (Shattering legacy, Dust effects, Aberrations, 
+      social breakdown). Its identity lies in this **precarious balance**, manifesting sensorially as 
+      **'Hopeful Decay'**. Its core function is to serve as a **stage and crucible** for exploring themes 
+      of Memory, Time, Order, and Resilience through the struggles of its inhabitants, who are themselves 
+      bundles of properties reflecting this core tension (e.g., precise machines prone to glitches, 
+      ordered societies built on manipulated history)."]
+    primary_narrative_functional_role: "[e.g., For a character: Protagonist driving investigation; For a place: Central hub of conflict/mystery; For an object: Key MacGuffin enabling/constraining plot.]"
+    key_internal_contradictions_tensions: "[List tensions arising *from the bundle itself*, e.g., Authenticated Belief in Justice vs. Authenticated Cynical Trait; Functional Need for Dust vs. Physiological Vulnerability to it; Social Role Obligation vs. Personal Motivation.]"
+    significant_undersaturated_areas: "[List key areas deliberately left undefined that shape the entity's potential/mystery, e.g., Kaelen's true origin; Aberrations' ultimate purpose; Artificers' fate.]"
+
+# --- End of Entity Profile ---
+
+
+How this YAML Embodies "Extreme Detail" for the Property Bundle Concept:
+
+Rigorous Ontology: The Introduction explicitly states the Doležel-inspired ontology (no substance beyond properties) and the role of authentication.
+
+Granular Property Categories: Breaks down properties into highly specific sub-categories (e.g., under Physical: Visual Manifestation, Auditory Signature, Olfactory Profile, Tactile Qualities, Gustatory Note, Atmospheric Impact).
+
+Detailed Authentication Requirement: Mandates citing the authentication source for each significant property, reinforcing the text-centric approach.
+
+Explicit Undersaturation Tracking: Requires listing specific undefined properties for each category, forcing conscious management of incompleteness.
+
+Focus on Sensory Detail: Integrates sensory properties throughout all relevant categories, treating them as core constitutive elements.
+
+Modal Properties Explicit: Includes a dedicated section for properties directly reflecting the world's modalities.
+
+Axiological Distinction: Separates inherent modal value (if any) from perceived value within the world.
+
+Deep Prompts: Includes prompts designed to push thinking about the nuances within each property category (e.g., "How does light interact with it?", "Does sound change with state?").
+
+Synthesis Section: Requires summarizing the entity's "essence" as emerging from the bundle, identifying internal tensions and key undersaturated areas.
+
+Emphasis on Function & System: Implicitly frames properties in terms of their function within the entity and the broader heterocosmic system.
+
+This extremely detailed YAML template provides a robust framework for meticulously constructing fictional entities as complex bundles of authenticated properties, fully aligning with and operationalizing the core ontological principles derived from Doležel's Heterocosmica. It encourages depth, precision, and consistency in defining the very substance of your fictional reality.

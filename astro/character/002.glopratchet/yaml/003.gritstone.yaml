@@ -1,0 +1,186 @@
+ 
+world: "Glopratchet"
+codex_version: "0.7 (Character Constitution - The  Bodily Imperative)"
+last_updated: "[Current Date]"
+lead_architects: "[Your Name/ Studio Name]"
+
+introduction: |
+  This protocol guides the detailed definition of **Fictional Persons** (primarily  Globs, but also significant Harvesters or other sentient constructs) within the Glopratchet heterocosm. Following  Doležel's framework, these entities **ARE** constituted by the **bundle of properties authenticated for them** by the authoritative narrative source  (this Codex, core narratives, Glopratchet Internal Coherence Protocol v0.6). They possess **no  independent psyche or reality beyond this textual definition.** This is especially crucial for understanding Globs, whose entire existence is a testament to their  transient forms and their profound, often desperate, spiritual responses to the grinding flow.
+
+  Use this template to systematically build Gl opratchet entities by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted individuals whose complexity arises from the ** richness, coherence, and potential tensions within their authenticated bundle**, particularly regarding their relationship to their own bodies, CMP, the  Ratchetwork, and their chosen spiritual path (Adamant Rite, Liquescent Way, or other). Remember ** undersaturation**: define what is essential, acknowledge what is intentionally left undefined, especially concerning the unfathomable 'inner lives' beyond authenticated  belief systems and reactions.
+
+character_profile:
+  entity_id: "[Unique Identifier, e.g., GLOB_ Gritstone_AR01, HARV_Unit734_PRIME]"
+  character_name : "[Name(s) / Designations, e.g., Gritstone, Flow-Chanter Zyl, Har vester Unit 734]"
+  entity_type: "[e.g., Glob (Amorphous Sentient ), Harvester (Automated Material Processor), Ratchetwork Anomaly (Sentient Fragment)]"
+  archetype _optional_starting_point: "[e.g., Adamant Rite Elder, Liquescent Way Aspirant, Cynical  Scavenger Glob, Indifferent Harvester, Newly-Coalesced Innocent]" # Note: The goal is to move  beyond the archetype via specific property authentication
+  primary_authentication_sources: "[e.g., This Codex Entry, Gloprat chet Coherence Protocol v0.6, Narrative Outline 'The Desiccation Cycle']"
+  canon_tier: "[ Tier 1 / Tier 2 / Tier 3]"
+  authentication_status: "[Authenticated_Canonical_Active  | Authenticated_Canonical_Historical | Legendary_Unverified | etc.]"
+
+authenticated_property_bundle:
+  Physical _Properties:
+    purpose: "Define the character's tangible presence and state within Glopratchet's  material reality."
+    Appearance_General:
+      value: "[e.g., Glob: Large, densely compacted , appears mostly opaque with dull grey-brown hue. Adamant Rite. Shows signs of voluntary CMP restriction. Current form : Sub-spherical, slight faceting from self-compression.]"
+      auth: "[Source]"
+    Appearance_Specific _Features:
+      value: "[e.g., Glob: Embedded with fine, ochre-colored mineral dust (' Earth\\'s Kiss') around densest points. Surface shows fine craze-lines indicative of HARDening processes. Subtle internal shimmer from  particular mineral inclusions.]"
+      auth: "[Source]"
+    Appearance_Distinctive_Marks:
+      value : "[e.g., Glob: A significant, partially healed 'Shatter Scar' across one flank from a past Rat chetwork upheaval. One pseudopod deliberately shaped to mimic a 'True Shard.']"
+      auth: "[Source ]"
+    Typical_Attire_Adornment:
+      value: "[e.g., Glob: Ritual istic scoring patterns indicating adherence to specific Adamant Rite tenets. Deliberately maintains a coating of specific Ratchetwork dust considered  sacred.]"
+      auth: "[Source - Visual Guide / Narrative Desc.]"
+    Voice_Speech_Pattern: 
+      value: "[e.g., Glob: Low, resonant hums and clicks, speech formed by vibrating core  mass. Cadence is slow, deliberate, reflecting Adamant Rite solemnity. Harvester: Synthesized, monotonous, protocol-driven  announcements.]"
+      auth: "[Source - Dialogue Direction / Audio Ref]"
+    Gait_Mannerisms :
+      value: "[e.g., Glob (Adamant): Slow, deliberate rolling or braced movement, seeks  contact with solid Ratchetwork ('Grounding Rites'). Exhibits slight, controlled momentum due to density. (Liquescent):  Flowing, undulating, readily influenced by currents.]"
+      auth: "[Action Description]"
+    Associated_Scent_ If_Any:
+      value: "[e.g., Glob: Faint smell of desiccating CMP, specific  mineral dust (like crushed stone), faint ozone if near active Ratchetwork.]"
+      auth: "[Source -  Sensory Palette]"
+    Current_CMP_Level_Stability:
+      value: "[e.g., Moderately  low but stable due to controlled intake (Adamant). High and fluctuating (Liquescent). Critically low (Desiccating). ]"
+      auth: "[Narrative State]"
+    Undersaturation:
+      - "[e.g.,  Exact internal mass distribution, full spectrum of light absorption/reflection unless narratively significant, minute-to-minute CMP fluctuations.]"
+
+   Functional_Properties:
+    purpose: "Define what the character *can* and *cannot* do, especially in relation to  Glopratchet mechanics and spiritual practices."
+    Skill_Adamant_Ritual_Self_Compression: #  Example of making key more specific
+      value: "[e.g., Glob (Adamant): Advanced Ritual Self-Compression ( increases density, resists minor kinetic forces). Skilled in identifying 'Earth\\'s Kiss' mineral veins.]"
+      auth: "[ Demonstrated Actions]"
+    Skill_Liquescent_Communal_Merging:
+      value: "[e. g., Glob (Liquescent): Proficient in Communal Merging (temporary shared consciousness/mass). Can navigate complex fluid  flows.]"
+      auth: "[Demonstrated Actions Ch. X]"
+    Skill_Harvester_Material_Sorting:
+       value: "[e.g., Harvester: Efficient material sorting and processing (Prime Ratcheting Imperative).  Can operate designated Ratchetwork machinery.]"
+      auth: "[World Rules]"
+    Ability_Unique_Path_Specific_ Bodily_Memory:
+      value: "[e.g., Glob (Adamant): 'Bodily Memory'  - slight, authenticated enhancement to structural integrity when performing 'Grounding Rites' at known sacred sites, primarily psychological but with minor,  observable resistance to disruption.]"
+      auth: "[Narrative Descriptions / Coherence Protocol Rule I.1]"
+     Limitation_Physical_Existential_Glob:
+      value: "[e.g., Glob: Absolute dependence on CMP.  Vulnerable to Shattering (if HARDened) or Dissolution (if SOFTened) based on specific stressors. Limited  direct manipulation of complex external objects.]"
+      auth: "[World Rules]"
+    Limitation_Knowledge_Glob:
+       value: "[e.g., Glob: Fragmented understanding of Ratchetwork's grand design. 'Earth Super stition' lore is experiential and passed down, not comprehensive or scientifically 'accurate'.]"
+      auth: "[Co herence Protocol Rule I.Epistemic]"
+    Limitation_Ritual_Adamant:
+      value:  "[e.g., Glob (Adamant): 'Earth\\'s Kiss' absorption has subtle, primarily psychological/faith -based impact on resilience, not miraculous physical change. 'Grounding Rites' offer no true protection against major Ratchetwork events .]"
+      auth: "[Coherence Protocol Rule I.1]"
+    Undersaturation:
+      -  "[e.g., Precise speed of movement unless specified; ability to perceive specific EM spectra beyond basic light/heat;  exact threshold of CMP deprivation before irreversible desiccation begins.]"
+
+  Psychological_Properties:
+    purpose: "Define the character 's textually constituted inner life, especially their spiritual convictions regarding their body and fate."
+    Core_Trait_Adam ant:
+      value: "[e.g., Glob (Adamant): Reverence for **the body**; Sto icism; Deep Faith in the Adamant Rite.]"
+      auth: "[Internal Monologue, Dialogue Patterns, Ritual Adherence]" 
+    Core_Trait_Liquescent:
+      value: "[e.g., Glob (Liquescent ): Yearning for Transcendence; Acceptance of Impermanence; Distrust of rigid form.]"
+      auth: "[ Action Patterns, Narrative Focus]"
+    Dominant_Emotion_Adamant:
+      value: "[e.g ., Glob (Adamant): Somber determination; Sacred awe during 'Grounding Rites'; Contempt for 'formless' L iquescents.]"
+      auth: "[Narrator Descriptions, Tone of Internal Monologue]"
+    Key_Motivator _Adamant:
+      value: "[e.g., Glob (Adamant): To achieve a 'True Sh ard' Shattering; To preserve the integrity of **the body**; To find and protect 'Earth-touched ' sites.]"
+      auth: "[Explicit Statements, Plot Driver]"
+    Key_Belief_Adamant _Rite:
+      value: "[e.g., '**The body is sacred; its current physical manifestation is the  primary locus of being and meaning.** Resilience, density, integrity of form, and a dignified, solid end are paramount.  **\\'Being in the body\\'** is a state of mindful presence and physical self-actualization. Dissolution is an  abhorrent erasure.']"
+      auth: "[Coherence Protocol Rule I.Axiological / Dialogue]"
+    Key _Belief_Liquescent_Way:
+      value: "[e.g., 'Transcendence of  **the body** is the true path. Adaptability, flow, release from physical confines lead to ultimate understanding. The physical form is  a temporary vessel.']"
+      auth: "[Coherence Protocol Rule I.Axiological / Dialogue]"
+    Internal _Conflict_Adamant:
+      value: "[e.g., Glob (Adamant): Fear of painful Shattering vs.  desire for 'True Shards'; Adherence to **bodily integrity** vs. unavoidable Ratchetwork transformations that warp  form; 'Earth Superstition' faith vs. observable indifference of the Ratchetwork.]"
+      auth: "[Internal  Monologue, Difficult Choices Depicted]"
+    Subjective_Memory_Content_Glob:
+      value: "[e .g., Glob: Authenticated memories of past ritual experiences (sensations of density, mineral absorption); teachings from elder  Globs about 'Earth Scrimshaw' patterns; the feel of a particular 'Grounding Plate.']"
+       auth: "[Narrative Depiction]"
+    Undersaturation:
+      - "[e.g., Complex abstract  philosophical reasoning beyond their Path's tenets; nuanced opinions on matters irrelevant to survival or spiritual practice; subconscious drives unless explicitly authenticated as a  'Ratchetwork Imprint' or similar.]"
+
+  Social_Relational_Categorical_Properties:
+    purpose:  "Define the character's place within Glopratchet's societal structures (if any) and spiritual affiliations."
+     Official_Role_Path_Standing:
+      value: "[e.g., Glob (Adamant): 'Earth Keeper' ( Guardian of sacred sites/lore); Respected Elder; Novice initiate. (Liquescent): 'Flow Guide'; Commun al Weaver.]"
+      auth: "[Narrative Introduction / Interactions]"
+    Social_Status_Path_Influence:
+       value: "[e.g., Glob: Highly revered within their Rite; Outcast for heretical interpretations of ** 'being in the body'**; Tolerated neutral.]"
+      auth: "[World Structure Doc, Interactions]"
+    Primary _Affiliation:
+      value: "[e.g., Glob: The Adamant Rite (Path of HARDening); The  Liquescent Way (Path of SOFTening). Harvester: Prime Ratcheting Imperative Adherent.]"
+       auth: "[Explicit Statement / Behavior]"
+    Secondary_Affiliations_Interactions:
+      value: "[e.g ., Glob: Tentative truce with a Liquescent group for mutual survival; Antagonistic relationship with Harvesters that  disrupt sacred sites. Harvester: Indifferent interaction with all Globs except as processable material.]"
+      auth: "[Narr ative events]"
+    Key_Relationship_1:
+      value: "[e.g., To GLOB_P ebble_AR02 (Adamant Novice): Mentorship, passing on 'Earth Superstition' wisdom and the  importance of **bodily integrity**.]"
+      auth: "[Dialogue/Actions]"
+    Key_Relationship_2:
+       value: "[e.g., To FACTION_Harvesters: Viewed as indifferent, destructive forces, but also as sources  of new 'Earth-touched' exposures after Ratchetwork shifts.]"
+      auth: "[Plot conflicts / Glob  beliefs]"
+    Key_Relationship_3:
+      value: "[e.g., To SACREDSITE _AncientPlate03: Profound spiritual connection, site of key 'Grounding Rites' and source of potent 'Earth\\' s Kiss' dust.]"
+      auth: "[Internal Monologue, Ritual Actions]"
+    Species_Type: 
+      value: "[e.g., Glob (Standard Coalescence); Glob (Ancient Strain - exhibiting unusual density);  Harvester (Scrap-Welded Variant)]"
+      auth: "[Default/Description]"
+    Unders aturation:
+      - "[e.g., Precise number of acquaintances outside their immediate spiritual circle; detailed hierarchy within larger , unseen Glob communities.]"
+
+  Modal_Properties:
+    purpose: "Define any inherent unique relationship to Gl opratchet's alethic, deontic, or epistemic laws, often tied to Path devotion or unique  composition."
+    note: "Most Globs operate under general Glopratchet rules. Modal properties signify a specific , authenticated deviation, often subtle and tied to their deepest convictions or unique make-up."
+    properties:
+      -  property_id: "MODAL-[ID]-[Numeric]"
+        property_name: "[e.g., Glob (Adamant ): 'Earth-Tuned Resilience' (Alethic/Psychological Enhancement)]"
+        description: "[Authenticated  minor increase in resistance to environmental desiccation when actively engaged in 'Grounding Rites' at a recognized sacred 'Earth' site.  Effect is primarily a manifestation of profound psychological focus on **'being in the body,'** but results in objectively measurable, albeit slight , delay in CMP loss under specific, authenticated conditions.]"
+        limits: "[Requires active ritual focus; site must be genuinely  'Earth-touched' by Glob belief; offers no protection against kinetic damage or extreme CMP deprivation; effect is subtle, not  miraculous.]"
+        authentication: "[Narrative descriptions of sustained integrity compared to non-ritual-focused Globs in similar  mild stressors; Coherence Protocol I.1 Resolution.]"
+
+  Axiological_Properties:
+    purpose: "Define  the character's value status *within* Glopratchet, as perceived by other entities or the system itself." 
+    Reputation_Adamant_Rite_Members:
+      value: "[e.g., Authenticated as 'P illar of Form,' 'Wise in Earth\\'s Kiss lore,' 'Stubbornly Embodied,' 'True Shard Aspir ant.']"
+      auth: "[Dialogue/Internal Monologue of Adamant peers]"
+    Reputation_Liques cent_Way_Members:
+      value: "[e.g., Authenticated as 'Tragically Clinging  to Shell,' 'Fearful of Release,' 'Obsessed with Dead Dust,' 'Respectable for Conviction, if Mis guided.']"
+      auth: "[Dialogue/Internal Monologue of Liquescent peers]"
+    Reputation _Harvesters_Ratchetwork_System:
+      value: "[e.g., Glob: 'Processable Material  Unit [Density/Composition Code]. Spiritual affiliation: Irrelevant.' Harvester: 'Functional Unit. Efficiency Rating: Optimal .']"
+      auth: "[Harvester vocalizations/System readouts, Coherence Protocol Rule I.Axiological]" 
+    Moral_Alignment_Narrative_Framing:
+      value: "[e.g., Authenticated via narrative focus as  'Tragically Heroic' in their devotion to **the body** against an indifferent cosmos; 'Serenely Accepting'  of dissolution; 'Mindlessly Destructive' (Harvester).]"
+      auth: "[Narrator tone, plot outcomes, audience  empathy points]"
+    Undersaturation:
+      - "[Reputation among unaligned Globs; specific valuation by individual , non-standard Harvesters.]"
+
+  Historical_Properties:
+    purpose: "Define the character's known  origins and connections to past events, cycles, or Ratchetwork transformations."
+    Origin:
+      value: "[e. g., Glob: 'Coalesced during the Great Upheaval of Cycle 77 in the Shadow of the Mineral  Vein known as \"The Motherlode\".' Harvester: 'Activated Unit from Assembly Line Delta-9.'] "
+      auth: "[Narrative Backstory / Glob Oral Tradition]"
+    Key_Past_Event_Connection :
+      value: "[e.g., Glob: 'Survived the desiccation of the \"Quiet Pools\" by  leading a group to a newly exposed \"Grounding Plate.\" Witnessed a \"True Shattering\" of an Elder.'  Held a vigil at a destroyed \"Body Mandala.\"]"
+      auth: "[Narrative description of past events / Flash backs]"
+    Inherited_Items_Knowledge:
+      value: "[e.g., Glob (Adamant): Authenticated  to possess knowledge of three specific 'Earth\\'s Kiss' mineral dust compositions passed down from a mentor. Carries a ' Memory Shard' (a True Shard from a revered ancestor, believed to impart wisdom of **the body**). ]"
+      auth: "[Narrative inventory / Internal Monologue]"
+    Undersaturation:
+      - "[Detailed experiences  from countless past Ratchetwork cycles unless directly relevant; specific Globs encountered before current narrative arc unless they are key relationships .]"
+
+character_constitution_summary_narrative_function:
+  purpose: "Synthesize the core identity, internal conflicts  rooted in Glopratchet's realities (especially the chosen Path regarding **the body**), and narrative role emerging from  the authenticated property bundle."
+  Core_Essence:
+    value: "[Summarize the character based on the interplay of  their key authenticated properties, emphasizing their relationship with Glopratchet's core mechanics and philosophies. e.g.,  Gritstone is constituted as an embodiment of the Adamant Rite's 'Bodily Imperative.' His Physical density and adorn ment with 'Earth\\'s Kiss,' Functional ritual skills, Psychological reverence for **his body**, and Social role as an ' Earth Keeper' are all interwoven. His existence is a defiant affirmation of physical form against the Ratchetwork's grinding  indifference. His Axiological worth is defined by his Path, while the Ratchetwork deems him mere material. His Historical connection to ' The Motherlode' grounds his 'Earth Superstition.']"
+  Primary_Narrative_Function:
+     value: "[e.g., Protagonist exemplifying the Adamant Rite's struggle for **bodily meaning**;  Antagonist representing the Liquescent Way's rejection of form; Catalyst for exploring themes of faith, futility, and embodiment  in a hostile mechanical world; Point-of-view character for specific ritual experiences.]"
+  Key_Internal_ Conflicts_From_Bundle_Glopratchet_Specific:
+    value: "[e.g., Adamant Glob: Maintaining  faith in **the body's importance** when faced with unavoidable physical degradation by the Ratchetwork; The drive for a ' True Shatter' vs. the terror of violent unmaking; Loyalty to 'Earth Superstition' vs. the  practical need to adapt to changing Ratchetwork geography. Liquescent Glob: Desire for peaceful Dissolution vs. the violent reality of  Catalyst Vents; The allure of communal merging vs. loss of individual awareness.]"
+  Potential_for_Development_Based _on_Bundle_Glopratchet_Dynamics:
+    value: "[Where can authenticated properties plausibly change  within Glopratchet's rules? e.g., Deepening or questioning of faith in **the body** due  to Ratchetwork events (Psychological/Historical change); Discovery of new 'Earth\\'s Kiss' types or sacred  sites (Functional/Historical change); Shifting alliances between Path followers (Social/Relational change); Gradual hardening or softening  (Physical change) towards their chosen fate.]"
+

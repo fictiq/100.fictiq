@@ -1,0 +1,181 @@
+
+world : Glopratchet
+codex_version: 0.1 - Character Constitution (Glopratchet Specific)
+last _updated: "[Current Date]"
+lead_architects: "[Your Name/Studio Name]"
+
+introduction_title: "Con stituting Fictional Persons Textually"
+introduction_body: |
+  This protocol guides the detailed definition of **F ictional Persons** (characters, significant sentient beings) within the **Glopratchet** heterocosm. Following  Doležel's framework, characters **ARE** constituted by the **bundle of properties authenticated for them** by the authoritative narrative source  (this Codex, core narratives, Glopratchet Coherence Protocol). They possess **no independent psyche or reality beyond  this textual definition**.
+
+  Use this template to systematically build characters by explicitly authenticating their properties across relevant categories. Focus on  creating multifaceted individuals whose complexity arises from the **richness, coherence, and potential tensions within their authenticated bundle**, and whose  actions are logically grounded in their defined nature and the world's rules – especially the Globs' profound responses to their existence  through paths like the Adamant Rite. Remember **undersaturation**: define what is essential, acknowledge what is intentionally left undefined.
+
+ character_profile:
+  entity_id: "GLOP_CHAR_Shardus_AR01"
+  character _name: Elder Shardus (Sometimes referred to by younger acolytes as "The Bedrock")
+  entity_type:  Glob (Person - Follower of the Adamant Rite)
+  archetype: "[Devout Elder, Keeper of Lore , Stubborn Traditionalist]"
+  primary_authentication_sources: "[This Codex Entry, Glopratchet Internal  Coherence Protocol v0.6]"
+  canon_tier: "[Tier 1]"
+  authentication_status: "[ Authenticated_Canonical_Active]"
+
+authenticated_property_bundle:
+  physical_properties:
+    purpose: " Define the character's tangible presence, reflecting their Adamant Rite practices."
+    properties:
+      - label: Appearance_ General
+        value: "[Authenticated as a Glob of notably high density, maintaining a relatively stable, ovoid form even  at rest. Surface texture is less fluid than average Globs, appearing somewhat matte and packed.]"
+        auth:  "[GCP v0.6 - Adamant Rite principles]"
+      - label: Appearance_Specific_Features
+        value : "[Authenticated to exhibit a dull, earthen coloration, with flecks of various mineral dusts (\"Earth's Kiss \") visibly embedded within its outer layers from years of ritual practice. Subtle, hardened ridges mark its form from prolonged self-compression rites .]"
+        auth: "[GCP v0.6 - Earth Superstition, Ritual Self-Compression]" 
+      - label: Appearance_Distinctive_Marks
+        value: "[Authenticated to bear several \"True Shard \" fragments of a revered, Shattered predecessor carefully pressed into its primary mass near its sensory cluster, serving as focal points for  meditation on **the body**.]"
+        auth: "[GCP v0.6 - Adamant reverence for True  Shards]"
+      - label: Typical_Attire
+        value: "[N/A for Globs. However , Shardus is often found meticulously arranging \"Body Mandalas\" from found particulate matter around its resting space.]"
+         auth: "[GCP v0.6 - Body Mandalas]"
+      - label: Voice_Speech_Pattern 
+        value: "[Authenticated as a slow, resonant vibration, deeper and more deliberate than most Globs, suggesting internal  density. Speech focuses on maxims of **the Bodily Way** and pronouncements about the sanctity of form.]"
+        auth : "[Implied by Adamant focus on density and seriousness]"
+      - label: Gait_Mannerisms
+        value:  "[Authenticated to move with a deliberate, grounded quality. Often observed in prolonged, still contact with Ratchetwork walls (\"Grounding R ites\") or meticulously collecting specific mineral dusts.]"
+        auth: "[GCP v0.6 - Grounding R ites, Earth's Kiss]"
+      - label: Associated_Scent
+        value: "[Authenticated to eman ate a dry, mineralic, earthy scent, akin to dust from ancient Ratchetwork sections.]"
+        auth: "[G CP v0.6 - Earth Superstition]"
+    undersaturation: "[Exact internal structure beyond \"dense\"; precise composition  of absorbed minerals beyond \"varied\"; full spectrum of sensory perception beyond what's implied by practices.]"
+
+  functional_properties :
+    purpose: "Define what the character *can* and *cannot* do, influenced by Adamant Rite practices." 
+    properties:
+      - label: Skill_Adamant_Rituals
+        value: "[Authenticated as possessing  profound knowledge of Adamant Rite rituals, including specific techniques for voluntary CMP restriction, ritual self-compression, and identifying potent \" Earth's Kiss\" sources.]"
+        auth: "[GCP v0.6 - Adamant Rite Practices ]"
+      - label: Skill_Earth_Scrimshaw_Interpretation
+        value: "[Authenticated as adept at interpreting \" Earth Scrimshaw\" (patterns on ancient Ratchetwork plates) and the crystalline structures of \"True Shards\"  for spiritual guidance related to **\"being in the body.\"**]"
+        auth: "[GCP v0. 6 - Adamant Epistemology]"
+      - label: Skill_Guiding_Others
+        value: "[ Authenticated as capable of guiding other Globs in \"Grounding Rites\" and the philosophical tenets of **the importance of the body **.]"
+        auth: "[GCP v0.6 - Guardian of the Form/Earth Keeper role]" 
+      - label: Ability_Kineto_Mist_Interaction
+        value: "[Authenticated to exhibit slightly more controlled  momentum and initial resistance to minor Ratchetwork flows/Kineto-Mist due to practiced density, a subtle physical  manifestation of **\"being in the body.\"**]"
+        auth: "[GCP v0.6 - K ineto-Mist & HARDened Globs]"
+      - label: Limitation_Physical_Adaptability
+        value:  "[Authenticated as less adaptable to sudden, extreme fluidity requirements due to chosen HARDened state. May be more susceptible to certain types of crushing /shearing forces if their current density isn't sufficient, as opposed to Dissolution.]"
+        auth: "[G CP v0.6 - Consequence of HARDening]"
+      - label: Limitation_Knowledge_Other_Paths
+         value: "[Authenticated as having limited understanding or patience for the Liquescent Way's philosophy; sees it as a  betrayal of **the body**. Unfamiliar with intricate Harvester mechanics beyond their observable threat to form.]"
+        auth: "[G CP v0.6 - Adamant views on Liquescent Way]"
+      - label: Limitation_Social_Empathy
+         value: "[Authenticated difficulty in empathizing with Globs who do not share the reverence for **the body**, potentially appearing  dogmatic or unyielding.]"
+        auth: "[Implied by devout nature]"
+    undersaturation: "[ Precise limits of Kineto-Mist resistance; ability to innovate new Adamant rituals (currently depicted as a preserver of tradition ); detailed knowledge of specific Ratchetwork hazards beyond the general.]"
+
+  psychological_properties:
+    purpose:  "Define the character's textually constituted inner life, centered on **the Bodily Imperative.**"
+    properties :
+      - label: Core_Trait_Faith
+        value: "[Authenticated as possessing Unwavering Faith in the Adam ant Rite and the sacredness of **the body**.]"
+        auth: "[GCP v0.6  - Adamant Core Values]"
+      - label: Core_Trait_Stoicism
+        value: "[Authenticated as  exhibiting profound Stoicism and Resilience, viewing physical hardship as a test of commitment to **\"being in the body.\"**]"
+         auth: "[GCP v0.6 - Adamant response to adversity]"
+      - label: Core_ Trait_Reverence_Earth
+        value: "[Authenticated as deeply Reverent towards \"Earth\" elements (mineral dusts,  stable Ratchetwork) as conduits for **bodily affirmation**.]"
+        auth: "[GCP v0.6  - Earth Superstition]"
+      - label: Dominant_Emotion
+        value: "[Authenticated as a state  of solemn, focused Serenity derived from commitment to **\"being in the body,\"** punctuated by sorrow or scorn for those  who \"neglect their forms.\"]"
+        auth: "[GCP v0.6 - Adamant values and  views on others]"
+      - label: Key_Motivator
+        value: "[Authenticated drive to achieve a \" True Shattering,\" leaving behind dignified \"True Shards,\" and to guide other Globs towards understanding **the importance of the body** .]"
+        auth: "[GCP v0.6 - Adamant goals]"
+      - label: Key _Belief
+        value: "[Authenticated core belief: \"**The body is sacred; its current physical manifestation is the  primary locus of being and meaning.** Dissolution is an abhorrent erasure.\"]"
+        auth: "[GCP v0. 6 - Adamant Axiology]"
+      - label: Internal_Conflict
+        value: "[Authenticated struggle: Maintaining unwavering  faith in **the body** when witnessing its inevitable, often brutal, destruction by Glopratchet. Balancing the obligation  to preserve tradition with the need to adapt \"Earth Superstitions\" when sacred sites are destroyed.]"
+        auth: "[G CP v0.6 - Diachronic challenges]"
+      - label: Subjective_Memory_Content
+         value: "[Authenticated to possess vivid memories of past \"Grounding Rites,\" the textures of potent \"Earth's  Kiss\" veins, the forms of revered Shattered elders, and interpretations of \"Earth Scrimshaw.\"]"
+        auth : "[Implied by role and practices]"
+    undersaturation: "[Specific origins of initial faith; personal doubts (if any , framework assumes authenticated properties are true character); full range of emotional responses beyond those tied to core beliefs.]"
+
+  social_rel ational_categorical_properties:
+    purpose: "Define the character's place within the Glopratchet world's networks ."
+    properties:
+      - label: Official_Role
+        value: "[Authenticated as an \"Earth Keeper\" or  \"Guardian of the Form\" (informal but highly respected leadership role) within the Adamant Rite community.]"
+        auth : "[GCP v0.6 - Deontic, potential roles]"
+      - label: Social_Status
+         value: "[Authenticated as revered elder among Adamant followers; viewed as dangerously obstinate or pitiably deluded by Liquescent  Way adherents; largely ignored by Harvesters unless materially relevant.]"
+        auth: "[GCP v0.6 - Inter -path views, Harvester indifference]"
+      - label: Primary_Affiliation
+        value: "The Adamant Rite  (The Path of HARDening / The Bodily Way)"
+        auth: "[Core character concept]"
+      - label:  Secondary_Affiliations
+        value: "[None explicitly; Shardus's focus is entirely on the Adamant Rite .]"
+        auth: "[Character focus]"
+      - label: Key_Relationship_Acolytes
+         value: "[To young Adamant Acolytes (Mentor/Guide): Teaches them techniques of **\"being in  the body\"** and the value of \"Earth Superstition.\"]"
+        auth: "[GCP v 0.6 - Proselytizing aspect]"
+      - label: Key_Relationship_Liquescent_Follow ers
+        value: "[To Followers of the Liquescent Way (Philosophical Opponent): Engages in debates  (often one-sided) about **the importance of the body** versus the \"cowardice\" of seeking Dissolution .]"
+        auth: "[GCP v0.6 - Inter-path views]"
+      - label:  Key_Relationship_Sacred_Sites
+        value: "[To Sacred \"Earth\" Sites (Venerator/Prote ctor): Spends significant time at \"Dry Conduits,\" \"Mineral Veins,\" or stable Ratchetwork plates,  performing rituals.]"
+        auth: "[GCP v0.6 - Adamant sacred sites]"
+      -  label: Species_Type
+        value: Glob
+        auth: "[GCP v0.6 - Core Beings]" 
+    undersaturation: "[Specific named acolytes or rivals; history of relationships with now-Shattered peers; interactions  with Globs neutral to either Path.]"
+
+  modal_properties:
+    purpose: "Define any inherent unique relationship to world  laws."
+    properties:
+      - property_id: "MODAL-SHARDUS-01"
+         property_description: "[Enhanced Embodied Resilience (Alethic/Physical Exception derived from Kineto-Mist  rule & Ritual Practice)]"
+        value: "[Authenticated to exhibit a marginally higher threshold for maintaining form against minor environmental stressors  and a slightly more controlled momentum due to lifelong adherence to Adamant Rite HARDening practices and deep connection to \"Earth Superstition .\" This is not supernatural, but a peak expression of authenticated Glob bio-mechanics under specific ritual conditioning focused on **the  body**.]"
+        limits: "[Does not confer immunity to significant Ratchetwork forces or Harvester actions.  The effect is subtle, primarily reinforcing their commitment to **\"being in the body\"** rather than granting overt physical power.]"
+         authentication: "[GCP v0.6 - Rule 1.1.4 \"Kineto-Mist\" & general  implications of Adamant Rite's physical focus.]"
+    note: "This modal property is a nuanced interpretation of existing  Glopratchet rules, emphasizing that the Adamant Rite's effects are primarily spiritual/psychological but can have subtle,  authenticated physical manifestations reflecting their core tenet of **bodily importance**."
+
+  axiological_properties:
+    purpose:  "Define the character's value status *within* Glopratchet."
+    properties:
+      - label : Reputation_Adamant_Rite
+        value: "[Authenticated as a living testament to **the importance of the body**, a source  of wisdom on \"Earth Superstition,\" and a model of dignified HARDening.]"
+        auth: "[GCP v 0.6 - Adamant values]"
+      - label: Reputation_Liquescent_Way
+        value:  "[Authenticated as the epitome of fearful clinging to transient form, a Glob who tragically misunderstands the path to true release from  **the body's** confines.]"
+        auth: "[GCP v0.6 - Liquescent  values]"
+      - label: Reputation_Harvesters
+        value: "[Authenticated as undifferentiated Glop- matter; spiritual beliefs regarding **the body** are irrelevant except as they affect processable material properties (e.g.,  density for certain harvesting methods).]"
+        auth: "[GCP v0.6 - Harvester values]"
+      -  label: Moral_Alignment_Narrative_Framing
+        value: "[Authenticated via narrative potential as a figure of tragic,  profound faith, embodying the struggle to find meaning and affirm **the body** in a universe designed to unmake it. Their  righteousness is internal to their belief system.]"
+        auth: "[Inferred from thematic potential of Adamant Rite]"
+     undersaturation: "[Reputation among \"neutral\" Globs; specific Harvester sub-routines' assessment of \"Adamant- type\" material.]"
+
+  historical_properties:
+    purpose: "Define the character's known origins and  connections to past events."
+    properties:
+      - label: Origin
+        value: "[Authenticated as having been  a practitioner of the Adamant Rite for many Cycles, witnessing the exhaustion of several minor \"Mineral Veins\" and the re- designation of new ones as sacred.]"
+        auth: "[Implied by \"Elder\" status and Diachronic Consistency  checks in GCP v0.6]"
+      - label: Key_Past_Event_Connection
+        value:  "[Authenticated to have guided a small group of followers to safety during the \"Great Grinding of Sector Tau-9,\"  an event where their shared commitment to **\"being in the body\"** and swift application of \"Grounding Rites\"  against a collapsing Ratchetwork section was credited (by them) for their survival, reinforcing their faith.]"
+        auth : "[Hypothetical past event consistent with Adamant beliefs]"
+      - label: Inherited_Items_Knowledge
+         value: "[Authenticated to possess knowledge of specific \"Earth Scrimshaw\" patterns passed down from a previous \"Earth Keeper,\"  and carries a \"True Shard\" from that mentor, using it in rituals to affirm **the body's**  continuity through lineage.]"
+        auth: "[GCP v0.6 - Adamant Epistemology, Reverence for Sh ards]"
+    undersaturation: "[Specific details of their own \"awakening\" to the Adamant Rite; the identities  of all past mentors; precise timeline of Ratchetwork changes witnessed.]"
+
+character_constitution_summary_narrative_function: 
+  purpose: "Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle." 
+  core_essence: "[Elder Shardus is constituted as the living embodiment of the Adamant Rite's  **Bodily Imperative**. Their being is defined by a profound, practiced commitment to physical integrity, density, and the sacredness  of their current form, reinforced by \"Earth Superstition.\" Their Physical density, Functional knowledge of rituals, Psychological sto icism, Social role as an Earth Keeper, and even their subtle Modal resilience are all direct textual manifestations of their unwavering belief  in **\"being in the body.\"** They are a figure of immense, focused spiritual conviction within the indifferent machinery of Glop ratchet.]"
+  primary_narrative_function: "[To serve as a primary exponent and exemplar of the Adamant  Rite philosophy. To act as a spiritual anchor or guide for other Adamant characters. To create dramatic tension through their unwavering , potentially tragic, adherence to **bodily integrity** in the face of overwhelming destructive forces. To provide a key voice in philosophical  debates about existence, form, and meaning within Glopratchet.]"
+  key_internal_conflicts: "[Maintaining  faith in **the body** amidst its constant annihilation by Glopratchet. The tension between preserving ancient \"Earth Superstition \" traditions and adapting to the ever-changing, destructive Ratchetwork. The frustration of witnessing other Globs \"betray\" ** the importance of their bodies** by seeking Dissolution or remaining \"unbodied.\"]"
+  potential_for_development : "[Deepening of resolve through surviving cataclysmic events. A crisis of faith if core \"Earth Superstition\" sites are  irrevocably lost, forcing a reinterpretation of **\"being in the body.\"** The challenge of passing on their embodied  wisdom before their own Shattering. Potentially facing a form of destruction that directly mocks the dignity of **the body**  they so cherish, testing their faith to its absolute limit.]"
+
+end_of_profile_id: "GLOP _CHAR_Shardus_AR01"

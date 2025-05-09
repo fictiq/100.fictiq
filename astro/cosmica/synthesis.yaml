@@ -1,0 +1,217 @@
+```yaml
+# ============================================================
+# Story World Codex: Systemic Integration & Network Mapping Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's World Fabric Synthesis)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly detailed framework** for the **holistic synthesis and critical 
+    evaluation** of the Aethelgard heterocosm, focusing on how authenticated **properties AND relations** 
+    intertwine to form the **fundamental fabric of its reality**. Building upon Doležel's conclusions, 
+    this protocol moves beyond analyzing components in isolation to rigorously examine the **dynamic, 
+    reciprocal interplay** between entity constitution (property bundles) and world structure (relational 
+    networks), asserting that the world's coherence, richness, and meaning emerge precisely from this 
+    **integrated semantic architecture**.
+  scope: |
+    Mandatory final integration check after defining core entities, properties, relations, modalities, 
+    history, and states. Ensures the heterocosm functions as a **unified, dynamic system**, not merely 
+    a collection of parts. Guides refinement to achieve maximum systemic integrity and narrative potential.
+  ontological_premise: |
+    The Aethelgard heterocosm **IS** the complex, multi-layered semantic network formed by **authenticated 
+    entities (nodes) possessing authenticated property bundles AND interconnected by authenticated relations 
+    (links)**. Neither properties nor relations alone constitute the world; its reality resides in their 
+    **inseparable synthesis and consistent interplay** governed by established modalities.
+
+# --- I. Core Systemic Nodes Inventory & Status Check ---
+# Purpose: Briefly identify key entities/systems whose interplay is central to the world's fabric, confirming their core definition status.
+core_system_nodes:
+  node_inventory:
+    - node_id: "CHAR_Kaelen_01"
+      entity_type: "Person"
+      core_function: "Protagonist, Investigator, Embodiment of Memory/Truth Conflict"
+      codex_profile_status: "[e.g., v1.1 - Finalized]" # Link/Ref to detailed profile
+    - node_id: "FACTION_ChronometersGuild"
+      entity_type: "Organization"
+      core_function: "Controller of Temporal Science/Dust, Political Powerhouse (Order/Control)"
+      codex_profile_status: "[e.g., v1.0 - Finalized]"
+    - node_id: "FACTION_MemoryKeepers"
+      entity_type: "Organization"
+      core_function: "Controller/Manipulator of Historical Record, Agents of Secrecy/Epistemic Uncertainty"
+      codex_profile_status: "[e.g., v1.0 - Finalized]"
+    - node_id: "LOC_Undercity"
+      entity_type: "Place/Ecosystem"
+      core_function: "Zone of Chaos/Danger/Freedom, Source of Salvage/Mystery, Embodiment of Decay/Resilience"
+      codex_profile_status: "[e.g., v1.2 - Key sectors detailed]"
+    - node_id: "CONCEPT_TemporalInstability"
+      entity_type: "Systemic Hazard/Force"
+      core_function: "Pervasive Environmental Threat, Source of Aberrations, Embodiment of Chaos/Consequence"
+      codex_profile_status: "[e.g., v1.0 - Modalities Defined]"
+    - node_id: "OBJ_ArtificerLegacy" # Representing lost tech/history
+      entity_type: "Concept/Set of Objects/Lore"
+      core_function: "Source of Mystery, Potential Power/Danger, Embodiment of Legacy/Hubris Theme"
+      codex_profile_status: "[e.g., v0.8 - Core mysteries defined, specific artifacts TBD]"
+    # --- Add other absolutely central nodes ---
+  prompt: "Confirm that the core properties and basic relations for these central nodes are robustly defined and authenticated in their respective Codex entries before proceeding with deep interplay analysis."
+
+# --- II. Deep Mapping: Property -> Relation Influence (How Internal Nature Shapes External Connection) ---
+# Purpose: Meticulously trace how specific authenticated properties of entities directly influence the nature, stability, 
+#          or possibility of their authenticated relations with other entities/systems.
+property_to_relation_mapping:
+  analysis_focus: "How an entity's *IS-ness* affects its *CONNECTS-TO*."
+  
+  detailed_examples:
+    - influencing_entity_property: "CHAR_Kaelen_01 -> Property: PSYCH-FLAW-01 (Tendency towards Isolation/Distrust)"
+      influenced_relations:
+        - relation_id: "REL_KAE_Rust (Alliance/Info Broker)"
+          nature_of_influence: "[Kaelen's distrust (property) AUTHENTICATES the relationship as inherently **transactional and fragile**, preventing deeper alliance despite mutual need. His isolationism (property) limits the *frequency* and *depth* of interaction authenticated.]"
+          consistency_check: "[Consistent with Kaelen's profile and depicted scenes showing cautious, minimal engagement.]"
+        - relation_id: "REL_KAE_WatchSuperiors (Hierarchy)"
+          nature_of_influence: "[His cynicism/distrust (property) AUTHENTICATES his formal reports as potentially **incomplete or filtered**, impacting the Watch's epistemic state regarding his cases. It also AUTHENTICATES social friction within the hierarchical relation.]"
+          consistency_check: "[Plausible consequence; needs narrative examples of filtered reports or friction.]"
+      thematic_link: "[Reinforces themes of isolation, consequence of trauma (if distrust stems from past), challenges of finding truth in a distrustful world.]"
+
+    - influencing_entity_property: "FACTION_ChronometersGuild -> Property: AXIO-VAL-01 (High Value on Control/Secrecy)"
+      influenced_relations:
+        - relation_id: "REL_CG_InterGuild_All"
+          nature_of_influence: "[This core value (property) AUTHENTICATES their relationships with ALL other Guilds as inherently **guarded, competitive, and based on strategic information control**, limiting true cooperation even with nominal allies.]"
+          consistency_check: "[Consistent with authenticated Guild conflicts and political state.]"
+        - relation_id: "REL_CG_Public_Perception"
+          nature_of_influence: "[Their secrecy (property/value) AUTHENTICATES a public perception (axiological relation) of **mistrust and fear**, despite their role in maintaining temporal stability.]"
+          consistency_check: "[Supported by authenticated social state descriptions.]"
+      thematic_link: "[Directly explores Order vs. Chaos (control as order), Truth vs. Secrecy.]"
+
+    - influencing_entity_property: "LOC_Undercity -> Property: ENV_HAZARD_TemporalInstability"
+      influenced_relations:
+        - relation_id: "REL_Undercity_Surface_Access"
+          nature_of_influence: "[The authenticated danger (property) **justifies and necessitates** the authenticated restricted access and containment efforts (relation) imposed by Surface authorities.]"
+          consistency_check: "[Strong causal link between environmental property and political/spatial relation.]"
+        - relation_id: "REL_Salvager_Salvager_Cooperation"
+          nature_of_influence: "[Shared danger (property) AUTHENTICATES the **functional necessity** for Salvager crews to develop codes of mutual aid and information sharing regarding hazards (social relation), despite inherent competitiveness.]"
+          consistency_check: "[Plausible sociological consequence authenticated in Salvager profile.]"
+      thematic_link: "[Order vs. Chaos (attempts to contain it), Resilience/Adaptation (Salvager codes as response).]"
+
+    # --- Map other critical Property -> Relation influences with extreme detail ---
+    # (e.g., Automaton's lack of rights -> Its relation to humans; Artifact's power -> Relations of desire/conflict towards it)
+
+  prompts_prop_to_rel:
+    - "Take an entity's single most defining *property*. How does it fundamentally alter or define the *nature* of its three most important *relationships*?"
+    - "Are there properties that *prevent* certain types of relationships from forming (e.g., extreme paranoia prevents alliances)?"
+    - "How do *sensory* properties influence relations (e.g., terrifying appearance creates relation of fear, pleasant scent facilitates positive interaction)?"
+
+# --- III. Deep Mapping: Relation -> Property Influence (How External Connection Shapes Internal Nature) ---
+# Purpose: Meticulously trace how an entity's authenticated position within the relational network 
+#          (its context) influences, enables, constrains, or gives meaning to its intrinsic properties.
+relation_to_property_mapping:
+  analysis_focus: "How an entity's *CONNECTS-TO* affects its *IS-ness*."
+
+  detailed_examples:
+    - influencing_entity_relation: "CHAR_Kaelen_01 -> Relation: SOCAFF-01 (Member of City Watch, Low Rank)"
+      influenced_properties:
+        - property_id: "FUNC_Access_Limited"
+          nature_of_influence: "[His Watch affiliation (relation) **authenticates and enables** his basic investigative functional properties (access to crime scenes, low-level data), BUT his low rank (relation) **authenticates the constraint** on accessing high-level Guild/Council resources.]"
+          consistency_check: "[Consistent interplay between social role and functional possibility.]"
+        - property_id: "PSYCH_Worldview_Cynical"
+          nature_of_influence: "[His position *within* the flawed Watch system (relation) likely **reinforces or is context for** his authenticated cynicism (psychological property) about institutional effectiveness.]" # Note: This is inferential link, but strong one based on context.
+          consistency_check: "[Plausible psychological consequence of social position.]"
+        - property_id: "AXIO_Reputation_Ambiguous"
+          nature_of_influence: "[Being part of the Watch (relation) grants some official legitimacy but also associates him with systemic flaws, contributing to his **contested axiological status** depending on the observer (Guild vs. Undercity).]"
+          consistency_check: "[Consistent with social dynamics.]"
+
+    - influencing_entity_relation: "OBJ_MoonShardHeart -> Relation: HIST-ASSOC-03 (Sought By All Factions)"
+      influenced_properties:
+        - property_id: "AXIO_PerceivedWorth_Priceless"
+          nature_of_influence: "[This universal desire (relation) **authenticates and amplifies** its perceived axiological property of being 'priceless'. Its value stems *directly* from this relational context of high demand.]"
+          consistency_check: "[Direct link between relation and value perception.]"
+        - property_id: "FUNC_Potential_WorldAltering"
+          nature_of_influence: "[The fact that *powerful factions believe* it can alter the world (relation based on their epistemic/axiological state) **authenticates its *potential* function** as world-altering, even if its true capabilities remain partly mysterious (undersaturated functional property).]"
+          consistency_check: "[Beliefs drive actions; potential function is key.]"
+        - property_id: "PHYS_Security_High" # Implied property of its *context*
+          nature_of_influence: "[Because it is sought by all (relation), any location holding it (related entity) implicitly gains the property of being **under high threat / requiring extreme security measures**.]"
+          consistency_check: "[Logical consequence of high-value object in contested environment.]"
+
+    - influencing_entity_relation: "LOC_Undercity -> Relation: LOC_REL_IsolatedFromSurface"
+      influenced_properties:
+        - property_id: "SOC_State_AutonomousCodes"
+          nature_of_influence: "[Its physical and political isolation (relation) **authenticates the possibility and necessity** for unique, independent social codes/laws (deontic/social property) to develop, distinct from Surface norms.]"
+          consistency_check: "[Plausible sociological outcome of separation.]"
+        - property_id: "ENV_Ecology_UniqueFloraFauna"
+          nature_of_influence: "[Isolation and unique environmental pressures (relation to specific hazards like Dust/Anomalies) **authenticates the evolution/presence** of unique biological entities (physical/functional properties) not found on Surface.]"
+          consistency_check: "[Logical ecological consequence.]"
+        - property_id: "EPI_State_RumorMill"
+          nature_of_influence: "[Restricted information flow from Surface (relation) **authenticates the reliance** on internal, potentially unreliable oral tradition and rumor networks (epistemic property) as primary info sources.]"
+          consistency_check: "[Plausible outcome of informational isolation.]"
+
+    # --- Map other critical Relation -> Property influences ---
+
+  prompts_rel_to_prop:
+    - "Take an entity's key *relationship* (e.g., sworn enemy, loyal subordinate, family member). How does this relation *directly enable or constrain* specific *functional properties* (e.g., access granted by ally, vulnerability created by enemy)?"
+    - "How does an entity's *social status* or *faction membership* (relational properties) dictate specific *psychological pressures* or *axiological judgments* it faces?"
+    - "How does an entity's *spatial location* (relation to place) affect its *physical state* (e.g., decay rates, exposure to hazards) or *functional possibilities*?"
+
+# --- IV. Evaluating Systemic Coherence via Property-Relation Synthesis ---
+# Purpose: Assess the overall logical integrity and believability of the heterocosm based on the consistent 
+#          and plausible interplay of authenticated properties and relations.
+systemic_coherence_synthesis:
+
+  consistency_checkpoints:
+    - checkpoint: "Functional Logic Across Network"
+      question: "Do actions enabled by an entity's functional properties have consequences that respect the properties and relations of the entities they interact with, and the world's modalities?"
+      assessment_example: "[e.g., Kaelen uses authenticated 'Temporal Sensitivity' (Func Prop) to detect an Aberration (Relation to Hazard). This detection allows him to use authenticated 'Containment Grenade' (Obj Func Prop) which functions according to established Alethic rules for Aberrations. -> Coherent Chain.]"
+      potential_failure_example: "[e.g., Kaelen uses 'Temporal Sensitivity' to somehow *predict the future* (violates authenticated limits of ability and world's Epistemic Modality).]"
+      action: "[Identify and resolve chains where properties/relations/modalities clash.]"
+
+    - checkpoint: "Social Dynamics & Power Structures"
+      question: "Do the depicted social interactions, power dynamics, and political maneuvers align consistently with the authenticated social/relational properties of the involved entities and factions, and the world's Deontic/Axiological framework?"
+      assessment_example: "[e.g., Chronometers Guild consistently leveraging authenticated Dust control (Property/Relation) to influence Council decisions (Relation) aligns with established power structure.]"
+      potential_failure_example: "[e.g., Low-status, Guildless character easily intimidates high-ranking Guild Master without authenticated leverage (e.g., secret knowledge, specific vulnerability).]"
+      action: "[Ensure power dynamics are respected or deviations are strongly authenticated.]"
+
+    - checkpoint: "Historical Resonance & Consistency"
+      question: "Do the current properties and relations of entities plausibly reflect their authenticated historical properties and the established world history? Are historical legacies consistently manifested?"
+      assessment_example: "[e.g., Current mistrust between Guilds (Relation) is consistently linked back to authenticated historical conflicts (Property of Factions).] "
+      potential_failure_example: "[e.g., Entity described as ancient (Historical Prop) displays technology/attitudes inconsistent with its authenticated origin era without explanation.]"
+      action: "[Strengthen links between past authentication and present constitution; resolve anachronisms.]"
+
+  overall_integration_assessment: "[Rate: Seamlessly Integrated Fabric / Generally Woven / Contains Noticeable Snags / Structurally Unsound Network]"
+  justification: "[Summarize how well properties and relations mutually constitute a believable and functional world system, highlighting strengths and weaknesses in their interplay.]"
+  prompts:
+    - "Identify a complex narrative event. Can you trace its causes and consequences through the network of authenticated entity properties and relations, respecting world modalities?"
+    - "Where does the interaction between properties and relations feel most elegant and inevitable? Where does it feel most forced or coincidental?"
+
+# --- V. Conclusion: The Woven Fabric - Reality Emerging from Interplay ---
+conclusion:
+  summary: |
+    This protocol culminates the analysis of entity constitution by focusing on the **synthesis of properties and relations**. 
+    It affirms the Doležel-inspired view that the rich, complex reality of the Aethelgard heterocosm emerges not from 
+    isolated attributes or connections, but from their **dynamic, reciprocal interplay within a unified semantic network**. 
+    Properties gain meaning through relational context; relations gain substance through the properties of the entities they connect.
+  final_statement: |
+    The **authenticated fabric of reality** in Aethelgard is woven from these interconnected threads of predication. 
+    Its **coherence, richness, narrative potential, and thematic resonance** depend fundamentally on the **skillful 
+    and consistent integration** of intrinsic entity nature (properties) with extrinsic systemic positioning (relations), 
+    all operating within the framework of legislated world laws (modalities). Recognizing and meticulously designing 
+    this **interwoven semantic architecture** is the key to forging a truly compelling and believable 'other world'. 
+    The entity is its bundle; the world is the network; reality resides in their inseparable synthesis.
+
+# ============================================================
+# End of Systemic Integration & Network Mapping Protocol v1.1 (Extreme Detail)
+# ============================================================
+```
+
+**How this YAML Embodies "Extreme Detail" for Property/Relation Synthesis:**
+
+1.  **Explicit Focus on Interplay:** Dedicates entire sections (II & III) specifically to mapping the *influence* of properties on relations and vice versa, demanding granular analysis of this dynamic.
+2.  **Systemic Language:** Uses terms like "semantic network," "nodes," "links," "systemic integration," "feedback loops," "holistic," "ecosystem" to reinforce the interconnected view.
+3.  **Detailed Examples Required:** While placeholders are used, the structure implies filling them with highly specific examples demonstrating the precise nature of the influence between properties and relations.
+4.  **Multi-Step Causal Chains:** Encourages mapping complex interaction chains involving multiple systems (e.g., Physics -> Politics -> Economy -> Society) rather than simple one-to-one links.
+5.  **Rigorous Coherence Checks:** Section IV focuses explicitly on checking the *consistency arising from the interplay*, looking for logical conflicts between how properties and relations function together.
+6.  **Functional Justification:** Continuously prompts consideration of the *narrative and thematic function* served by specific interconnections.
+7.  **Integration with Modalities:** Requires analyzing how the property/relation network operates *within* and *respects* the established world modalities.
+8.  **Concluding Synthesis:** The final conclusion powerfully summarizes the core idea: the world's reality *is* this interwoven fabric, emphasizing the inseparability of properties and relations.
+
+This extremely detailed YAML template provides a robust framework for analyzing and designing the deep structural coherence of Aethelgard, ensuring that its entities are not just well-defined in isolation, but function as fully integrated components within a complex, dynamic, and meaningful semantic network.

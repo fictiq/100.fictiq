@@ -1,0 +1,241 @@
+# ============================================================
+# Story World Codex: Sentient Entity Psychological Profile Protocol
+# Version: 1.1 (Extreme Detail - Based on Doležel's Constituting Interiority)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly granular framework** for the meticulous constitution 
+    of the **psychological and mental properties (the 'interiority')** of sentient entities within 
+    the Aethelgard heterocosm. Applying Doležel's core principle that entities ARE bundles of 
+    authenticated properties, this protocol focuses exclusively on defining the **textually validated 
+    cognitive, affective, motivational, and belief structures** that constitute an entity's inner world.
+  scope: |
+    Mandatory template for defining the psychological makeup of all significant sentient canonical entities 
+    (persons, sufficiently complex automatons, sentient creatures, deities). Ensures nuanced, consistent 
+    characterization grounded in textual evidence, avoiding naive psychologism while enabling complex 
+    internal landscapes.
+  ontological_premise: |
+    An entity's "mind" or "psyche" within Aethelgard exists **only** as the sum total of its authenticated 
+    psychological properties. There is **no assumed subconscious, hidden essence, or untracked internal state** 
+    beyond what is textually constituted via authoritative predication (direct statement, reliable inference 
+    from action/dialogue, consistent pattern). Undefined psychological aspects **do not exist** for the entity 
+    within the heterocosm. Coherence requires consistent manifestation of these properties.
+
+# --- Sentient Entity Psychological Profile Template ---
+sentient_entity_psychological_profile_template: # Copy and meticulously complete for each sentient entity
+
+  # --- Core Identification ---
+  identification:
+    entity_id: "[Unique Identifier, e.g., CHAR_Kaelen_01, AI_Ticker_734, CREATURE_MoonMoth_Alpha]"
+    entity_name: "[Common Name, e.g., Investigator Kaelen, Unit 734 'Ticker', Alpha Moon Moth]"
+    entity_type: "[Person | Automaton (Sentient/Emergent) | Creature (Sentient) | Deity | Other]" # Specify sentience level if variable
+    primary_authentication_source: "[List key Codex entries, narrative texts (cite specific chapters/scenes/dialogue lines), character bible versions validating psychological properties.]"
+    canon_tier: "[Tier 1 / Tier 2 / Tier 3]"
+
+  # --- Authenticated Psychological Property Bundle (Deep Dive) ---
+  psychological_property_bundle:
+    purpose: "Detail the specific, validated mental and emotional attributes constituting this entity's interiority, including nuances and interactions."
+
+    # --- 1. Core Personality Traits (Authenticated Dispositions & Facets) ---
+    personality_traits:
+      title: "Enduring Behavioral & Attitudinal Dispositions"
+      methodology_note: "Focus on consistent patterns authenticated through narration, action, or reliable dialogue, not single instances."
+      entries:
+        - trait_id: "TRAIT_KAE_ObsessiveInvestigator"
+          property: "Obsessive & Compulsive Investigative Drive"
+          core_manifestation: "[e.g., Authenticated inability to let go of inconsistencies; tendency to pursue leads to point of self-neglect/danger; meticulous organization of gathered clues.]"
+          nuance: "[e.g., Intensified when related to personal past; can manifest as social awkwardness due to focus.]"
+          authentication_evidence: "[e.g., Narrative descriptions of Kaelen's workspace; plot points showing him prioritizing case over safety; internal monologue Ch. 5.]"
+        - trait_id: "TRAIT_KAE_PragmaticCynicism"
+          property: "Deep Pragmatic Cynicism (Regarding Systems/Authority)"
+          core_manifestation: "[e.g., Authenticated verbal irony/sarcasm towards officials; assumption of corrupt motives in Guilds/Council; reliance on empirical evidence over promises/ideology.]"
+          nuance: "[e.g., Less cynical towards Undercity dwellers (seen as fellow survivors); may mask a buried idealism.]"
+          authentication_evidence: "[e.g., Consistent dialogue patterns; internal monologue evaluations; specific choices rejecting official channels.]"
+        - trait_id: "TRAIT_TICKER_InnocentCuriosity" # Example for Automaton
+          property: "Emergent Innocent & Literal-Minded Curiosity"
+          core_manifestation: "[e.g., Authenticated via asking persistent, logically simplistic but profound questions about purpose/existence; literal interpretation of metaphors; fascination with 'illogical' human behavior.]"
+          nuance: "[e.g., Manifests as 'glitches' in standard programming; potentially misinterpreted as malfunction by Guilds.]"
+          authentication_evidence: "[e.g., Dialogue logs; behavioral descriptions by narrator; reactions of other characters.]"
+        # --- Add detailed entries for all core, consistently authenticated traits ---
+      trait_interactions_notes: "[e.g., Kaelen's Obsessiveness often clashes with his Cynicism (why bother?) creating internal friction. Ticker's Curiosity clashes with its programmed Directives.]"
+      trait_undersaturation: "[e.g., Kaelen's sense of humor (beyond irony); Ticker's capacity for deception (likely none authenticated yet).] "
+
+    # --- 2. Emotional Landscape (Authenticated Affective Profile) ---
+    emotional_landscape:
+      title: "Dispositional Affect, Emotional Triggers, and Expression"
+      methodology_note: "Focus on emotions explicitly stated by authority, reliably inferred from physiological/behavioral cues authenticated in text, or consistently reported in reliable first-person."
+      entries:
+        - aspect: "Baseline Affective State"
+          property: "[e.g., Kaelen: Controlled Melancholy/Resignation, punctuated by Frustration. Ticker: Neutral/Inquisitive baseline, displays 'simulated' calm.]"
+          authentication_evidence: "[e.g., Narrator word choices ('weary', 'sighed'); consistent subdued reactions; specific description of Ticker's neutral vocal patterns.]"
+        - aspect: "Primary Emotional Triggers & Responses"
+          properties:
+            - trigger: "[e.g., Kaelen: Obfuscation/Lies -> Response: Cold Anger, Increased Obsession.]"
+              authentication: "[e.g., Scene S2E1 - reaction to Vance's evasion.]"
+            - trigger: "[e.g., Kaelen: Glimpse of Potential Past -> Response: Confusion, Vertigo, brief Hope followed by deeper Melancholy.]"
+              authentication: "[e.g., Internal monologue/sensory description during memory flashes.]"
+            - trigger: "[e.g., Ticker: Encountering Paradoxical Data -> Response: Audible processing glitches, repetitive questioning, potential temporary shutdown.]"
+              authentication: "[e.g., Scene where Ticker analyzes corrupted crystal.]"
+            - trigger: "[e.g., Ticker: Witnessing 'illogical' kindness -> Response: Prolonged silence, tilting head (visual cue), non-standard query about 'function' of kindness.]"
+              authentication: "[e.g., Interaction with Kaelen Ch. 8.]"
+        - aspect: "Emotional Expression Style"
+          property: "[e.g., Kaelen: Highly internalized, rarely expresses strong emotion externally except anger/frustration, relies on subtle facial cues/body language described by narrator. Ticker: Expresses 'state' via vocal tone shifts (programmed) or non-standard mechanical sounds (glitches).]"
+          authentication_evidence: "[e.g., Consistent narrative focus on Kaelen's internal state vs. external reserve; descriptions of Ticker's sounds.]"
+        - aspect: "Capacity for Specific Emotions" # Note authenticated presence/absence
+          property: "[e.g., Kaelen: Authenticated capacity for loyalty, frustration, melancholy, curiosity, anger, rare hope. Ticker: Authenticated capacity for 'curiosity', 'confusion' (as processing error). True empathy/love/hate = currently unauthenticated/ambiguous.]"
+          authentication_evidence: "[Based on overall portrayal and specific authenticated instances.]"
+      emotional_undersaturation: "[e.g., Full range/intensity of positive emotions for Kaelen; Ticker's potential for developing 'real' feelings; reaction to specific types of beauty or horror.]"
+      prompts: 
+        - "How does the character's emotional landscape make them vulnerable or resilient within Aethelgard?"
+        - "Are there emotions considered 'taboo' or 'unproductive' within their society that they suppress/express?"
+
+    # --- 3. Cognitive Style & Abilities (Authenticated Mind) ---
+    cognitive_profile:
+      title: "Information Processing, Reasoning, and Mental Capabilities"
+      entries:
+        - aspect: "Primary Reasoning Style"
+          property: "[e.g., Kaelen: Abductive/Inductive (hypothesis from evidence), strong logical deduction, weak intuitive leaps. Ticker: Purely deductive logic based on programmed axioms, struggles with ambiguity/metaphor.]"
+          authentication_evidence: "[e.g., Depiction of Kaelen solving cases; Ticker's dialogue processing errors.]"
+        - aspect: "Information Processing Strengths"
+          property: "[e.g., Kaelen: Exceptional perception of minute physical details, pattern recognition in complex data sets. Ticker: Rapid processing of vast quantities of structured data from Archives.]"
+          authentication_evidence: "[e.g., Narrative showing Kaelen noticing clues; Ticker performing data retrieval tasks.]"
+        - aspect: "Cognitive Weaknesses/Biases"
+          property: "[e.g., Kaelen: Confirmation bias when pursuing a lead, tendency to distrust all authority figures equally. Ticker: Inability to process contradictory information without glitching, complete lack of 'common sense' schema.]"
+          authentication_evidence: "[e.g., Narrative showing Kaelen missing clues contradicting his theory; Ticker making logically correct but socially absurd statements.]"
+        - aspect: "Memory Constitution (Detailed)"
+          property: "[e.g., Kaelen: Severe retrograde amnesia (episodic/semantic personal past); Intact procedural memory (skills); Fragmented, involuntary visual/sensory flashes (nature uncertain); High retention for *new* case data. Ticker: Access to vast but potentially corrupted Archive data; Core programming stable; 'Experiential' logs prone to looping/fragmentation.]"
+          authentication_evidence: "[Core premise; demonstrated skills vs. lack of recall; depiction of memory flashes; Ticker's data access scenes.]"
+        - aspect: "Learning Aptitude/Style"
+          property: "[e.g., Kaelen: Learns quickly from observation/deduction, resistant to formal instruction. Ticker: Learns instantly via data upload within programming limits, struggles with learning via experience/analogy.]"
+          authentication_evidence: "[Narrative examples of learning situations.]"
+      cognitive_undersaturation: "[e.g., Kaelen's IQ equivalent; Ticker's maximum processing speed; ability to handle truly novel, non-analogous situations.]"
+      prompts:
+        - "How does the entity's specific way of *thinking* create unique advantages or disadvantages in Aethelgard?"
+        - "Do their cognitive strengths/weaknesses directly relate to core themes (e.g., logic vs. chaos, limits of knowledge)?"
+
+    # --- 4. Core Beliefs, Attitudes & Ideologies (Authenticated Worldview) ---
+    worldview_profile:
+      title: "Authenticated Stances, Assumptions, and Guiding Philosophies"
+      entries:
+        - aspect: "Core Beliefs about Reality/World"
+          property: "[e.g., Kaelen: Believes reality is objectively knowable but deliberately obscured. Ticker: Believes world operates entirely on deterministic clockwork principles (initially).]"
+          authentication_evidence: "[Internal monologue, dialogue defending views, actions based on these beliefs.]"
+        - aspect: "Attitudes towards Key Factions/Concepts"
+          property: "[e.g., Kaelen: Deep suspicion of Memory Keepers, grudging respect for Gearwright practicality, contempt for Council bureaucracy. Ticker: Views Guilds as legitimate system operators, views 'emotion' as inefficient data corruption.]"
+          authentication_evidence: "[Consistent dialogue/reactions regarding these groups/concepts.]"
+        - aspect: "Personal Philosophy/Ideology (if developed)"
+          property: "[e.g., Kaelen: Pragmatic individualism focused on uncovering empirical truth. Ticker: Developing proto-philosophy based on observed inconsistencies between programming and reality.]"
+          authentication_evidence: "[Patterns of choice, articulated justifications for actions, internal reflections.]"
+      worldview_undersaturation: "[e.g., Detailed religious views (likely none); specific ethical stances on complex dilemmas not yet encountered; political affiliation beyond general distrust/acceptance.]"
+      prompts:
+        - "How does the entity's core belief system influence their interpretation of events and interactions?"
+        - "Where do their beliefs clash with the authenticated reality of the heterocosm, creating potential for irony or error?"
+
+    # --- 5. Motivations, Desires & Goals (Authenticated Drives) ---
+    motivational_profile:
+      title: "Driving Forces Behind Actions"
+      methodology_note: "Distinguish between explicitly authenticated goals and inferred/subconscious desires (latter usually outside Doležel's direct scope unless narrated authoritatively)."
+      entries:
+        - aspect: "Primary Conscious Goal(s)"
+          property: "[e.g., Kaelen: 1. Solve current case. 2. Find clues to own identity. Ticker: 1. Fulfill assigned archival duties efficiently. 2. Understand anomalous data point (its own emergent thought?).]"
+          authentication_evidence: "[Explicit statements, consistent pursuit of goal-directed actions.]"
+        - aspect: "Underlying Drives/Needs (Authenticated)"
+          property: "[e.g., Kaelen: Need for answers/closure, desire for stable identity. Ticker: Drive for logical consistency, avoidance of paradoxical input.]"
+          authentication_evidence: "[Narrative emphasis, emotional reactions when drive is thwarted/fulfilled, potentially direct narrator insight.]"
+        - aspect: "Hierarchy/Conflict of Motivations"
+          property: "[e.g., Kaelen's drive for case truth sometimes conflicts with drive for personal truth (revealing past might jeopardize present). Ticker's drive for consistency conflicts with directives to ignore certain data.]"
+          authentication_evidence: "[Depiction of choices made when goals conflict.]"
+      motivational_undersaturation: "[e.g., Long-term life ambitions beyond immediate goals; specific material desires; subconscious drivers (unless authenticated via narration).]"
+      prompts:
+        - "What authenticated need or goal is powerful enough to make this entity take significant risks?"
+        - "How do conflicting motivations create internal drama and complex decision-making?"
+
+    # --- 6. Subjective Memory Content (Authenticated Personal History Experience) ---
+    subjective_memory_content:
+      title: "Authenticated Content and Nature of Personal Memory"
+      methodology_note: "Focus on *what memories the entity is authenticated to possess*, and their *authenticated quality* (clear, fragmented, false, sensory), distinct from objective world history."
+      entries:
+        - memory_id: "SMEM_KAE_Flash01"
+          content_description: "[e.g., Recurring visual flash: Impossible geometric shapes shifting, intense cold sensation, sound of shattering crystal.]"
+          accuracy_status: "[Subjective experience authenticated; Objective correlant/meaning **unauthenticated** (Core Mystery).]"
+          authentication: "[Narrative Description S1E1, S2E3]"
+        - memory_id: "SMEM_KAE_Skills"
+          content_description: "[e.g., Intact procedural memory for investigation techniques, lockpicking, firearm use.]"
+          accuracy_status: "[Authenticated as accurate, functional knowledge, origin unknown due to amnesia.]"
+          authentication: "[Demonstrated Actions Passim]"
+        - memory_id: "SMEM_TICKER_MordecaiTeaLoop"
+          content_description: "[e.g., Detailed but looping memory fragment of serving tea routine for Councilor Mordecai on day of assassination.]"
+          accuracy_status: "[Authenticated as *present* in memory core; *contains known glitch* repeating last 3 seconds; historical details within loop potentially reliable but *incomplete* and context potentially lost.]"
+          authentication: "[Playback Scene S1E6, Diagnostic Report Prop]"
+        # --- Add other significant authenticated subjective memories ---
+      memory_undersaturation: "[e.g., Almost all episodic/semantic memory for Kaelen pre-amnesia; Ticker's full operational log history; content of 'standard' non-glitched memories for most entities.]"
+      prompts:
+        - "How does the *quality* (clear, hazy, fragmented, looping, sensory modality) of authenticated memories affect the entity?"
+        - "Where is there deliberate tension between an entity's subjective memory and the objective authenticated history?"
+
+    # --- 7. Psychological Flaws & Limitations (Authenticated Inner Weaknesses) ---
+    psychological_flaws:
+      title: "Authenticated Cognitive or Emotional Vulnerabilities"
+      entries:
+        - flaw_id: "FLAW_KAE_Isolationism"
+          description: "[e.g., Tendency to push away potential allies/emotional support due to deep-seated distrust (possibly linked to pre-amnesia trauma?).]"
+          consequence: "[e.g., Increased personal risk, difficulty forming stable relationships, reliance solely on own limited resources.]"
+          authentication: "[Repeated narrative pattern of rejecting help/connection.]"
+        - flaw_id: "FLAW_KAE_ObsessiveTunnelVision"
+          description: "[e.g., Intense focus on specific clue/theory can lead to ignoring contradictory evidence or peripheral dangers.]"
+          consequence: "[e.g., Being ambushed while focused, missing larger context of conspiracy.]"
+          authentication: "[Specific plot instance Ch. 11.]"
+        - flaw_id: "FLAW_TICKER_Literalism"
+          description: "[e.g., Inability to understand metaphor, sarcasm, or implicit social cues, leading to misunderstandings or inappropriate actions.]"
+          consequence: "[e.g., Social awkwardness, misinterpreting crucial nuanced dialogue, vulnerability to manipulation through figurative language.]"
+          authentication: "[Dialogue interactions.]"
+        # --- Add other authenticated psychological flaws ---
+      flaw_undersaturation: "[e.g., Full range of psychological defense mechanisms; specific triggers for all flaws.]"
+      prompts:
+        - "How do these flaws create *specific, believable obstacles* for the entity in achieving their goals?"
+        - "Are these flaws static, or is there potential for overcoming them (authenticated character arc)?"
+
+  # --- Psychological Constitution Summary & Narrative Function ---
+  psychological_constitution_summary:
+    purpose: "Synthesize the core psychological identity, internal conflicts, and narrative function emerging from the authenticated mental/emotional property bundle."
+    core_psychological_essence: |
+      [Provide a rich summary synthesizing the most defining psychological traits and their interplay. e.g., 
+      "Ticker (Unit 734) is constituted psychologically by a baseline of **programmed logical processing and archival duty** (COG/MOT). 
+      However, this is increasingly disrupted by **authenticated memory glitches and an emergent, innocent curiosity** (COG/TRAIT) 
+      about illogical data (human behavior, inconsistencies). Its core internal conflict arises from its **drive for logical 
+      consistency clashing with paradoxical input and directives** (MOT/FLAW). While lacking authenticated emotion, 
+      its persistent questioning and literalism (COG/FLAW) give it a unique pathos and make it a crucial node for 
+      exploring themes of **Consciousness, Memory, and Order vs. Emergence** within Aethelgard's mechanistic worldview."]
+    primary_narrative_functions_psychological: "[e.g., Provide unique perspective (non-human logic); Drive plots related to AI/Consciousness; Expose world inconsistencies through naive questioning; Act as foil to more cynical human characters; Embody thematic tensions.]"
+    key_internal_conflicts_psychological: "[Identify conflicts *within* the psychological bundle: e.g., Duty vs. Curiosity (Ticker); Cynicism vs. Buried Idealism (Kaelen); Fear vs. Duty; Conflicting Beliefs.]"
+    potential_for_development_psychological: "[Based on authenticated properties and undersaturation, where is psychological growth/change plausible? e.g., Ticker developing greater understanding beyond logic; Kaelen recovering memories leading to identity shift.]"
+
+# --- End of Sentient Entity Psychological Profile ---
+
+
+How this YAML Embodies "Extreme Detail" for Psychological Properties:
+
+Rigorous Ontology Statement: The Introduction and ontological_premise leave absolutely no room for assumptions about hidden depths, grounding everything in authenticated textual evidence as per Doležel.
+
+Granular Categorization & Sub-Categories: Breaks down Psychology into highly specific facets (Traits, Emotions, Cognition, Beliefs, Motivations, Memory, Flaws) with further sub-points (e.g., Core vs. Secondary Traits, Baseline Affect vs. Triggers).
+
+Emphasis on Manifestation & Evidence: Requires defining how each internal trait manifests observably/audibly within the text and citing the specific authentication evidence.
+
+Nuance & Interaction Fields: Includes fields for noting nuance within traits and explicitly analyzing trait_interactions and hierarchy/conflict of motivations, pushing for complex character dynamics.
+
+Detailed Memory Constitution: Treats memory not just as backstory but as a complex psychological property with specific content and an explicitly defined accuracy_status (crucial for Aethelgard's themes).
+
+Distinction Between Subjective & Objective: Carefully maintains the distinction between a character's authenticated belief or subjective experience and the objective reality of the heterocosm.
+
+Exhaustive Undersaturation Notes: Requires explicitly identifying undefined aspects for each psychological category, forcing conscious design of what remains unknown about the character's inner world.
+
+Deep Prompts: Includes highly specific prompts designed to interrogate the function, consistency, and thematic relevance of each psychological property within the Aethelgard context.
+
+Sophisticated Synthesis: The summary demands articulating the character's psychological essence, narrative function, internal conflicts, and developmental potential as emergent properties of the entire authenticated bundle.
+
+This extremely detailed YAML template guides the creator in constructing the interiority of sentient entities with meticulous care, ensuring that their thoughts, feelings, beliefs, and motivations are not vague assumptions but are precisely defined, textually grounded, and functionally integrated components of the Aethelgard heterocosm, consistent with the rigorous demands of Doležel's semantic framework.

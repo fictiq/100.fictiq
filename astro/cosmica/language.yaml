@@ -1,0 +1,207 @@
+# ============================================================
+# Story World Codex: Linguistic Constitution Protocol
+# Version: 1.0 (Based on Doležel's Linguistic Foundation)
+# Last Updated: [Current Date]
+# Keeper of the Codex: [Your Name/Studio Name]
+# World: [Your Story World Name, e.g., Aethelgard]
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol focuses on the **linguistic foundation** of world-building within the 
+    [Your Story World Name] heterocosm. Inspired by Doležel's framework, it recognizes 
+    that imagination becomes a shared fictional world only through **specific, authenticated 
+    textual propositions**. Every authoritative description, action, or rule functions 
+    as **constitutive predication**, actively building the world's reality.
+  focus: |
+    Consciously analyze and refine the **world-making power of word choices**. How does 
+    language *authenticate* existence, properties, relations, laws, states, and history? 
+    How does style contribute to the world's perceived texture and reality?
+
+# --- I. Authentication Through Authoritative Predication: The Power Word ---
+authentication_via_predication:
+  purpose: |
+    To explicitly identify and refine the core linguistic assertions that establish 
+    fundamental truths about the world, treating predication as a constitutive act.
+  
+  principles_examples:
+    - principle_id: "Magic_Cost"
+      principle_description: "Magic exacts a toll on the user."
+      authenticating_predicates:
+        - predicate: "'All magic *exacts* a toll, measured in vitality or sanity.'"
+          source_type: "Direct Narration / World Rule Statement"
+        - predicate: "'The ancient texts *warned* of the Soul-Burn inherent in temporal manipulation.'"
+          source_type: "In-World Document Snippet (authentication depends on document's status)"
+        - predicate: "'She felt the familiar *draining cold* spread through her veins as the spell took hold.'"
+          source_type: "Sensory Description linked to Action (implicit authentication of cost)"
+      linguistic_strategy_notes: "Using definitive verbs ('exacts'), modal implications ('warned'), sensory details linking cause/effect."
+      intended_effect: "Establish clear stakes/limits for magic; ground fantasy element; create source of conflict/limitation."
+
+    - principle_id: "City_Nature_Aethelgard"
+      principle_description: "Aethelgard is a city of decay, rebuilding, and mechanical complexity."
+      authenticating_predicates:
+        - predicate: "'Aethelgard *is* a city built on layers of its own forgotten past, forever rebuilding.'"
+          source_type: "Narrative Statement (Authoritative)"
+        - predicate: "'Gears *grind* incessantly beneath the streets; steam *hisses* from countless vents.'"
+          source_type: "Sensory Description (Establishing atmosphere & function)"
+        - predicate: "'Its inhabitants *are* masters of repair, finding beauty in the meticulously mended.'"
+          source_type: "Predicating Cultural Property"
+      linguistic_strategy_notes: "Present tense for ongoing state; strong sensory verbs; defining predicates for culture."
+      intended_effect: "Establish core themes (decay/resilience); define steampunk atmosphere; ground setting identity."
+
+    - principle_id: "Automaton_Status"
+      principle_description: "Automatons are prevalent laborers with ambiguous status."
+      authenticating_predicates:
+        - predicate: "'Automatons *perform* ninety percent of hazardous labor.'"
+          source_type: "Factual Statement (Authoritative)"
+        - predicate: "'Legally, they *are considered* Guild property, without rights.'"
+          source_type: "Deontic/Social Predicate (Authoritative)"
+        - predicate: "'Yet, some older units *exhibit* perplexing glitches resembling nascent emotions.'"
+          source_type: "Ambiguous/Intriguing Predicate (Authoritative Hint)"
+      linguistic_strategy_notes: "Mixing factual, legal/social, and ambiguous predicates to create complexity."
+      intended_effect: "Establish function, define social standing, introduce core conflict/mystery (consciousness)."
+
+  prompts:
+    - "What are the 5-10 most fundamental truths? Phrase them as concise, authoritative predicates."
+    - "What key verbs best capture the world's essential mechanics/states (e.g., *drains*, *stutters*, *controls*, *decays*)?"
+    - "Is the authentication source clear and reliable for each core principle (direct narration, consistent depiction, reliable in-world source)?"
+
+# --- II. Constituting Entities via Linguistic Bundles ---
+entity_constitution_linguistic:
+  purpose: |
+    To consciously build entities by defining their core properties through specific, 
+    evocative language, recognizing words as the building blocks of fictional being.
+  
+  entity_examples:
+    - entity_id: "CHAR_Kaelen_01"
+      core_constitutive_predicates:
+        - predicate: "Kaelen's memory *is* a fractured mirror, reflecting only sharp, disconnected shards." 
+          linguistic_notes: "Metaphorical predicate establishing core trait; emphasizes brokenness, visual."
+        - predicate: "His movements *are* precise, economical, betraying years of training his mind cannot recall." 
+          linguistic_notes: "Physical property implying history; contrasts internal/external."
+        - predicate: "He *possesses* an unnerving ability to notice minute inconsistencies." 
+          linguistic_notes: "Functional property; verb 'possesses' suggests inherent trait."
+        - predicate: "The City Watch uniform he wears *hangs* slightly loose, as if borrowed." 
+          linguistic_notes: "Visual detail implying alienation/misfit status; verb 'hangs' suggests passivity."
+        - predicate: "His voice *is* a low monotone, rarely betraying the turmoil suggested by his restless eyes." 
+          linguistic_notes: "Auditory/Visual contrast; 'rarely betraying' implies hidden depth authenticated by visual cue."
+      overall_linguistic_strategy: "Use evocative metaphors, contrasts, precise verbs/adjectives to build character essence linguistically."
+
+    - entity_id: "LOC_Undercity_Chimefall"
+      core_constitutive_predicates:
+        - predicate: "The Chimefall *is* a gaping wound in the city's underbelly, a collapsed clock tower choked with debris and temporal residue." 
+          linguistic_notes: "Personification ('wound'); strong visual/olfactory implications ('choked'); defines nature and state."
+        - predicate: "Gravity *feels* unreliable here; perspective *shifts* dizzily." 
+          linguistic_notes: "Predicating localized alethic instability via authenticated sensory effect; verbs emphasize instability."
+        - predicate: "Broken clockwork fragments *litter* the ground, occasionally emitting *discordant, phantom chimes*." 
+          linguistic_notes: "Specific sensory detail (visual/auditory) linking location to history/theme; 'phantom' suggests temporal echo."
+        - predicate: "The air *tastes* of ancient dust, rust, and the sharp tang of raw Chrono-Dust." 
+          linguistic_notes: "Direct olfactory/gustatory atmosphere predication."
+        - predicate: "It *is rumored* to be a nexus for Temporal Aberrations." 
+          linguistic_notes: "Authenticates the rumor/reputation itself, creating suspense without confirming fact."
+      overall_linguistic_strategy: "Employ strong sensory verbs, personification, and predicates establishing both physical state and associated phenomena/reputation."
+
+  prompts:
+    - "For each key entity, what are the 3-5 essential predicates defining its core nature linguistically?"
+    - "What specific adjectives, verbs, metaphors most powerfully capture its essence within the world's tone?"
+    - "How does the language used *about* the entity reinforce its function or themes?"
+    - "Are predicates establishing objective properties clearly distinct from those establishing subjective perception or reputation?"
+
+# --- III. Weaving the Semantic Network: Language of Relation ---
+semantic_network_linguistic:
+  purpose: |
+    To consciously use language to establish the crucial connections between entities, 
+    building the world's structure through relational predicates.
+  
+  relation_examples:
+    - relation_id: "Guild_Control_Dust"
+      description: "Relationship between Guilds and Chrono-Dust resource."
+      authenticating_predicates:
+        - predicate: "The Chronometers Guild *claims* exclusive rights to Dust refinement." 
+          relation_type: "Social/Political/Economic Control"
+        - predicate: "Access to refined Dust *is granted* only via Guild permits." 
+          relation_type: "Deontic/Economic Restriction"
+        - predicate: "Gearwright automatons *depend entirely upon* Chronometer fuel cores." 
+          relation_type: "Technological/Economic Dependency"
+      linguistic_strategy_notes: "Verbs defining control ('claims', 'granted'), restriction, dependency."
+      intended_effect: "Establish core power dynamic, inter-Guild tension, economic structure."
+
+    - relation_id: "Kaelen_Relation_Past"
+      description: "Investigator Kaelen's connection to his unknown history."
+      authenticating_predicates:
+        - predicate: "Fragments of memory *haunt* Kaelen, triggered by specific sensory stimuli." 
+          relation_type: "Internal Character Relation (Present Self to Past Self/Memory)"
+        - predicate: "He *is driven by* an obsessive need to uncover his origins." 
+          relation_type: "Motivational Relation (Character to Mystery)"
+        - predicate: "The Memory Keepers' archives *may hold* the key, but *are inaccessible* to him." 
+          relation_type: "Spatial/Political Relation (Character to Potential Solution/Obstacle)"
+      linguistic_strategy_notes: "Personification ('haunt'); verbs of motivation ('driven by'); predicates defining access/restriction."
+      intended_effect: "Establish core motivation, link personal mystery to world structures, create obstacles."
+
+  prompts:
+    - "What verbs best describe key relationships (dominates, depends on, opposes, connects to, originates from, located near)?"
+    - "How do spatial prepositions ('beneath', 'beyond', 'within') linguistically establish structural relationships?"
+    - "How does causal language ('because of', 'leading to', 'prevented by') build the network across time?"
+    - "Is the language used to authenticate relations clear, or does it intentionally create ambiguity?"
+
+# --- IV. Style as World Texture: Authenticating Atmosphere via Language ---
+style_as_authentication:
+  purpose: |
+    To consciously consider how stylistic choices (word choice, sentence structure, 
+    rhythm, narrative voice) contribute to authenticating the world's sensory 
+    and atmospheric properties, treating style as a constitutive element.
+
+  style_elements_examples:
+    - tone_element: "Melancholy Decay"
+      linguistic_style_choices:
+        word_choice: "Frequent use of: verdigris, tarnished, sodden, crepuscular, wan, decaying, rust, dust, shadow, echo, fragment."
+        sentence_structure: "Tendency towards longer, complex sentences mirroring intricate decay; occasional fragments for brokenness."
+        imagery_metaphor: "Comparisons to old machines, fading photographs, rain-stained walls, slow drips, dust settling."
+      authenticated_effect: "Reinforces themes (legacy, imperfection); creates pervasive mood; makes world *feel* old, weary, beautiful in its brokenness."
+
+    - tone_element: "Clockwork Precision / Temporal Unease"
+      linguistic_style_choices:
+        word_choice: "Juxtaposition of precise terms (synchronize, calibrated, escapement) with instability terms (stutter, glitch, fracture, paradox)."
+        sentence_structure: "Mix of short, declarative sentences (mechanical certainty) and sentences with jarring shifts or embedded loops (temporal disruption)."
+        rhythm: "Use of rhythmic repetition (ticking, grinding) contrasted with sudden arrhythmic breaks."
+      authenticated_effect: "Establishes steampunk aesthetic; creates underlying tension (order vs. chaos); makes world *sound/feel* like complex, unstable machine."
+
+  prompts:
+    - "Create a short lexicon (10-20 words) unique or essential to evoking your world's sensory reality."
+    - "How can sentence length/rhythm be used consistently to reflect the world's pace (e.g., relentless ticking vs. slow decay vs. jarring anomaly)?"
+    - "What recurring metaphors drawn from the world's core concepts (clocks, dust, memory, rust) can linguistically reinforce its identity?"
+    - "How does the chosen narrative voice (e.g., cynical noir P.I., detached historian, wondrous observer) linguistically authenticate the world's tone?"
+
+# --- V. Conclusion: The World Forged in Syntax and Semantics ---
+conclusion:
+  summary: |
+    This protocol emphasizes creation as linguistic articulation. The [Your Story World Name] 
+    heterocosm emerges from **precise, authoritative, evocative language** used to 
+    predicate existence, define entities, establish relations, dictate laws, and paint 
+    sensory reality.
+  final_check_prompt: |
+    Review core documents: Is the language actively **constituting** the intended world? 
+    Is it **authenticating** reality clearly and consistently? Is the **style reinforcing** 
+    the substance? Treat every word as a potential building block of your heterocosm.
+
+# ============================================================
+# End of Linguistic Constitution Protocol v1.0
+# ============================================================
+
+
+How this YAML Functions:
+
+Direct Language Focus: Each section prompts you to consider the specific words, sentence structures, and stylistic choices that perform the act of authentication.
+
+Examples as Linguistic Acts: The examples focus on the phrasing used to establish facts or properties ("is a fractured mirror," "gears grind," "claims exclusive rights").
+
+Strategy Explicit: Includes fields for linguistic_strategy_notes to encourage conscious reflection on how language is being used to achieve effects.
+
+Style Integrated: Formally incorporates stylistic analysis as part of the world-authentication process.
+
+Theory Grounded: Keeps the core Doležel-inspired ideas (authentication, predication, heterocosm as semantic construct) central while focusing on their linguistic implementation.
+
+This YAML template serves as a tool to help you, the creator, be highly intentional about the language you use, recognizing that in the world of fiction, words don't just describe reality – they actively forge it.
+
+

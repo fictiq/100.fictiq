@@ -1,0 +1,252 @@
+# ============================================================
+# Story World Codex: Place Constitution Protocol (Environment as Entity)
+# Version: 1.1 (Extreme Detail - Based on Doležel's Place Ontology)
+# Last Updated: [Current Date]
+# Keeper of the Codex / Central Authority Secretariat: [Specify Role/Name]
+# World: Aethelgard
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol provides an **advanced, highly detailed framework** for the meticulous definition 
+    of **Fictional Places** (locations, settings, environments) within the Aethelgard heterocosm. 
+    Applying Doležel's ontology, it treats places not as passive backdrops, but as **complex entities 
+    constituted by extensive bundles of authenticated properties** across multiple dimensions.
+  scope: |
+    Mandatory template for defining all significant canonical locations, from specific rooms or structures 
+    to entire districts, regions, or even conceptual spaces. Ensures environments are richly textured, 
+    functionally integrated, historically grounded, sensorially vivid, thematically resonant, and 
+    internally coherent according to world rules.
+  ontological_premise: |
+    A place within Aethelgard **IS** its authenticated property bundle. Its perceived reality, atmosphere, 
+    functionality, hazards, and significance derive solely from the **semantic information validated** 
+    by the authoritative narrative discourse (Codex & primary texts). It possesses no inherent substance 
+    or properties beyond its textual constitution and is necessarily undersaturated.
+
+# --- Place Profile Template ---
+place_profile_template: # Copy and meticulously complete for each significant location
+
+  # --- Core Identification & Status ---
+  identification:
+    entity_id: "[Unique Identifier, e.g., LOC_GearwrightQuarter, LOC_Chimefall_Deep, LOC_VancesPrivateLab, LOC_Temporal_GlitchMare]"
+    entity_name: "[Common Name(s) / Aliases, e.g., Gearwright's Quarter ('The Forge'), The Chimefall Deeps, Vance's Sanctum, The Glitch Mare]"
+    entity_type: "Place"
+    place_subtype: "[e.g., City District, Subterranean Ruin Network, Secure Interior, Anomalous Zone, Planetary Region, Conceptual Space]" # Specify type
+    primary_authentication_source: "[List key Codex entries, narrative descriptions (cite specific passages), map references, design documents, sensory palette guides.]"
+    canon_tier: "[Tier 1 / Tier 2 / Tier 3]"
+    authentication_status: "[Authenticated_Canonical_Exists | Authenticated_Canonical_Historical (Ruined/Lost) | Legendary_Location | Rumored_Location | etc.]"
+
+  # --- Authenticated Property Bundle for Place (Extreme Detail) ---
+  property_bundle_place:
+    purpose: "Detail the specific, validated properties constituting this place's reality, function, and atmosphere within the heterocosm."
+
+    # --- 1. Physical & Spatial Properties (The Tangible Environment & Sensory World) ---
+    physical_spatial_properties:
+      title: "Geography, Architecture, Climate, and Sensory Constitution"
+      subcategories:
+        - category: "Macro-Geography & Topology"
+          properties:
+            - property: "[e.g., Location within Aethelgard: Occupies the second concentric ring, bordering Brass Market and Outer Decay sectors.]"
+            - property: "[e.g., Relative Position: Situated directly beneath the collapsed Sector Gamma; Access points are hidden/treacherous.]"
+            - property: "[e.g., Boundaries & Extent: Covers approx. 8 sq km, defined by fortified Guild walls; Extends to unknown depths, known mapped area limited; Single shielded chamber within larger complex.]"
+            - property: "[e.g., Core Topography: Dense urban grid overlying older industrial foundations; Natural caverns interwoven with artificial tunnels and collapsed structures; Austere laboratory layout.]"
+          authentication: "[Map Refs, Narrative Descriptions]"
+        - category: "Architecture & Materials"
+          properties:
+            - property: "[e.g., Dominant Style: Utilitarian-Industrial Steampunk, heavy emphasis on exposed iron/brass, functionality over aesthetics; Mix of crumbling Artificer synthetics, crude Salvager reinforcements, natural cave formations; High-security Chronometer minimalist design.]"
+            - property: "[e.g., Key Materials & Textures: Soot-stained brick, corrugated iron (often rusted/patched), heavy timber supports, greasy cobblestones, pervasive brass piping (tactile: gritty/oily/hot/cold); Damp limestone, slick fungal growths, jagged ferrocrete shards, smooth Artificer alloy fragments (tactile: damp/cold/sharp/smooth); Polished steel walls, seamless chrono-glass viewports, sound-dampening polymer flooring (tactile: cold/smooth/silent).]"
+            - property: "[e.g., State of Repair/Decay: Constant state of heavy use, visible wear, ongoing crude repairs, layers of industrial grime; Extreme decay, structural instability, active water damage, areas reclaimed by Undercity flora/fauna; Pristine, sterile, maintained meticulously.]"
+          authentication: "[Visual Guides, Narrative Descriptions]"
+        - category: "Climate & Atmosphere (Physical)"
+          properties:
+            - property: "[e.g., Micro-Climate: Significantly hotter near foundries/Steamworks, poor air circulation leading to stagnant smog pockets; Consistently cold, high humidity, stagnant air, frequent condensation/dripping; Artificially climate-controlled, precisely regulated temperature/humidity, filtered air.]"
+            - property: "[e.g., Ambient Light Conditions: Dominated by artificial light (gas lamps, arc welders, lumen-globes) casting harsh shadows, often obscured by smoke/steam; Near total darkness broken by specific bioluminescence, salvage lamps, temporal anomaly glows; Cool, indirect, precisely controlled lumen-panel lighting.]"
+            - property: "[e.g., Precipitation/Particulates: Subject to heavy acid rain/industrial fallout; Constant dampness, dripping water, airborne fungal spores, high concentration of raw Chrono-Dust in certain pockets; Dust-free filtered environment.]"
+          authentication: "[Environmental Codex Entries, Sensory Palette Guide, Narrative Descriptions]"
+        - category: "Dominant Sensory Signatures (Sound, Smell, Taste)" # Combine for atmosphere
+          properties:
+            - property: "[e.g., Soundscape: Overwhelming industrial cacophony (hammers, grinders, steam, sirens), shouting workers, clockwork rhythms; Eerie silence, dripping water, distant rumbles, skittering/unidentifiable creature sounds, potential temporal echoes/whispers; Near-absolute silence, low electronic hums, soft clicks of security mechanisms.]"
+            - property: "[e.g., Olfactory Profile: Coal smoke, hot metal, ozone, lubricants, cooked food stalls, sweat, chemical runoff; Mold, decay, stagnant water, rust, unique fungal scents (earthy/sweet/noxious), Aberration musk (ozone/rot); Sterile antiseptics, ozone from equipment, faint metallic tang of purified air.]"
+            - property: "[e.g., Ambient Taste (Air): Acrid/sooty/metallic; Damp/earthy/mineral-heavy/sometimes spore-tinged; Neutral/filtered/sterile.]"
+          authentication: "[Sensory Palette Guide, Narrative Descriptions]"
+      physical_undersaturation_notes: "[e.g., Exact floor plan of every building; precise chemical composition of pollution; full Undercity tunnel network map; specific air filtration system specs.]"
+      prompts_physical:
+        - "How does the *sensory experience* of this place immediately communicate its function, status, and danger level?"
+        - "What specific physical details differentiate it sharply from other locations in Aethelgard?"
+        - "How do the physical properties create specific *challenges* or *opportunities* for characters moving through or interacting with it?"
+
+    # --- 2. Functional Properties (Place's Role, Resources, Hazards, Operations) ---
+    functional_properties:
+      title: "Operational Role, Affordances, and Constraints"
+      subcategories:
+        - category: "Primary Designated Function"
+          properties:
+            - property: "[e.g., Aethelgard's primary center for heavy industry and Automaton manufacturing.]"
+            - property: "[e.g., Unregulated source zone for hazardous but potentially valuable Pre-Shattering salvage and raw Chrono-Dust.]"
+            - property: "[e.g., Master Vance's highly classified laboratory for experimental (potentially forbidden) temporal research.]"
+            - property: "[e.g., A persistent zone of extreme temporal instability, acting as a barrier and source of Aberrations.]"
+          authentication: "[Source - World Overview, Faction Profiles, Narrative Context]"
+        - category: "Resource Availability / Production Output"
+          properties:
+            - property: "[e.g., Produces authenticated quantities of standard clockwork parts, basic automatons, steam power (via Great Steamworks).]"
+            - property: "[e.g., Contains authenticated pockets of Raw Chrono-Dust, salvageable Artificer materials (rare, dangerous to acquire), unique biological reagents (fungi).]"
+            - property: "[e.g., Houses unique research prototypes, restricted Guild data archives, advanced fabrication tools.]"
+          authentication: "[Source - Economic/Tech Docs, Lore Entries]"
+        - category: "Inherent Hazards & Dangers (Beyond baseline Aethelgard)"
+          properties:
+            - property: "[e.g., High risk of industrial accidents (malfunctioning machinery, explosions); severe air/water pollution; heavy Guild security/enforcement presence.]"
+            - property: "[e.g., Extreme structural instability (collapses); frequent high-intensity temporal anomalies; high density of hostile Aberrations/mutated creatures; rival Salvager crews.]"
+            - property: "[e.g., Lethal automated defense systems; cognitive/sensory intrusion detection fields; risk of experimental containment failure; immediate memory-wipe/termination for unauthorized access.]"
+            - property: "[e.g., Constant, unpredictable reality distortion; guaranteed Temporal Sickness upon prolonged exposure; high probability of direct Aberration manifestation.]"
+          authentication: "[Source - Environmental/Hazard Protocols, Narrative Depictions]"
+        - category: "Movement, Access & Navigation Logic"
+          properties:
+            - property: "[e.g., Access controlled by authenticated Gearwright checkpoints requiring specific permits/tolls; dense layout makes navigation complex; cog-rail network provides rapid transit *within* district.]"
+            - property: "[e.g., Requires specialized gear (rebreathers, anomaly detectors, climbing tools); navigation relies on unreliable maps/Salvager knowledge; pathways constantly shift due to collapses/anomalies.]"
+            - property: "[e.g., Access requires multi-layered biometric and chrono-signature clearance authenticated only to Vance/Inner Circle; internal layout designed to confuse/trap intruders.]"
+          authentication: "[Source - Location Design Docs, Narrative Descriptions of Movement]"
+        - category: "Specific Enabling Functions"
+          properties:
+            - property: "[e.g., Provides only location capable of forging specific high-tensile alloys.]"
+            - property: "[e.g., Contains the only known stable 'temporal echo chamber' suitable for certain types of Chrono-Viewing.]"
+            - property: "[e.g., Lab's power core can allegedly create city-wide temporal pulses (if activated).]"
+          authentication: "[Source - Tech Lore, Plot Information]"
+      functional_undersaturation_notes: "[e.g., Full list of industrial outputs; complete Undercity hazard map; exact security protocols for Vance's lab; precise mechanics of Glitch Mare distortion.]"
+      prompts_functional:
+        - "What unique actions are *only* possible within this place due to its authenticated functions?"
+        - "What standard actions become *impossible* or *extremely dangerous* here due to its inherent hazards or constraints?"
+        - "How does the place's function directly serve or impede the goals of key factions/characters?"
+
+    # --- 3. Social & Political Properties (Place within Human Systems) ---
+    social_political_properties:
+      title: "Jurisdiction, Inhabitants, Culture, and Reputation"
+      subcategories:
+        - category: "Jurisdiction & Control"
+          properties:
+            - property: "[e.g., Sovereign territory of the Gearwrights Guild, Council authority nominal.]"
+            - property: "[e.g., Unclaimed/Contested territory, outside formal law, subject to Salvager crew dominance.]"
+            - property: "[e.g., Top-secret Chronometer facility, existence officially denied by Council.]"
+          authentication: "[Source - Political Map Prop, Faction Profiles]"
+        - category: "Primary Inhabitants & Demographics"
+          properties:
+            - property: "[e.g., Overwhelmingly Gearwright members and contracted Unguilded laborers; High Automaton population.]"
+            - property: "[e.g., Sparse population of hardened Salvagers, outcasts, specific adapted creatures; Transients seeking salvage/hiding.]"
+            - property: "[e.g., Master Vance, small team of elite, highly vetted researchers, specialized security Automatons.]"
+          authentication: "[Source - Narrative Descriptions, Faction Info]"
+        - category: "Local Culture & Social Norms"
+          properties:
+            - property: "[e.g., Culture emphasizes pragmatism, hard work, mechanical skill, Guild loyalty; Loud, boisterous social interactions common.]"
+            - property: "[e.g., Culture prioritizes survival, crew loyalty, suspicion of outsiders, practical knowledge; Communication often terse/coded.]"
+            - property: "[e.g., Culture of extreme secrecy, intellectual hierarchy, emotional detachment, adherence to scientific protocol.]"
+          authentication: "[Source - Faction Profiles, Dialogue Patterns, Narrative Observations]"
+        - category: "Social Significance & Reputation"
+          properties:
+            - property: "[e.g., Known as the 'Heartbeat of Aethelgard' (propaganda) OR the 'Smokestack Slums' (derogatory).]"
+            - property: "[e.g., Feared as a 'Death Trap' / 'Monster Warren'; Romanticized by some as 'Last Free Place' / 'Treasure Trove'.]"
+            - property: "[e.g., Subject of wild rumors; Symbol of Guild overreach/dangerous knowledge.]"
+          authentication: "[Source - In-world media props, Character dialogue reflecting common views]"
+      social_undersaturation_notes: "[e.g., Detailed demographics of each district; specific social rituals; nuances of inter-crew politics in Undercity.]"
+      prompts_social:
+        - "How does the social/political nature of this place dictate how characters must behave or interact within it?"
+        - "What unique social conflicts or alliances are *only* possible because of this place's specific status and inhabitants?"
+
+    # --- 4. Historical Properties (Place's Connection to the Past) ---
+    historical_properties:
+      title: "Authenticated Origins, Past Events, and Temporal Layers"
+      # Refer to Historical Authentication Protocol for detailed events; focus here on place-specific properties.
+      properties:
+        - property_id: "HIST_PLACE_01"
+          attribute: "Authenticated Origin / Age"
+          value: "[e.g., Core structures date to Mid-Reconstruction, built over hastily cleared Dark Year shanties; Section contains confirmed Pre-Shattering Artificer foundations beneath Guild layers; Facility purpose-built secretly 5 years ago.]"
+          authentication: "[Source - Architectural surveys, Historical records]"
+        - property_id: "HIST_PLACE_02"
+          attribute: "Site of Significant Past Event(s)"
+          value: "[e.g., Location of HIST_Event_GearwrightStrike of 252 AR; Epicenter of HIST_Event_UndercityCollapse; Location where HIST_Figure_Mordecai was assassinated.]"
+          authentication: "[Source - Master Timeline, Historical records]"
+        - property_id: "HIST_PLACE_03"
+          attribute: "Visible Physical History / Layers"
+          value: "[e.g., Architecture shows distinct phases of expansion/repair; Ruins contain artifacts from multiple eras; Lab walls incorporate salvaged panels bearing Artificer markings.]"
+          authentication: "[Source - Visual descriptions, Archaeological report prop]"
+        - property_id: "HIST_PLACE_04"
+          attribute: "Lingering Historical Effects (Non-Physical)"
+          value: "[e.g., Strong cultural memory of past strike influences current labor relations; Site carries heavy stigma/fear due to past disaster; Location considered 'haunted' by past events (axiological/psychological legacy).]"
+          authentication: "[Source - Social analysis, Character testimony/folklore]"
+      historical_undersaturation: "[e.g., Full architectural history of every building; specific events occurring during uneventful periods.]"
+      prompts_history:
+        - "How does the *visible* or *known* history of this place affect how characters perceive and interact with it now?"
+        - "Are there historical *secrets* embedded within the place waiting to be discovered?"
+
+    # --- 5. Atmospheric & Affective Properties (The 'Feeling' of Place) ---
+    atmospheric_affective_properties:
+      title: "Authenticated Mood and Subjective Environmental Impact"
+      # Focus on the overall *feeling* authenticated for the place itself
+      properties:
+        - property_id: "ATMOS_PLACE_01"
+          attribute: "Dominant Mood/Atmosphere"
+          value: "[e.g., Oppressive & Relentless (Forge); Claustrophobic & Threatening (Deeps); Sterile & Tense (Lab); Unpredictable & Mind-bending (Mare).]"
+          authentication: "[Consistent Narrator Description focusing on evocative sensory details and character reactions presented as typical.]"
+        - property_id: "ATMOS_PLACE_02"
+          attribute: "Key Affective Triggers"
+          value: "[e.g., Constant industrial noise induces fatigue/stress; Perpetual darkness/silence fosters paranoia; Extreme orderliness feels dehumanizing; Sensory chaos induces panic/disorientation.]"
+          authentication: "[Narrative showing consistent character reactions linked to specific stimuli.]"
+      atmospheric_undersaturation: "[How atmosphere shifts minutely with time of day/weather unless specified; individual variations in reaction beyond the norm.]"
+      prompts_atmosphere:
+        - "What specific sensory details (authenticated in Physical section) contribute most strongly to this place's overall authenticated atmosphere?"
+        - "How does the atmosphere actively function as an obstacle or influence on character psychology/decision-making?"
+
+    # --- 6. Modal & Axiological Properties (Place's Special Status) ---
+    modal_axiological_properties_place:
+      title: "Unique Status Regarding World Laws and Values"
+      properties:
+        - property_id: "MODAL_PLACE_01" # Alethic/Deontic Example
+          attribute: "Sanctuary Status (Authenticated)"
+          value: "[e.g., PLACE_OldTempleRuins - Authenticated that violence within its walls triggers immediate, severe temporal backlash (Alethic consequence); Recognized by most factions as neutral ground (Deontic agreement).]"
+          authentication: "[Source - Historical lore, narrative demonstration of consequences.]"
+        - property_id: "MODAL_PLACE_02" # Axiological Example
+          attribute: "Inherently Corrupted Zone (Authenticated)"
+          value: "[e.g., PLACE_GlitchMare - Authenticated as inherently inimical to stable reality/life (Axiological disvalue based on world cosmology); prolonged exposure causes authenticated negative transformations.]"
+          authentication: "[Source - Consistent negative effects, high authority description.]"
+      modal_axiological_undersaturation: "[Most locations presumed to operate under standard modalities unless explicitly given special status.]"
+      prompts_modal_axiology:
+        - "Does this place operate under *different fundamental rules* than the rest of Aethelgard? How is this exception authenticated and constrained?"
+        - "Does the world's internal value system assign an objective 'good' or 'evil' status to this place?"
+
+  # --- Place Constitution Summary & Narrative Function ---
+  place_constitution_summary:
+    purpose: "Synthesize the core identity, systemic role, and narrative function of the place emerging from its complete authenticated property bundle."
+    core_environmental_essence: |
+      [Provide a rich summary synthesizing defining properties. e.g., 
+      "The Gearwright's Quarter IS constituted as Aethelgard's **grinding, polluted heart** (PHYSICAL/SENSORY), 
+      a place of **immense functional importance** (industrial production - FUNCTIONAL) but **significant 
+      environmental and social cost**. Its reality is defined by the **cacophony of machinery**, the **acrid smell 
+      of industry**, the **visual language of pragmatic repair over aesthetic grace**, and the **rigid social 
+      order** imposed by the Gearwright Guild (SOCIAL/DEONTIC). Historically rooted in the **Age of Reconstruction** 
+      (HISTORICAL), it embodies the theme of **Order forged through relentless, potentially dehumanizing, 
+      mechanization** (THEMATIC/AXIOLOGICAL)."]
+    primary_narrative_functions_served: "[List key roles: e.g., Primary setting for industrial plots; Source of essential tech/conflict; Represents a major faction's power base; Embodies specific themes visually/sensorially; Creates specific environmental challenges.]"
+    key_interactions_with_entities: "[How does place fundamentally shape experience for those within? e.g., Limits movement, exposes to hazards, dictates social interactions based on Guild control, provides necessary resources/employment.]"
+    thematic_resonance_summary: "[How does the place's total constitution explore core themes? e.g., Directly embodies Order vs. Chaos (industry vs. pollution/decay), Progress vs. Consequence, potentially Beauty in Imperfection (in repaired machinery).]"
+
+# --- End of Place Profile ---
+
+
+How this YAML Embodies "Extreme Detail" for Place Constitution:
+
+Highly Granular Properties: Breaks down Physical properties into extremely specific subcategories covering form, material, texture, color, light, state, sound, smell, taste, atmosphere. Functional properties detail purpose, resources, hazards, access logic. Social properties cover jurisdiction, inhabitants, culture, reputation. Historical properties cover origin, past events, physical traces, legacy effects. Modal/Axiological properties define special status.
+
+Emphasis on Sensory Authentication: Mandates defining the dominant sensory signatures across multiple modalities (Soundscape, Olfactory Profile, Visual Palette, Tactile Feel, Ambient Taste, Atmospheric Feeling) as core authenticated properties.
+
+Explicit Connection to Function/Theme: Requires articulating the narrative function and thematic contribution for each major property category and in the final summary.
+
+Rigorous Authentication Citation: Maintains the requirement to cite sources for authenticated properties.
+
+Deep Prompts: Includes highly specific prompts within each section pushing for detailed consideration of sensory experience, functional implications, social dynamics, historical layers, and thematic resonance related specifically to the place.
+
+Undersaturation Management: Requires acknowledging undefined aspects within each major category.
+
+Systemic Integration Focus: Encourages analyzing the place not just as a container, but as an active system component with specific inputs, outputs, hazards, resources, and influences on inhabitants.
+
+Rich Synthesis: Demands a comprehensive summary articulating the place's core essence, function, interactions, and thematic role based on the entirety of its complex property bundle.
+
+This extremely detailed YAML provides a robust framework for designing fictional locations as rich, multifaceted entities fully integrated into the Aethelgard heterocosm, ensuring they possess the depth, coherence, and sensory reality required for profound narrative impact and audience immersion.

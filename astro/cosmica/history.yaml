@@ -1,0 +1,253 @@
+
+# ============================================================
+# AETHELGARD - Story World Codex: Historical Authentication Protocol
+# Version: 1.0 (Integrated Sensory History)
+# Based on Doležel's Heterocosmica III.B.V.III
+# Last Updated: [Current Date]
+# Keeper of the Codex: [Your Name/Studio Name]
+# ============================================================
+
+# --- Introduction ---
+introduction:
+  purpose: |
+    This protocol guides the definition of the historical dimension of the Aethelgard heterocosm. 
+    Following Doležel's principles, the world's past exists only as **constituted through authenticated predication** 
+    within the narrative framework (prose, script, game design, this Codex). History is not discovered, 
+    but **textually constructed and validated**. 
+    This version emphasizes weaving **extreme, evocative sensory details** into the authentication 
+    of history, focusing on how the past *feels, sounds, smells, looks*, and *lingers* within the narrative present.
+  focus_note: |
+    History is not just recorded; it leaves sensory traces. Define key events, eras, and figures by their 
+    authenticated facts AND their **perceptible sensory legacy**. Use comments `#` for nuances, 
+    subjective interpretations vs. authenticated reality, or areas deliberately left sensorially vague.
+
+# --- I. Foundational Historical Principles & Core Mysteries (Sensory Resonance) ---
+foundational_principles_and_mysteries:
+  purpose: |
+    Define the overarching historical trajectory and the central historical questions driving engagement, 
+    grounding them in sensory potential and authenticated legacy.
+  
+  key_historical_eras:
+    # --- Mythic Age ---
+    - era_name: "The Mythic Age (Pre-Shattering)"
+      authentication_status: "Legendary / Fragmentary / Heavily Mythologized"
+      key_authenticated_feature: "Existence of 'Great Artificers'; Moon 'Aethel' was whole and stable."
+      sensory_legacy_rumored: |
+        Legends speak of cities *gleaming* with soft, internal light unlike harsh lumen-globes; air that *hummed* with clean energy, not grinding gears; technology that *felt* warm, organic, responsive to touch; a pervasive sense of *effortless harmony* contrasted with the current world's *grinding effort* and *sensory dissonance*.
+      authentication_source: "Myths passed down (often distorted); disputed ancient texts (e.g., 'Artificer Cantos'); interpretation of anomalous ruins (smoothness, resonance)."
+      
+    # --- The Shattering ---
+    - era_name: "The Shattering (Year Zero)"
+      authentication_status: "Fact of Occurrence Authenticated; Cause & Precise Nature = Core Mystery"
+      key_authenticated_feature: "Cataclysmic event broke the moon 'Aethel' into 'Aethel Umbra', destabilized local time via 'Chrono-Dust'."
+      sensory_legacy_traumatic: |
+        The ever-present, shimmering Chrono-Dust *itself* is the primary sensory legacy (*visual*, *tactile* - cold grit). Areas near large Moon fragments or deep temporal scars sometimes experience authenticated 'sensory replays' – brief, terrifying flashes of impossible *light*, deafening *roars* or *tearing sounds*, the sharp *smell of ozone and something akin to burning timelines*, and overwhelming *feelings* of vertigo and dread.
+      authentication_source: "Universal cultural trauma/myth; empirical evidence (crater, Dust); documented temporal anomalies."
+
+    # --- The Dark Years ---
+    - era_name: "The Dark Years (~Years 1-50 AR - After Reconstruction Start)"
+      authentication_status: "Period Authenticated; Specific Details Scarce/Contested"
+      key_authenticated_feature: "Societal collapse, extreme resource scarcity, widespread temporal storms, brutal survival conditions."
+      sensory_legacy_implicit: |
+        The *pervasive smell* of damp, mold, and decay clinging to the oldest Undercity stones; the *visual record* of crude, overlapping repairs on foundational structures; the *hoarded, almost feral feel* of salvaged pre-Guild technology found in deep caches; the *lingering taste* of desperation in Undercity folklore and oral histories.
+      authentication_source: "Fragmentary salvaged logs; Undercity oral traditions; archaeological layers within ruins; negative evidence (lack of formal records)."
+
+    # --- Age of Reconstruction ---
+    - era_name: "Age of Reconstruction (~Years 50 AR - Present)"
+      authentication_status: "Ongoing; Guild-Documented History (Potentially Biased/Incomplete)"
+      key_authenticated_feature: "Rise of Guilds, founding/building of Aethelgard City, harnessing Chrono-Dust, establishment of current order."
+      sensory_legacy_pervasive: |
+        The *defining sensory signature* of present-day Aethelgard: the inescapable *soundscape* of clockwork, steam, and industry; the dominant *visual* aesthetic of brass, iron, verdigris, and gaslight against shadow; the prevalent *smells* of coal smoke, machine oil, ozone, and damp; the *feel* of regulated environments versus decaying infrastructure. This era *built* the current sensory reality.
+      authentication_source: "Guild Archives, Council Records, physical structure of the city, current technological level."
+
+  core_historical_mysteries:
+    # --- Cause of Shattering ---
+    - mystery: "The True Cause of the Shattering"
+      authenticated_sensory_clues: |
+        Crater implies immense kinetic force (*unimaginable sound/impact tremor legacy*); temporal fallout suggests internal paradox (*lingering ozone smell, visual distortions near fragments*); suppressed Artificer data repositories often *feel* unnaturally cold or emit low-level static (*tactile/auditory interference*). Conflicting sensory clues fuel debate.
+      narrative_function: "Central driving mystery; source of conspiracy; potential for reality-altering reveals."
+
+    # --- Artificers' Fate/Nature ---
+    - mystery: "The Full Capabilities and Fate of the Great Artificers"
+      authenticated_sensory_clues: |
+        Ruins possess impossibly smooth, seamless surfaces (*tactile*), sometimes *resonate* with low, pure tones (*auditory*), made of materials that *visibly* resist temporal decay; legends describe sensory overload experiences - ascending in *blinding white light* OR being consumed by *fire that smelled like burning stars*.
+      narrative_function: "Source of MacGuffins (lost tech), potential for hidden legacies, explains anomalous ruins, sets standard against which current tech is measured."
+
+    # --- Pre-Shattering Society ---
+    - mystery: "The Nature of Pre-Shattering Society"
+      authenticated_sensory_clues: |
+        Fragmented visuals depict both serene, light-filled structures and rigid, imposing control centers; Memory Keeper archives *smell* suspiciously sterile, hinting at purged records; salvaged 'memory crystals' sometimes replay *discordant sounds*, flashes of *painful red light*, or induce feelings of *unexplained dread* alongside images of beauty.
+      narrative_function: "Fuels ideological debates (utopia vs. dystopia), potential for uncovering 'true' past, motivates factions seeking to restore/prevent recurrence."
+
+  prompts_sensory_history:
+    - "What lingering sensations (specific smells, recurring sounds, visual motifs, unique textures) in the present directly evoke or contradict legends about a specific past era?"
+    - "How do the core historical mysteries *feel* to characters investigating them (e.g., frustrating silence, tantalizing sensory fragments, dangerous energy signatures)?"
+    - "What sensory details are *missing* from the present compared to the authenticated (or legendary) past, and what does this absence signify?"
+
+# --- II. Key Authenticated Historical Events (Sensory Footprints) ---
+key_historical_events:
+  purpose: |
+    Detail specific past events considered factual within the heterocosm, emphasizing their lasting sensory impact 
+    or the sensory nature of their evidence in the present 'Now'.
+
+  events_list:
+    # --- Undercity Collapse ---
+    - event_id: "HIST_Event_UndercityCollapse"
+      event_name: "The Great Undercity Collapse"
+      authenticated_date_period: "Circa Year 180 AR"
+      authenticated_core_facts: "Sector Gamma-7 imploded; massive casualties; area now hazardous Deep Undercity; official cause: geological/mining instability."
+      primary_authentication_methods: "Official Council Records (official story); Survivor Testimonies (archived, fragmented); Geological Surveys; Visible Ruins."
+      authenticated_sensory_legacy_evidence:
+        visual: "Jagged, crystalline fracture-lines radiating from the sealed zone *glow faintly* in low light; immense, rust-weeping bulkheads block access, *scarred* as if by immense force."
+        auditory: "Persistent local folklore claims distorted *screams* and the *sound of grinding rock* echo near the zone during high temporal flux; infrasound detectors register anomalous low-frequency *rumbles*."
+        tactile: "Ground remains unstable for kilometers around, causing unexpected *tremors* and a *feeling* of unease underfoot; touching the sealed bulkheads reveals *unnatural cold spots*."
+        atmospheric: "Air near the seals *feels* heavy, stagnant, and exceptionally cold, carrying the *faint, sharp smell* of ozone mixed with something like *deep earth* or *crushed minerals*."
+      associated_mysteries_sensory_clues: "Salvaged tech from near the zone exhibits strange energy signatures (*pulsating light, erratic hums*); survivor accounts mention seeing 'impossible geometry' or 'figures of broken light' (*disturbing visual phenomena*); rumors of a low, continuous *moaning sound* emanating from the depths."
+      known_consequences_legacy: "Led to stricter Undercity regulations; fuels Undercity mistrust; created new, dangerous territory; source of ghost stories featuring *sensory horrors* (e.g., phantoms leaving cold spots)."
+
+    # --- Founding Compact ---
+    - event_id: "HIST_Event_FoundingCompact"
+      event_name: "The Founding Compact"
+      authenticated_date_period: "Approx. Year 50 AR"
+      authenticated_core_facts: "Agreement signed by proto-Guild leaders establishing cooperation, resource sharing, mutual defense, groundwork for Council."
+      primary_authentication_methods: "Preserved text (potentially edited); Guild foundational myths; Council histories."
+      authenticated_sensory_legacy_evidence:
+        visual: "The preserved Compact document *looks* brittle, ink faded to sepia, seal *visibly cracked*; Guild Hall replicas *gleam* artificially under spotlights."
+        tactile: "Handling an authenticated fragment reveals *rough, fibrous texture* unlike modern polymers, *feels* fragile."
+        auditory_ceremonial: "Annual commemorations involve specific, resonant *clockwork chimes* (The 'Compact Chimes') and the *solemn recitation* of key clauses."
+        olfactory_ceremonial: "Commemorations feature the burning of specific, expensive incense blended with high-grade machine oil, a *unique scent* associated with Guild unity."
+      associated_mysteries_sensory_clues: "Legends claim early drafts *felt different* to the touch (parchment vs. metal plates?); rumors of hidden clauses only revealed under specific *sonic frequencies* or *temporal resonance scans*."
+      known_consequences_legacy: "Formalized Guild power; source of legal disputes; symbol of fragile unity, often invoked with specific *rhetorical tones*."
+
+    # --- First Paradox Event ---
+    - event_id: "HIST_Event_FirstParadox"
+      event_name: "The Chronometers' Folly (First Documented Major Paradox Event)"
+      authenticated_date_period: "~Year 220 AR"
+      authenticated_core_facts: "Large-scale temporal experiment failed catastrophically, creating the 'Glitch Mare' anomaly zone. Led to severe research restrictions."
+      primary_authentication_methods: "Censored Guild Records; visible existence/effects of the Glitch Mare; cautionary tales."
+      authenticated_sensory_legacy_evidence:
+        visual: "The Glitch Mare *appears* as a visibly shimmering, unstable zone where reality *fractures* – light bends impossibly, perspectives warp nauseatingly, objects flicker between states of decay and wholeness, colors bleed or desaturate."
+        auditory: "Inside the Mare *is an assault* of layered, distorted sounds – echoes of past/future conversations, machinery noises running backwards, high-frequency screeches mixed with unnerving silence. Speech *becomes temporally smeared*, unintelligible."
+        tactile_kinesthetic: "Movement *feels* like wading through thick syrup one moment, uncontrollably fast the next; temperature *spikes and plummets* without cause; induces intense vertigo, nausea, and a *feeling* of being pulled apart in time."
+        olfactory: "The air *burns* the nostrils with the intense smell of ozone and something metallic and fundamentally *wrong*, often called 'burnt time' or 'paradox scent'."
+      associated_mysteries_sensory_clues: "Do Aberrations possess a unique *sensory signature* tied to the Mare? Are the whispered, fragmented voices *heard* at its edge merely echoes, or something sentient drawn to the specific *temporal resonance*?"
+      known_consequences_legacy: "Area is quarantined (*visual* barriers, *audible* warning sirens); deep public fear (*viscerally felt* anxiety); strict limits on Chrono-Tech research."
+
+    # --- Add more key events ---
+    # Prompt for each: What is the sensory evidence or lasting sensory impact of this event in the world's 'Now'?
+
+# --- III. Authenticated Historical Figures & Legacies (Sensory Traces) ---
+key_historical_figures:
+  purpose: |
+    Define key past individuals, focusing on how their existence, actions, or legacies 
+    are perceived or remembered through sensory traces in the present.
+
+  figures_list:
+    # --- Artificer Elara Vance ---
+    - figure_id: "HIST_Figure_ArtificerArchitect"
+      figure_name_title: "Grand Artificer Elara Vance (Legendary?)"
+      authenticated_period: "Mythic Age (Pre-Shattering)"
+      authenticated_core_facts: "Credited with Orrery design; early Chrono-Dust theories; disappeared."
+      authentication_methods: "Legends, fragmented blueprints, ruins analysis."
+      authenticated_sensory_legacy_evidence:
+        visual: "Blueprints show elegant, almost bio-mechanical designs *visibly distinct* from angular Guild tech. Ruins associated with her feature materials that *seem not to tarnish or decay*, possessing an unnatural visual permanence. Her likeness, based on fragments, depicts eyes that seem *too bright*."
+        auditory: "Certain complex Guild devices based on her theories emit specific, pure harmonic *chimes*, unlike standard mechanical sounds. Legends claim her voice could *resonate* with machinery."
+        tactile: "Surfaces in her attributed ruins *feel* impossibly smooth and seamless, often cool to the touch regardless of ambient temperature."
+        atmospheric: "Places strongly associated with her sometimes exhibit a *perceptible local dampening* of chaotic temporal static, a feeling of deep, ancient order."
+      associated_mysteries_sensory_clues: "Is the rare, sweet, lilac-like *scent* occasionally detected near pristine Artificer ruins her 'signature' or a byproduct of her technology?"
+
+    # --- Councilor Mordecai ---
+    - figure_id: "HIST_Figure_CouncilorMordecai"
+      figure_name_title: "Councilor Mordecai the Stern"
+      authenticated_period: "Mid-Age of Reconstruction (~150-200 AR)"
+      authenticated_core_facts: "Gearwright representative; enforced monopolies; expanded Steamworks; assassinated."
+      authentication_methods: "Records (biased), histories, cold case files."
+      authenticated_sensory_legacy_evidence:
+        visual: "Official portraits show a rigid posture and eyes that *seem devoid of light*; the older sections of the Steamworks he built *belch thicker, blacker smoke* than newer sections."
+        auditory: "The relentless, heavy *CLANG-thump-CLANG* rhythm of the old Steamworks pistons is nicknamed 'Mordecai's Hammer' and *can be heard* across adjacent districts."
+        olfactory: "Folklore claims the alley where he died perpetually *smells faintly of copper and ozone*, especially after rain (authenticated *as folklore*)."
+        tactile: "Structures known to be built under his directive often use *rougher, colder iron* compared to later Gearwright work."
+      associated_mysteries_sensory_clues: "Does the confiscated clockwork bird found near his body still *emit faint, rhythmic clicks* if handled?"
+
+    # --- Add more figures ---
+    # Prompt for each: What sensory details are associated with their legend, their creations, the places they lived/died, or how they are remembered?
+
+# --- IV. Historical Knowledge: Accessibility & Reliability (Sensory Dimensions) ---
+historical_knowledge_state:
+  purpose: |
+    Define the authenticated state of historical knowledge, considering how its preservation, accessibility, 
+    or obfuscation manifests sensorially. (Connects to Epistemic Modality).
+  predicated_states:
+    - state: |
+        Record Keeping: Guild Data Crystals *glow* with contained information (visual), *hum* softly when accessed (auditory), and feel *slightly warm* (tactile). Corrupted crystals *flicker erratically*, emit *static hisses*, or display *visual noise* resembling Chrono-Dust storms. Accessing secure archives often involves navigating interfaces that *smell* of ozone and require precise, *tactilely-sensitive* manipulation of keycards or biometric pads.
+      # Authentication Source: Faction Profiles, World Rules
+    - state: |
+        Dominant Historical Narrative: Official chronocasts *feature* resonant, authoritative voices over sanitized, often *artificially bright* visual reconstructions that *lack realistic texture and grit*. Public monuments celebrating Guild history are *visually imposing*, made of polished brass that *reflects sharply*, often accompanied by pre-recorded *audio loops* of heroic pronouncements.
+      # Authentication Source: Political State Doc, In-World Propaganda examples
+    - state: |
+        Reliability Issues: Memory Keeper archives *are characterized by* an unnatural, sound-absorbing silence, the *cold feel* of restricted vaults, and the *faint, dry scent* of aging preservation chemicals mixed with something vaguely metallic. Accessing potentially altered records involves interfaces that *feel sluggish* or emit *subtle, discordant tones*.
+      # Authentication Source: Faction Profile - Memory Keepers, Social Conditions Doc
+    - state: |
+        Alternative Histories: Undercity oral histories *are heard* in resonant, echoing spaces around flickering fires (*visual warmth/shadow*), carrying the *smell* of smoke, fungus, and close-packed bodies. Salvaged physical records *feel* brittle and damp, *smell* strongly of mold and rust, their script often *visibly faded* or water-damaged.
+      # Authentication Source: Faction Profile - Salvagers
+    - state: |
+        Lost Knowledge: Attempts to access Artificer data often cause devices to *visibly spark*, *audibly overload* with painful screeches, *emit the smell* of burning components, and display *cascading, eye-straining symbols* before failing. Ruins containing such knowledge *feel* heavy with static charge or temporal instability.
+      # Authentication Source: Core Mystery Doc, Technology Doc
+  prompts_sensory_knowledge:
+    - "What is the multi-sensory experience of accessing/interacting with different forms of historical records (scrolls, crystals, oral tales, ruins)?"
+    *   - "How do official histories *sensorially differentiate* themselves from unofficial or suppressed ones (e.g., polished vs. raw, loud vs. quiet, clean vs. decayed)?"
+    *   - "Are there specific sensory warnings or barriers associated with accessing forbidden or dangerous historical knowledge?"
+    *   - "Does 'truth' have a specific sensory association in this world? Does falsehood or manipulation?"
+
+# --- V. Material Traces of the Past: Sensory Archaeology ---
+material_traces:
+  purpose: |
+    Authenticate the existence and sensory reality of physical remnants bearing witness to the world's history.
+  authenticated_features:
+    - feature: "Pre-Shattering Ruins (Artificer)"
+      sensory_details: |
+        *Visual:* Often seamless, geometric structures of unknown, non-corroding alloys; surfaces may exhibit faint, shifting light patterns; architecture defies current engineering logic.
+        *Auditory:* Often unnervingly silent or possess a low, pure resonant hum unrelated to power sources.
+        *Tactile:* Surfaces are impossibly smooth, sometimes warm or cool regardless of ambient temperature; touching certain points may cause tingling or temporal disorientation.
+        *Olfactory/Atmospheric:* Air within often feels still, clean, and strangely timeless, sometimes carrying faint, unidentifiable floral or metallic scents.
+      # Authentication Source: Location Profile - Undercity, Lore Entries
+    - feature: "Battle Scarring (Guild Wars / Reconstruction Era)"
+      sensory_details: |
+        *Visual:* Jagged blast craters exposing layers of construction; heat-scorched stone/metal retaining dark discoloration; rusted shrapnel embedded in walls; crude patches over structural damage.
+        *Auditory:* Wind whistling through damaged structures creates mournful sounds; areas known for heavy fighting sometimes have folklore about hearing phantom *clashes* or *shouts*.
+        *Tactile:* Scorched surfaces feel rough and brittle; touching old impact sites might reveal temperature differences; ground may be uneven from past explosions.
+        *Olfactory:* Lingering smell of old fires, rust, and sometimes a faint coppery tang in areas of heavy casualties, especially after rain.
+      # Authentication Source: Location Descriptions, Recent History Doc
+    - feature: "Salvaged Artifacts"
+      sensory_details: |
+        *Visual:* Appearance varies wildly - some pristine Artificer relics, others crude Dark Year tools, others recognizably Guild-era but damaged/modified. Often bear marks of age, repair, or temporal corrosion.
+        *Auditory:* May hum, click, spark unpredictably (if technological); silent (if inert); some Memory Crystals emit faint whispers when held.
+        *Tactile:* Temperature varies (cold metal, warm crystal); texture tells history (smooth Artificer alloy vs. rough-welded scrap); weight might seem inappropriate for size.
+        *Olfactory:* Often carry scents of previous environments (Undercity damp, Guild oil, Archive dust).
+      # Authentication Source: Economic Conditions Doc, Object Lore
+    - feature: "Environmental Traces"
+      sensory_details: |
+        *Visual:* Visible strata of different colored Chrono-Dust in deep sediment layers; unique, crystalline temporal flora growing only on sites of past anomalies; petrified 'shadows' left by intense temporal events.
+        *Auditory:* Certain geological formations or ruins *resonate* strangely with temporal winds; specific Undercity caverns have unique, persistent *echoes*.
+        *Tactile:* Soil in old battlefields might *feel* strangely barren or metallic; water near historical dumping grounds *feels* unnaturally slick or corrosive.
+        *Olfactory:* Air near ancient temporal scars retains a distinct ozone or 'burnt time' signature.
+      # Authentication Source: Environmental Doc, Biology Doc
+  prompts_sensory_traces:
+    - "How does the age of a ruin or artifact manifest sensorially (beyond just looking old)?"
+    *   - "What unique sensory experiences are associated with touching or interacting with historical remnants?"
+    *   - "How does the environment itself act as a sensory record of past events?"
+    *   - "Can characters use specialized senses (or tech enhancing senses) to 'read' history from material traces?"
+
+# --- VI. Methodological Notes for the Creator (Sensory History Focus) ---
+methodological_notes_creator:
+  notes: |
+    - **Authenticate Sensory Legacy:** Define the *sensory footprint* of past events and figures, making history tangible.
+    - **Weave Sensory Details into Narrative:** Use these authenticated details in descriptions and character perceptions to reveal history organically. Don't just state facts; evoke the sensory past.
+    - **Consistency is Crucial:** Maintain consistency in the sensory details associated with specific eras, events, or figures across all narratives. Use this document as your reference.
+    - **Contrast & Change:** Use shifts in sensory details to highlight the passage of time, cultural change, or the impact of historical events.
+    - **Sensory Ambiguity for Mystery:** Employ unclear or conflicting sensory traces (a distorted sound, an unidentifiable scent) to deepen historical mysteries.
+    - **Theme Through Sensory History:** Let the sensory legacy reinforce core themes (e.g., the smell of decay for legacy, the sound of ticking for time).
+
+# ============================================================
+# End of AETHELGARD Historical Authentication Protocol v1.0 (Sensory)
+# ============================================================

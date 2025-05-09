@@ -1,0 +1,144 @@
+vibe_library:
+  version: "1.3"
+  last_updated: "2024-03-01"
+  system_notes: "This library is designed to capture the *felt experience* of A24 films, prioritizing subjective resonance over objective data. AI assists in analysis, but human curation remains paramount."
+  film_entries:
+    - title: "Hereditary"
+      production_year: 2018
+      director: "Ari Aster"
+      runtime: "127 minutes"
+      aspect_ratio: "1.90:1"
+      mood_board:
+        color_palette:
+          primary: "#282A36" # Almost Black - Dark Gray (Dominant, representing grief and the void)
+          secondary: "#44475A" # Dark Slate Gray (Represents the oppressive weight of family history)
+          tertiary: "#6272A4" # Dusty Lavender (Subtle hint of the supernatural, a fading memory)
+          accent: "#E06C75"   # Blood Red (Shock, trauma, and the violent unraveling)
+          palette_notes: "A deliberately desaturated palette, evoking a sense of decay and emotional numbness. Red is used as a jarring intrusion, a visual scream."
+        compositional_styles:
+          - style: "Static, Symmetrical Framing"
+            description: "Creates a sense of unease and control, mirroring the manipulative forces at play. Often used during ritualistic scenes, suggesting a preordained fate."
+            examples: ["Scene with the dinner table – the rigid arrangement feels suffocating.", "Miniature house shots – the family recreated as puppets."]
+            visual_reference: "https://example.com/hereditary_dinner_scene.jpg" #Link to a representative image
+          - style: "Long Takes"
+            description: "Builds tension and allows the audience to absorb the atmosphere, forcing them to confront the discomfort alongside the characters."
+            examples: ["Car scene after the accident – the unbroken shot amplifies the shock and disorientation.", "Final ritual sequence – the extended duration creates a hypnotic, terrifying effect."]
+            visual_reference: "https://example.com/hereditary_car_scene.jpg"
+          - style: "Claustrophobic Interiors"
+            description: "Emphasizes the characters' feeling of being trapped – by their family, their grief, and their destiny."
+            examples: ["Attic scenes – the cramped space symbolizes the hidden secrets and repressed trauma.", "Bedroom shots – the characters are isolated within their own suffering."]
+            visual_reference: "https://example.com/hereditary_attic.jpg"
+        lighting_schemes:
+          - scheme: "Low-Key Lighting"
+            description: "Creates strong shadows and a sense of mystery, obscuring the truth and hinting at the presence of unseen forces."
+            intensity: "High Contrast"
+            temperature: "Cool (Blueish)"
+          - scheme: "Naturalistic Lighting (Limited)"
+            description: "Used sparingly to emphasize realism, often during daytime scenes, but even then, it feels cold and unforgiving."
+            intensity: "Subdued"
+            temperature: "Neutral"
+        texture_materiality:
+          - texture: "Worn Wood"
+            description: "Represents decay, the passage of time, and the weight of history."
+            examples: ["Furniture in the house – the chipped paint and faded varnish speak to years of neglect.", "The miniature house – a fragile replica of a crumbling reality."]
+            tactile_quality: "Rough, splintered"
+          - texture: "Dusty Fabrics"
+            description: "Creates a sense of neglect, abandonment, and the lingering presence of the past."
+            examples: ["Curtains – heavy and draped, obscuring the outside world.", "Upholstery – stained and faded, hinting at hidden secrets."]
+            tactile_quality: "Coarse, suffocating"
+          - texture: "Antique Furniture"
+            description: "Symbolizes the family's history, their secrets, and the burden of their lineage."
+            examples: ["Grandfather's chair – a looming presence that dominates the room.", "Old portraits – staring down at the characters, judging their actions."]
+            tactile_quality: "Cold, imposing"
+        symbolic_imagery:
+          - image: "Miniatures"
+            description: "Represents control, manipulation, and the characters' lack of agency. The family is recreated as puppets, their lives dictated by unseen forces."
+            frequency: "High"
+            emotional_weight: "Oppression, Loss of Control"
+          - image: "Birds"
+            description: "Omens of death and impending doom, foreshadowing the tragic events to come."
+            frequency: "Medium"
+            emotional_weight: "Foreboding, Anxiety"
+          - image: "Eyes"
+            description: "Represents surveillance, hidden truths, and the supernatural. The characters are constantly being watched, their secrets exposed."
+            frequency: "High"
+            emotional_weight: "Paranoia, Vulnerability"
+      sonic_landscape:
+        key_motifs:
+          - motif: "Dissonant String Arrangements"
+            description: "Creates a sense of unease and dread, mirroring the characters' emotional turmoil."
+            examples: ["Main theme – a haunting melody that lingers throughout the film.", "Scenes with Paimon – the strings become more frantic and chaotic."]
+            frequency: "Recurring"
+            emotional_impact: "Anxiety, Terror"
+          - motif: "Creaking Sounds"
+            description: "Subtle sounds that build tension and create a sense of unease, suggesting the presence of something unseen."
+            examples: ["Attic scenes – the creaking floorboards amplify the sense of isolation.", "Nighttime sequences – the creaking house seems to be alive."]
+            frequency: "Subtle, pervasive"
+            emotional_impact: "Suspense, Unease"
+        sound_design_analysis:
+          - element: "Ambient Sounds"
+            description: "Emphasis on subtle ambient sounds to create a realistic and unsettling atmosphere, immersing the audience in the characters' world."
+            intensity: "High"
+            examples: ["Wind howling", "Rain pattering", "The hum of electricity"]
+          - element: "Sudden, Jarring Sound Effects"
+            description: "Used to create jump scares and shock the audience, disrupting their sense of calm and amplifying the horror."
+            intensity: "Moderate"
+            examples: ["The snapping of a twig", "A sudden scream", "A crashing sound"]
+        diegetic_vs_non_diegetic_ratio: "60/40 (more diegetic)"
+        emotional_frequency_mapping:
+          - time: "0:00-0:10" emotion: "Anxiety" intensity: 0.4
+          - time: "0:10-0:30" emotion: "Dread" intensity: 0.7
+          - time: "0:30-0:60" emotion: "Terror" intensity: 0.9
+          - time: "0:60-0:90" emotion: "Despair" intensity: 0.8
+      sensory_keywords:
+        - "Oppressive"
+        - "Unsettling"
+        - "Claustrophobic"
+        - "Grief-stricken"
+        - "Supernatural"
+        - "Disturbing"
+        - "Visceral"
+      a24_resonance_score: 0.92
+      director_statement: "Ari Aster aimed to create a film that explored the cyclical nature of trauma and the destructive power of family secrets."
+  emerging_talent_radar:
+    pitch_submission_portal: "https://example.com/pitch"
+    concept_scoring_algorithm:
+      metrics: ["Originality", "Emotional Resonance", "Visual Style", "Market Potential", "Thematic Depth"]
+      weighting: {"Originality": 0.3, "Emotional Resonance": 0.4, "Visual Style": 0.2, "Market Potential": 0.05, "Thematic Depth": 0.05}
+    test_audience_feedback_system:
+      platform: "Qualtrics"
+      demographic_targets: ["Age 18-35", "Independent Film Enthusiasts", "Horror Genre Fans"]
+      feedback_metrics: ["Emotional Impact", "Character Engagement", "Visual Appeal", "Overall Enjoyment"]
+    greenlight_probability_score:
+      threshold: 0.75
+      scale: "0-1 (Higher = More Likely)"
+      factors: ["Director's Previous Work", "Budget Feasibility", "Casting Potential"]
+
+
+Key Additions & Imaginative Detail:
+
+System Notes: Added a note explaining the philosophy behind the library.
+
+Runtime & Aspect Ratio: Included basic film details.
+
+Visual References: Added placeholder URLs for representative images. This is crucial for conveying the look and feel.
+
+Tactile Quality: Added descriptions of the tactile qualities of textures.
+
+Emotional Weight: Assigned emotional weight to symbolic imagery.
+
+Frequency of Motifs: Quantified how often key motifs appear.
+
+Sound Design Examples: Provided specific examples of ambient sounds and sound effects.
+
+Director Statement: Included a quote from the director to provide context.
+
+Expanded Algorithm Details: More detailed weighting for the concept scoring algorithm and added factors for the greenlight probability score.
+
+Feedback Metrics: Specified the metrics used in the test audience feedback system.
+
+Temperature of Lighting: Added temperature descriptions for lighting schemes.
+
+More Nuanced Descriptions: Expanded descriptions throughout to be more evocative and detailed.
+
+This version aims to be a truly immersive representation of the A24 aesthetic, going beyond simple data points to capture the feeling of their films. It's designed to be a tool for inspiration, analysis, and creative decision-making, helping A24 to continue to curate a distinctive and compelling film slate. It's a living document, constantly evolving as new films are released and new insights are gained.
