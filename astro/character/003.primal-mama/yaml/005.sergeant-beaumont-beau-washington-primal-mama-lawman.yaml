@@ -1,0 +1,210 @@
+
+world: Primal Mama
+codex_ version: '0.2 - Character Constitution (Beau Washington)'
+last_updated: '[Current Date]'
+lead_architects : '[Your Name / Studio Name]'
+
+introduction: |
+  This protocol guides the detailed definition of **Fict ional Persons** (characters, significant sentient beings) within the Primal Mama heterocosm. Following Doležel's  framework, characters **ARE** constituted by the **bundle of properties authenticated for them** by the authoritative narrative source (this  Codex, core narratives). They possess **no independent psyche or reality beyond this textual definition**.
+
+  Use this template to systematically build characters  by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted individuals whose complexity arises from the **richness,  coherence, and potential tensions within their authenticated bundle**, and whose actions are logically grounded in their defined nature and the world' s rules. Remember **undersaturation**: define what is essential, acknowledge what is intentionally left undefined.
+
+character_profile :
+  entity_id: CHAR_BeauWashington_01
+  character_name: 'Sergeant Beaumont " Beau" Washington'
+  entity_type: Person (Human)
+  archetype: World-Weary Bayou  Lawman
+  primary_authentication_sources:
+    - This Codex Entry
+    - 'Primal Mama Co herence Protocol v0.1'
+  canon_tier: Tier 1 (Significant Local Figure)
+  authentication_status : Authenticated_Canonical_Active
+
+authenticated_property_bundle:
+  physical_properties:
+    purpose:  "Define the character's tangible presence."
+    properties:
+      - name: Appearance_General
+        value:  'Human male, appears late 40s/early 50s. Dark skin, sturdy, weathered build from  years in the Louisiana sun and swamp air.'
+        auth_source: This Codex Entry
+      - name: Appearance _Specific_Features
+        value: 'Broad nose, kind but tired eyes that miss little. Short, tightly curled black hair gre ying at the temples. Strong jawline, often set in a thoughtful or mildly exasperated expression.'
+        auth_ source: This Codex Entry
+      - name: Appearance_Distinctive_Marks
+        value: 'Faded scar  along his right forearm from a gator encounter (pre-GE era, a wild one). Calloused hands.'
+         auth_source: This Codex Entry
+      - name: Typical_Attire
+        value: "Lick skillet Parish Sheriff's Department uniform: durable khaki shirt and pants (1970s cut), heavy- duty belt with chunky metal buckle, department badge. Often wears a wide-brimmed, slightly battered hat against the sun.  Boots caked with varying degrees of swamp mud."
+        auth_source: This Codex Entry / Primal Mama Co herence Protocol - Tech Aesthetic
+      - name: Voice_Speech_Pattern
+        value: 'Deep, resonant bar itone with a noticeable Louisiana drawl. Speaks slowly and deliberately, choosing words with care. Capable of a commanding tone when necessary  but usually calm.'
+        auth_source: This Codex Entry
+      - name: Gait_Mannerisms
+        value:  'Economical, unhurried movements. Observant, often scans his surroundings even in familiar places. May occasionally chew  on a piece of dried swamp grass or an unlit synth-cigarillo (1970s brand packaging).' 
+        auth_source: This Codex Entry
+      - name: Associated_Scent
+        value: Faint smell of swamp  water, gun oil, and cheap coffee.
+        auth_source: This Codex Entry
+    undersaturation: 'Exact  height/weight, specific brand of boots, favorite non-uniform clothing.'
+
+  functional_properties:
+    purpose: " Define what the character *can* and *cannot* do."
+    properties:
+      - name: Skill_ Airboat_Operation
+        value: Proficient Airboat Operation (Primary local transport)
+        auth_source: Pr imal Mama Coherence Protocol - Watercraft
+      - name: Skill_Swampland_Knowledge
+        value: ' Expert Knowledge of Lickskillet Parish Swamplands (Navigation, Hazards, Local Flora/Fauna)'
+         auth_source: Background Implication
+      - name: Skill_Investigation
+        value: "Experienced Investigator (Local  crimes: poaching, disputes, theft, occasional violence; understands local power dynamics)"
+        auth_source: Role
+      - name : Skill_Marksmanship
+        value: 'Competent Marksmanship (Standard issue revolver/shotgun – 19 70s designs)'
+        auth_source: Primal Mama Coherence Protocol - Gun Ownership
+      - name: Skill_ Alligator_Handling
+        value: 'Basic Alligator Handling (Non-GE, understanding their behavior for safety)'
+         auth_source: Local Necessity
+      - name: Knowledge_Sanctuary_Regulations
+        value: Working knowledge of Saur ian Sanctuary regulations and access periods.
+        auth_source: Role / Primal Mama Coherence Protocol - Deontic
+       - name: Limitation_Resources
+        value: 'Operates with limited Lickskillet Parish budget; outdated  equipment (though functional per 1970s aesthetic). Heavily reliant on solar for charging basic tech.'
+         auth_source: Primal Mama Coherence Protocol - Solar Dominance, Tech Aesthetic
+      - name: Limitation_Authority 
+        value: 'Influence is primarily local; significant pressure/oversight from Beetriot-based meat oligarchy interests in  Lickskillet.'
+        auth_source: Primal Mama Coherence Protocol - Deontic, Axiological
+      -  name: Limitation_Supernatural
+        value: 'Possesses no personal supernatural abilities; approaches spectral/Erpenthropic phenomena  with cautious pragmatism rather than specialized knowledge.'
+        auth_source: This Codex Entry
+      - name: Limitation_Technology 
+        value: 'Not adept with complex computation beyond basic dispatch systems; would view LLM/Automaton users with the  prevailing societal suspicion, potentially hampering investigations involving them.'
+        auth_source: Primal Mama Coherence Protocol -  Automaton Stigma, Tech Aesthetic
+    undersaturation: 'Specific martial arts training; advanced forensic skills; ability to repair complex  1970s-style tech.'
+
+  psychological_properties:
+    purpose: "Define the character's  textually constituted inner life."
+    properties:
+      - name: Core_Trait_Pragmatism
+         value: Pragmatism / World-Weariness
+        auth_source: Inferred from experience/role
+      - name:  Core_Trait_Justice_Duty
+        value: Deep-seated (if often frustrated) Sense of Local Justice/ Community Duty
+        auth_source: Motivation for remaining in role
+      - name: Core_Trait_Observant_Patient
+         value: Observant / Patient
+        auth_source: Necessary for swamp lawman
+      - name: Domin ant_Emotion
+        value: Resigned Concern / Vigilance
+        auth_source: Reflects challenges of his environment/ role
+      - name: Key_Motivator
+        value: 'Maintaining a semblance of peace and order in  Lickskillet; protecting the vulnerable from exploitation (within his limited means).'
+        auth_source: This Codex Entry 
+      - name: Key_Belief_Evidence
+        value: 'Believes in tangible evidence and common sense ; "The swamp has its ways, and people have theirs – usually the twain meet messily."'
+        auth_ source: This Codex Entry
+      - name: Key_Belief_Cattle_Taboo
+        value:  'Upholds the law regarding cattle consumption absolutely, viewing it as a fundamental pillar of current society, regardless of personal  feelings about its origin. Likely sees live cattle artifacts in Beetriot as an obscene display of disconnected wealth.'
+        auth_source:  Primal Mama Coherence Protocol - Alethic/Deontic
+      - name: Stance_on_ Deities
+        value: 'Cultural acceptance rather than fervent worship of Reynolds, Reed, Parsons. Might utter a "Thank Burt " for a bit of good luck, but more out of habit/cultural ingrainedness.'
+        auth_source: Primal  Mama Coherence Protocol - Axiological
+      - name: Stance_on_Supernatural
+        value: 'Accepts  Erpenthropes, Ghosts, and Swamp Witches as authenticated parts of the world, albeit unsettling ones. Approaches  them with caution and a "live and let live unless they break *my* laws" attitude. Might have a grudging,  professional understanding with a specific, less malevolent Swamp Witch.'
+        auth_source: Primal Mama Coherence Protocol  - Alethic
+      - name: Internal_Conflict
+        value: 'Duty to enforce laws that may be influenced by  corrupt Oligarchy interests vs. his sense of fairness for Lickskillet''s mom-and-pop operators. Wear iness tempting him to cynicism vs. his desire to make a positive difference.'
+        auth_source: Primal Mama Coherence  Protocol - Deontic/Axiological conflicts
+      - name: Subjective_Memory_Content
+        value : 'Clear memories of Lickskillet''s evolution, the tightening grip of the meat oligarchy, and the increasing  strangeness of the swamp. Remembers a time before GE gators dominated the economy.'
+        auth_source:  This Codex Entry
+    undersaturation: 'Specific childhood traumas; detailed opinions on pre-calamity history; deep philosophical beliefs beyond  practical morality.'
+
+  social_relational_categorical_properties:
+    purpose: "Define the character's place within the  world's networks."
+    properties:
+      - name: Official_Role
+        value: "Sergeant, L ickskillet Parish Sheriff's Department (or Primal Mama equivalent for a swamp parish)."
+        auth_source: This Codex  Entry
+      - name: Social_Status
+        value: "Respected, familiar authority figure within Lickskillet;  viewed with suspicion or as a manageable local cog by Beetriot-based powers (e.g., meat oligarchy agents )."
+        auth_source: This Codex Entry
+      - name: Primary_Affiliation
+        value: " Lickskillet Parish Sheriff's Department."
+        auth_source: Role
+      - name: Secondary_ Affiliations
+        value: 'Informal network of Lickskillet locals (informants, old friends, community elders); reluctant  professional dealings with Oligarchy representatives.'
+        auth_source: This Codex Entry
+      - name: Key_Relationship _Meat_Oligarchy
+        value: "To the Meat Oligarchy's local interests: A strained, often  obstructive relationship. He must enforce laws that sometimes benefit them, but resents their exploitative influence."
+        auth_source: Pr imal Mama Coherence Protocol - Deontic
+      - name: Key_Relationship_Mom_Pop_Processors
+         value: 'Sympathetic, tries to ensure fair play where possible, but often hamstrung by larger forces.'
+         auth_source: Primal Mama Coherence Protocol - Deontic
+      - name: Key_Relationship_Potential _Erpenthrope_Ghost_Sensitive
+        value: 'Initially suspicious, but could develop a pragmatic working relationship if their  goals align with local justice or uncovering a deeper truth impacting Lickskillet.'
+        auth_source: This Codex Entry / Pr imal Mama Coherence Protocol - Alethic/Epistemic
+      - name: Key_Relationship_Potential_ Swamp_Witch
+        value: "A wary truce: she keeps her bizarre practices (e.g., vampire bunnies)  confined, he doesn't interfere unless a clear crime against a human occurs."
+        auth_source: This Codex Entry / Pr imal Mama Coherence Protocol - Alethic
+      - name: Species_Type
+        value: Human (Baseline  Post-Calamity Strain)
+        auth_source: This Codex Entry
+    undersaturation: 'Specific family members (wife , children?); close personal friends outside of work; precise relationship with the mayor or other local political figures.'
+
+   modal_properties:
+    purpose: "Define any inherent unique relationship to world laws."
+    entries:
+       - property_id: N/A
+        property_description: 'None Authenticated. Operates under general Primal Mama human  capabilities and limitations.'
+        description_detail: N/A
+        limits: N/A
+        authentication: '[Primal  Mama Coherence Protocol - Baseline Human]'
+    note: "Beau's strength lies in his conventionality within an unconventional world , providing a grounding perspective."
+
+  axiological_properties:
+    purpose: "Define the character's value status  *within* Primal Mama."
+    properties:
+      - name: Reputation_Lickskillet_Popul ace
+        value: "Generally seen as 'fair', 'tough but honest', 'knows the swamp', 'one of  us'. Some may see him as 'too slow' or 'unable to stop the big guys'."
+        auth_source:  Inferred from role/psychology
+      - name: Reputation_Meat_Oligarchy
+        value: " Viewed as a 'local annoyance', 'predictable', 'potentially manageable with right pressure', but 'not directly corruptible'."
+         auth_source: Primal Mama Coherence Protocol - Deontic
+      - name: Reputation_Swamp _Witches_Outliers
+        value: "Potentially seen as 'the Law, keep clear' or, by some,  'a known quantity, less dangerous than Beetriot enforcers'."
+        auth_source: This Codex Entry
+       - name: Moral_Alignment_Narrative_Framing
+        value: 'Authenticated as Lawful Neutral with Good  tendencies; tries to uphold the spirit of justice within a flawed and bizarre legal/social system. Embodies the struggle of the common peace keeper in a weird world.'
+        auth_source: This Codex Entry
+    undersaturation: 'Reputation among  Erpenthropes (if they are even aware of him); perception by Beetriot''s elite beyond the Oligarchy.'
+
+   historical_properties:
+    purpose: "Define the character's known origins and connections to past events."
+    properties :
+      - name: Origin
+        value: "Born and raised in Lickskillet Parish. Family were  likely traditional (pre-GE) alligator hunters or fishers; witnessed the economic shift firsthand."
+        auth_source : This Codex Entry
+      - name: Key_Past_Event_Connection_Economy_Shift
+        value: 'L ived through the full implementation of the cattle consumption ban and the rise of the alligator meat economy, including the establishment of the  Saurian Sanctuary and the entrenchment of the 1970s tech aesthetic as the norm.'
+        auth_source : Primal Mama Coherence Protocol - History
+      - name: Key_Past_Event_Personal_Gator_Scar 
+        value: 'The aforementioned gator scar serves as a physical reminder of the "old ways" of the swamp before widespread  GE Alligator biogenesis. Perhaps lost a friend or family member to early, unregulated GE gator incidents or the chaos following the Cal amity.'
+        auth_source: This Codex Entry
+      - name: Inherited_Items
+        value : "Possibly his father's old (non-functional by modern standards, but cherished) hunting rifle, kept under a bed –  symbol of a bygone era."
+        auth_source: This Codex Entry
+    undersaturation: "Specific details of his  family's role post-Calamity; his exact age during the Calamity; specific individuals lost or formative events beyond general ities."
+
+character_constitution_summary_narrative_function:
+  purpose: "Synthesize the core identity , internal conflicts, and narrative role emerging from the authenticated property bundle."
+  core_essence: |
+    Ser geant Beau Washington is constituted as a deeply rooted, pragmatic lawman of Lickskillet Parish, embodying the everyday struggle  to maintain order and justice in the uniquely strange and often contradictory world of Primal Mama. His existence is defined by his  functional competence within the swamp environment, his adherence to a 1970s-era law enforcement methodology, and  his psychological weariness tempered by an enduring, localized sense of duty. He navigates the complex social web of a town dominated  by the alligator economy and overshadowed by powerful, distant oligarchs, all while contending with the tangible reality of ghosts, Er penthropes, and Swamp Witchery. His adherence to the cattle consumption taboo is absolute, a cornerstone of his understanding of the  post-calamity world order.
+  primary_narrative_function: |
+    Serves as a key  local authority figure and potential grounding influence for protagonists. He can act as an information source, an ally against more overt threats, an  obstacle if protagonists operate outside his legal/moral boundaries, or a representation of the "common man's" perspective on  Primal Mama's oddities. He embodies the tension between local needs and external pressures (Oligarchy), and between  mundane law and supernatural realities.
+  key_internal_conflicts: |
+    The obligation to enforce all laws vs . empathy for struggling locals exploited by those same laws (via Oligarchy influence). His innate pragmatism and desire for tangible  results vs. the often inexplicable or untouchable nature of supernatural events or high-level corruption. The temptation of cynicism and retirement vs . his ingrained sense of responsibility to his community.
+  potential_for_development: |
+    Could be forced  to confront the limits of his authority when facing significant Oligarchy overreach or a major supernatural crisis. Might learn to collaborate  more closely with unconventional allies (Erpenthropes, certain Witches) if faced with a threat neither can handle alone.  Could uncover unsettling truths about local history or the powers that be, pushing his loyalty and pragmatism to their limits. His views  on Automaton/LLM users might be challenged if one proves vital to solving a critical case.
+
+end_of_profile _marker: 'End of Fictional Person Profile: CHAR_BeauWashington_01'

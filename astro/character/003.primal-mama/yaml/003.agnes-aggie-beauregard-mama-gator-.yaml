@@ -1,0 +1,153 @@
+
+# Story World Codex: Fictional Person Constitution Protocol
+# Based on Doležel' s Heterocosmica III.B.II.C (Character as Property Bundle)
+
+world: "Primal Mama "
+codex_version: "0.2 - Character Constitution (Aggie Beauregard)"
+last_updated:  "[Current Date]" # Placeholder, user should fill
+lead_architects: "[Your Name/Studio Name]" #  Placeholder, user should fill
+
+introduction_text: |
+  This protocol guides the detailed definition of **Fictional  Persons** (characters, significant sentient beings) within the Primal Mama heterocosm. Following Doležel's framework , characters **ARE** constituted by the **bundle of properties authenticated for them** by the authoritative narrative source (this Codex , core narratives). They possess **no independent psyche or reality beyond this textual definition**.
+  Use this template to systematically  build characters by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted individuals whose complexity arises from the **richness, coherence , and potential tensions within their authenticated bundle**, and whose actions are logically grounded in their defined nature and the world's  rules. Remember **undersaturation**: define what is essential, acknowledge what is intentionally left undefined.
+
+character_profile: 
+  entity_id: "CHAR_AGNESB_01"
+  character_name: "Ag nes \"Aggie\" Beauregard / \"Mama Gator\""
+  entity_type: "Person"
+   archetype: "Gritty Independent Business Owner / Bayou Matriarch" # Optional Starting Point
+  primary_authentication_sources :
+    - "This Codex Entry"
+    - "Primal Mama World Codex v0.1"
+  canon _tier: "Tier 2 (Significant Local Figure)"
+  authentication_status: "Authenticated_Canonical_Active "
+
+  authenticated_property_bundle:
+    physical_properties:
+      purpose: "Define the character' s tangible presence."
+      appearance_general: "Human female, appears late 50s/early 6 0s, sturdy build, weathered but strong features, sun-creased skin from years in the bayou environment."  # Auth: [Primal Mama Ethos]
+      appearance_specific_features: "Kind eyes that can turn  flinty in a heartbeat, a no-nonsense set to her jaw, calloused hands adept at her trade. Hair  often tied back in a practical bun, flecked with grey." # Auth: [Primal Mama Ethos] 
+      appearance_distinctive_marks: "A faded scar along one forearm from a processing accident years ago; subtle  alligator-tooth motif on her belt buckle – a 1970s-style custom piece." # Auth: [Primal  Mama Ethos, Tech Aesthetic]
+      typical_attire: "Durable, patched denim overalls or work trousers over a  faded patterned blouse (1970s floral/geometric), heavy-duty waterproof apron when working, sturdy swamp boots. All clothing  practical and well-worn." # Auth: [Primal Mama Ethos, Tech Aesthetic]
+      voice_speech _pattern: "Warm, but firm Cajun-inflected Southern drawl; speaks plainly and directly, prone to folksy wisdom  and colorful local expressions. Can project her voice to be heard over machinery." # Auth: [Primal Mama Ethos  - Lickskillet culture]
+      gait_mannerisms: "Purposeful, economical movements. Habit of wiping hands on  her apron, even when not wearing one. Observant, often sizes people up quickly." # Auth: [Character Concept ]
+      associated_scent_if_any: "Faint smell of brine, woodsmoke (from smokers ), alligator hide, and the damp earth of the bayou." # Auth: [Primal Mama Sensory Palette]
+      physical _undersaturation: "Exact height/weight, specific hair color beyond 'greying', details of non-work attire  (rarely seen)."
+
+    functional_properties:
+      purpose: "Define what the character can and cannot do ."
+      capabilities:
+        - type: "Skill"
+          description: "Master Alligator Butcher & Processor  (Core Skill) – knows every cut, traditional preservation methods (smoking, salting, pickling)."
+          auth _source: "[Role, Primal Mama Economy]"
+        - type: "Skill"
+          description: "Small  Business Management (Mom-and-Pop Scale) – inventory, bartering, local supply chains, customer relations."
+          auth _source: "[Role]"
+        - type: "Skill"
+          description: "Basic Maintenance of 1 970s-era Processing Equipment (grinders, smokers, refrigeration units – all with analog controls, chunky buttons, wood  paneling where applicable)."
+          auth_source: "[Role, Tech Aesthetic]"
+        - type: "Skill "
+          description: "Proficient with a hunting shotgun (for personal protection/pest control, common outside Beetriot )."
+          auth_source: "[Primal Mama Deontic (Gun Ownership)]"
+        - type:  "Knowledge"
+          description: "Extensive local knowledge of Lickskillet, its people, and the surrounding  bayou. Knows reputable hunters and suppliers."
+          auth_source: "[Role]"
+      limitations:
+         - type: "Limitation (Economic)"
+          description: "Operates on tight margins; struggles to compete  with the \"oligarchy of meat processors\" who can undercut prices and control larger supply lines."
+          auth_source : "[Primal Mama Deontic (Oligarchy Friction)]"
+        - type: "Limitation ( Technological)"
+          description: "Relies on established, older (1970s aesthetic) technology.  Lacks access to or understanding of advanced GE alligator science or high-end solar tech beyond basic generator maintenance."
+           auth_source: "[Tech Aesthetic, Social Strata]"
+        - type: "Limitation (Social)"
+           description: "No formal influence in Beetriot or with the powerful elite. Reputation doesn't extend far beyond L ickskillet and its immediate trade network."
+          auth_source: "[Role]"
+        - type: " Limitation (Information)"
+          description: "Does not use Automatons or LLMs due to social stigma and cost ; relies on traditional record-keeping and personal networks."
+          auth_source: "[Primal Mama Deontic  (Automaton Stigma)]"
+      functional_undersaturation: "Ability to pilot complex watercraft (beyond a  simple skiff); esoteric swamp lore (beyond practical knowledge); detailed financial acumen."
+
+    psychological_properties:
+      purpose:  "Define the character's textually constituted inner life."
+      core_traits:
+        - description: " Resilience / Pragmatism"
+          auth_source: "[Actions, Survival in Primal Mama]"
+        -  description: "Fierce Independence / Self-Reliance"
+          auth_source: "[Actions, Resistance to Olig archy]"
+        - description: "Deeply Rooted Community Loyalty (to Lickskillet)"
+          auth _source: "[Interactions, Motivations]"
+      dominant_emotion: "Weary Optimism / Determined Grit" #  Auth: [Dialogue, Perseverance]
+      key_motivators:
+        - "Maintaining her family's legacy /business; providing quality, honest product; preserving Lickskillet's way of life against encroachment." # Auth: [Impl ied Backstory, Dialogue]
+      key_beliefs:
+        - description: "Belief in hard work,  fair dealing, and the value of tradition. Distrust of big-city corporations (the oligarchy) and impersonal technology  (Automatons)."
+          auth_source: "[Dialogue, Values]"
+        - description: "Casual, culturally ingrained reverence  for Burt Reynolds, Jerry Reed, and Gram Parsons as symbols of a certain Southern spirit/ideal."
+          auth_source:  "[Primal Mama Axiological]"
+      internal_conflicts:
+        - "Pride in independence vs. the  practical need to potentially make deals or compromises to survive against the oligarchy. Adherence to tradition vs. the subtle pressures  to modernize (within the 70s aesthetic bounds)." # Auth: [Narrative Potential]
+      subjective_memory_ content: "Rich memories of Lickskillet's history, changes in the alligator trade, stories of the calamity 's aftermath as passed down. No direct knowledge of pre-calamity world beyond handed-down tales." # Auth: [ Role, Primal Mama Epistemic]
+      psychological_undersaturation: "Deep personal traumas not directly related to business;  specific views on Erpenthropes or Swamp Witches (likely a mix of local superstition and pragmatism); detailed  spiritual beliefs beyond cultural reverence for celebrity deities."
+
+    social_relational_categorical_properties:
+      purpose:  "Define the character's place within the world's networks."
+      official_role: "Owner/Operator  of \"Mama Gator's Premium Bayou Meats\" – a small, independent alligator processing business in Lickskillet ." # Auth: [Core Concept]
+      social_status: "Respected elder and business owner within Lickskillet;  seen as a pillar of the local community. Considered \"small fry\" by the meat oligarchy." # Auth: [Narrative Function ]
+      primary_affiliation: "Lickskillet local economy and community." # Auth: [Role]
+      secondary _affiliations:
+        - "Informal network of other small mom-and-pop processors and independent alligator hunters; member of  a local (1970s style) business association, if one exists." # Auth: [Narrative Potential ]
+      key_relationships:
+        - target: "Local alligator hunters"
+          description: "Dependent on them for  supply, maintains fair (if tough) business relationships."
+          auth_source: "[Primal Mama Economy]"
+         - target: "The \"Meat Oligarchy\""
+          description: "Antagonistic (from her perspective), source  of economic pressure and \"friction\"."
+          auth_source: "[Primal Mama Deontic]"
+         - target: "Younger generation in Lickskillet"
+          description: "Mentor figure, source of employment , symbol of resilience."
+          auth_source: "[Narrative Potential]"
+      species_type: "Human  (Baseline Primal Mama Strain)" # Auth: [Default]
+      social_undersaturation: "Specific family members  (children, spouse - could be deceased or estranged); friendships outside of business context; any clandestine dealings."
+
+    modal_properties :
+      purpose: "Define any inherent unique relationship to world laws."
+      property_id: "N/A"
+       property_status: "None Authenticated."
+      description: "Operates fully under the general physical, biological , and societal rules of Primal Mama. Does not possess supernatural abilities or unique exemptions."
+      limits: "N /A"
+      authentication: "Default status for non-supernatural human characters."
+      note: "Mama  Gator is intended to be a \"grounded\" character within the Primal Mama setting."
+
+    axiological_properties :
+      purpose: "Define the character's value status *within* Primal Mama."
+      reputations:
+         - context: "Lickskillet"
+          description: "Authenticated as \"tough but fair,\" \"honest ,\" \"keeper of tradition,\" \"makes the best smoked gator tail in the parish.\" Highly respected locally."
+          auth_source : "[Local character dialogue/interactions]"
+        - context: "Meat Oligarchy"
+          description: "Authenticated as viewed as  \"a stubborn holdout,\" \"irrelevant small-timer,\" \"a minor nuisance to be eventually absorbed or squeezed out .\""
+          auth_source: "[Oligarchy internal comms/actions]"
+      moral_alignment_narr ative_framing: "Authenticated via narrative focus as embodying local resilience, honest labor, and resistance to predatory capitalism; fundamentally  good and community-oriented." # Auth: [Narrator tone, plot context]
+      axiological_undersaturation: "Rep utation among Swamp Witches or Erpenthropes (likely minimal direct interaction); perception by Beetriot elite (likely  unknown to them)."
+
+    historical_properties:
+      purpose: "Define the character's known origins and connections to past events ."
+      origin: "Authenticated as born and raised in Lickskillet or a similar bayou community. Her family has likely  been in the alligator trade (hunting, trapping, or small-scale processing) for at least a generation post-C alamity." # Auth: [Role, Primal Mama History Implied]
+      key_past_event_ connection: "Lived through the consolidation of power by the meat oligarchy, witnessing its impact on small businesses. Her  business, \"Mama Gator's,\" was likely founded by her or her parents, adapting to the post-Calamity reality ." # Auth: [Primal Mama Deontic (Oligarchy)]
+      inherited_items_knowledge: "Authenticated  to possess traditional family recipes for alligator preparation, possibly some well-maintained (1970s style) processing equipment  passed down." # Auth: [Role, Tech Aesthetic]
+      historical_undersaturation: "Specific details of her parents/grand parents; precise timeline of her business's founding; any significant personal tragedies or triumphs beyond general business struggles."
+
+   character_constitution_summary:
+    purpose: "Synthesize the core identity, internal conflicts, and narrative role emerging  from the authenticated property bundle."
+    core_essence: |
+      Agnes "Mama Gator" Beauregard is  constituted as the tenacious heart of Lickskillet's traditional alligator processing economy. She is a pragmatic, fiercely independent woman whose  identity is interwoven with her craft, her 1970s-aesthetic business, and her bayou community.  Her Functional expertise in alligator butchery and small-scale business is constantly tested by the Economic limitations imposed by the meat oligarchy.  Psychologically, she embodies resilience and a deep-seated belief in "honest work," drawing on a culturally ingrained reverence for Southern  ideals (as filtered through the celebrity deities) and a distrust of impersonal corporate power and advanced, "soulless" tech like  Automatons. Her Social position as a respected local leader provides a counterpoint to the faceless oligarchy.
+    primary _narrative_function: |
+      To represent the "mom-and-pop" sector of Primal Mama' s core economy; to embody the spirit and struggles of Lickskillet; to act as a source of local knowledge , quests, or aid for protagonists; to highlight the socio-economic "friction" created by the meat oligarchy and the tension  between tradition and external pressures.
+    key_internal_conflicts_from_bundle:
+      - "Maintaining  independence vs. economic survival pressures from the oligarchy"
+      - "Upholding traditional methods vs. the need to adapt ( within 70s tech limits) to remain viable"
+      - "Loyalty to community vs. personal wear iness/desire for a simpler life (potential)"
+    potential_for_development_based_on_bundle : |
+      Could become a focal point for local resistance against the oligarchy (Social/Relational change); Might be  forced to make a difficult alliance or adopt a risky new (but still 70s-tech) processing method ( Functional/Economic change); Could pass on her knowledge/business to a new generation (Historical/Legacy change).
+
+# End of  Fictional Person Profile: CHAR_AGNESB_01

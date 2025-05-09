@@ -1,0 +1,190 @@
+
+world: Primal Mama 
+codex_version: '0.1 - Character Constitution'
+last_updated: '[Current Date]'
+ lead_architects: '[Your Name / Studio Name]'
+
+character_profile:
+  entity_id: CHAR _GatorbaitGus_01
+  character_name: 'Augustus "Gatorbait Gus"  Miller'
+  entity_type: 'Person (Human)'
+  archetype: 'Struggling Independent All igator Wrangler / Mom-and-Pop Processor'
+  primary_authentication_sources: 'Primal Mama Codex v 0.1 (Coherence & Internal Logic Protocol)'
+  canon_tier: 'Tier 2 (Represents  a common citizen type in Lickskillet)'
+  authentication_status: Authenticated_Canonical_Active
+
+authenticated_ property_bundle:
+  physical_properties:
+    purpose: "Define the character's tangible presence."
+     Appearance_General:
+      value: 'Human male, late 40s/early 50s , leathery sun-beaten skin from swamp life. Wiry strength, not bulky.'
+      auth: ' Primal Mama Codex v0.1 (Environment, Lickskillet Demographics)'
+    Appearance_Specific_ Features:
+      value: 'Squint lines around eyes from sun glare on water. Jaw perpetually set with a mix of determination and  weariness. Calloused hands.'
+      auth: 'Primal Mama Codex v0.1 (Lifestyle implications)' 
+    Appearance_Distinctive_Marks:
+      value: 'Several faded scars on arms and legs from close calls with all igators; a missing tip of left ring finger – "a particularly feisty juvenile," he''d say.'
+       auth: 'Primal Mama Codex v0.1 (Occupation hazards)'
+    Typical_Attire:
+       value: 'Worn, faded denim overalls (1970s cut) over a thin, sweat-stained  t-shirt. Sturdy, much-repaired waterproof boots. Often a wide-brimmed, oil-stained  hat with a 1970s trucker mesh back.'
+      auth: 'Primal Mama Codex v0 .1 (Tech Aesthetic Constraint, Practical Swamp Wear)'
+    Voice_Speech_Pattern:
+      value: ' Slow, Southern drawl, uses colorful local idioms. Pragmatic and to-the-point, but can spin a  yarn. Voice slightly raspy.'
+      auth: 'Primal Mama Codex v0.1 (Bayou- infused culture)'
+    Gait_Mannerisms:
+      value: 'Economical movements, used to balancing on unstable  surfaces (boats, docks). Chews on a piece of dried swamp grass when thinking. Can expertly handle a gaff hook or a  skinning knife with chunky, analog-handled tools.'
+      auth: 'Primal Mama Codex v0.1  (Swamp life, 1970s Tech Aesthetic)'
+    Associated_Scent:
+      value : 'Swamp water, alligator musk, diesel from his airboat, and faintly of the cheap, chicory-laced coffee  he brews on a 1970s-style percolator.'
+      auth: 'Primal Mama Codex  v0.1 (Environment, Tech Aesthetic)'
+    undersaturation: 'Exact height/weight, specific eye color  beyond "weathered," non-work attire (if any).'
+
+  functional_properties:
+    purpose: " Define what the character *can* and *cannot* do."
+    Skill_Expert_Alligator_Wrang ler:
+      value: 'Expert Alligator Wrangler (trapping, handling, subduing GE alligators within Saur ian Sanctuary approved methods and outside it, more riskily)'
+      auth: 'Primal Mama Codex v0. 1 (Role, Alligator Biogenesis, Saurian Sanctuary Access)'
+    Skill_Proficient_Alligator_ Butchery_Processing:
+      value: 'Proficient Alligator Butchery & Processing (using 1970s  aesthetic tools – e.g.: band saws with wood paneling, analog dial thermometers for smokers)'
+      auth:  'Primal Mama Codex v0.1 (Role, Tech Aesthetic Constraint)'
+    Skill_Airboat_Pil oting_Basic_Repair:
+      value: 'Airboat Piloting & Basic Repair (familiar with solar-charged battery systems  and internal combustion engines modified to fit 70s style)'
+      auth: 'Primal Mama Codex v0.1 ( Swamp transport, Solar Dominance, Tech Aesthetic Constraint)'
+    Skill_Competent_Firearm_Use: 
+      value: 'Competent Firearm Use (owns and maintains a lever-action rifle and a shotgun,  1970s designs, for protection and occasional sanctioned hunting)'
+      auth: 'Primal Mama Codex v 0.1 (Gun Ownership (Regional))'
+    Ability_Situational_Read_Swamp:
+       value: 'Can "read" the swamp – weather patterns, gator behavior, safe water routes – based on long experience.' 
+      auth: 'Primal Mama Codex v0.1 (Implied by swamp-dwelling lifestyle)'
+     Limitation_Economic:
+      value: 'Constantly struggles against the price-fixing and supply chain manipulation of the  Meat Processor Oligarchy.'
+      auth: 'Primal Mama Codex v0.1 (Deontic Rules - Oligarchy  Friction)'
+    Limitation_Technological:
+      value: 'Can only repair his tech using available 1 970s-style components; complex failures in advanced GE gator bio-systems or solar chargers are beyond him .'
+      auth: 'Primal Mama Codex v0.1 (Tech Aesthetic Constraint, Solar Dominance)'
+     Limitation_Knowledge:
+      value: 'Largely ignorant of Beetriot elite culture or advanced scientific principles behind  GE gators; relies on folk knowledge and superstition for some things.'
+      auth: 'Primal Mama Codex v 0.1 (Social divide, Epistemic - Folk Knowledge)'
+    Limitation_Social:
+      value : 'Little to no influence outside Lickskillet; views Automaton/LLM users with suspicion and slight disdain, affecting  potential business with those who use them.'
+      auth: 'Primal Mama Codex v0.1 (Automaton /LLM User Stigma)'
+    undersaturation: 'Ability to perform ritual magic for ghost interaction (unlikely  for his archetype); advanced genetic engineering knowledge; political maneuvering skills.'
+
+  psychological_properties:
+    purpose: "Define  the character's textually constituted inner life."
+    Core_Trait_Stubborn_Independence:
+      value : 'Stubborn Independence / Self-Reliance'
+      auth: 'Primal Mama Codex v0.1 ( Axiological - Autonomy, Firearms pride)'
+    Core_Trait_Deeply_Pragmatic:
+       value: 'Deeply Pragmatic / Resourceful'
+      auth: 'Primal Mama Codex v0. 1 (Survival in Lickskillet)'
+    Core_Trait_Suspicious_of_Authority:
+       value: 'Suspicious of Authority / Outsiders (especially Beetriot types and Oligarchy reps)'
+      auth:  'Primal Mama Codex v0.1 (Oligarchy Friction, Social Divide)'
+    Dominant_Emotion _Chronic_Anxiety:
+      value: 'Chronic low-level anxiety about making ends meet, masked by a  veneer of wry humor and fatalism.'
+      auth: 'Primal Mama Codex v0.1 (Strugg les of mom-and-pop operations)'
+    Key_Motivator_Provision_Survival:
+      value : 'Providing for his (undersaturated) family/dependents; maintaining his small plot of land and business; basic  survival and dignity.'
+      auth: 'Primal Mama Codex v0.1 (Implied human motivation)'
+     Key_Belief_Swamp_Provides_Takes:
+      value: '"The swamp provides, but it  also takes. And the damn Oligarchy takes more than its share."'
+      auth: 'Primal Mama Codex v0. 1 (Worldview reflecting his reality)'
+    Key_Belief_Reverence_The_Bandit: 
+      value: 'Quiet reverence for "The Bandit" (Burt Reynolds) as a symbol of anti-author itarian swagger and making it on your own terms.'
+      auth: 'Primal Mama Codex v0.1 ( Axiological - Deified Celebrities)'
+    Internal_Conflict_Independence_vs_Oligarchy:
+       value: 'Desire to be his own boss vs. the crushing economic power of the Oligarchy; Practicality  vs. local superstitions (e.g.: about Swamp Witches or certain swamp areas).'
+      auth: ' Primal Mama Codex v0.1 (Oligarchy Friction, Epistemic - Swamp Witch Lore)'
+     Subjective_Memory_Content:
+      value: 'Vivid memories of past hurricane seasons, good/bad g ator harvests, interactions with colorful Lickskillet locals. Has heard stories of the "Big Calamity" but  details are hazy, more legend than fact for him.'
+      auth: 'Primal Mama Codex v0.1  (Epistemic - Calamity''s Nature)'
+    undersaturation: 'Detailed spiritual beliefs beyond cultural reverence ; opinions on Erpenthropes (likely views them as dangerous legends); deep philosophical ponderings.'
+
+  social_ relational_categorical_properties:
+    purpose: "Define the character's place within the world's networks ."
+    Official_Role_Owner_Operator:
+      value: 'Owner-operator of "Miller''s  Prime Cuts" (a one-man (or tiny family) alligator processing shack in Lickskillet)'
+       auth: 'Primal Mama Codex v0.1 (Mom-and-pop operations)'
+    Social_Status _Working_Poor:
+      value: 'Working-poor of Lickskillet; respected for his skills among  peers but dismissed by the Oligarchy.'
+      auth: 'Primal Mama Codex v0.1 (Social structure )'
+    Primary_Affiliation_Lickskillet_Community:
+      value: 'Lickskillet  community (informal network of other small-time operators, swamp dwellers)'
+      auth: 'Primal Mama Codex  v0.1 (Setting)'
+    Secondary_Affiliations_Swamp_Witch_Dealings:
+       value: 'None formal. Cautious, infrequent dealings with local Swamp Witch for specific herbs or charms (if desperate ).'
+      auth: 'Primal Mama Codex v0.1 (Swamp Witch Lore, Cthulhu -goth-Southern vibe)'
+    Key_Relationship_1_Meat_Oligarchy_Agents:
+       value: 'To Meat Processor Oligarchy Agents: Antagonistic, exploitative. They set prices, control access  to wider markets.'
+      auth: 'Primal Mama Codex v0.1 (Deontic - Oligarchy Friction)'
+     Key_Relationship_2_Lickskillet_Independents:
+      value: 'To Other L ickskillet Independents: Mix of camaraderie, shared grievance, and guarded competition.'
+      auth: 'Primal Mama Codex v 0.1 (Implied local dynamics)'
+    Key_Relationship_3_Mama_Agnes:
+       value: 'To "Mama Agnes" (Local Swamp Witch): Fearful respect, transactional (e.g.: trades  gator jerky for a protective ward for his boat, avoids her otherwise).'
+      auth: 'Primal Mama Codex  v0.1 (Swamp Witch Lore, Axiological - Cultural perception of Witches)'
+    Species_Type_Human :
+      value: 'Human (Baseline, post-Calamity stock)'
+      auth: 'Primal  Mama Codex v0.1 (Default assumption)'
+    undersaturation: 'Specific family members (wife, kids –  implied but not detailed); specific friends or enemies within Lickskillet; knowledge of any Erpenthropes.'
+
+  modal _properties:
+    purpose: "Define any inherent unique relationship to world laws."
+    items:
+      -  property_id: 'N/A'
+        property_name: 'None authenticated. Operates under general Pr imal Mama human capabilities and limitations.'
+        description: 'N/A'
+        limits: 'N/A '
+        authentication: 'Primal Mama Codex v0.1 (No indication of special modal status for this archetype )'
+    note: "Gus is intended as a \"common man\" character, fully subject to the world' s established rules without personal exception."
+
+  axiological_properties:
+    purpose: "Define the character's  value status *within* Primal Mama."
+    Reputation_Lickskillet:
+      value: '" Authenticated as ''honest, if unlucky'', ''knows his gators better''n most'', ''won''t cheat  ya but won''t give nothin'' away neither''."'
+      auth: 'Primal Mama Codex v0 .1 (Local community values)'
+    Reputation_Oligarchy:
+      value: '"Authenticated as '' small fry'', ''replaceable'', ''prone to grumbling but ultimately compliant due to economic necessity''."'
+      auth:  'Primal Mama Codex v0.1 (Oligarchy perspective)'
+    Reputation_Swamp_W itches:
+      value: 'Likely seen as ''ignorant but harmless'', ''a source of occasional useful protein  for trade''.'
+      auth: 'Primal Mama Codex v0.1 (Witch perspective on common folk )'
+    Moral_Alignment_Narrative_Framing:
+      value: 'Authenticated via narrative potential as '' salt of the earth'', struggling against systemic oppression; methods are practical, not intentionally malicious. Values hard work and autonomy.'
+       auth: 'Primal Mama Codex v0.1 (Axiological - Autonomy vs. Automation, Mom- and-pop values)'
+    undersaturation: 'Reputation among Beetriot elite (non-existent); specific views  on the "Invisible Women" conspiracy (likely dismisses it as "city folk nonsense" unless directly impacted).'
+
+   historical_properties:
+    purpose: "Define the character's known origins and connections to past events."
+     Origin_Lickskillet_Born_Raised:
+      value: 'Authenticated as born and raised in the L ickskillet region, likely a generation or two post-Biological Calamity. Family has always worked the swamp.' 
+      auth: 'Primal Mama Codex v0.1 (Implied history for swamp dwellers)'
+    Key_Past _Event_Connection_Oligarchy_Rise:
+      value: 'Witnessed the increasing control of the Meat  Oligarchy over his lifetime. Remembers "freer" days of hunting/selling gator meat before the current level of " friction." Knows the Saurian Sanctuary''s opening/closing cycles intimately.'
+      auth: 'Primal Mama Codex  v0.1 (Oligarchy history, Saurian Sanctuary rules)'
+    Inherited_Items_Knife_Photo:
+       value: "Authenticated to possess his grandfather's 1970s-era skinning knife (resh arpened countless times, handle wrapped in gator leather) and an old, laminated photo of Jerry Reed tacked to  his shack wall."
+      auth: 'Primal Mama Codex v0.1 (Tech Aesthetic, Deified Celebrities)'
+     undersaturation: 'Specifics of his parents'' lives; any personal connection to the direct aftermath of the Calamity ( too young); direct encounters with Erpenthropes or major ghostly manifestations.'
+
+character_constitution_summary:
+  core _essence: >-
+    Gatorbait Gus is constituted as an embodiment of the resilient, struggling working class of Primal Mama 's Lickskillet.
+    His existence is defined by the GE Alligator economy, the constraints of the  1970s tech aesthetic, and the oppressive weight of the Meat Oligarchy.
+    His Functional skills  are tied directly to this swamp-based, retro-tech life.
+    Psychologically, he is a pragmat ist clinging to independence, whose values (self-reliance, suspicion of authority, a touch of celebrity worship for "The Snow man" Jerry Reed) are forged by his environment and social standing.
+    He is a product of the post- Calamity world, a living testament to its strange blend of advanced biotech and mandated retro-simplicity.
+  primary _narrative_function: >-
+    Ground-level viewpoint character illustrating the everyday realities, struggles, and cultural nuances of L ickskillet and the alligator trade.
+    Can serve as a reluctant ally, a source of local information, or a representation of  the human cost of the Oligarchy's power.
+    Embodies the theme of autonomy vs. oppressive systems within  Primal Mama's unique context.
+  key_internal_conflicts: >-
+    Need for economic survival vs.  desire for true independence from the Oligarchy.
+    Adherence to practical, observable reality vs. ingrained local superstitions /folk beliefs regarding Swamp Witches or the deeper swamp.
+    Pride in his craft vs. the demeaning treatment  by more powerful entities.
+  potential_for_development: >-
+    Could be pushed into more active resistance  against the Oligarchy (Social/Relational change).
+    Might be forced to seek aid from distrusted sources (e.g .: a Swamp Witch, an Automaton user, even an Erpenthrope if desperate enough), challenging his Psychological biases.
+     Could learn new, unconventional ways to adapt his 1970s tech to gain an edge (Functional change). 
+    Discovery of some local secret or encountering a direct manifestation of the supernatural could drastically alter his Epistemic framework. 

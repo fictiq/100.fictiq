@@ -1,0 +1,233 @@
+
+world: Primal Mama
+cod ex_version: 0.2 - Character Constitution
+last_updated: '[Current Date]' # Placeholder
+lead_architect_ s: '[Your Name/Studio Name]' # Placeholder
+
+character_profile:
+  entity_id: CHAR_Jeb Jones_01
+  character_name: 'Jebediah "Gator-Bait" Jones'
+  entity _type: Person (Human)
+  archetype: 'Weathered Swamp Harvester / Independent Traditionalist'
+   primary_authentication_sources:
+    - This Codex Entry
+    - 'Primal Mama Coherence Protocol v0. 1'
+  canon_tier: 'Tier 1 (Represents a common citizen type in Lickskillet)' 
+  authentication_status: Authenticated_Canonical_Active
+
+  authenticated_property_bundle:
+    physical_properties:
+       purpose: Define the character's tangible presence.
+      properties:
+        - label: Appearance_General
+           value: 'Wiry, sun-weathered human male, appears late 50s, with the leathery  toughness of a life lived outdoors in the bayou.'
+          auth_source: '[Primal Mama Coherence Protocol  - Lickskillet Environment Implication]'
+        - label: Appearance_Specific Features
+          value: 'Deep -set, shrewd eyes that constantly scan; calloused, capable hands; a jaw perpetually working on a piece of dried  gator jerky or reed.'
+          auth_source: '[Implied by Profession/Environment]'
+        - label : Appearance_Distinctive Marks
+          value: 'Prominent, faded alligator bite scar on his left forearm – the source of his  nickname. Missing tip of his right ring finger, lost to a faulty winch (1970s tech!).'
+           auth_source: '[Character Concept Detail]'
+        - label: Typical Attire
+          value: 'Worn  denim overalls over a faded plaid work shirt (synthetic, quick-dry but styled 1970s). Reinforced , knee-high swamp boots. Often a battered, wide-brimmed hat made of GE-gator hide  (a personal craft).'
+          auth_source: '[Primal Mama Coherence Protocol - 70s Aesthetic , Local Resources]'
+        - label: Voice/Speech Pattern
+          value: 'Slow, deliberate Southern drawl, rich with  Lickskillet colloquialisms. Tends towards understatement and dry wit. Distrustful of "fancy talk."'
+          auth_ source: '[Implied by Archetype and Regional Setting]'
+        - label: Gait/Mannerisms
+           value: 'Economical, sure-footed movements, even on treacherous swamp terrain or a bucking airboat. Habit  of spitting jerky juice. Frequently polishes the wood-panel accent on his trusty shotgun.'
+          auth_source: '[Impl ied by Profession/Environment]'
+        - label: Associated Scent (If Any)
+          value: 'Swamp mud,  alligator musk, stale coffee, and a faint whiff of ozone from his airboat''s solar charger unit.' # Esc aped single quote for airboat's
+          auth_source: '[Sensory Palette of Primal Mama]'
+       undersaturation:
+        - 'Exact height/weight'
+        - 'specific eye color beyond ''shrewd'''  # Escaped single quote
+        - 'dental condition.'
+
+    functional_properties:
+      purpose: Define what the character * can* and *cannot* do.
+      properties:
+        - label: Skill
+          value: 'Expert  Alligator Hunting & Trapping (Utilizes traditional methods adapted for GE gators within Saurian Sanctuary rules)'
+          auth_ source: '[Role, Primal Mama Coherence - Saurian Sanctuary]'
+        - label: Skill
+          value: 'Prof icient Airboat Operation & Field Repair (Adept with its 1970s-style chunky controls, analog dials, and  occasionally temperamental solar converters)'
+          auth_source: '[Primal Mama Coherence - 70s Tech, Solar  Dominance]'
+        - label: Skill
+          value: 'Small-Scale Alligator Butchering & Basic Preservation (For personal  use and limited local trade, ''mom-and-pop'' style)' # Escaped single quote
+          auth_ source: '[Role, Primal Mama Coherence - Lickskillet Economy]'
+        - label: Skill
+           value: 'Competent Shotgun Use (For hunting, defense, and expressing local pride in firearm ownership)'
+          auth _source: '[Primal Mama Coherence - Gun Ownership Norms]'
+        - label: Ability (Unique)
+           value: 'None. Operates under baseline human capabilities within Primal Mama.'
+          auth_source: '[Character  Concept]'
+        - label: Limitation (Physical)
+          value: 'Age-related aches; not as strong or fast as  younger harvesters. Eyesight requires ''reading glasses'' (chunky 70s frames) for fine repair work.'  # Escaped single quote
+          auth_source: '[Character Concept]'
+        - label: Limitation (Knowledge) 
+          value: 'Deeply skeptical of and largely ignorant about the advanced bio-engineering behind GE gators or the full workings  of the meat oligarchy''s financial structures. Relies on folk knowledge and experience over "Beetriot book-learnin'' ." Avoids Automatons/LLMs due to ingrained social stigma and personal distrust.' # Escaped single quotes
+          auth_ source: '[Primal Mama Coherence - Epistemic Divides, Automaton Stigma]'
+        - label : Limitation (Social/Economic)
+          value: 'Limited influence beyond his immediate community; struggles against price manipulation by the meat  oligarchy. Lacks capital for advanced processing equipment.'
+          auth_source: '[Primal Mama Coherence -  Deontic (Oligarchy Friction)]'
+      undersaturation:
+        - 'Ability to perform complex ritual  magic (highly unlikely)'
+        - 'understanding of advanced solar array theory'
+        - 'swimming proficiency.'
+
+    psych ological_properties:
+      purpose: Define the character's textually constituted inner life.
+      properties:
+         - label: Core Trait
+          value: 'Fiercely Independent / Self-Reliant'
+          auth_ source: '[Actions, Axiological Values of Region]'
+        - label: Core Trait
+          value: 'Deeply  Suspicious (of Beetriot, meat oligarchy, overly complex technology, and smooth-talkers)'
+          auth_ source: '[Dialogue, Reactions]'
+        - label: Core Trait
+          value: 'Pragmatic to a fault  (Values what works and what''s tangible)' # Escaped single quote
+          auth_source: '[Problem-solving approach]' 
+        - label: Dominant Emotion
+          value: 'A constant, low-grade Resignation mixed with Gr umbling Defiance regarding the oligarchy and societal changes he can''t control. Quiet pride in his skills and way of life.' #  Escaped single quote
+          auth_source: '[Internal Monologue hints, Expressed Sentiments]'
+        - label : Key Motivator
+          value: 'Maintaining his autonomy; providing for his (small/implied) family/ self; upholding traditional Lickskillet ways against encroachment.'
+          auth_source: '[Character Goals]'
+         - label: Key Belief
+          value: >-
+            "The swamp provides for those who respect it and work it honest ." Believes in the "old gods" (Reynolds, Reed, Parsons)
+            in a casual, cultural sense –  their posters might be in his shack, representing a 'better time'.
+            Mildly superstitious about certain swamp phenomena (ghosts , witch-doings) but keeps a practical distance.
+          auth_source: '[Primal Mama Coherence  - Axiological (Deities), Epistemic (Ghosts/Witches)]'
+        - label: Internal Conflict 
+          value: >-
+            Desire for a 'fair shake' vs. the overwhelming power of the olig archy.
+            Pride in traditional methods vs. the subtle pressure to adopt more "efficient" (oligarchy-controlled)  practices.
+            Loyalty to community vs. individual survival needs.
+          auth_source: '[Narrative Potential]'
+         - label: Subjective Memory Content
+          value: >-
+            Vivid memories of past hurricane seasons,  famous gator hunts (pre- and post-GE types),
+            local Lickskillet festivals celebrating Jerry Reed's " birthday."
+            Hearsay about the "Big Calamity" mostly as "when the cows went bad." No  direct memory of pre-Calamity times.
+          auth_source: '[Character History]'
+      undersaturation:
+         - 'Deep philosophical views on Erpenthrope existence (likely sees them as just another dangerous swamp critter, if  he believes in them)'
+        - 'nuanced opinions on art beyond celebrity posters'
+        - 'specific childhood  traumas.'
+
+    social_relational_categorical_properties:
+      purpose: Define the character's place within the world 's networks.
+      properties:
+        - label: Official Role
+          value: 'Independent Alligator Har vester and Small-Scale Processor (Self-Employed, Lickskillet Parish)'
+          auth_source:  '[Character Concept]'
+        - label: Social Status
+          value: 'Respected elder/skilled worker within Lick skillet''s harvester community; considered lower-class, rustic, and largely irrelevant by Beetriot elite.' # Escaped single quote 
+          auth_source: '[Primal Mama Coherence - Social Divides]'
+        - label: Primary Aff iliation
+          value: 'Lickskillet Community (Informal network of shared interest, culture, and grievance against the  oligarchy)'
+          auth_source: '[Implied by Role/Location]'
+        - label: Secondary Affiliations
+           value: 'Loose, informal member of the "Swamp Rats Airboat Club" (a social group that occasionally shares  tips on repair for their 1970s-style airboats and moans about fuel cell prices). Occ asional, wary dealings with a local Swamp Witch for poultices or warding charms against vampire bunnies.'
+          auth_source : '[Flavor, Primal Mama Elements]'
+        - label: Key Relationship 1
+          value: 'To  Meat Oligarchy Local Buyer (e.g., "Mr. Slicksilver"): Antagonistic, defined by unequal  power, haggling, and thinly veiled threats from Slicksilver.'
+          auth_source: '[Primal Mama Coherence  - Oligarchy Friction]'
+        - label: Key Relationship 2
+          value: 'To Younger Harvesters in L ickskillet (e.g., "Young Buck" Billy): Mentor/rival, offering advice tinged with "back  in my day" grumbling, but also concerned for their future.'
+          auth_source: '[Narrative Potential ]'
+        - label: Key Relationship 3
+          value: 'To his primary Airboat, "The Pr imal Queen" (1978 SolarWrangler chassis with custom wood paneling): Anthropomorphized object of  affection and frustration, representing his livelihood and independence.'
+          auth_source: '[Flavor, 70s Tech ]'
+        - label: Species/Type
+          value: 'Human (Baseline Post-Calamity Strain)' 
+          auth_source: '[Primal Mama Coherence]'
+      undersaturation:
+        - 'Specific family members (wife , children – could be deceased, estranged, or simply not plot-relevant yet)'
+        - 'direct interactions with Er penthropes'
+        - 'any friends within Beetriot.'
+
+    modal_properties:
+      purpose: Define  any inherent unique relationship to world laws.
+      properties: # Kept as a list, even if only one item describing  absence of special properties
+        - property_id: MODAL-JEBJ-00
+          name: 'None Authent icated.' # Using name instead of label for consistency if this becomes a list of actual modal objects
+          description: > -
+            Jebediah operates fully under the established alethic, deontic, axiological, and epist emic modalities of Primal Mama
+            for baseline humans in his region. He possesses no unique supernatural abilities or exemptions from  world laws.
+          limits: 'N/A'
+          authentication: 'Primal Mama Coherence Protocol ( general rules apply).'
+      undersaturation: [] # Explicitly empty if no undersaturation notes for this section
+
+    ax iological_properties:
+      purpose: Define the character's value status *within* Primal Mama.
+       properties:
+        - label: Reputation (Lickskillet)
+          value: 'Authenticated as ''tough but fair'',  ''knows his gators better''n anyone'', ''stubborn as a mud-stuck airboat'', '' reliable in a pinch''. A local figure of respect, sometimes pity for his struggles.' # Escaped single quotes
+           auth_source: '[Implied Community Standing]'
+        - label: Reputation (Meat Oligarchy Reps)
+          value : 'Authenticated as ''minor independent'', ''potential troublemaker if riled'', ''ultimately insignificant'', ''resistant to modernization ''.' # Escaped single quotes
+          auth_source: '[Primal Mama Coherence - Oligarchy View]'
+         - label: Reputation (Swamp Witches, if known)
+          value: 'Potentially viewed as '' one of the swamp-wise'', ''respectful of boundaries'', ''a source for mundane supplies or gossip''.' # Esc aped single quotes
+          auth_source: '[Speculative Interaction]'
+        - label: Moral Alignment (Narrative  Framing)
+          value: 'Authenticated via likely narrative presentation as ''salt of the earth'', embodying values of hard work, independence,  and resilience against systemic oppression. Fundamentally decent, though capable of pragmatic rule-bending for survival.' # Escaped single quotes 
+          auth_source: '[Archetypal Framing]'
+      undersaturation:
+        - 'Reputation among Er penthropes'
+        - 'wider fame beyond Lickskillet (none expected)'
+        - 'specific views  of the deified celebrities beyond cultural osmosis.'
+
+    historical_properties:
+      purpose: Define the character's known origins and  connections to past events.
+      properties:
+        - label: Origin
+          value: 'Authenticated as born and  raised in Lickskillet Parish, approximately 15-20 years after the Biological Calamity. His parents were  among the first generation to fully adapt to the alligator-based economy.'
+          auth_source: '[Character Backstory  consistent with Primal Mama Timeline]'
+        - label: Key Past Event Connection
+          value: 'Lived through the " Great Saurian Bloom" of ''47 (Post-Calamity reckoning) when GE gators first became widely harvest able. Remembers the "Consolidation Riots" when the meat oligarchy first aggressively squeezed out smaller operations. Witness ed the ceremonial opening of the Saurian Sanctuary.' # Escaped single quote
+          auth_source: '[Hypothetical Primal  Mama Historical Markers]'
+        - label: Inherited Items
+          value: 'Authenticated to possess his father''s original , non-solar airboat schematics (useless now, but kept for sentiment, stored in a faux-woodgrain  binder); a tarnished ''Burt Reynolds Trans-Am Achievement'' medallion (a local award from a long-defunct L ickskillet festival).' # Escaped single quotes
+          auth_source: '[Flavor, Primal Mama Culture]' 
+      undersaturation:
+        - 'Specific details of his upbringing beyond ''swamp life''' # Escaped single quote 
+        - 'precise nature of his parents'' fate' # Escaped single quote
+        - 'any direct interaction  with major historical figures of the Calamity aftermath.'
+
+  character_constitution_summary_narrative_function:
+     purpose: Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle.
+    core_essence:  >-
+      Jebediah "Gator-Bait" Jones is constituted as the quintessential Primal Mama  Lickskillet denizen:
+      a product of the post-Calamity world, his life and livelihood inextricably linked  to the GE solar alligators
+      and the pervasive 1970s technological aesthetic. He embodies rugged independence, traditional  swamp wisdom,
+      and a deep-seated suspicion of the encroaching meat oligarchy and the distant, decadent Beet riot.
+      His existence is a testament to adaptation, defined by the practical skills needed to survive in the bayou
+       and navigate its unique socio-economic landscape, all while clinging to a vanishing sense of autonomy and
+      cultural identity symbolized  by his firearms, his battered airboat, and his quiet reverence for the celebrity
+      deities of a "simpler" past .
+    primary_narrative_function: >-
+      To serve as a grounding viewpoint character representing the everyday  struggles, values, and perspectives
+      of the common folk in Primal Mama's rural, alligator-dependent regions like  Lickskillet.
+      He can act as a source of local lore, an obstacle or ally to protagonists from outside his  culture,
+      and a direct illustration of the impact of the world's core rules (e.g., Saurian Sanctuary regulations ,
+      oligarchy pressures, the utility and limitations of 1970s tech). He embodies the tension  between
+      individual self-reliance and systemic forces.
+    key_internal_conflicts_from_bundle:  >-
+      The drive for independence vs. the crushing economic power of the meat oligarchy.
+      Adherence to traditional  methods/values vs. the necessity of adapting to survive in a technologically
+      advanced (albeit aesthetically retro) world.  Loyalty to his community vs. the temptation of individual
+      gain or escape. Skepticism of the "new" (Automat ons, complex GE explanations) vs. the undeniable
+      reality of the world he lives in.
+    potential_for_ development_based_on_bundle: >-
+      Could be pushed into a leadership role in local resistance against the  oligarchy.
+      Might be forced to confront or reluctantly utilize elements he distrusts (e.g., information
+       from an Automaton user, aid from an Erpenthrope). Could have his folk beliefs challenged or confirmed by 
+      direct encounters with more overt supernatural elements (powerful ghosts, witch rituals).
+      May have to pass on his knowledge to  a younger generation, confronting his own obsolescence or legacy.
+
+end_of_fictional_person_profile: CHAR _JebJones_01

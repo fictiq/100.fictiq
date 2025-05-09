@@ -11,10 +11,10 @@ export const initGemini = (cpy: GeminiModel, bal: GeminiBit, ste: State) => {
 
     var FS = require('fs-extra')
 
-    var quest = FS.readFileSync('./astro/ambit/002.glopratchet/004.coherence.md').toString()
+    var quest = FS.readFileSync('./astro/ambit/003.primal-mama/000.coherence.md').toString()
     var prop = FS.readFileSync('./astro/cosmica/001.character.md').toString()
 
-    var list = FS.readdirSync('./astro/character/002.glopratchet/mark/')
+    var list = FS.readdirSync('./astro/character/003.primal-mama/mark/')
 
     function padInteger(number, length, paddingCharacter = '0') {
         const stringifiedNumber = String(number);
@@ -35,7 +35,7 @@ export const initGemini = (cpy: GeminiModel, bal: GeminiBit, ste: State) => {
                 },
                 {
                     role: "model",
-                    parts: [{ text: " thanks for the mark down file named glopratchet" }],
+                    parts: [{ text: " thanks for the mark down file named primal mama" }],
                 },
                 {
                     role: "user",
@@ -49,7 +49,7 @@ export const initGemini = (cpy: GeminiModel, bal: GeminiBit, ste: State) => {
         });
 
         const stream1 = await chat.sendMessageStream({
-            message: "Can you use the world of Glopratchet in the coherence as the reference material and contextualize using the character markdown and create a new markdown document with the updated information",
+            message: "You are going to be creating Robot E. Lee, an automaton designed as an ancient confederate general. Can you use the world of Primal Mama in the coherence as the reference material and contextualize using the character markdown and create a new markdown document with the updated information",
         });
 
 
@@ -105,8 +105,8 @@ export const initGemini = (cpy: GeminiModel, bal: GeminiBit, ste: State) => {
         var output2 = out2.join(' ');
 
         var name = output2.split(':')[1]
-        var dirM = './astro/character/002.glopratchet/mark/' + dex + '.' + S(name).slugify().s
-        var dirY = './astro/character/002.glopratchet/yaml/' + dex + '.' + S(name).slugify().s
+        var dirM = './astro/character/003.primal-mama/mark/' + dex + '.' + S(name).slugify().s
+        var dirY = './astro/character/003.primal-mama/yaml/' + dex + '.' + S(name).slugify().s
 
 
         FS.writeFileSync(dirM +  '.md', source)
