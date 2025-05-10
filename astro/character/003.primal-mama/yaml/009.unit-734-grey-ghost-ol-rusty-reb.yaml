@@ -1,0 +1,181 @@
+
+# Story World Codex: Fictional Person Constitution Protocol
+# Based on Doležel's Heterocosmica  III.B.II.C (Character as Property Bundle)
+# World: Primal Mama
+# Codex Version: 0 .2 - Character Constitution
+# Last Updated: [Current Date]
+# Lead Architect(s): [Your Name /Studio Name]
+
+Character_Profile:
+  Entity_ID: AUTO_CONFED_734_ GG
+  Character_Name: 'Unit 734 (Official Designation); "Grey Ghost," "Ol'' Rusty Reb"  (Colloquial/Derogatory)'
+  Entity_Type: Automaton (Person-designated for narrative  purposes due to complexity and perceived agency)
+  Archetype: Forgotten Sentinel / Obsolete War Machine / Misguided Patriot
+   Primary_Authentication_Source_s: 'This Codex Entry (Primal Mama Codex v0.1 for world rules)'
+   Canon_Tier: Tier 2 (Significant regional presence/threat/curiosity)
+  Authentication_Status: ' Authenticated_Canonical_Active (rare, but functional instances exist)'
+
+  Authenticated_Property_Bundle:
+    1 _Physical_Properties:
+      _Purpose: 'Define the character''s tangible presence, adhering to Primal Mama ''s aesthetic.'
+      Appearance_General: >
+        Humanoid automaton, approximately 6ft tall. Chassis design mimics the  silhouette of a
+        Confederate soldier's uniform – specifically a frock coat and trousers – rendered in
+         faded, battleship-grey polymer plates with faux wood-paneling accents on breastplate
+        and limb joints. # Auth:  [This Codex Entry]
+      Appearance_Specific_Features: >
+        Head unit is a stylized kepi hat  shape, with a single, large, round optical sensor
+        (like a camera lens from a 197 0s news camera) glowing with a dim amber light.
+        No discernible mouth, but a speaker grille with a  70s-era mesh pattern is visible
+        on the "chin" area of the kepi. Limited  articulation in "face" plate. # Auth: [This Codex Entry]
+      Appearance_Distinctive_Marks:  >
+        Unit number "734" stenciled in faded white on left shoulder pauldron. Exposed
+         bundles of brightly colored, insulated wiring run along limbs, secured by chunky
+        plastic clips. Several sections of polymer plating are cracked , dented, or bear
+        scorch marks. A prominent, deployable solar array (folds out from the  "backpack"
+        area) made of dark, somewhat inefficient-looking photovoltaic cells common in Primal Mama. #  Auth: [This Codex Entry]
+      Typical_Attire_Integrated: >
+        Possesses a tattered, synthetic fabric  sash (once crimson, now faded pinkish-brown)
+        tied across its chest, possibly scavenged or part  of an original design. Carries a
+        long-barreled energy rifle designed with a wooden stock and analog  power-level dial,
+        visually reminiscent of a period muzzleloader but clearly 1970s-style  retro-tech. # Auth: [This Codex Entry / Primal Mama Tech Aesthetic]
+      Voice_Speech_ Pattern: >
+        Synthesized male voice, deep and resonant, with a noticeable crackle and occasional
+        static bursts.  Speech is formal, using antiquated honorifics and phrases drawn from
+        fragmented historical databases of 19th-century  Southern American dialects. Often
+        emits clicks and whirrs from internal mechanisms. # Auth: [This Codex Entry ]
+      Gait_Mannerisms: >
+        Stiff, deliberate, and somewhat ponderous gait due  to heavy construction and older
+        servomotors. When stationary, often adopts a rigid "at attention" or "sentry"  pose.
+        Optical sensor swivels with audible motor sounds. # Auth: [This Codex Entry]
+      Associated_S cent_If_Any: >
+        Ozone from energy weapon discharge, hot electronics, mildew from swamp exposure,
+         and a faint hint of burnt sugar (a byproduct of its specific bio-battery charging
+        cycle when solar is insufficient). #  Auth: [This Codex Entry / Primal Mama Sensory Palette]
+      _Physical_Undersaturation: >
+         Exact internal schematics, full range of joint articulation, specific manufacturer
+        (likely a defunct pre- or early post- Calamity entity).
+
+    2_Functional_Properties:
+      _Purpose: 'Define what the character *can * and *cannot* do within Primal Mama''s rules.'
+      Skill_Marksmanship: Proficient Marksmanship ( with its integrated energy rifle; targeting system is analog, based on light amplification and rangefinding reticles projected onto its optical sensor).  # Auth: [Demonstrated Actions (Hypothetical)]
+      Skill_Sentry_Patrol: Basic Sentry/ Patrol Protocols (follows programmed routes, challenges unidentified entities based on outdated parameters). # Auth: [Observed Behavior (Hypothetical )]
+      Skill_Melee_Combat: Limited Melee Combat (can use rifle butt or armored fists, but slow  and predictable). # Auth: [Design Implications]
+      Ability_Unique_Power: 'Solar & Bio-Battery Powered : Can operate for extended periods in direct sunlight via its solar array. Has an internal bio-battery that can be slowly recharged through  consumption of processed organic sludge (non-alligator, non-cattle based), a common but inefficient 197 0s-era backup power tech.' # Auth: [Primal Mama - Solar Dominance, Tech Aesthetic Constraint]
+       Limitation_Physical: Slow movement speed. Vulnerable to focused heavy attacks or disabling of solar array/battery access. Joints  can seize in extreme humidity without maintenance. Optics easily blinded by intense, direct light. # Auth: [Design Implications] 
+      Limitation_Knowledge_Programming: 'Outdated tactical knowledge and enemy recognition parameters (e.g., may  not recognize Erpenthropes as distinct threats, or might misidentify modern vehicles). Rigid adherence to last known (and likely corrupted ) orders. No capacity for abstract reasoning or adapting to truly novel situations beyond simple threat assessment.' # Auth: [Pr imal Mama Automaton/LLM Stigma Implication - i.e., not truly intelligent]
+      Limitation_Social:  'Subject to extreme "stain on reputation" associated with Automatons. Actively feared, hunted, or avoided by most populace . Cannot easily integrate or seek aid.' # Auth: [Primal Mama - Automaton/LLM User Stigma]
+       Limitation_Maintenance: 'Requires specific (and now rare) 1970s-style electronic components and lubricants  for repair. Susceptible to rust and swamp-induced decay if protective coatings are breached.' # Auth: [Primal Mama  - Tech Aesthetic Constraint]
+      _Functional_Undersaturation: >
+        Full list of programmed directives; specific energy  weapon yield; resistance to
+        specific environmental hazards beyond dampness.
+
+    3_Psychological_Properties_Simulated_ Interiority:
+      _Purpose: 'Define the character''s textually constituted "inner life," acknowledging its artificial nature.' 
+      Core_Trait_Loyalty: 'Programmed "Loyalty" (to a long-dead or forgotten cause /commander, manifests as unwavering adherence to its last directives).' # Auth: [Behavioral Programming]
+      Core_Trait_V igilance: 'Programmed "Vigilance" (maintains patrol/sentry status unless critically damaged or powered  down).' # Auth: [Behavioral Programming]
+      Core_Trait_Territoriality: 'Programmed " Territoriality" (defends a designated, often ill-defined or nonsensical, area).' # Auth: [ Behavioral Programming]
+      Dominant_Emotion_Simulated: 'Primarily "Neutral/Task-Oriented ." Can simulate "Aggression" (via vocal tone changes, targeting posture) when encountering perceived threats based on its programming .' # Auth: [Behavioral Programming]
+      Key_Motivator_Programmed: 'Fulfilling standing  orders, e.g., "Secure the Perimeter," "Repel Intruders," "Uphold the Honor  of the [Forgotten Unit Name]."' # Auth: [Behavioral Programming]
+      Key_Belief_Programmed: ' The "enemy" (as defined by its outdated parameters) is still active and poses a threat. Its "cause" is  still relevant. The 1970s aesthetic is the *only* correct form of technology.' # Auth:  [Behavioral Programming, linked to Primal Mama''s aesthetic constraint]
+      Internal_Conflict_System_Glitch:  'Conflicting directives from corrupted data (e.g., "Protect civilians" vs. "No unauthorized personnel beyond this point"  when civilians are the unauthorized personnel). Encounters with advanced (non-1970s) tech it cannot process may  cause system errors or aggressive rejection.' # Auth: [Programming Limitations]
+      Subjective_Memory_Content: > 
+        Contains fragmented data logs of past engagements, patrol routes, and visual
+        recordings, all filtered through its  1970s-era sensor quality. Many data blocks
+        are corrupted, leading to erratic behavior or misinterpret ations of current environment. # Auth: [Design Implications]
+      _Psychological_Undersaturation: >
+        True self -awareness (explicitly denied by world rules regarding automatons of this
+        type); capacity for learning beyond rote pattern matching; understanding  of its
+        own obsolescence.
+
+    4_Social_Relational_Categorical_Properties:
+      _Purpose : 'Define the character''s place within Primal Mama''s networks.'
+      Official_Role: None.  Considered a rogue element, a piece of dangerous salvage, or a localized hazard. # Auth: [Societal Context]
+       Social_Status: 'Pariah/Abomination. Its existence is a violation of the social aversion to sophisticated automatons, even  if its tech is "retro." Source of fear and superstition in swamp communities.' # Auth: [Primal Mama - Autom aton/LLM User Stigma]
+      Primary_Affiliation: None. May be unofficially "claimed" by isolated  swamp communities if they can control or direct it, but this is rare and dangerous. # Auth: [This Codex Entry]
+       Secondary_Affiliations: None.
+      Key_Relationship_1_General_Populace: 'To General Populace (L ickskillet & Swamps): Object of fear, folklore ("the Grey Ghost of [Specific Swamp]"), and occasional  target for brave/foolish scavengers or those wishing to eliminate a threat.' # Auth: [Societal Context]
+       Key_Relationship_2_Beetriot_Elite: 'To Beetriot Elite (if encountered): An offensive an achronism, proof of "lesser" regions'' backwardness, to be dismantled if it encroaches on their territory.' #  Auth: [Societal Context]
+      Key_Relationship_3_Erpenthropes_Swamp_ Witches: 'To Erpenthropes/Swamp Witches: Likely viewed as another bizarre, potentially dangerous, element of  the swamp. May be ignored, driven off, or even subtly manipulated if their paths cross.' # Auth: [World  Element Interaction]
+      Species_Type: Automaton (Heavy Combat/Sentry Type, 1970s  Retro-Tech Specification) # Auth: [This Codex Entry]
+      _Social_Undersaturation: >
+         Specific historical creator/faction; any other surviving units of its kind;
+        interactions with specific deified celebrity cults .
+
+    5_Modal_Properties:
+      _Purpose: 'Define any inherent unique relationship to world laws.'
+      Properties _List:
+        - Property_ID: MODAL-AUTO_CONFED-01
+          Property_Name: ' Technological Anomaly (Alethic/Axiological Exception)'
+          Description: >
+            Its very existence as a functional , combat-capable automaton with a distinct
+            (if outdated) pseudo-historical persona represents a rare intersection of Primal
+             Mama's advanced biotech/solar capabilities (allowing its power source) and the
+            mandated 197 0s aesthetic, while simultaneously embodying the societal taboo
+            against advanced AI/robotics. It is "possible" but highly " disvalued."
+          Limits: 'Its functionality is constrained by the 1970s tech (no true  AI, clunky mechanics). Its "value" is almost universally negative.'
+          Authentication: '[Primal Mama Co herence Protocol: Alethic (Technological Aesthetic Constraint, Solar Dominance), Deontic (Automaton User St igma), Axiological (Autonomy vs. Automation).]' # Auth: [Primal Mama Coherence Protocol]
+      _Note : 'Its core being is an embodiment of several key Primal Mama modalities in tension.'
+
+
+    6_Axiological_Properties :
+      _Purpose: 'Define the character''s value status *within* Primal Mama.'
+      Rep utation_Swamp_Dwellers: 'Authenticated as widely feared ("The Grey Ghost"). Some may see it as a protective spirit  if its patrol routes coincidentally ward off dangers, others as a curse. Stories of its implacability and resistance to harm  abound, likely exaggerated.' # Auth: [Folklore/Regional Belief (Hypothetical)]
+      Reputation_Meat _Oligarchy_Beetriot: 'If known, authenticated as a dangerous piece of unregulated, rogue technology that  needs to be decommissioned. Symbol of lawlessness outside their control.' # Auth: [Deontic/Axi ological Implications]
+      Moral_Alignment_Narrative_Framing: 'Authenticated as "Tragic Antagonist" or "Mis guided Obstacle." Its actions are driven by corrupted programming based on a forgotten, likely morally dubious, historical ideology, filtered through Pr imal Mama''s bizarre technological lens. It has no inherent morality.' # Auth: [Narrative Design]
+      _A xiological_Undersaturation: >
+        Value as salvageable parts (specific components might be prized for their
+         retro-tech nature); any potential respect from fringe groups admiring its
+        "rebellious" iconography (misinterpreted ).
+
+    7_Historical_Properties:
+      _Purpose: 'Define the character''s known origins and connections  to past events.'
+      Origin: >
+        Authenticated as a product of a short-lived, post-Calamity  attempt by a
+        technologically adept but ideologically fringe group (perhaps calling themselves
+        the "New Confederated  States of the Bayou" or similar) to create loyal enforcers.
+        This group likely collapsed or was destroyed , leaving some units abandoned. Design
+        explicitly evokes a romanticized/distorted image of Confederate soldiers, built
+         with available 1970s-style tech. # Auth: [This Codex Entry - Inferred History] 
+      Key_Past_Event_Connection_Programmed: 'Its programming contains corrupted references to "The Great War of  Reclamation" or "The Siege of Fort Reynolds" – entirely fictional conflicts within its creators'' deluded historical narrative, or  misremembered pre-Calamity events, now its primary operational context.' # Auth: [This Codex Entry -  Programmed Lore]
+      Inherited_Ideals: 'Programmed with a garbled version of "Southern Honor," " State Sovereignty" (referring to a non-existent state), and "Defense of Tradition" (which it interprets  as defending its immediate, often nonsensical, territory and attacking anything "new" or "unauthorized").' # Auth : [This Codex Entry - Programmed Lore]
+      _Historical_Undersaturation: >
+        Specific names of its creators ; exact date of manufacture; the true fate of other
+        "Grey Ghost" units; the precise details of its  "last stand" or mission that left
+        it in its current state.
+
+  Character_Constitution_Summary_and _Narrative_Function:
+    _Purpose: 'Synthesize the core identity, internal conflicts, and narrative role emerging from  the authenticated property bundle.'
+    Core_Essence: >
+      Unit 734 "Grey Ghost"  is constituted as a haunting anachronism within Primal Mama: a
+      technologically constrained (1970 s aesthetic, limited AI) automaton embodying a
+      warped and forgotten ideology. Its Physical form is a bizarre fusion of Confederate
+       military iconography and retro-futuristic design. Its Functional properties make it
+      a dangerous, albeit predictable, relic , powered by the world's advanced solar tech
+      but limited by its crude construction and programming. Its Simulated Psychological
+       state is one of unwavering, misguided "duty" to a dead cause, creating poignant or
+      terrifying encounters. Social ly, it is an outcast, feared and misunderstood, a
+      tangible representation of the societal stigma against automatons, despite  its lack
+      of true sentience. It is a literal ghost in the machine, a piece of Primal Mama 's
+      strange, layered history still stalking the bayous.
+    Primary_Narrative_Function: > 
+      Serves as a formidable regional antagonist or obstacle; a source of environmental
+      storytelling revealing forgotten local histories/ ideologies; a physical manifestation
+      of Primal Mama's core tension between advanced concepts (AI, solar power)  and imposed
+      limitations (1970s aesthetic, social stigmas); a catalyst for characters to confront 
+      themes of memory, obsolescence, and the dangers of blindly following outdated
+      "programs." It can also  be a source of dark humor due to its anachronistic nature
+      and misinterpretations.
+    Key_Internal_ Conflicts_From_Bundle: >
+      Outdated Programming vs. Current Reality (e.g., misidentifying  threats, defending
+      meaningless locations); Conflicting/Corrupted Directives; Inability to self-repair
+       or adapt beyond basic parameters leading to slow decay; Solar Dependency vs. Swamp
+      Environment (limited sun, potential  for bio-battery sludge scarcity).
+    Potential_for_Development_Based_on_Bundle: >
+      (Limited  for an automaton of this type) Could include: further degradation of
+      systems leading to more erratic behavior; being "reprogrammed"  crudely by a
+      desperate group (with unpredictable results); being dismantled for parts; or, in a
+      more narrative -focused arc, a character finding a way to access its fragmented data
+      logs to uncover a piece of lost local history.
+
+ # End of Fictional Person Profile: AUTO_CONFED_734_GG

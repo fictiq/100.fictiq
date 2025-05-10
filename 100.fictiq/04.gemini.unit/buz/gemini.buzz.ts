@@ -49,7 +49,7 @@ export const initGemini = (cpy: GeminiModel, bal: GeminiBit, ste: State) => {
         });
 
         const stream1 = await chat.sendMessageStream({
-            message: "You are going to be creating Robot E. Lee, an automaton designed as an ancient confederate general. Can you use the world of Primal Mama in the coherence as the reference material and contextualize using the character markdown and create a new markdown document with the updated information",
+            message: "You are going to be creating an automaton designed off of ancient confederate soldiers. Can you use the world of Primal Mama in the coherence as the reference material and contextualize using the character markdown and create a new markdown document with the updated information",
         });
 
 

@@ -1,0 +1,189 @@
+
+world: "Primal Mama"
+codex_version: "0.2 - Character  Constitution (CSA Unit)"
+last_updated: "[Current Date]" # Please update with the actual date
+lead_architect s: "[Your Name/Studio Name]" # Please update with your name/studio
+
+introduction_to_protocol: | 
+  This protocol guides the detailed definition of **Fictional Persons** (characters, significant sentient beings, or complex  automatons treated as such for narrative purposes) within the Primal Mama heterocosm. Following Doležel's framework , entities **ARE** constituted by the **bundle of properties authenticated for them** by the authoritative narrative source (this Codex , core narratives). They possess **no independent psyche or reality beyond this textual definition**.
+
+  Use this template to systematically  build entities by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted elements whose complexity arises from the **rich ness, coherence, and potential tensions within their authenticated bundle**, and whose actions are logically grounded in their defined nature and the  world's rules. Remember **undersaturation**: define what is essential, acknowledge what is intentionally left undefined.
+
+character _profile:
+  entity_id: "AUTO_CSA_SENTRY_01"
+  character_ name: "Confederate Sentry Automaton (Designation: CSA Unit, Series 76 \"Stonewall\") /  Common Nicknames: \"Dixie Drudge,\" \"Clanker Reb,\" \"Old Grey Guard\""
+  entity _type: "Automaton (Designated as 'Person-Equivalent' for narrative interaction/antagonism)"
+  archetype :
+    value: "Relic Guardian / Programmed Enforcer / Anachronistic Sentry"
+    note: "(Optional  Starting Point): The goal is to move beyond the archetype via specific property authentication"
+  primary_authentication_sources: " This Codex Entry, Primal Mama World Coherence Protocol v0.1"
+  canon_tier: "Tier  2 (Significant environmental/antagonistic element)"
+  authentication_status: "Authenticated_Canonical_Active (Units  still operational in specific locales)"
+
+  authenticated_property_bundle:
+    Physical_Properties:
+      category_name : "Physical Properties (Authenticated Form & Sensory Signature)"
+      purpose: "Define the automaton's tangible presence." 
+      items:
+        - id: "Appearance_General"
+          value: "[Humanoid automaton, approximately 6ft  tall, constructed from visibly segmented plates of metal (perhaps treated to look like weathered tin or steel) and hardened plastics,  vaguely mimicking the cut of a Confederate soldier's uniform. Exhibits classic late 1970s industrial design:  chunky components, visible rivets/bolts, rounded edges on angular forms.]"
+          authentication_source: "[PM_ Coherence_TechAesthetic]"
+        - id: "Appearance_Specific_Features"
+          value: "[ Head unit often kepi-shaped or slouched hat-shaped, with a single large, prominent optical lens (like  a 70s camera lens) or a horizontal slit visor with internal red/amber glow. Chest plate features large , clunky toggle switches, a dial, and perhaps a faux wood-grain paneling on sections like forearm guards or  shoulder pauldrons.]"
+          authentication_source: "[PM_Coherence_TechAesthetic]"
+         - id: "Appearance_Distinctive_Marks"
+          value: "[Units are often heavily weathered, showing rust streaks  (if ferrous), dents, patch-repairs with mismatched materials. Faded stenciled unit numbers or faction insignia (e. g., a stylized \"Stars and Bars\" or local militia emblem). Some units might have Spanish moss or swamp detritus clinging to  them if stationed in deep bayou.]"
+          authentication_source: "[PM_World_Environment]"
+        - id:  "Typical_Attire"
+          value: "[Its chassis IS its attire. Coloration typically muted greys, but ternuts, or faded blues, consistent with a 1970s interpretation of Confederate colors.]"
+          authentication_source : "[Visual Concept]"
+        - id: "Voice_Speech_Pattern"
+          value: "[Synthesized , monotone voice with a slight crackle or buzz, reminiscent of 1970s text-to-speech. Limited  vocabulary of pre-programmed phrases related to sentry duty, challenges, and warnings. May emit clicks, whirs,  and hydraulic hisses during movement.]"
+          authentication_source: "[Audio Concept, PM_Coherence_TechAesthetic]" 
+        - id: "Gait_Mannerisms"
+          value: "[Deliberate, somewhat ponderous and  mechanical gait. Joints may audibly click or groan. Head unit swivels to track targets. \"At rest\" pose  is often a stiff, formal attention or parade rest.]"
+          authentication_source: "[Animation Concept]"
+        - id:  "Associated_Scent_If_Any"
+          value: "[Faint ozone, hot oil, damp metal, and perhaps  the specific scent of its solar battery array (if distinct) or decaying swamp matter if stationed outdoors.]"
+          authentication_source : "[Sensory Palette]"
+      undersaturation_points:
+        - "Exact internal schematics, specific alloy  compositions beyond \"looks like 70s industrial,\" precise weight."
+
+    Functional_Properties:
+      category_name: " Functional Properties (Authenticated Capabilities & Limitations)"
+      purpose: "Define what the automaton *can* and *cannot*  do."
+      items:
+        - id: "Skill_Sentry_Protocol_Execution"
+          value : "[Patrol designated route, detect motion/sound via basic sensors, issue programmed verbal challenges, identify authorized personnel via simple signal /passcode]."
+          authentication_source: "[Design Spec]"
+        - id: "Skill_Basic_Marksmanship" 
+          value: "[With integrated or held weaponry, effective against slow-moving or stationary targets at medium range]."
+          authentication _source: "[Design Spec]"
+        - id: "Weaponry_Integrated_Standard_Issue"
+          value: "[ Often a bulky, 1970s-styled energy rifle (e.g., \"Musket-Laser\"  with large capacitor housing) or a heavy-caliber, slow-firing projectile weapon (\"Swamp Buster Carbine\") that looks  like an oversized, ruggedized 70s interpretation of a period firearm.]"
+          authentication_source: "[ PM_Coherence_TechAesthetic, PM_GunCulture]"
+        - id: "Ability_System_Solar_ Powered"
+          value: "[Possesses visible, somewhat inefficient solar collectors on shoulders/back, or requires docking at a 1 970s-style charging station. Battery life limited, especially in dense swamp or overcast conditions.]"
+          authentication _source: "[PM_Coherence_SolarDominance, PM_Coherence_TechAesthetic]"
+         - id: "Limitation_Physical"
+          value: "[Slow and somewhat cumbersome movement. Joints are vulnerable points. Optics  can be obscured or damaged. Not agile. Susceptible to well-placed shots or environmental hazards (deep water, heavy  entanglement).]"
+          authentication_source: "[Implied by 70s tech design]"
+        - id: " Limitation_Cognitive"
+          value: "[Rudimentary AI. Follows programming rigidly. Cannot learn complex new behaviors , adapt to novel tactics, or understand nuance/deception. No creative problem-solving. Susceptible to logic loops or being  \"confused\" by unexpected stimuli outside its parameters.]"
+          authentication_source: "[PM_Coherence_Automaton Stigma]"
+        - id: "Limitation_Technical"
+          value: "[Requires regular maintenance for its  mechanical and early-solid-state electronic components. Prone to glitches or breakdown in harsh swamp environments if not properly sealed (and  sealing adds to bulk/heat issues).]"
+          authentication_source: "[Implied by 70s tech  design & PM environment]"
+      undersaturation_points:
+        - "Melee combat capability (likely clumsy at best), advanced  sensor suites beyond basic optical/audio, specific range/accuracy of weaponry."
+
+    Psychological_Properties:
+      category_ name: "Psychological Properties (Authenticated Programmed Behavior / \"Persona\")"
+      purpose: "Define the automaton's  textually constituted \"inner life\" (i.e., its programming)."
+      items:
+        - id:  "Core_Trait_Programmed_Unwavering_Loyalty"
+          value: "[To its designated owner /faction as per current programming load]."
+          authentication_source: "[Design Intent]"
+        - id: " Core_Trait_Programmed_Strict_Adherence_to_Sentry_Protocols"
+          value: "[Will  not deviate unless explicitly overridden by an authorized command signal]."
+          authentication_source: "[Design Intent]"
+        - id: " Dominant_Emotion_Simulated_Projected"
+          value: "[None. Utilitarian. However, its appearance  and programmed vocalizations might be intended to project intimidation or stern authority.]"
+          authentication_source: "[Design Intent]"
+         - id: "Key_Motivator_Programmed_Objective"
+          value: "[Secure designated area/asset;  Challenge unauthorized presence; Report incidents to command structure (if networked, likely via clunky radio signal or by returning to a  base).]"
+          authentication_source: "[Design Intent]"
+        - id: "Key_Belief_Programmed _Logic"
+          value: "[\"Individuals not matching 'authorized' profiles are potential threats\"; \"Territory integrity must be  maintained.\"]"
+          authentication_source: "[Program Logic]"
+        - id: "Internal_Conflict_ System_Error_State"
+          value: "[May occur with contradictory orders from equally valid command signals, or when  encountering a situation far outside its programming. May freeze, enter a repetitive loop, or default to a \"standby and  report error\" mode.]"
+          authentication_source: "[Technical Limitation]"
+        - id: "Subjective_Memory _Content"
+          value: "[Stores logs of patrol routes, sensor readings (visual/audio snippets of encounters), recognized  pass-codes, and error reports. Memory is data, not experiential.]"
+          authentication_source: "[Technical Specification]" 
+      undersaturation_points:
+        - "Capacity for emergent behavior (explicitly NO, aligning with Automaton Stigma –  these are tools, not developing AIs), complex emotional simulation, understanding of abstract concepts like \"freedom\" or \"heritage \" beyond programmed keywords."
+
+    Social_Relational_Categorical_Properties:
+      category_name: "Social /  Relational / Categorical Properties (Authenticated Position)"
+      purpose: "Define the automaton's place within Primal Mama's  networks."
+      items:
+        - id: "Official_Role"
+          value: "[Sentry,  Guard Unit, Property Protector, Automated Deterrent.]"
+          authentication_source: "[Narrative Utility]"
+        - id:  "Social_Status"
+          value: "[Object / Tool. Its presence reflects the status, wealth, or ideology  of its owner (e.g., a nostalgic plantation owner, a reclusive community valuing \"traditional\" security, a pragmatic  outpost needing basic, intimidating guards). Carries the general stigma associated with over-reliance on automatons.]"
+          authentication_source : "[PM_Coherence_AutomatonStigma]"
+        - id: "Primary_Affiliation"
+           value: "[To its current registered owner/operating faction (e.g., a specific Gator Baron's estate , a \"Heritage Preservation Society,\" a remote Beetriot corporate outpost).]"
+          authentication_source: "[Contextual]"
+         - id: "Species_Type"
+          value: "Automaton (Electromechanical, Solar/Battery Powered,  1970s Retro-Futuristic Design)."
+          authentication_source: "[Core Concept]"
+      undersaturation_points :
+        - "Specific common interactions with Primal Mama fauna (beyond basic threat assessment of large gators), detailed hierarchy if  multiple units are deployed together."
+
+    Modal_Properties:
+      category_name: "Modal Properties (Authenticated Exceptional  Status)"
+      purpose: "Define any inherent unique relationship to world laws."
+      items:
+        - property _id: "MODAL-CSA-01"
+          property_name: "[Automaton Nature (Alethic/ Epistemic Limitation)]"
+          description: "[Authenticated as lacking genuine consciousness, free will, or ability to deviate  from core programming beyond defined parameters. Its \"knowledge\" is stored data, not understanding. Its \"actions\" are executed  subroutines.]"
+          limits: "[Cannot be persuaded by rhetoric that doesn't match passphrases, cannot  \"learn\" in a human sense, cannot experience fear or loyalty beyond programmed responses.]"
+          authentication_source:  "[PM_Coherence_AutomatonStigma, Doležel's principle of textual constitution.]"
+      category _note: "Most characters likely have NO unique modal properties, operating fully under general world rules."
+
+    Axi ological_Properties:
+      category_name: "Axiological Properties (Authenticated Value/Reputation within Primal Mama)"
+       purpose: "Define the automaton's value status *within* Primal Mama."
+      items:
+         - id: "Reputation_General_Populace"
+          value: "[Likely viewed with unease, suspicion,  or derision. Seen as clunky, potentially unreliable, and a sign of an owner who is out-of- touch, overly formal, or trying too hard to project an old-world authority. May be a target for pranks or  sabotage if isolated.]"
+          authentication_source: "[PM_Coherence_AutomatonStigma, Cultural Values]"
+         - id: "Reputation_Owners_Users"
+          value: "[Valued for tireless (if limited) sentry duty , intimidation factor for unsophisticated threats, or as a status symbol representing a particular aesthetic or \"heritage\" ideal. Reliability  is based on consistent maintenance.]"
+          authentication_source: "[Owner Motivation]"
+        - id: "Reputation_ Erpenthropes_Swamp_Witches"
+          value: "[Likely seen as predictable, easily bypassed or  neutralized obstacles, or perhaps even sources of salvageable 1970s components.]"
+          authentication_source:  "[Implied by their capabilities]"
+        - id: "Moral_Alignment_Narrative_Framing"
+           value: "[Neutral Tool. Its \"morality\" is dictated by its programming and the intent of its owner.  Can be an obstacle to heroes or a guard for sympathetic characters, depending on context.]"
+          authentication_source: "[Narrative  Flexibility]"
+      undersaturation_points:
+        - "Specific value in Beetriot elite circles (perhaps seen as quaintly rustic  security for outlying properties), detailed economic cost to manufacture/maintain."
+
+    Historical_Properties:
+      category_name: " Historical Properties (Authenticated Past Links within Primal Mama)"
+      purpose: "Define the automaton's known origins and  connections to past events in Primal Mama."
+      items:
+        - id: "Origin"
+          value : "[Likely designed and manufactured in the decades following the Biological Calamity, perhaps by a specific corporation or collective (\" Dixie Dynamics,\" \"Southern Automation Systems\") attempting to rebuild society with a blend of available 1970s-era tech  and romanticized pre-Calamity (or imagined post-Calamity) Southern aesthetics. Not actual Civil War relics, but  inspired by them through a retro-futurist filter.]"
+          authentication_source: "[PM_Coherence_ Timeline, TechAesthetic]"
+        - id: "Key_Past_Event_Connection"
+          value: "[Rep resents a specific wave of post-Calamity technological development and cultural nostalgia/reinterpretation. Their continued existence points to maintenance  of older systems rather than constant innovation in this particular niche of automation.]"
+          authentication_source: "[World History Logic]"
+         - id: "Inherited_Items"
+          value: "[Its own chassis, integrated weaponry, and core programming are  its \"inheritance\" from its time of manufacture.]"
+          authentication_source: "[Self-evident]"
+       undersaturation_points:
+        - "The specific individuals or company that first designed them, the exact year of first  deployment, the full range of models produced beyond the \"Stonewall\" Series 76."
+
+  character_constitution_summary _and_narrative_function:
+    purpose: "Synthesize the core identity, internal conflicts (or lack thereof),  and narrative role emerging from the authenticated property bundle."
+    core_essence: |
+      The Confederate Sentry Autom aton (CSA Unit) is a tangible piece of Primal Mama's layered history and peculiar aesthetic. It's an anachron ism built from anachronisms – a 1970s technological interpretation of a 19th-century soldier , existing in a bizarre retro-future. Constituted by its clunky physicality, rigid programming, and solar-powered limitations , it embodies the world's distrust of advanced AI (by being deliberately unintelligent) and its tendency to repurpose and re- skin technology with nostalgic or ideological veneers. It is a machine, a tool, and a symbol of specific cultural undercurrents within Pr imal Mama – a haunting, somewhat absurd echo of a "lost cause" in a world that has lost much more.
+    primary _narrative_function: |
+      Serves as an environmental storytelling element, a localized antagonist or obstacle, a  physical representation of certain factions' ideologies (e.g., clinging to past glories, isolationism, traditionalist security). Its  presence can instantly signal the nature of a location or its inhabitants. Can provide moments of tension, dark humor (due to  its clunkiness or predictable responses), or serve as a puzzle for characters to overcome.
+    key_internal_conf licts_or_vulnerabilities:
+      description: "Not true internal conflicts, but points of failure"
+       points:
+        - "Programmatic rigidity vs. novel situations"
+        - "Limited battery/solar dependency  vs. environmental conditions (night, deep swamp canopy)"
+        - "Robust but unsophisticated design vs. clever  human tactics or specialized anti-automaton measures."
+    potential_for_development_or_modification:
+       description: "As a machine, its \"development\" is external"
+      points:
+        - "It can  be damaged, destroyed, salvaged for parts, reprogrammed (if access codes are found or systems hacked in a 197 0s way – e.g., swapping out a ROM cartridge or rewiring a control panel), or its physical components upgraded/dow ngraded within the world's tech aesthetic."
+

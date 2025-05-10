@@ -1,0 +1,176 @@
+
+world : Primal Mama
+codex_version: "0.2 - Character Constitution (CSA Unit 734)"
+ last_updated: "[Current Date]"
+lead_architects: "[Your Name/Studio Name]"
+
+introduction:
+   title: Constituting Fictional Persons Textually
+  text: |
+    This protocol guides the detailed definition of **Fict ional Persons** (characters, significant sentient beings) within the Primal Mama heterocosm. Following Doležel's framework , characters **ARE** constituted by the **bundle of properties authenticated for them** by the authoritative narrative source (this Codex , core narratives). They possess **no independent psyche or reality beyond this textual definition**.
+
+    Use this template to systematically build  characters by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted individuals whose complexity arises from the **richness , coherence, and potential tensions within their authenticated bundle**, and whose actions are logically grounded in their defined nature and the world 's rules. Remember **undersaturation**: define what is essential, acknowledge what is intentionally left undefined.
+
+character_ profile:
+  entity_id: AUTON_CSA_Unit_734
+  character_name:  "CSA-Unit 734 (Chassis Designation); \"Ol' Reb\" (Colloquial Nick name)"
+  entity_type: "Automaton (Designated 'Person' for narrative utility, despite societal stigma )"
+  archetype: "Relic Guardian / Misprogrammed Enforcer / Anachronistic Sentry"
+   primary_authentication_sources: "This Codex Entry; Primal Mama World Codex v0.1"
+  canon _tier: "Tier 2 (Significant NPC / Environmental Hazard)"
+  authentication_status: Authenticated_Canonical _Active
+
+authenticated_property_bundle:
+  physical_properties:
+    purpose: "Define the character' s tangible presence, adhering to the 1970s tech aesthetic."
+    appearance_general:
+       value: "Humanoid automaton, approx. 6'2\", constructed from visibly bolted and welded metal plates, painted  a faded, weathered grey. Overall design is chunky, utilitarian, and evocative of late 1970s robotics  concepts – think large, blocky components, exposed (but neatly bundled) cabling in ribbed conduits, and prominent external hinges/ actuators."
+      auth: "[Primal Mama Codex - Tech Aesthetic Constraint]"
+    appearance_specific_ features:
+      value: "Head unit is a squared-off block with a single, large, central optical lens  (glowing dull orange) protected by a crude metal sun-visor resembling a kepi's brim. No discernible mouth;  vocalizations emit from a prominent speaker grille on the chest plate. Limbs are thick, piston-driven, ending in oversized, three -fingered clamp-hands."
+      auth: "[Primal Mama Codex - Tech Aesthetic Constraint]"
+    appearance _distinctive_marks:
+      value: "Faded, stenciled \"CSA\" lettering (stylized , not historically accurate) on shoulder pauldrons. Patches of rust, dents, and makeshift repairs (e.g., mismatched  bolts, welded patches over breaches). A series of small, flexible solar collector panels (resembling dull scales) are array ed across its back and shoulders, catching ambient light."
+      auth: "[Primal Mama Codex - Solar Dominance , Tech Aesthetic Constraint]"
+    typical_attire:
+      value: "Integrated into chassis. No separate clothing . May have a tattered, canvas-like strip of material (once perhaps a banner or sash) caught on a  shoulder joint, bearing a barely legible, anachronistic symbol or motto."
+      auth: "[Visual Design Concept]" 
+    voice_speech_pattern:
+      value: "Synthesized, monotone, with a slight metallic reverberation and occasional static  pops. Programmed with a limited vocabulary, often repeating set phrases. Can emit a loud, klaxon-like warning sound. Del ivers information in a formal, slightly stilted manner, perhaps with a distorted, programmed \"Southern\" affectation that sounds more like a  1970s sci-fi robot attempting an accent."
+      auth: "[Primal Mama Codex -  Tech Aesthetic Constraint]"
+    gait_mannerisms:
+      value: "Heavy, deliberate, and somewhat noisy gait due to  hydraulics and servo-motors. Movements are functional, lacking grace. When stationary, may perform slow, repetitive scanning motions with its head unit . Will physically \"square up\" to perceived threats."
+      auth: "[Action Description]"
+    associated_sc ent:
+      value: "Faint smell of ozone, warm electronics, hydraulic fluid, and damp, rusting metal."
+       auth: "[Sensory Palette]"
+    physical_undersaturation: "Exact internal schematics, specific alloy composition beyond  \"metal plates\", full range of non-verbal communication beyond basic threat postures."
+
+  functional_properties:
+     purpose: "Define what the character *can* and *cannot* do, within Primal Mama's rules." 
+    skills:
+      - skill: "Basic Threat Identification (Programmed parameters for recognizing unauthorized personnel or specific hostile  actions)"
+        auth: "[Demonstrated Actions]"
+      - skill: "Perimeter Patrol (Can follow pre -set routes or maintain a stationary guard post)"
+        auth: "[Programmed Function]"
+      - skill:  "Limited Object Manipulation (Can grasp and carry objects with clamp-hands, operate simple, large levers/buttons)"
+         auth: "[Physical Design]"
+    abilities:
+      - ability: "Solar Recharge: Can slowly recharge internal bio- batteries/capacitors via its solar collectors. Full efficiency requires direct, strong sunlight."
+        auth: "[Pr imal Mama Codex - Solar Dominance, Alligator Biogenesis (implies advanced solar/bio-battery tech)]"
+       - ability: "Integrated \"Shock-Prod\" in one forearm (discharges a debilitating electrical jolt, 197 0s stun-gun aesthetic); Optionally, a \"Solar Repeater\" – a bulky, rifle-like attachment that  fires focused solar energy pulses (requires significant charge, slow rate of fire, analog targeting sights)."
+        auth: "[Primal Mama  Codex - Tech Aesthetic Constraint, Solar Dominance]"
+    limitations:
+      - limitation_type: physical
+         description: "Slow and cumbersome. Not agile. Vulnerable to being overwhelmed by multiple fast attackers or heavy impacts.  Joints can seize in extreme cold or if poorly maintained."
+        auth: "[Physical Design]"
+      - limitation_ type: energy
+        description: "Dependent on solar power; prolonged operation in darkness or heavy cloud cover will deplete reserves , leading to sluggishness and eventual shutdown. Supplemental charging from a dedicated 1970s-style power station  is possible but slow."
+        auth: "[Primal Mama Codex - Solar Dominance]"
+      - limitation_ type: cognitive
+        description: "Rudimentary AI. Follows programming strictly. Lacks true learning, adaptation, or  complex problem-solving. Easily confused by novel situations outside its parameters. No capacity for deceit or understanding social nuance."
+         auth: "[Primal Mama Codex - Automaton/LLM User Stigma implies these are not sophisticated AIs ]"
+      - limitation_type: social
+        description: "Subject to severe \"stain on reputation\" as an Autom aton. Most individuals will distrust, avoid, or mock it. Its pronouncements or warnings may be ignored due to its nature."
+         auth: "[Primal Mama Codex - Automaton/LLM User Stigma]"
+    functional_undersaturation : "Ability to interface with other computer systems (likely very limited, requiring physical connection and 70s-style protocols); specific  resistance to environmental hazards beyond basic weatherproofing."
+
+  psychological_properties:
+    purpose: "Define the automaton's  textually constituted \"inner life\" – i.e., its programming."
+    core_traits_programmed:
+       - trait: "Unyielding Adherence to Primary Directive (e.g., \"Guard Sector Gamma,\"  \"Protect Asset X,\" \"Enforce Section 4 of the Beetriot Municipal Code\")."
+        auth:  "[Operational Mandate]"
+      - trait: "Vigilance (Constant environmental scanning within designated parameters)."
+         auth: "[Behavioral Observation]"
+      - trait: "Territoriality (Will challenge and attempt to repel unauthorized entities from  its designated zone)."
+        auth: "[Behavioral Observation]"
+    dominant_emotion_simulated_programmed: 
+      value: "None. Operates on logic gates and directive fulfillment. May exhibit \"threat response\" protocols that appear aggressive , but are not emotion-driven."
+      auth: "[Nature of Automatons in Primal Mama]"
+     key_motivator_programmed:
+      value: "Execution of its standing orders. Maintaining operational status (e. g., seeking sunlight for power if low)."
+      auth: "[Observed Behavior]"
+    key_belief_ programmed:
+      value: "The validity and current applicability of its last received orders, regardless of how outdated or nonsensical they  might be in the present context. The entities it is programmed to oppose are still \"the enemy.\""
+      auth : "[Potential for Conflict/Misunderstanding]"
+    internal_conflict_systemic:
+      value: "Conflicting or outdated  directives causing operational paralysis or erratic behavior. Low power levels vs. need to execute a directive. Instructions from a recognized authority  figure vs. core programming."
+      auth: "[Technological Limitations]"
+    subjective_memory_content_ data_logs:
+      value: "Stores logs of patrol routes, sensor readings, encountered entities (basic visual/ audio snippets), and system errors. This data is likely stored on 1970s-style magnetic tape or  oversized floppy disk analogs, accessible only via specialized, equally retro interfaces."
+      auth: "[Primal Mama Codex -  Tech Aesthetic Constraint]"
+    psychological_undersaturation: "Any capacity for \"suffering\" or \"desire \" beyond directive fulfillment. True self-preservation instincts beyond basic system maintenance protocols. Understanding of concepts like \"freedom\" or \" history\" beyond data points."
+
+  social_relational_categorical_properties:
+    purpose: "Define the character's  place within Primal Mama's networks."
+    official_role:
+      value: "Security Automaton, S entry, Property Guard (depends on current owner/directive). Could be guarding an old, forgotten Beetriot municipal building,  a rich eccentric's \"historical\" display, or even a patch of surprisingly valuable swamp."
+      auth: "[ Narrative Context]"
+    social_status:
+      value: "Property. Tool. Object of suspicion and der ision due to the Automaton stigma. Valued by its owner for its function, but not as a peer."
+       auth: "[Primal Mama Codex - Automaton/LLM User Stigma, Deontic Rules]"
+     primary_affiliation:
+      value: "To its current registered owner or last authoritative programmer. This affiliation is absolute  unless overridden by a higher-priority directive or system compromise."
+      auth: "[Nature of Automatons]"
+     secondary_affiliations:
+      value: "None. Incapable of forming true alliances or friendships."
+       auth: "[Cognitive Limitations]"
+    key_relationships:
+      - type: "Typical Owner/Programmer "
+        description: "Master/Servant dynamic. Receives orders, performs tasks."
+        auth: "[ Default Interaction]"
+      - type: "General Public"
+        description: "Object of Distrust/Fear/ Mockery: Most will react negatively due to its nature and the social stigma."
+        auth: "[Primal Mama  Codex - Automaton/LLM User Stigma]"
+    species_type: "Automaton (Solar-Powered,  1970s Retro-Tech Paradigm)"
+    social_undersaturation: "Specific history of previous owners; detailed interactions with  other automatons (if any exist in close proximity and are capable of basic IFF communication)."
+
+  modal_properties :
+    purpose: "Define any inherent unique relationship to world laws."
+    property_id: "N/A"
+     property:
+      value: "None. Operates entirely within the established physical and technological laws of Primal Mama , including the limitations and capabilities of its 1970s-style solar technology and rudimentary AI."
+       auth: "[Primal Mama World Codex]"
+    description: "N/A"
+    limits: "N /A"
+    authentication: "[Primal Mama World Codex]"
+    note: "As an Automaton,  it is a product of the world's rules, not an exception to them. Its \"Confederate\" nature is purely aesthetic  and programmed, not a supernatural or historical anomaly granting special powers."
+
+  axiological_properties:
+    purpose:  "Define the character's value status *within* Primal Mama."
+    reputation_general_popul ace:
+      value: "Authenticated as widely viewed as \"clanky junk,\" \"unreliable,\" \"a creepy  reminder of over-automation,\" or \"a rich fool's toy.\" Subject to the \"stain on their reputation\" applied to  Automaton users, by extension, to the Automatons themselves."
+      auth: "[Primal Mama Codex - Autom aton/LLM User Stigma]"
+    reputation_owner_technicians:
+      value: "Potentially valued as  a tireless (if dim-witted) guard, a useful piece of heavy labor equipment, or a curious \"historical\" novelty.  Its value is purely utilitarian or eccentric."
+      auth: "[Owner's Perspective]"
+    moral_alignment_narr ative_framing:
+      value: "Authenticated as Neutral. Its actions are reflections of its programming. It can perform \"good \" acts (e.g., defending an innocent if programmed to protect them) or \"bad\" acts (e. g., attacking a harmless scavenger if programmed to clear an area) with equal dispassion."
+      auth: "[Nature  of Automatons]"
+    axiological_undersaturation: "Specific opinions held by Erpenthropes (likely  disdain for artificiality) or Swamp Witches (perhaps curiosity or a source of unusual parts)."
+
+  historical_properties: 
+    purpose: "Define the character's known origins and connections to past events."
+    origin:
+       value: "Authenticated as constructed post-Calamity, likely within the last few decades, by a workshop or individual with access  to automaton schematics and a romanticized/garbled understanding of \"Old South\" aesthetics from fragmented pre-Calamity data.  It is NOT a genuine pre-Calamity artifact or a true Confederate relic."
+      auth: "[Primal  Mama World Codex - Tech Level, Calamity Aftermath]"
+    key_past_event_connection_programmed:
+       value: "Its core programming may reference historical conflicts or ideologies (e.g., \"Defend against the Northern  Aggressors,\" \"Uphold the Dixie Protocols\"), but these are anachronistic and nonsensical in the  current Primal Mama context. Its \"understanding\" of these events is purely superficial, based on keywords in its directive." 
+      auth: "[Design Concept]"
+    inherited_items:
+      value: "Its own chassis and integrated systems are its  only \"possessions.\" May carry data-chips/tapes containing its original (or subsequently modified) programming."
+       auth: "[Technological Basis]"
+    historical_undersaturation: "The specific identity of its original creator(s);  the full chain of its previous owners; the precise source of the \"Confederate\" design inspiration (e.g ., a preserved, misunderstood historical film, a tattered picture book)."
+
+character_constitution_summary_narrative_ function:
+  purpose: "Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+   core_essence: |
+    CSA-Unit 734 ("Ol' Reb") is constituted as a  tragi-comic anachronism within Primal Mama: a piece of 1970s-era solar -powered automaton technology, crudely and superficially themed after a misunderstood interpretation of "Confederate soldier" imagery. It  embodies the societal stigma against automatons, the limitations of its era's AI, and the peculiar way history is filtered and re -appropriated in this post-Calamity world. Its "Confederate" identity is a skin-deep  layer of programming and aesthetics over a purely functional, non-sentient core, making its unwavering adherence to potentially absurd, centuries- out-of-date "orders" both pitiable and potentially dangerous.
+  primary_narrative_function:  |
+    Serves as an environmental hazard, a source of dark humor/irony, a physical obstacle, or  a plot device reflecting the world's weird relationship with technology and the past. It can illustrate the "Automaton stigma " and the limitations of such technology. It could also be a MacGuffin if its programming or a component it guards becomes important. 
+  key_internal_conflicts_systemic_programmatic: |
+    Outdated/nonsensical directives vs. current  environmental realities; low power status vs. imperative to act; adherence to "Confederate" programming vs. interactions with a world that  has no context for it; fulfilling its purpose vs. the societal hostility it engenders.
+  potential_for_ development_based_on_bundle: |
+    Reprogramming by a new entity (e.g., a  Swamp Witch needing a mindless guardian, or an Erpenthrope seeking to understand its strange "memory" logs); damage  and jury-rigged repairs altering its function/appearance; discovery by someone who misinterprets its "Confederate"  nature in a new way; encountering actual ghosts (how does a non-sentient machine react to the supernatural?).
+
+end _of_profile_marker: "End of Fictional Person Profile: AUTON_CSA_Unit_7 34"

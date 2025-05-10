@@ -1,0 +1,100 @@
+
+World: Primal  Mama
+Codex_Version: '0.2 - Character Constitution'
+Last_Updated: '[Current Date]'
+ Lead_Architect_s: '[Your Name/Studio Name]'
+
+Introduction: |
+  This protocol guides the detailed definition  of Fictional Persons (characters, significant sentient beings, or complex automatons treated as narrative entities) within the Primal  Mama heterocosm. Following Doležel's framework, characters/entities ARE constituted by the bundle of properties authenticated for  them by the authoritative narrative source (this Codex, core narratives). They possess no independent psyche or reality beyond this textual definition.
+   Use this template to systematically build entities by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted entities whose complexity arises  from the richness, coherence, and potential tensions within their authenticated bundle, and whose actions are logically grounded in their defined nature and  the world's rules. Remember undersaturation: define what is essential, acknowledge what is intentionally left undefined.
+
+Character _Profile:
+  Entity_ID: AUTO_CONFEDSENTRY_01
+  Character_Name: 'Confeder ate Sentry Automaton Mark I (Designation: "Grey Ghost" by some swamp denizens)'
+  Entity_ Type: 'Automaton (Programmed Robotic Unit)'
+  Archetype: 'Anachronistic Sentry / Rel ic Guardian / Creaking Enforcer'
+  Primary_Authentication_Source_s: 'This Codex Entry; Primal Mama Co herence Protocol v0.1'
+  Canon_Tier: 'Tier 2 (Significant environmental element/antagonist)' 
+  Authentication_Status: 'Authenticated_Canonical_Active (Though likely aging/obsolete models)'
+
+  Authenticated_Property _Bundle:
+    Physical_Properties:
+      Purpose: 'Define the automaton''s tangible presence, adhering to the  1970s aesthetic.'
+      Appearance_General: 'Humanoid chassis, approximately 6 feet tall, constructed from visibly  segmented metal plates and synthetic polymers in faded butternut and grey, mimicking the lines of a Confederate soldier''s uniform. Pro portions are somewhat bulky and angular, consistent with 1970s robotics. # Auth: [Primal Mama  Coherence - Tech Aesthetic Constraint]'
+      Appearance_Specific_Features: 'Domed head unit with a single, large, camera -lens-like optical sensor protected by a chunky, fixed visor (reminiscent of a slouch hat''s brim). Chest  plate features a prominent, circular speaker grille and several oversized, unlabeled toggle switches and indicator lights (some possibly non-functional  or purely aesthetic). Exposed hydraulics and wiring looms, neatly bundled but visibly aged, run along limbs. # Auth: [Primal Mama  Coherence - Tech Aesthetic Constraint]'
+      Appearance_Distinctive_Marks: 'Stenciled serial numbers (e. g., "CSA-Mk.I S/N: PM-####") often faded or partially obscured by grime/ moss. Possible faded insignia of a defunct local militia or estate. Wood-grain paneling accents on forearm guards or shoulder  pauldrons. # Auth: [Primal Mama Coherence - Tech Aesthetic Constraint]'
+      Typical_Attire : 'The chassis *is* its attire. No separate clothing. # Auth: [Logical consistency]'
+      Voice_Speech _Pattern: 'Synthesized, monotone masculine voice with audible electronic hum and occasional static pops. Vocabulary limited to pre- recorded warnings, acknowledgements, and status reports (e.g., "HALT. IDENTIFY.", "SE CTOR SECURE.", "POWER LEVELS NOMINAL."). Speech delivered via the prominent chest speaker. # Auth: [Primal  Mama Coherence - Tech Aesthetic Constraint; Stigma against advanced LLMs implies simpler voice synthesis]'
+      Gait_ Mannerisms: 'Stiff, deliberate, and somewhat noisy mechanical gait; joints whir and click audibly. Upper  torso can rotate with a distinct servo sound. When stationary, may perform slow, programmed scanning sweeps. # Auth: [Retro- robotic trope; 1970s tech feel]'
+      Associated_Scent: 'Faint ozone , heated electronics, hydraulic fluid, and often the damp, earthy smell of the swamp if deployed rurally. # Auth: [Logical  consequence of materials and environment]'
+      Power_Source_Indication: 'A series of small, amber-g lowing vacuum tubes or a large VU-meter style display on its back or chest indicates solar charge/operational status. # Auth:  [Primal Mama Coherence - Solar Dominance & Tech Aesthetic]'
+      Physical_Undersaturation: '[Exact internal  schematics, specific alloy compositions beyond "metal/polymers", precise weight.]'
+
+    Functional_Properties:
+       Purpose: 'Define what the automaton *can* and *cannot* do, within Primal Mama''s rules.' 
+      Skill_Patrol_Routes: 'Programmed Patrol Routes: Can follow predefined paths and maintain station at designated guard  posts. # Auth: [Standard automaton function]'
+      Skill_Target_Recognition: 'Basic Target Recognition: Can identify humanoid  forms and differentiate based on simple IFF (Identify Friend/Foe) signals – e.g., specific sonic pings, light patterns , or even period-appropriate coded phrases if programmed. Primitive compared to modern systems. # Auth: [Plausible  1970s-level tech logic]'
+      Skill_Weapon_System: 'Integrated Weapon System: Equipped  with a bulky, shoulder-mounted or arm-integrated energy projector. Fires visible bolts of concussive solar-charged energy. Aim ing is rudimentary, more area-suppression than precision. # Auth: [Primal Mama Coherence - Solar Dominance & Tech  Aesthetic]'
+      Ability_Solar_Regeneration: 'Solar Regeneration: Dorsal plating or "hat" integrates noticeable  solar collectors. Can recharge in direct sunlight. Prolonged operation in shade/night degrades performance significantly unless connected to a charging  station. # Auth: [Primal Mama Coherence - Solar Dominance]'
+      Limitation_Physical: 'Slow and  somewhat clumsy movement. Not agile. Joints are potential weak points. Susceptible to EMP or targeted shots at optical sensor/power  conduits. # Auth: [Consequence of 1970s aesthetic design]'
+      Limitation_Knowledge : 'Strictly follows programming; no learning capability or adaptation. Cannot handle novel situations or complex deception. Its "knowledge" is its  operating code. # Auth: [Primal Mama Coherence - Automaton/LLM Stigma implies simpler programming for such units ]'
+      Limitation_Social: 'No social interaction capability beyond programmed vocalizations. Its very presence may unnerve or  antagonize individuals due to the general stigma against automatons and potentially its anachronistic, historically charged appearance. # Auth: [ Primal Mama Coherence - Automaton/LLM User Stigma]'
+      Limitation_Environmental: 'V ulnerable to excessive moisture in unsealed components (a problem in the swamp), requiring frequent (and often neglected) maintenance. Solar dependency  limits continuous operation in dense swamp canopy or during prolonged overcast periods. # Auth: [Logical environmental interaction]'
+      Functional _Undersaturation: '[Specific energy weapon output/range; exact battery life; resistance to specific calibers/damage types .]'
+
+    Psychological_Properties_Programmed_Directives:
+      Purpose: 'Define the automaton''s  textually constituted "inner life" – in this case, its core programming.'
+      Core_Trait_Adherence:  'Unyielding Adherence to Protocol: Will execute its last valid orders (patrol, guard, engage threats) until  countermanded or incapacitated. # Auth: [Standard automaton behavior]'
+      Core_Trait_Threat_Prioritization : 'Threat Prioritization (Simple): Engages targets based on proximity, aggressive action, or failure to provide IFF. # Auth : [Basic security logic]'
+      Dominant_Emotion_Simulated: 'None. Functions with cold, mechanical  indifference. # Auth: [Nature of automaton]'
+      Key_Motivator_Programmed: 'Execution of assigned security  directives. Preservation of designated area/asset. # Auth: [Purpose of a sentry]'
+      Key_Belief _Programmed_Logic: 'Entities not matching IFF parameters within restricted zones are hostile. Orders from recognized authority are  to be obeyed. # Auth: [Programmed logic]'
+      Internal_Conflict: 'N/A for this level of automaton . May exhibit conflicting behaviors if programming is corrupted or receives contradictory orders from equally-ranked authorities. # Auth: [Simplicity of design ]'
+      Subjective_Memory_Content: 'Limited event logging: records sensor contacts, engagement events, system errors as simple data  strings. No episodic or emotional memory. # Auth: [Plausible for 1970s-era data  logging]'
+      Psychological_Undersaturation: '[No capacity for fear, loyalty, or any genuine emotion. No  independent thought or self-preservation beyond fulfilling its role.]'
+
+    Social_Relational_Categorical_Properties:
+       Purpose: 'Define the automaton''s place within Primal Mama''s networks.'
+      Official_Role:  'Security Sentry / Area Denial Unit. # Auth: [Design purpose]'
+      Social_Status: 'Property  / Tool. Its operators/owners might suffer the "stain on their reputation" for using an automaton, especially one so  conspicuous and potentially unnerving. # Auth: [Primal Mama Coherence - Automaton/LLM User Stigma ]'
+      Primary_Affiliation: 'To its current owner/controller (e.g., a reclusive estate  owner, a forgotten municipal depot, a fringe group fetishizing pre-Calamity or idealized historical aesthetics). # Auth:  [Logical ownership]'
+      Key_Relationship_Owner_Commander: 'To its Owner/Commander: Obeys commands  if within its programming and authentication protocols. # Auth: [Hierarchical control]'
+      Key_Relationship_Intruders: ' To Unidentified Persons/Intruders: A threat, an obstacle, an enforcer of boundaries. # Auth: [Operational  function]'
+      Species_Type: 'Automaton (Solar-Powered Electro-Mechanical Sentry) # Auth:  [World tech rules]'
+      Social_Undersaturation: '[Specific individual owners; precise public perception beyond general unease/st igma.]'
+
+    Modal_Properties:
+      Purpose: 'Define any inherent unique relationship to world laws.'
+      -  Property_ID: MODAL-CSA01-SOLAR
+        Property: 'Solar Dependency (Alethic  Limitation/Capability)'
+        Description: 'Operates optimally on solar power, reflecting world''s "Solar Dominance." Its  functionality is directly tied to this advanced but constrained energy source within the 1970s tech paradigm.'
+        Limits : 'Reduced effectiveness without direct solar input or charging station; cannot operate indefinitely in darkness/deep shade.'
+        Authentication: ' Primal Mama Coherence - Solar Dominance; 1970s Tech Aesthetic (implying less efficient batteries than modern  interpretations of solar tech).'
+      Note: 'While using world tech, its specific adherence to 1970 s aesthetic for advanced functions like solar power is a defining modal constraint shaping its existence.'
+
+    Axiological_Properties :
+      Purpose: 'Define the automaton''s value status *within* Primal Mama.'
+      Reputation_General_ Populace: 'Likely viewed with unease, suspicion, or even fear. The 1970s design  makes it look dated and clunky, but its historical "Confederate" motif (however stylized) might be seen as archaic,  threatening, or absurdly out-of-place by different groups. The Automaton Stigma applies. # Auth: [ Primal Mama Coherence - Automaton Stigma, Tech Aesthetic]'
+      Reputation_Owners_Users: ' Valued for its intimidating presence and ability to perform simple guard duty without requiring biological sustenance (beyond solar). Perhaps seen as a  nostalgic or ideologically symbolic piece by specific eccentric owners. # Auth: [Plausible user perspective]'
+      Moral_Alignment_ Narrative_Framing: 'Neutral Tool. Its actions are dictated by its programming and owners. Can be an antagonist  if characters trespass, or a non-issue if avoided. # Auth: [Nature of a tool]'
+      Axiological_ Undersaturation: '[Specific value on black market for parts; opinions of different factions like Erpenthropes or Swamp Witches .]'
+
+    Historical_Properties:
+      Purpose: 'Define the automaton''s known origins and connections to past  events.'
+      Origin: 'Likely manufactured by a niche, possibly defunct, robotics firm post-Calamity  that specialized in "retro-aesthetic security solutions" or for a client with specific historical/aesthetic demands. Could be a relic  of a short-lived "Old South Revivalist" tech fad among certain wealthy eccentrics before the Automaton St igma fully solidified for such overt units. # Auth: [Plausible world history given tech constraints and cultural oddities ]'
+      Key_Past_Event_Connection: 'Represents a specific technological iteration within Primal Mama – the attempt to create  functional automatons under the severe aesthetic and (possibly implied) computational limitations of the 1970s style,  and before the full weight of the Automaton/LLM stigma made such overt humanoid designs widely unpopular. # Auth: [ World-building logic]'
+      Inherited_Items: 'Its own chassis, integrated weaponry, and core programming are  its "inheritance." May carry markings of its original deployment or manufacturer. # Auth: [Logical extension]'
+      Historical_Unders aturation: '[Exact manufacturer, specific year of creation, original purchasers/deployers unless narratively specified.]'
+
+   Character_Constitution_Summary_Narrative_Function:
+    Purpose: 'Synthesize the core identity, internal conflicts (or lack  thereof for an automaton), and narrative role emerging from the authenticated property bundle.'
+    Core_Essence: |
+      The Confederate  Sentry Automaton (CSA-Mark I) is a lumbering, solar-powered relic of Primal Mama' s peculiar retro-futurism. Clad in a 1970s interpretation of Confederate soldier aesthetics, it's  a physical manifestation of the world's technological constraints (1970s design language for even advanced functions like solar power  and robotics) and social anxieties (the Automaton Stigma). It is not intelligent, merely programmed for simple sentry duty , making it an eerie, predictable, yet potentially dangerous anachronism within the swampy, spiritually charged landscape. Its  existence speaks to forgotten post-Calamity efforts or niche cultural fetishes that valued form (and a very specific, unsettling  form at that) alongside (or even over) sophisticated function.
+    Primary_Narrative_Function: |
+      Environmental  hazard/obstacle; A physical representation of the world's specific technological path and cultural quirks; A test of characters' problem-solving  skills (combat, stealth, or technical circumvention); A source of localized dread or dark humor; A symbol of decaying  power or forgotten ideologies for a specific location/faction.
+    Key_Internal_Conflicts_From_Bundle: | 
+      N/A for a simple automaton. External conflicts arise from its outdated design vs. modern threats, its solar dependency  vs. environmental conditions, or its rigid programming vs. unpredictable human behavior.
+    Potential_for_Development_Based_on_ Bundle: |
+      As a programmed entity, unlikely to "develop" psychologically. Narratively, it can be: Destroyed ; Repaired/Maintained by a character or faction; Reprogrammed (if possible with 1970 s-style interfaces); Studied for its archaic tech; Its presence could trigger historical revelations or character reactions related to its  symbolism or the era it represents.
+
+End_Of_Fictional_Person_Profile: 'AUTO_CONF EDSENTRY_01'
