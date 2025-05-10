@@ -15,4 +15,11 @@ export class UpdateGemini implements Action {
  constructor(public bale: GeminiBit) {}
 }
 
-export type Actions = | InitGemini | UpdateGemini ;
+export const AUTO_GEMINI = "[Auto action] Auto Gemini";
+ export class AutoGemini implements Action {
+ readonly type = AUTO_GEMINI;
+ constructor(public bale: GeminiBit) {}
+ }
+ 
+export type Actions = | InitGemini | UpdateGemini 
+| AutoGemini

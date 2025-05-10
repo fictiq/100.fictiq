@@ -13,6 +13,9 @@ export function reducer(model: GeminiModel = new GeminiModel(), act: Act.Actions
  case Act.INIT_GEMINI:
  return Buzz.initGemini(clone(model), act.bale, state);
 
+case Act.AUTO_GEMINI:
+ return Buzz.autoGemini(clone(model), act.bale, state);
+ 
  default:
  return model;
  }

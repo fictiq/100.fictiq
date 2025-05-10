@@ -1,10 +1,26 @@
 
 import { GoogleGenAI } from '@google/genai';
 import * as ActCns from "../../83.console.unit/console.action";
+
+
+import * as ActGmi from "../../04.gemini.unit/gemini.buzzer";
+
+
 import { parse, stringify } from 'yaml'
 
 
+import { GeminiModel } from "../gemini.model";
+import GeminiBit from "../fce/gemini.bit";
+import State from "../../99.core/state";
+
 export const initGemini = (cpy: GeminiModel, bal: GeminiBit, ste: State) => {
+
+    debugger
+
+    ste.hunt(ActCns.UPDATE_CONSOLE, { idx: 'cns00', src: "Gemini" })
+          
+    
+
 
     const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
     const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
@@ -49,7 +65,7 @@ export const initGemini = (cpy: GeminiModel, bal: GeminiBit, ste: State) => {
         });
 
         const stream1 = await chat.sendMessageStream({
-            message: "You are going to be creating an automaton designed off of ancient confederate soldiers. Can you use the world of Primal Mama in the coherence as the reference material and contextualize using the character markdown and create a new markdown document with the updated information",
+            message: "You are going to be creating a pastor with Christian Knowledge. Can you use the world of Primal Mama in the coherence as the reference material and contextualize using the character markdown and create a new markdown document with the updated information",
         });
 
 
@@ -148,6 +164,26 @@ export const updateGemini = (cpy: GeminiModel, bal: GeminiBit, ste: State) => {
 };
 
 
-import { GeminiModel } from "../gemini.model";
-import GeminiBit from "../fce/gemini.bit";
-import State from "../../99.core/state";
+export const autoGemini = async (cpy: GeminiModel, bal:GeminiBit, ste: State) => {
+
+
+    var bit 
+
+    var next = async () =>{
+
+        debugger
+
+        await ste.hunt( ActGmi.initGemini, {})
+
+        debugger
+
+        setTimeout( ()=> next(), 3333 )
+        return
+    }
+
+    await next()
+ 
+ return cpy;
+ };
+
+ 
