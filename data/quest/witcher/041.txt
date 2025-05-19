@@ -1,0 +1,59 @@
+From Rannvaig to Arinbjorn
+The next leg of the quest "The Family Blade" requires a different approach. while its location (along the eastern coast of Skellige) seems to give us a great excuse to explore our way there, the simple fact of the matter is that many of the map markers we'd normally clear along the way involve us dealing with foes who are quite a few levels above us. Skellige, however, is an island nation (if nation is the right word), so perhaps it's time to turn our attention to the sea? There are, after all, plenty of map markers aren't on dry land.
+
+Person(s) in Distress (level 12)
+Fast-travel back to Rannvaig and commandeer a boat, then sail it along the shore to the west. Why west? Why not? Might as well be thorough. At some point along the shore you'll find a "Person(s) in Distress" event. Land and kill the Bandits (level twelve), then loot them to find a "Cage Key." Use it to free a Blacksmith, who will invite you to meet him at Farylund when you wish to do business. Fair enough. Loot some contains near a jetty for some minor loot, then get back on your boat and embark.
+
+Hidden Treasure (level 19)
+Sail west to find some small islands, the skies over which are populated by Ekhidna (level nineteen), which act like larger Harpies. Land the ship on an island where you can engage them, shoot them out of the sky with your crossbow, and dispatch them on the ground, then sail to the western-most island to find a "Hidden Treasure" event. Explore the eastern edge of the island to find a rotten corpse, on which is a "Chest Key." Now you just need to make your way onto the north-central part of the island. There's no clear path up, but if you make your way west onto the southern part of the island, you can determinedly jump your way over the rocks to reach the northern half of the island, where you'll find a chest unlocked by the key you just picked up.
+
+Smuggler's Cache(s) (level 13)
+Board you board again and pilot it north and slightly east to find a "Smuggler's Cache." You know how this works by now-three chests are archored by some barrels, swim down and score the easy loot. There are some Sirines (level thirteen) below the surface, but they can be easily dispatched with your crossbow. There are several similar events to the north-the entire coast of Skellige must just be littered with smugglers. Sail north-west and loot another three chests, then go north-east and score another three.
+
+Note: Sirines are easy enough to kill, if you can knock them out of the sky (use your Crossbow for this, or simply attack them when they swoop down to attack). They also don't do much damage. They're more of a nuisance enemy, as they'll latch themselves onto the side of your boat as you sail and rip pieces off the ship off. A swarm of Sirines is more than capable of sinking your ship.
+
+A Hallowed Horn (level 12)
+If you remember back to Novigrad, we once promised a man named Nidas that you'd help him to recover a Black Pearl. To the west you'll find three islands forming a broken line running north-south. Nidas awaits us on the southern end of the middle island. Land towards the middle of the eastern end of the central island... more specifically, on a small bit of land to the south-east of the central island, which is connected to the larger bit of land by a small land bridge. On this small almost-island you'll find some Renegades (level fifteen). Kill them, then loot a campsite where, in a chest you'll find the "Journal of a Thief, Part II" and "Holger Blackhand's Horn." Picking these up begins the quest "A Hallowed Horn," normally started by picking up the notice in the village of Holmstein, far to the south. Getting the horn directly just skipped an inconsequential step.
+
+Hidden Treasure: Pearls of the Coast (level 13)
+Cross the land-bridge connecting the land you're on to the larger part of the island to the north-west, then head north when you can to find a "Hidden Treasure" event. At this location some Pirates (levels twelve and fourteen) have set up a camp. Kill them, and find a bag of loot on some board, which contains an "Unsent Letter." Take it and read it to start the quest "Pearls of the Coast." Time to get wet again-either head east and dive off a cliff (if you're foolhardy) or return to the land bridge and safely wade into the water like the granny you are. Swim north past the bit of land where we found "Holger Blackhand's Horn" and dive at the mouth of the inlet to find the chest the Pirates were looking for, wherein you'll find the Steel Sword Inis, amongst other goodies.
+
+Black Pearl (level 13)
+Return west to the central island and head south to find a bridge, upon which Nidas awaits. Talk to him and confirm your willingness to help him, then follow him north along the western coast. Once you arrive at the coast Nidas will deliver the news that you're the one who is going to have to exhaustively search for the elusive black pearl. Swim west until you find a search area, then dive to find the oysters you'll need to search. Kill some Sirines (level thirteen) with your crossbow so you can hunt in peace, then start investigating the shells on the sea floor. The Black Pearl is in an oyster east of the center of the search area, but it doesn't hurt to loot other shells, first, as you'll get a Pearl as you consolation prize each time.
+
+Obtain the Black Pearl then swim to shore, where you'll find that Nidas is under attack by some Drowners (level twelve). Dispatch them, then talk to Nidas, who will reveal that he kinda sorta forgot to bring your reward. Certainly it was just an oversight. Whatever you say in response to this unwelcome revelation, he'll promise to pay you back in Novigrad. Haven't we heard this before? Anyways, on your own time return to Novigrad and meet Nidas in the Golden Sturgeon, who will tell you his sad tale, then give you a paltry reward for helping him out.
+
+Objective	Reward
+For giving Nidas a Black Pearl	XP Varies
+For talking to Nidas in Novigrad	10 Crowns
+Arinbjorn
+There's another outstanding quest on these isles that we might as well see to while we're here. Board your ship and sail south to find the village of Jorund. Here you'll find a notice board that has the notice "Contract: The Phantom of Eldeberg" on it, which starts a quest by the same name. Also in this town you'll find the Blacksmith-Sigurd-who is a big fan of Dandelion, and hence has an over-inflated opinion of both Geralt and the bard. He also plays Gwent, so it's worth putting up with his silliness.
+
+The Phantom of Eldberg (level 17)
+Head into the tavern near the notice board, where you'll be accosted by some uppity Skelligers with a low opinion of "continentals." Another Skelliger named Jorund will defuse the situation, then offer to talk about the contract. Indulge him and he'll tell you about their troubles. Mysterious fog, a lighthouse, wraiths... typical stuff for a Witcher. Haggle for more money (or not) then accept the quest.
+
+Before you leave, be sure to talk to the Innkeeper, as he not only plays Gwent, but he sells the "Thaler" Card, the "Crone: Whispess" Card, the "Fiend" Card, and an "Arachas" Card. All of these cards are pretty decent-the "Crone: Whispess" is a 6 Strength Close Combat Unit Card with the "Muster" ability, while the "Arachas" is a 4 Strength Close Combat Unit Card with the "Muster" Ability. "Thaler" is the second best "Spy" card in the game, with a 1 Strength score, he's a great addition to the Northern Kingdoms deck. The weakest of the bunch, the "Fiend" is still a 6 Strength Close Combat Unit Card, if you need the extra muscle.
+
+Return north and either sail to the northernmost of the three islands north of Arinbjorn, or do your best to make your way across broken bridges that used to connect the islands. Dock the boat on a jetty along the southern end of the island, then head north along a road. Geralt will shortly reach the fog and comment on its obviously supernatural nature. Head into the fog and fight off some Wraiths (level fifteen) when they appear, continuing north as you do so. There are two bodies you can investigate on the road, but they reveal little. Make your way north until you find a house east of the road and knock on the door. Mikkjal, the lightkeeper will open the door and tell you what little he knows before giving you a key to the lighthouse.
+
+Objective	Reward
+For checking in on Mikkjal	25 XP
+Note: If you want to grind Wraiths, this is a good place to do it. They'll respawn around Mikkjal's house-two to the south and two to the north-each time you rest. Wraiths often drop Infused Dust, Specter Dust, Amethyst Dust, and Emerald Dust. Much of this dust sells well, and Infused Dust can be used to create Glyphs.
+
+Continue north along the road and deeper into the fog, where you'll have to fend off another pair of Wraiths (level fifteen). A short distance alter you'll find the "Eldberg Lighthouse" a short distance away from the actual structure. Head across a wooden bridge and up some wooden stairs to enter the lighthouse. Loot the first level, then climb a ladder to the second. Search some furniture to the north to find a "Letter to the Lighthouse Keeper." Read it to find out about Mikkjal's dark secret, then leave the lighthouse and search the exterior along the stairs to identify what haunts this place-and why. Seems like we're going to have to have another chat with Mikkjal.
+
+Objective	Reward
+For discovering the nature of the Phantom of Eldberg	25 XP
+Be sure to have Specter Oil applied to your blade, then return to Mikkjal's house and talk to the dishonest lighthouse operator. He'll make up an award-winningly lame excuse for his actions, then try to cower out of doing the right thing. Geralt convince him to go, and, as Mikkjal predicted the Penitent shows up and attacks. Geralt decides to hold the wraith's attention while Mikkjal goes to light the lighthouse, giving him some good incentive, in the process.
+
+The Penitent is highly resistant to damage at first, so just use Quen and try to stay away from it. Once in a while it'll split into a quartet of Wraiths (level fifteen) which you can dispatch. Repeat the process of wasting the Penitent's time and slaying its lesser Wraiths until the lighthouse is lit (at which point Geralt will comment on the matter) then kill the Penitiet, which fights identically to normal Wraiths. Once it's banished, loot it for the sword Ashrune and the Wraith Trophy. After you claim your trophy, Mikkjal will come check on the situation. Decide whether to let him stay around, or force him to leave the island.
+
+Head to the Eldberg Lighthouse signpost and fast-travel back to the Arinbjorn, then head into the tavern and talk to Jorund, and proclaim a job well done. Jorund grants you your coin, and all is well. As you go to leave, however, the two rude Skelligers from before will return and try to pick a fight. Whatever you say, a fight ensues-with Jorund supporting you. As you and Jorund gain the upper hand, however, the two miscreant will resort to steel. Respond in kind, then check on Jorund. When you're done talking to Jorund you'll find yourself embroiled in the quest "Stranger in a Strange Land."
+
+Objective	Reward
+For slaying the Penitent	260 XP
+184 Crowns
+Leave the tavern and you'll be confronted by some angry Skelligers, including the father of the two thugs you slew. After threatening to take Geralt down through sheer weight of numbers (and presumably not begin willing to test that, bluff or not) Geralt submits to be incarcerated, waiting the judgement of "Madman Lugos."
+
+Objective	Reward
+For submitting to the citizens of Arinbjorn	XP Varies

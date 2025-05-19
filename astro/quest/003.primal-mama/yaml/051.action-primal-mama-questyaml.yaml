@@ -1,0 +1,266 @@
+
+ quest:
+  title: "Primal Mama: Bayou Blues & Retrograde Clues"
+  introduction: | 
+    Now it's time to get our hands dirty—exploring the glittering, retro-future towers of Beet riot would be grand, but there's a disturbance in the data-stream that'll glitch our progress if we  try. Best to debug it first.
+  sections:
+    - section_title: "The Exchange (Be etriot Central Sprawl)"
+      location_name: "The Exchange"
+      location_description: "The  bustling heart of Beetriot, located in the central district, just south of the main Solar Array."
+      events: 
+        - type: scene
+          description: "Witness the Solar Purity League's zealotry: a public  shaming of an Automaton user or dismantling of 'unverified' (non-70s aesthetic) tech."
+      points _of_interest:
+        - name: "Component Merchant"
+          sells: "Salvaged 7 0s tech parts, solar cells, chunky wiring"
+        - name: "Algae-Gastronomer" 
+          sells: "Nutrient pastes, 'under-the-counter' swamp herbs"
+        - name : "Retro-Fitter (Armorer equivalent)"
+          sells_gear: "Reinforced denim jumpsuits , chrome-plated shoulder pads, custom wood-paneling for gear"
+          sells_quest_item: 
+            item_name: "Big Barry's Lost Hoard Map - Part 3"
+            starts_ quest: "Scavenger Hunt: Erpenthrope Alpha-Hide Gear Schematics - Part 3"
+           plays_gator_grab: false
+      notice_board:
+        name: "Community Info-K iosk (Flickering)"
+        listings:
+          - title: "Job Posting: Bayou Bio-Lab Cleanup "
+            starts_quest: "Contract: Irradiated Crawdads"
+          - title: "Bounty : Elusive Glitch-Sprite"
+            starts_quest: "Contract: The Phantom Signal"
+            comment : "Only one within current capability matrix."
+          - title: "Challenge: Knuckleduster Circuit"
+            starts_ quest: "Fists of Fury: Beetriot Beatdown"
+          - title: "Alert: Aggro in  the Algae Vats"
+            starts_quest: "Following the Filament"
+            comment: "Already began  by stumbling upon unusual bio-data."
+      character_encounter:
+        name: "Volek 'The Valve'  Vivaldi"
+        type: "Bio-aug data-broker"
+        services:
+          - " Converts 'Swamp Bits' and 'Delta Scrip' into universal Solar Sols"
+        gator_ grab_player: true
+        gator_grab_deck:
+          name: "Swamp Scavenger  Deck"
+          description: "Doesn't rely heavily on 'Swarm' (Muster). Abuses ' Feedback Loop' (Decoy) cards."
+          leader_card: "Jerry Reed's Gambit"
+         starts_quest_on_win: "Gator Grab: Sprawl Sharks"
+        objective:
+          description : "Out-bluff Volek 'The Valve' at Gator Grab"
+          reward:
+            xp: 2 5
+            item: "Smokey (Burt Reynolds Hero Card)"
+
+    - section_title: "Scavenging  Signals to Sniff Out Mama Gallo"
+      events:
+        - type: travel
+          destination: "Mama Gallo 's ransacked hydroponics lab"
+          details: "South of the market plaza, up synth-carpeted staircase."
+         - type: encounter
+          name: "Scrap-Rats (thugs)"
+          action_prompt : "Rummaging through Mama Gallo's belongings. Approach them."
+          choices:
+            - option:  "'Let's interface' (Question them)"
+              outcome: "Dialogue chain"
+            - option: "' De-rez, you glitches!' (Provoke a fist fight)"
+              outcome: "Fist fight, then  same dialogue chain"
+          information_gained: "Extract desired data-packets."
+        - type: encounter 
+          name: "Solar Purity League"
+          leader: "Deacon Struthers (smug zealot )"
+          action: "Show up, make threats about 'maintaining technological and biological purity', then leave."
+         - type: investigation
+          location: "Mama Gallo's lab (outside and inside)"
+          loot_ outside: "Overturned nutrient tanks, short-circuited grow-lamps."
+          graffiti: "Crude,  spray-painted anti-Erpenthrope slur ('Scale-Freak!')"
+          senses_type:  "Erpenthrope Senses"
+          clues_inside:
+            - "Rare Moonpetal Bloom herbs  on the floor"
+            - "Discarded data-slate with a cracked, orange casing on a workbench"
+             - "Hand-carved alligator-tooth amulets on a table (upstairs)"
+            - "T attered swamp-leather clothes on the floor (further upstairs)"
+            - "Everglowing Firefly Lantern from a  bedside console (keepsake)"
+          confirmation: "This was, in fact, Mama Gallo's den."
+         - type: observation
+          location: "Return to The Exchange"
+          action: "Character spots Data-Phantoms.  Wait near search zone for one to make a discreet data-chip exchange."
+          senses_note: "Er penthrope Senses won't highlight, visual observation needed."
+        - type: follow
+          target: "Data- Phantom"
+          path:
+            - "Through automated door into Beetriot's Lower Maintenance Tunnels"
+            - type : encounter
+              name: "Gutter Oracle (beggar)"
+              choices:
+                - "Pay him  (twenty Solar Sols)"
+                - "Ask for the 'King of the Under-Nets'"
+                 - "Tell him to 'interface elsewhere'"
+            - "East, then drop down a rusty service ladder"
+             - "Continue east through flickering, bio-luminescent algae-lit tunnels"
+            - "Travel downhill to  the south"
+            - "Witness an exchange of a data-courier case"
+        - type: follow 
+          target: "New target (recipient of data-courier case)"
+          path:
+            - " West along a grimy runoff canal"
+            - "South across a rickety mesh bridge and under a crumbling concrete  arch"
+            - "Data-courier case dropped off at destination"
+        - type: approach
+           location: "Reinforced, keypad-locked door"
+          action: "Wait for Data-Phantom to depart, then try the  interface."
+          encounter:
+            name: "Heavily-augmented doorman"
+            choices:
+               - option: "Bribe him (fifty Solar Sols)"
+              - option: "Use Erpenth rope Intimidation (low growl, flash of reptilian eyes)"
+                objective_reward:
+                  description : "For 'convincing' the doorman with Erpenthrope Intimidation"
+                  xp:  40
+        - type: objective_reward
+          description: "For gaining access to the 'Sump'  (Putrid Square)"
+          xp: 100
+
+    - section_title: "The Sump  (Domain of the King of the Under-Nets)"
+      location_name: "The Sump"
+       points_of_interest:
+        - name: "Salvage Broker's Shop"
+          location_ description: "Dimly lit, cluttered shop to the north."
+          sells_item:
+            name:  "Heavy-Duty Gator-Hauler Saddlebags"
+            description: "Improves carry weight by one hundred."
+           buys_items: "Almost any salvaged tech or ethically questionable bio-samples."
+          gator_grab_player: true 
+          gator_grab_deck:
+            name: "Mutant Critters Deck (Monster Deck)"
+             description: "Plenty of 'Swarm' ability, 'Solar Flare' (Commander's Horn), 'System  Purge' (Scorch)."
+      events:
+        - type: encounter
+          location: "Leave shop,  head east, through a beaded curtain."
+          characters_present:
+            - "Mama Gallo"
+            - "King of  the Under-Nets"
+          dialogue: "Listen to King's cryptic pronouncements. He gives Mama  Gallo and player privacy."
+          outcome: "Mama Gallo ropes player into a job."
+
+    - section_title: "Mama  Gallo's Off-the-Books Gig"
+      events:
+        - type: travel
+          action: "Follow Mama  Gallo west, leave the Sump, follow to black market tech stall."
+        - type: encounter
+          character : "'Glitch' Klugman (stallkeep)"
+          issue: "Less than diligent about delivering 'sensitive  bio-samples' for Mama Gallo."
+          outcome: "Player agrees to fetch discarded, highly illegal samples."
+           optional_action: "Loot Klugman's stall (if sneaky)."
+        - type: exploration 
+          location: "Bio-Waste Conduits (sewers)"
+          entry: "Open rusted trap  door under discarded 8-track tapes, climb down ladder."
+          enemy:
+            name: "Level  10 Bile Drowner"
+            description: "Mutated alligator-like creature adapted to toxic sludge."
+           loot:
+            - "Sealed crate behind ladder"
+            - "Two waterlogged footlockers in  south-western corner of north chamber"
+          puzzle:
+            description: "Search eastern side of moss-covered  concrete pillar with Erpenthrope Senses."
+            element: "Chunky, flickering button (70s  appliance)"
+            action: "Press button to open hidden maintenance tunnel to the north."
+        - type: travel 
+          location: "Main runoff canal"
+          action: "Head outside into canal, follow west."
+          dialogue _topic: "Mama Gallo shares concerns about 'thinning veil' or strange spirit behavior."
+          cutscene:  "As you cross under a dilapidated skyway bridge."
+        - type: search_retrieve
+          location: "Canal waters  (irradiated)"
+          action: "Swim west with Erpenthrope Senses, scan murky bottom."
+           loot_along_way:
+            - "Two submerged crates"
+          target_item: "Sealed Specimen Bag "
+          target_location: "Near a sunken utility skiff next to a bridge piling."
+        - type : interaction
+          action: "Return to Mama Gallo, hand her the package. Follow her to destination."
+           dialogue_topic: "Banter about old days before 'Big Glitch' or best way to cook gator  steaks."
+        - type: meeting
+          character: "Nervous-looking corporate scientist (client)"
+          revel ation: "Mama Gallo's new job is delivering stolen/ethically dubious research materials; her desperation for work." 
+        - type: task
+          location: "Nutrient Paste Granary"
+          objective_description: " Set up sonic emitters to drive out 'Scuttler Crabs'."
+          steps:
+            - "East from entrance  to eastern wall, place first Sonic Emitter Trap (use Erpenthrope Senses)."
+            - "Down metal stairs  north, continue north to another wall, place second trap."
+            - "West (up then down stairs) to  wooden pallets, place third trap."
+          activation: "Return to entrance, Mama Gallo activates emitters with jury-rig ged remote (70s dials, blinking lights)."
+          result: "Gets rid of Scuttler Crabs ."
+        - type: encounter
+          trigger: "After a bit of chatter."
+          characters_involved: 
+            - "Corporate scientist (returns)"
+            - "Oligarchy Enforcers (Witch Hunters)  in tow"
+          betrayal: "Scientist hired Mama Gallo, then ratted her out to his superiors (meat olig archy) to avoid payment."
+          combat:
+            enemies: "Three Level 10 Enforcers"
+            enemy _gear: "Retro-futuristic stun batons, projectile weapons"
+        - type: resolution
+          action:  "Head outside to confront treacherous scientist. Player extracts Primal Mama-style justice."
+          outcome:
+            dialog ue: "Mama Gallo suggests a local 'Spirit Channeler' (Oneiromancer) who practices old ghost rituals might help  find 'The Seed' (Ciri equivalent)."
+            quest_ends: "Bayou Blues & Retrograde Cl ues"
+            quest_starts: "Dreaming in the Miasma"
+        - type: objective_ reward
+          description: "For reuniting with Mama Gallo"
+          xp: 200
+
+    -  section_title: "The Great Gator Grab Diversion"
+      introduction: "Access to central Beetriot is now unimpeded . Time to explore and advance Gator Grab sidequests."
+      skip_condition: "If no interest in Gator Grab , skip to 'Exploring Central Beetriot'."
+      sub_quests:
+        - quest_name: "G ator Grab: Dive Bar Duellists (Playing Innkeeps)"
+          status: "Finishing this quest."
+           target_location:
+            name: "The Starlight Bayou (kitschy, high-end lounge)"
+             directions: "Return to The Exchange, north to flickering neon sign, up stairs behind signpost."
+          target _character:
+            name: "Ollie 'The Crooner' (lounge owner)"
+            action : "Play him at Gator Grab."
+            reward_card: "Gram Parsons' Ghost (10 Strength Spirit -type, Southern Pantheon deck)"
+            sells_cards:
+              - "Swamp Lurker"
+               - "Delta Defender"
+              - "Bayou Brawler Veteran"
+              - "Mire Medic"
+            comment : "For 'Swamp Scavenger' deck improvements."
+          objective:
+            description: "For defeating  Ollie 'The Crooner' at Gator Grab"
+            reward:
+              xp: 25
+              item : "Gram Parsons' Ghost Card"
+          quest_conclusion: "So ends 'Gator Grab: Dive Bar  Duellists'."
+
+        - quest_name: "Gator Grab: Swamp Kingpins (Velen Players)"
+           prerequisite: "Should have begun after beating the Baron of Lickskillet (Bloody Baron equivalent)."
+           difficulty_note: "These folks can be more of a challenge."
+          gator_grab_strategy_note : "The Gwent Strategies and Playing Random Players sections would be adapted similarly, with card names, deck types, and  character names changed to fit Primal Mama. Examples: Northern Kingdoms -> 'Beetriot Elites Deck', Monster Deck  -> 'Mutant Horde Deck', Scoia'tael -> 'Swamp Scavengers Deck', Nilfgaard  -> 'Oligarchy Syndicate Deck'. Specific card examples: 'GE Alligator Alpha', 'Solar Panel Overcharge',  'Vampire Bunny Swarm', 'Erpenthrope Seeker', 'Burt Reynolds' Right Hook'.  Locations would be Lickskillet, remote swamp settlements, Beetriot districts, etc."
+          targets:
+             - character_name: "Old Man Phineas"
+              description: "Grizzled swamp boat repairman in a remote bay ou settlement."
+              objective_description: "Defeat Old Man Phineas at Gator Grab"
+              reward_ card: "Shadow Gator (legendary Erpenthrope card)"
+            - item_to_find:
+               name: "Schematic: Upgraded Gator-Scale Vest"
+              location: "Hidden alcove in a flooded  pre-calamity bunker, marked with an Erpenthrope symbol."
+            - enemy_encounter:
+               name: "Irradiated Critter Burrows"
+              description: "Mutated swamp rats or oversized insects."
+            -  character_name: "Granny Mavis"
+              description: "Old Swamp Witch in a forgotten corner of the  bayou."
+              gator_grab_deck: "Potent 'Cthulhu-Goth Crit ters Deck' (Monster deck)"
+              objective_description: "Defeat Granny Mavis at Gator Grab"
+               reward_card: "Swamp Mother's Chosen (Muster card)"
+            - character_name:  "Pip"
+              description: "Surprisingly sharp kid hanging around the Lickskillet processing plants."
+              objective _description: "Defeat Pip at Gator Grab"
+              reward_cards:
+                - "Commander Rex ( deified Pre-Calamity Action Hero, 10 Str Hero Card for 'Beetriot Elites')" 
+                - "The Calamity Lord (Leader Card for Mutant Horde)"
+
+# End of Primal Mama Quest YAML

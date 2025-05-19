@@ -1,0 +1,332 @@
+
+quest_arc_id : PM_QG_0.1_SoggyBottomsRecon
+title: "Primal Mama: Gator  Stompin' Grounds - Bayou Recon & Access Protocol"
+world: Primal Mama
+location_area: The Soggy Bottom s Sector (Adjacent to Lickskillet Outskirts)
+codex_version: PM-QG-0 .1
+
+arrival:
+  location_name: Snaggletooth Point
+  description: "Airboat arrives near Sn aggletooth Point, a grim landmark with gator skulls and warning signs marking territory disputes between independents and GatorCorp Olig archy. Area is contested, evidence of conflict (casings, patched levees, burnt fuel scent) is present. Atmosphere  is humid, thick with mutant insect drone."
+  scan_o_matic_assessment:
+    immediate_vicinity:
+       - { name: Feral Swamp Hounds, level: 1-2 }
+      - { name: Vampire Bunn ies, level: 2 }
+    north_cypress_groves:
+      - { name: Lesser Swamp  Ghouls, level: 6 }
+    north_water_channels:
+      - { name: F eral GE Gators, level: 9 }
+      - { name: Mutated Snapping Turtles, level:  11 }
+    deep_east_fungal_islands:
+      - { name: Rogue Oligarchy Maintenance Autom aton, level: 20+ }
+  player_guidance: "Current gear (Level 4 Swamp  Runner, Gator Prod, Shotgun) is pushed to limits by level 9+ threats. Blindly clearing the area is dangerous . Requires selective engagement and potential backtracking."
+
+crossing_the_channel:
+  objective: "Cross the main shipping channel to  access Lickskillet Restricted Zones and potentially Beetriot."
+  blockade: GatorCorp Oligarchy Enforcers  control checkpoints on maintained bridges and ferry landings.
+  reasons_to_cross:
+    - Access specialized Parts Vendors (7 0s tech)
+    - Access Masterwork Gator-Hide Tailors
+    - Access underground Swamp Witch apothecaries
+     - Participate in high-stakes "Gator-Tooth" betting pools
+  methods:
+    - type: Direct 
+      name: Swimming
+      description: "Possible but dangerous due to processing runoff, hostile fauna (Feral Gators ), and unpleasant smell. Requires resilience (potential Erpenthrope trait helps)."
+    - type: Quest-based
+      name : Permits/Favors
+      description: "Navigate local network of favors, threats, and black markets to acquire passage ."
+  initial_path: "Follow rickety boardwalk north from Snaggletooth Point. Ignore first west path ( leads to Ghoul Den). At next fork, head north-west towards stilt-huts (Bayou Black Mark eteers' camp). South is Calamity Debris Field. North is guarded Oligarchy checkpoint bridge/levee."
+
+   sub_sections:
+    - id: ghoul_den_clearing
+      title: Ghoul Den  Clearing
+      recommended_level: 6
+      trigger_location: First path west from main boardwalk north of Snag gletooth Point.
+      location_description: "Collapsed pre-Calamity structure in mangroves, now a Lesser  Swamp Ghoul Den."
+      enemies:
+        - { name: Lesser Swamp Ghouls, level:  6, notes: "Hunt in packs, fast but fragile. Aggressive shotgun/prod tactics advised. Avoid being surrounded." }
+       actions:
+        - Clear ghouls outside.
+        - Loot rusty footlocker (west of entrance).
+        -  Climb scaffolding (north of entrance) for stash box.
+        - Cross rotten wooden bridge (south, over sludge ditch ) for more salvage.
+        - Enter den (interconnected concrete tunnels).
+        - Check side alcove ( north) for crates and potential schematic cache.
+        - Follow main tunnel loop.
+        - Clear ghouls in larger  central chamber.
+        - Loot container (north wall).
+        - Check makeshift platform above for chest.
+        -  Check eastern alcove for final salvage.
+      items_found:
+        - Salvage (multiple containers)
+        - Potential  Schematic Cache (e.g., "'Schematic: ''Tough-Hide'' Armor Augments' - requires level  27, Enhanced base") # Example name, check actual PM naming conventions
+
+    - id: scavenger_camp_raid
+       title: Scavenger Camp Raid
+      recommended_level: 10
+      trigger_location: North and slightly east of  Ghoul Den, or accessible from main boardwalk route.
+      guidance: "Patience and cover are key despite  level rating."
+      enemies:
+        - { name: Scavenger Lookouts (on swamp skimmers), level : 7, tactics: "Use Sonic Stunner or shotgun blast to dismount. Finish quickly." }
+        - {  name: Scavengers (on foot), level: 9-10, tactics: "Better armed (salvaged Olig archy gear). Use cover, ripostes, Personal Energy Shield. Hit hard but not overly quick." }
+       actions:
+        - Defeat lookouts.
+        - Proceed to main camp marker and defeat foot scavengers.
+         - Locate and defeat Scavenger Boss (identifiable by gear).
+        - Loot Boss for "'Mag-Lock Override  Key' (chunky, 70s style)".
+        - Use key on cage to free Independent Merchant.
+         - Talk to Merchant (mentions setting up shop near checkpoint camp).
+        - Retrieve "'Audio Log' (cassette tape )" near Boss's spot.
+        - Search containers north of cage for salvage, including a locked chest.
+         - Follow path north-west through Calamity Debris Field towards checkpoint camp.
+      npc:
+        - name : Independent Merchant
+          state: Imprisoned, then freed. Heads towards checkpoint camp.
+      items_found :
+        - "'Mag-Lock Override Key'"
+        - "'Audio Log' (Scavenger Boss Complaints )"
+        - Salvage (multiple containers, potentially valuable locked chest)
+
+    - id: thou_shalt_not_ pass
+      title: Thou Shalt Not Pass
+      recommended_level: 7 (Interaction)
+      trigger_location:  Approaching the Oligarchy checkpoint bridge.
+      encounter: Oligarchy Enforcers halt player. No passage without Gator Corp Access Permit. They may make derogatory remarks.
+      player_actions:
+        - option: Bribe
+          cost : "10 units (Solar Cells or Processed Gator Rations)"
+          reward: "1 XP per 1 0 units value (inefficient)"
+          outcome: Potential passage (if bribe is sufficient/accepted).
+        - option: Pers uade/Bluff
+          requirements: "Requires Charm/Deception Skill or invoking Burt Reynolds' name."
+          reward : 25 XP (if successful)
+          outcome: Potential passage.
+        - option: Inquire
+           outcome: "Enforcers explain need for official paperwork or black market connections. Starts quest: 'Permit Procurement '."
+      quest_triggers:
+        - "'Permit Procurement'"
+
+    - id: fake_permits
+       title: Fake Permits
+      trigger_location: Stilt-hut camp south of checkpoint. Find Bayou Black Marketeer. 
+      encounter: Marketeer offers forged GatorCorp Access Permit.
+      initial_cost: 100 Solar Cells
+       player_actions:
+        - option: Pay
+          cost: 100 Solar Cells
+          outcome: Obtain  forged permit.
+        - option: Persuade/Intimidate
+          requirements: "Requires Delusion Level  1 / High Intimidation (mention connections, flash Erpenthrope sign?)."
+          reward: 4 0 XP (if successful)
+          outcome: Price reduced to 50 Solar Cells.
+        - option: Work-for -Discount
+          description: "Claim poverty. Marketeer offers deal: protect his associate scavenging Bio-Luminescent F ungi in Calamity Debris Field."
+          outcome: "Starts quest: 'Fungus Field Escort'.  Successful completion reduces permit price."
+      npc:
+        - name: Bayou Black Marketeer
+          role: S ells forged permits, offers discount quest.
+      quest_triggers:
+        - "'Fungus Field Escort'"
+
+     - id: fungus_field_escort
+      title: Fungus Field Escort
+      recommended_level : 9
+      trigger_location: Calamity Debris Field (south of checkpoint camp).
+      objective : Protect scavenger Albin and his crew while they harvest Bio-Luminescent Fungi.
+      initial_action: Locate  Albin (may need to clear Feral Gators, Level 9). Talk to him.
+      enemies:
+         - type: Wave 1
+          composition: 3x Swamp Ghouls (Level 7)
+        -  type: Wave 2
+          composition: 3x Swamp Ghouls (Level 7)
+        -  type: Wave 3
+          composition: 1x Bloat-Sac Ghoul (Level 8, explodes  on death), 2x Swamp Ghouls (Level 7)
+        - type: Wave 4
+           composition: 3x Feral Gators (Level 9)
+      guidance: Focus fire on threats targeting  Albin and crew. Use area-effect tools.
+      rewards:
+        base_xp: 50 XP  (for successfully defending)
+        currency: "Variable Solar Cells based on survivor count (Talk to Albin): 20 ( min) / 50 / 70 / 100 (max)"
+      outcome_success: Return  to Black Marketeer; permit price reduced to 25 Solar Cells.
+      outcome_failure: If Albin dies,  return to Black Marketeer; he refuses deal (even if persuasion attempted, may only grant XP).
+      alternative_permit _source: Check Bounty Board near checkpoint camp for "'Contract: Bayou Raider'". Talk to Oligarchy Foreman. Offers Cells  + Permit for dealing with supply raiders.
+      npc:
+        - name: Albin
+          role: Scav enger needing protection.
+
+    - id: hungry_kids
+      title: Hungry Kids
+      recommended_level: 4  (Encounter)
+      trigger_location: Side path south-west of checkpoint camp, leading west towards a half-sun ken house boat.
+      encounter: Clear Feral Swamp Hounds (Level 4). Hear kids inside. Coax them  out (war orphans/abandoned).
+      player_actions:
+        - option: Give Solar Cells
+          outcome : Potentially makes kids a target.
+        - option: Give Food (Processed Gator Jerky etc.)
+          reward : 10 XP
+          outcome: Seems kindest.
+        - option: Give Nothing
+          outcome: No immediate effect .
+      potential_lore_gain: "Reading salvaged book ('Swamp Critters & How to Skin 'Em Vol.  3') might grant bestiary entries/recipe ('Swamp Tea Poultice')." # Example book/recipe
+       items_found:
+        - Potential reward from kids: Crude hand-carved gator tooth charm?
+
+    - id : contract_bayou_raider
+      title: "'Contract: Bayou Raider'"
+      recommended_level:  6
+      trigger_condition: Taken from Bounty Board near checkpoint, or if permit failed via Marketeer. Talk  to Oligarchy Foreman.
+      objective: Investigate raided supply barge and deal with the perpetrators.
+      initial_investigation: 
+        location: Follow road south-west from camp to marker east of path. Enter swamp.
+        enemies: Potential  Alpha Swamp Ghouls (Level 5, tougher, corrosive spit?).
+        clues: Examine wrecked barge, discarded  casings suggest non-wildlife source. Scan for tracks.
+      tracking: Follow trail south, then south-west  across stream, up muddy bank.
+      encounter: Hailed by armed Bayou Freefolk emerging from foliage. Suspicious. 
+      player_actions_encounter:
+        - option: Agree to Parley
+          outcome: Lower weapon, agree  to escort (possible temporary disarmament), meet leader. Safer initial choice.
+        - option: Pick a Fight
+           outcome: Hostile reaction. Fight several Freefolk Fighters (Level 5) and leader Vernossiel (Level 9, skilled  sniper).
+      player_actions_meeting_leader:
+        - option: Fight
+          outcome: Attack leader and  remaining Freefolk (potentially unarmed if disarmed earlier). Tough fight.
+        - option: Agree to Leave
+           outcome: Promise to forget sighting. Receive small token reward (herbs, charts?). Allows for later choices.
+           reward: "Example: Rare Herbs, Salvaged Components, 6x Gator Hides"
+        - option: Negotiate? 
+          requirements: High Speech/Charm?
+          outcome: Unlikely to change immediate situation significantly.
+      resolution _options_after_peaceful_departure:
+        - report_to_foreman: Lie (couldn't find  raiders)
+          outcome: No reward beyond initial agreement (if any).
+        - report_to_foreman : Tattle on Freefolk location
+          reward: 25 XP, GatorCorp Access Permit (likely no Solar  Cells).
+        - report_to_foreman: Claim Killed Raiders (after ambushing Freefolk)
+           actions: Double-cross Freefolk, defeat them, loot camp.
+          reward: 25 XP,  30 Solar Cells, GatorCorp Access Permit (full Foreman reward). Morally dubious.
+          additional_loot: Whatever  is taken from Freefolk camp.
+      npc:
+        - name: Oligarchy Foreman
+          role: Quest  giver, receives report.
+        - name: Vernossiel (example name)
+          role: Bayou Freefolk leader. 
+
+access_granted:
+  description: "With a valid or forged GatorCorp Access Permit, player can pass the checkpoint." 
+  action: Show permit to Oligarchy Enforcers.
+  reward: 75 XP
+  outcome: Access  granted to areas beyond the checkpoint (connecting routes to Lickskillet/Oxenfurt outskirts).
+  player_guidance:  "Explore new areas cautiously. Find airboat travel points (signposts), look for merchants, Gator-Hide Tailors, Scrap -Metal Smiths, 'Gator-Tooth' players. Avoid triggering major Lickskillet quests prematurely if desired."
+
+ gear_scavenging:
+  objective: "Find schematics for a better melee weapon (Solar-Charged Gator Prod)  before proceeding with main investigation."
+  sub_sections:
+    - id: death_by_fire
+      title : Death by Fire
+      recommended_level: 10 (Encounter)
+      trigger_location: Path  east of Snaggletooth Point, find burning stilt-house with Oligarchy Thugs outside.
+      encounter : Thugs bragging about arson/extortion.
+      player_actions:
+        - option: Leave
+          outcome: House  burns, victim likely dies.
+        - option: Intervene
+          outcome: Fight Oligarchy Thugs (Level 10 ). Break down door (crowbar/kick/sonic pulse). Rescue elderly Swamp Witch apprentice from smoke (timer mechanic).
+      actions _after_rescue: Talk to apprentice. She reveals location of hidden stash (herbs/components) she can no longer keep . Departs. Loot Thugs.
+      reward: 25 XP (for saving apprentice)
+      items_ found:
+        - Info about hidden stash (location needs defining)
+        - Loot from Thugs (e.g ., "'Reinforced Workman Boots' - Relic quality")
+
+    - id: feral_gator_nest _l6
+      title: Feral Gator Nest (Level 6)
+      trigger_location: Path east from  burning house, branch south near Sulfur Gulch Quarry signpost (ignore quarry), backtrack north, follow path north-east to bridge  over stream. Climb down, follow stream north.
+      location_description: Feral Gator Nest mound.
+      enemies : Juvenile Feral Gators (Level 6).
+      actions: Clear gators, destroy nest mound (explosives /Igni-gadget), loot nearby waterlogged chest.
+      reward: 20 XP
+
+    - id : abandoned_watchtower
+      title: Abandoned Watchtower
+      recommended_level: 7 (Nest)  / 9-11 (Guards)
+      trigger_location: Cross swamp north from end of path south -west of rickety bridge. Leads to ruined watchtower island.
+      signpost: "'Lookout Point Zulu '"
+      enemies:
+        - { name: Mist Lurkers, level: 4, location: Swamp approach, tactics:  "Phase in/out of fog. Use area Igni/sonic pulses (Yrden equivalent) to reveal." }
+        -  { name: Adolescent Feral Gators, level: 9, location: Near tower base }
+        - { name: Alpha  Feral Gators, level: 11, location: Near tower base, tactics: "Dangerous, armored hide?,  venomous bite?. Use Quen-shield. Isolate. 3 strong strikes -> dodge -> repeat." }
+        -  { name: Mutated Vultures, level: 5-7, location: Upper exterior platform, tactics: Harpy equivalent . }
+      actions:
+        - Clear swamp approach (Mist Lurkers).
+        - Clear tower base area  (Feral Gators).
+        - Find entrance near signpost.
+        - Loot containers on ground floor. Find  waterlogged note "'Security Memo 77-B: Containment Breach'".
+        - Go up stairs to exterior  platform.
+        - Defeat Mutated Vultures.
+        - Destroy Vulture nest near stairs (explosives/ Igni).
+        - Enter collapsed doorway east of nest. Find skeleton.
+        - Search skeleton for items.
+         - Loot nearby chest.
+      items_found:
+        - "'Security Memo 77-B: Contain ment Breach'"
+        - "'Schematic: Solar-Charged Gator Prod'"
+        - "'Technician''s  Final Log'" (Starts quest "'Relics of the Old Techs: Prod Division'")
+        - "'Chief Engineer Wallace''s  Confession' (audio log on tape)"
+        - Misc salvage
+      reward: 20 XP (for destroying  Vulture Nest)
+      quest_triggers:
+        - "'Relics of the Old Techs: Prod Division'"
+       player_guidance: "Next schematic part is guarded by tougher foes. Proceed with caution or skip to main objective ."
+
+    - id: hidden_stash_precalamity_payday
+      title: "Hidden St ash: Pre-Calamity Payday"
+      recommended_level: 12
+      trigger_location : Fast travel (airboat) from 'Lookout Point Zulu' to 'Oligarchy Checkpoint'. Take airboat /swim west to small island with burning bio-waste pyre.
+      enemies: Lesser Swamp Ghouls (Level 6 ) potentially scavenging.
+      actions:
+        - Clear ghouls.
+        - Locate Hidden Stash marker:  Dead Smuggler near collapsed comms tower.
+        - Search Smuggler for "'Secure Container Keycard' (7 0s style)" and "'Data Cassette' (Pickup Instructions)".
+        - Reading cassette starts quest "'Things Folks  Do For Solar Cells...'".
+        - Follow trail south towards pyre.
+        - Douse flames temporarily (fire  extinguisher gadget / swamp water dump - Aard equivalent).
+        - Search near warped metal debris for secure container.
+         - Unlock container with keycard.
+      items_found:
+        - "'Secure Container Keycard'"
+         - "'Data Cassette' (Pickup Instructions)"
+        - Valuable Salvage (high-grade components, pre -Calamity currency?)
+      quest_triggers:
+        - "'Things Folks Do For Solar Cells...'"
+
+    -  id: rot_fly_nest
+      title: Rot-Fly Nest
+      recommended_level: 6
+       trigger_location: Take airboat/swim west from pyre island to next island (derelict camp).
+      enemies :
+        - { name: Rot-Flies, level: 6, tactics: "Mutated insects, explode violently  near death (pulse/glow warning). Back off. Igni-gadgets effective." }
+        - { name:  Queen Rot-Fly, level: 5 (tougher), tactics: "Emerges after nest destroyed. Explodes into toxic  gas cloud on death. Finish from range (shotgun, crossbow, bombs)." }
+      actions:
+        - Clear Rot -Fly guardians.
+        - Destroy pulsating nest mound (explosives/Igni).
+        - Defeat Queen  Rot-Fly safely.
+        - Loot nest remnants.
+        - Search derelict camp for salvage, including valuable chest  near water's edge north of nest.
+      reward: 20 XP
+      items_found:
+        -  Salvage from nest
+        - Loot from camp (including valuable chest)
+
+    - id: calamity_cache
+      title:  Calamity Cache
+      recommended_level: 4
+      trigger_location: Head south-west from Rot -Fly island towards "Salvage Opportunity" marker in deeper water channel.
+      enemies: Mutated Eels ( Level 4, Drowner equivalent) potentially harass during dive. Use underwater spear gun/harpoon.
+       actions:
+        - Dive to bottom.
+        - Locate and loot two sealed pre-Calamity crates.
+        -  Surface.
+      items_found:
+        - Contents of two pre-Calamity crates.
+      warning : "Avoid large island immediately south. Scan shows territorial Apex Feral Gator (Level 18, Forktail equivalent) on  northern ridge. Swim/boat to the *next* island further west instead."
+

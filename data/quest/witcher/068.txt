@@ -1,0 +1,33 @@
+The Final Battle
+On Thin Ice (level 30)
+Tell Avallac'h you're ready to confront Eredin and you'll sail out. No turning back now. Discuss battle plans, then Avallac'h will give you one last chance to see to any business you have. If you're ready, agree to go with him. Avallac'h will operate the Sunstone, and for better or worse, you'll get the response you're looking for.
+
+Ciri vs. Caranthir
+As Ciri-or rather, Super-Ciri (she's not holding back anymore!) kill a trio of Wild Hunt Warriors (level twenty-nine) then head north-east, massacring all that stands in your way-everything in your way. Turn north-west when you must and drop off a ledge to find the mage you're looking for. Caranthir doesn't stand a chance here-hit him three times with Fast Attacks, then dodge until he lowers his guard or reappears, then repeat. When he's wounded you'll get a cutscene.
+
+Geralt vs. Caranthir
+Another simple battle-drink a combat potion (Thunderbolt works well) then get to the attack. Use Fast Attacks-Caranthir won't counter, but after you hit him once or twice he'll teleport away. He'll shoot ice blasts at you, either in a wave formation or in succession, which deal light damage and slow you down. Quen helps, but you're probably better off just dodging/rolling towards him so you can get back on the attack. Keep the pressure up and fight offensively and you'll be fine. The only other trick he has is to summon an Ice Elemental (level thirty) which can be cut down quickly enough-make them a priority when they appear so you can get back to focusing on Caranthir.
+
+When the mage loses he'll make one last desperate attempt to thwart Geralt by teleporting them. Swim to the surface and witness another scene then head uphill, drop down a ledge, and run north-west past some Skelligers who are fighting some Hounds of the Wild Hunt (level twenty-seven). They keep spawning, so there's no point in fighting them all. Drop down another ledge and run across a boat trapped in ice, continuing north-east and dropping down a few more ledges to find the Naglfar-the Wild Hunt's massive ship.
+
+Geralt vs. Eredin
+Board the ship to witness Crach fighting Eredin, after which Geralt arrives. The two won't waste much time with pleasantries. Time to show him your spins, pirouettes and feints. He'll shortly teleport us to a more fitting-and open-battlefield, but if you're quick, you can score a cheap hit on him before he does.
+
+Eredin has two attack routines-when he's above 50% health he'll teleport about and perform sword combos, although he's not as aggressive as a combatant as Imlerith was. Caranthir was all about offense and doggedly pursuing your foe. Eredin is the opposite. Cast Quen and dodge around until he appears and starts performing an attack combo, then hit him with a Strong Attack while he's attacking. This will rarely cause you to take a hit, and will typically knock him out of his attack routine. Don't get greedy and go for more-he'll start blocking subsequent attacks, so just start dodging again. Simply put-dodge, and when he starts attacking, hit him with a Strong Attack, and repeat.
+
+He does have some more sophisticated attacks, however. Occasionally he'll get some distance on you and summon some ice mines. The mines are easy enough to dodge, but dodge (or roll, or sprint) towards Eredin while he does this and not only will you evade his mines, you'll be able to score another free hit on him and knock him out of the attack. Other than that, when he's below 50% health he'll add another attack to his arsenal-he'll teleport away and slash the ground, sending lines of energy at you. He'll do this three times, in succession, first shooting one line, then three, then five, making the last fairly difficult to dodge, especially if you're too close or too far away.
+
+Deplete his health with the aformentioned Strong Attack and dodge strategy and he'll teleport away. Run to his portal to finish the fight on his boat. He'll tell you some unsettling news before he dies. Guess those "spins, pirouettes and feints" were too much for the King of the Wild Hunt.
+
+Objective	Reward
+For defeating Eredin	500 XP
+Tedd Deireadh, The Final Age (level 30)
+Yennefer will pull Geralt out of a sticky situation, then talk to him, where Geralt will reveal what Eredin told him, and Yennefer will make a troubling observation of her own. Follow Yennefer on foot as the symptoms of the Conjunction grow worse, then mount a horse when she tells you to. Dodge meteorites and monsters as you contine following Yennefer on horseback-she does everything in her power to make this as difficult as possible by riding like an idiot.
+
+When you reach your destination dismount and follow Yennefer up a ledge, then wait for her to cast a barrier to protect you from the White Frost. Keep following Yennefer, and stay close to avoid taking damage from the blizzard. Along the way you'll have to kill some Hounds of the Wild Hunt (level twenty-seven) but they're a trifling matter by now. You'll eventually reach your destination, and Yennefer will work her magic-stranding you, but giving you a chance to put a stop to this madness.
+
+It Will End in a Tower
+Ascend some stairs and confont Avallac'h. Make a pointless timed decision, then talk to Avallac'h accomplice. Make a final timed decision and Ciri will head off to confront the White Frost. She'll remember the confidence-and-doubt boosting moments she had with Geralt, after which the quest "Tedd Deireadh, The Final Age" ends, and the quest "Something Ends, Something Begins" starts.
+
+Objective	Reward
+For confronting Avallac'h	1000 XP

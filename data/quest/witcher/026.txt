@@ -1,0 +1,63 @@
+Witcher's Work in Novigrad
+Contract: An Elusive Thief (level 13)
+Enough with mages, mad kings, and other plots-time for some honest Witcher's work. Fast travel back to Novigrad's "Tretogor Gate" signpost and cross the bridge to the north-west, where you'll find the merchant Sylvester Amello. Talk to him and he'll tell you about his troubles-and Geralt make a truly cringe-worthy pun. Recover from that bit of awfulness, then ask the merchant about his Imp problem, and haggle over prices if you must.
+
+Once done activate your Witcher Senses and investigate some paw prints near a small tower. Climb up a railing near the tower to continue following the prints to the south-east, near the Tretogor Gate bridge. Spy some of the loot it dropped, then follow the tracks as they run along the wall and over the bridge, before eventually dropping down into the moat. You can pick your way down near the southern end of the gate, or just walk around and pick up the trail again on the shore. Either way follow the tracks into a house in the nonhuman district. Head into the house and loot around, picking up a "Short Letter" from a table in the process. Read it to learn more of the target, then head upstairs and investigate some clothes near a bed.
+
+Objective	Reward
+For reading the letter	25 XP
+Follow the scent trail back outside and it'll lead to a Temple Guard who is handing out food to a peasant. The two will try and put on a convincing show, after which the elf will leave and Geralt will call out the Doppler. Chase him down (easily done because Geralt sprints faster) and when caught the stupid shapeshifter decides to test his luck by taking our form. Dopplers can assume the shape of even inanimate material-like swords, but how it copied our Signs is another question... still, the original is always better.
+
+Beat the Doppler and it'll plead for mercy. You've got three options-try to convince the Doppler to impersonate Menge, tell it to leave Novigrad, or kill it. If you choose the first option it'll refuse, preferring death over the torture the Witch Hunters would inflict on him, and Geralt will let him go. For the second option the critter will agree to leave Novigrad and give you a reward including the Diagram: Gnomish Gwyhyr and some Crowns-but you'll get less of a reward from Sylvester. If you kill it you can loot it for goodies including a Doppler Trophy, a Doppler Mutagen, and Mountain Folk Boots... not to mention the full reward for Sylvester. The second option is probably the most lucrative, all things considered, although Sylvester will be upset-especially after Geralt extorts some coin out of him.
+
+Objective	Reward
+For sparing the Doppler	25 XP
+215 Crowns
+Diagram: Gnomish Gwyhyr
+For telling Sylvester you ran the Doppler off	245 XP
+91 Crowns
+For telling Sylvester you killed the Doppler	245 XP
+182 Crowns
+Contract: Deadly Delights (level 15)
+Head west along the southern end of the central district to return to the fish market, where you'll find a guard in need of a Witcher. Talk to him and he'll tell you about some desiccated corpses. Sadly the bodies have been burned, but a medic who was present beforehand might know more.
+
+Travel around some buildings to the west, then follow the shore west to find the Medic. Talk to him and learn what you can, then backtrack to the south-east along the docks and cross a bridge south to reach the docks district. Our destination is the search area south of Crippled Kate's brothel.
+
+When you get there you'll see a man named Walter banging on a door. He'll shortly be accosted by Witch Hunters (level twelve)-let them kill him, then kill the Witch Hunters. Loot them for a "Warrant" and loot Walter for a "Key", which opens the door he was banging on. Why did he just use they key? Whatever, read the Warrent to start the quest "Novigrad: Closed City". We'll deal with this quest shortly.
+
+In the meantime, activate your Witcher Senses and look around at all the prints on the ground-search the southern hoofprints to pick up the correct trail, then follow it north, through a tunnel, then along the brothel-jumping over a crate when necessary, and to the back door of the brothel. There are two ways of finding out more. Either search west of the brothel's back door to find some expensive perfume, then follow the trail until you find a townsperson outside a building-obviously in some distress. Talk to him and he'll identify your target. Failing that, talk to the Madame of the brothel and use Axii and her and she'll tell you what's causing the trouble and where to find it.
+
+Objective	Reward
+For talking to the disoriented man outside the creature's lair	25 XP
+For using Axii on the Madame	40 XP
+Depending on the route you took earlier, there are two ways in to see the Succubus. If you talked to the Madame and got the key, then... just used the key on the front door. If you followed the scent trail head into a house to the south of the one the Succubus occupies and head upstairs, where you'll find a ladder along the northern wall. Climb it and go through a doorway and out onto a wooden walkway, where you'll find another ladder to climb. Climb it, then drop down into the Succubus' house and head downstairs.
+
+Either way, you end up confronting the beast. Either hear her side of the story, or kill her, then choose to let her leave Novigrad... or kill her. If you kill her you'll get a Succubus Trophy, a Succubus Mutagen, a "Key to House in Novigrad"-making exiting much easier than entering was-and Assassin's Gauntlets, among other things. She likes to cast fire spells, and backlash with a fire attack when you strike her-Quen should protect you well enough. In both cases you end up with the Succubus Trophy, which ensures you get a full reward from the guard. If you spare her, the Succubus will give you the Silver Sword Maugrim. Return to the guard for additional rewards.
+
+Objective	Reward
+For sparing the Succubus	Maugrim
+Succubus Trophy
+For telling the guard about the Succubus	270 XP
+186 Crowns
+Just a few more things to do before we get back to business. Head to the Golden Sturgeon Inn and, along the road north of it you'll find Nidas, who will ask you about some contract, then proceed to offer you a job-you help him recover a black pearl in Skellige, and he'll reward you. Might as well agree to start the quest "Black Pearl," which we'll ignore until we reach Skellige.
+
+Ronvid and Friends
+Continue north-west along this road and briefly ignore a Bandit with a quest marker along the side of the road. Instead, continue north-west to find Ronvid standing by an arch. The fool isn't playing around this time-he's brought friends, and he doesn't mean to stop short of death. He's discovered-finally-that Geralt's a Witcher, and instead of finding himself lucky to be alive, he's decided that he's got to punish us for being the cheats we are. Use the Axii Sign to make him go away, or kill Ronvid (level nine) and his goons (level eight). If you opt for the latter course, you can loot him for the note "To the Most Beautiful woman in the World."
+
+Objective	Reward
+For using Axii on Ronvid	40 XP
+For dealing with Ronvid	50 XP
+Novigrad, Closed City (level 11)
+Return to the Bandit we passed earlier and talk to him, and he'll ask you to help him hunt down a friend of his who is in need. Agree, then head north-east up a road to find some footprints, and beyond them, a scent trail. Follow the trail until you find some blood on a wall to the east, then continue east a bit, then north to find more blood and a continuation of the scent trail. Keep following the mixed trail up some stairs, through a market, and to a gate, where the Bandits will discover their "friend". Either help the injured Witch Hunter (putting down the Bandits in the process) or leave the Witch Hunter to the Bandits. If you choose the former, after defeating the Bandits you'll get to make the choice to either leave the Witch Hunter to bleed to death, or to help him reach a medic, in which case you'll take him to a hospital along the north-eastern edge of the central district of Novigrad.
+
+Head to-and cross-St. Gregory's Bridge. Along the way a woman called Lussi will call out to you to help her, claiming her house is haunted. Agree to help and follow her to the house, where two Witch Hunters (level eleven) will be waiting for you. Kill them and Lussi will give you another Key.
+
+Now make your way to the final search area, which is east of Heirarch Square. Enter a house along the northern end of this search area-going up some wooden stairs to reach the correct door. Inside you'll find a corpse. Investigate it, then head upstairs and light a torch on a support pillar and go into the secret room that opens up to the west, where you'll find a "Letter About Treasure" and a "Key" on the desk. Looks like we need to find all three keys to unlock the treasure here. Hey, look! We already have them! Open the dresser and collect your reward, and even better, end this quest. Don't you fret, there's more to do in Novigrad yet.
+
+Out on Your Arse! (level 14)
+Head back over to Crippled Kate's brothel, where you'll find a Strumpet ranting outside. Talk to her and she'll tell you that some rude men from Skellige have taken over the brothel. Agree to help her and head inside the brothel where you'll confront the Skelligers. You have three options-win a fist-fight against their leader, fist-fight all three of them, or use the Axii Sign. Once done, return to the Strumpet and tell her the good news, then decide to take the reward, or leave it... to get the same result either way.
+
+Objective	Reward
+For using the Axii Sign on the Skelliger	40 XP
+For telling the Strumpet the good news	25 XP
+15 Crowns

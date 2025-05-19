@@ -1,0 +1,228 @@
+ 
+# Story World Codex: Fictional Person Constitution Protocol
+# Based on Doležel's Heterocosmica III .B.II.C (Character as Property Bundle)
+
+world: Primal Mama
+codex_version:  '0.2 - Character Constitution (Deacon Brown)'
+last_updated: '[Current Date]' # User to fill this 
+lead_architect_s: '[Your Name/Studio Name]' # User to fill this
+
+introduction: |
+   This protocol guides the detailed definition of **Fictional Persons** (characters, significant sentient beings) within the Primal  Mama heterocosm. Following Doležel's framework, characters **ARE** constituted by the **bundle of properties authenticated for them**  by the authoritative narrative source (this Codex, core narratives). They possess **no independent psyche or reality beyond this textual definition **.
+
+  Use this template to systematically build characters by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted individuals  whose complexity arises from the **richness, coherence, and potential tensions within their authenticated bundle**, and whose actions are logically  grounded in their defined nature and the world's rules. Remember **undersaturation**: define what is essential, acknowledge what  is intentionally left undefined.
+
+character_profile:
+  entity_id: 'CHAR_DeaconBrown_0 1'
+  character_name: 'Deacon "Gator" Brown (Birth name: Jedidiah Brown ; "Deacon" is an honorific from his community, "Gator" a nickname earned from his prowess and  affinity)'
+  entity_type: 'Person (Erpenthrope)'
+  archetype_optional_starting _point: 'Folk Hero / Reluctant Leader / Swamp Guardian'
+  primary_authentication_source_s: ' This Codex Entry, Primal Mama World Coherence Protocol v0.1'
+  canon_tier: 'Tier 1' 
+  authentication_status: 'Authenticated_Canonical_Active'
+
+  authenticated_property_bundle:
+    physical _properties:
+      purpose: "Define the character's tangible presence."
+      appearance_general:
+         value: 'Human Form: Well-built male of African descent, appearing to be in his late 40s /early 50s despite greater age (Erpenthrope trait). Weathered, kind face with lines etched  by sun and worry, but eyes hold a youthful fire. Powerful, calloused hands.'
+        auth: '[Pr imal Mama Visual Concept Art / Narrative Desc.]'
+      appearance_specific_features:
+        value: 'Human  Form: Broad nose, full lips often set in a determined line or a warm smile. Short, tightly curled salt- and-pepper hair and a neatly trimmed beard of the same color. Piercing, intelligent dark brown eyes.'
+        auth: '[ Primal Mama Visual Concept Art / Narrative Desc.]'
+      appearance_distinctive_marks:
+        value:  'Human Form: Several faded scars on his arms and torso from alligator encounters and past conflicts. A small, intricate solar- sigil tattoo (stylized in 1970s design) on his inner left forearm, signifying his belief  in solar power''s vital role.'
+        auth: '[Narrative Desc. / Primal Mama Symbol Guide]' 
+      typical_attire:
+        value: 'Durable, patched-up denim work shirt (often sleeveless, 1 970s cut) or a simple, dark-colored cotton shirt. Sturdy canvas or denim trousers tucked into  well-worn, knee-high gator-skin boots (self-made, ethically sourced from nuisance gators).  Sometimes wears a wide-brimmed hat woven from swamp reeds. Carries a custom, well-oiled lever-action  rifle with wood paneling and brass accents.'
+        auth: '[Primal Mama Coherence Protocol (197 0s aesthetic, gun ownership), Visual Guide]'
+      voice_speech_pattern:
+        value: 'Deep , resonant baritone with a calm, reassuring cadence, often infused with local Lickskillet vernacular. Speaks thoughtfully but  can deliver powerful, inspiring oratory. His Alligator Beast Man form emits deep, guttural growls and hisses .'
+        auth: '[Dialogue Direction / Primal Mama Lexicon]'
+      gait_mannerisms:
+        value : 'Human Form: Confident, unhurried stride of someone intimately familiar with treacherous swamp terrain. Often gestures with his hands  when speaking passionately. Observant, his gaze frequently scanning his surroundings. Alligator Beast Man Form: Quadrupedal or biped al, powerful, surprisingly agile for its bulk.'
+        auth: '[Action Description / Erpenthrope Lore]' 
+      associated_scent_if_any:
+        value: 'Faint smell of swamp water, sun-dried reeds , gun oil, and a unique, slightly musky scent characteristic of Erpenthropes.'
+        auth:  '[Sensory Palette / Erpenthrope Lore]'
+      undersaturation_notes: 'Exact height/weight ( though clearly formidable); specific details of his Alligator Beast Man form beyond "formidable" and "matching large GE gator size";  precise number and story of every scar.'
+
+    functional_properties:
+      purpose: "Define what the character * can* and *cannot* do."
+      skill_masterful_alligator_hunting_tracking:
+        value: ' Masterful Alligator Hunting & Tracking (Traditional & GE gators)'
+        auth: '[Demonstrated Actions, Reputation ]'
+      skill_expert_swamp_navigation_survival:
+        value: 'Expert Swamp Navigation & Survival  (Lickskillet region and beyond)'
+        auth: '[Reputation, Backstory]'
+      skill_proficient_ firearm_use_maintenance:
+        value: 'Proficient Firearm Use & Maintenance (Lever-action rifles , shotguns – 1970s aesthetic)'
+        auth: '[Primal Mama Coherence Protocol ( Gun Ownership), Demonstrated Actions]'
+      skill_charismatic_leadership_public_speaking:
+        value: ' Charismatic Leadership & Public Speaking (Inspires loyalty in Lickskillet)'
+        auth: '[Narrative Events , Character Interactions]'
+      skill_basic_solar_tech_maintenance:
+        value: 'Basic Solar Tech  Maintenance (Sufficient to aid community with local, 1970s-style solar arrays)'
+        auth : '[Primal Mama Coherence Protocol (Solar Dominance), Narrative Action]'
+      skill_limited_ritual_ knowledge:
+        value: 'Limited Ritual Knowledge (Understands basic principles of warding against minor spectral nuisances, learned  from community elders, not a full practitioner of complex ghost interaction)'
+        auth: '[Narrative hints, interaction with  Spectral Interaction modality]'
+      ability_unique_erpenthropic_transformation:
+        value: 'Erpenthropic Transformation  into a formidable Alligator Beast Man (Approx. 20-24ft, immense strength, regenerative capabilities similar to GE  alligators but perhaps slower/more taxing)'
+        auth: '[Primal Mama Coherence Protocol (Erpenthropic Transformation ), Demonstrated Actions]'
+      ability_unique_near_immortality:
+        value: 'Near-Im mortality (Ageless, highly resistant to disease and conventional injury; not unkillable but extraordinarily hard to put down permanently)'
+         auth: '[Primal Mama Coherence Protocol (Erpenthrope Nature)]'
+      limitation_knowledge :
+        value: 'Lacks deep understanding of Beetriot high society, advanced genetic engineering principles beyond practical observation,  or the intricacies of the meat oligarchy''s financial manipulations.'
+        auth: '[Dialogue, Focus on local issues ]'
+      limitation_resources:
+        value: 'Operates with limited material wealth and resources, relying on community support  and salvaged/repurposed goods. Cannot match the oligarchy''s financial power.'
+        auth: '[Narr ative Context]'
+      limitation_social:
+        value: 'Viewed with suspicion and fear by those outside  his community who know of his Erpenthrope nature. Stigmatized by Beetriot elite.'
+        auth: '[ Character Interactions, World Social Dynamics]'
+      limitation_transformation:
+        value: 'Transformation is physically and perhaps  mentally taxing, not undertaken lightly. May have specific triggers or cool-down periods. Vulnerable during transformation process.'
+        auth : '[Narrative Balancing for Erpenthrope power]'
+      undersaturation_notes: 'Ability to pilot advanced  watercraft (likely proficient with basic skiffs/airboats); specific combat training beyond instinct and firearm use; detailed limits of his  regeneration in Beast Man form.'
+
+    psychological_properties:
+      purpose: "Define the character's textually constituted inner  life."
+      core_trait_unwavering_protective_instinct:
+        value: 'Unwa vering Protective Instinct (for his community, for the "little folk")'
+        auth: '[Key Choices, Actions , Dialogue]'
+      core_trait_deep_seated_sense_of_justice_fairness:
+         value: 'Deep-Seated Sense of Justice & Fairness'
+        auth: '[Motivations, Rhetoric, Reactions  to Injustice]'
+      core_trait_truth_seeker:
+        value: 'Truth-Seeker ( Erpenthrope trait, applied to exposing oligarchy''s deceit and understanding the world''s imbalances)'
+        auth:  '[Primal Mama Coherence Protocol (Erpenthrope Knowledge), Actions]'
+      core_trait_patient_resilient: 
+        value: 'Patient & Resilient (Product of long life and enduring struggles)'
+        auth: '[Behavior in crises,  Long-term strategies]'
+      dominant_emotion:
+        value: 'Determined Hope, tinged with a  weary understanding of human/Erpenthrope nature''s flaws. Capable of righteous anger when provoked by injustice.' 
+        auth: '[Internal Monologue (if used), Expressed sentiments]'
+      key_motivator:
+        value:  'To ensure the survival, dignity, and fair treatment of independent alligator farmers and swamp communities against the encroachments of the  meat oligarchy.'
+        auth: '[Primary Plot Driver for Deacon]'
+      key_belief_swamp_ provides:
+        value: '"The Swamp provides for all, not just the powerful. Truth, like a big ol'' gator , might lurk deep, but it eventually surfaces." Often expresses skepticism towards the "Invisible Women" conspiracy, seeing it as a distraction  from the very visible greed of the oligarchs.'
+        auth: '[Dialogue, Actions, Primal Mama Coherence Protocol ( Epistemic landscape)]'
+      key_belief_respect_for_primal_mama:
+        value : 'Respect for Primal Mama (the land/ecosystem itself) and its cycles. Believes in sustainable living, cl ashing with oligarchy''s exploitative practices.'
+        auth: '[Dialogue, lifestyle choices]'
+      internal_conflict_ burden_of_immortality:
+        value: 'The burden of his near-immortality and Er penthrope nature – watching loved ones age and die, the fear of becoming a monster in the eyes of those he  protects, or being seen as *too* different. Desire for peace vs. the constant need to fight for his people .'
+        auth: '[Narrative Themes, Potential Character Arcs]'
+      internal_conflict_uniting_swamp_ folk:
+        value: 'Struggle to unite disparate, independent-minded swamp folk against a unified, powerful  enemy. Frustration with short-sightedness or fear within his own community.'
+        auth: '[Plot Obstacles ]'
+      subjective_memory_content:
+        value: 'Vast repository of memories spanning decades, possibly  centuries, of Primal Mama''s history post-calamity, including the rise of the current oligarchy and  changes in the swamp. No pre-calamity memories.'
+        auth: '[Erpenthrope Lore,  Narrative Exposition via Deacon]'
+      undersaturation_notes: 'Specific personal tragedies that shaped his early Erpenthrope  existence; detailed opinions on the deified celebrities beyond a general respect for their anti-establishment undertones (if any); specific fears beyond  failing his community.'
+
+    social_relational_categorical_properties:
+      purpose: "Define the character's place within  the world's networks."
+      official_role:
+        value: 'None. Unofficial community leader,  elder statesman, and protector of Lickskillet and surrounding independent settlements.'
+        auth: '[Narrative Description]'
+       social_status:
+        value: 'Highly respected and trusted within Lickskillet and allied communities; seen as a folk  hero. Despised and feared by the meat oligarchy and their enforcers. Largely unknown or dismissed as a swamp  myth by Beetriot''s elite.'
+        auth: '[Interactions, World Structure]'
+      primary_affiliation:
+         value: 'The independent alligator farmers and swamp dwellers of the Lickskillet region.'
+        auth: '[Actions, Loyal ties]'
+      secondary_affiliations:
+        value: 'Loose network of other Erpenthropes (if any are  known to him, perhaps seeking them out for shared knowledge or mutual support). Wary, occasional transactional dealings with certain Swamp  Witches if their goals align against a common threat or for information exchange.'
+        auth: '[Narrative Potential,  World Logic]'
+      key_relationship_1_people_of_lickshillet:
+        value: ' To the People of Lickskillet (Collective): Paternal, protective, deeply loyal. They are his flock.' 
+        auth: '[Primary Motivation]'
+      key_relationship_2_meat_oligarchs:
+         value: 'To Meat Oligarchs (e.g., a specific Baron character): Antagonistic, sworn enemy . Represents corruption and exploitation.'
+        auth: '[Plot Conflict Driver]'
+      key_relationship_3_protege_app rentice:
+        value: 'To a younger protégé/apprentice (Potential Character): Mentor, passing on swamp lore, survival skills , and his philosophy of resistance.'
+        auth: '[Narrative Potential for character development]'
+      species_type:
+         value: 'Erpenthrope (Human-born, transformed)'
+        auth: '[Primal Mama Coherence Protocol]' 
+      stance_on_cattle:
+        value: 'Upholds the societal taboo against consumption absolutely. Views cattle artifacts of  Beetriot as a symbol of the elite''s detachment and decadent waste.'
+        auth: '[Primal Mama Coherence Protocol ( Alethic, Deontic rules)]'
+      stance_on_automatons_llms:
+         value: 'Shares the general societal distrust. Values human skill, intuition, and community effort over reliance on "soul-less  machines," especially those that could be controlled by the oligarchy.'
+        auth: '[Primal Mama Coherence Protocol (De ontic rules)]'
+      undersaturation_notes: 'Specific family ties (likely outlived many); close personal friends (beyond  general community respect); specific rivalries within the resistance movement (if any).'
+
+    modal_properties:
+      purpose : "Define any inherent unique relationship to world laws."
+      properties:
+        - property_id: 'MODAL-DE ACON-01'
+          property_name: 'Erpenthropic Nature (Alethic Exception)'
+           description: 'Possesses the authenticated supernatural ability to transform into a formidable Alligator Beast Man and possesses near-immort ality (agelessness, enhanced regeneration/resilience).'
+          limits: 'Transformation is not instantaneous, may have triggers/ costs (e.g., extreme stress, specific ritual, energy drain). Near-immortality does not mean inv ulnerability to overwhelming force or specific Erpenthrope weaknesses (if any exist). Regeneration has limits.'
+          authentication: 'Primal  Mama Coherence Protocol (Authenticated Core Rules: Erpenthropic Transformation). Narrative depiction of transformation and resilience.'
+         - property_id: 'MODAL-DEACON-02'
+          property_name: 'Truth- Seeking (Epistemic Inclination)'
+          description: 'As an Erpenthrope, possesses an innate drive or heightened  capacity to discern/pursue hidden truths, particularly those related to power structures and historical obfuscations.'
+          limits: 'Not omnis cience; requires investigation and interpretation. Can be misled by sufficiently complex deception. Personal biases can still color understanding.'
+          authentication: ' Primal Mama Coherence Protocol (Authenticated Core Rules: Erpenthrope Knowledge). Narrative depiction of his investigative actions and insights.'
+
+     axiological_properties:
+      purpose: "Define the character's value status *within* Primal Mama."
+       reputation_lickshillet_independents:
+        value: "Authenticated as 'Our Shield', ' The Gator''s Voice', 'Wise Elder', 'Hope'. Deeply loved and revered."
+        auth: '[ Community Dialogue/Actions]'
+      reputation_meat_oligarchy:
+        value: "Authenticated as 'Dangerous  Agitator', 'Swamp Savage', 'Erpenthrope Terrorist', 'Threat to Progress/Order'. Actively hunted  or targeted for suppression."
+        auth: '[Oligarchy Dialogue/Actions, Bounties (if any)]'
+       reputation_beetriot_general_populace:
+        value: 'Largely a rumor, a bo ogeyman whispered about from the swamps, or conflated with general dangers of the wild. If known, likely feared or dismissed.' 
+        auth: '[Narrative context of information flow]'
+      reputation_swamp_witches:
+        value:  "Potentially 'Useful Ally (sometimes)', 'Respected Power', or 'Meddler', depending on individual Witch and context."
+         auth: '[Narrative interactions]'
+      moral_alignment_narrative_framing:
+        value: 'Authenticated  via narrative focus as a righteous protector of the oppressed, a force for communal good, embodying resilience and justice against systemic greed. His  methods may be harsh by outsider standards but are framed as necessary for survival in Primal Mama.'
+        auth: '[ Narrator Tone, Plot Outcomes, Character choices aligned with positive values within the world''s context.]'
+
+    historical _properties:
+      purpose: "Define the character's known origins and connections to past events."
+      origin :
+        value: 'Born in the Lickskillet region several generations post-Calamity. Authenticated Erpenth rope transformation occurred in his young adulthood, possibly during a traumatic event or profound spiritual experience in the deep swamp. Has lived through the gradual  consolidation of power by the meat oligarchy.'
+        auth: '[Backstory elements revealed in narrative/dialogue]'
+      key _past_event_connection_displacement:
+        value: 'Witnessed first-hand the displacement of smaller,  independent alligator operations by the burgeoning oligarchy. May have lost family or close community members in early "friction" (violent disputes,  resource grabs) instigated by the oligarchs. These events cemented his resolve to resist.'
+        auth: '[Motivational Backstory]'
+       key_past_event_connection_unnatural_phenomena:
+        value: 'As an Erp enthrope, he has encountered or heard reliable tales of other "unnatural" phenomena in Primal Mama, giving him  a broader, albeit anecdotal, understanding of the world''s weirdness beyond just oligarchy politics (e.g.,  specific ghost manifestations, vampire bunny infestations, strange lights over the Saurian Sanctuary before its gates open).'
+        auth: '[ Erpenthrope Lore, Narrative exposition]'
+      inherited_items_knowledge:
+        value: 'Possesses  generations of swamp wisdom passed down orally, now filtered through his long Erpenthrope life. May carry an old,  1970s-era photograph or memento of a lost loved one that fuels his protective instincts.'
+         auth: '[Character Props, Dialogue]'
+      undersaturation_notes: 'The precise date/circumstances of his Er penthrope transformation; specific details of his life before becoming a recognized community leader; the full extent of his knowledge about  the deeper history or causes of the Biological Calamity (Erpenthropes seek truth, but don''t  necessarily find *all* of it).'
+
+  constitution_summary_narrative_function:
+    purpose: "Synthesize  the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+    core_essence: |
+       Deacon "Gator" Brown is constituted as an Erpenthrope deeply woven into the fabric of Primal Mama's  swamp communities. He is a fusion of ancient power and grassroots leadership, a near-immortal being whose existence is dedicated to the mortal  "little folk." His identity is forged in the crucible of resisting the oppressive meat oligarchy, fueled by a profound sense  of justice, a truth-seeking Erpenthrope nature, and a deep love for his people and their 197 0s-infused, solar-reliant way of life. He embodies the resilience of the swamp and the enduring spirit of  those who live in harmony with it, against forces that would exploit it.
+    primary_narrative_function:  |
+      Protagonist or Major Supporting Character leading resistance against the primary antagonists (Meat Oligarchy). Serves as a  moral compass, a source of wisdom and hope for the oppressed. Embodies the themes of community, justice, resilience,  and the complex relationship between humanity, nature, and strange powers in Primal Mama. His Erpenthrope nature allows exploration  of "otherness" and the burden/blessing of unique power.
+    key_internal_conflicts_ from_bundle: |
+      - The immense burden of being a long-lived protector watching generations pass.
+      - Maintaining  hope and inspiring action against a seemingly insurmountable oligarchy.
+      - The need to use his fearsome Erpenth rope form for protection versus the risk of alienating or terrifying his own people or attracting overwhelming force from Beetriot.
+       - Balancing his truth-seeking Erpenthrope drive with the immediate, pragmatic needs of his community.
+      -  Reconciling his inherent distrust of overarching authority with the necessity of organized resistance.
+    potential_for_development_based_on _bundle: |
+      - Uncovering deeper truths about the meat oligarchy, the biological calamity, or the nature  of Erpenthropes.
+      - Forging wider alliances (e.g., with other marginalized groups,  disillusioned Beetriot citizens, or even certain Swamp Witches).
+      - Being forced to make increasingly difficult moral choices in  the fight against the oligarchy.
+      - Mentoring a successor or inspiring a new generation of resistance.
+       - Confronting the limits of his own power or understanding, possibly seeking out older Erpenthropes or deeper spectral  knowledge.
+
+# End of Fictional Person Profile: CHAR_DeaconBrown_01

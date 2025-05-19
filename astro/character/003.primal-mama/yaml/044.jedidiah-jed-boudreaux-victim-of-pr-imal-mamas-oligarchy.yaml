@@ -1,0 +1,140 @@
+
+StoryWorldCodex:
+  title:  "Fictional Person Constitution Protocol"
+  based_on: "Doležel's Heterocosmica III .B.II.C (Character as Property Bundle)"
+  world: "Primal Mama"
+  cod ex_version: "0.2 - Character Constitution"
+  last_updated: "[Current Date]"
+   lead_architects: "[Your Name / Studio Name]"
+
+Introduction:
+  purpose: "This protocol guides the detailed definition  of Fictional Persons (characters, significant sentient beings) within the Primal Mama heterocosm. Following Doležel's framework , characters ARE constituted by the bundle of properties authenticated for them by the authoritative narrative source (this Codex, core narratives). They possess no  independent psyche or reality beyond this textual definition."
+  usage_note: "Use this template to systematically build characters by  explicitly authenticating their properties across relevant categories. Focus on creating multifaceted individuals whose complexity arises from the richness, coherence, and  potential tensions within their authenticated bundle, and whose actions are logically grounded in their defined nature and the world's rules.  Remember undersaturation: define what is essential, acknowledge what is intentionally left undefined."
+
+CharacterProfile:
+  EntityID : "CHAR_JedBoudreaux_01"
+  CharacterName: "Jedidiah \"Jed\"  Boudreaux"
+  EntityType: "Person"
+  Archetype: "The Ruined Homesteader /  The Wronged Man (Optional Starting Point)"
+  PrimaryAuthenticationSources: "This Codex Entry, Primal Mama Co herence Protocol v0.1"
+  CanonTier: "Tier 1"
+  AuthenticationStatus: "Authenticated _Canonical_Active"
+
+  AuthenticatedPropertyBundle:
+    PhysicalProperties:
+      purpose: "Define the character 's tangible presence."
+      properties:
+        - name: "Appearance_General"
+          description: "[ Male, late 40s, with distinct African features. Tall and wiry frame, once strong from physical labor , now bearing the strain of hardship. Skin weathered by swamp sun and worry.] # Auth: [This Entry]"
+         - name: "Appearance_Specific_Features"
+          description: "[Deep-set, tired brown eyes that  still hold a spark of defiance. Prominent cheekbones. A neatly trimmed but graying goatee. Lines etched deep around his  mouth and eyes.] # Auth: [This Entry]"
+        - name: "Appearance_Distinctive_Marks"
+           description: "[A faded, jagged scar along his right forearm from a young gator mis-handling years ago. His  hands are calloused and capable, though often clenched.] # Auth: [This Entry / Primal Mama - Gator Handling Implied ]"
+        - name: "Typical_Attire"
+          description: "[Worn, patched denim overalls over  a faded plaid flannel shirt (often with sleeves rolled up), conforming to the late 1970s aesthetic. St urdy, mud-caked work boots. Occasionally a wide-brimmed, sweat-stained straw hat.] # Auth : [This Entry / Primal Mama - 1970s Tech Aesthetic]"
+        - name: " Voice_Speech_Pattern"
+          description: "[A low, resonant baritone with a Lickskillet bay ou drawl. Speech is deliberate, sometimes hesitant, laced with a weary bitterness. Prone to folksy aphorisms  that now sound hollow to him.] # Auth: [This Entry / Primal Mama - Lickskillet regionalism]"
+         - name: "Gait_Mannerisms"
+          description: "[Used to move with an easy, swamp -dweller's grace, now somewhat more guarded and deliberate. Has a habit of looking over his shoulder. Often rubs  his temples when stressed, a new habit.] # Auth: [This Entry]"
+        - name: "Associated_Scent" 
+          description: "[Faint lingering scent of swamp mud, alligator musk, and the metallic tang of old machinery or solar  cell cleaner.] # Auth: [This Entry / Primal Mama - Alligator Economy, Solar Power]"
+      undersaturation_ notes: "[Exact height/weight, specific brand of his 1970s-style boots, childhood illnesses.]"
+
+     FunctionalProperties:
+      purpose: "Define what the character *can* and *cannot* do."
+      properties: 
+        - name: "Skill"
+          description: "[Expert Alligator Trapping & Husbandry (Pre-GE and basic  GE understanding)] # Auth: [Backstory / Primal Mama - Alligator Economy]"
+        - name: " Skill"
+          description: "[Proficient Small-Scale Alligator Meat Processing (Smoking, curing, butchering with 1 970s-style equipment)] # Auth: [Backstory / Primal Mama - Mom-and-Pop  Operations, 1970s Tech Aesthetic]"
+        - name: "Skill"
+          description: "[Basic  Repair & Maintenance of 1970s-Era Solar Power Converters and Analog Machinery (chunky buttons, basic circuits )] # Auth: [Backstory / Primal Mama - Solar Dominance, 1970s Tech Aesthetic ]"
+        - name: "Skill"
+          description: "[Competent with older model bolt-action rifles and  shotguns (common outside Beetriot)] # Auth: [Primal Mama - Gun Ownership (Regional)]"
+         - name: "Skill"
+          description: "[Swamp Navigation (by foot and small, solar-assisted pirogue)]  # Auth: [Backstory / Primal Mama - Swamp Environment, Solar Power]"
+        - name: "Lim itation_Economic"
+          description: "[Financially ruined; possesses few material assets beyond personal effects and a dilapidated pi rogue.] # Auth: [Backstory - Victimization by Oligarchy]"
+        - name: "Limitation _Social"
+          description: "[Mistrustful and isolated; struggles to ask for or accept help due to past  betrayal.] # Auth: [Psychological Properties]"
+        - name: "Limitation_Influence"
+          description : "[No political or economic leverage against the Meat Processor Oligarchy (\"GatorBaron Conglomerate\").]  # Auth: [Primal Mama - Deontic: Meat Processor Oligarchy friction]"
+        - name: " Limitation_Knowledge"
+          description: "[Limited understanding of advanced GE alligator modifications (beyond basic solar upkeep) or  Beetriot's high-level economics/politics.] # Auth: [This Entry]"
+      undersaturation_notes : "[Ability to swim long distances, knowledge of advanced ritual magic, piloting larger watercraft.]"
+
+    PsychologicalProperties:
+       purpose: "Define the character's textually constituted inner life."
+      properties:
+        - name:  "Core_Trait"
+          description: "[Embittered Resilience (Deeply wronged but not entirely broken)] #  Auth: [This Entry, Actions reflecting survival despite loss]"
+        - name: "Core_Trait"
+          description:  "[Suspicion/Mistrust (Especially of authority, wealth, and outsiders)] # Auth: [This Entry, Stemming from victimization ]"
+        - name: "Core_Trait"
+          description: "[Lingering Pride (In his former self -sufficiency and skill)] # Auth: [Internal Monologue, Reactions to reminders of his past]"
+        - name : "Dominant_Emotion"
+          description: "[A current of simmering resentment and grief, punctuated by moments of  weary apathy.] # Auth: [This Entry, Dialogue, Non-verbal cues]"
+        - name: "Key _Motivator"
+          description: "[Day-to-day survival; a suppressed yearning for justice or at  least an acknowledgement of the wrong done to him.] # Auth: [This Entry, Plot potential]"
+        - name: " Key_Belief_1" # Added _1 suffix for unique key name
+          description: "['The big  fish always eat the little fish, ''less someone changes the water.' Believes the system is rigged by the wealthy and  powerful, like the GatorBaron Conglomerate.] # Auth: [Dialogue, Primal Mama - Oligarchy]" 
+        - name: "Key_Belief_2" # Added _2 suffix for unique key name
+           description: "[Values 'honest work' and self-reliance; views reliance on Automatons/LLMs with ingrained suspicion,  consistent with local stigma.] # Auth: [Primal Mama - Axiological: Autonomy vs Automation; Deontic : Automaton User Stigma]"
+        - name: "Internal_Conflict"
+          description: "[Desire to  reclaim his dignity vs. fear of further retribution from the oligarchy; Pride in his skills vs. the shame of his current state .] # Auth: [This Entry]"
+        - name: "Subjective_Memory_Content"
+          description : "[Vivid, painful memories of his thriving family processing business – the smell of the smokers, the hum of the solar  converters, the day the GatorBaron agents arrived with their predatory \"offers\" and subsequent sabotage. Clear memory of the 19 70s-style tools and branding he used.] # Auth: [This Entry, Backstory]"
+      undersaturation_notes : "[Specific childhood dreams, opinions on the deified celebrities (though likely favors Jerry Reed's rebellious image), detailed  knowledge of Swamp Witch lore beyond common superstition.]"
+
+    SocialRelationalCategoricalProperties:
+      purpose: " Define the character's place within the world's networks."
+      properties:
+        - name: "Official _Role"
+          description: "[None. Formerly: Owner/Operator, \"Boudreaux's Bayou Bites \" (a small, independent alligator meat processor in Lickskillet).] # Auth: [Backstory]"
+        - name:  "Social_Status"
+          description: "[Marginalized, impoverished within Lickskillet. Seen by some as a  cautionary tale, by others with quiet sympathy.] # Auth: [This Entry]"
+        - name: "Primary_ Affiliation"
+          description: "[None currently. Formerly, a respected member of the Lickskillet independent processor community.] #  Auth: [Backstory]"
+        - name: "Key_Relationship_1"
+          description: "[To  the GatorBaron Conglomerate (Meat Processor Oligarchy): Antagonistic (victim). They are the source of his  ruin.] # Auth: [Primal Mama - Deontic: Oligarchy friction; This entry's premise]"
+        -  name: "Key_Relationship_2"
+          description: "[To his wife, Sarah Boudreaux (deceased  or departed due to hardship post-ruin – TBD by narrative needs): Source of profound grief and a motivator for his  past ambitions.] # Auth: [This Entry - Potential for pathos/motivation]"
+        - name: "Key_ Relationship_3"
+          description: "[To other small Lickskillet operators (potential): Wary, potential  for solidarity if trust can be rebuilt.] # Auth: [Primal Mama - Lickskillet setting]"
+         - name: "Species_Type"
+          description: "[Human (Primal Mama post-Calamity baseline )] # Auth: [Primal Mama - General World]"
+      undersaturation_notes: "[Extended family beyond his wife, specific  friends pre-ruin, any interactions with Erpenthropes or Swamp Witches.]"
+
+    ModalProperties:
+       purpose: "Define any inherent unique relationship to world laws."
+      status: "[None. Jed Boudreaux  operates entirely under the established alethic, deontic, axiological, and epistemic rules of Primal Mama.  His victimization is a result of existing power structures and societal laws/norms, not a unique modal exception.] # Auth:  [Primal Mama Coherence Protocol]"
+      properties: [] # Explicitly empty list
+
+    AxiologicalProperties: 
+      purpose: "Define the character's value status *within* Primal Mama."
+      properties:
+         - name: "Reputation_GatorBaronConglomerate"
+          description: "[Authenticated as 'In significant,' 'Dealt With,' 'An example of inefficiency' – a narrative they might push to justify their actions.] # Auth:  [This Entry, derived from Oligarchy's nature]"
+        - name: "Reputation_LickskilletGeneral Pop"
+          description: "[Authenticated as viewed with a mix of 'Pity,' 'Fear (of similar fate),' 'A  good man brought low by greed,' 'Someone who didn't play the game right (according to pragmatists) '.] # Auth: [This Entry, derived from Lickskillet's context]"
+        - name: "Moral _Alignment_NarrativeFraming"
+          description: "[Authenticated via narrative circumstance as a 'Victim of Injustice ,' fundamentally decent, whose trust was exploited and livelihood destroyed by systemic greed.] # Auth: [This Entry, premise]"
+       undersaturation_notes: "[Reputation among Beetriot elite (likely unknown), perception by Swamp Witches or Erpenth ropes.]"
+
+    HistoricalProperties:
+      purpose: "Define the character's known origins and connections to  past events."
+      properties:
+        - name: "Origin"
+          description: "[Authenticated as born and raised  in the Lickskillet parish region, family involved in traditional (pre-GE) alligator hunting for generations before adapting to  small-scale GE gator processing.] # Auth: [Backstory]"
+        - name: "Key_Past_ Event_Connection"
+          description: "[The \"Lickskillet Squeeze\" – a period a few years prior where the  GatorBaron Conglomerate systematically bankrupted or absorbed smaller independent processors like his. This involved predatory pricing, sabotage of equipment  (e.g., frying their 1970s-style solar regulators with power surges, contaminating meat stocks  and blaming the independents), and leveraging local officials.] # Auth: [This Entry, expanding on \"friction\" from Pr imal Mama Codex]"
+        - name: "Inherited_Items"
+          description: "[Authenticated to possess a well -oiled, 1970s model bolt-action hunting rifle (family heirloom, pride in gun ownership culture  outside Beetriot), and a tarnished, non-functional solar-powered analog watch (a gift from his wife from  happier times, conforming to 1970s aesthetic).] # Auth: [This Entry / Primal Mama - Gun  Ownership, 1970s Tech Aesthetic]"
+      undersaturation_notes: "[Specifics of his ancestors ' lives pre-calamity, details of his courtship with his wife, any direct personal experience with the \"Biological Calam ity\" itself beyond its societal aftermath.]"
+
+  CharacterConstitutionSummary:
+    purpose: "Synthesize the core identity , internal conflicts, and narrative role emerging from the authenticated property bundle."
+    CoreEssence: "Jedidiah Boudreaux  is constituted as a living consequence of Primal Mama's brutal economic realities, specifically the \"friction\" generated by the Meat  Processor Oligarchy (GatorBaron Conglomerate). His Physical weathering, Functional limitations (post-ruin), and  Psychological bitterness are direct results of his Historical victimization. His Social isolation is a product of this trauma, clashing with his former  pride in his Lickskillet community standing and adherence to its Axiological values (honest work, self-reliance,  1970s aesthetic craftsmanship). He represents the human cost of unchecked power in a world struggling to balance tradition, necessity, and  technological advancement within a rigid aesthetic and peculiar spiritual miasma."
+    PrimaryNarrativeFunction: "To embody the plight of the  common person in Lickskillet under the heel of the oligarchy; to serve as a potential catalyst or reluctant participant in any  resistance; to provide an intimate, ground-level view of the world's socio-economic struggles and the value system (e. g., pride in gun ownership, distrust of impersonal corporations) prevalent outside Beetriot. He can be a source of information  on the oligarchy's methods and a moral touchstone."
+    KeyInternalConflicts: "Resentment vs . Fear of Retaliation; Pride in Past Self-Sufficiency vs. Current Dependence/Despair; Desire for Justice vs . Overwhelming Power of the Oligarchy; Trust in Traditional Ways vs. Realization of Their Vulnerability."
+    Potential ForDevelopment: "Jed could be pushed to seek help from unconventional sources (e.g., an Erpenthrope seeking  truth about the Conglomerate, or even a Swamp Witch if desperate enough). He might find a new purpose in protecting others from a  similar fate, slowly rebuilding his trust and finding new skills or alliances. Conversely, he could sink further into bitterness or become a target  for manipulation due to his desperation or desire for revenge. His knowledge of old gator ways and 1970 s tech could become unexpectedly valuable."

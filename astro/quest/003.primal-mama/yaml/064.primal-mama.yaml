@@ -1,0 +1,223 @@
+
+documentInfo:
+  title: "Primal Mama Codex: Bayou Brews & Swamp Tonics" 
+  subtitle: "Based on the Concept of Sustained Biological Augmentation"
+  world: "Primal Mama "
+  codexSection: "Consumables - Sustained Augments"
+  lastUpdated: "[Current  Date]"
+  leadAlchemists: "[Your Name/Studio Name]"
+
+introduction: |
+  Bayou  Brews (often called "Swamp Tonics" by old-timers or "Bio-Synergists" in  Beetriot's fringe labs) are potent concoctions imbibed for sustained, passive biological effects. Unlike the quick- acting "Gator Gulp" stims or ritualistic "Spirit Fumes," Brews integrate with the user' s physiology over a considerable duration – sometimes lasting well over an hour, especially if the imbiber has undergone Miasma  Acclimatization treatments.
+
+  The trade-off for this longevity is significant Miasmic Strain. Each Brew  floods the system with complex bio-compounds and latent energies, taxing the body's ability to maintain equilibrium. Their  effects, while persistent, are often more nuanced or specialized than immediate combat stims. Mastering the use of Bayou Brews  requires a robust constitution or specific biological/technological enhancements to increase one's Miasmic Strain threshold. With careful  preparation and tolerance, an individual can benefit from a long-lasting augmentation, perfectly suited for extended expeditions into the deeper swamp  or navigating the subtle dangers of Primal Mama's altered ecosystem.
+
+  These recipes are often hoarded by Swamp  Witches, seasoned Erpenthropes, or rogue bio-engineers operating outside Beetriot's stringent (if aesthetically limited ) R&D protocols.
+
+bayouBrews:
+  - name: "Alpha Solar-Gator Brew "
+    requiredComponents: |
+      Sun-Kissed Kudzu x1
+      Cypress Still Spirit x 1
+      Alpha Solar-Gator Gland x5
+      Solar-Charged Gator Scale x1
+    primarySource: " Alpha Gen-Engineered Alligator"
+  - name: "Elder Erpenthrope Brew"
+    required Components: |
+      Spirit-Bloom Petals x1
+      Cypress Still Spirit x1
+      Moonvine Extract x 1
+      Elder Erpenthrope Shedding x1
+      Deep Bayou Root x1
+    primarySource: " Elder Erpenthrope"
+  - name: "Giant Bayou Spider Brew"
+    requiredComponents: |
+       Cypress Still Spirit x1
+      Giant Bayou Spider Cephalothorax Fluid x1
+      Ghost Orchid Petal x 1
+    primarySource: "Giant Bayou Spider (Mutated Arachnid)"
+  - name: "Iridescent Bio- Lizard Brew"
+    requiredComponents: |
+      Murkweed Leaf x1
+      Cypress Still Spirit  x1
+      Tanglebloom Nectar x1
+      Iridescent Bio-Lizard Eye x1
+       Sporepuff Dust x1
+    primarySource: "Iridescent Bio-Lizard (Mutated Reptile)" 
+  - name: "Mire-Strider Brew"
+    requiredComponents: |
+      Mirecap Fungus x 1
+      Cypress Still Spirit x1
+      Mire-Strider Adrenal Nodule x1
+       Phosphor-Moss x1
+    primarySource: "Mire-Strider (Large Amphibian/Mutant)"
+   - name: "Thunder-Throat Gator Brew"
+    requiredComponents: |
+      Cypress Still Spirit  x1
+      Thunder-Throat Gator Vocal Sac x1
+      Nightshade Berry x1
+    primarySource: " Thunder-Throat Gator (Sound-Based GE Gator)"
+  - name: "Erpenthrope Mimic Brew"
+     requiredComponents: |
+      Quicksilver Vine x1
+      Cypress Still Spirit x1
+      Er penthrope Dermal Sample x1
+      Chameleon Leaf x1
+    primarySource: "Erpenthrope" 
+  - name: "Living Geo-Form Brew"
+    requiredComponents: |
+      Volt-Fruit x1
+       Cypress Still Spirit x1
+      Living Geo-Form Core Shard x1
+      Lumina-Berry x1
+     primarySource: "Living Geo-Form (Anomalous Mineral/Bio)"
+  - name: "Vampire  Bunny Prime Brew"
+    requiredComponents: |
+      Gator-Plum x1
+      Cypress Still  Spirit x1
+      Vampire Bunny Prime Fang x1
+      Razor-Leaf x1
+    primarySource:  "Vampire Bunny (Prime/Alpha Variant)"
+  - name: "Swamp Gas Ghoul Brew"
+     requiredComponents: |
+      Deep Bayou Root x1
+      Cypress Still Spirit x1
+      Swamp Gas Ghoul E ctoplasmic Residue x1
+      Ghost Orchid Petal x1
+    primarySource: "Swamp Gas Gh oul (Spectral Entity)"
+  - name: "Night-Howler Brew"
+    requiredComponents: |
+      Murk weed Leaf x1
+      Cypress Still Spirit x1
+      Saltmarsh Crystal x1
+      Night-How ler Saliva Gland x1
+      Shadow Petal x1
+    primarySource: "Night-Howler (No cturnal Predator)"
+  - name: "Miasmic Foglet Brew"
+    requiredComponents: |
+      Sp orepuff Dust x1
+      Cypress Still Spirit x1
+      Miasmic Foglet Condensed Vapor x1
+       Murkweed Leaf x1
+    primarySource: "Miasmic Foglet (Atmospheric Entity)"
+   - name: "Delta Prowler Brew"
+    requiredComponents: |
+      Thorngrape Vine x 1
+      Cypress Still Spirit x1
+      Delta Prowler Fin-Spine x1
+      Channel weed x1
+    primarySource: "Delta Prowler (Aquatic Predator)"
+  - name: "Bog  Wight Brew"
+    requiredComponents: |
+      Mirecap Fungus x1
+      Cypress Still Spirit  x1
+      Bog Wight Bone Dust x1
+      Quicksilver Vine x1
+    primarySource: "Bog Wight ( Undead/Swamp Spirit)"
+  - name: "Sky-Terror Gator Brew"
+    requiredComponents:  |
+      Thorngrape Vine x1
+      Cypress Still Spirit x1
+      Refined Bio-Oil x1 
+      Sky-Terror Gator Talon x1
+      Solar Capacitor Gel x1
+    primarySource: "Sky-Terror Gator  (Flying GE Gator)"
+  - name: "Shadow Stalker Brew"
+    requiredComponents: |
+      Saltmarsh  Crystal x1
+      Cypress Still Spirit x1
+      Shadow Stalker Neurotoxin x1
+      V oodoo Lily x1
+    primarySource: "Shadow Stalker (Ambush Predator)"
+  - name: "Deep Dweller  Erpenthrope Brew"
+    requiredComponents: |
+      Volt-Fruit x1
+      Cypress Still Spirit x1 
+      Deep Dweller Erpenthrope Scale x1
+      Channelweed x1
+    primarySource: "Deep Dweller  Erpenthrope"
+  - name: "Bayou Creeper Brew"
+    requiredComponents: |
+      Cro aker Sac Bulb x1
+      Cypress Still Spirit x1
+      Bayou Creeper Tendril x1
+      Mur kweed Leaf x1
+    primarySource: "Bayou Creeper (Amphibious Mutant)"
+   - name: "Spectral Weeper Brew"
+    requiredComponents: |
+      Tomb-Moss x1
+       Cypress Still Spirit x1
+      Spectral Weeper Tear-Duct Crystal x1
+      Parasite Bloom  x1
+    primarySource: "Spectral Weeper (Ghost Variant)"
+  - name: "Solar Flare Moth  Brew"
+    requiredComponents: |
+      Blight-Spores x1
+      Cypress Still Spirit x 1
+      Solar Flare Moth Wing Dust x1
+      Spirit-Bloom Petals x1
+    primarySource: "Solar Flare  Moth (Bio-Luminescent Insect)"
+  - name: "Miasma Nullifier Brew"
+    requiredComponents: | 
+      Lesser Blue Bio-Gel x4
+      Cypress Still Spirit x1
+      Purified Spectral Condens ate x1
+      Lesser Red Bio-Gel x4
+      Lesser Green Bio-Gel x4
+     primarySource: "Multiple (Artificially Compounded)"
+  - name: "Siren Willow Brew" 
+    requiredComponents: |
+      Bayou Pepper x1
+      Cypress Still Spirit x1
+      S iren Willow Pollen x1
+      Phosphor-Slime x1
+    primarySource: "Siren Willow (Sent ient/Luring Plant)"
+  - name: "Armored Bull-Gator Brew"
+    requiredComponents : |
+      Moonvine Extract x1
+      Cypress Still Spirit x1
+      Armored Bull-G ator Osteoderm x1
+      Nightshade Berry x1
+    primarySource: "Armored Bull-Gator (He avily Plated GE Gator)"
+  - name: "River Serpent Brew"
+    requiredComponents: |
+       Gator-Plum x1
+      Cypress Still Spirit x1
+      River Serpent Venom x1
+       Berbercane Fruit x1
+    primarySource: "River Serpent (Large Aquatic Reptile)"
+  - name : "Feral Erpenthrope Brew"
+    requiredComponents: |
+      Dream-Hops x1
+      C ypress Still Spirit x1
+      Feral Erpenthrope Adrenal Gland x1
+      Tanglebloom  Nectar x1
+    primarySource: "Feral Erpenthrope"
+  - name: "Echo  Wraith Brew"
+    requiredComponents: |
+      Styx Root x2
+      Cypress Still Spirit x1 
+      Echo Wraith Resonance Membrane x1
+      Sporepuff Dust x1
+    primarySource: "Echo Wraith ( Sound-Mimicking Ghost)"
+  - name: "Gator-Hawk Brew"
+    requiredComponents: |
+       Sunpetal x1
+      Cypress Still Spirit x1
+      Gator-Hawk Beak Shard x 1
+      Channelweed x1
+    primarySource: "Gator-Hawk (Avian Predator of Gators)"
+
+notes OnIngredients:
+  - heading: "Cypress Still Spirit"
+    text: "The common, potent, and often illicit ly distilled alcohol base. Probably has a 1970s-style cheap liquor label if bought, or comes  in a repurposed gas can if homemade."
+  - heading: "Mutagens/Glands/Specific Parts"
+     text: "These are the core of the Brew, carrying the essence of the creature or phenomenon. \"Alpha Solar-G ator Gland,\" \"Erpenthrope Dermal Sample,\" \"Vampire Bunny Prime Fang,\" \"Spectral Weeper Tear -Duct Crystal\" all suggest unique properties."
+  - heading: "Flora"
+    text: "Ingredients  like \"Sun-Kissed Kudzu,\" \"Spirit-Bloom Petals,\" \"Deep Bayou Root,\" \"Murkweed Leaf,\"  \"Ghost Orchid Petal,\" \"Mirecap Fungus,\" \"Phosphor-Moss,\" \"Volt-Fruit,\"  \"Lumina-Berry,\" \"Bayou Pepper,\" \"Styx Root,\" and \"Sunpetal\" evoke the unique, possibly  mutated or bio-luminescent, plant life of Primal Mama's swamps."
+  - heading: "Bio -Gels/Capacitor Gels/Bio-Oil"
+    text: "These suggest some level of  processing or refinement, fitting the retro-futuristic biotech angle."
+  - heading: "Spectral Components"
+    text: "\" Ectoplasmic Residue,\" \"Condensed Vapor,\" \"Bone Dust\" (from undead), \"Tear-Duct  Crystal,\" \"Resonance Membrane,\" \"Purified Spectral Condensate\" indicate interactions with the ghostly elements of Primal Mama ."
+  - heading: "\"Prime\" or \"Alpha\" or \"Elder\" variants"
+    text: " Suggest stronger, rarer versions of base creatures, yielding more potent Brew components."

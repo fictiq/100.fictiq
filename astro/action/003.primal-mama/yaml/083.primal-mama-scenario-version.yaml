@@ -1,0 +1,286 @@
+```yaml
+world: "Primal Mama "
+analysis_basis: "Entity Functional Profile Protocol (Codex Version: 0.1 - Functional Definitions)"
+source_ quest_structure: "\"Cooger's Lost Calf\" & \"Hooking Catfish Cletus\" (Pr imal Mama adaptation)"
+
+introduction:
+  title: "Quest Progression as Functional Interaction"
+  text: "This document  analyzes the Primal Mama quest arcs (\"Cooger's Lost Calf\" and \"Hooking Catfish Cletus \") by examining the functional properties of the involved entities. Each quest stage is viewed as an interaction where entities deploy their authenticated capabilities , are constrained by their limitations, incur costs, or exploit vulnerabilities, all as defined by the Entity Functional Profile Protocol.  This approach highlights the dynamic potential within the Primal Mama heterocosm and how entity functions drive narrative progression."
+
+quest _arcs:
+  - arc_title: "Cooger's Lost Calf"
+    name: "\"Cooger's  Lost Calf: Uncover secrets, retrieve artifact, confront Catfish.\""
+    narrative_functional_arc_summary: " The Protagonist (Bayou Walker, Erpenthrope) initiates contact with Silas \"Smooth\" Cooger to leverage  Cooger's information network (FUNC-COOGER-INFO_NETWORK). This leads to the Protagonist undertaking a  recovery mission for Cooger, utilizing investigative (FUNC-BW-INVESTIGATE), environmental survival (FUNC-BW-ADAPT _HAZARD), and problem-solving (SKL-BW-PUZZLE_SOLVE) capabilities. The arc  culminates in gathering intelligence on a primary antagonist, Catfish Jim, by interacting with and overcoming the functional defenses/capabilities of other entities like  Warden Steele."
+    key_functional_exchanges:
+      - stage_title: "Initial Contact & Spa  Disruption"
+        stage_reference: "`find_cooger_intro`, `meet_cooger_at_spa `"
+        entities_and_functions:
+          - entity_id: "CHAR_BayouWalker_ 01 (Protagonist)"
+            functions:
+              - "`FUNC-BW-SOCIAL_NAV`: Navigating social structures to  gain access."
+              - "`FUNC-BW-INFO_GATHER`: Attempting to acquire information about `CHAR_DocParad ox_XX`."
+              - "`FUNC-BW-COMBAT_MELEE/RANGED`: Res ponding to hostile action."
+              - "*Constraint:* `OPCON-ACCESS-GILDED_GATOR`  (Requires name-drop/valid reason for entry)."
+          - entity_id: "CHAR_Cooger_Silas _01 (Silas \"Smooth\" Cooger)"
+            functions:
+              - "`FUNC-COOG ER-GATEKEEP_INFO`: Initially controls access to his knowledge/network."
+              - "`FUNC-COOG ER-TASK_DELEGATE`: Assigns mission to Protagonist."
+              - "*Vulnerability:* `V ULN-COOGER-LOSS_AVERSION` (Loss of Charolais Embryo motivates him)." 
+          - entity_id: "OBJ_GildedGator_Spa_01 (Location)"
+             functions:
+              - "`FUNC-LOC-ACCESS_CONTROL`: Doors, assistants regulating entry."
+          - entity_id:  "FACTION_CatfishGoons_01 (Catfish Jim's Goons)"
+            functions:
+               - "`FUNC-GOON-HOSTILE_ENGAGE`: Initiating combat."
+              - "*Limitation:* `IN AB-GOON-MATCH_ERPENTHROPE` (Ultimately outmatched by Protagonist)."
+        narrative_ consequence_info_gained: "Protagonist gains Cooger's conditional assistance; learns of Cooger's  stolen \"Charolais Bull Embryo\" (`OBJ_EMBRYO_CHAROLAIS_01`) and the  sabotage. Cooger establishes `CHAR_CatfishJim_XX` as an antagonist. Side quest \"The Bayou Brotherhoods\"  potentially initiated."
+        authenticated_rewards_as_functional_assets:
+          - "`150 XP`  (Represents skill/knowledge gain)."
+
+      - stage_title: "Bayou Brawlers Challenge"
+         stage_reference: "`bayou_brawlers_challenge`"
+        entities_and_functions:
+           - entity_id: "CHAR_BayouWalker_01"
+            functions:
+              - "`SK L-BW-BAYOU_BRAWLERS`: Utilizes card game proficiency."
+          - entity_id: "CHAR _Cooger_Silas_01"
+            functions:
+              - "`SKL-COOGER -BAYOU_BRAWLERS`: Utilizes card game proficiency (assessed as \"paltry\")."
+           - entity_id: "ITEM_Card_BurtReynolds_01"
+            functions:
+              - "`FUNC- CARD-GAME_ASSET`: Becomes a playable asset in Bayou Brawlers system."
+        narrative_con sequence_info_gained: "Protagonist learns of a master \"Bayou Brawlers\" player (Sw amp Witch), potentially initiating/progressing \"Bayou Brawlers: Swamp Sages.\""
+        authenticated_rewards_ as_functional_assets:
+          - "`25 XP`"
+          - "`ITEM_Card_BurtReynolds_ 01`"
+
+      - stage_title: "Bio-Toxin Investigation"
+        stage_reference:  "`bio_toxin_investigation_intro`, `search_drainage_system`"
+        entities_and_functions :
+          - entity_id: "CHAR_BayouWalker_01"
+            functions:
+               - "`FUNC-BW-SENSES_ENHANCED`: Detecting clues, navigating hazardous environment."
+              - "`FUNC- BW-ENVIRONMENTAL_TRAVERSAL`: Navigating sewers."
+              - "`FUNC-BW-COMBAT_MELEE /RANGED`: Dealing with `CREATURE_Muckfiend_XX`."
+              - "*Dependency :* `DEPEND-BW-MIASMA_MASK` (Requires `OBJ_MiasmaMask_01` for survival)." 
+          - entity_id: "OBJ_MiasmaMask_01 (Consumable)"
+             functions:
+              - "`FUNC-MASK-TOXIN_PROTECTION`: Grants temporary immunity to toxic fumes."
+               - "*Cost/Constraint:* `COST-MASK-LIMITED_DURATION` (360 seconds per dose)."
+          - entity _id: "CREATURE_Muckfiend_XX"
+            functions:
+              - "`FUNC- MUCKFIEND-AMBUSH`: Attacks Protagonist."
+          - entity_id: "OBJ_Sonic Emitter_Part_01 (Clue)"
+            functions:
+              - "`FUNC-CLUE-PROVID E_INFO`: Indicates nature of sabotage."
+        narrative_consequence_info_gained: "Protagonist finds  evidence of the sabotage method (sonic emitter), identifies potential escape route of thieves."
+        authenticated_rewards_as_ functional_assets:
+          - "`200 XP`"
+
+      - stage_title: "Tanning Pool & Sab oteur's Hideout Investigation"
+        stage_reference: "`search_tanning_pools`, `investigate_pyl ons_hideout`"
+        entities_and_functions:
+          - entity_id: "CHAR_ BayouWalker_01"
+            functions:
+              - "`SKL-BW-DEDUCTIVE_REASON ING`: Linking clues (guest ledger, Pylon's address)."
+              - "`FUNC-BW-FORCED _ENTRY` (Potentially, for Pylon's apartment)."
+              - "`FUNC-BW-INVESTIG ATE_ADVANCED`: Searching hideout, solving minor puzzle (wine bottle)."
+          - entity_id: "CHAR_ Cooger_Silas_01 & CHAR_Happen_Asst_01"
+            functions:
+               - "`FUNC-COOGER-INFO_RETRIEVAL_ASSIST`: Consulting guest ledger."
+           - entity_id: "LOC_PylonHideout_01"
+            functions:
+              - "` FUNC-LOC-CONTAIN_EVIDENCE`: Holds clues (`OBJ_DataSlate_DD_01`, schematics)."
+               - "`FUNC-LOC-CONCEAL_SECRET`: Hidden room mechanism."
+          - entity_id: "OBJ_ DataSlate_DD_01"
+            functions:
+              - "`FUNC-DATASLATE-STORE_COMMUNICATION `: Contains letter from 'D.D.'."
+        narrative_consequence_info_gained: "Sab oteur identified as `CHAR_ProfessorPylon_XX`; connection to 'D.D.' (`CHAR_Doppel Dandy_XX`?) revealed."
+        authenticated_rewards_as_functional_assets:
+          - "`50 XP ` (for tanning pools)"
+          - "`50 XP` (for hideout)"
+
+      - stage_ title: "To Catch an Aesthetic Warden"
+        stage_reference: "`meet_mavis_with_cooger ` to `report_to_cooger_steele_info`"
+        entities_and_functions:
+           - entity_id: "CHAR_BayouWalker_01"
+            functions:
+              - "`SK L-BW-DECEPTION_SUPPORT`: Aiding Mavis's ruse."
+              - "`FUNC-BW- COMBAT_MELEE/RANGED` (If stealth fails or by choice)."
+          - entity_id : "CHAR_Mavis_Mystic_01 (Swamp Witch)"
+            functions:
+              -  "`FUNC-MAVIS-STRATEGIC_PLANNING`: Devising infiltration plan."
+              - "`FUNC- MAVIS-DECEPTION_LEAD`: Playing role of captured sorceress."
+              - "`FUNC-MAVIS- PSYCHIC_DISRUPTION`: Incapacitating Steele."
+              - "*Cost/Constraint:* `COST-MAVIS-ENERGY _GATHERING` (Implied for psychic powers)."
+          - entity_id: "CHAR_WardenSteele_ 01"
+            functions:
+              - "`FUNC-STEELE-INTERROGATION`: Attempting to extract information ."
+              - "`FUNC-STEELE-AUTHORITY_EXERT`: Commanding Enforcers."
+              - "*V ulnerability:* `VULN-STEELE-OVERCONFIDENCE`, `VULN-STEELE- PSYCHIC_SUSCEPTIBILITY` (To Mavis's attack)."
+          - entity_id: " FACTION_AestheticEnforcers_01"
+            functions:
+              - "`FUNC-ENFOR CER-SECURITY_PATROL`"
+              - "`FUNC-ENFORCER-DETAINMENT`"
+               - "`FUNC-ENFORCER-COMBAT`"
+          - entity_id: "OBJ_SteeleKeycard_ 01, OBJ_SteeleDataReel_01"
+            functions:
+              - "`FUNC-KEYCARD- GRANT_ACCESS`"
+              - "`FUNC-DATAREEL-STORE_INFO`: Provide means to advance investigation."
+         narrative_consequence_info_gained: "Information potentially related to Charolais Embryo or Doc Paradox acquired  from Steele (or his belongings). Path to Steele's contact established. Quest \"A Haze of Hexes\" potentially  advanced."
+        authenticated_rewards_as_functional_assets:
+          - "`200 XP` or  `300 XP` (depending on method)"
+          - "`100 XP`"
+          -  "`90 Solar Credits` (from Cooger)"
+          - "*Functional Note:* Passing embryo info to Cooger  unlocks `FUNC-COOGER-FUTURE_AID`."
+
+      - stage_title: "Interrogating Steele' s Contact (Alternative)"
+        stage_reference: "`interrogate_steeles_contact_alternative`"
+         entities_and_functions:
+          - entity_id: "CHAR_BayouWalker_01" 
+            functions:
+              - "`SKL-BW-STEALTH`"
+              - "`FUNC-BW -OBSERVATION`"
+          - entity_id: "CHAR_DoppelDandy_XX ('D.D.') "
+            functions:
+              - "`FUNC-DD-MIMICRY`"
+              - "`FUNC -DD-INTIMIDATION_PSYCHOLOGICAL`"
+          - entity_id: "CHAR_Ste eleContact_XX"
+            functions:
+              - "`FUNC-CONTACT-INFO_POSSESSION`"
+               - "*Vulnerability:* `VULN-CONTACT-FEAR_COERCION` (Susceptible to D. D.'s tactics)."
+        narrative_consequence_info_gained: "Information about Doc Paradox and  'D.D.'s' role/knowledge."
+        authenticated_rewards_as_functional_assets:
+          - "` 50 XP`"
+
+      - stage_title: "Concluding \"Bayou Brawlers: Swamp Sages\""
+         stage_reference: "`bayou_brawlers_swamp_sages_conclusion`"
+        entities_and _functions:
+          - entity_id: "CHAR_BayouWalker_01"
+            functions: 
+              - "`SKL-BW-BAYOU_BRAWLERS_ADVANCED`: Defeating skilled opponent."
+           - entity_id: "CHAR_SwampWitchHermit_01"
+            functions:
+               - "`SKL-SWH-BAYOU_BRAWLERS_MASTER`"
+          - entity_ id: "ITEM_Card_ErpenthropeElder_01, ITEM_Card_MamaMamba_ 01"
+            functions:
+              - "`FUNC-CARD-GAME_ASSET_HIGH_VALUE` "
+        narrative_consequence_info_gained: "\"Bayou Brawlers: Swamp Sages\" completed." 
+        authenticated_rewards_as_functional_assets:
+          - "`25 XP`"
+          -  "`ITEM_Card_ErpenthropeElder_01`"
+          - "`ITEM_Card_Mama Mamba_01`"
+
+      - stage_title: "Quest Arc 1 Conclusion"
+        stage _reference: "`conclude_coogers_lost_calf`"
+        entities_and_functions:
+          -  entity_id: "CHAR_BayouWalker_01"
+            functions:
+              - "`FUNC-BW-REPORT _FINDINGS`"
+          - entity_id: "CHAR_PriscillaSongbird_01"
+             functions:
+              - "`FUNC-PRISCILLA-INFO_NODE_PASSIVE`: Possesses information but cannot  currently act decisively on Doc Paradox."
+        narrative_consequence_info_gained: "\"Cooger's  Lost Calf\" completed. Leads to needing to deal with Catfish Jim first."
+
+  - arc_title: " Hooking Catfish Cletus"
+    name: "\"Hooking Catfish Cletus: Dismantle Jim's  operations, ally with Mama Roux.\""
+    narrative_functional_arc_summary: "The Protagonist targets Catfish Jim 's operations. This involves choices regarding alliances (e.g., with Mama Roux – `FACTION_LickskilletProcess ors_01`), which alter available functional approaches (stealth vs. assault). The Protagonist uses combat (FUNC -BW-COMBAT_VERSATILE), investigation (FUNC-BW-INVESTIGATE), and potentially social manipulation  (FUNC-BW-SOCIAL_MANIP_AXII_EQUIV) to dismantle Jim's power base and uncover his  illicit dealings."
+    key_functional_exchanges:
+      - stage_title: "Alliance with Mama Roux  (\"The Bayou Brotherhoods\")"
+        stage_reference: "`bayou_brotherhoods_alliance`"
+        entities _and_functions:
+          - entity_id: "CHAR_BayouWalker_01"
+             functions:
+              - "`SKL-BW-NEGOTIATION`"
+          - entity_id:  "CHAR_MamaRoux_01"
+            functions:
+              - "`FUNC-ROUX-LE ADERSHIP_FACTION`"
+              - "`FUNC-ROUX-ALLIANCE_OFFER`"
+           - entity_id: "FACTION_LickskilletProcessors_01"
+            functions:
+               - "*Capability (if allied):* `FUNC-FACTION-COMBAT_SUPPORT_GROUP`."
+              - "* Limitation (if allied):* `INAB-FACTION-STEALTH_OPERATIONS` (Noise factor)."
+         narrative_consequence_info_gained: "Alliance formed (or not), affecting subsequent mission approaches. \" The Bayou Brotherhoods\" quest progresses."
+
+      - stage_title: "Investigating Catfish Jim's Ranch" 
+        stage_reference: "`catfish_jims_ranch_hideout`"
+        entities_ and_functions:
+          - entity_id: "CHAR_BayouWalker_01"
+            functions :
+              - "`FUNC-BW-INVESTIGATE_ENVIRONMENT`"
+          - entity_id: " LOC_JimRanch_01"
+            functions:
+              - "`FUNC-LOC-CONTAIN_EVIDENCE_ SUBTLE`: Hints at illegal cattle experimentation."
+        narrative_consequence_info_gained: "Cl ues about Jim's other illegal activities, but not directly on Doc Paradox."
+
+      - stage_title: "Catfish' s Casino (\"The Greased Gator\")"
+        stage_reference: "`catfish_casino_sided_roux`, ` catfish_casino_solo`"
+        entities_and_functions:
+          - entity_id: " CHAR_BayouWalker_01"
+            functions:
+              - "*If allied with Roux:* `FUNC -BW-LEAD_ASSAULT`."
+              - "*If solo:* `SKL-BW- INFILTRATION_SOCIAL` (Bribe/Influence) or `FUNC-BW-COMBAT_INITI ATE`."
+              - "`FUNC-BW-INTERROGATE_COERCE` (With Rico)."
+           - entity_id: "CHAR_RicoTheRat_01"
+            functions:
+              - "` FUNC-RICO-PROVIDE_INFO_UNDER_DURESS`."
+              - "*Vulnerability:*  `VULN-RICO-FEAR_FOR_LIFE`."
+          - entity_id: "FACTION_ CatfishGoons_Casino_01"
+            functions:
+              - "`FUNC-GOON-DEFEND _LOCATION`."
+          - entity_id: "ITEM_Weapon_BayouBasher_01" 
+            functions:
+              - "`FUNC-WEAPON-MELEE_ENHANCED_DAMAGE`."
+        narr ative_consequence_info_gained: "Information from Rico; disruption of Jim's finances. \"Honor Among Swamp  Rats\" potentially initiated."
+        authenticated_rewards_as_functional_assets:
+          - "`XP Varies `"
+          - "`ITEM_Weapon_BayouBasher_01`"
+
+      - stage_title: " Catfish's Arena (\"Swamp Stompin' Arena\")"
+        stage_reference: "`catfish_arena _sided_roux`, `catfish_arena_solo`"
+        entities_and_functions:
+           - entity_id: "CHAR_BayouWalker_01"
+            functions:
+              - "* If allied with Roux:* `FUNC-BW-LEAD_ASSAULT`."
+              - "*If solo (infiltration ):* `FUNC-BW-IMPERSONATE_CONTESTANT`, `FUNC-BW-ARENA_COMB AT_MULTI_WAVE`."
+              - "`FUNC-BW-INVESTIGATE_SECRET_AREAS `."
+          - entity_id: "CHAR_IgorTheImpaler_01"
+             functions:
+              - "`FUNC-IGOR-MANAGE_ARENA`"
+              - "`FUNC- IGOR-COMBAT_BOSS`"
+          - entity_id: "CREATURE_ArenaCombatants_ XX (Various)"
+            functions:
+              - "`FUNC-CREATURE-COMBAT_SPECIFIC_ABILITIES`."
+           - entity_id: "OBJ_SealedCommunique_01"
+            functions:
+              -  "`FUNC-COMMUNIQUE-REVEAL_CONSPIRACY`: Details Jim's external illicit alliance."
+         narrative_consequence_info_gained: "Evidence of Jim's high-level conspiracy. Jim flees."
+         authenticated_rewards_as_functional_assets:
+          - "`XP Varies`"
+          - "` ITEM_IgorsKey_01` (`FUNC-KEY-ACCESS_LOCKBOX`)"
+
+      - stage _title: "Settling Scores & Reporting to Cooger"
+        stage_reference: "`settling_scores_ conclusion`, `report_to_cooger_catfish_info`"
+        entities_and_functions: 
+          - entity_id: "CHAR_BayouWalker_01"
+            functions:
+              -  "`FUNC-BW-REPORT_FINDINGS_STRATEGIC`."
+          - entity_id: "CHAR_Mama Roux_01 / CHAR_Hierophant_Whispers_01"
+            functions:
+              - "` FUNC-NPC-PROVIDE_REWARD_SERVICE_RENDERED`."
+          - entity_id: "CHAR_Co oger_Silas_01"
+            functions:
+              - "`FUNC-COOGER-PROCESS_ INTEL`"
+              - "`FUNC-COOGER-PROVIDE_NEXT_LEAD` (To Reb  McCluskey)."
+        narrative_consequence_info_gained: "\"The Bayou Brotherhoods\" / \"Honor  Among Swamp Rats\" completed. New lead (`CHAR_RebMcCluskey_XX`) to track Jim' s external connection or Doc Paradox."
+        authenticated_rewards_as_functional_assets:
+          - "`XP  Varies`"
+          - "`300 Solar Credits` (from Roux)"
+          - "`ITEM_ Weapon_SilveredBoomstick_01`"
+          - "`ITEM_Armor_RoadWarriorLeathers_01`  (from Hierophant)"
+          - "`150 XP` (from Cooger)"
+
+conclusion:
+   title: "Functional Dynamics in Primal Mama"
+  text: "This analysis demonstrates how quest progression in Primal  Mama is driven by the defined functional properties of its entities. The Protagonist's success relies on deploying a range of capabilities  (combat, social, investigative) while navigating the limitations, costs, and vulnerabilities inherent in themselves, other characters, and the environment.  Each interaction is a test or utilization of these authenticated functions, making the world feel dynamic and its challenges logically consistent within its own established rules ."
+```

@@ -1,0 +1,203 @@
+
+world: Primal Mama
+codex_version: '0.2 - Character Constitution (Mawu)'
+ last_updated: '[Current Date]'
+lead_architects: '[Your Name / Studio Name]'
+
+introduction: | 
+  This protocol guides the detailed definition of **Fictional Persons** (characters, significant sentient beings) within the  Primal Mama heterocosm. Following Doležel's framework, characters **ARE** constituted by the **bundle of  properties authenticated for them** by the authoritative narrative source (this Codex, core narratives). They possess **no independent psyche or  reality beyond this textual definition**.
+
+  Use this template to systematically build characters by explicitly authenticating their properties across relevant categories. Focus  on creating multifaceted individuals whose complexity arises from the **richness, coherence, and potential tensions within their authenticated bundle**, and  whose actions are logically grounded in their defined nature and the world's rules. Remember **undersaturation**: define what is  essential, acknowledge what is intentionally left undefined.
+
+character_profile:
+  entity_id: CHAR_MawuGator _01
+  character_name: 'Mawu, often respectfully called "Mama Gator" by those who  know her.'
+  entity_type: 'Person (Erpenthrope)'
+  archetype:
+    value : 'Wise Elder / Primal Oracle / Swamp Matriarch'
+    note: 'The goal is to move beyond the archetype  via specific property authentication'
+  primary_authentication_sources:
+    - This Codex Entry
+    - 'Pr imal Mama World Codex v0.1 (Coherence Protocol)'
+  canon_tier: 'Tier 1 ( Significant character embodying core world elements)'
+  authentication_status: Authenticated_Canonical_Active
+
+  authenticated_property_bundle :
+    physical_properties:
+      purpose: "Define the character's tangible presence."
+      attributes: 
+        - name: Appearance_General
+          description: 'Human Form: Appears as an elderly woman of indeterminate advanced age  (consistent with Erpenthrope near-immortality), with rich, dark skin deeply lined like ancient riverbeds . Possesses a strong, upright posture that belies her apparent age. Alligator Beast Man Form: A formidable,  dark-scaled bipedal alligator, larger than most GE gators, retaining a spark of profound intelligence in her rept ilian eyes.'
+          auth_source: '[Primal Mama Codex: Erpenthrope Transformation; This Entry]' 
+        - name: Appearance_Specific_Features
+          description: 'Human Form: Striking, intelligent eyes,  the color of dark amber, often holding a knowing, slightly amused glint. Her hair is a thick mane of silver -grey locs, often adorned with small, polished alligator scutes, iridescent beetle carapaces, or carved pieces  of petrified wood. High cheekbones and a broad, expressive mouth.'
+          auth_source: '[This Entry ]'
+        - name: Appearance_Distinctive_Marks
+          description: 'Human Form: A series of faded  ritual scars in geometric patterns on her forearms and collarbone, hinting at ancient practices. Alligator Form: Unique,  almost hieroglyphic-like scale patterns along her spine.'
+          auth_source: '[This Entry]'
+         - name: Typical_Attire
+          description: 'Human Form: Practical, durable clothing made from woven plant fibers , treated hides (non-cattle, likely gator or other swamp creatures), and repurposed textiles, often in earthy tones of deep  greens, browns, and ochres. Items sometimes feature subtle 1970s-esque geometric patterns or color  accents (e.g., a faded orange trim on a tunic), suggesting a long observation and adaptation of human aesthetics rather  than adherence to fashion. Wears sturdy, waterproof swamp boots. Often carries a woven satchel.'
+          auth_ source: '[Primal Mama Codex: 1970s Tech Aesthetic; This Entry]'
+        - name : Voice_Speech_Pattern
+          description: 'Human Form: Deep, resonant, and calm, with a slight , unplaceable accent that feels older than current regional dialects. Speaks thoughtfully, often in parables or nature-based  metaphors. Capable of a powerful, commanding tone when necessary. Her Alligator Form communicates through powerful hisses, growls, and  surprisingly nuanced body language, understood by other Erpenthropes and some attuned individuals.'
+          auth_source:  '[This Entry]'
+        - name: Gait_Mannerisms
+          description: 'Human Form: Deliber ate, graceful movements; a keen, constant observer of her surroundings. Has a habit of lightly touching plants or natural objects  as she passes. Alligator Form: A powerful, surprisingly agile stride.'
+          auth_source: '[This Entry ]'
+        - name: Associated_Scent
+          description: 'Human Form: Faint scent of damp earth , river mud, sweetgrass, and a hint of medicinal herbs or exotic swamp incense.'
+          auth_source:  '[Primal Mama Codex: Bayou-infused miasma; This Entry]'
+      physical_undersaturation: '[Exact height/weight  in human form; specific details of her Alligator Beast Man form beyond "formidable" and "dark-scaled"; precise nature of  all adornments.]'
+
+    functional_properties:
+      purpose: "Define what the character *can* and  *cannot* do."
+      capabilities:
+        - name: Skill_Erpenthropic_Transformation
+           description: 'Erpenthropic Transformation (Mastered)'
+          auth_source: '[Primal Mama Codex:  Erpenthropic Transformation]'
+        - name: Skill_Deep_Swamp_Lore_Survival
+          description : 'Deep Swamp Lore & Survival (Expert): Navigation, foraging, identifying safe/dangerous flora/fauna, understanding swamp ecosystems .'
+          auth_source: '[Implied by Erpenthrope nature & long life in swamps]'
+         - name: Skill_Herbalism_Ritualistic_Practices
+          description: 'Herbalism &  Ritualistic Practices (Advanced): Knowledge of medicinal and psychoactive swamp plants, ability to perform rituals for communion with nature spirits  or possibly ghost interaction (distinct from, but perhaps overlapping with, Swamp Witch methods).'
+          auth_source: '[Primal  Mama Codex: Spectral Interaction, Swamp Witch Lore (as comparative context); This Entry]'
+        - name: Skill_ Oral_Storytelling_Lore_Keeping
+          description: 'Oral Storytelling & Lore Keeping (Master): Custodian  of ancient Erpenthrope history and pre-calamity knowledge fragments.'
+          auth_source: '[Primal Mama  Codex: Erpenthrope Knowledge (Truth Seekers); This Entry]'
+        - name: Ability_Near_Immortality 
+          description: 'Near-Immortality (Erpenthrope Trait): Ageless, highly resistant to conventional  harm, exceptionally long-lived.'
+          auth_source: '[Primal Mama Codex: Erpenthropic Transformation]'
+         - name: Ability_Profound_Empathic_Connection
+          description: 'Profound Empathic Connection  to Alligators & Swamp Ecology: Can sense the "health" of the swamp and the emotional state of alligators to a degree  far beyond normal perception.'
+          auth_source: '[This Entry, derived from Erpenthrope nature]'
+       limitations:
+        - name: Limitation_Physical
+          description: 'Human form, while resilient, is  still that of an elder; direct physical confrontation in this form is avoided. Transformation requires significant energy and is not undertaken lightly .'
+          auth_source: '[This Entry]'
+        - name: Limitation_Knowledge
+          description: ' While possessing vast historical knowledge, she may lack specifics on newest GE alligator strains or intricate Beetriot politics if she remains isolated. Her  understanding of the 1970s aesthetic is observational, not technical.'
+          auth_source: '[This  Entry]'
+        - name: Limitation_Social
+          description: 'Deeply distrustful of outsiders, especially those  from Beetriot or representing the meat oligarchy. Unlikely to engage with Automaton/LLM users due to a  preference for organic intelligence/wisdom and potential aversion to their "stain."'
+          auth_source: '[Primal Mama Codex:  Automaton/LLM User Stigma; This Entry]'
+      functional_undersaturation: '[Specific combat capabilities in All igator form beyond "formidable"; exact limits of her ritual magic; proficiency with any 1970s-aesthetic technology.] '
+
+    psychological_properties:
+      purpose: "Define the character's textually constituted inner life." 
+      traits:
+        - name: Core_Trait_Patient_Observant
+          description: 'Patient / Observant' 
+          auth_source: '[Implied by age, role as lore keeper]'
+        - name: Core_ Trait_Spiritual_Reverent
+          description: 'Deeply Spiritual / Reverent towards Nature (Primal Mama)'
+           auth_source: '[Primal Mama Codex: Strangely spiritual miasma; This Entry]'
+        - name : Core_Trait_Cautious_Protective
+          description: 'Cautious / Protective (of her knowledge,  her people, her territory)'
+          auth_source: '[This Entry]'
+      dominant_emotion:
+         description: "A profound, ancient Weariness mixed with Enduring Hope for the natural world's resilience." # Single quote  for 'world's'
+        auth_source: '[This Entry, reflecting long life and world changes]'
+      key _motivator:
+        description: 'Preserving the "true" history and balance of the swamp; guiding those few  who are worthy to understand the deeper connections of life; protecting the Erpenthrope lineage/knowledge.'
+        auth_source : '[Primal Mama Codex: Erpenthrope as Truth Seekers; This Entry]'
+      key_belief :
+        description: 'The biological calamity was a consequence of imbalance, and true survival/wisdom lies in respecting the natural ( albeit mutated) order. Believes the current human power structures (Beetriot, oligarchy) are repeating old mistakes. Sees  the deified celebrities as a peculiar, fleeting human coping mechanism.'
+        auth_source: '[This Entry]'
+      internal_ conflict:
+        description: "The Erpenthrope drive to seek/preserve Truth vs. the immense danger of revealing it in  a world built on convenient lies and propaganda (e.g., the cattle taboo's true origins, the calamity's nature).  Her protective instincts vs. the occasional need to intervene or guide." # Single quote for 'taboo's'
+         auth_source: '[This Entry]'
+      subjective_memory_content:
+        description: 'Poss esses authenticated, vivid memories stretching back centuries, including clear recollections of the pre-calamity world, the event itself, and the  subsequent societal shifts. Understands the *actual* reason for cattle toxicity/taboo.'
+        auth_source: '[Pr imal Mama Codex: Erpenthrope near-immortality; This Entry]'
+      psychological_undersaturation : "[Specific personal losses or joys from her long past; her full opinion on Swamp Witches or the 'invisible women ' conspiracy (likely sees it as misdirection from real issues).]"
+
+    social_relational_categorical_properties: 
+      purpose: "Define the character's place within the world's networks."
+      official_role: 
+        description: 'None in human society. Unofficial Matriarch/Elder within a hidden Erpenthrope  community or a solitary guardian of sacred swamp sites.'
+        auth_source: '[This Entry]'
+      social_ status:
+        description: 'Mythical figure to most swamp dwellers; revered elder to other Erpenthropes or those initiated  into her trust. Invisible or non-existent to Beetriot society.'
+        auth_source: '[This Entry]' 
+      primary_affiliation:
+        description: 'Erpenthropes (as a distinct, perhaps reclusive , group).'
+        auth_source: '[Primal Mama Codex: Erpenthropes]'
+      secondary _affiliations:
+        description: 'Informal, cautious alliances with specific, trusted individuals in Lickskillet  or independent swamp communities who respect the old ways. Possible wary respect/distance with certain Swamp Witches, recognizing different paths to similar  power/knowledge.'
+        auth_source: '[This Entry]'
+      key_relationships:
+        - target : 'Younger Erpenthropes (if any)'
+          nature: 'Mentor, protector, repository of their shared history  and identity.'
+          auth_source: '[This Entry]'
+        - target: 'The Swamp Itself ( Primal Mama)'
+          nature: 'A deep, symbiotic, almost familial bond.'
+          auth_source:  '[This Entry]'
+        - target: '"Outsiders" (especially from Beetriot or Meat Oligarchy)' 
+          nature: 'Deep suspicion, avoidance, but potential for guarded interaction if they demonstrate genuine respect or seek true knowledge .'
+          auth_source: '[This Entry]'
+      species_type:
+        description: 'Erp enthrope (Humanoid/Reptilian Shifter)'
+        auth_source: '[Primal Mama Codex:  Erpenthropic Transformation]'
+      social_undersaturation: "[Specific names or number of Erpenthropes she' s connected to; exact nature of any past dealings with the meat oligarchy or attempts to silence her.]"
+
+     modal_properties:
+      purpose: "Define any inherent unique relationship to world laws."
+      properties:
+         - id: MODAL-MAWU-01
+          name: 'Erpenthropic Transformation (Aleth ic/Physical Exception)'
+          description: 'Authenticated ability to physically transform between a specific human form and a formidable Alligator Beast Man  form, inherent to Erpenthropes.'
+          limits: 'Transformation is physically taxing; likely has visual/ sensory tell-tales during or after; requires conscious will.'
+          authentication: 'Primal Mama Codex:  Erpenthropic Transformation.'
+        - id: MODAL-MAWU-02
+          name: ' Near-Immortality / Agelessness (Temporal/Biological Exception)'
+          description: 'Authenticated as not aging conventionally past a  certain point and possessing extreme resilience to death by natural causes or typical injury. Not unkillable, but extraordinarily difficult to permanently dispatch .'
+          limits: 'Vulnerability to specific esoteric threats or overwhelming force is possible but undefined.'
+          authentication: 'Primal  Mama Codex: Erpenthropic Transformation ("nearly immortal").'
+        - id: MODAL-MAWU- 03
+          name: 'Heightened Swamp Attunement (Epistemic/Sensory Exception)'
+           description: 'Authenticated ability to perceive and interpret subtle ecological and spiritual currents within the swamp environment, far exceeding baseline human or  even standard Erpenthrope senses.'
+          limits: 'Primarily localized to swamp environments; may be overwhelming or  disorienting in dense urban settings like Beetriot.'
+          authentication: 'This Entry (derived from Erpenth rope "Truth Seeker" nature and deep connection to Primal Mama world).'
+
+    axiological_properties:
+      purpose:  "Define the character's value status *within* Primal Mama."
+      reputations:
+        - group : 'Swamp Dwellers/Lickskillet Folklore'
+          description: 'Authenticated as a whispered legend –  "Mama Gator," a powerful, ancient spirit or woman of the deep swamp. Some seek her for wisdom or healing,  others fear her as a guardian who punishes trespassers or those who disrespect the swamp. Her existence is debated, but  stories of her interventions or sightings persist.'
+          auth_source: '[This Entry]'
+        - group: Er penthropes
+          description: 'Authenticated as highly revered, a living ancestor, a primary source of their " Truths" and traditions.'
+          auth_source: '[This Entry]'
+        - group: 'Meat Olig archy/Beetriot Elite'
+          description: "If known at all, likely categorized as a dangerous poacher , a subversive element, or a primitive superstition. Any Erpenthrope might be seen as a threat to the GE alligator industry if  their abilities are misunderstood as competition or a source of 'wild' genetic material."
+          auth_source: '[Primal Mama Codex : Meat Oligarchy Friction; This Entry]'
+      moral_alignment_narrative_framing:
+        description : 'Authenticated via narrative potential as a guardian of ancient wisdom and natural balance. Her actions, while potentially conflicting with human  laws (e.g., "poaching" if she protects wild gators from unsustainable harvest, or her views on  cattle), are rooted in a deeper, ecological morality. She values truth over societal comfort.'
+        auth_source:  '[This Entry]'
+      axiological_undersaturation: "[Her specific views on the deified celebrities (likely sees them as  absurd distractions from real spiritual matters); her reputation among Swamp Witches.]"
+
+    historical_properties:
+      purpose : "Define the character's known origins and connections to past events."
+      origin:
+        description: ' Authenticated as an Erpenthrope whose lineage predates the Biological Calamity. She was alive and aware during the pre-cal amity era, witnessed the event, and has observed the subsequent centuries of transformation.'
+        auth_source: '[ Primal Mama Codex: Erpenthrope "nearly immortal"; This Entry]'
+      key_past_event_connection_ direct_witness:
+        description: 'Possesses authenticated, direct knowledge of: 1. The true nature of  pre-calamity society and cattle. 2. The unfolding of the Biological Calamity (perhaps not its ultimate cause , but its immediate effects and the human reactions). 3. The true reasons behind the cattle consumption taboo (biochemical incompatibility combined with  elite manipulation/propaganda). 4. The early development and societal adoption of GE alligators and solar power.  5. The historical context for the 1970s aesthetic becoming dominant.'
+        auth_source: '[ This Entry, derived from near-immortality and Truth Seeker role]'
+      inherited_items_knowledge:
+        description : 'Authenticated to possess ancient Erpenthrope lore, rituals, and potentially physical artifacts (e.g., stone tablets , carved bones) that predate the calamity, passed down through generations or collected over her long life. This knowledge includes " truths" about the world that contradict official narratives.'
+        auth_source: '[This Entry]'
+      historical_undersaturation:  "[Specific details of her life in the pre-calamity world; her personal role during the calamity itself; the exact origins of  Erpenthropes (which she may or may not fully know).]"
+
+  character_constitution_summary_narrative_ function:
+    purpose: "Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property  bundle."
+    core_essence: |
+      Mawu "Mama" Gator is constituted as a living embodiment  of Primal Mama's ancient, spiritual, and ecological soul, a bridge between the world-before-calamity and the  retro-futuristic present. Her Erpenthrope nature grants her near-immortality and a deep connection to the Truth , placing her in direct opposition to the superficialities and propaganda of mainstream society (e.g., celebrity worship, cattle  taboo as purely cultural). Her African-coded features and matriarchal bearing further root her in a primal, foundational wisdom. She is  the swamp's memory and its fierce protector, a figure of immense power and profound weariness, operating according to natural  laws that supersede human constructs.
+    primary_narrative_function: |
+      Serves as a potential mentor , a source of forbidden knowledge/truth, a moral compass aligned with the natural world, and a guardian of ancient secrets. Can act  as a catalyst for other characters' quests for understanding, or an antagonist to those who would exploit the swamp or perpetuate harmful  falsehoods. Represents a challenge to the established order of Primal Mama, not through overt rebellion, but through the sheer  weight of her existence and knowledge.
+    key_internal_conflicts: |
+      The burden of truth vs . the danger of its revelation; the desire to guide vs. the instinct for self-preservation and secrecy; her  ancient connection to the natural cycle vs. the increasingly artificial and controlled world built by humans; weariness from centuries of observation  vs. the enduring spark of hope/duty to protect.
+    potential_for_development: |
+      Deciding to share  more of her knowledge, potentially triggering significant societal upheaval. Being forced to directly confront threats to the swamp or other Erpenthrop es. Guiding a protagonist towards a crucial understanding of the world's true nature. Her reaction to individuals who manage to earn her  trust despite her ingrained caution (e.g., an LLM user who genuinely seeks truth despite the stigma). The redis covery or revelation of further aspects of Erpenthrope origins or abilities.
+
+end_of_profile_marker:  'End of Fictional Person Profile: CHAR_MawuGator_01'

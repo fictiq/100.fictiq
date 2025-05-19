@@ -1,0 +1,61 @@
+Master Craftsmen
+We've got the tools Fergus wants, so fast-travel back to Crow's Perch. This could very well be the first time we've been back since completing the quest "Return to Crookback Bog." If so, once you cross the bridge to town head west to find some of the Baron's thugs-or rather, the Baron's Sergeant's thugs-picking on some villagers. Stand up for them and kill the two (level eight) to earn a bit of gratitude.
+
+Objective	Reward
+For defending the peasants	XP Varies
+Master Armorer (level 24) - Continued
+Make your way up to Fergus, presenting to him the "High-Quality Smithing Tools" we found back in Skellige. A Nilfgaardian general will show up and complicate things, and while Fergus is away, his assistant will tell you how things really stand, and as you to get her some acid. A beast from which we can obtain such acid just happens to be preying on folk nearby. Agree to get the acid... because... well, a little detour wouldn't hurt in the long run. Especially if it allows us to craft top-tier armor.
+
+Note: The Archgriffin terrorizing the north is part of the quest "Contract: The Griffin From the Highlands." Might as well grab the notice from the notice board with a name similar to the quest name, so you get get extra rewards.
+
+Contract: Griffin From the Highlands (level 24)
+Return to the "Crow's Perch" signpost and fast-travel to Heatherton, from which you should head east along the road. When you find a search area, activate your Witcher Senses, then follow a blood trail uphill to the north. Search a feather on the ground to make another search area appear. Apply some Hybrid Oil to your Silver Sword, then continue north to provoke the Archgriffin (level twenty-six), which fights like a typical Griffin... save it can spit acid. It does quite a bit of damage, but you should do plenty in return. Use Quen for protection, and consider a Thunderbolt Potion to boost your damage output and you should win a slug-fest. When it dies, loot it for an Archgriffin Mutagen, an Archgriffin Trophy and an Archgriffin Acid Gland.
+
+Make your way back to Crow's Perch and present the Archgriffin Acid Gland to Yoana so she can win her little pissing contest with Fergus and gain the recognition she deserves. Give her the acid and... well, her earlier appraisal of Fergus' skills weren't too far off. Unfortunately the Nilfgaardian again decides to test things out in a rather cruel manner. Agree to help Yoana in this life ballistics test, which is carried out in a predictable fashion. Afterwards, the Nilfgaardian will give Yoana and Fergus both what they deserve, and the two patch things up.
+
+Objective	Reward
+For testing out Yoana's armor	Diagram: Mag Deira Cuirass
+Take the Archgriffin Trophy to the Quartermaster to complete "Contract: Griffin From the Highlands." Once done, rest for one day, then talk to Yoana again to get the armor you were promised, which happens to be a decent suit of medium armor. Even better, it's static. The Witch Hunter's Armor you'll get has 166 Armor, 30% resistance to piercing, bludgeoning and slashing damage, and 10% resistance to monster damage and elemental damage, which... well, puts it around the level of a Superior Witcher armor set. Not the best armor in the game, but most importantly, Yoana can now serve as a master-quality craftswoman to make all that delicious armor. She'll also play Gwent with you now, for what that's worth.
+
+Objective	Reward
+For slaying the Archgriffin	25 Crowns
+Tracker's Trousers
+For appeasing the master armorer	Witch Hunter's Armor
+Of Swords and Dumplings (level 24)
+It doesn't make much sense to obtain the services of the master armorer without also getting access to a blacksmith of similar quality. Time to finally help out Hattori in Novigrad. If you forgot, he lives near the center of the docks district, east of the Eternal Fire Shrine where we met Triss during "Count Reuven's Treasure" and west of where the King of Beggars holds court.
+
+Talk to the odd elf and he'll tell you his woes. Despite his obvious talents he's been forced out of business by a more ruthless rival willing to play the racist card. All of Novigrad seems to have that one in their decks... anyways, at length he'll ask you to escort him to a clandestine meeting where he might acquire the materials to forge again.
+
+Haggling for Hattori
+Agree to help him, then head west to reach the northern crescent of the docks district. East of the "Novigrad Docks" signpost you'll find a warehouse, outside of which you should rest until midnight. Once you're in the right place and it's night, follow Hattori south around the warehouse and through a door to meet the King of Beggar's thugs. Negotiate with them and play a hard-ass, and when they walk away you'll get a timed decision. Say "Fine, no deal." to secure your demands and a fine share for Hattori. Sadly, these successful and lucrative negotiations are broken up by Cleaver's men. Kill the dwarven thugs (level twenty-three) then flee through a door to the east with Hattori. Head north under an arch and the King of Beggar's thugs will tell you the score. Sadly, Hattori loses his nerve and bolts.
+
+Objective	Reward
+For negotiating on Hattori's behalf	XP Varies
+20 Crowns
+Hiring for Hattori
+Return to Hattori's shop and knock on the door to have a conversation with the flighty elf, who will beg you to aid him further. Only one thing can resolve this issue, now that Cleaver's likely not too happy with Hattori, and the King of Beggars will expect something to come of this deal-Hattori needs a bodyguard. Fortunately, he has one in mind.
+
+Head to the Golden Sturgeon to find our prospective bodyguard engaged in some fisticuffs. After you interrupt him, Sukrus will take his wrath out on you-pummel him (level twenty-five) into submission and, like any good Skelliger, a little fight only improved his disposition. Later, over a cup of mead, tell him about the job and he'll propose a favor for a favor... of course. Agree to help him and he'll tell you your destination-and the details of what he wants done.
+
+Leave the tavern and head north along the coast, turning south onto a large dock when you get the opportunity. Follow the dock south-east to nearly the end, then board a ship to the north. Either Aard some barrels on the deck of the ship and fight off some Bandits (level twenty-three) or talk to the Trader on board and hit him with the Axii Sign.
+
+Objective	Reward
+For using the Axii Sign on the Trader	40 XP
+Return to Sukrus at the Golden Sturgeon and tell him the good news, then return to Hattori... but it seems like we're not done yet. Hattori has muscle and means, but he still need more material.
+
+Objective	Reward
+For convincing Sukrus to help Hattori	XP Varies
+10 Crowns
+For talking to a now-protected Hattori	XP Varies
+10 Crowns
+Borrowing from van Hoorn
+Go talk to Sukrus and tell him about the new task, then head to a meeting spot near the Golden Sturgeon-just beyond the bridge that connects the western end of the docks district to the central district. Rest until midnight again if you must, then talk to Sukrus again and he and Geralt will discuss plans.
+
+Head north-west along the coast to find the warehouse you're looking for. The Trader you assaulted earlier will be outside complaining to the guard outside. The guard, however, has no patience for him, however, and sends him off. You get a warm welcome from the dwarf, being a friend of a friend and all (or at least, you will if said you sided with Ioverth during your interrogation by Voorhis at the beginning of the game). If that's the case, he'll let you in the warehouse for free. If not, bribe him (200 Crowns) or use the Axii Sign on him to get past.
+
+Objective	Reward
+For using the Axii Sign on the guard	40 XP
+Unlock and enter the warehouse, then activate your Witcher Senses to sniff out (literally) the crates you need to mark for Sukrus and his crew. The crates in question are along the north-western wall and in the corners along the north-eastern end of the warehouse. When the three crates are marked, leave the warehouse to find you've got some company. Witness a surprising scene of brotherly comradarie, make a pointless timed dialogue decision, then fight off van Hoorn and his goons (level twenty-three). Well. If we had just done this from the start, we wouldn't have needed to have done all the other work for Hattori. Violence tends to solve things like that. Return to Hattori to find him working again. He'll give you the reward he promised-just rest a day and talk to him again to claim it. Best of all, we can now get him to craft master-quality weapons for us, which will definitely come in handy later. Be sure to purchase "Edwin Greloff's Fourth Map" from him, as it'll show you to way to the best Griffin gear in the game.
+
+Objective	Reward
+For allowing Hattori to return to his forge	Blade from the Bits

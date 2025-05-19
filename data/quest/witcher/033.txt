@@ -1,0 +1,59 @@
+In and Around Oxenfurt
+Diagram: Enhanced Feline Silver Sword
+Fast-travel to the "Oxenfurt Gate" signpost and cross the bridge back to Novigrad. From the gate head south-west and climb up a stone ledge and continue past some small barrent trees and a green bush to find a ladder hiding behind the latter. Scale the ladder and head into a house, climb some stairs and search a chest along the southern wall to find the Diagram: Enhanced Feline Silver Sword. Only two more pieces of Enhanced gear left to get... If you can make either of the Cat swords, and doing so would benefit you, consider doing so now.
+
+Note: Although we're crafting new gear, you shouldn't necessarily break down your old gear. Higher level Witcher gear diagrams require you to have the gear created by earlier diagrams to create them, and constantly breaking down and rebuilding swords and armor is wasteful. If you can bear the weight, consider keeping old Witcher sets in your inventory until it's time to upgrade them again.
+
+Now it's time for a long, boring trek. Fast-travel to the "Herbalist's Hut" signpost (east of Oxenfurt) and follow the road south-west until it reaches the river, and consequentially, a bunch of other roads running south-east. You goal is to follow the coastal road south through the countryside. Along the way you'll spot a house east of the road, where a Peasant awaits for a wandering Witcher to offer aid. He claims some "Woodland Spook" stole his horse. Agree to help him to start the quest "Spooked Mare."
+
+Spooked Mare (level 12)
+Activate your Witcher Senses to find some hoof prints on the road leading south-east. Follow them and they'll veer into the wilderness to the east, then terminate at a pond, albeit temporarily. Cross the pond and continue following the tracks to the south-east until you come to a Scoia'tael camp. Tell the Squirrel who talks to you that you're taking the horse back and he'll threaten violence. Either pick a fight, pay 100 Crowns for the horse, or use the Axii Sign to get the mare back. Or, of course, you can just let the Scoia'tael keep the horse, but all this does is willingly fail the quest. Once you have the horse (mount the gray one) ride the horse back to the enclosure near its owner's house, dismount, and talk to the peasant to claim your meager reward.
+
+Objective	Reward
+For using Axii on the Scoia'tael	40 XP
+For killing the Scoia'tael	XP Varies
+For finding the mare	XP Varies
+For bringing the mare back to its owner	XP Varies
+20 Crowns
+Note: If you enter the horse enclosure, the Scoia'tael will attack you without talking, first.
+
+Bandit Camp (level 9)
+Continue following the road south-east until you find the "Crossroads" signpost. Another one, anyways. We're a bit past our goal now, but why not find the signpost? From here continue south-east to find a Bandit Camp. Kill the Bandits, then loot the chests they were guarding. One is on the ground near a wagon, and another is in the back of a wagon.
+
+Person(s) in Distress (level 9)
+Backtrack north-west, past the "Crossroads" signpost and take a fork running more east than the road we took to reach the "Crossroads" signpost. Follow it and it'll turn north-east shortly, and eventually split into a road running to the south-east, and another to the north-east. Go south-east until you find a "Person(s) in Distress" event. Kill several Bandits (level nine) and loot the Bandit Leader for a "Simple Cage Key," then free the Scoia'tael merchant, who will head back to his camp, which is along the road a ways to the south. Once done, loot the chests nearby, then grab the "Bandit's Notes" on a bench.
+
+Objective	Reward
+For freeing the Scoia'tael Merchant	150 XP
+Aeramas' Abandoned Manor
+Diagram: Enhanced Feline Armor
+Backtrack north to the fork and follow the north-eastern path. When the road forks again, continue north-east, and when it forks a third time, head south-east to find the "Aeramas' Abandoned Manor" signpost. Continue south-east to reach the manor grounds, then head over to the ruined manor, itself. This starts the quest "Of Dairy and Darkness", which we'll ignore for now. Instead, head up two flights of stairs (one wooden, one stone) to find what once was an enclosed room, still littered with furniture and now missing its roof. And walls. And much of the floor. Anyways, search by a bookshelf to the north to find chest, which contains the Diagram: Enhanced Feline Armor.
+
+Of Dairy and Darkness (level 9) - Continued
+If you didn't talk to the Merchant in Novigrad, the quest "Of Dairy and Darkness" will start, and you'll be directed to talk to the merchant there... hence why we started this quest earlier. You should already have the "Lizard Figure" and "Jade Figurine" however, so let's get to it. Use your Witcher Senses to investigate a magic circle. Activate it to get a portal to pop up (if you have the aforementioned artifacts in your possession) and head inside.
+
+The Trial of the Cheeses
+Inside, you'll discover that the mage who used to live here was... a tyromancer. What's a tyromancer? Well, let's look it up. Hmm... according to Occultopedia, it is "the art and practice of divining the past, the present, and the future by interpreting omens found in cheese". He was a cheese mage. The quest name makes sense now, doesn't it? Below us to the east is a collection of his cheeses, some of them so toxic they'll cause Geralt to run out of breath rapidly. The goal is simple-clear the maze by sticking to the good cheese (or less bad cheese, as the case may be) and avoiding the bad. You can tell the good cheese from the bad by the (admittedly hard to see) clouds that surround the bad cheese. Simply run towards cheese, and if your breath meter shows up, run back to the good cheese and pick another direction... or you can just run throught it. There are enough areas of reprieve to survive. You start out along the western edge of the level, and your goal is to climb onto a ledge to the south-east. Once on the ledge head up some stairs (and a wooden ramp) until you find a doorway to the east.
+
+Objective	Reward
+For surviving the trial of the cheeses	XP Varies
+The Flooded Dungeon
+Continue through the doorway and interact with a portal to start it up, then head on through to reach another part of the dungeon-this one being flooded. Continue down some stairs, then down a rock ramp to reach the water. From here you can swim south, then east (never having to dive) to reach a chamber to the east surrounded by unscalable, taunting ledges. There's a chest along the southern edge of this chamber, but otherwise, there's little to recommend it.
+
+Instead swim north from where you first reach the water and dive until you reach a chamber where you can surface. Do so and swim to the east to find shallow water near a scalable ledge. Climb up some ledges and continue south-east, then east until you find another ledge to climb. Climb it, then continue south-east to find a ledge you can jump across (or you can be a sissy and drop down some ledges to the north-east, then, while on lower-ground head south to find some more ledges to climb).
+
+On the other side you'll find a Foglet (level eight) prowling a laboratory. Kill it and search around. to the south-west you'll find-on a table-a "Bull Figurine" and "Aeramas' Notes." Continue west to find some rocks you can dispel with the Eye of Neheleri, beyond which you'll find some containers you can loot. North of the rocks you can dispel is another chamber, which you can activate and pass through.
+
+Objective	Reward
+For passing through the flooded dungeon	XP Varies
+The Emmentaler
+To the south-west you'll spot a large, angry, red magic barrier that stands between you and lootage. Head south to find some more rocks that can be dispelled with the Eye of Neheleri, then blast the pyramid-on-the-pedestal. Another one lies along the wall to the north, but this one is unburdened by illusions. Once both have tasted some Igni, the barrier will fall. Head up some stairs and grab a "Snake Figurine" from a chest, and take the sword from near the statue... which Geralt dubs "The Emmentaler."
+
+...Yes. The Emmentaler is named after cheese. From Wikipedia: "Emmentaler or Emmental is a yellow, medium-hard cheese that originated in the area around Emmental, in Switzerland. It is one of the cheeses of Switzerland, and is sometimes known as Swiss cheese." Oh Geralt... why?
+
+Anyways, head up some stairs near the statue to the south-west to find another portal, which will take you out of this cheesy dungeon.
+
+Objective	Reward
+For claiming the Swiss cheese sword, Emmentaler	XP Varies
+Guarded Treasure (level 20)
+There's one more thing we can do east of Oxenfurt right now, and we might as well get it out of the way, right? Head south-west from the "Aeramas' Abandoned Manor" signpost and into the woods, dispatching whatever stupid Wolves (level five) and Wargs (level eight) pester you along the way. Eventually you'll come across a "Guarded Treasure" event, where a Leshen (level twenty) stands in front of a chest on some high ground. Kill the Leshen-and perhaps the Wolves (level twenty-two) that it summons and loot the chest. Inside is the Steel Sword Lune. If you can handle this, you'll be find to tackle whatever quests await in Benek. Speaking of which...

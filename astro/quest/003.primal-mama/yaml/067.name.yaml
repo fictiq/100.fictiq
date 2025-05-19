@@ -1,0 +1,121 @@
+
+pr imal_mama_quest:
+  title: "Scavenger Hunt: Bayou Baron's Backup Gear"
+  equivalent _rank: "Technician Rank 17 Equivalent"
+  meta:
+    world: "Primal Mama" 
+    codex_version: "0.1 (Coherence Protocol)"
+    quest_giver: "Self-motivated ( rumors, old data-slate fragments)"
+    location: "The Underside of Beetriot's \" Burt Reynolds Memorial Dam & Celestial Observatory\""
+  prerequisites:
+    assumed_schematics:
+       - "Schematic: Reinforced Gator-Hide Grips"
+      - "Schematic: Padded Gator-Hide Waders "
+      - "Schematic: Superior Solar-Charged Prod (Anti-Spectral/Erpenthrope)"
+      -  "Schematic: Basic 'Gator-Wrangler' Electro-Machete"
+      - "Sche matic: Enhanced 'Gator-Wrangler' Electro-Machete"
+      - "Schematic:  Basic Solar-Charged Prod (Anti-Spectral/Erpenthrope)"
+  introduction: >
+    We're probably pushing  Technician Rank Twenty, or soon will be.
+    Those custom-modded Enhanced 'Gator-Wrangler'  Electro-Machetes have zapped plenty of rogue bio-forms,
+    but we'll need something with more reliable  stopping power, soon.
+    Word on the under-channels is that blueprints for an "Enhanced Solar-Charged Prod"
+     might just be the ticket for dealing with… *unusual* entities.
+    The associated "Insulated Gator-Hide  Rig" is also said to be top-tier protective wear
+    for navigating hazardous bio-zones… once you get all the components  synthesized, anyways.
+    This data-retrieval op will cover getting those schematics…
+    and maybe uncovering  a few forgotten truths along the way.
+  main_hunt_title: "Scavenger Hunt: Bayou Baron's  Backup Gear"
+  steps:
+    - step_id: 1
+      name: "Accessing the Ancient  Drainage Culvert"
+      fast_travel_point: "\"Celestial Plaza Terminus\" – Beetriot Dam Sector." 
+      directions:
+        - "From the monorail terminus, head west towards the Dam's main spill way observation deck."
+        - "Descend the rusted emergency stairs to the north (marked \"Sub-Level Access  7\")."
+        - "At the bottom, turn west again, and duck under the massive, algae -covered cooling pipes."
+        - "Go down another flight of equally treacherous stairs immediately after the primary hydro-turbine  housing ends."
+        - "Continue west along the narrow, damp service walkway until you find a grated ramp angling down to  the north, into what looks like an old overflow channel."
+        - "When the ramp ends, carefully navigate down some  crumbling concrete steps to the south, heading downhill along the stained plasteel walls of forgotten generator substations."
+        - " When the substation structures give way to raw, damp earth and exposed bedrock, turn south-west."
+        - "Skirt  around the western side of a cluster of humming, moss-covered transformer units (best not to touch those) to the north  until the path terminates at a precarious ledge overlooking a dark, water-filled cistern."
+        - "Carefully drop down onto  a narrow concrete lip."
+        - "From here, proceed north, then north-east, wading through knee-deep , murky water until you find the gaping maw of an unlit ancient drainage culvert – looks like it predates even the  1970s aesthetic overlay of the Dam."
+    - step_id: 2
+      name:  "Navigating the Culvert and Main Chamber"
+      location_description: "Inside the culvert. Air thick  with stale swamp water and ozone."
+      actions:
+        - description: "Venture south-east until you find a section  blocked by a shimmering, strangely solidified swamp gas or a Ghostly Veil."
+          tool_required: "Ritualistically  Attuned Geode or specific incense blend."
+          outcome: "The 'wall' dissolves with a sigh."
+        - description : "Follow the linear, slime-coated tunnel to a vast, cavernous chamber."
+          environmental_effect: "Mob ility regulators engage, forcing slow movement (Unstable Containment Zone)."
+        - encounter:
+            enemy: "Mal functioning Sanitation Automaton (Class: Golem-Type, Threat Level 14)"
+            description: "H ulking, 1970s-style casing dented, trailing wires, optical sensors glow menacing orange."
+             tactic: "Dispatch it; Electro-Machete effective against exposed conduits."
+      chamber_description: "Echo es with dripping water and distant machinery hum."
+      paths_available:
+        - "A narrow, rubble- strewn Sluiceway to the South."
+        - "A crumbling Maintenance Tunnel to the North-East, entrance  partially blocked."
+        - "To the South-West, a heavy Blast Door (Jammed), manual override wheel rusted solid ."
+    - step_id: 3
+      name: "The Southern Sluiceway"
+       path_taken: "Southern Sluiceway"
+      actions:
+        - description: "Head down the  southern sluiceway. Spot a structurally compromised tunnel wall."
+          tool_required: "Portable Pneumatic Ram or  heavy implement."
+          outcome: "Punch through the crumbling ferrocrete."
+        - description: "Continue south-west down  a slope of broken pipes to a chest-deep flooded section."
+          loot_found:
+            item: "Submerged,  hermetically sealed 1970s-Style Footlocker"
+            location: "Murky depths of flooded  section."
+        - description: "Swim to the southern bank, climb a rickety metal ramp to a small,  circular processing chamber."
+          hazard: "Avoid patches of Bioluminescent Toxic Fungus (corrosive spores)."
+         - encounter:
+            enemy: "Restless Bayou Spirit (Threat Level 7)"
+            description: "Sh immering, translucent figure, vaguely resembling a pre-Calamity worker."
+            tactic: "Solar-Charged Prod effective ."
+        - loot_found:
+            item: "Data-chip labeled: \"Work Order #734: Sanitation  Automaton Deployment\""
+            location: "Rusted locker along the southern end of the chamber."
+    - step_ id: 4
+      name: "The North-Eastern Maintenance Tunnel"
+      path_taken: "North -Eastern Maintenance Tunnel (after backtracking to main chamber)"
+      directions:
+        - "Head down the north-eastern maintenance  tunnel. It shortly turns south-east, then south."
+        - "Scale some ledges made of exposed rebar and  shattered concrete."
+        - "Continue south, then turn east and head through a corroded doorway."
+      inscription_found :
+        text: "\"THE FLOW REVEALS; THE STAGNATION CONCEALS.\""
+        location : "Etched into a slime-covered plasteel panel."
+      location_reached: "Ruins of an old Hydro -Pumping Control Station."
+      effigies_present: "Large, bronze-cast Effigies of the  Deified Trio (Burt Reynolds, Jerry Reed, Gram Parsons) on rotary pedestals."
+      encounter:
+        enemy:  "Restless Bayou Spirit (Threat Level 7)"
+        description: "Perhaps the former station chief."
+      loot _found:
+        - item: "Water-damaged data-slate: \"Field Notes: Unscheduled Bio-Signatures  (Crawfish Anomalies)\""
+          location: "North-western ring of ruined control consoles."
+        - item: " Data-slate: \"Partially Corrupted Schematic: \\\"Flavor Enhancer Unit\\\" (Experimental)\""
+           location: "South-west of the effigies, on a stack of decaying synth-wood crates."
+      lore _revealed: "Previous research on mutated crawfish/aquatic life, possibly linked to early GE runoff."
+      puzzle :
+        objective: "Rotate Deified Trio effigies to face the central, drained basin."
+        mechanism: " Chunky, 1970s-style Manual Levers connected to each effigy."
+        solution_ hint: "Most need two shoves; Gram's effigy might be correctly positioned."
+        outcome: "Fer rocrete floor in the central basin slides away, revealing a deep, dark Sub-Aquatic Access Well."
+       sub_aquatic_well:
+        description: "Dive in. Water is clear but frigid."
+        encounter: 
+          enemy: "Mutated Bayou Crawdads (Threat Level 10)"
+          quantity: 3
+          description : "Each the size of a small dog, claws snapping."
+          tactic: "Speargun or Electro-Mache te."
+        loot_found:
+          item: "Maintenance Shaft Access Keycard"
+          description: " Surprisingly pristine piece of 1970s mag-stripe plastic."
+          location: "Eastern wall of the well, amongst  tangled cables and silt."
+          purpose: "Should unlock the jammed blast door in the main chamber."
+  contin uation_note: "The Maintenance Shaft Access Keycard will presumably open the Jammed Blast Door, leading to the chamber  containing the primary schematics for the Enhanced Solar-Charged Prod and the Insulated Gator-Hide Rig."
+

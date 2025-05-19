@@ -1,0 +1,34 @@
+An Eye for an Eye and the Eyeless
+An Eye for an Eye (level 12)
+Speaking of Radovid, let's start a line of quests that might significantly impact his future-and that of the north. First, let's go see how his tentative ally, Vernon, is doing. Head to the "Temerian Partisan Hideout" and talk to Roche, who will reveal that Ves has a bit of an insubordination problem these days, and her impulsive patriotism might get her killed... that is, if a certain Witcher doesn't track Ves down and intervene, first.
+
+Fast-travel to the "Hanged Man's Tree" signpost and head south-east to find Vernon. After some chatter, you'll find that you're too late to stop Ves-but right on time to rescue her. Mount Roach and ride down to the village and kill the Nilfgaardians before Ves is slain-she can only take several hits, especially from pikemen that might be nearby. After the black ones are all dead, Vernon and Ves will squabble, and you'll have to decide whether to let a Nilfgaardian survivor live or not. Either way, the quest ends.
+
+Objective	Reward
+For saving Ves	XP Varies
+Redania's Most Wanted (level 12)
+Well... that was a short quest. Time to help Radovid. Fast-travel back to the "Temerian Partisan Hideout" then head east and slightly north to find "Est Taylar"-the signpost and the location. Head inside the elven ruins to find a group of Witch Hunters loitering around-activate your Witcher Senses and investigate the corpses near them, then talk to the Witch Hunters near said corpses. Glean what little information you can out of them, then collect the "Key to Phillipa Eilhart's Hideout."
+
+From the Witch Hunters head east down into a hole in the ground. Descend some ledges until you reach a small chamber, then turn south-east and blast a weak section of wall with Aard, beyond which you'll find a corpse with "Professor Sigismund Gloger's Notes" and the Diagram: Feline Silver Sword. This has already been a profitable little venture... Backtrack to the north-west, then continue in that direction to find a door shielded by a magic barrier. Along the north-eastern wall you'll find an alcove into which your key fits. Plant it and the barrier will fall. It might be in your best interests to chug a Cat potion here, as the place is pretty dark-although not prohibitively so.
+
+Objective	Reward
+For disabling the magic barrier	XP Varies
+Continue into the ruins until you find a portal-Geralt's favorite devices-and head through it. Investigate a feather on the floor to the south-east, then continue through a doorway, down a tunnel, and into an open chamber occupied by Nekkers (level nine). Hack through the pests as you head down some stairs until they terminate at an inactive portal. Search to the south-east with your Witcher Senses to find an inactive power cell, then blast it with Aard to open the portal up.
+
+On the side side of the portal you'll meet a stranded witch Hunter, who talks about some mysterious meeting of some of the world's most powerful sorceresses, and unwisely refuses to see the sense in leaving when Geralt suggests it. Either beat some sense into him, or use the Axii Sign to convince him to cooperate and obtain the "Power Cell," then loot the chests in the room to find a "Letter to Philippa" then head east until you find another inactive portal. Put the Power Cell in an alcove in the wall to the south and hit it with Aard to open portals leading back (to the west) and forward (to the east).
+
+Objective	Reward
+For using the Axii Sign on the Witch Hunter	40 XP
+Go through the portal to the east and, when you arrive, kill a trio of Nekkers (level nine). Loot a chest and investigate another feather on the ground, then head down a hole in the ground to the south. Drop down a few ledges and kill another trio of Nekkers (level nine) and grab a Power Cell off the ground. Climb back up into the room you teleported into, then continue through a doorway to the north-west to find yet another deactivated portal. Put the Power Cell in a slot to the north of the door, charge it with Aard, then go through the newly activated portal. This stuff almost writes itself.
+
+Objective	Reward
+For reaching the lowest level of Phillipa's Hideout	XP Varies
+Search around, as there are several chests you can claim-one to the south-east, one through a doorway to the north-west, and another behind the portal, which requires you to take some stairs north-west of the portal to wrap around behind it. Once the looting is done, head north-east into the large search area, where you'll be greeted by an elemental guardian-and Ifrit. These things sure have changed since the first game. It can be cut down pretty quickly, but it'll do continuous fire damage when it's near so, so... offense is the key. Aard can also extinguish it temporarily, so it's worth blasting it with Aard as you close in. Once it's dead loot the area-there's a chest to the north-then go through the doorway to the east.
+
+Go through a gate to reach Phillipa's quarters, as identified by Geralt. Search a chest to the north-west to find an Agate, which Geralt comments on, then pop on your Witcher Senses and look around. You'll find some disinfectant near a pillar to the north, some surgical instruments on a table further north, some burnt notes to the east, and finally a megascope to the south-east. From the megascope head west over some rubble to find a Polished Crystal near a pillar.
+
+Leave with the crystal in hand and, on your way out, you'll be confronted by the Witch Hunters, who want to know what you've found. If you do anything except give them the megascope crystal, they'll attack you. Either give them the crystal, kill the Witch Hunters (level ten) and take it to Radovid, or take it to Triss or Yennefer... which you can only do if "Now or Never" hasn't started or you've reached Skellige. All things considered, it might be better if you hold onto onto the gem to have one of your mage friends investigate it later. If you give it to Radovid you'll just get coin and ingratitude... if you want to give the crystal to Radovid, the reward is below, otherwise hold onto it until we start dealing with Triss again.
+
+Objective	Reward
+For giving the megascope crystal to Radovid	XP Varies
+135 Crowns

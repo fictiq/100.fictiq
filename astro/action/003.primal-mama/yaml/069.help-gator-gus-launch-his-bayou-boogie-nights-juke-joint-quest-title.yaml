@@ -1,0 +1,212 @@
+```yaml
+entity_functional _profile:
+  entity_id: 'CHAR_PC_Generic'
+  entity_name: 'Player Character' 
+  entity_type: 'Person'
+  context: 'Quest: Bayou Boogie Nights'
+  metadata:
+    world : 'Primal Mama'
+    codex_version: '0.1 (Implied Functional Definitions for PC)'
+     last_updated: '[Current Date]' # Update with actual date
+    lead_architects: '[Your Name /  Studio Name]' # Update with actual name/studio
+  primary_authentication_sources:
+    - 'QuestData _BayouBoogieNights.yaml'
+    - 'Codex_PrimalMama_v0.1 (Impl ied Core PC Capabilities: Combat, Dialogue, Investigation/Swamp Instincts, Skiff Operation, Resource Management)'
+     - 'Narrative Actions within this Quest'
+
+  functional_properties_bundle:
+    core_function_purpose:
+       primary_role:
+        description: "Act as the primary agent enabling \"Gator\" Gus's ambition to transform the Mud dy Mug into the \"Bayou Boogie Nights\" Juke Joint by overcoming a series of financial, logistical, personnel, and interference -based obstacles."
+        authentication: 'Quest Premise'
+      secondary_roles:
+        - role: 'Medi ator (between Gus/Jolene, PC/Cletus)'
+          authentication: 'Quest Steps'
+         - role: 'Investigator (locating individuals/items)'
+          authentication: 'Quest Steps'
+        - role:  'Combatant (vs. Goons, Cletus potentially)'
+          authentication: 'Quest Steps'
+         - role: 'Resource Manager (Solar Credits, Time)'
+          authentication: 'Quest Steps'
+        - role : 'Decision Maker (Decor, Debt Resolution)'
+          authentication: 'Quest Steps'
+
+    key_capabilities_ powers:
+      - capability_id: 'FUNC-PC-DIALOGUE'
+        name: 'Dialogue & Persuasion '
+        description: 'Ability to engage NPCs in conversation, gather information, persuade, intimidate, or deceive based on  dialogue choices and potentially underlying stats/skills.'
+        authentication: 'Used with Gus, Mama Roux, Magnolia (support role),  Cletus (potential path), Skeeter.'
+        limits_nuances: 'Success often dependent on timed choices, NPC  disposition, available information, potential skill checks (implicit). Cannot force outcomes against core NPC motivation without leverage.'
+      -  capability_id: 'FUNC-PC-COMBAT-FIST'
+        name: 'Fisticuffs /  Brawling'
+        description: 'Ability to engage in unarmed combat to subdue opponents.'
+        authentication: ' Required vs. Oligarchy Goons; Potential path vs. Cletus.'
+        limits_nuances: 'Non-le thal (implied); effectiveness depends on PC skill/stats vs. opponent.'
+      - capability_id: ' FUNC-PC-INVESTIGATE'
+        name: 'Swamp Instincts / Investigation'
+        description:  'Ability to perceive subtle clues in the environment, track individuals, find hidden objects (e.g., keys, entry  points). May be represented by specific mechanic (e.g., Witcher Senses equivalent).'
+        authentication: "Used to find Key  Fob near Cletus's shack (potential path); Used implicitly to locate Mama Roux, Skeeter's workshop,  Vegelbud Slew."
+        limits_nuances: 'Requires activation; range/effectiveness limits; may only highlight specific  quest-relevant items.'
+      - capability_id: 'FUNC-PC-TRAVEL-SKIFF'
+         name: 'Skiff Operation & Navigation'
+        description: 'Ability to pilot personal watercraft (skiff/ airboat) through bayou environments to reach quest locations.'
+        authentication: 'Required for travel between Lickskillet,  Deep Swamp, Beetriot Canals, Gator Race Slew.'
+        limits_nuances: 'Subject to travel  time; potentially hazardous environments; requires access to a skiff.'
+      - capability_id: 'FUNC-PC-RACING '
+        name: 'Gator/Airboat Racing Skill'
+        description: 'Ability to pilot a racing  vehicle effectively in a competitive event.'
+        authentication: "Required for alternative resolution path for Skeeter's debt."
+         limits_nuances: 'Requires succeeding at the race mini-game/mechanic.'
+      - capability_ id: 'FUNC-PC-INTERACT-OBJ'
+        name: 'Object Interaction'
+        description:  'Ability to pick up, use, or activate objects in the world.'
+        authentication: 'Retrieving Fetish, using Key  Fob, potentially interacting with comms panel.'
+        limits_nuances: 'Limited to interactable objects.' 
+
+    acquired_skills_expertise:
+      - skill_id: 'SKL-PC-SWAMP-LORE  (Implicit)'
+        name: 'Swamp Navigation & Etiquette'
+        proficiency_level: 'Assumed Competent.' 
+        authentication: 'Successful navigation to remote locations (Mama Roux, Skeeter); expected interaction protocols with Swamp Witches/locals .'
+      - skill_id: 'SKL-PC-RESOURCE-MGMT'
+        name: 'Resource  Management (Solar Credits)'
+        proficiency_level: 'Variable (Player Dependent).'
+        authentication: "Decision point involving  paying Skeeter's debt (200 SC)."
+
+    inabilities_lack_of_function:
+      -  inability_id: 'INAB-PC-FORCE-SOCIAL'
+        description: "Cannot typically force major positive social outcomes ( like Magnolia's investment) directly without leverage or utilizing another entity's function (Gus's charisma/scheme)."
+         authentication: 'PC plays supporting role in Magnolia scene.'
+        narrative_function: 'Highlights reliance on NPCs; reinforces  Gus''s role.'
+      - inability_id: 'INAB-PC-INSTANT-TRAVEL'
+        description : 'Cannot instantly teleport between locations; travel via skiff takes time and effort (unless fast-travel nodes are used, which  is a System Function).'
+        authentication: 'Quest structure requires traversing the map.'
+        narrative_function: 'Est ablishes scale, allows for environmental encounters/immersion.'
+
+    vulnerabilities_weaknesses:
+      -  vulnerability_id: 'VULN-PC-RESOURCE-DEP'
+        description: 'Success in some paths requires expenditure  of finite resources (Solar Credits for Skeeter''s debt). Failure to possess resources limits options.'
+        authentication:  "Skeeter debt decision point."
+        narrative_function: 'Creates meaningful choice, ties quest actions to economic  system.'
+      - vulnerability_id: 'VULN-PC-SKILL-FAIL'
+        description : 'Potential to fail skill-based challenges (Combat, Racing, potentially timed Dialogue).'
+        authentication: 'Implicit in systems  requiring player skill/stats.'
+        narrative_function: 'Introduces risk and variable outcomes.'
+
+    costs _dependencies_operational_constraints:
+      - constraint_id: 'COST-PC-TRAVEL'
+        applies _to: 'FUNC-PC-TRAVEL-SKIFF'
+        description: 'Requires time; potentially requires fuel /maintenance (world system dependent); relies on access to navigable waterways.'
+        authentication: 'Quest structure necessitates movement across map locations.' 
+      - constraint_id: 'COST-PC-ACTION'
+        applies_to:
+         - 'FUNC- PC-COMBAT-FIST'
+         - 'FUNC-PC-RACING'
+         - 'FUNC -PC-DIALOGUE (Timed)'
+        description: 'Requires player input/skill execution within specific timeframes or according to specific  rules (combat system, racing mechanics, dialogue timers).'
+        authentication: 'Explicit mechanics for combat/racing; timed dialogue mentioned .'
+      - constraint_id: 'DEPEND-PC-NPC-INFO'
+        applies_to:  'Quest Progression'
+        description: 'PC often relies on information provided by NPCs (Gus, Jolene,  Goons) to know where to go or what to do next.'
+        authentication: 'Quest flow depends on dialogue  outcomes.'
+      - constraint_id: 'OPCON-PC-QUEST-LOGIC'
+        applies _to: 'Quest Progression'
+        description: "Certain steps cannot be initiated until prerequisites are met (e.g.,  cannot find Skeeter until Goons provide location; cannot return to completed Mug until renovations/tasks done)."
+        authentication: ' Linear progression within quest phases described in YAML.'
+
+  functional_interactions_analysis:
+    summary: "Analyzes quest  phases from the PC's functional perspective."
+    phase_interactions:
+      - phase_id: 1
+        phase _title: 'Trouble at the Mug'
+        pc_actions_utilized: ['FUNC-PC-DIALOG UE', 'FUNC-PC-OBSERVATION']
+        interacting_entities:
+          - name: 'G ator Gus'
+            function_in_phase: 'Quest Giving, Problem Exposition'
+          - name: 'J olene'
+            function_in_phase: 'Conflict Driver'
+        outcome_or_transition: 'PC accepts task  from Gus.'
+      - phase_id: 2
+        phase_title: "Gator God's Tooth"
+         pc_actions_utilized: ['FUNC-PC-TRAVEL-SKIFF', 'FUNC-PC-DIALOGUE ', 'FUNC-PC-TASK-COMPLETION (potential)', 'FUNC-PC-COORDINATION']
+         interacting_entities:
+          - name: 'Mama Roux'
+            function_in_phase: 'Obst acle, Information/Item Provider'
+        key_items_resources:
+          - name: 'Fetish'
+             function_in_phase: 'Quest Item, Prop'
+        outcome_or_transition: 'PC retrieves Fet ish and meets Gus.'
+      - phase_id: 3
+        phase_title: "Swamp Spirit 's Blessing"
+        pc_actions_utilized: ['FUNC-PC-ROLEPLAY/SUPPORT']
+         interacting_entities:
+          - name: 'Gator Gus'
+            function_in_phase: 'Util izes FUNC-GUS-PERSUASION/DECEPTION'
+          - name: 'Magnolia Beauregard' 
+            function_in_phase: 'Target, Resource Provider'
+          - name: 'Saint Burt Reynolds ( Invoked)'
+            function_in_phase: 'Cultural Leverage'
+        key_items_resources:
+           - name: 'Fetish'
+            function_in_phase: 'Prop'
+          - name: ' Solar Credits'
+            function_in_phase: 'Resource Acquisition'
+        outcome_or_transition: ' Magnolia invests. PC receives XP.'
+      - phase_id: 4
+        phase_title: 'Renovations  & Runaway Talent'
+        pc_actions_utilized: ['FUNC-PC-TRAVEL-SKIFF', 'FUNC -PC-DECISION-MAKING', 'FUNC-PC-DIALOGUE', 'FUNC-PC-INVESTIG ATE']
+        interacting_entities:
+          - name: 'Jolene'
+            function_in_ phase: 'Info/Task Provider'
+          - name: 'Swamp Dwarves'
+            function_in _phase: 'Environmental Modifier'
+        outcome_or_transition: 'PC makes decor choice, gets task to find Gus .'
+      - phase_id: 5
+        phase_title: 'Securing Bayou Betty'
+         pc_actions_utilized: ['FUNC-PC-TRAVEL-SKIFF', 'FUNC-PC-INVESTIGATE ', 'FUNC-PC-INTERACT-OBJ', 'FUNC-PC-COMBAT-FIST', 'FUNC -PC-DIALOGUE'] # Specific path determines subset used
+        interacting_entities:
+          - name: 'Cletus '
+            function_in_phase: 'Obstacle'
+          - name: 'Bayou Betty'
+             function_in_phase: 'Goal Entity'
+          - name: 'Gator Gus'
+            function_in_ phase: 'Problem Creator (Signs)'
+        outcome_or_transition: 'Betty secured. PC gets sign task. PC receives  XP.'
+      - phase_id: 6
+        phase_title: "Skeeter's Signs"
+         pc_actions_utilized: ['FUNC-PC-TRAVEL-SKIFF', 'FUNC-PC-INVESTIG ATE', 'FUNC-PC-COMBAT-FIST', 'FUNC-PC-INFO-GATHER', ' FUNC-PC-DIALOGUE', 'FUNC-PC-DECISION-MAKING', 'FUNC-PC-RESOURCE -MGMT', 'FUNC-PC-RACING', 'FUNC-PC-ABANDON'] # Specific path determines  subset used
+        interacting_entities:
+          - name: 'Oligarchy Goons'
+            function_ in_phase: 'Obstacle, Info Provider'
+          - name: 'Skeeter'
+            function _in_phase: 'Goal Entity, Problem Source'
+        key_items_resources:
+          - name: 'Signs '
+            function_in_phase: 'Quest Item'
+        outcome_or_transition: 'Signs secured  (or not). PC receives XP/Currency/Item based on path.'
+      - phase_id: 7
+        phase _title: 'Opening Night... Almost'
+        pc_actions_utilized: ['FUNC-PC-TRAVEL- SKIFF', 'FUNC-PC-DIALOGUE', 'FUNC-PC-OBSERVATION']
+        interacting_ entities:
+          - name: 'Gator Gus'
+            function_in_phase: 'Feedback/Social  Interaction Provider'
+          - name: 'Swamp Dwarf'
+            function_in_phase: 'Info Provider'
+           - name: 'Jolene (Off-screen event)'
+            function_in_phase: 'Plot Trigger '
+        outcome_or_transition: 'Quest concludes, transitions to "Swamp Sins". PC receives final XP.' 
+
+  functional_profile_summary:
+    core_functional_identity: 'Within "Bayou Boogie Nights," the PC functions  as a Multi-Purpose Problem Solver and Agent of Change for Gus. They deploy a suite of core capabilities (dialogue,  combat, investigation, travel, resource management) to sequentially overcome obstacles presented by other entities and world systems.'
+    key_narrative _functions_served:
+      - 'Drives the Plot from inception to conclusion.'
+      - 'Choices ( Decor, Cletus approach, Skeeter resolution) provide player agency and minor branching.'
+      - 'Functions as  the Primary Interface between the player and the quest''s challenges and NPCs.'
+    relationship_to_alethic_mod ality: 'The PC operates within the established possibilities of Primal Mama: physical combat is possible, persuasion has limits, travel  takes effort, supernatural elements (Witches, Erpenthropes-nearby) exist, technology follows specific constraints (70s  aesthetic applied to skiffs/comms), social hierarchy (Elite vs. Swamp) influences interactions. The quest tests the PC''s  ability to function effectively within these rules.'
+    key_functional_tensions_tradeoffs:
+      - 'Combat  vs. Diplomacy (Cletus): Choosing different functional approaches.'
+      - 'Resource Expenditure vs. Skill Challenge (Ske eter): Spending Solar Credits vs. engaging in the Racing system.'
+      - 'Time/Effort vs. Reward: The inherent  cost of traveling and completing tasks versus the XP and potential material gains.'
+      - 'Supporting Gus vs. Personal Judgment: Minor  tension in role-playing during Magnolia''s scheme.'
+
+```

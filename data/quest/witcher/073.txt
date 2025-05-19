@@ -1,0 +1,237 @@
+Silver Sword
+Silver Swords are the primary tools of the trade for a Witcher. Monsters are resistant to steel, and as professional monster hunters, it's silver, or go home.
+
+Silver Swords	Required Ingredients	Level	Craftsman Requirements	Stats
+An'ferthe	Meteorite Silver Ingot x2
+Leather Scraps x2
+Monster Blood x2	26	Blacksmith/Journeyman	Damage: 355
+Critical Hit Damage Bonus: 50%
+Disglair	Silver Sword x3
+Leather Straps x1	12	Blacksmith/Amateur	Damage: 215
+Eirlithrad	Silver Ingot x3
+Leather Straps x1	18	Blacksmith/Journeyman	Damage: 275
+Faustino	Dimeritium Ingot x2
+Leather Straps x1
+Monster Blood x2	37	Blacksmith/Master	Damage: 465
+Critical Hit Damage Bonus: 50%
+Critical Hit Chance: 5%
+Gven'nel	Silver Ingot x3
+Leather Straps x1	13	Blacksmith/Amateur	Damage: 225
+Harpy	Monster Saliva x2
+Dimeritium Ingot x2
+Leather Scraps x1
+Ruby x1	37	Blacksmith/Journeyman	Damage: 475
+Chance to Cause Bleeding: 10%
+Mastercrafted Silver Sword	Silver Sword x3
+Leather Straps x2	16	Blacksmith/Amateur	Damage: 250
+Melltith	Meteorite Silver Ingot x2
+Leather Scraps x2
+Monster Blood x1	26	Blacksmith/Journeyman	Damage: 355
+Critical Hit Chance: 10%
+Serpentine Silver Sword	Venom Extract x1
+Silver Ingot x2
+Leather Straps x1
+Emerald Dust x1	1	Blacksmith/Amateur	Damage: 125
+Aard Sign Intensity: 10%
+Chance to Poison: 10%
+Bonus Experience from Monsters: 20%
+Steiger	Dimeritium Ingot x2
+Cured Leather x1
+Monster Blood x3	37	Blacksmith/Master	Damage: 465
+Critical Hit Damage: 75%
+The Digger	Meteorite Silver Ingot x2
+Leather Scraps x1
+Monster Blood x1	26	Blacksmith/Master	Damage: 355
+Critical Hit Damage Bonus: 25%
+Critical Hit Chance: 5%
+The Tamer	Meteorite Silver Ingot x2
+Cured Leather x1
+Monster Blood x3	24	Blacksmith/Journeyman	Damage: 335
+Critical Hit Damage Bonus: 75%
+Tor'Haerne	Meteorite Silver Ingot x2
+Leather Scraps x1
+Monster Blood x2	23	Blacksmith/Journeyman	Damage: 325
+Critical Hit Damage Bonus: 50%
+Torlunn	Meteorite Silver Ingot x2
+Leather Scraps x2
+Monster Blood x1	23	Blacksmith/Journeyman	Damage: 325
+Critical Hit Chance: 10%
+Steel Swords
+While Witchers are professional monster hunters, for some Witchers can't seem to avoid politics. Geralt is one of those Witchers, so keep your Steel Sword in good condition to fend off the humans and nonhumans who will pose as much of a threat as any Necrophage will during your travels.
+
+Steel Swords	Required Ingredients	Level	Craftsman Requirements	Stats
+Arbitrator	Monster Blood x2
+Steel Ingot x2
+Leather Scraps x2
+Amethyst x1
+Monster Claw x1	17	Blacksmith/Journeyman	Slashing Damage: 170
+Critical Hit Damage Bonus: 50%
+Chance to Stagger: 10%
+Chance to Dismember: 10%
+Beann'shie	Monster Blood x1
+Dimeritium Ingot x2
+Monster Feather x1
+Monster Bone x2
+Sapphire x1	44	Blacksmith/Master	Slashing Damage: 390
+Frost Damage: 10
+Armor Piercing: 50
+Aard Sign Intensity: 20%
+Blade from the Bits	Dark Steel Ingot x2
+Leather Scraps x2	25	Blacksmith/Journeyman	Slashing Damage: 230
+Bremervoord Blade	Steel Ingot x2
+Leather Straps x2	21	Blacksmith/Journeyman	Slashing Damage: 195
+Dorian Sword	Steel Ingot x2
+Leather Straps x2	2	Blacksmith/Amateur	Slashing Damage: 45
+Dwarven Sword	Dimeritium Ingot x2
+Cured Leather x1
+Monster Blood X3	45	Blacksmith/Master	Slashing Damage: 390
+Critical Hit Damage Bonus: 75%
+Elven Steel Sword	Dark Steel Ingot x2
+Leather Straps x2
+Silk x1	32	Blacksmith/Journeyman	Slashing Damage: 285
+Critical Hit Chance: 10%
+Gemmerian Steel Sword	Dark Steel Ingot x2
+Leather Straps x2	30	Blacksmith/Journeyman	Slashing Damage: 270
+Gnomish Gwyhyr	Dimeritium Ingot x2
+Cured Leather x1
+Monster Blood x2	42	Blacksmith/Master	Slashing Damage: 366
+Critical Hit Damage Bonus: 50%
+Critical Hit Chance: 5%
+Koviri Cutlass	Steel Ingot x2
+Leather Scraps x1	1	Blacksmith/Amateur	Slashing Damage: 30
+Longclaw	Drowner Brain x1
+Dark Steel Ingot x1
+Monster Feather x1
+Monster Claw x1
+Amethyst x1	37	Blacksmith/Journeyman	Slashing Damage: 330
+Armor Piercing: 50
+Yrden Sign Intensity: 30%
+Chance to Dismember: 10%
+Bonus Experience From Humans and Nonhumans: 5%
+Mahakaman Steel Sword	Dark Steel Ingot x2
+Cured Leather x1
+Monster Blood x3	40	Blacksmith/Journeyman	Slashing Damage: 350
+Critical Hit Damage Bonus: 75%
+Maribor Sword	Steel Ingot x2
+Leather Straps x2	15	Blacksmith/Journeyman	Slashing Damage: 150
+Nilfgaardian Longsword	Steel Ingot x4
+Leather Scraps x1	7	Blacksmith/Amateur	Slashing Damage: 85
+Novigrad Longsword	Steel Ingot x2
+Leather Scraps x1	5	Blacksmith/Amateur	Slashing Damage: 67
+Scoia'tael Sword	Dark Steel Ingot x2
+Leather Straps x2
+Silk x1	27	Blacksmith/Journeyman	Slashing Damage: 245
+Critical Hit Chance: 10%
+Serpentine Steel Sword	Venom Extract X1
+Iron Ingot x2
+Leather Straps x1
+Emerald Dust x1	2	Blacksmith/Amateur	Slashing Damage: 55
+Chance to Poison: 15%
+Bonus Experience from Humans and Nonhumans: 5%
+Skellige Longsword	Iron Ingots x3
+Cured Leather x1
+Monster Blood x3	6	Blacksmith/Amateur	Slashing Damage: 75
+Critical Hit Damage Bonus: 75%
+Spikerogg Longsword	Steel Sword x2
+Hardened Leather x1
+Monster Blood x3	11	Blacksmith/Journeyman	Slashing Damage: 115
+Critical Hit Damage Bonus: 75%
+Temerian Poniard	Steel Ingot x2
+Leather Straps x1	1	Blacksmith/Amateur	Slashing Damage: 35
+Tir Tochair Blade	Monster Blood x2
+Dimeritium Ingot x2
+Cured Leather x1
+Ruby Dust x2
+Monster Claw x1	46	Blacksmith/Master	Slashing Damage: 405
+Critical Hit Damage Bonus: 50%
+Critical Hit Chance: 5%
+Chance to Cause Bleeding: 15%
+Velen Longsword	Steel Ingot x2
+Leather Straps x1	1	Blacksmith/Amateur	Slashing Damage: 38
+Witch Hunter's Sword	Dark Steel Ingot x2
+Leather Straps x2	31	Blacksmith/Journeyman	Slashing Damage: 276
+Witch Slayer	Dark Steel Ingot x2
+Leather Scraps x2	35	Blacksmith/Journeyman	Slashing Damage: 310
+Tools
+You break down all those heavy repair kits and you'll recover.... components needed to build the same repair kits. Yeah... not really worth your while, but just in case, here they are.
+
+Tools	Required Ingredients	Craftsman Requirements	Stats
+Amateur's Armor Repair Kit	Nails x1
+Thread x1
+Elven Armorer's Tools x1
+Leather Straps x1	Craftsman/Amateur	Item Durability Restored: 15%
+Amateur's Weapon Repair Kit	Oil x1
+Elven Whetstone x1
+Leather Straps x1	Craftsman/Amateur	Item Durability Restored: 15%
+Journeyman's Armor Repair Kit	Leather Straps x2
+Thread x3
+Dwarven Armorer's Tools
+Linen x1
+Steel Plates x1	Craftsman/Amateur	Item Durability Restored: 40%
+Journeyman's Weapon Repair Kit	Water x1
+Dwarven Whetstone x1
+Leather Scraps x1	Craftsman/Amateur	Item Durability Restored: 40%
+Master's Armor Repair Kit	Wire x1
+Silk x1
+Gnomish Armorer's Tools x1
+Hardened Leather x1
+Steel Plates x2	Craftsman/Amateur	Item Durability Restored: 90%
+Master's Weapon Repair Kit	Alchemy Past x1
+Gnomish Whetstone x1
+Linen x1	Craftsman/Amateur	Item Durability Restored: 90%
+Upgrades
+Upgrades consist of Runestones and Glyphs, which can be inserted into weapons and armor to improve them. Typically it's less of a hassle to just buy the best versions from merchants, but if you find yourself with an abundance of lesser versions in your inventory, it might be worth upgrading them.
+
+Upgrades	Required Ingredients	Craftsman Requirements	Stats
+Chernobog Runestone	Lesser Chernobog Runestone	Craftsman/Journeyman	Attack Power: 3%
+Dazhbog Runestone	Lesser Dazhbog Runestone	Craftsman/Journeyman	Chance to Cause Burning: 3%
+Devana Runestone	Leasser Devana Runestone	Craftsman/Journeyman	Chance to Cause Bleeding: 3%
+Glyph of Aard	Lesser Glyph of Aard	Craftsman/Journeyman	Aard Sign Intensity: 5%
+Glyph of Axii	Lesser Glyph of Axii	Craftsman/Journeyman	Axii Sign Intensity: 5%
+Glyph of Igni	Lesser Glyph of Igni	Craftsman/Journeyman	Igni Sign Intensity: 5%
+Glyph of Quen	Lesser Glyph of Quen	Craftsman/Journeyman	Quen Sign Intensity: 5%
+Glyph of Yrden	Lesser Glyph of Yrden	Craftsman/Journeyman	Yrden Sign Intensity: 5%
+Greater Chernobog Runestone	Chernobog Runestone	Craftsman/Journeyman	Attack Power: 5%
+Greater Dazhbog Runestone	Dazhbog Runestone	Craftsman/Journeyman	Chance to Cause Burning: 5%
+Greater Devana Runestone	Devana Runestone	Craftsman/Journeyman	Chance to Cause Bleeding: 5%
+Greater Glyph of Aard	Glyph of Aard	Craftsman/Journeyman	Aard Sign Intensity: 10%
+Greater Glyph of Axii	Glyph of Axii	Craftsman/Journeyman	Axii Sign Intensity: 10%
+Greater Glyph of Igni	Glyph of Igni	Craftsman/Journeyman	Igni Sign Intensity: 10%
+Greater Glyph of Quen	Glyph of Quen	Craftsman/Journeyman	Quen Sign Intensity: 10%
+Greater Glyph of Yrden	Glyph of Yrden	Craftsman/Journeyman	Yrden Sign Intensity: 10%
+Greater Morana Runestone	Morana Runestone	Craftsman/Journeyman	Chance to Poison: 5%
+Greater Perun Runestone	Perun Runestone	Craftsman/Journeyman	Adrenaline Point Gain: 5%
+Greater Stribog Runestone	Stribog Runestone	Craftsman/Journeyman	Chance to Stagger: 5%
+Greater Svarog Runestone	Svarog Runestone	Craftsman/Journeyman	Armor Piercing: 30
+Greater Triglav Runestone	Triglav Runestone	Craftsman/Journeyman	Chance to Stun: 5%
+Greater Veles Runestone	Veles Runestone	Craftsman/Journeyman	Sign Intensity: 5%
+Greater Zoria Runestone	Zoria Runestone	Craftsman/Journeyman	Chance to Freeze: 5%
+Lesser Chernobog Runestone	Chernobog Runestone	Craftsman/Journeyman	Attack Power: 2%
+Lesser Dazhbog Runestone	Dazhbog Runestone	Craftsman/Journeyman	Chance to Cause Burning: 2%
+Lesser Devana Runestone	Devana Runestone	Craftsman/Journeyman	Chance to Cause Bleeding: 2%
+Lesser Glyph of Aard	Lesser Glyph of Aard	Craftsman/Amateur	Aard Sign Intensity: 2%
+Lesser Glyph of Axii	Lesser Glyph of Axii	Craftsman/Amateur	Axii Sign Intensity: 2%
+Lesser Glyph of Igni	Lesser Glyph of Igni	Craftsman/Amateur	Igni Sign Intensity: 2%
+Lesser Glyph of Quen	Lesser Glyph of Quen	Craftsman/Amateur	Quen Sign Intensity: 2%
+LesserGlyph of Yrden	Lesser Glyph of Yrden	Craftsman/Amateur	Yrden Sign Intensity: 2%
+Lesser Morana Runestone	Emerald Dust x1
+Lesser Runestone x1	Craftsman/Journeyman	Chance to Poison: 2%
+Lesser Perun Runestone	Monster Brain x1
+Lesser Runestone x1	Craftsman/Journeyman	Adrenaline Point Gain: 2%
+Lesser Stribog Runestone	Amethyst Dust x1
+Lesser Runestone x1	Craftsman/Journeyman	Chance to Stagger: 2%
+Lesser Svarog Runestone	Monster Saliva x1
+Lesser Runestone x1	Craftsman/Journeyman	Armor Piercing: 10
+Lesser Triglav Runestone	Diamond Dust x1
+Lesser Runestone x1	Craftsman/Journeyman	Chance to Stun: 2%
+Lesser Veles Runestone	Powdered Monster Tissue x1
+Lesser Runestone x1	Craftsman/Journeyman	Sign Intensity: 2%
+Lesser Zoria Runestone	Sapphire Dust x1
+Lesser Runestone x1	Craftsman/Journeyman	Chance to Freeze: 2%
+Morana Runestone	Lesser Morana Runestone x2	Craftsman/Journeyman	Chance to Poison: 3%
+Perun Runestone	Lesser Perun Runestone x2	Craftsman/Journeyman	Adrenaline Point Gain: 3%
+Stribog Runestone	Lesser Stribog Runestone x2	Craftsman/Journeyman	Chance to Stagger: 3%
+Svarog Runestone	Lesser Svarog Runestone x2	Craftsman/Journeyman	Armor Piercing: 20
+Triglav Runestone	Lesser Triglav Runestone x2	Craftsman/Journeyman	Chance to Stun: 3%
+Veles Runestone	Lesser Veles Runestone x2	Craftsman/Journeyman	Sign Intensity: 3%
+Zoria Runestone	Lesser Zoria Runestone x2	Craftsman/Journeyman	Chance to Freeze: 3%

@@ -1,0 +1,329 @@
+
+bay ou_bombs:
+  - name: Swampfire Bomb
+    tier: Base
+    required_components: 
+      - "Gator Grease x1"
+      - "Sulfur Knotweed x2"
+    effects_stats: 
+      fire_damage: 100 # Initial Burst
+      burning_duration_secs: 4
+    notes:  "Basic incendiary using rendered alligator fat and volatile swamp plants. Good for nests, flammable foes."
+
+  - name:  Bog Toxin Vial
+    tier: Base
+    required_components:
+      - "Mutated Toadstool Caps  x2"
+      - "Gator Bile Concentrate x1"
+    effects_stats:
+      bio_ toxin_damage: 100 # Over Duration
+      effect_duration_secs: 10
+     notes: "Shatters on impact, releasing concentrated toxins derived from mutated fungi and gator biology."
+
+  - name: Static  Charge Grenade
+    tier: Base
+    required_components:
+      - "Saltpeter Substitute x5"
+       - "Processed Bio-Circuitry x2"
+      - "Powdered Gator Tooth x1"
+     effects_stats:
+      effect_duration_secs: 15
+      primary_effect: "Releases  disruptive electrical/static pulse. Temporarily jams simple automaton functions, hinders Erpenthrope transformation attempts, causes minor spectral destabilization ."
+    notes: "No direct damage."
+
+  - name: Swampgas Catalyst
+    tier: Base
+     required_components:
+      - "Gator Grease x1"
+      - "Phosphorescent Moss x2 "
+    effects_stats:
+      fire_damage: 300 # Delayed Ignition
+      gas_cloud_duration _secs: 15
+    notes: "Releases a cloud of flammable gas that ignites violently after a  short delay or if exposed to flame."
+
+  - name: Critter Crunch Bomb
+    tier: Base
+     required_components:
+      - "Rusted Ball Bearings x2"
+      - "Toughened Gator  Hide Scraps x2"
+      - "Saltpeter Substitute x2"
+    effects_stats:
+       physical_damage: 350 # Shrapnel
+      fire_damage: 5 # Impact Spark
+    notes : "Simple but effective shrapnel grenade using salvaged junk and gator hide for casing. Tears through lesser foes."
+
+   - name: Haint Haze Bomb
+    tier: Base
+    required_components:
+      - "Consec rated River Mud x1"
+      - "Crushed Quartz Crystals x2"
+      - "Saltpeter Substitute  x1"
+    effects_stats:
+      primary_effect: "Reveals/Highlights nearby spectral entities ( ghosts). Temporarily prevents them from fully dematerializing."
+      effect_duration_secs: 15 
+    notes: "Uses ritually prepared mud and resonant crystals. Essential for dealing with spectral nuisances. No direct  damage."
+
+  - name: Gator Musk Bomb
+    tier: Base
+    required_components:
+      -  "Processed Gator Gland x2"
+      - "Pungent Swamp Lily x1"
+      - " Stabilizer Agent x1"
+    effects_stats:
+      primary_effect: "Releases potent territorial musk . Repels mundane swamp creatures and potentially lesser GE Gators. May cause disorientation/fear."
+      effect_duration_secs:  10
+    notes: "Useful for crowd control or avoiding unwanted animal encounters. Effectiveness varies. No direct damage." 
+
+  - name: Sporeshaker
+    tier: Base
+    required_components:
+      - " Saltpeter Substitute x1"
+      - "Flash-Bang Spores x2"
+    effects_stats: 
+      primary_effect: "Releases a cloud of disorienting, brightly flashing spores. Causes temporary blindness/ stunning."
+      effect_duration_secs: 4
+    notes: "Harvested from specific bioluminescent swamp fungi.  Good for creating an opening. No direct damage."
+
+  - name: Improved Swampfire
+    tier: Improved
+    required _components:
+      - "Sulfur Knotweed x1"
+      - "Refined Solar Salts x1 "
+      - "Mutated Toadstool Caps x1"
+      - "Charged Ambergris x1"
+      - " Swampfire Bomb x1"
+      - "Phosphorescent Moss x1"
+      - "Bio-L uminescent Algae x1"
+    effects_stats:
+      fire_damage: 100 # Burst 
+      burning_duration_secs: 7
+    notes: "Sticks better, burns hotter. Uses refined  solar tech components and rarer bio-agents."
+
+  - name: Improved Bog Toxin
+    tier: Improved
+    required_ components:
+      - "Harvested Pustule Sac x1"
+      - "Refined Solar Salts x 1"
+      - "Mutated Toadstool Caps x1"
+      - "Bog Toxin Vial x1 "
+      - "Corroded Battery Acid x1"
+      - "Swamp Lily Petals x1 "
+      - "Irradiated Sludge x1"
+    effects_stats:
+      bio_toxin_damage:  100 # Over Duration
+      effect_duration_secs: 20
+    notes: "More  potent, longer-lasting toxin derived from hazardous swamp byproducts."
+
+  - name: Improved Static Charge
+    tier: Improved 
+    required_components:
+      - "Charged Quartz Crystal x1"
+      - "Refined Solar Salts  x1"
+      - "Witch-Hazel Bark x1"
+      - "Swamp Lily Petals  x1"
+      - "Static Charge Grenade x1"
+      - "Processed Bio-Circuitry x 1"
+      - "Ectoplasmic Film x1"
+    effects_stats:
+      effect_duration _secs: 30
+      primary_effect: "Wider radius, stronger pulse. More effective disruption, particularly against spectral  forms."
+    notes: "Increased effectiveness."
+
+  - name: Improved Swampgas
+    tier: Improved
+     required_components:
+      - "Processed Bio-Circuitry x1"
+      - "Refined Solar Salts  x1"
+      - "Mistletoe Berries (Mutated) x1"
+      - "P ungent Swamp Lily x1"
+      - "Swampgas Catalyst x1"
+      - "Phosphorescent  Moss x1"
+      - "Volatile Pollen Cluster x1"
+    effects_stats:
+       fire_damage: 400 # Delayed Ignition
+      gas_cloud_duration_secs: 30 
+    notes: "Larger cloud, more potent fuel mix derived from stranger swamp flora."
+
+  - name:  Improved Critter Crunch
+    tier: Improved
+    required_components:
+      - "Witch-Hazel Bark  x1"
+      - "Refined Solar Salts x1"
+      - "Crow's Eye Seeds x 1"
+      - "Processed Gator Sinew x1"
+      - "Critter Crunch Bomb x1"
+       - "Rusted Ball Bearings x1"
+    effects_stats:
+      physical_damage: 6 00 # Shrapnel
+      fire_damage: 10 # Impact Spark
+    notes: "More  shrapnel, higher velocity thanks to improved propellant and casing. Very effective against armored targets."
+
+  - name:  Improved Haint Haze
+    tier: Improved
+    required_components:
+      - "Sulfur Knotweed  x1"
+      - "Refined Solar Salts x1"
+      - "Pollen Tufts x1"
+       - "Witch-Hazel Bark x1"
+      - "Haint Haze Bomb x1"
+       - "Crushed Quartz Crystals x1"
+      - "Purified River Water x1"
+    effects _stats:
+      primary_effect: "Reveals/Highlights ghosts, significantly impedes dematerialization, may cause  spectral discomfort."
+      effect_duration_secs: 25
+    notes: "Brighter haze, longer duration , potentially causes minor damage to spectral forms over time."
+
+  - name: Improved Gator Musk
+    tier: Improved 
+    required_components:
+      - "Charged Quartz Crystal x1"
+      - "Refined Solar Salts  x1"
+      - "Fool's Parsley Leaves (Mutated) x1"
+      - " Verbena Flowers x1"
+      - "Gator Musk Bomb x1"
+      - "Concentrated Gator Gland Extract  x2"
+      - "Pungent Swamp Lily x2"
+    effects_stats:
+      primary _effect: "Stronger musk cloud, wider area. More effective repulsion/fear, potentially affects basic Erpenthrope senses  briefly."
+      effect_duration_secs: 15
+    notes: "Concentrated formula using rarer herbs , potent enough to potentially deter even more dangerous creatures."
+
+  - name: Improved Sporeshaker
+    tier : Improved
+    required_components:
+      - "Foglet Essence (If applicable) x1" # Assuming Fog lets or similar exist
+      - "Refined Solar Salts x1"
+      - "Celandine Petals x 1"
+      - "Witch-Hazel Bark x1"
+      - "Sporeshaker x1" 
+      - "Phosphorescent Moss x1"
+    effects_stats:
+      primary_effect: "Int ense flash, potent disorienting spores. Longer duration blindness/stunning."
+      effect_duration_secs:  7
+    notes: "Cultivated spores with enhanced potency, perhaps mixed with captured swamp mist essences."
+
+  -  name: Prime Swampfire
+    tier: Prime
+    required_components:
+      - "Sulfur Knotweed x2 "
+      - "Alchemical Accelerant x1"
+      - "Mutated Toadstool Caps x2" 
+      - "Bio-Luminescent Algae x2"
+      - "Improved Swampfire x1"
+       - "Phosphorescent Moss x2"
+      - "Solar Capacitor (Charged) x1"
+    effects _stats:
+      fire_damage: 100 # Burst
+      burning_duration_secs: 10
+       area_denial_effect: "Lingering heat haze (minor damage)"
+    notes: "Apex incendi ary using rare catalysts and charged solar tech for intense, lingering heat."
+
+  - name: Prime Bog Toxin
+    tier : Prime
+    required_components:
+      - "Harvested Pustule Sac x2"
+      -  "Alchemical Accelerant x1"
+      - "Mutated Toadstool Caps x2"
+      - " Swamp Lily Petals x2"
+      - "Improved Bog Toxin x1"
+      - "Cor roded Battery Acid x1"
+      - "Concentrated Gator Venom x1"
+    effects_stats: 
+      bio_toxin_damage: 100 # Over Duration
+      effect_duration_secs:  30
+      debuff_effect: "Weakens physical resistance"
+    notes: "Virulent cocktail  using refined venom and alchemical boosters. Corrodes armor, weakens foes."
+
+  - name: Prime Static Charge
+    tier : Prime
+    required_components:
+      - "Charged Quartz Crystal x2"
+      - "Alchemical  Accelerant x1"
+      - "Pollen Tufts x2"
+      - "Ectoplasmic Film x 1"
+      - "Improved Static Charge x1"
+      - "Processed Bio-Circuitry x2" 
+      - "Stabilized Ghostly Emanation x1"
+    effects_stats:
+      effect_duration _secs: 30
+      added_effect: "Can force momentary spectral manifestation, fully interrupt transformations."
+    notes : "Masterwork disruptor. Powerful enough to temporarily solidify ghosts or halt Erpenthrope shifting mid-process." 
+
+  - name: Prime Swampgas
+    tier: Prime
+    required_components:
+      - "Processed  Bio-Circuitry x2"
+      - "Alchemical Accelerant x1"
+      - "Pung ent Swamp Lily x2"
+      - "Volatile Pollen Cluster x2"
+      - "Improved Swamp gas x1"
+      - "Phosphorescent Moss x2"
+      - "Refined Gator Oil x1 "
+    effects_stats:
+      fire_damage: 300 # Ignition
+      secondary_explosion_effect:  "Minor chain reactions"
+      gas_cloud_duration_secs: 15
+    notes: "Highly volatile gas mix  causes secondary airbursts upon ignition. Devastating in enclosed spaces."
+
+  - name: Prime Critter Crunch
+     tier: Prime
+    required_components:
+      - "Sulfur Knotweed x2"
+      - " Alchemical Accelerant x1"
+      - "Processed Gator Sinew x2"
+      - "Pollen  Tufts x2"
+      - "Improved Critter Crunch x1"
+      - "Rusted Ball Bearings x2 "
+      - "Sharpened Gator Teeth x1"
+    effects_stats:
+      physical_damage: 6 00 # Shrapnel
+      fire_damage: 10 # Impact Spark
+      bleeding_effect : True
+    notes: "Maximum shrapnel density, includes sharpened gator teeth for added piercing/bleeding . Brutal."
+
+  - name: Prime Haint Haze
+    tier: Prime
+    required_components:
+       - "Sulfur Knotweed x2"
+      - "Alchemical Accelerant x1"
+      -  "Pollen Tufts x2"
+      - "Witch-Hazel Bark x2"
+      - "Improved  Haint Haze x1"
+      - "Crushed Quartz Crystals x2"
+      - "Pure E ctoplasm Sample x1"
+    effects_stats:
+      primary_effect: "Forces full visibility of ghosts, roots  them temporarily, causes continuous spectral damage."
+      effect_duration_secs: 20
+    notes: " Uses pure ectoplasm and advanced ritual components to bind and damage spectral entities."
+
+  - name: Prime Gator Musk
+    tier:  Prime
+    required_components:
+      - "Charged Quartz Crystal x2"
+      - "Saltpeter Substitute  x1"
+      - "Verbena Flowers x2"
+      - "Pungent Swamp Lily x3 "
+      - "Improved Gator Musk x1"
+      - "Concentrated Gator Gland Extract x3" 
+      - "Erpenthrope Scale Dust (Trace) x1"
+    effects_stats:
+       primary_effect: "Overwhelming musk cloud. Strong repulsion/fear effect on most non-sentient creatures, dis orients Erpenthropes, may deter Swamp Witches."
+      effect_duration_secs: 15
+     notes: "Apex repellent using incredibly potent extracts and trace amounts of Erpenthrope material."
+
+  - name: Prime Sp oreshaker
+    tier: Prime
+    required_components:
+      - "Foglet Essence (Concentrated) x2 " # Assuming Foglets or similar exist
+      - "Alchemical Accelerant x1"
+      - "C elandine Petals x2"
+      - "Hellebore Petals (Toxic) x2"
+       - "Improved Sporeshaker x1"
+      - "Phosphorescent Moss x2"
+      - " Neurotoxic Fungal Strain x1"
+    effects_stats:
+      blind_stun_duration_secs: 10 
+      toxin_cloud_duration_secs: 20
+      neurotoxin_effect: "Minor damage , slows movement"
+    notes: "Adds a debilitating neurotoxin harvested from rare, dangerous fungi to the dis orienting spores."
+

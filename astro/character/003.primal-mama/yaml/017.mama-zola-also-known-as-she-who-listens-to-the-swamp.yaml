@@ -1,0 +1,174 @@
+
+world: Primal Mama 
+codex_version: 0.2 - Character Constitution (Mama Zola)
+last_updated: '[ Current Date]'
+lead_architects: '[Your Name/Studio Name]'
+
+character_profile:
+  entity_id : CHAR_MamaZola_01
+  character_name: Mama Zola (also known as "She -Who-Listens-to-the-Swamp")
+  entity_type: Person (Human)
+   archetype: Wise Woman / Swamp Oracle / Ritualist
+  primary_authentication_sources:
+    - This Codex Entry
+     - Primal Mama Coherence Protocol v0.1
+  canon_tier: Tier 1 (Pivotal NPC or  potential Protagonist)
+  authentication_status: Authenticated_Canonical_Active
+
+  authenticated_property_bundle: 
+    physical_properties:
+      purpose: "Define the character's tangible presence."
+      authenticated:
+        -  property_label: Appearance_General
+          value: "[Elderly human female, appears to be in her late  60s or 70s, though possesses a vitality that belies her age. Dark, rich skin tone, deeply wrinkled  around her eyes and mouth from years of sun and expression.]"
+          auth: "[This Codex]"
+        -  property_label: Appearance_Specific_Features
+          value: "[Piercing, intelligent dark brown eyes that seem to absorb light.  High cheekbones and a broad, kind nose. Her hair is a profusion of tight, silver-white coils,  often adorned with small, carved gator teeth, polished river stones, or dried swamp flowers, reminiscent of intricate traditional African  hairstyles.]"
+          auth: "[This Codex]"
+        - property_label: Appearance_Distinctive_Marks
+           value: "[Faint, intricate scarification patterns on her forearms and temples, forming swirling, organic shapes that evoke both traditional  African tribal markings and the tendrils of swamp vines. One earlobe is stretched, holding a carved piece of petrified wood in a  1970s \"chunky\" style.]"
+          auth: "[This Codex]"
+        - property_label : Typical_Attire
+          value: "[Wears layered, flowing garments made from natural fibers (woven reeds, processed  alligator hide, cotton-like swamp plants) dyed in deep earth tones – ochre, moss green, delta mud brown. The  cuts are simple but have a certain 1970s caftan-esque silhouette, perhaps with wide, bell-like  sleeves. Adorned with macrame-style belts incorporating polished gator scutes and shells. Often barefoot or in simple,  woven swamp-grass sandals.]"
+          auth: "[This Codex / PM Coherence - 1970 s Aesthetic]"
+        - property_label: Voice_Speech_Pattern
+          value: "[Deep, resonant,  and calm, with a slow, deliberate cadence. Speaks with a lyrical quality, often employing metaphors drawn from the swamp' s ecosystem. Her accent is unique, a blend of deep Southern drawl with inflections suggesting an older, perhaps more  direct linguistic root.]"
+          auth: "[This Codex]"
+        - property_label: Gait_Manner isms
+          value: "[Moves with a surprising grace and deliberateness for her apparent age. Often has her hands clasped before her  or uses them to make slow, illustrative gestures. Has a habit of tilting her head, as if listening to something others cannot hear .]"
+          auth: "[This Codex]"
+        - property_label: Associated_Scent_If_ Any
+          value: "[Damp earth, sweetgrass, subtle woodsmoke, and a faint, almost metallic tang reminiscent of  ozone or the unique smell of vampire bunnies after a rain.]"
+          auth: "[This Codex / PM Coherence - Vampire  Bunnies]"
+      undersaturation: "Exact height and weight; specific details of her dwelling's interior beyond functional  for rituals; non-ritual daily routine."
+
+    functional_properties:
+      purpose: "Define what the character  *can* and *cannot* do."
+      authenticated:
+        - property_label: Skill
+          value : "'[Mastery of Ritual Magic for Spectral Interaction (Core Skill): Can reliably perceive and communicate with ghosts of the deceased, guide  them, or seek specific information. Her rituals are complex, involving chants, offerings of swamp flora/fauna, and  drawing power from specific ley lines within the swamp.]'"
+          auth: "[This Codex / PM Coherence - Spectral Interaction]"
+         - property_label: Skill
+          value: "'[Swamp Witch Lore (Advanced): Deep understanding of the swamp''s  esoteric properties, including the creation, care, and potential dangers of vampire bunnies. Knows unique uses for swamp flora and fauna  in potions, poultices, and ritual components.]'"
+          auth: "[This Codex / PM Coherence -  Vampire Bunny Propagation, Swamp Witches]"
+        - property_label: Skill
+          value: "[Oral Historian & Lore keeper: Possesses extensive knowledge of pre-calamity folklore, local histories, and the spiritual interpretations of the biological calamity and the  subsequent rise of alligator culture.]"
+          auth: "[This Codex]"
+        - property_label: Ability_ Unique
+          value: "[Spiritual Attunement: Can sense shifts in the swamp's spiritual \"health\" or \" mood,\" perceive disturbances related to Erpenthrope activity or major events, and has a limited ability to soothe or ward specific  locations through ritual.]"
+          auth: "[This Codex]"
+        - property_label: Limitation_Physical
+          value:  "[Advanced age means she is not suited for strenuous physical activity or direct combat. Relies on her wits, spiritual authority, and knowledge  rather than force.]"
+          auth: "[This Codex]"
+        - property_label: Limitation_Knowledge
+          value:  "[While wise, her knowledge is primarily focused on the swamp, spirituality, and local history. She has little practical understanding  of Beetriot's high society, advanced genetic engineering principles (beyond their observable effects on gators), or the intricacies of the meat  oligarchy's financial dealings. Distrusts and avoids Automatons/LLMs.]"
+          auth: "[This  Codex / PM Coherence - Automaton/LLM Stigma]"
+        - property_label: Limitation_Social 
+          value: "[Her influence is primarily localized to those who live in or near her part of the swamp, or those who  specifically seek her out. She holds no formal power in Lickskillet or Beetriot.]"
+          auth: "[This Codex ]"
+      undersaturation: "Specific recipes for her potions/poultices; full range of ghosts she has contacted ; precise methods for vampire bunny \"propagation\" beyond \"esoteric knowledge.\""
+
+    psychological_properties:
+      purpose : "Define the character's textually constituted inner life."
+      authenticated:
+        - property_label: Core_Trait 
+          value: "[Profoundly Patient & Observant]"
+          auth: "[Mannerisms, Speech Patterns]"
+         - property_label: Core_Trait
+          value: "[Deeply Spiritual & Reverent towards the natural/supernatural balance  of the swamp (what she might call \"Primal Mama's Breath\").]"
+          auth: "[Actions, Belief s]"
+        - property_label: Core_Trait
+          value: "[Cautious & Skeptical of  quick solutions or \"progress\" that ignores spiritual consequences (e.g., the potential hubris behind some GE, the societal impact of  LLM stigma, the \"invisible women\" conspiracy which she might see as a misdirection from deeper imbalances).]"
+           auth: "[Dialogue, Reactions to world events]"
+        - property_label: Dominant_Emotion
+          value : "[Serene Watchfulness / Deep Empathy (for the living, the dead, and the land itself)]"
+          auth : "[Interactions, Narrative Descriptions]"
+        - property_label: Key_Motivator
+          value: "[To  maintain balance within the swamp's spiritual ecosystem; to guide those who are lost or seek true understanding; to preserve the old ways and  wisdom.]"
+          auth: "[Actions, Stated Purpose]"
+        - property_label: Key_Bel ief
+          value: "[The \"Biological Calamity\" was not just biological but also spiritual, a profound imbalance . The reverence for cattle artifacts and taboo on their flesh is a symptom of this, a necessary but perhaps misunderstood penance. Bel ieves ghosts hold vital truths about the past and present.]"
+          auth: "[Interpretations of world events / PM  Coherence - Calamity, Cattle, Ghosts]"
+        - property_label: Internal_Conflict
+          value : "[The desire to share her profound knowledge vs. the understanding that some truths can be harmful or that people must find their own  path; the slow encroachment of Beetriot's influence (even via the oligarchy in Lickskillet) vs . her desire to protect the swamp's sanctity.]"
+          auth: "[Potential plot points, interactions]"
+         - property_label: Subjective_Memory_Content
+          value: "[Holds generations of oral history, detailed memories of swamp  changes over decades, vivid recollections of specific ghostly encounters and their revelations.]"
+          auth: "[Role as Lorekeeper ]"
+      undersaturation: "Her personal feelings about the deified celebrities (Reynolds, Reed, Parsons) beyond general  skepticism of external deities; specific fears or regrets from her long life."
+
+    social_relational_categorical_properties:
+       purpose: "Define the character's place within the world's networks."
+      authenticated:
+        - property_label:  Official_Role
+          value: "[None formal. De facto Swamp Witch, Spiritual Elder, Oracle for local communities and seekers .]"
+          auth: "[This Codex]"
+        - property_label: Social_Status
+          value:  "[Highly respected and sometimes feared within her local swamp region; an enigmatic figure of folklore to those in Lickskillet ; largely unknown or dismissed as myth in Beetriot.]"
+          auth: "[This Codex]"
+        - property_label : Primary_Affiliation
+          value: "[The Swamp itself; an informal network of other, perhaps less powerful, spiritual  practitioners or hermit-like figures.]"
+          auth: "[This Codex]"
+        - property_label: Secondary_ Affiliations
+          value: "[Occasionally sought by certain Erpenthropes for her unique knowledge of swamp spirits or ancient  lore, though their \"truth-seeking\" paths differ. Some Lickskillet residents (especially \"mom-and- pop\" operators) may seek her for blessings, remedies, or to understand strange occurrences.]"
+          auth: "[PM  Coherence - Erpenthropes, Lickskillet dynamics]"
+        - property_label: Key_Relationship_ 1
+          value: "[To the \"Primal Mama\" (as a concept/spirit of the swamp): Devotee,  listener, interpreter.]"
+          auth: "[Beliefs, Actions]"
+        - property_label: Key_Relationship_ 2
+          value: "[To visiting Seekers/Protagonists: Cryptic guide, source of vital but often challenging  information, catalyst for their journey.]"
+          auth: "[Narrative Function]"
+        - property_label:  Key_Relationship_3
+          value: "[To the local Erpenthropes (if any): A wary respect , understanding their nature but perhaps not always their methods. She sees them as part of the swamp's ancient power.] "
+          auth: "[PM Coherence - Erpenthropes]"
+        - property_label: Species_Type
+           value: "[Human (Primal Mama variant)]"
+          auth: "[This Codex]"
+      undersaturation : "Specific individuals she has mentored; relationships with particular families in Lickskillet; any direct interactions with the meat oligarchy." 
+
+    modal_properties:
+      purpose: "Define any inherent unique relationship to world laws."
+      authenticated:  # This is a list of modal property objects
+        - property_id: MODAL-MZOLA-01 
+          property_name: "Exceptional Spectral Attunement & Swamp Witchery (Alethic/Epist emic Exception)"
+          description: "[Her ability to interact with ghosts and understand/manipulate swamp-specific esoteric energies (including vampire  bunny related phenomena) is more profound and reliable than general ritual magic practitioners. She can perceive and interpret spiritual nuances others miss .]"
+          limits: "[Cannot command spirits against their will or fundamental nature; her power is tied to the swamp 's health and local energies; cannot perform large-scale miracles or defy fundamental world laws (e.g., she can't  make cattle edible). Her magic aligns with the 1970s aesthetic in its reliance on natural components, ritual , and \"analog\" spiritual connection, not flashy digital-style effects.]"
+          authentication: "[PM Coherence - Spectral  Interaction, Swamp Witch Lore, Vampire Bunnies. This property elevates her beyond a \"learned\" practitioner to one with innate , deeper connection.]"
+
+    axiological_properties:
+      purpose: "Define the character's value status  *within* Primal Mama."
+      authenticated:
+        - property_label: Reputation_Local_Swamp _Dwellers
+          value: "[Authenticated as highly valued; seen as a source of wisdom, healing, protection , and a direct link to the spiritual world. Approached with deep respect and a measure of awe.]"
+          auth : "[Implied by Archetype and Social Role]"
+        - property_label: Reputation_Lickskillet_ General_Populace
+          value: "[Authenticated as a figure of folklore and superstition; some are fearful, others dismissive, but  a desperate few might seek her out. The meat oligarchy would likely view her as an irrelevant eccentric or a potential minor  nuisance if her influence grew.]"
+          auth: "[PM Coherence - Lickskillet culture, Oligarchy]"
+         - property_label: Reputation_Beetriot_Elite
+          value: "[Authenticated as virtually unknown, or if mentioned , considered a primitive relic, embodying the \"backwardness\" of the swamps they depend on but are detached from. Her values directly oppose  their cattle-artifact status symbols.]"
+          auth: "[PM Coherence - Beetriot culture, Cattle as Artifacts ]"
+        - property_label: Moral_Alignment_Narrative_Framing
+          value: "[Authenticated via  narrative focus as fundamentally benevolent, a guardian of ancient wisdom and natural/spiritual balance, operating on a moral compass rooted in the  deep ecology of the swamp, which may sometimes seem alien or inscrutable to outsiders.]"
+          auth: "[This Codex ]"
+      undersaturation: "Specific Erpenthrope opinions of her; views of the deified celebrity cults towards  her kind of spirituality."
+
+    historical_properties:
+      purpose: "Define the character's known origins and connections to  past events."
+      authenticated:
+        - property_label: Origin
+          value: "[Authenticated as descended from a  long line of swamp mystics and healers whose traditions pre-date the Biological Calamity, adapting their ancestral African spiritual  practices to the unique conditions of the Primal Mama world. Her lineage survived by understanding the swamp's deeper currents.]"
+           auth: "[This Codex, Implied by depth of knowledge]"
+        - property_label: Key_Past_Event_ Connection
+          value: "[Her lineage holds unique oral traditions about the Biological Calamity, framing it not just as  a scientific disaster but a spiritual rupture. They may have specific interpretations of why cattle became taboo/artifact and alligators the new  sustenance, perhaps tied to totemic shifts or spiritual pacts.]"
+          auth: "[PM Coherence - Calamity , Cattle/Alligator shift]"
+        - property_label: Inherited_Items
+          value: "[Authenticated to  possess a collection of ancient ritual tools (some with 1970s-style repairs/modifications using g ator parts or solar-charged luminous stones), sacred gourds, and a deep knowledge of ancestral chants and symbols adapted to the Pr imal Mama context.]"
+          auth: "[This Codex]"
+      undersaturation: "Specific names and stories of her direct ancestors ; the exact origin of her lineage's African roots and how they arrived in the region pre-calamity; precise details  of their adaptation post-calamity."
+
+  character_constitution_summary_narrative_function:
+    purpose:  "Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+    core_ essence: "Mama Zola is constituted as an embodiment of the Primal Mama world's deep, spiritual, and often unsettling soul , a bridge between the tangible swamp and its Cthulhu-goth esoteric undercurrents. Her African heritage is  authentically woven into her spiritual practices, appearance, and worldview, offering a distinct cultural lens that complements the retro-futuristic Southern  Gothic miasma. She is a figure of ancient wisdom, her power rooted in natural ritual and a profound understanding of the  world's post-calamity balance, including the strange lifeforms like vampire bunnies and the nature of ghosts.  Her adherence to a natural, handcrafted 1970s aesthetic in her tools and attire is an organic expression of  her values, contrasting with the more manufactured version in Beetriot. She represents a vital, older truth in a world grappling with  GE life, technological constraints, and deified pop-culture icons."
+    primary_narrative_function: " Serves as an Oracle, a Mentor, a Keeper of Forbidden/Forgotten Lore. She can guide protagonists, reveal crucial information  about the world's deeper mysteries (the Calamity, Erpenthropes, the true nature of the cattle taboo , the \"invisible women\" conspiracy through a spiritual lens), and act as a moral compass rooted in the swamp's primal logic.  She can also be a source of aid through ritual or esoteric knowledge."
+    key_internal_conflicts_from _bundle: "[The burden of ancestral knowledge vs. the difficulty of imparting it to a changing world; protecting the swamp's  delicate spiritual balance from encroaching \"progress\" or exploitation (e.g., from the meat oligarchy or reckless individuals); discerning  true seekers from those who would exploit her wisdom; the tension between ancient African spiritual roots and the bizarre new realities of Primal Mama.] "
+    potential_for_development_based_on_bundle: "[Revelation of deeper secrets about the Biological Calam ity or the Erpenthropes; playing a crucial role in a major spiritual crisis or event affecting the swamp; forming  an unexpected alliance (e.g., with a \"truth-seeking\" Erpenthrope or a desperate Lickskillet local ); her wisdom being sought to understand/counter the \"invisible women\" conspiracy; her reaction to direct interaction with high- tech elements like Automatons if forced.]"

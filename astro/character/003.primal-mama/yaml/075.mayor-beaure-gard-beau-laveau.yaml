@@ -1,0 +1,96 @@
+
+world : Primal Mama
+codex_version: 0.2 - Character Constitution
+last_updated: "[Current  Date]" # Assuming [Current Date] is a placeholder
+lead_architects: "[Your Name/Studio Name]"  # Assuming [Your Name/Studio Name] is a placeholder
+
+character_profile:
+  entity_id: CHAR _BEAU_LAVEAU_01
+  character_name: Mayor Beauregard "Beau" L aveau; "Boss Beau" (by underlings); "The Gator King of Beetriot" (derogatory , by outsiders)
+  entity_type: Person (Human)
+  archetype: Corrupt Politician /  Southern Demagogue / Ruthless Oligarch
+  primary_authentication_sources: This Codex Entry; Primal Mama Co herence Protocol v0.1
+  canon_tier: Tier 1
+  authentication_status: Authenticated_ Canonical_Active
+
+  authenticated_property_bundle:
+    Physical_Properties:
+      # Purpose: Define the character' s tangible presence.
+      Appearance_General: Human male, late 50s but meticulously maintained. Stocky, imposing  build, often looks like he's about to burst out of his expensive, tailored suits. Hairpiece impeccably co iffed in a 1970s power style. # Auth: [Primal Mama Codex - Visual Style  inferred from 70s Aesthetic]
+      Appearance_Specific_Features: Ruddy complexion, fleshy face with small , shrewd eyes. A smile that rarely reaches his eyes, often more a baring of teeth. Prominent gold rings  on several fingers. # Auth: [Visual Concept]
+      Appearance_Distinctive_Marks: A faint, almost  invisible scar along his jawline, rumored to be from "early business negotiations." Wears a solid gold alligator tooth pendant.  # Auth: [Primal Mama Codex - Alligator Meat economy]
+      Typical_Attire: Custom-tailored leisure  suits in shades of brown, mustard, or avocado green, always with a wide, patterned tie. Polished alligator- skin boots (non-GE, "vintage pre-calamity" if he can get them, or highest- grade GE otherwise, a subtle display of dominance over the primary resource). Often seen with a chunky, gold-plated " communicator" (styled like a 70s CB radio handset) that connects to his private network. # Auth: [ Primal Mama Codex - 1970s Tech Aesthetic & Alligator Meat Economy]
+      Voice_Speech_Pattern : Smooth, honeyed baritone with a pronounced, folksy Southern drawl when public-facing, which can turn sharp and  menacing in private. Master of the backhanded compliment and veiled threat. # Auth: [Dialogue Concept]
+      G ait_Mannerisms: Confident, slightly swaggering gait. Expansive gestures. Habit of patting people on the  back a little too hard. Constantly adjusting his tie or shooting his cuffs. # Auth: [Action Description]
+       Associated_Scent_If_Any: Expensive, slightly overpowering 1970s-style cologne, cigar  smoke (even if not actively smoking), and the faint, underlying metallic tang of Beetriot industry. # Auth: [ Sensory Palette]
+      Physical_Undersaturation: Exact height/weight; specific brand of hairpiece; details of his  private security force's appearance.
+
+    Functional_Properties:
+      # Purpose: Define what the character *can * and *cannot* do.
+      Skill_Masterful_Oratory: Masterful Oratory & Public Manipulation (Char isma) # Auth: [Demonstrated in public addresses within Beetriot]
+      Skill_Ruthless_Political_ Strategizing: Ruthless Political & Economic Strategizing (Controls Meat Oligarchy through proxies) # Auth: [Primal  Mama Codex - Deontic: Meat processor oligarchies causing friction]
+      Skill_Command_of_Network:  Command of extensive network of informants and enforcers (Beetriot City Guard essentially his private army) # Auth:  [Narrative Concept]
+      Ability_Situational_Resource_Control: Access to and control over significant portions of Beet riot's solar power grid and GE Alligator processing facilities. # Auth: [Primal Mama Codex - Aleth ic: Solar Dominance, Alligator Biogenesis]
+      Limitation_Physical: Not a physical combatant; relies entirely on  his security detail for protection. Suffers from gout due to rich diet (ironic, given no beef). # Auth: [Narr ative Detail]
+      Limitation_Knowledge: Limited understanding of advanced GE science or deep swamp lore; dismissive of spiritual /supernatural elements unless they directly threaten his power (views Swamp Witches as nuisances, Erpenthropes  as potential physical threats but not existential ones). # Auth: [Character Conception]
+      Limitation_Social: Deep ly distrusted and hated outside of Beetriot, particularly in Lickskillet. His power is geographically concentrated. #  Auth: [Primal Mama Codex - Deontic: Friction from oligarchies]
+      Usage_of_Automat ons_LLMs: Publicly decries their use, upholding the social stigma. Privately, may have a clandestine, heavily  secured (and 1970s-aesthetic-camouflaged) data analysis unit using LLM principles for  economic forecasting or social control modeling, its existence a deeply guarded secret. # Auth: [Primal Mama Codex - De ontic: Automaton/LLM User Stigma + Tyrant Hypocrisy Trope]
+      Functional_Unders aturation: Specific technical skills; ability to pilot watercraft; his direct involvement in the "invention" of new GE g ator strains.
+
+    Psychological_Properties:
+      # Purpose: Define the character's textually constituted inner  life.
+      Core_Trait_Narcissism: Extreme Narcissism & Self-Preservation # Auth: [Actions , Dialogue]
+      Core_Trait_Greed: Insatiable Greed (for power and wealth) # Auth : [Control of meat oligarchy, ostentatious displays]
+      Core_Trait_Paranoia: Deep-seated Paranoia  (regarding rivals, uprisings, losing control) # Auth: [Reliance on informants, security]
+      Dominant_Emotion:  Smug Arrogance (when in control); Vicious Anger (when challenged) # Auth: [Behavioral Patterns]
+       Key_Motivator: Maintaining and expanding his absolute control over Beetriot and its resources, especially the alligator meat trade. Legacy . # Auth: [Actions, Inferred from power base]
+      Key_Belief: Believes he * is* Beetriot; that its prosperity (and his own) is a direct result of his "strong leadership." Sees  the populace as sheep to be managed. # Auth: [Public Speeches, Private Musings]
+      Internal_Conflict: Char ismatic Public Persona vs. Vicious Private Tyrant; Desire for adulation vs. Contempt for the masses; Fear  of the "primitive" swamp encroaching on his "civilized" city. # Auth: [Inferred from dual nature]
+       Subjective_Memory_Content: Remembers the "bad old days" post-calamity with a self -serving narrative of how he "brought order" and "fed the people." Selectively forgets his own brutal tactics in  his rise to power. # Auth: [Narrative Backstory]
+      Psychological_Undersaturation: Any  genuine affection for anyone; childhood details; specific phobias beyond losing power; his true feelings about the deified celebrities (likely  views them as tools for populism).
+
+    Social_Relational_Categorical_Properties:
+      # Purpose : Define the character's place within the world's networks.
+      Official_Role: Mayor of Beetriot  (effectively its dictator) # Auth: [Character Concept]
+      Social_Status: Apex Elite of Beetriot; Head of the  dominant Meat Oligarchy faction. # Auth: [Primal Mama Codex - Deontic: Meat Processor Oligarchies ]
+      Primary_Affiliation: Beetriot City Government (his instrument) # Auth: [Role]
+       Secondary_Affiliations: Secret cabal of industrialists and financiers who benefit from his rule. Possible uneasy, deniable ties to certain  "cleaner" elements of the underworld for information or special tasks. # Auth: [Narrative Potential]
+      Key _Relationship_1_Head_of_Security: Utter reliance mixed with constant suspicion. # Auth: [Character  Concept]
+      Key_Relationship_2_Lickskillet_Mom_Pop: Exploitative and oppressive; views them as  resources to be squeezed or crushed if they resist. # Auth: [Primal Mama Codex - Deontic: Friction  from oligarchies]
+      Key_Relationship_3_Erpenthropes: Views them as dangerous, unpredictable elements to  be monitored, and if possible, eliminated or driven out of his domain. Fears their "truth-seeking" nature. # Auth:  [Primal Mama Codex - Epistemic: Erpenthrope Knowledge]
+      Species_Type: Human (Baseline) #  Auth: [Default]
+      Cattle_Ownership: Owns a prize herd of live cattle, kept in opulent,  heavily guarded rooftop "pastures" on Beetriot's tallest skyscrapers – the ultimate status symbol. # Auth: [Primal  Mama Codex - Deontic: Cattle as Artifacts]
+      Social_Undersaturation: Any family ties (wife , children – likely kept far from public or used as political pawns); specific rivals within the oligarchy; past mentors  or betrayers.
+
+    Modal_Properties:
+      # Purpose: Define any inherent unique relationship to world laws. 
+      entries:
+        - Property_ID: N/A
+          Property: None Authenticated. Beau L aveau's power stems from manipulation of existing Deontic, Axiological, and Economic systems within Primal Mama, not inherent  supernatural abilities.
+          Description: N/A
+          Limits: N/A
+          Authentication: Absence of evidence  for supernatural traits; all power derived from worldly means.
+      Note: His "exceptional status" is purely socio- economic and political, not a fundamental alteration of world physics or metaphysics concerning his person. # Note: This value does not contain a  colon.
+
+    Axiological_Properties:
+      # Purpose: Define the character's value status *within * Primal Mama.
+      Reputation_Beetriot_Elite: Authenticated as 'strong', 'dec isive', 'necessary evil', 'good for business' by his allies and beneficiaries. Feared by potential rivals. #  Auth: [Inferred social dynamics]
+      Reputation_Beetriot_Populace: Mixed; some genuinely  buy into his folksy strongman image and cult of personality (especially if they benefit or are propagandized); many fear him  and feel oppressed but powerless. # Auth: [Tyrant dynamic]
+      Reputation_Lickskillet_ Swamp_Dwellers: Universally despised as a 'greedy tyrant', 'Beetriot butcher', 'source  of their woes'. # Auth: [Primal Mama Codex - Deontic: Friction from oligarchies]
+       Reputation_Swamp_Witches_Erpenthropes: Seen as a 'Man of Concrete and Lies ', 'an infection of the City upon the Swamp', 'a dangerous fool meddling with forces he doesn't understand '. # Auth: [Character Concept based on their values]
+      Moral_Alignment_Narrative_Framing: Authent icated as primary antagonist; embodies corruption, greed, and abuse of power. His justifications are textually framed as self-serving and hypoc ritical. # Auth: [Narrative Role]
+      Axiological_Undersaturation: Specific opinions from the deified  celebrities (if they could comment); how history will judge him (within the narrative's future).
+
+    Historical_ Properties:
+      # Purpose: Define the character's known origins and connections to past events.
+      Origin:  Authenticated as rising from obscurity in the chaotic decades following the Biological Calamity. Possibly a ruthless opportunist in the early  days of the GE alligator trade, consolidating power through brutal takeovers and political maneuvering. Official histories are heavily sanitized. # Auth: [ Primal Mama Codex - History: Calamity Aftermath]
+      Key_Past_Event_Connection_Authenticated : Architect of the "Beetriot Accords" which solidified the meat oligarchy's power and formalized the city's  dominance over regional alligator harvesting, effectively institutionalizing his control. # Auth: [Fictional Historical Event]
+       Inherited_Items_Positions: Leveraged connections and ill-gotten gains to secure the Mayorship, which he  has held for an unusually long tenure through manipulated elections and suppression of dissent. # Auth: [Narrative Backstory] 
+      Historical_Undersaturation: Specific details of his early crimes; the identities of his first backers or victims; any  pre-calamity history (likely expunged or irrelevant).
+
+  character_constitution_summary_narrative _function:
+    # Purpose: Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated  property bundle.
+    Core_Essence: Mayor Beau Laveau is constituted as the personification of Primal Mama's  urban decay and corrupt power, a tyrant ruling Beetriot through a carefully crafted 1970s charismatic facade that  masks profound greed, paranoia, and ruthlessness. He controls the city's economic lifeblood (alligator meat processing , solar power distribution) and maintains his grip via propaganda, a loyal security force, and the exploitation of the Deontic (cattle  laws, Automaton stigma) and Axiological (70s aesthetic, perhaps even manipulating reverence for deified celebrities) systems of  the world. His ownership of priceless artifact cattle is the ultimate symbol of his decadent power.
+    Primary_Narrative _Function: Antagonist. Represents systemic oppression and corruption. He is the face of the forces seeking to control and exploit the world' s resources and people, particularly those in Lickskillet and the independent swamp communities. He serves as a major obstacle  to any protagonists seeking freedom, truth (especially Erpenthropes), or equitable existence.
+    Key_Internal _Conflicts_From_Bundle: Maintaining his populist image vs. his despotic actions. Fear of exposure of his clandestine activities (e .g., LLM use). Paranoia about losing control to rivals, swamp elements, or popular uprising. The psychological dissonance of demanding  adherence to a 1970s aesthetic while secretly desiring ever more advanced (hidden) tools of control.
+     Potential_for_Development_Based_on_Bundle: His downfall through exposure or rebellion. Escalation of his tyranny  in response to threats. Being outmaneuvered by Erpenthropes' pursuit of truth or Swamp Witches' esoteric  power. His paranoia leading to self-destructive decisions. A potential (though unlikely) shift if faced with a threat great  enough to require uneasy alliances.

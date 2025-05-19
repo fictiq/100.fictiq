@@ -1,0 +1,137 @@
+Count Reuven's Treasure
+Sigi's Bathhouse
+Let's start out by looking for this "Sigi Reuven" character we were told about. To find him head north from the notice board in Hierarch Square and when the road splits take the western branch (as opposed to the eastern branch that leads uphill). Shortly you'll see some arches to the east, through which is the underground bathhouse we're looking for. Knock on the ornate double doors and, after dropping his name, Geralt will be allowed in.
+
+Change into attire more appropriate for the venue then continue following him through the bathhouse, where you'll meet Sigi-and other members of Novigrad's criminal underworld. Your meeting will be interrupted shortly by some assassins-kill Junior's Henchmen (level eleven and twelve) and continue your meeting with the now-suspicious criminals. After some more arguing, the dwarven criminal Cleaver will stomp off, proving as subtle as his name. The King of Beggars also departs, leaving you and Sigi to conduct business. This starts the quest "The Gangs of Novigrad."
+
+Once you talk to Sigi in private you'll learn his real identity, as well as more information about this "Whoreson" everybody seems to have a problem with now. We need to find him before Cleaver does if we're going to get the information we need from him. Fortunately, there are three places we can go where we might learn some more about where Whoreson is hiding-in his casino, in the arena, and at his house. If all that fails, Sigi himself might know more.
+
+Objective	Reward
+For meeting Sigi	150 XP
+You can also ask him about Dandelion, but before you do, end the conversation, save your game, and challenge him to a game of Gwent. He's got a pretty paltry Northern Kingdoms deck-he will use a few Hero Cards, and he likes to stack weather and "Scorch" cards, but he's really lacking unit Strength. Beat him and he'll tell you about some elf who plays Gwent, reviving the quest "Gwent: Big City Players" in the process. Your prize for winning is the "Estrad Thyssen" card, a 10 Strength Hero Card for the Northern Kingdoms, but otherwise unremarkable.
+
+Objective	Reward
+For defeating Dijkstra at Gwent	25 XP
+Esterad Thyssen Card
+The Bomb in the Bathhouse
+Ask him about Dandelion and he'll confirm that Dandelion crossed Junior at some point... and suggest that he might be able to ask around if you do some work for him. Agree to help him, then follow Sigi down into a secret area under the bathhouse where he'll introduce you to his problem... or rather, the guardian of his problem. He needs you to recover his stolen assets and keep the fact that said assets were stolen a secret. Ask for more information about the heist and you'll get it, along with the formula for Pops' Mold Antidote, which you'll need to explore the sewers.
+
+Well, while we're down here, we might as well help Dijkstra out. Search the remains of a pipe beyond the destroyed wall, then head north-west into the sewers. Activate your Witcher Senses and search a ruined grate in an alcove to the north-west, then follow the current to the north-east. When you reach a gate, turn north-west and investigate another pipe on the floor, then pop some of that Pops' Antidote (it should have auto-equipped in one of your potion slots) and head into the poisonous green clouds. Each potion gives you 360 seconds of protection, and you have three of them-that's about eighteen minutes to do all this or... well, we'll have to waste some Alcohest making more.
+
+Go through the gate to the north-east, kill a Drowner (level nine) and investigate some more pipes on the wall. Loot a chest and other containers on a platform to the north-west, then head down some stairs to the east. Search some rubble at the end of the stairs to find a Silver Emerald Ring on the ground. Continue down a tunnel to the east, then north to enter a chamber where you can find a corpse to investigate. Another corpse can be found to the north. Investigate it, and the Gold Ring that lies opposite him, then turn west, where you'll find another chamber occupied by several Drowners (level nine).
+
+Clear the room then head up some stairs (jumping the gap) to reach an upper level upon which plenty of loot can be found in various barrels and parcels. When you're done enriching yourself return to the lower level and search near the western gate to find part of the bomb. If you continue west you'll eventually reach the canal, and Geralt will comment on how the heist must have progressed.
+
+Objective	Reward
+For searching the sewers	200 XP
+Return to Dijkstra and tell him what you found and, at length, the two of you will pair off to find out which pipe the bomb was dropped down. Search the eastern-most of the two baths assigned to you and you'll find a piece of the bomb, which prompts Geralt to call Dijkstra over. After he gets Happen to consult the guest book they'll find that their likely bomber just so happens to be a dead man. Looks like we'll need to investigate the house of the late Margrave Henckel.
+
+Objective	Reward
+For searching the bathhouse	50 XP
+Leave the bathhouse and head south to-and through-Hierarch Square. When you reach the "Hierarch Square" signpost turn west to find the house you're looking for. Use Aard to gain entrance to the curiously run-down house, then activate your Witcher Senses and search some footprints inside. Investigate a cylinder on cabinet along the wall to the east. Loot the level, then follow the trail upstairs, where you'll find a "Bottle of Wine" and a "Mysterious Note" to search. Geralt will read the note aloud when you pick it up. Head over to the wine room to the east and place the bottle in its proper slot to open the secret door back west, where the foot print trail leads...
+
+Head through the aforementioned secret door to find a room with all kinds of things to search, including some spilled Wyvern Oil on the floor near the door, a mixture of substances on a table to the to the west, bomb instructions on a bookshelf hear the bomb-making table (RIP Kalkstein), and finally, the "Letter from Dudu" on a chest near the bed. Geralt will read this letter aloud, too, after which he hears some footsteps.
+
+Objective	Reward
+For searching the conspirator's hideout	50 XP
+Go downstairs to see who came calling to find none other than Dijkstra, who has hired Triss to help provide magical support. Reveal some of what you discovered to Dijkstra to implicate a fellow nobody here is terribly fond of, then don't correct Dijkstra when he overstates the intimacy you and Triss currently share, if you want to appease Triss. Dijkstra will leave and Triss will tell you to meet her by an Eternal Fire Shrine at midnight-which just so happens to be the brazier we used as a landmark during our earlier exploration of the docks district.
+
+To Catch a Witch... Hunter
+When you're ready head to the docks ditrict and meditate at the shrine until midnight (if necessary). When you wake up Triss'll be there, where she'll lay out a plan for Geralt-one which Geralt is, initially (and beyond all belief) initially confused by. The only person that could be dumber than Geralt is our target, if he falls for this ruse.
+
+Geralt will take Triss to the Witch Hunter's barracks, where the temptation of nabbing such a prominent sorceress will gain us access. Access, but not the audience we seek. To effect this we'll need to keep playing the act. If you provoke the Witch Hunters, you'll have to fight your way through the fortress. Kill the initial group of Witch Hunters (level nine) then go through a doorway to the south, where more Witch Hunters await. Fight your way up some wooden stairs to the south and into a building, where you'll find Menge (level ten).
+
+Alternatively you can pick the dialogue options "Wanna talk to Menge," "Got something to offer Menge" and "I'll tell your boss. No one else." to get escorted into the Witch Hunter stronghold, whereupon the Witch Hunters will attempt to take Triss off for a delightful bout of torture. If you refuse, you'll have to fight them here, having only made a bit more progress than you would have earlier-and probably having to end up fighting the same number of Witch Hunters.
+
+If you let them take Triss, (pick the dialogue option "Fine, take her.") you'll be escorted to Menge, where you'll hear the sounds of their interrogation techniques taking effect. Play it cool and pick the dialogue option "Why not?" to have a drink. After it's certain you are who you say you are, say "Your hunters are torturing Triss, but I haven't been paid," then say "Witchers do anything for gold." After this, be sure to say "I'm looking for this treasure..." which will give us the information Dijkstra needs.
+
+Finally, ask about Dandelion. If you asked about Dijkstra's treasure earlier, Menge will turn to violence and you'll have to put down all the Witch Hunters in the stronghold. Otherwise, it's just a subject the two can't come to terms over. In the latter case, Menge will decide to have a look at how Triss is doing, which... ends poorly for him. This will start the quest "A Matter of Life and Death"... if you started a fight earlier, you'll have to do a little more work to start this quest.
+
+No matter how you got to this point, Menge is dead, and Triss will search Menge and-if you killed him-you'll be told to search his desk to find a "Letter to Caleb Menge" (which he will have burned if you talked your way in) and "Menge's Holy Tome." Triss, for her part, will turn up Menge's Key, which... well, it's something. Exit the stronghold via the locked door to the west. Once outside, Triss will decide to blow off some steam and tell you to visit her later. Triss will then begin a little act of arson before teleporting off. Geralt will have to climb atop the roof of a building to the west, then jump over the adjoining wall. Search a wall to the north to find that it's weak-blast it with Aard.
+
+Objective	Reward
+For killing Menge yourself	200 XP
+For playing along until Triss kills Menge	300 XP
+Time to report back to Dijkstra. Fortunately, he's watchful and impatient. Once we're through the wall one of his goons will talk to us, and take us to meet Dijkstra. The two will banter and you can choose to be rude or polite, as you see fit. Depending on what you did earlier you'll have to talk to Priscilla about the Doppler, or go to meet the spy who in contact with Menge-the location of which Dijkstra imparts to us. In the former case read the next two paragraphs, if not, skip them. Our reward from Dijkstra is the same either way.
+
+Objective	Reward
+For giving Dijkstra Menge's Key	100 XP
+90 Crowns
+Note: If you learn about Dijkstra's treasure from Menge and pass this information onto him, he'll help you out later in the game. If not, not.
+
+If you... lacked finesse, shall we say... during our attempt to reach Menge, you'll have to do an extra step-talk to the spy that was in contact with Menge. Travel to the Eternal Fire Shrine east of Hierarch Square and search the eastern edge of the south-eastern most pillar to find the drop box location. Deposit Menge's Holy Tome, then head to the eastern edge of the outskirts of Novigrad and meditate until midnight if you have to.
+
+Once done, head inside and activate your Witcher Senses to find the perfect-if not predictable place to hide. Geralt's not very imaginative. Our spy will show up-after an unexpected visitor-and play the tough guy act until our friend makes him start speaking in a most... awful... way. Learn everything the spy knows, then make a decision concerning his fate. Menge is the key to getting Dandelion, but Menge is dead... seems we need a Doppler, and Priscilla might know how to find one. This starts the quest "A Matter of Life and Death."
+
+Objective	Reward
+For interrogating the spy	50 XP
+Before we head off to find Priscilla, however, let's clear up one more quest... Fast-travel to the "Logger's Hut" signpost, which is south-west of Novigrad, then head south and slightly east into the forest to find the elven Merchant in the Scoia'tael camp. Now that Djikstra outted him, he'll play Gwent with you, fielding a mundane Scoia'tael deck. A few "Muster" cards, some "Commander's Horn" cards, "Scorch" cards, but nothing spectacular. Once you beat him he'll make you the new owner of the "Cirilla Fiona Elen Riannon" card-Ciri for short-a 15 Strength Close Combat Unit Hero Card, and worthy addition to any deck. You'll also get the "Fancesca Findabair, the Beautiful" card. This ends "Gwent: Big City Players."
+
+Objective	Reward
+For defeating the Scoia'tael merchant	25 XP
+Cirilla Fiona Elen Riannon Card
+Francesca Findabair, the Beautiful Card
+Return to a signpost and fast travel to "Hierarch Square" then head north to reach the Kingfisher, where Priscilla is waiting in her room on the second floor. Talk to her and... well, she doesn't help very much. Seems we need to deal with Junior first. This does, however, complete the quest "Count Reuven's Treasure."
+
+Get Junior
+Before we can go after Dandelion, we need to find this Whoreson Junior character, and we have three places to search-the Casino, his house, and his arena. But before we go do any of that business, we should go see Cleaver, who is also looking for the Whoreson. Why not help each other out?
+
+The Gangs of Novigrad (level 9)
+Head west along the southern end of Hierarch Square then take some stairs north to-and through-a tunnel, where you'll find Cleaver's henchmen. Head inside a house to the north to find Cleaver in the middle of some business. After he's seen to it, he'll talk to Geralt and propose an alliance-a Witcher is a mighty asset alongside some dwarven muscle. If you accept, this quest will run parallel to the stages of "Get Junior." Cleaver will rule out Whoreson's house as a target, suggesting instead that you focus on the casino and arena. If you accept his offer, it will remove any opportunity of finesse or subtlety when dealing with the "Get Junior" quest. A group of angry dwarves tends to do that.
+
+Whoreson Junior's Hideout
+Whether you accept Cleaver's offer or not, it's still not a bad idea to check out Whoreson's hideout. Cross St. Gregory's Bridge to reach the Temple Isle, then follow the road north, west, south, then west again to reach the house you're looking for just in from of an arch. Outside you'll see Cleaver's Henchmen, and more are inside making a mess of the place.
+
+Talk to one of the "henchdwarfs" to learn more about what happened-although it should be painfully obvious. On top of it, the dwarf isn't very helpful. Search some documents on the floor, then head upstairs and investigate some rubbish on the floor, then take a look at some torture implements on the wall. After those three things are searched Geralt will decide that this place is a bust-but you can at least loot the house before you leave.
+
+Whoreson's Casino (Sided with Cleaver)
+Follow the quest marker to find Whoreson's casino, which is along the eastern side of Novigrad's central district, north-east of Hierarch Square. If you decided to work with Cleaver, you'll find some of his goons out front. Talk to their leader and tell him you're ready to go, then head around the corner and into the casino, killing everything man-sized you see. Grab a "List of Debtors" off the counter, then continue upstairs, murdering as you go.
+
+On the third floor search a chest to find the Steel Sword "Ashrune," then go through the door and talk to Rico. He's been worked over well enough by Whoreson's men, and he's more than willing to talk to get out of here. Listen to what he has to say, then decide whether to set him free or not. In the former case, it'll start the quest "Honor Among Thieves."
+
+Note: If all of Cleaver's dwarves die, you'll fail the quest "The Gangs of Novigrad."
+
+Whoreson's Casino (Didn't Side with Cleaver)
+If you didn't side with Cleaver (or you just decide not to bring his goons along for some reason) you'll have to talk to the Bouncers out front and either pick a fight, bribe them (200 Crowns) or use the Axii Sign on them. If you pick a fight... well, things will proceed much like they would with Cleaver's goons, and if you're going to do that, why not side with Cleaver? The following part of the walkthrough will be separated depending on whether you decide to side with Cleaver, or if you for whatever reason decline.
+
+Objective	Reward
+For using Axii on the Bouncers	40 XP
+Once inside grab the book "Income and Outlays," then head up to the second floor to find some people to play Gwent with. You won't win any cards here, but you can bet for a good deal of money (up to 100 Crowns). Win twice and you'll be invited upstairs, where some goons will declare that they've decided you were cheating. Kill them and talk to Rico, decide whether to set him free or not. In the former case, it'll start the quest "Honor Among Thieves."
+
+Loot the body of one of the goons to find the note "List of Debtors," then leave the room and open a chest to score the Steel Sword "Ashrune." Head downstairs and kill all of Whoreson's Henchmen (level twelve) that oppose you, being sure to thoroughly loot the place as you do.
+
+Objective	Reward
+For freeing Rico	XP Varies
+Whoreson's Arena (Sided with Cleaver)
+Leave the casino and head south, turning east under an arch then go through a tunnel to the north. Continue north until you find another group of Cleaver's men, talk to their leader, then carry on to the north. Kill two Guards (level twelve) outside a gate and head down some stairs and through some gates until you reach another room with more guards. Kill them, then head down a tunnel to the south, where you'll have to fight another batch of guards in another chamber. Further east is a large cluster of foes including the leader of this operation-Igor (level thirteen). Kill them and loot the bodies to find "Igor's Key," which opens the small chest on the table near the chair, which contains a "Message From Igor." Read it to learn about some stash-Whoreson's money.
+
+Backtrack to the east and go through a gate to the north, then head down a ramp to the west. Follow the linear tunnel to the south, through a gate, then continue south into a chamber. Turn on your Witcher Senses and explore the eastern wall to find a secret door, which can be opened by manipulating a torch to the south. Head through the not-so-secret door and loot around... mostly accumulating junk. In a chest along the eastern end of the room, however, you can find a "Mysterious Letter," which confirms Whoreson Junior's little alliance.
+
+Whoreson's Arena (Didn't Side with Cleaver)
+Leave the casino and head south, turning east under an arch then go through a tunnel to the north. Keep heading north until you find two Bouncers, whom you can provoke (again, picking a fight here mandates a fight throughout the rest of the area, and if you're going to do that, you might as well score Cleaver's gratitude-and coint), bribe them (100 Crowns) or use the Axii Sign.
+
+Objective	Reward
+For using Axii on the Bouncers	40 XP
+Breeze past the Bouncers and head down a series of stairs and through some gates. Enter a chamber occupied by several guards and go down a tunnel to the south. Reach another chamber and turn east, where you'll find a man named Igor sitting on a chair. Geralt will ask for a job-tell Igor you want to be a bouncer for the arena and he will decide to test your credentials by throwing you in the arena.
+
+Your first foe will be Gustav Roone (level twelve)-dispatch him and you'll next have to face two brothers from Skellige who wield heavy weapons. The third round will be against a Wyvern (level eleven), while the fourth will be against two Endrega (levels ten and twelve). The final round is against Boris the bear (level eleven). Kill all these critters and Whoreson Junior will show up to congratulate you. Unfortunately, Cleaver picks this time to attack, which causes Whoreson to run off. Dispatch Igor (level thirteen) and his goons, searching the former for "Igor's Key," then head east through the gate they entered.
+
+Approach the eastern wall and Geralt will comment about some peculiar wear he sees. Activate your Witcher Senses to spot a secret door, then interact with a torch on the wall to the south to open said door. In a chest along the eastern end of the room beyond the secret door you'll find a "Mysterious Letter," which confirms Whoreson Junior's little alliance.
+
+Read the mysterious letter, then leave the secret chamber. Go up a tunnel to the north, through a gate, turn west around a corner, then go up some stairs and finally through a gate to the south. Help Cleaver's dwarves kill Whoreson's henchmen in the room to the east, then loot the small chest on a table near the chair from which Igor once presided to find a "Message from Igor." Backtrack west, then go up a tunnel to the north (not back through the gate down to the arena) when you get the chance. When you reach the room you entered into, go through a series of gates and up stairs which eventually lead to the surface.
+
+Objective	Reward
+For finding Whoreson's documents	XP Varies
+Collecting Debts
+Dijkstra, a former political animal himself, would certainly love to know what we discovered about Junior. First however, we should pay Cleaver a visit (if you decided to help him) as well as the King of Beggars (if you freed Rico) as both might just owe us for helping them out. Cleaver will suggest that Junior will not be wise enough to keep his head head down after his casino and arena were raided-and proves that he pays generous. The King of Beggars also proves he's not stingy. For saving Rico we'll score the Silver Sword "Eirlthrad" and some "Freya's Warriors' Armor." This completes the quests "The Gangs of Novigrad" and "Honor Among Thieves," respectively.
+
+Objective	Reward
+For helping Cleaver raid Whoreson's establishments	XP Varies
+300 Crowns
+For returning to the King of Beggars after saving Rico	XP Varies
+Eirlthrad
+Freya's Warriors' Armor
+Return to Dijkstra's bathhouse and head into his office to find the portly former spy and tell him about Junior's Redanian connection. Dijkstra will instruct us to pay our old Temerian buddy Vernon Roche a visit, as he might be able to get us to Junior. Since we've already visited him, you just need to fast-travel to the "Temerian Partisan Hideout" signpost. Turns out we're in luck-Vernon was just about to meet with a Redanian contact, and invites us to meet him near Oxenfurt.
+
+Objective	Reward
+For telling Dijkstra about Whoreson's Redanian connection	150 XP

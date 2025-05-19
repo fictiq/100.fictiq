@@ -1,0 +1,99 @@
+
+quest_id: PM_Q_BayouBoogieBlues
+title: "Bayou Boogie Blues "
+location: "Lickskillet Outskirts / Beetriot Periphery"
+prerequisite_quest:  "[Assumed Previous Quest involving Beau Gator, analogous to 'Poet Under Pressure']"
+initiator: "Find  Beau Gator at 'The Rusty Flotilla'"
+
+parts:
+  - part_id: Start
+    title:  "The Rusty Flotilla Ruckus"
+    description: "Return to The Rusty Flotilla, a half -sunk, perpetually listing structure that serves as a combination processing shed and dive bar on the Lickskillet waterways. Inside , you'll find Beau Gator – a charismatic local known for his smooth talk and even smoother schemes – in a heated argument with Magnolia  May, his sharp-tongued business partner (or perhaps long-suffering friend). Several local Swamp Rats (general  populace, gator skinners, scavengers) linger, watching the drama. It's clear Beau's latest grand vision is  causing friction. After Magnolia storms off, shaking her head, talk to Beau. He's determined to turn the dilapidated  Flotilla into the premier entertainment venue on this side of the bayou – a real Juke Joint & Gator Grill. Naturally , he's flat broke and needs help. He won't take charity ('Gator Scrip') from you,  insisting it'd ruin his artistic integrity. Instead, he plans to charm an investment out of Mama Junebug, an  eccentric, wealthy recluse known for collecting pre-Calamity artifacts and 1970s memorabilia – and  who Beau claims he once 'sweet-talked somethin'' fierce.' First, however, Beau needs a specific prop back  from Delta Dawn, a local performer known for her interpretive rituals honoring the Deified Celebrity Jerry Reed. You can also chat with D udu Boudreaux (if he's around, maybe an Erpenthrope information broker?) before leaving. If you acquired  a particularly kitschy Hierarch Brand Cattle Feed Advertisement Poster (treated like forbidden art) during a previous entanglement, you can  offer it to Beau as a 'conversation starter' for Mama Junebug."
+
+  - part_id: Part1
+    title : "The Solar Bandit's Prop"
+    objectives:
+      - id: PM_Q_BBB_P 1_Obj1
+        description: "Retrieve the Ceremonial Gator Spear Prop from Delta Dawn."
+        details: "Head towards  the designated Solar Charging Station Delta-7 (a field of slightly humming, wood-paneled solar arrays servicing local airboats and  homesteads). You'll find Delta Dawn and her small troupe rehearsing near the arrays, using the ambient energy hum in  their performance. Simply talk to her; she’ll gladly hand over the 'Ceremonial Gator Spear Prop' –  a flashy piece of molded plastic and chrome designed to look impressive but utterly non-functional."
+      - id: PM _Q_BBB_P1_Obj2
+        description: "Meet Beau Gator at Mama Junebug's  Retro-Shack."
+        details: "Travel (likely via airboat or skiff) to Mama Junebug's residence  – a surprisingly clean, retro-mod structure built on stilts over the murky water, located closer to the opulent glow of Beet riot. Wait until dusk if necessary (solar-powered fairy lights might flicker on). Approach the entrance to trigger Beau's arrival . He quickly outlines his plan: he'll pose as the legendary folk hero 'The Solar Bandit' (a figure loosely  based on Jerry Reed's movie persona, known for charming the wealthy and outsmarting authorities) to woo Mama Jun ebug into funding his Juke Joint. Agree to play along. How convincingly you back up Beau's outlandish claims (using  timed dialogue choices, maybe striking a 'cool' pose when prompted) is up to you."
+      - id:  PM_Q_BBB_P1_Obj3
+        description: "Successfully play along with Beau's ' Solar Bandit' charade."
+        reward:
+          xp: 50
+
+  - part_id: Part 2
+    title: "Bayou Renovations & A Missing Musician"
+    description: "Return to The Rusty Flot illa. Despite seemingly having secured only promises (or perhaps a small advance) from Mama Junebug, Beau has already hired a crew  of Swamp Scroungers (local handymen skilled in repurposing scrap) who are busy tearing down rotten boards and installing  gaudy, 70s-style fixtures."
+    player_choices:
+      - choice_id: Decor Theme
+        prompt: "Beau tasks you with making crucial decor decisions:"
+        options:
+          - id: Theme 1
+            text: "Theme 1: Swamp Chic (Polished cypress, alligator hide upholstery, hanging Spanish moss accents)"
+           - id: Theme2
+            text: "Theme 2: Retro Rocket (Chrome trim, wood paneling  everywhere, Naugahyde booths, lava lamps)"
+          - id: Theme3
+            text: "Theme 3:  Deity Den (Velvet paintings of Burt Reynolds, Jerry Reed shrine, Gram Parsons listening corner)"
+    post_choice _description: "After you choose, Magnolia May arrives, exasperated. Beau has vanished *again*, leaving her to manage the Sc roungers. She sends you to find him, muttering something about him chasing after some musician."
+
+  -  part_id: Part3
+    title: "Securing the Rhythm Queen"
+    objectives:
+       - id: PM_Q_BBB_P3_Obj1
+        description: "Find Beau Gator and recruit  Rhythm Ruby."
+        details: "Head to a cluster of houseboats and shacks near the main Lickskillet All igator Processing Docks. You'll hear Beau banging on a door, arguing. He's trying to hire Rhythm Ruby, a  legendary local performer known for her hypnotic singing voice and ability to make even the clunkiest Automaton dance (figuratively speaking). The  problem is her fiercely protective husband, Cletus, who thinks Beau is bad news. The door is locked. Activate your enhanced  senses (if applicable, like Erpenthrope Scent Tracking or just keen Swamp Sense) to investigate nearby. Search a  pile of discarded Bio-Battery Casings or a rusty Bucket nearby to find the 'Key to Ruby's Houseboat ' (likely hidden by Ruby herself). Enter the houseboat. Confront Cletus."
+      - id: PM_Q _BBB_P3_Obj2
+        description: "Convince or subdue Cletus to secure Rhythm Ruby 's services."
+        details: "You have timed choices: 1. Provoke a Fight: Engage Cletus  in Bayou Brawling (fisticuffs). Defeat him to earn his grudging respect (or at least get him out  of the way). 2. Diplomacy: Keep Cletus calm (appeal to his pride, assure him of Ruby 's safety/fair pay, maybe subtly mention the *potential* for trouble if Beau's plans are thwarted). Let  Beau work his charm. Either way, you secure Ruby's services for the Juke Joint's opening night. Of course,  Beau *immediately* has another problem: he needs promotional Placards painted, but the artist is missing. Agree to handle  it and send Beau back to Magnolia before he causes more trouble."
+        reward:
+          xp: 50 
+
+  - part_id: Part4
+    title: "A Painter's Gamble"
+    objectives :
+      - id: PM_Q_BBB_P4_Obj1
+        description: 'Find the missing sign  painter, "Mud Puddle" Pete.'
+        details: "Your next destination is 'Mud Puddle' Pete's shack /studio, located in a slightly more remote, art-cluttered corner of the bayou west of the main Lickskillet  drag. Head inside to find the place ransacked. You'll encounter a pair of Oligarchy Goons (tough-looking individuals  implicitly connected to the big Beetriot meat processors trying to squeeze out local competition). They were looking for Pete over some debts.  They don't like witnesses. Defeat the Goons (fisticuffs, or perhaps using environmental hazards like knocking  over unstable paint stacks). They'll grudgingly tell you Pete took his last Scrip and headed to the Bayou Burn out Airboat Races hoping to win big."
+      - id: PM_Q_BBB_P4_Obj 2
+        description: "Resolve Mud Puddle Pete's debt and secure the placards."
+        details: " Use the nearest Airboat Dock fast-travel point (if available) or navigate the waterways to the race location – likely a  treacherous, makeshift course marked by flaming barrels and cheering crowds. Find Pete near the betting stalls, looking stressed. He explains his predicament and  his long-shot bet."
+        player_choices:
+          - choice_id: PeteDebt
+            prompt : "You have options:"
+            options:
+              - id: PayDebt
+                text: "Pay His  Debt: Give him 200 Gator Scrip directly to satisfy the Oligarchy loan sharks (for now)."
+               - id: WinRace
+                text: "Win the Race: Offer to pilot his souped-up ( but possibly unreliable) airboat in the upcoming race. Winning requires skillful piloting (a minigame or skill check).  The race is against other local daredevils."
+              - id: AbandonPlacards
+                text: "Abandon  the Placards: Decide Beau's Juke Joint doesn't *really* need fancy signs."
+      - id: PM _Q_BBB_P4_Obj3
+        description: "(Optional) Win the Bayou Burnout Airboat Race."
+         condition: "Player chose 'WinRace' option and succeeded."
+        reward:
+          xp: 25 
+          currency:
+            type: "Gator Scrip"
+            amount: 80
+          items :
+            - id: "Mastercrafted Airboat Rudder (70s Style)"
+              name: " Mastercrafted Airboat Rudder (70s Style)"
+              quantity: 1
+      - id: PM _Q_BBB_P4_Obj4
+        description: "Recover the promise of placards from Mud Puddle  Pete."
+        condition: "Player did not choose 'AbandonPlacards' option."
+        reward:
+          xp : 25
+
+  - part_id: Conclusion
+    title: "Bayou Boogie Inauguration"
+     description: "Return to The Rusty Flotilla, now significantly transformed (based on your decor choice). The Swamp  Scroungers are packing up. Find Beau Gator admiring his handiwork. He might grumble slightly if you didn't  pick the 'Deity Den' theme ('Needs more Burt!' or similar), but he'll be thrilled if you tell  him the placards are secured. He proudly announces the venue's new name: 'Beau Gator''s Bayou Boogie.'  He invites you for a celebratory drink (potent Swamp Moonshine served in a chipped ceramic mug). If you accept, he 'll ask about your earlier conversation with Magnolia May, leading to more banter about local gossip and his grand future plans.  Suddenly, the celebration is cut short. A panicked Swamp Rat bursts in, shouting terrible news about Magnolia May – she' s been attacked, possibly by something unnatural or related to the darker elements of the bayou..."
+    leads_to_ quest: "[New Quest Name, e.g., Swamp Sins or Carnal Critters]"
+    final_objective :
+      id: PM_Q_BBB_Complete
+      description: "Help Beau Gator realize his Juke Joint  dream."
+      reward:
+        xp: 50

@@ -1,0 +1,101 @@
+Crafting Components
+To make all those wonderful weapons and armor you'll need to kill monsters more effectively, you need components. Components can be found carelessly strewn throughout the world, in various container. Other weapons and otherwise useless items can also be dismantled for components. Sometimse that just doesn't suffice, though. When that happens, you can visit a craftsman and have them forge your lesser components (most of which can be purchased from various craftsmen) into rarer ones. Below are the diagrams for these, most-if not all-of which you will begin the game with.
+
+Crafting Component	Required Ingredients	Craftsman Requirements
+Dark Iron Ingot	Dark Iron Ore x2	Craftsman/Journeyman
+Dark Steel Ingot	Steel Ingot x1
+Dark Iron Ore x2	Craftsman/Journeyman
+Dark Steel Plate	Dark Steel Ingot x2	Craftsman/Journeyman
+Dimeritium Ingot	Glowing Ore Ingot x1
+Dimeritium Ore x1	Craftsman/Journeyman
+Dimeritium Plate	Dimeritium Ingot x2	Craftsman/Journeyman
+Draconid Leather	Chitinous Shell x5
+Hardened Leather x2	Craftsman/Journeyman
+Glowing Ore Ingot	Glowing Ore x2	Craftsman/Journeyman
+Hardened Leather	Wax x4
+Cured Leather x1	Craftsman/Amateur
+Hardened Timber	Resin x1
+Timber x2	Craftsman/Amateur
+Iron Ingot	Iron Ore x2	Craftsman/Amateur
+Leather Cured using the Rivian Method	Leather Scraps x4	Craftsman/Amateur
+Leather Scraps	Leather Straps x4	Craftsman/Amateur
+Lesser Glyph of Infusion	Monster Blood x1
+Powdered Pearl x1
+Silk x1
+Feather x1	Craftsman/Amateur
+Lesser Runestone	Infused Dust x1
+Black Pearl Dust x1	Craftsman/Journeyman
+Linen	Thread x4	Craftsman/Amateur
+Mahakam-style Dark Steel Ingot	Dark Iron Ingot x1
+Steel Ingot x1	Craftsman/Journeyman
+Mahakam-style Dimeritium Ingot	Dimeritium Ore x2	Craftsman/Journeyman
+Maribor-style Silver Ingot	Silver Ore x2	Craftsman/Amateur
+Meteorite Ingot	Meteorite Ore x2	Craftsman/Journeyman
+Meteorite Silver Ingot	Silver Ingot x1
+Meteorite Ingot x1	Craftsman/Journeyman
+Meteorite Silver Plate	Meteorite Silver Ingot x2	Craftsman/Journeyman
+Refined Dimeritium Ore	Meteorite Silver Ingot x1
+Dark Steel Ingot x1	Craftsman/Journeyman
+Refined Silver Ore	Silver x5	Craftsman/Amateur
+Resin	Sap x2	Craftsman/Amateur
+Silk	Linen x2	Craftsman/Journeyman
+Silver Ingot	Silver x10	Craftsman/Amateur
+Silver Plate	Silver Ingot x2	Craftsman/Amateur
+Steel Ingot	Coal x1
+Iron Ore x2	Craftsman/Amateur
+Steel Plate	Steel Ingot x2	Craftsman/Amateur
+String	Thread x2	Craftsman/Amateur
+Thread	Cotton x2	Craftsman/Amateur
+Tretogor-style Steel Ingot	Coal x1
+Iron Ingot x1	Craftsman/Amateur
+Zerrikanian Powder	Coal x1
+Sulfur x1
+Saltpeter x5	Craftsman/Amateur
+Crossbow Bolts
+Sometimes those infinite, mundane Crossbow Bolts you always seem to have at the ready just won't cut it... okay, that's a lie, you never need to make these unless you're hunting for Achievements/Trophies. In which case, here are the diagrams.
+
+Crossbow Bolt	Required Materials	Level	Craftsman Requirements	Stats
+Bait Bolt	Feather x1
+Iron Ore x1
+Hardened Timber x2
+Silver Ore x1	1	Blacksmith/Amateur	Silver Damage: +5
+Piercing Damage: +6
+Armor Piercing: +100
+Blunt Crossbow Bolt	Feather x2
+Iron Ore x1
+Fiber x2
+Silver Ore x1	1	Blacksmith/Amateur	Effect Duration: 10 seconds
+Silver Damage: +8
+Bludgeoning Damage: +8
+Broadhead Bolt	Feather x3
+Iron Ore x1
+Fiber x2
+Silver Ore x1
+Monster Saliva x1	9	Blacksmith/Amateur	Effect Duration: 15 seconds
+Silver Damage: +8
+Piercing Damage: +8
+Exploding Bolt	Monster Feather x1
+Iron Ore x1
+Hardened Timber x2
+Silver Ore x1
+Zerrikanian Powder x1	19	Blacksmith/Amateur	Silver Damage: +12
+Fire Damage: +12
+Piercing Damage: +12
+Precision Bolt	Feather x4
+Iron Ore x1
+Timber x2
+Silver Ore x1	4	Blacksmith/Amateur	Silver Damage: +20
+Piercing Damage: +20
+Armor Piercing: +7
+Split Bolt	Feather x4
+Iron Ore x1
+Timber x2
+Silver Ore x1	14	Blacksmith/Amateur	Silver Damage: +10
+Piercing Damage: +10
+Tracking Bolt	Monster Feather x1
+Iron Ore x1
+Hardened Timber x3
+Silver Ore x1	1	Blacksmith/Amateur	Effect Duration: 120 seconds
+Silver Damage: +5
+Piercing Damage: +6
+Armor Piercing: +100

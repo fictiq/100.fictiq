@@ -1,0 +1,155 @@
+
+world : Primal Mama
+codex_version: "0.2 - Character Constitution (Jedediah Toussaint )"
+last_updated: "[Current Date]" # Placeholder: User should update this
+lead_architects: "[ Your Name/Studio Name]" # Placeholder: User should update this
+
+character_profile:
+  entity_id:  CHAR_JedediahT_01
+  character_name: Jedediah "Jed" Toussaint 
+  entity_type: Person
+  archetype: "The Wrongfully Accused / The Broken Man / Fugitive "
+  primary_authentication_sources: "This Codex Entry"
+  canon_tier: "Tier 1" 
+  authentication_status: Authenticated_Canonical_Active
+
+  authenticated_property_bundle:
+    physical_properties:
+       appearance_general:
+        value: "Human male, mid-40s, with pronounced African facial features – broad nose , full lips. Once powerfully built from swamp work, now gaunt and perpetually hunched, radiating weariness."
+         auth_source: "This Codex"
+      appearance_specific_features:
+        value: "Deep- set, haunted dark eyes that rarely meet another's gaze directly. Skin is a rich brown, but ashen around the mouth and  eyes from stress and malnutrition. Hair is short, tightly coiled, and prematurely flecked with grey, often matted with swamp  detritus."
+        auth_source: "This Codex"
+      appearance_distinctive_marks:
+         value: "The thumb and first two fingers of his left hand are missing, replaced by ragged scar tissue – a stark reminder of  an \"enforcement action\" by oligarchy thugs or a desperate escape. A faded, intricate geometric tattoo, reminiscent of West African motifs , is partially visible on his right forearm when his sleeve is pushed up."
+        auth_source: "This Codex" 
+      typical_attire:
+        value: "Filthy, torn canvas trousers, once dyed a deep indigo , now faded to murky brown. A threadbare, patched-up burlap shirt. Often barefoot, or with remnants of  hide-wrapped foot coverings. Constantly shivers, even in the bayou heat."
+        auth_source: " This Codex - Visual Interpretation of Primal Mama aesthetic for the downtrodden"
+      voice_speech_pattern:
+        value : "Voice is low, hoarse, and often breaks into a coughing fit. Speaks in short, hesitant phrases, sometimes  mumbling incoherently. Carries a distinct Lickskillet drawl, but fear has clipped his expressiveness."
+         auth_source: "This Codex - Reflecting Primal Mama's regionalism and his trauma"
+      gait_manner isms:
+        value: "Moves with a furtive, skittish gait, always scanning his surroundings for threats. Flin ches at loud noises or sudden movements. Constantly wrings his remaining right hand or touches the stump of his left."
+         auth_source: "This Codex - Embodiment of fear and trauma"
+      associated_scent:
+         value: "Overpowering scent of stale swamp water, mud, unwashed body, and a faint, lingering metallic tang of  old blood or fear-sweat."
+        auth_source: "This Codex - Sensory Palette of Primal Mama 's underbelly"
+      physical_undersaturation: "Exact height/weight (though visibly underweight), specific details of his original , pre-trauma physique, full extent of minor scars from swamp life."
+
+    functional_properties:
+      skills: 
+        - context: "Past"
+          description: "Formerly an adept alligator trapper and skiff navigator, with a  good working knowledge of bayou flora/fauna. Capable of basic butchery and hide preparation."
+          auth _source: "Backstory Implication - Lickskillet resident"
+        - context: "Present"
+          description : "Proficient at hiding, scavenging for scraps, and moving silently through dense swamp terrain. Possesses a desperate,  animal cunning for short-term survival."
+          auth_source: "Current State as Fugitive"
+      limit ations:
+        - type: "Physical"
+          description: "Severely weakened by malnutrition and sustained stress.  Missing fingers on left hand significantly impair manual dexterity for tasks requiring two good hands (e.g., complex tool use,  fighting). Prone to sickness from exposure and poor diet."
+          auth_source: "Physical Description, World Real ities"
+        - type: "Knowledge"
+          description: "Largely ignorant of Beetriot politics or the  true extent of the meat oligarchy's power structure, only knowing its brutal local enforcers. His understanding of the \" biological calamity\" is based on Lickskillet folklore and hearsay. No knowledge of advanced GE or solar tech beyond seeing  it operate."
+          auth_source: "Social Position, Epistemic Rules of Primal Mama"
+        - type:  "Social"
+          description: "Completely ostracized. Branded a criminal (likely related to a trumped-up  charge involving cattle or defying the oligarchy). Has no allies, no resources, and no legal standing. Actively hunted by local  enforcers or bounty hunters sympathetic to the meat processors."
+          auth_source: "Victim Status, De ontic Rules of Primal Mama"
+      functional_undersaturation: "Specific fighting skills (likely minimal beyond desperate  flailing); ability to read or write; knowledge of specific ritual magic (unlikely for his profile)."
+
+    psych ological_properties:
+      core_traits:
+        - value: "Overwhelming Fear / Paranoia"
+          auth _source: "Mannerisms, Current State"
+        - value: "Deep-seated Grief / Loss ( for his former life, possibly family)"
+          auth_source: "Haunted Appearance, Implied Backstory" 
+        - value: "A flicker of stubborn Pride / Dignity (buried deep beneath trauma, might emerge in extreme moments)"
+           category: "Vestigial"
+          auth_source: "Potential for character arc"
+      dominant_ emotion:
+        value: "Abject Terror / Despair, punctuated by moments of dull apathy."
+        auth_source:  "Actions, Descriptions"
+      key_motivator_current:
+        value: "Moment-to-moment  Survival; Evading capture; A desperate, almost extinguished hope of clearing his name or understanding *why* this happened."
+         auth_source: "Fugitive Status"
+      key_belief:
+        value: 'Believes the  world is fundamentally unjust and predatory. May have bought into the "invisible women" conspiracy as an explanation for his inexplicable ruin , or blames the meat oligarchy directly but feels utterly powerless.'
+        auth_source: "Epistemic rules of  Primal Mama, psychological response to trauma"
+      internal_conflict:
+        value: "The instinct to survive vs.  the crushing weight of despair that makes him want to give up; The memory of who he was vs. the broken creature he  has become."
+        auth_source: "Logical consequence of his situation"
+      subjective_memory_content:
+         value: "Haunted by vivid, recurring memories of his life before the event that destroyed it – the smell of his  cook-fire, the sounds of his family (if he had one), the feel of a successful hunt. The traumatic event itself is  a jumble of terror, pain, and confusion, possibly with faces of local enforcers (e.g., \" Opossum John's crew\") leering at him. No memory of actually committing the crime he was accused of." 
+        auth_source: "This Codex"
+      psychological_undersaturation: "Specific details of his family  (if any, allows flexibility for narrative); his views on the deified celebrities (likely irrelevant to his current struggle); precise  nature of his original personality beyond \"hard-working swamp dweller.\""
+
+    social_relational_categorical_properties: 
+      official_role_former:
+        value: "Independent Alligator Harvester/Processor (Small-scale, ' mom-and-pop' Lickskillet operation)."
+        auth_source: "Backstory"
+      official_role _current:
+        value: "Designated Criminal / Fugitive by local Lickskillet 'authorities' ( likely corrupt constables in the pocket of the meat oligarchy)."
+        auth_source: "Deontic rules  application"
+      social_status:
+        value: "Outcast / Pariah. Lowest possible rung in Licksk illet society. His name is likely used as a bogeyman to scare others into compliance."
+        auth_source:  "Consequence of Accusation"
+      primary_affiliation:
+        value: "None. Formerly a member of the  Lickskillet community."
+        auth_source: "Current State"
+      secondary_affiliations:
+         value: "None. Actively avoids all contact."
+        auth_source: "Fugitive Behavior"
+      key _relationships:
+        - target: "Family (Lost)"
+          details: "Wife and child (e.g.,  named Ama and Little Jed) – likely scattered, taken, or killed during/after his framing to further crush him or  as 'collateral damage'. Their memory is a source of immense pain and guilt."
+          auth_source: " This Codex - Victimization Intensifier"
+        - target: "Local Meat Oligarchy Enforcers"
+          details: " e.g., a figure like 'Opossum John', known for brutality and loyalty to a specific processing plant owner . He recognizes them and they are actively hunting him."
+          auth_source: "Primal Mama world structure, Deont ic rules"
+      species_type:
+        value: "Human (Baseline Primal Mama Strain)"
+        auth_ source: "Default"
+      social_undersaturation: "Specific friends he had before his fall; any distant relatives; precise  details of his interactions with Swamp Witches or Erpenthropes (likely avoids all supernaturals out of general fear)."
+
+     modal_properties:
+      property_id: MODAL-JED-NONE
+      property_description: "None.  Jedediah Toussaint operates entirely under the established alethic, deontic, axiological, and epistemic  rules of Primal Mama for ordinary humans."
+      detail_description: "His victimhood is a direct result of the application  of these common world rules and power structures, not any unique personal modality."
+      limits: "N/A" 
+      authentication: "Primal Mama Coherence Protocol (by default for non-exceptional individuals)."
+      note: " His ordinariness in this regard makes his suffering under the world's unique rules more poignant and illustrative."
+
+    ax iological_properties:
+      reputation_lickskillet_populace:
+        value: "Authenticated as viewed with ' fear', 'pity (from a safe distance)', 'a cautionary tale'. His story is whispered to discourage defiance against the meat processors . Some may secretly believe his innocence but are too terrified to offer aid."
+        auth_source: "Logical social  consequence in Primal Mama"
+      reputation_meat_oligarchy_enforcers:
+        value:  "Authenticated as 'dangerous nuisance', 'escaped criminal', 'property violator' (if accused of poaching or cattle-related crimes ). His capture might carry a small bounty. He is considered disposable."
+        auth_source: "Oligarchy's perspective "
+      moral_alignment_narrative_framing:
+        value: "Authenticated via his internal state and backstory  as an 'innocent man wronged', a 'victim of systemic injustice'. His current desperate actions are framed by survival needs,  not malice."
+        auth_source: "This Codex – establishing his victimhood for narrative purposes"
+      axiological_ undersaturation: "How Beetriot citizens would view him (likely not at all, too insignificant); perception by Erpenthropes  or Swamp Witches (if they were ever to encounter him, likely indifference unless he trespassed)."
+
+    historical_properties :
+      origin:
+        value: "Authenticated as born and raised in the Lickskillet region, from  a family with several generations of swamp dwellers. His lineage carries no special status or wealth."
+        auth_source: "This  Codex - Grounding him in the setting"
+      key_past_event_connection_personal:
+        value : "The \"Incident\" – Authenticated as being falsely accused and brutally punished for either: a) possession/intent to distribute  cattle meat (a convenient frame-up by the oligarchy to seize his productive trapping grounds or eliminate a mildly outspoken small  competitor), OR b) sabotage against a major meat processing plant (another frame-up). This event involved the loss of his  fingers, his business, his home, and likely his family."
+        auth_source: "This Codex - Core of his victim hood, tied to Primal Mama's deontic/alethic rules"
+      inherited_items:
+         value: "None remain. Everything was confiscated or destroyed. He might carry a single, small, hidden memento  from his past life – perhaps a smooth river stone his child gave him, or a tattered piece of his wife's  shawl – that he guards fiercely."
+        auth_source: "This Codex - Symbol of his loss"
+      historical_unders aturation: "Specific details of his ancestors; precise timeline of his life pre-Incident beyond generalities; the exact names and fates  of all his family members beyond 'lost'."
+
+  character_constitution_summary:
+    core_essence: | 
+      Jedediah Toussaint is constituted as a living embodiment of the brutal consequences of Primal Mama's  socio-economic and legal order, particularly the oppressive power of the meat oligarchy and the absolute terror of the cattle consumption taboo.  His Physical deterioration, Functional incapacitation, and Psychological brokenness are direct results of his unjust victimization. He is a man stripped  of his Social standing, his History (in terms of a future), and any positive Axiological value within his community, now  existing purely in a state of reactive survival. His African features and deep swamp roots ground him authentically within the diverse tapestry of Pr imal Mama's Lickskillet, making his tragedy more specific and impactful.
+    primary_narrative_ function: |
+      To serve as a stark illustration of the stakes and injustices within Primal Mama; to act as a catalyst  or object of pity/concern for a protagonist; to highlight the cruelty of the meat oligarchy and the pervasive fear that underpins  Lickskillet society. He can represent the "forgotten victims" of the established order. His potential belief in conspiracies  like the "invisible women" could also showcase how ordinary people try to make sense of systemic oppression they cannot otherwise explain.
+    key _internal_conflicts: |
+      The primal urge to survive vs. soul-crushing despair; Fading memories of love  and dignity vs. the brutalizing reality of his present; A desperate, suppressed desire for justice/explanation vs. overwhelming , paralyzing fear.
+    potential_for_development: |
+      While deeply traumatized, potential exists for: a  flicker of defiance if pushed to an absolute limit; finding an unexpected, hidden ally; sharing his story (if he can overcome his fear ) to expose injustice; succumbing entirely to madness or despair; or finding a small, tragic moment of peace or self-sacrifice.  His development is less about regaining what was lost (which seems impossible) and more about how he faces his brokenness.

@@ -1,0 +1,37 @@
+The Great Escape
+Time to pay Yennefer a visit and see if she needs anything. Head over to Crippled Kate's to find Yennefer, who is sitting in a corner on the first level. It seems like she's about to scold you, but unlike Triss, she's more pragmatic. Address the giant pink elephant in the room and ask why she's here and she'll tell you.
+
+The Great Chase
+When her target arrives she'll confront him, and he'll bolt, forcing you to chase him. Follow him south-east, then climb some ladders after him when he makes his way to the roofs of the buildings north of Putrid Square. Climb some ledges and chase him onto the roofs until you either catch him, or Yennefer puts an end to the chase. Yennefer and Geralt will ask him some questions over drinks concerning his escape and form a plan based on what he tells them.
+
+Objective	Reward
+For interrogating the fugitive	200 XP
+Head over to Dandelion's Tavern and talk to Zoltan. If you didn't complete "Now or Never", he'll agree to help you get the guards drunk here. If you did, he'll decline on account of the attention the Witch Hunters are now paying to nonhumans. No big deal either way.
+
+Fast-travel to the "Novigrad Gate" signpost and head west across the bridge into Oxenfurt. You'll find Yennefer near a building just south-west of the gate. Talk to her, then follow her through the city, her destination being a well north of the "Western Gate" signpost. Yennefer will give you an item aptly named a "Magic Trinket from Yennefer", after which you'll be on your own.
+
+Elven Ruins Under Oxenfurt
+Dive into the well, then dive underwater to the east to find some submerged chests to loot. Another lies to the south-east, behind a pillar, and a fourth can be found to the north. Once you're done looting continue swimming north to find some elven ruins. Go up some stairs and go through a doorway to the south to reach a chamber in which a Grave Hag (level twenty-six) resides. Kill it, then search a wall to the south to find a lever. Looks like we'll need to find a replacement.
+
+Head north-east through a doorway and head into a submerged tunnel. Swim north-east, then climb out of the water and follow a tunnel until you reach a large chamber with three chests in it to loot-two in plain sight, and on on a ledge to the north-west. Search the wall near the doorway you entered the room through (to the north-east) to find a "Lever". Grab it and head south-west through another doorway, go up some stairs, turn south-east, and go through a doorway, stopping to examine some "tomb raider" bones on the ground. Continue south-east into the room where the Grave Hag lurked, then insert the new lever into the slot (heh) to open a doorway nearby.
+
+Go through said doorway and you should spot a "brittle wall" to the south-east. Before you go blasting anything with Aard, however, turn north-west and swim into a cavern to find a submerged chest and body for your looting pleasure. Surface and return to the north-east, then blast the weak wall.
+
+Beyond the wall you'll find some Ghouls (level fifteen) and a Necrophage (level thirteen)... technically, they're all Necrophages, and the "Necrophage" here is just a Rotfiend, but... whatever. Head down a tunnel to the south-east and follow it until it terminates at a fork. Go up a slope to the south-east and, at the apparent end of the tunnel, turn south-west to find a ledge you can scale.
+
+Deireadh
+Congrats! You've successfully broken INTO prison. Kill two Witch Hunters (level twenty-six), loot a chest, then grab the "Sewer Key" off a table in the western corner of the room. What does this wonderful key do for you? Why, it unlocks the gate at the fork back in the sewer, which leads to the cellar under the house near the Blacksmith, for all the nothing that's worth.
+
+Go through the door to the south-west, then head up some stairs and through another door. Put down three more Witch Hunters (level twenty-six) then talk to Margarita, who has clearly been roughed up by her captors. She'll tell you what you need to do next-head north-east and go up some stairs. When you reach a landing where you can go through a gate to the south-east, or through a doorway to the south-west, go south-west first. Head up some more stairs and kill a pair of Witch Hunters, then search the two chests in the room.
+
+Head back downstairs and go through the gate we neglected earlier to reach the courtyard, where you'll have to face some more Witch Hunters (level twenty-six) and Redanian Soldiers (level twenty-nine). Kill them, loot around, then head up some stairs to the south-east. Head south-west first, going up some stairs, into-and through-a tower, and along the walls until you reach another tower, in which is a chest worth looting.
+
+Backtrack to the stairs that descend to the courtyard and head north-east to reach the Prison Warden (level twenty-six). Kill him and loot the "Cell Key" off his body, then loot his quarters, where you can find the note "List of Prisoners" on his desk. Head back to the cells and open the door, at which point Geralt will use the trinket Yennefer gave him. If you told Voorhis that Sile is still alive during your first visit to Vizima, she'll be in the cell with Margarita... but she's in no shape to come with us. Grant her request yourself, or let somebody else do it.
+
+Objective	Reward
+For freeing Margarita	300 XP
+Return to the courtyard, ascend to the walls, then head to the south-western side of the prison where you'll find a hole in the walls which you can leap out of. Doing so completes this quest.
+
+Objective	Reward
+For escaping from prison	300 XP
+It's now time to consider tackling the quest "Reason of State", which sees Geralt (and a few choice allies) playing kingmaker for the north. If you don't care to dabble in politics, don't do the quest-which is a defacto victory for Radovid. If you'd prefer to see somebody other than a madman in control of the north... well, where there's a will, there's a way. If you don't want to bother with "Reason of State", skip ahead to "Final Preparations".

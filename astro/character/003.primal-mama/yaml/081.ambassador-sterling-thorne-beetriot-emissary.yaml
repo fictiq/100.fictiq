@@ -1,0 +1,182 @@
+
+World: Primal Mama
+Codex_Version:  "0.2 - Character Constitution (Ambassador Thorne)"
+Last_Updated: "[Current Date]" # Assuming this  should be replaced with an actual date
+Lead_Architects: "[Your Name/Studio Name]" # Assuming this should be  replaced
+
+Introduction_Fictional_Persons_Constitution: |
+  This protocol guides the detailed definition of Fictional Persons ( characters, significant sentient beings) within the Primal Mama heterocosm. Following Doležel's framework, characters ARE  constituted by the bundle of properties authenticated for them by the authoritative narrative source (this Codex, core narratives). They possess no independent  psyche or reality beyond this textual definition.
+  Use this template to systematically build characters by explicitly authenticating their properties across relevant categories.  Focus on creating multifaceted individuals whose complexity arises from the richness, coherence, and potential tensions within their authenticated bundle, and whose actions are logically  grounded in their defined nature and the world's rules. Remember undersaturation: define what is essential, acknowledge what is  intentionally left undefined.
+
+Character_Profile:
+  Entity_ID: "CHAR_Thorne_Sterling_0 1"
+  Character_Name: "Ambassador Sterling Thorne (Prefers \"Ambassador Thorne\" in official capacity,  \"Sterling\" to trusted peers in Beetriot)"
+  Entity_Type: "Person (Human, Beetriot Elite Strain )"
+  Archetype_Optional_Starting_Point: "The Polished Urban Diplomat / The Pragmatic Em issary in a Strange Land"
+  Primary_Authentication_Sources: "This Codex Entry, Primal Mama Coherence  & Internal Logic Protocol v0.1"
+  Canon_Tier: "Tier 2 (Significant Supporting Character)" 
+  Authentication_Status: "Authenticated_Canonical_Active"
+
+  Authenticated_Property_Bundle:
+    Physical _Properties:
+      Purpose: "Define the character's tangible presence, reflecting Beetriot sophistication within the 197 0s aesthetic."
+      Appearance_General:
+        value: "Human male, early 40s,  meticulously groomed. Appears healthy, a benefit of Beetriot's controlled environment and access to resources beyond simple alligator meat  (e.g., hydroponics, carefully curated non-cattle proteins)."
+        auth: "[Primal Mama Setting , Inferred Beetriot Elite Status]"
+      Appearance_Specific_Features:
+        value: "Smooth, unweathered  complexion contrasting sharply with swamp-dwellers. Sharp, analytical eyes that constantly assess. Hair styled in a neat, slightly feathered  fashion popular in late 1970s Beetriot high society."
+        auth: "[Primal Mama Aesthetic Constraint, In ferred Social Standing]"
+      Appearance_Distinctive_Marks:
+        value: "None visible; cultivates an image  of unflappable perfection. Any scars would be minor and carefully concealed."
+        auth: "[Character Concept]"
+       Typical_Attire:
+        value: "Impeccably tailored leisure suits in muted earth tones or deep  blues (e.g., brushed corduroy, high-quality textured polyester blends). Wide lapels, flared trousers. Pol ished, slightly platformed shoes. Always wears a chunky, official-looking chronometer on a wide leather strap – a status symbol in  Beetriot. Carries a slim, hard-shell briefcase with prominent brass clasps and a wood-grain veneer panel ."
+        auth: "[Primal Mama Tech Aesthetic Constraint, Axiological Value of 1970s Style]"
+       Voice_Speech_Pattern:
+        value: "Modulated, calm, articulate baritone. Speaks with precise , carefully chosen words, betraying a formal Beetriot education. Avoids slang or overly casual swamp vernacular, though he understands it." 
+        auth: "[Character Concept, Implied Beetriot Culture]"
+      Gait_Mannerisms:
+        value:  "Upright, confident posture. Economical, deliberate movements. May exhibit slight discomfort or stiffness when traversing uneven swamp terrain,  accustomed to Beetriot's paved avenues. A habit of subtly adjusting his tie or cuffs – a tell for moments of stress or  condescension."
+        auth: "[Character Concept, Environment Contrast]"
+      Associated_Scent_If_Any :
+        value: "Faint, expensive (by Primal Mama standards) synthetic musk cologne, a touch of ozone  from personal tech, and the sterile scent of Beetriot's filtered air clinging to his clothes."
+        auth: "[Sens ory Palette, Primal Mama Tech Aesthetic]"
+      Undersaturation_Notes: "[Exact height/weight, specific brand of  cologne, minor personal preferences in clothing beyond the established aesthetic.]"
+
+    Functional_Properties:
+      Purpose: " Define what the character *can* and *cannot* do within Primal Mama's rules."
+      Skill_Negoti ation_Diplomacy:
+        value: "Masterful Negotiation & Diplomacy (Core Skill, honed in Beetriot 's political landscape and inter-faction dealings, possibly with the meat oligarchy)."
+        auth: "[Role, Inferred Beet riot Society]"
+      Skill_Bureaucratic_Protocol:
+        value: "Proficient in Bureaucratic  Protocol & Legal Jargon (Beetriot Standard)."
+        auth: "[Role, Inferred Beetriot Society]"
+      Skill _Self_Defense:
+        value: "Basic Self-Defense (Beetriot Elite mandatory training – likely more  theoretical than practical in actual swamp combat). Carries a sleek, compact energy sidearm of 1970s design,  rarely drawn."
+        auth: "[Gun Ownership Norms (contrast w/Beetriot), Tech Aesthetic]"
+       Skill_Device_Operation:
+        value: "Operation of Beetriot-standard 1970s-aesthetic  communication & data devices (e.g., chunky data-slate with analog-style readouts, secure comm-link with  audible modem-like connection sounds)."
+        auth: "[Primal Mama Tech Aesthetic Constraint]"
+      Ability_Situ ational_Resource_Access:
+        value: "Access to Beetriot resources & information networks (within limits of mission parameters and  operational security)."
+        auth: "[Role]"
+      Limitation_Physical_Swamp_Survival:
+        value:  "Not conditioned for prolonged swamp survival or heavy combat. Relies on guards or local liaisons for security in hazardous areas."
+         auth: "[Character Concept, Environment Contrast]"
+      Limitation_Knowledge_Swamp_Lore:
+         value: "Limited practical understanding of deep swamp ecology, Erpenthrope society beyond official briefings, or the intricacies of Swamp  Witch magic (views with skepticism/caution)."
+        auth: "[Epistemic Divide, Character Background]"
+      Limitation_ Social_Automaton_Stigma:
+        value: "Suffers the Automaton/LLM User Stigma * by proxy* if he relies on such tools; likely avoids them entirely or uses only highly sanitized, non-sentient \" calculators\" or \"data sorters\" that escape the full stigma. Public use would damage his reputation significantly."
+        auth:  "[Deontic Rule: Automaton/LLM Stigma]"
+      Limitation_Dietary_Cattle :
+        value: "Cannot consume cattle flesh due to biochemical incompatibility/societal law, like all post-calamity  humans."
+        auth: "[Alethic Rule: Cattle Consumption]"
+      Undersaturation_Notes: "[ Proficiency with swamp watercraft; knowledge of specific alligator breeds or GE processes; ability to perform ritual magic.]"
+
+     Psychological_Properties:
+      Purpose: "Define the character's textually constituted inner life, reflecting Primal Mama's  pressures."
+      Core_Trait_Pragmatism:
+        value: "Pragmatism / Utilitarianism ( Focused on Beetriot's objectives and his own advancement)."
+        auth: "[Inferred from Role]"
+      Core_ Trait_Controlled_Demeanor:
+        value: "Controlled / Professional Demeanor (Masks underlying opinions or discomfort)." 
+        auth: "[Character Concept]"
+      Core_Trait_Ambition:
+        value: "Ambition  (Seeks to rise within Beetriot's hierarchy)."
+        auth: "[Character Motivation]"
+      Dominant_Emotion_ Expressed:
+        value: "Calm Composure / Mild Condescension (towards non-Beetriot elements,  often subtly)."
+        auth: "[Character Concept]"
+      Dominant_Emotion_Internal:
+        value: "Anxiety /Apprehension (regarding the unpredictability of the swamp and its denizens); Frustration (with inefficiency or \" primitive\" customs)."
+        auth: "[Internal Conflict]"
+      Key_Motivator:
+        value: "Securing  advantageous agreements for Beetriot (e.g., alligator meat quotas, resource access, intelligence); Maintaining Beetriot's influence ; Personal career advancement."
+        auth: "[Role, Character Concept]"
+      Key_Belief_Beetriot_Order :
+        value: "Beetriot represents order, progress, and the \"correct\" way of life in the post- calamity world. The 1970s aesthetic is the peak of civilized design."
+        auth: "[Axi ological Value: 1970s Aesthetic, Inferred Beetriot Ideology]"
+      Key_Belief _Supernatural_Pragmatic:
+        value: "Supernatural elements (Erpenthropes, Ghosts , Witches) are forces to be managed, understood instrumentally, or neutralized if they threaten Beetriot's interests , rather than dismissed outright or truly embraced."
+        auth: "[Alethic Rules: Erpenthropes, Ghosts,  Witches]"
+      Internal_Conflict:
+        value: "Desire for Beetriot's \"clean\" order vs . the messy necessity of dealing with swamp cultures and their bizarre realities (e.g., vampire bunnies as a legitimate concern for  a trade partner). Personal ambition vs. genuine risks of his assignments."
+        auth: "[World Contrast, Character Motivation ]"
+      Subjective_Memory_Content:
+        value: "Clear memories of Beetriot life, political training, previous  (less hazardous) assignments. Understands the official narrative of the Biological Calamity. Publicly reveres Reynolds, Reed, and  Parsons as cultural icons, but privately may view them as useful societal constructs."
+        auth: "[Epistemic Rules : Calamity Narrative, Celebrity Deities]"
+      Undersaturation_Notes: "[Deep-seated phobias beyond general  unease; specific childhood traumas; genuine belief in the deified celebrities (beyond performative reverence).]"
+
+    Social _Relational_Categorical_Properties:
+      Purpose: "Define the character's place within Primal Mama's  networks."
+      Official_Role:
+        value: "Accredited Ambassador of the Beetriot Municipal Authority (or similar  governing body)."
+        auth: "[Character Concept]"
+      Social_Status:
+        value: "High status  within Beetriot; viewed as an influential outsider with potential resources/threats by swamp communities like Lickskillet."
+         auth: "[World Structure, Role]"
+      Primary_Affiliation:
+        value: "Beetriot  Government/Elite."
+        auth: "[Role]"
+      Secondary_Affiliations:
+        value: "May form temporary,  transactional alliances with Lickskillet elders, mom-and-pop gator operations (if it serves Beetriot), or  even cautiously with information brokers tied to Erpenthropes or Swamp Witches."
+        auth: "[Narrative Potential ]"
+      Key_Relationship_Beetriot_Superiors:
+        value: "To Beetriot Superiors ( e.g., a Council or Director): Formal, hierarchical, driven by reports and achieved objectives."
+        auth: "[In ferred Structure]"
+      Key_Relationship_Lickskillet_Leadership:
+        value: "To Lickskillet Mayor /Leadership: Wary, pragmatic, based on negotiation of resources (gator meat, tech components, solar cells) and influence ."
+        auth: "[World Structure]"
+      Key_Relationship_Potential_Supernatural:
+        value:  "To an Erpenthrope truth-seeker or Swamp Witch: Highly cautious, based on intelligence gathering or navigating a critical  threat/opportunity. Thorne would find their \"truth\" or \"magic\" alien but potentially useful or dangerous."
+         auth: "[World Entities]"
+      Species_Type:
+        value: "Human (Beetriot Elite Strain  – implying certain genetic markers or societal conditioning, but still subject to cattle taboo)."
+        auth: "[Alethic Rule:  Cattle Consumption]"
+      Undersaturation_Notes: "[Specific family ties in Beetriot; personal friendships; exact nature of his relationship  with the meat oligarchy (ally, rival, tool?).]"
+
+    Modal_Properties:
+      Purpose: "Define any inherent  unique relationship to world laws."
+      Property_ID:
+        value: "None Authenticated."
+        auth : "[Default human status within Primal Mama rules.]"
+      Note: "Most characters likely have NO unique modal properties,  operating fully under general world rules. Ambassador Thorne possesses no personal supernatural abilities or exemptions from Primal Mama's core laws (e .g., he cannot eat beef, he cannot naturally transform). His \"power\" is purely socio-political and resource -based within the world's rules."
+
+    Axiological_Properties:
+      Purpose: "Define the  character's value status *within* Primal Mama."
+      Reputation_Beetriot_Elite:
+        value:  "Viewed as competent, ambitious, a reliable instrument of Beetriot policy. His adherence to the 197 0s aesthetic is seen as proper and tasteful."
+        auth: "[Axiological Value: 197 0s Aesthetic, Character Concept]"
+      Reputation_Lickskillet_Swamp_Communities:
+         value: "Seen as the \"Man from the City\" – potentially arrogant, untrustworthy, but also a vital  link to Beetriot's resources, technology (within the 70s aesthetic), and market for their alligator products. A  necessary evil, or a dangerous temptation."
+        auth: "[World Contrast, Deontic: Meat Oligarchy Friction]"
+       Reputation_Erpenthropes_If_Known:
+        value: "Likely viewed with suspicion  as an agent of a complex, potentially deceitful human society; his pursuit of Beetriot's goals might clash with their  pursuit of \"truth\"."
+        auth: "[Axiological Value: Truth (Erpenthropes)] "
+      Moral_Alignment_Narrative_Framing:
+        value: "Lawful Neutral (prioritizes Beet riot's order and laws, and his mission, above individual concerns or abstract morality) to Lawful Evil (if  Beetriot's aims are oppressive and he willingly enforces them)."
+        auth: "[Character Actions/Motivations]"
+       Undersaturation_Notes: "[Specific opinions held by individual Swamp Witches; popularity among the general Beetriot populace (if  any).]"
+
+    Historical_Properties:
+      Purpose: "Define the character's known origins and connections to  past events in Primal Mama."
+      Origin:
+        value: "Born and raised in Beetriot, likely  post-Calamity or in its immediate aftermath. Educated in Beetriot's official institutions, steeped in its  culture and technological/aesthetic norms."
+        auth: "[Implied from Character and World]"
+      Key_Past_Event_ Connection:
+        value: "Likely has studied the official, sanitized history of the Biological Calamity and the subsequent rise  of the Alligator Biogenesis and Solar Dominance. Understands the *legal and cultural basis* for the Cattle Consumption Prohibition and cattle  as artifacts, even if he doesn't know all the hidden truths."
+        auth: "[Epistemic Rules , Alethic Rules]"
+      Inherited_Items_Status:
+        value: "His position and access  are inherited from Beetriot's societal structure. May possess a family heirloom that conforms to the 1970 s aesthetic (e.g., a chunky signet ring, a vintage (for them) fountain pen with wood paneling )."
+        auth: "[Tech Aesthetic, Character Concept]"
+      Undersaturation_Notes: "[Specifics of his family background  beyond \"elite\"; details of his training or previous diplomatic successes/failures that shaped him; any personal connection to the \"invisible women\"  conspiracy beyond general societal awareness.]"
+
+  Character_Constitution_Summary_And_Narrative_Function:
+     Purpose: "Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+    Core_Ess ence: "Ambassador Sterling Thorne is constituted as a quintessential agent of Beetriot's \"civilized\" retro-futurism , a man whose sophisticated 1970s veneer and pragmatic ambition are constantly tested by the primal, spiritually-infused, and  often bizarre realities of the wider Primal Mama world. He embodies the tension between urban control and swamp wildness, advanced  (bio/solar) tech filtered through an analog aesthetic, and official narratives versus unsettling truths. His adherence to Beetriot's De ontic (e.g., Automaton stigma) and Axiological (1970s style as peak)  rules defines his interactions and limitations."
+    Primary_Narrative_Function: "To act as a bridge or antagonist  representing Beetriot's interests in the swamp; to drive plots involving negotiation, resource conflict, or urban encroachment on swamp territories /cultures; to provide an outsider's (albeit a biased one) perspective on the swamp's denizens ( Erpenthropes, Witches, Lickskillet folk); to highlight the cultural and technological clashes within Primal Mama ."
+    Key_Internal_Conflicts_From_Bundle: "Maintaining composure/control vs. visceral reactions to swamp  phenomena; loyalty to Beetriot's potentially sterile order vs. the strange vitality of the swamp; personal ambition vs.  the genuine dangers of his post; the official Beetriot understanding of the world vs. contradictory evidence he might encounter (e.g ., from Erpenthropes or ghosts)."
+    Potential_for_Development_Based_on_Bundle: "Could  be \"corrupted\" or \"enlightened\" by prolonged exposure to the swamp, potentially questioning Beetriot's dogma  (Psychological/Epistemic shift). Might forge unexpected, genuine alliances (Social/Relational change). Could be forced to adapt  his methods, becoming more ruthless or more empathetic (Functional/Psychological change). His understanding of the \"incredible source of energy \" (solar) or alligator biogenesis might deepen or be challenged."
+
+End_of_Fictional_Person _Profile: "CHAR_Thorne_Sterling_01"

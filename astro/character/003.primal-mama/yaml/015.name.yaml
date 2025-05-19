@@ -1,0 +1,200 @@
+
+World: Primal Mama
+Cod ex_Version: "0.2 - Character Constitution (Pastor Jeb)"
+Last_Updated: "[Current Date]" #  Placeholder, replace with actual date
+Lead_Architect_s: "[Your Name / Studio Name]" # Placeholder
+
+Character_Profile: 
+  Entity_ID: "CHAR_JebediahJones_01"
+  Character_Name: "Pastor Jeb ediah Jones (often called \"Preacher Jones\" or simply \"Preacher\")"
+  Entity_Type: "Person ( Human)"
+  Archetype_Optional_Starting_Point: "The Steadfast Shepherd / Moral Anchor in a Fallen World"
+   Primary_Authentication_Source_s: "This Codex Entry; Primal Mama Coherence Protocol v0.1"
+   Canon_Tier: "Tier 2 (Significant Local Figure)"
+  Authentication_Status: "Authenticated_Canonical _Active"
+
+  Authenticated_Property_Bundle:
+    Physical_Properties:
+      Purpose: "Define the character's  tangible presence."
+      Appearance_General:
+        Description: "Human male, late 50s/early 60 s, sturdy build softened by age but still conveying resilience. Weather-beaten face suggesting time spent outdoors, though not necessarily in  harsh labor."
+        Authentication: "[Primal Mama - Visual Palette / General Human Traits]"
+      Appearance_Specific _Features:
+        Description: "Kind, deep-set blue eyes that hold a steady gaze. Lines etched around  eyes and mouth from both worry and laughter. Receding grey hair, neatly kept. A full, well-trimmed grey  beard."
+        Authentication: "[Primal Mama - Visual Palette]"
+      Appearance_Distinctive_Marks:
+         Description: "A small, faded scar on his chin from a youthful mishap long before the Calamity. Hands are strong  but show the softness of someone who handles books more than tools now."
+        Authentication: "[Character Backstory Inference]"
+       Typical_Attire:
+        Description: "In Lickskillet, often wears simple, durable trousers ( perhaps dark denim or canvas) and a button-up shirt (checked or solid, often muted earth tones) with a  slightly worn, dark brown faux-leather vest (1970s style). For services, a slightly more formal , but still practical, dark suit jacket over similar attire, perhaps with a bolo tie featuring a polished river stone."
+         Authentication: "[Primal Mama - 1970s Aesthetic Constraint, Regional Culture (Lickskillet)]" 
+      Voice_Speech_Pattern:
+        Description: "A warm, baritone voice with a gentle Southern drawl. Speech  is measured, thoughtful, and often peppered with scriptural allusions or folksy wisdom. Capable of rising to  passionate oratory during sermons."
+        Authentication: "[Primal Mama - Southern Gothic Infusion, Character Role]"
+       Gait_Mannerisms:
+        Description: "A steady, unhurried walk. Often clasps his hands behind  his back when thoughtful. A habit of nodding encouragingly when listening. Makes direct eye contact."
+        Authentication: "[Character Role /Psychology]"
+      Associated_Scent_If_Any:
+        Description: "Faint scent of old books,  sweetgrass (from incense used in his modest chapel), and occasionally the brackish air of the nearby swamp."
+         Authentication: "[Primal Mama - Environment, Character Role]"
+      Undersaturation_Notes: "Exact height/ weight, specific brand of his 1970s-style watch, preferred flavor of sweet tea."
+
+     Functional_Properties:
+      Purpose: "Define what the character *can* and *cannot* do."
+       Skills:
+        - Name: "Deep Knowledge of Christian Scripture (Pre-Calamity Bible)"
+          Authentication: "[Character  Role]"
+        - Name: "Effective Oratory & Preaching (able to inspire, comfort, and admonish  his congregation)"
+          Authentication: "[Character Role]"
+        - Name: "Community Counseling & Mediation (trusted to help resolve local  disputes and offer guidance)"
+          Authentication: "[Character Role, Social Standing in Lickskillet]"
+        - Name: " Basic Watercraft Operation (can handle a small, solar-assisted skiff for parish visits around Lickskillet's  waterways)"
+          Authentication: "[Primal Mama - Transport Norms]"
+        - Name: "Proficient in  organizing community efforts (e.g., food drives for gator meat scraps, small repair projects for the chapel using  1970s-style tools)"
+          Authentication: "[Character Role, Tech Aesthetic]"
+      Ability_Unique:
+         Description: "None. Relies on faith, wisdom, and community, not supernatural Primal Mama abilities."
+        Authentication : "[Character Concept - Grounded Faith]"
+      Limitations:
+        - Type: Physical
+          Description: "Standard limitations of  a man his age; not a fighter or physically imposing."
+          Authentication: "[Appearance]"
+        - Type:  Knowledge
+          Description: "Limited understanding of advanced GE alligator science (views it as \"God's new provision,  mysterious in its workings\"). No direct knowledge of Swamp Witch esoteric lore or Erpenthrope biology beyond local hearsay and  his theological interpretations."
+          Authentication: "[Primal Mama - Epistemic Divides, Character Focus]"
+        - Type : Social
+          Description: "Influence largely confined to Lickskillet and similar small communities. No sway in Beet riot or with the meat oligarchy."
+          Authentication: "[Primal Mama - Social Structures]"
+        - Type: Influence 
+          Description: "His interpretations of Primal Mama phenomena are theological and moral, not scientifically or magically authoritative within the world's  mechanics."
+          Authentication: "[Character Role vs. World Modalities]"
+      Undersaturation_Notes: " Ability to repair complex 1970s electronics; specific knowledge of alligator butchering; marksmanship (though likely  familiar with guns given Lickskillet norms, not his focus)."
+
+    Psychological_Properties:
+      Purpose : "Define the character's textually constituted inner life."
+      Core_Traits:
+        - Trait: "Un wavering Faith (Christian God)"
+          Authentication: "[Character Concept, Dialogue, Actions]"
+        - Trait : "Deep Compassion & Empathy (for his flock and even those outside it)"
+          Authentication: "[Actions, Counseling  Role]"
+        - Trait: "Moral Conviction (sees clear right and wrong, though understands human frailty)" 
+          Authentication: "[Sermons, Guidance]"
+      Dominant_Emotion:
+        Emotion: "Hope (tempered  by realism about the world's fallen state)"
+        Authentication: "[Sermons, Interactions]"
+      Key _Motivator:
+        Motivator: "Serving God by ministering to the people of Primal Mama , offering solace and moral guidance in a confusing world."
+        Authentication: "[Character Role]"
+      Key_Bel iefs:
+        - Belief: "The Biological Calamity was a trial, a consequence of past hubris, but God  has provided a new path (alligator sustenance) and His grace is still available."
+          Authentication: "[Theological Interpretation of Pr imal Mama Events]"
+        - Belief: "The deified celebrities (Reynolds, Reed, Parsons) are false idols , a societal misdirection from true worship, though he pities their followers rather than aggressively condemning them."
+          Authentication: "[ Theological Stance on Primal Mama Axiology]"
+        - Belief: "Erpenthropes are a profound mystery  – perhaps cursed, perhaps a strange new form of humanity, requiring prayer and cautious understanding, not immediate judgment."
+          Authentication : "[Theological Interpretation of Primal Mama Entities]"
+        - Belief: "Ghosts are troubled spirits or deceptions ; true peace for the dead is with God. Ritual magic for contact is spiritually perilous."
+          Authentication: "[Theological St ance on Primal Mama Alethic Modality]"
+      Internal_Conflict: # This refers to the single main conflict string  from the MD section
+        Description: "Reconciling the horrors and absurdities of Primal Mama (e. g., vampire bunnies, \"death by burger\" law) with God's love and justice; Maintaining faith when faced  with the allure of celebrity cults or the despair of the \"Invisible Women\" conspiracy."
+        Authentication: "[The matic Tension for Character]"
+      Subjective_Memory_Content:
+        Description: "Clear memories of life before the Cal amity, the chaos of the event, and the slow rebuilding of society. Remembers when cattle were food, not  just artifacts of the rich."
+        Authentication: "[Character Age, Historical Context]"
+      Undersaturation_Notes: "Specific  sins he struggles with personally (beyond general human imperfection); his detailed views on pre-Calamity politics; his favorite hymn (though  many could be inferred)."
+
+    Social_Relational_Categorical_Properties:
+      Purpose: "Define the character's  place within the world's networks."
+      Official_Role:
+        Role: "Pastor of the \"Lickskillet  Chapel of the Redeemer's Provision\" (a small, independent Christian congregation)"
+        Authentication: "[Character Concept, Pr imal Mama Setting]"
+      Social_Status:
+        Status: "Respected elder and spiritual leader within Lick skillet; viewed as somewhat anachronistic or irrelevant by Beetriot elite or hardcore celebrity cultists."
+        Authentication : "[Primal Mama - Social Dynamics]"
+      Primary_Affiliation:
+        Affiliation: "His congregation;  the broader (though scattered) Christian faithful in the region."
+        Authentication: "[Role]"
+      Secondary_Affiliations: 
+        - Type: Informal Network
+          Description: "Informal network of Lickskillet community members who seek his  counsel, regardless of their regular church attendance."
+          Authentication: "[Role]"
+      Key_Relationships:
+         - Target: "His Congregation (The Flock)"
+          Description: "Shepherd, guide, protector of their spiritual well -being."
+          Authentication: "[Role]"
+        - Target: "Lickskillet Mom-and- Pop Gator Processors"
+          Description: "Offers prayers for their safety and livelihood; may gently counsel against excessive greed or despair  when dealing with the Meat Oligarchy."
+          Authentication: "[Primal Mama - Local Economy]"
+        - Target : "Followers of Celebrity Deities"
+          Description: "Sees them as lost sheep; attempts gentle dialogue  rather than outright condemnation, hoping to lead them to \"true faith.\""
+          Authentication: "[Primal Mama -  Axiology]"
+        - Target: "An Erpenthrope seeking understanding/solace (Potential)"
+           Description: "Would be a test of his faith and compassion – cautious, wary, but ultimately driven by a desire to see any soul  find God."
+          Authentication: "[Character Psychology, Primal Mama Entities]"
+      Species_Type:
+        Type: " Human (Baseline Post-Calamity Strain)"
+        Authentication: "[Default/Description]"
+      Undersaturation _Notes: "Specific names of his deacons/elders; his relationship with local (minor) law enforcement in  Lickskillet; any family ties."
+
+    Modal_Properties:
+      Purpose: "Define any inherent unique relationship  to world laws."
+      Status: "None explicitly authenticated. Pastor Jones operates under the standard physical, biological, and  societal laws of Primal Mama. His \"power\" is derived from faith, community, and personal conviction, not inherent  modal exceptions."
+      Authentication_Note: "[Primal Mama Coherence Protocol – most individuals do not possess unique modal status .]"
+      Framework_Note: "His Christian faith provides an EPISTEMIC and AXIOLOGICAL framework for interpreting Pr imal Mama's modalities, but does not grant him power *over* them in a supernatural sense within the world' s physics."
+
+    Axiological_Properties:
+      Purpose: "Define the character's value status *within* Pr imal Mama."
+      Reputations:
+        - Context: Lickskillet
+          Description: "Authenticated as viewed as  'a good man', 'wise', 'a pillar of the community', 'a bit old-fashioned but sound'.  Source of comfort and moral clarity."
+          Authentication: "[Social Role, Inferred Local Perception]"
+        - Context: "Be etriot/Oligarchy/Celebrity Cults"
+          Description: "Likely viewed as 'harmless ly eccentric', 'irrelevant', 'a relic of a bygone faith system', or 'a preacher of superstitions'  by those heavily invested in Primal Mama's dominant secular or new-age spiritual trends."
+          Authentication: "[ Primal Mama - Social/Axiological Divides]"
+      Moral_Alignment_Narrative_Framing:
+        Alignment : "Authenticated via narrative focus as fundamentally 'good', 'righteous', and 'compassionate' within the Primal Mama context, acting  as a moral counterpoint to cynicism or paganism."
+        Authentication: "[Character Role, Intended Thematic Function ]"
+      Undersaturation_Notes: "Reputation among Swamp Witches (likely mutual distrust/avoidance); specific opinions from  named meat oligarchy figures."
+
+    Historical_Properties:
+      Purpose: "Define the character's known origins and connections to  past events."
+      Origin:
+        Description: "Born before the Biological Calamity in the region that is  now the swampy outskirts of Lickskillet. Witnessed the Calamity and the societal upheaval. Found/ reaffirmed his Christian faith during these trying times and felt called to minister."
+        Authentication: "[Character Age,  Backstory Inference]"
+      Key_Past_Event_Connections:
+        - Event: "The Biological Calamity"
+           Impact_Interpretation: "A defining event shaping his worldview, theology (seeing it as a divine trial and a call for repentance/ adaptation), and mission."
+          Authentication: "[Psychological Properties]"
+        - Event: "The rise of GE Alligators as  food"
+          Impact_Interpretation: "Interprets this as God's strange but sufficient provision for humanity after  the loss of cattle as a food source."
+          Authentication: "[Theological Interpretation of Primal Mama Modalities]" 
+      Inherited_Items:
+        - Item: "Worn, pre-Calamity King James Bible, its  pages interleaved with handwritten notes adapting interpretations to the post-Calamity world."
+          Authentication: "[Character Role, Primal  Mama - Tech Aesthetic/Solar Dominance]"
+        - Item: "Modest chapel building (pre-Calamity  structure, retrofitted with 1970s-style solar panels)."
+          Authentication: "[Character Role,  Primal Mama - Tech Aesthetic/Solar Dominance]"
+      Undersaturation_Notes: "Details of his family  pre-Calamity; specific events of his calling to ministry; his early struggles establishing the chapel."
+
+  Character_Constitution_ Summary_And_Narrative_Function:
+    Purpose: "Synthesize the core identity, internal conflicts, and  narrative role emerging from the authenticated property bundle."
+    Core_Essence: >-
+      Pastor Jebediah Jones is  constituted as a beacon of traditional Christian faith and morality weathering the storm of Primal Mama's bizarre, post-Calam ity reality.
+      His being is defined by an unwavering belief in a benevolent, though mysterious, God who provides (even if that  provision is solar-powered alligators) and judges
+      (as seen in the Calamity and the prohibition on cattle flesh –  a reminder of past sins or a necessary new covenant). He interprets the world's strangeness—Erpenthropes ,
+      celebrity deities, 1970s tech—through this theological lens, offering his Lickskillet flock  (and any who will listen) a framework of hope, resilience, and enduring moral values.
+      He embodies the persistence  of faith against overwhelming cultural and even biological shifts.
+    Primary_Narrative_Function: >-
+      To  serve as a moral compass and a source of spiritual solace/interpretation within Lickskillet. To represent a contrasting belief  system to the celebrity cults and secular pragmatism.
+      To offer a humanistic (faith-based) perspective  on the world's more bizarre elements (Erpenthropes, ghosts). He can be a source of wisdom, a  voice of caution against societal excesses
+      (like the "Invisible Women" conspiracy or oligarchy greed), and a catalyst for community  action rooted in compassion.
+    Key_Internal_Conflicts_From_Bundle:
+      - "Maintaining unwavering hope amidst pervasive weird ness and hardship."
+      - "Reconciling ancient scripture with current realities (e.g., vampire bunnies,  \"death by burger\" law)."
+      - "Resisting the allure of simplistic answers (conspiracies, celebrity  worship) for his flock."
+      - "Grappling with the problem of suffering in a world so clearly \"touched\" by  transformative events."
+      - "Deciding how to engage with those outside his faith (e.g., Erp enthropes, Swamp Witches, celebrity cultists) – with condemnation, compassion, or cautious outreach?"
+     Potential_for_Development_Based_on_Bundle:
+      - "Deepening his theological understanding of Primal  Mama's unique phenomena."
+      - "Facing a direct challenge to his faith from a powerful supernatural entity or a charismatic  celebrity cult leader."
+      - "Being forced to make difficult moral choices that test his principles (e.g., collaborating  with an Erpenthrope for a greater good)."
+      - "Expanding his ministry or facing its persecution."
+       - "Becoming a more vocal critic of the meat oligarchy or Beetriot's excesses, potentially facing repercussions."

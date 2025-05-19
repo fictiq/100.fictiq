@@ -1,0 +1,185 @@
+ 
+# Story World Codex: Fictional Person Constitution Protocol
+# Based on Doležel's Heterocosmica III .B.II.C (Character as Property Bundle)
+
+World: Primal Mama
+Codex_Version:  0.2 - Character Constitution
+Last_Updated: "[Current Date]" # Assuming [Current Date] might be  e.g., "2023-10-27: Update"
+Lead_Architect_s_:  "[Your Name/Studio Name]" # Assuming this might contain a colon if a studio name has one e.g.  "Studio: Sub乙"
+
+introduction:
+  title: Constituting Fictional Persons Textually
+  paragraph1:  "This protocol guides the detailed definition of **Fictional Persons** (characters, significant sentient beings) within the Pr imal Mama heterocosm. Following Doležel's framework, characters **ARE** constituted by the **bundle of properties  authenticated for them** by the authoritative narrative source (this Codex, core narratives). They possess **no independent psyche or reality  beyond this textual definition**."
+  paragraph2: "Use this template to systematically build characters by explicitly authenticating their  properties across relevant categories. Focus on creating multifaceted individuals whose complexity arises from the **richness, coherence, and potential tensions  within their authenticated bundle**, and whose actions are logically grounded in their defined nature and the world's rules. Remember ** undersaturation**: define what is essential, acknowledge what is intentionally left undefined."
+
+character_profile:
+  Entity_ ID: CHAR_DeaconW_01
+  Character_Name: Deacon "Deac" Washington
+  Entity _Type: Person
+  Archetype_Optional_Starting_Point_: The Wronged Man / Ruined Entrepreneur
+   Primary_Authentication_Source_s_: This Codex Entry, Primal Mama Coherence Protocol v0.1
+   Canon_Tier: Tier 2 (Significant Supporting Character)
+  Authentication_Status: Authenticated_Canonical_Active
+
+   Authenticated_Property_Bundle:
+    Physical_Properties:
+      Section_Title: Authenticated Form & Sensory  Signature
+      Purpose: Define the character's tangible presence.
+      Properties:
+        - property_label:  Appearance_General
+          description: "[e.g., Male, mid-40s, with distinct African features.  Once powerfully built from years of physical labor in alligator processing, now carries the weight of hardship, appearing gaunt and perpetually  tired.]" # Quoted due to 'e.g.,'
+          authentication_source: "[Primal Mama Co herence Protocol (Ethnicity Diversity Implied), Narrative Description]"
+        - property_label: Appearance_Specific Features
+          description:  "[e.g., Deep-set, kind eyes that now hold a haunted, suspicious look. High cheekbones.  Skin weathered by swamp sun and worry. A neatly trimmed but graying goatee.]" # Quoted due to 'e.g., '
+          authentication_source: "[Narrative Description]"
+        - property_label: Appearance_Distinctive Marks
+          description : "[e.g., A long, faded scar along his left forearm from a gator tail whip in his younger days . Newer, poorly healed bruises on his knuckles, self-inflicted from punching walls in frustration.]" # Quoted due to  'e.g.,'
+          authentication_source: "[Narrative Description]"
+        - property_label:  Typical Attire
+          description: "[e.g., Worn, patched denim overalls over a faded, once-bright polyester  shirt (perhaps orange or avocado green, fitting 70s aesthetic). Scuffed, heavy-duty work boots.  Often wears a mesh-backed, adjustable cap with a defunct local brand logo, e.g., \"Lickskillet  Lager\" or \"Reed's Gator Bites\".]" # Quoted due to 'e.g.,' (Note : internal quotes escaped)
+          authentication_source: "[Primal Mama Coherence (70s Aesthetic), Narrative Desc .]"
+        - property_label: Voice/Speech Pattern
+          description: "[e.g., Deep,  resonant baritone, now often quiet and hesitant, or laced with a simmering bitterness. A distinct Lickskillet regional drawl . Prone to muttering curses under his breath towards Beetriot or \"the suits\".]" # Quoted due to  'e.g.,'
+          authentication_source: "[Dialogue Direction]"
+        - property_label: Gait/ Mannerisms
+          description: "[e.g., Used to walk with a confident, purposeful stride. Now sh uffles, shoulders slumped, often looking over his shoulder. Wrings his calloused hands when agitated.]" # Quoted due to ' e.g.,'
+          authentication_source: "[Action Description]"
+        - property_label: Associated S cent (If Any)
+          description: "[e.g., Faint, lingering smell of swamp water, stale  sweat, and the metallic tang of old fear. Perhaps a hint of cheap, synthetic pipe tobacco he can occasionally afford.]"  # Quoted due to 'e.g.,'
+          authentication_source: "[Sensory Palette]"
+      Undersaturation : "[e.g., Exact height/weight, specific brand of his 70s-style digital watch (if he  still has one), full wardrobe details beyond work clothes.]" # Quoted due to 'e.g.,'
+
+     Functional_Properties:
+      Section_Title: Authenticated Capabilities & Limitations
+      Purpose: Define what the character * can* and *cannot* do.
+      Properties:
+        - property_label: Skill
+          description:  Expert Alligator Butcher & Processor (Formerly renowned for his clean cuts and minimal waste)
+          authentication_source: "[ Backstory, Dialogue from former associates]"
+        - property_label: Skill
+          description: Small-Scale Solar  Tech Maintenance (Could keep his own small processing unit's solar panels and 70s-style converters running efficiently )
+          authentication_source: "[Backstory, Primal Mama Coherence (Solar Dominance)]"
+         - property_label: Skill
+          description: Proficient with a Lever-Action Rifle (Common for Lickskillet residents for  hunting/protection)
+          authentication_source: "[Primal Mama Coherence (Gun Ownership)]"
+        -  property_label: "Limitation (Economic)" # Quoted due to parentheses often being part of a more complex label  that might include a colon. For safety here.
+          description: Financially ruined. Assets seized or sold off under duress.  Struggles for basic necessities.
+          authentication_source: "[Narrative State]"
+        - property_label: "Limitation ( Social)"
+          description: Reputation shattered by accusations (see Axiological/Historical). Ostracized by many in Lick skillet who fear association. Lacks influence or connections to Beetriot's elite.
+          authentication_source: "[ Narrative State, Primal Mama Coherence (Oligarchy Friction)]"
+        - property_label: " Limitation (Knowledge)"
+          description: Understands the practicalities of the gator trade, but not the intricate legal and  financial machinations used by the meat oligarchy against him. Suspects, but cannot prove, the full extent of  their conspiracy.
+          authentication_source: "[Internal Monologue, Dialogue]"
+        - property_label: "Limitation ( Psychological)"
+          description: Suffers from bouts of severe anxiety and paranoia, making sustained effort or clear planning difficult. Easily  triggered by mentions of cattle or Beetriot lawyers.
+          authentication_source: "[Psychological Properties]"
+      Und ersaturation: "[e.g., Ability to pilot swamp skiffs beyond basic operation; knowledge of advanced genetic engineering; ability to  perform complex ritual magic.]" # Quoted due to 'e.g.,'
+
+    Psychological_Properties: 
+      Section_Title: Authenticated Interiority
+      Purpose: Define the character's textually constituted inner life.
+       Properties:
+        - property_label: "Core Trait"
+          description: Embittered / Resentful ( Towards the meat oligarchy and the perceived injustice)
+          authentication_source: "[Dialogue, Internal Monologue]"
+        - property _label: "Core Trait"
+          description: Deep-Seated Sense of Loss (For his business, reputation, and  former life)
+          authentication_source: "[Emotional Displays, Narrative Focus]"
+        - property_label: "Core Tra it"
+          description: Suspicious / Wary (Of strangers, authority figures, and offers of help)
+           authentication_source: "[Interactions]"
+        - property_label: "Dominant Emotion"
+          description: A mix  of simmering anger, profound sadness, and gnawing fear.
+          authentication_source: "[Narrator Descriptions, Character  Actions]"
+        - property_label: "Key Motivator"
+          description: "Desire for Retribution/Justice ( however unlikely); a desperate hope to clear his name, even if only to himself." # Quoted due to semicolon often  used like a colon.
+          authentication_source: "[Internal Monologue, Plot Goals if any]"
+        - property _label: "Key Belief"
+          description: Believes the system is rigged by the wealthy and powerful in Beetriot; " No honest man gets a fair shake anymore." May have started to believe aspects of the "Invisible Women" conspiracy, seeking an explanation for  his downfall. # Quoted due to semicolon.
+          authentication_source: "[Dialogue, Primal Mama Coherence ( Conspiracy)]"
+        - property_label: "Internal Conflict"
+          description: The urge to fight back vs . the crushing fear of further retaliation from the oligarchy; clinging to the memory of his faith in figures like Jerry Reed  (as a deity of honest work/rebellion) vs. feeling abandoned by them. # Quoted due to semicolon. 
+          authentication_source: "[Internal Monologue, Difficult Choices Depicted]"
+        - property_label: "Subjective  Memory Content"
+          description: "Vivid, painful memories of his thriving business – the smell of his smokehouse, the hum  of his 70s-style cooling units, the pride in his work. Equally vivid memories of the day \" they\" came – the smirking Beetriot agents, the falsified documents, the helplessness."
+          authentication_source : "[Narrative Depiction]"
+      Undersaturation: "[e.g., Specific details of his childhood not directly  relevant to his current plight; his full range of opinions on art, music beyond what's culturally dominant; nuanced views on Er penthropes or Swamp Witches beyond general Lickskillet hearsay.]" # Quoted due to 'e.g., ' and semicolon.
+
+    Social_Relational_Categorical_Properties:
+      Section_Title: Authenticated Position
+       Purpose: Define the character's place within the world's networks.
+      Properties:
+        - property_ label: "Official Role"
+          description: "None. Formerly: Owner/Operator of \"Deacon's Prime Gator  Cuts\"." # Quoted due to colon in "Formerly:"
+          authentication_source: "[Backstory]"
+         - property_label: "Social Status"
+          description: "Outcast. Stigmatized. Viewed as either  a fool who got crushed, or worse, someone who actually *did* try to circumvent cattle laws or use forbidden tech (a rumor  the oligarchy might encourage)."
+          authentication_source: "[Interactions, Primal Mama Coherence (Deontic/ Axiological rules)]"
+        - property_label: "Primary Affiliation"
+          description: "None. Formerly : Lickskillet Independent Processors Association (a small, now defunct, co-op)." # Quoted due to colon  in "Formerly:"
+          authentication_source: "[Backstory]"
+        - property_label: "Secondary Aff iliations"
+          description: None. He is actively avoided.
+          authentication_source: "[Narrative events]"
+        -  property_label: "Key Relationship 1"
+          description: "To WIFE_Martha (Estranged/De ceased?): Her fate is a source of his pain; if alive, she may have left him due to the scandal  or pressure." # Quoted due to colon in "Deceased?):" and semicolon.
+          authentication_source:  "[Implied by his loss, needs further narrative authentication]"
+        - property_label: "Key Relationship 2" 
+          description: "To RIVAL_Biz_Owner_Silas (Oligarchy Stooge): The local face  of his downfall, now runs a larger, colder operation where Deacon's business once stood. Deacon harbors intense hatred for him ." # Quoted due to colon.
+          authentication_source: "[Plot conflicts]"
+        - property_label : "Key Relationship 3"
+          description: "To CHILD_Sam (If any, possibly taken by Martha or struggling  elsewhere): A distant hope or another source of pain." # Quoted due to colon.
+          authentication_source:  "[Potential motivator, needs authentication]"
+        - property_label: "Species/Type"
+          description: Human (Baseline Pr imal Mama Strain)
+          authentication_source: "[Default/Description]"
+      Undersaturation: "[e.g., Any  surviving family beyond immediate; any secret sympathizers too afraid to act openly; precise nature of his current dwelling (abandoned shack, charity  cot?).]" # Quoted due to 'e.g.,' and semicolons.
+
+    Modal_Properties:
+       Section_Title: Authenticated Exceptional Status
+      Purpose: Define any inherent unique relationship to world laws.
+      Entries:
+         - Property_ID: N/A
+          Property_Name: None Authenticated. # "Property:" from  MD became "Property_Name:"
+          Description: Deacon operates fully under the established Alethic, Deontic,  Axiological, and Epistemic modalities of Primal Mama. His victimhood stems from the application of these rules against him by more  powerful entities.
+          Limits: N/A
+          Authentication: Absence of any textual evidence of supernatural abilities or exceptions.
+       Note: "Deacon's powerlessness is amplified by his lack of exceptional modal properties."
+
+    Axiological_Properties :
+      Section_Title: Authenticated Value/Reputation
+      Purpose: Define the character's value status  *within* Primal Mama.
+      Properties:
+        - property_label: "Reputation (Lickskillet General )"
+          description: "Authenticated as 'ruined', 'bad luck', 'possibly a cattle sympathizer' ( a devastating accusation, likely false but spread by his enemies). Some older residents might privately recall his honesty but are too scared  to say so."
+          authentication_source: "[Community dialogue/reactions, Primal Mama Coherence (Cattle Tab oo)]"
+        - property_label: "Reputation (Meat Oligarchy)"
+          description: "Authenticated as ' neutralized asset', 'example made of'. They view him as insignificant now that his business is gone."
+          authentication _source: "[Implied by their actions and power]"
+        - property_label: "Moral Alignment (Narr ative Framing)"
+          description: Authenticated via narrative sympathy as a victim of systemic corruption and greed; a good man crushed  by an unjust system. # Quoted due to semicolon.
+          authentication_source: "[Narrator tone, focus  on his suffering]"
+      Undersaturation: "[e.g., How Beetriot's general populace (if they  even know of Lickskillet individuals) would view him; if any Erpenthropes or Swamp Witches  have an opinion on his specific case.]" # Quoted due to 'e.g.,' and semicolon.
+
+     Historical_Properties:
+      Section_Title: Authenticated Past Links
+      Purpose: Define the character's known origins and connections  to past events.
+      Properties:
+        - property_label: "Origin"
+          description: Authenticated  as born and raised in the Lickskillet bayous. Family were small-time alligator hunters for generations.
+          authentication_ source: "[Backstory exposition]"
+        - property_label: "Key Past Event Connection"
+          description: The  "Consolidation" – a period a few years prior when the Beetriot-based meat oligarchy aggressively bought out or  forced out small independent alligator processors in Lickskillet. Deacon resisted, and was subsequently framed for attempting to deal in  illicit cattle parts (a capital offense) and/or using "unlicensed, destabilizing LLM-driven inventory systems " that violated the 1970s aesthetic and automation stigma, allowing for asset seizure.
+          authentication_ source: "[Narrative event, Primal Mama Coherence (Cattle Prohibition, Automaton Stigma, 70s  Tech Constraint, Oligarchy Friction)]"
+        - property_label: "Inherited Items" # Changed from Inherited Items:** 
+          description: Lost almost everything. May secretly possess a single, tarnished silver dollar minted with Burt Reynolds's profile  – a keepsake from his father, representing "luck and swagger," now a bitter reminder.
+          authentication_source:  "[Narrative inventory, Primal Mama Coherence (Deified Celebrities)]"
+      Undersaturation: "[ e.g., Specific details of his ancestors beyond \"gator hunters\"; the exact individuals in the oligarchy who orchestrated his downfall;  the precise nature of the \"evidence\" used to frame him.]" # Quoted due to 'e.g.,' and  semicolons.
+
+  Character_Constitution_Summary_Narrative_Function:
+    Purpose: Synthesize the core  identity, internal conflicts, and narrative role emerging from the authenticated property bundle.
+    Core_Essence: Deacon Washington  is constituted as a living testament to the brutal socio-economic realities of Primal Mama, particularly the "friction" caused  by the meat oligarchy. He is a man stripped of his livelihood, reputation, and dignity through the cynical manipulation of  Primal Mama's core Deontic (cattle laws, tech stigma) and Axiological (value of conformity, fear of taboo ) rules. His existence is defined by loss, flavored by the enforced 1970s retro-futur ism that once characterized his small business's charm and now feels like a mocking echo. He represents the discarded "mom-and- pop" ideal in a world increasingly controlled by unseen corporate powers in Beetriot.
+    Primary_Narrative_Function: To  serve as a potent example of the meat oligarchy's oppressive power and the human cost of their expansion. He can act as a  cautionary tale, a source of localized information about the oligarchy's methods in Lickskillet, or a desperate individual who might  be spurred to action (or seek help) if a protagonist offers a glimmer of hope or a path to minor revenge/ revelation. He grounds the more fantastical elements of Primal Mama in relatable human suffering.
+    Key_Internal _Conflicts_From_Bundle_: Desire for justice/revenge vs. paralyzing fear of the oligarchy's reach; clinging  to the memory of his faith in figures like Jerry Reed (as a deity of honest work/rebellion) vs. feeling  abandoned by them. # Quoted due to semicolon.
+    Potential_for_Development_Based_on_Bundle _: Deacon could be pushed to a breaking point, leading to a reckless act of defiance. He might find a new, albeit diminished , purpose if offered a safe way to contribute to undermining his enemies (e.g., providing information to Erpenthropes  or other rebels). He could also fully succumb to despair and paranoia, becoming a more tragic figure or a pawn in someone else 's game. Recovery of any part of his former self or status is highly improbable without significant external intervention that challenges the oligarchy' s power. # Quoted due to 'e.g.,'.

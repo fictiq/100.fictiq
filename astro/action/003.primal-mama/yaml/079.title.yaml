@@ -1,0 +1,257 @@
+``` yaml
+# Story World Codex: Functional Profiles for Fabricated Materiel (Primal Mama) YAML Data
+# Based  on Doležel's Heterocosmica III.B.II.B (Functional Properties)
+
+world: Primal Mama
+ codex_version: '0.2 - Crafting Functionality Analysis'
+last_updated: '[Current Date]'  # Replace with actual date
+lead_architects: '[Your Name/Studio Name]' # Replace with actual name/ studio
+name: 'Swamp Tinkerer''s Guide: Analyzing Bayou Crafting Functions'
+
+functional_profiles:
+  MAT _COMP_GROUP_ESSENTIAL:
+    entity_id: 'MAT_COMP_GROUP_ESSENTIAL'
+    entity _name: Essential Fabricated Components (Collective Group)
+    entity_type: Object (Material Sub-type)
+     authentication_sources: 'Primal Mama - Swamp Survival & Gear Fabrication Guide v0.1 YAML Data (essential_components  section)'
+    functional_properties:
+      core_function:
+        primary_role: |
+          To  serve as intermediary materials enabling the creation, repair, or modification of more complex functional entities (e.g., weapons, armor,  tools, devices, structures) via authenticated crafting processes.
+        primary_role_auth: 'Source Intro, Component Purpose Implied  by Recipes'
+        secondary_roles:
+          - Act as indicators of technological/resource tiers
+          - function  as trade goods
+          - represent tangible results of resource gathering and processing efforts.
+        secondary_roles_auth: 'Derived  from Recipe Structure & Notes'
+      capabilities:
+        - id: 'FUNC-COMP-MATERIALITY'
+           name: Material Property Embodiment
+          description: |
+            Each component type possesses specific, authenticated material properties (e.g ., hardness, conductivity, durability, resistance to corrosion/heat, ritualistic resonance) derived from its constituent ingredients and processing method.  These properties directly enable the functions of the final crafted item. (e.g., Hardened Steel Plate provides damage resistance  capability to armor; Polished Conductor Ingot enables efficient energy transfer in devices).
+          authentication: 'Implicit in component names ( e.g., "Hardened", "Reinforced", "Alpha Plate", "Polished Conductor") and their use in specific  recipe types (not fully detailed in source, but implied).'
+          limits_nuances: 'Properties are specific; a component  cannot fulfill a role requiring different properties (e.g., Gator Hide cannot replace Steel for structural integrity).'
+        -  id: 'FUNC-COMP-COMBINATION'
+          name: Recipe Combination Potential
+          description: |
+            Possess  the authenticated potential to be combined with other specific components, following defined schematics/recipes, to produce a new entity with  emergent functional properties.
+          authentication: 'Explicitly defined by the "Required Materials" in each recipe within the source data.'
+           limits_nuances: 'Requires specific combinations; incorrect combinations yield no result or waste materials. Requires appropriate Tinkerer entity.'
+       skills_expertise: null # N/A for components themselves. Proficiency resides in the Tinkerer entity.
+       inabilities:
+        - id: 'INAB-COMP-STANDALONE'
+          description: |
+            Cannot perform  their intended function (enabling gear creation) without undergoing an authenticated crafting process involving other components and a Tinkerer. They  are inert intermediaries.
+          authentication: 'Implicit in the nature of crafting components.'
+          narrative_function: null  # Not specified in source markdown for this item
+        - id: 'INAB-COMP-SUBSTITUTION'
+           description: |
+            Generally cannot be substituted for different required components in a recipe (e.g., cannot use Reclaimed Steel  where Hardened Steel is specified) unless explicitly allowed by an alternative recipe (not shown in source).
+          authentication: ' Implicit in recipe specificity.'
+          narrative_function: null # Not specified in source markdown for this item
+       vulnerabilities:
+        - id: 'VULN-COMP-CONSUMPTION'
+          description: | 
+            Consumed entirely during the crafting process. Their existence is sacrificed to create the new entity.
+          authentication: 'Fundamental principle of  crafting as described.'
+          narrative_function: null # Not specified in source markdown for this item
+        -  id: 'VULN-COMP-SCARCITY'
+          description: |
+            Availability is dependent on the sourcing  of raw materials and the availability/skill of Tinkerers. Rarity acts as a functional constraint on crafting potential. (e .g., "Alpha Gator Plate Section" requires rare scales; "Ritual Component: Ghost-Sight Dust" requires  rare Erpenthrope Dust).
+          authentication: 'Implied by material requirements (e.g., "Intact Alpha Gator  Scale", "Erpenthrope Scale Dust (Rare!)") and differing Tinkerer levels.'
+          narrative_function: null  # Not specified in source markdown for this item
+      constraints:
+        - id: 'COST-COMP-MATERIALS '
+          applies_to: All Fabricated Components
+          description: |
+            Requires specific quantities of lower -tier materials ("Required Materials") as input for fabrication. This represents a resource cost.
+          authentication: 'Source  Data (YAML `required_materials`).'
+          narrative_function: 'Drives resource gathering gameplay loop; creates  economic value.'
+        - id: 'DEPEND-COMP-TINKERER'
+          applies_to: All Fabric ated Components
+          description: |
+            Requires the intervention of a Tinkerer entity with the appropriate authenticated skill level ("Tinkerer  Requirement": Amateur or Journeyman) and implied tools/workshop access.
+          authentication: 'Source Data (YAML  `tinkerer_requirement`).'
+          narrative_function: 'Creates dependency on specific NPCs/facilities; acts  as a progression gate; reinforces world''s social structure (specialized labor).'
+        - id: 'OPCON- COMP-AESTHETIC'
+          applies_to: Implied for components used in visible tech
+           description: |
+            While not explicit for base components, the final crafted items utilizing them must adhere to the world's authenticated  late 1970s technological aesthetic constraint (per Primal Mama Coherence Protocol). This may influence component design choices even if  not textually stated.
+          authentication: 'Primal Mama Coherence Protocol I.A.'
+          narrative_function : 'Reinforces world''s unique visual and technological identity.'
+    profile_summary:
+      core_identity : |
+        Essential Fabricated Components function as **latent potential**, acting as necessary intermediaries in the Primal Mama crafting system.  Their identity is defined by their specific material properties and their authenticated potential to be transformed, via Tinkerer intervention and adherence to recipes, into  objects with active functions. They embody the **possibility of technological adaptation and survival** within the world's constraints.
+       narrative_functions:
+        - Drive resource acquisition loops
+        - Provide tangible goals for exploration and scavenging
+         - Gatekeep player progression through material/skill requirements
+        - 'Reflect the world''s specific technological level and resource base  (e.g., reliance on Gator parts, salvaged scrap, specialized solar tech).'
+      alethic_mod ality_relation: |
+        The transformation of base materials into functional components demonstrates the *possibility* established by the world' s crafting rules. The specific recipes define the *necessary* conditions for this possibility. The requirement for specific, sometimes rare, ingredients  highlights *impossibilities* (e.g., making Alpha Gator Plate without Alpha Gator Scales).
+      functional_t ensions:
+        - Scarcity of resources vs. desire for better gear.
+        - Time/cost investment in  gathering/crafting vs. immediate needs.
+        - Dependency on Tinkerers vs. self-sufficiency.
+
+  AMMO_ HARPOON_GROUP_SPECIAL:
+    entity_id: 'AMMO_HARPOON_GROUP_ SPECIAL'
+    entity_name: Specialized Harpoon Ammunition (Collective Group)
+    entity_type: Object  (Ammunition Sub-type)
+    authentication_sources: 'Primal Mama - Swamp Survival & Gear  Fabrication Guide v0.1 YAML Data (specialized_ammunition section)'
+    functional_properties:
+       core_function:
+        primary_role: |
+          To be expended via an authenticated Harpoon Gun entity, delivering  a specific, non-standard payload or effect upon impact with a target or environment, supplementing or replacing the function of basic harpoons .
+        primary_role_auth: 'Source Intro, Ammo Type Descriptions'
+        secondary_roles:
+           - Provide tactical options in combat/utility situations
+          - Overcome specific defenses or exploit weaknesses
+          - Serve  as crafted solutions to specific environmental or enemy challenges.
+        secondary_roles_auth: 'Derived from Effects Descriptions'
+       capabilities:
+        - id: 'FUNC-AMMO-PAYLOAD-DELIVERY'
+          name: Specialized  Effect Payload Delivery
+          description: |
+            Each ammunition type possesses a unique, authenticated capability delivered upon successful impact via  Harpoon Gun. These include:
+            *   `Pheromone Dart:` Attract Fauna (`Effect: Att racts nearby aggressive fauna...`)
+            *   `Tranq Head Harpoon:` Sedation (`Effect: Chance to Sedate  target...`)
+            *   `Barbed Harpoon:` Enhanced Piercing + Bleeding (`Damage: +10 Pier cing. Effect: Causes Bleeding...`)
+            *   `Explosive Tip:` Area Explosive Damage +  Stagger (`Damage: +15 Explosive... Effect: High chance of Stagger...`)
+            *   `AP Har poon:` Armor Penetration (`Effect: +50 Armor Penetration...`)
+            *   `Flechette Harpoon:` Multi -Projectile Spread (`Damage: +5 Piercing (x5 projectiles). Effect: Spreads...`)
+            *    `Tracer Dart:` Target Illumination (`Effect: Target glows brightly...`)
+            *   `Stun Head Harpoon :` Electrical Stun (`Effect: Delivers powerful electric shock...`)
+          authentication: 'Source Data (YAML `effects_ stats` for each ammo type).'
+          limits_nuances: 'Effects have specific parameters (duration, radius, damage values , chance-based activation). Effectiveness may vary based on target resistances. Requires successful hit with Harpoon Gun.'
+      skills_expertise : null # N/A for ammunition itself. Proficiency resides in the user's skill with the Harpoon Gun and  the Tinkerer's skill in crafting.
+      inabilities:
+        - id: 'INAB-AM MO-SELFPROPEL'
+          description: |
+            Cannot function (deliver payload) without being fired from a compatible Harpoon  Gun entity.
+          authentication: 'Implicit nature of ammunition.'
+          narrative_function: null # Not specified  in source markdown for this item
+        - id: 'INAB-AMMO-UNIVERSAL-EFFECT'
+           description: |
+            Each specialized type *cannot* produce the effects of other types (e.g., a  Tracer Dart cannot explode; a Tranq Dart does not penetrate armor like an AP Harpoon).
+          authentication: 'Defined  by specific, distinct `effects_stats`.'
+          narrative_function: null # Not specified in source markdown for  this item
+      vulnerabilities:
+        - id: 'VULN-AMMO-CONSUMPTION' 
+          description: |
+            Consumed entirely upon firing. A finite resource.
+          authentication: 'Implicit nature of  ammunition.'
+          narrative_function: null # Not specified in source markdown for this item
+        - id:  'VULN-AMMO-CRAFTING-COST'
+          description: |
+            Requires specific, sometimes rare or  complex, fabricated components and Tinkerer intervention to create, making them potentially costly or difficult to acquire in quantity.
+          authentication:  'Source Data (YAML `required_materials`, `tech_level`, `tinkerer_requirement`).'
+           narrative_function: null # Not specified in source markdown for this item
+        - id: 'VUL N-AMMO-COUNTERMEASURES'
+          description: |
+            Effectiveness can be negated or reduced by  specific target defenses (e.g., high armor vs. Barbed Harpoon, electrical insulation vs. Stun Head, creature  indifference to Pheromone Dart). (Specific counters not listed in source, but implied by tactical gameplay).
+          authentication: 'Derived  from tactical function.'
+          narrative_function: null # Not specified in source markdown for this item
+      constraints:
+         - id: 'COST-AMMO-MATERIALS'
+          applies_to: All Specialized Harpoon Ammo
+           description: |
+            Requires specific quantities of fabricated components/raw materials per unit ("Required Materials").
+          authentication : 'Source Data (YAML `required_materials`).'
+          narrative_function: 'Creates resource sink;  encourages strategic use; links ammo availability to component availability.'
+        - id: 'DEPEND-AMMO-TINKERER '
+          applies_to: All Specialized Harpoon Ammo
+          description: |
+            Requires fabrication by a Tinkerer  entity with the appropriate authenticated skill level ("Tinkerer Requirement").
+          authentication: 'Source Data (YAML `tink erer_requirement`).'
+          narrative_function: 'Gates access to advanced tactical options; reinforces Tinkerer importance .'
+        - id: 'DEPEND-AMMO-HARPOON-GUN'
+          applies_to : All Specialized Harpoon Ammo
+          description: |
+            Requires a functional, compatible Harpoon Gun entity to be used.
+           authentication: 'Implicit function of ammunition.'
+          narrative_function: 'Ties ammunition system directly to specific  weapon availability/maintenance.'
+        - id: 'OPCON-AMMO-TECH-LEVEL'
+          app lies_to: All Specialized Harpoon Ammo
+          description: |
+            Possesses an approximate "Tech Level", suggesting varying  degrees of complexity, rarity, or schematic availability.
+          authentication: 'Source Data (YAML `tech_level`). '
+          narrative_function: 'Provides sense of progression; potentially links availability to player progress or specific discoveries.'
+    profile _summary:
+      core_identity: |
+        Specialized Harpoon Ammunition functions as **expendable  tactical modifiers**, extending the capabilities of the standard Harpoon Gun. Each type embodies a specific, contained function (utility, control, enhanced  damage, etc.), allowing the user to adapt their weapon's output to diverse situations at the cost of resources and preparation . They represent **applied ingenuity and adaptation** within the Primal Mama world.
+      narrative_functions:
+         - Provide players with tactical choices and problem-solving tools
+        - Create resource management challenges
+        - Add depth to combat encounters 
+        - 'Reflect the specific dangers and opportunities of the Primal Mama environment (e.g., Pher omone Dart leveraging fauna, Tranq Head for non-lethal options, Explosive Tip for brute force).'
+       alethic_modality_relation: |
+        The existence of these ammo types demonstrates the *possibility* of  creating specific, targeted effects within the world's technological/chemical rules. The crafting requirements define the *necessary* conditions. The inability  of one ammo type to perform another's function reinforces the specific *limits* of each design.
+      functional_tensions: 
+        - Cost of crafting vs. tactical advantage gained.
+        - Using finite special ammo vs. relying on infinite basic  harpoons.
+        - Choosing the "right" ammo for an unknown situation.
+        - Risk of attracting attention by crafting  powerful ordnance.
+
+  NPC_TYPE_TINKERER:
+    entity_id: 'NPC_TYPE_T INKERER'
+    entity_name: Tinkerer (Generic Type - Inferred Profile)
+    entity_type: Person  (NPC Service Provider)
+    authentication_sources: 'Implied by "Tinkerer Requirement" field in source  YAML data.'
+    functional_properties:
+      core_function:
+        primary_role: |
+          To transform authenticated  raw materials and fabricated components into higher-tier components or finished goods (like specialized ammunition) according to known recipes/schematics. 
+        primary_role_auth: Inferred
+      capabilities:
+        - id: 'FUNC-TINKER ER-CRAFT'
+          name: Specialized Crafting
+          description: |
+            Possess the capability to perform specific  crafting actions associated with their specialization (e.g., Scrap-Welder, Hide Tanner, Solar Tech, Chem- Mixer, Weaponsmith, Ritualist Scribe) and skill level (Amateur, Journeyman).
+           authentication: Inferred from recipe requirements
+          limits_nuances: Specific to specialization and skill level.
+      skills _expertise:
+        - id: 'SKILL-TINKERER-PROFICIENCY'
+          name: Craft ing Proficiency Level
+          description: Differentiated by proficiency levels (Amateur/Journeyman), indicating ability to handle  more complex recipes or work with rarer materials.
+          authentication: Explicit in recipe requirements ('Amateur', 'Journeyman')
+       inabilities:
+        - id: 'INAB-TINKERER-UNIVERSAL'
+          description: |
+             Cannot craft items for which they lack the schematic, required skill level, or necessary tools/facilities. An Amateur cannot perform Jour neyman-level tasks.
+          authentication: Inferred logic of crafting systems
+      vulnerabilities: null # Not detailed  in source analysis
+      constraints:
+        - id: 'DEPEND-TINKERER-MATERIALS'
+          app lies_to: Crafting Actions
+          description: Dependent on receiving the correct raw materials from the user.
+           authentication: Inferred logic of crafting systems
+        - id: 'DEPEND-TINKERER-TOOLS'
+           applies_to: Crafting Actions
+          description: Requires access to appropriate tools and workshop facilities (implied).
+           authentication: Implied
+        - id: 'COST-TINKERER-SERVICE'
+          applies_to: Craft ing Actions
+          description: Function is transactional (likely requires payment or service exchange, though not specified in source).
+           authentication: Implied economic logic
+        - id: 'DEPEND-TINKERER-KNOWLEDGE'
+          app lies_to: Crafting Actions
+          description: Constrained by available knowledge (schematics).
+          authentication:  Inferred logic of crafting systems
+    profile_summary:
+      core_identity: |
+        Tinkerers  function as **facilitators of material transformation** and **gatekeepers of technological progression** within the Primal Mama crafting system . They embody specialized knowledge and labor, enabling players/characters to access higher tiers of gear and capability, provided the necessary  resources and requirements are met. They are essential nodes in the world's informal economy and technological ecosystem.
+      narrative_functions :
+        - Enable player access to advanced gear/ammo
+        - Act as progression gates
+        - Reinforce  world's economy and specialized labor structure
+      alethic_modality_relation: |
+        Tinkerers embody the  *possibility* of complex crafting. Their skill levels and specialization define the *necessary conditions* for specific crafting actions. Their  limitations define the *impossibility* of certain actions (e.g., an Amateur crafting Journeyman items). 
+      functional_tensions:
+        - Player dependency on NPC services.
+        - Cost/availability of Tink erer services vs. player resources.
+
+conclusion: |
+  Analyzing the crafting components and specialized ammunition of Primal Mama  through the lens of the Entity Functional Profile Protocol reveals their dynamic roles within the heterocosm. Their functions are not merely  descriptive lists of recipes but represent a system of **potentialities, constraints, costs, and dependencies**. Defining these properties clearly— what can be made, how, from what, by whom, at what cost, and to what effect—is crucial for maintaining the  internal logic and coherence of the world. This functional definition ensures that crafting and gear acquisition are meaningful systems integrated into the narrative and  gameplay, reflecting the challenges and ingenuity required to survive in the retro-futuristic, gator-filled bayous of Primal Mama .
+
+```

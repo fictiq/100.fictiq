@@ -1,0 +1,429 @@
+```yaml
+primal_mama_quest_entity_profiles:
+  world: "Primal Mama"
+   codex_version: "0.2 - Quest Entity Functions (YAML)"
+  last_updated: "[Current Date ]"
+  lead_architects: "[Your Name/Studio Name]"
+  introduction: |
+    This document applies the Entity  Functional Profile Protocol to entities and systems encountered in the "Bayou Haunts & Beetriot Hustles" questline.
+     It defines their dynamic potential for action, interaction, and influence as demonstrated or implied by the quest progression.
+    Authentication is  primarily sourced from the "Primal Mama Re-contextualized Quest Log (YAML)" derived from the original quest text .
+
+  entities:
+    - entity_id: "ITEM_BLUEPRINT_SOLARVEST_01 "
+      entity_name: "Blueprint: Advanced Solar Gator-Hide Vest"
+      entity_type: " Object (Schematic)"
+      primary_authentication_sources: "Primal Mama Re-contextualized Quest Log (YAML  - quest_id: PM_BHBH_001), Primal Mama Quest Log: Entity Functional Profiles (Markdown)"
+       functional_properties_bundle:
+        core_function_purpose:
+          primary_role: "Enables  crafting of \"Advanced Solar Gator-Hide Vest\" at a suitable fabrication station."
+          secondary_roles: "Progression marker;  incentive for exploration and overcoming obstacles (locked footlocker)."
+        key_capabilities_powers:
+          - capability_id:  "FUNC-SCHEM-01"
+            name: "Knowledge Impartation (Crafting)"
+             description: "Contains the necessary design data and material specifications for a fabricator (or skilled individual) to construct the specified armor." 
+            authentication: "Implied by \"Blueprint\" nature and \"If you can fabricate...\" text (Quest Log YAML )."
+            limits_nuances: "Requires appropriate crafting station/skills and raw materials (not included with blueprint)."
+         inabilities_lack_of_function:
+          - inability_id: "INAB-SCHEM-01 "
+            description: "Cannot self-assemble or provide materials. Is purely informational."
+            authentication: "Standard understanding of  a \"blueprint.\""
+        costs_dependencies_operational_constraints:
+          - constraint_id: "DEPEND-SCHEM -01"
+            applies_to: "ITEM_BLUEPRINT_SOLARVEST_01 ( and similar blueprints)"
+            description: "Acquisition dependent on player character overcoming an obstacle (locked footlocker requiring Lock pick Kit [Basic] or Brute Force [STR 6])."
+            authentication: "Quest Log YAML -  location_description (PM_BHBH_001)"
+            narrative_function: "Acts as a  gate for progression; rewards specific player capabilities."
+
+    - entity_id: "OBJ_LOCKEDFOOTLOCKER_0 1"
+      entity_name: "Locked Footlocker (Pumping Station)"
+      entity_type: " Object (Container)"
+      primary_authentication_sources: "Primal Mama Re-contextualized Quest Log (YAML - quest _id: PM_BHBH_001), Primal Mama Quest Log: Entity Functional Profiles (Markdown)"
+       functional_properties_bundle:
+        core_function_purpose:
+          primary_role: "Securely contains \" Blueprint: Advanced Solar Gator-Hide Vest\". Acts as a minor obstacle."
+        key_capabilities_powers:
+           - capability_id: "FUNC-CONTAINER-01"
+            name: "Item Containment"
+             description: "Physically holds an item."
+            authentication: "Standard function of a footlocker."
+           - capability_id: "FUNC-LOCKMECH-01"
+            name: "Access Denial (Basic Lock)" 
+            description: "Prevents unauthorized access to contents."
+            authentication: "Described as \"locked\" ( Quest Log YAML)."
+        vulnerabilities_weaknesses:
+          - vulnerability_id: "VULN -LOCKMECH-01A"
+            description: "Susceptible to bypass via \"Lockpick Kit [Basic]\ "._DOC"
+            authentication: "Quest Log YAML - location_description (PM_BHBH_001)"
+           - vulnerability_id: "VULN-LOCKMECH-01B"
+            description: " Susceptible to bypass via \"Brute Force [STR 6]\"._DOC"
+            authentication: "Quest Log YAML -  location_description (PM_BHBH_001)"
+        costs_dependencies_operational_constraints:
+           - constraint_id: "OPCON-ACCESS-01"
+            applies_to: "Access ing contents of OBJ_LOCKEDFOOTLOCKER_01"
+            description: "Requires player character to possess and  utilize \"Lockpick Kit [Basic]\" OR have a Strength attribute of 6+ for \"Brute Force\" ."
+            authentication: "Quest Log YAML - location_description (PM_BHBH_001)"
+             narrative_function: "Skill/Attribute check; rewards specific character builds or preparation."
+
+    - entity_id:  "CHAR_HOMESTEADER_01"
+      entity_name: "Nervous Homesteader "
+      entity_type: "Person (NPC)"
+      primary_authentication_sources: "Primal Mama Re-context ualized Quest Log (YAML - quest_id: PM_BHBH_002 setup), Primal Mama  Quest Log: Entity Functional Profiles (Markdown)"
+      functional_properties_bundle:
+        core_function_purpose :
+          primary_role: "Quest Giver for \"Bogle-Bogged Gator\"."
+          secondary _roles: "Provides context for local dangers (Bayou Bogle/Reavers); offers reward upon quest completion."
+         key_capabilities_powers:
+          - capability_id: "FUNC-NPC-QUESTISSUE-0 1"
+            name: "Quest Issuance"
+            description: "Can communicate a problem and solicit aid from  the player character."
+            authentication: "Quest Log YAML - \"Agree to help him to start the quest...\" (PM _BHBH_002 setup)"
+          - capability_id: "FUNC-NPC-REWARD- 01"
+            name: "Reward Dispensation"
+            description: "Can provide tangible rewards (Gator -Scrip, Rations) upon successful quest completion."
+            authentication: "Quest Log YAML - rewards_list  for PM_BHBH_002"
+        vulnerabilities_weaknesses:
+          - vulnerability_ id: "VULN-HOMESTEAD-01"
+            description: "Susceptible to loss of  property (solar-charged pack-gator) by local threats (Bayou Reavers)."
+            authentication: " Quest Log YAML - \"stole his prized solar-charged pack-gator.\" (PM_BHBH_00 2 setup)"
+
+    - entity_id: "CREATURE_PACKGATOR_01"
+      entity _name: "Solar-Charged Pack-Gator"
+      entity_type: "Creature (Domesticated , Modified)"
+      primary_authentication_sources: "Primal Mama Re-contextualized Quest Log (YAML  - quest_id: PM_BHBH_002), Primal Mama Quest Log: Entity Functional Profiles ( Markdown)"
+      functional_properties_bundle:
+        core_function_purpose:
+          primary_role:  "Object of retrieval in \"Bogle-Bogged Gator\" quest; utility animal for Homesteader."
+          secondary_roles : "Demonstrates local GE tech (solar augmentation for gators)."
+        key_capabilities_powers:
+          - capability _id: "FUNC-PACKGATOR-SOLARHARNESS-01"
+            name: "Solar Energy  Absorption (via Harness)"
+            description: "Possesses a harness allowing it to derive energy/sustain itself,  at least partially, from solar power."
+            authentication: "Name \"solar-charged pack-gator\" and  \"distinctive solar panel harness\" (Quest Log YAML - PM_BHBH_002)."
+            limits _nuances: "Effectiveness likely dependent on sunlight; may have other dietary/energy needs."
+          - capability_id:  "FUNC-PACKGATOR-CARGO-01"
+            name: "Cargo Hauling"
+             description: "Implied function as a \"pack-gator\" is to carry goods."
+            authentication: " Term \"pack-gator\" (Quest Log YAML - PM_BHBH_002)."
+        in abilities_lack_of_function:
+          - inability_id: "INAB-PACKGATOR-SELF RESCUE-01"
+            description: "Cannot independently escape captivity from Bayou Reavers."
+            authentication: " Requires player intervention for retrieval (Quest Log YAML - PM_BHBH_002)."
+
+    - entity_ id: "FACTION_BAYOUREAVERS_01"
+      entity_name: "Bayou Re avers (Generic Group)"
+      entity_type: "Organization (Hostile)"
+      primary_authentication_sources : "Primal Mama Re-contextualized Quest Log (YAML - quest_id: PM_BHBH_ 002), Primal Mama Quest Log: Entity Functional Profiles (Markdown)"
+      functional_properties_bundle: 
+        core_function_purpose:
+          primary_role: "Antagonists in \"Bogle-Bog ged Gator\"; possessor of stolen Pack-Gator."
+          secondary_roles: "Provide combat or social challenge for the  player."
+        key_capabilities_powers:
+          - capability_id: "FUNC-REAVER-COMB AT-01"
+            name: "Armed Combat Proficiency (Basic)"
+            description: "Capable of engaging in combat  using crude melee weapons and old shotguns."
+            authentication: "Quest Log YAML - choices: \"[FIGHT]  Engage the Reavers...\" (PM_BHBH_002)"
+          - capability_id: " FUNC-REAVER-PROPERTYTHEFT-01"
+            name: "Property Acquisition (Theft)"
+             description: "Able to steal property (e.g., Pack-Gator)."
+            authentication: "Implicit  in quest setup (Quest Log YAML - PM_BHBH_002)."
+          - capability_id: " FUNC-REAVER-VERBALTHREAT-01"
+            name: "Intimidation/Threat Display"
+             description: "Can verbally threaten violence to deter others."
+            authentication: "Quest Log YAML - \"he' ll threaten violence.\" (PM_BHBH_002)"
+        vulnerabilities_weaknesses:
+           - vulnerability_id: "VULN-REAVER-COMBAT-01"
+            description: "Susceptible  to defeat in direct combat by a capable opponent (Player Character)."
+            authentication: "Quest Log YAML - choices: \"[F IGHT]\" (PM_BHBH_002)"
+          - vulnerability_id: "VULN -REAVER-BRIBERY-01"
+            description: "Willing to relinquish stolen goods for monetary  compensation (50 Creds)."
+            authentication: "Quest Log YAML - choices: \"[BARTER (5 0 Creds)]\" (PM_BHBH_002)"
+          - vulnerability_id: "V ULN-REAVER-INTIMIDATION-01"
+            description: "Susceptible to being intimidated  into compliance by a sufficiently fearsome/reputable individual."
+            authentication: "Quest Log YAML - choices: \" [INTIMIDATE (Erpenthrope Trait or High Reputation)]\" (PM_BHBH_0 02)"
+          - vulnerability_id: "VULN-REAVER-DECEPTION-01" 
+            description: "Can be deceived by a sufficiently charismatic/skilled individual."
+            authentication: "Quest Log YAML -  choices: \"[DECEPTION (High Charm/Speech)]\" (PM_BHBH_002)"
+         costs_dependencies_operational_constraints:
+          - constraint_id: "OPCON-REAVER-S IGHTAGGRESSION-01"
+            applies_to: "Bayou Reavers in camp"
+             description: "Will initiate combat on sight if player approaches the Pack-Gator without prior dialogue."
+            authentication: " Quest Log YAML - gameplay_note: \"If you approach the pack-gator... they will attack on sight.\"  (PM_BHBH_002)"
+
+    # --- Raider Stash Entities ---
+    - entity_id:  "OBJ_RAIDERSTASH_01"
+      entity_name: "Raider Stash Container( s)"
+      entity_type: "Object (Container)"
+      primary_authentication_sources: "Primal  Mama Re-contextualized Quest Log (YAML - event_id: PM_BHBH_E001 )"
+      functional_properties_bundle:
+        core_function_purpose:
+          primary_role: "Contain  loot items for the player."
+        key_capabilities_powers:
+          - capability_id: "FUNC-CONTAIN ER-LOOT-01"
+            name: "Item Storage"
+            description: "Holds various items ( e.g., ammo, supplies)."
+            authentication: "Quest Log YAML - loot_details (PM_BHBH_ E001)"
+        vulnerabilities_weaknesses:
+          - vulnerability_id: "VULN- CONTAINER-ACCESS-01"
+            description: "Accessible after associated guards (Rust Devil Raiders) are neutralized ."
+            authentication: "Implied by guarded nature (Quest Log YAML - PM_BHBH_E00 1)."
+
+    - entity_id: "CREATURE_RUSTDEVILRAIDER_01" #  Assuming a generic type for this encounter
+      entity_name: "Rust Devil Raider"
+      entity_type: "Creat ure (Humanoid, Hostile)"
+      primary_authentication_sources: "Primal Mama Re-contextualized Quest  Log (YAML - event_id: PM_BHBH_E001)"
+      functional_properties_ bundle:
+        core_function_purpose:
+          primary_role: "Guard Raider Stash; provide combat encounter." 
+        key_capabilities_powers:
+          - capability_id: "FUNC-RDR-COMBAT-01 "
+            name: "Armed Combat (Basic)"
+            description: "Engages in combat, likely with scav enged weapons."
+            authentication: "Quest Log YAML - \"Eliminate the Rust Devil Raiders\" (PM_BH BH_E001)"
+        vulnerabilities_weaknesses:
+          - vulnerability_id: " VULN-RDR-COMBATDEFEAT-01"
+            description: "Can be defeated in  combat by the player."
+            authentication: "Implied by objective (Quest Log YAML - PM_BHBH_ E001)."
+
+    # --- Citizen(s) in Distress Entities ---
+    - entity_id: " CHAR_SWAMPWITCHINITIATE_01"
+      entity_name: "Swamp Witch Initiate"
+       entity_type: "Person (NPC, Captive)"
+      primary_authentication_sources: "Primal Mama Re- contextualized Quest Log (YAML - event_id: PM_BHBH_E002)"
+       functional_properties_bundle:
+        core_function_purpose:
+          primary_role: "Objective of rescue mission ."
+          secondary_roles: "May provide future boon/information; illustrates Gator-Gang activity."
+        key_ capabilities_powers:
+          - capability_id: "FUNC-INITIATE-POTENTIALBOON-01 "
+            name: "Gratitude Expression / Boon Potential"
+            description: "Expresses thanks and may lead  to future benefits from Mama Legba."
+            authentication: "Quest Log YAML - \"Minor Boon from Mama Legba later?\"  (PM_BHBH_E002)"
+        inabilities_lack_of_function:
+           - inability_id: "INAB-INITIATE-SELFRESCUE-01"
+            description: "Unable  to escape captivity from Gator-Gang Punks without assistance."
+            authentication: "Requires player to free (Quest Log YAML - PM _BHBH_E002)."
+
+    - entity_id: "OBJ_CAGE_SWP INT_01" # Specific cage for this event
+      entity_name: "Crudely Welded Cage"
+      entity _type: "Object (Obstacle, Container)"
+      primary_authentication_sources: "Primal Mama Re -contextualized Quest Log (YAML - event_id: PM_BHBH_E002)"
+       functional_properties_bundle:
+        core_function_purpose:
+          primary_role: "Confine  the Swamp Witch Initiate."
+        key_capabilities_powers:
+          - capability_id: "FUNC-C AGE-CONFINEMENT-01"
+            name: "Physical Restraint"
+            description: "Prevents escape  of contained entity."
+            authentication: "Implied by being a cage holding a captive."
+        vulnerabilities _weaknesses:
+          - vulnerability_id: "VULN-CAGE-KEYUNLOCK-01" 
+            description: "Can be opened using the \"Crudely Welded Cage Key\"."
+            authentication: "Quest Log  YAML - \"Loot their leader for a \\\"Crudely Welded Cage Key.\\\"\" (PM_BHBH_ E002)"
+
+    - entity_id: "CREATURE_GATORGANGPUNK_01 " # Generic type for this encounter
+      entity_name: "Gator-Gang Punk"
+      entity_type: " Creature (Humanoid, Hostile)"
+      primary_authentication_sources: "Primal Mama Re-context ualized Quest Log (YAML - event_id: PM_BHBH_E002)"
+      functional _properties_bundle:
+        core_function_purpose:
+          primary_role: "Guard captive (Sw amp Witch Initiate); provide combat."
+        key_capabilities_powers:
+          - capability_id: "FUNC-GGP -COMBAT-01"
+            name: "Armed Combat (Nail-bats, Rusty Pistols)"
+             description: "Engages in combat with specified weaponry."
+            authentication: "Quest Log YAML - description of Gator -Gang Punks (PM_BHBH_E002)"
+          - capability_id: "FUNC-G GP-KEYCARRIER-01" # Leader only
+            name: "Item Carrying (Key)"
+            description : "The leader carries the \"Crudely Welded Cage Key\"."
+            authentication: "Quest Log YAML -  \"Loot their leader for a \\\"Crudely Welded Cage Key.\\\"\" (PM_BHBH_ E002)"
+        vulnerabilities_weaknesses:
+          - vulnerability_id: "VUL N-GGP-COMBATDEFEAT-01"
+            description: "Can be defeated in combat by the player ."
+            authentication: "Implied by objective (Quest Log YAML - PM_BHBH_E002 )."
+
+    # --- Professor Pylon's Derelict Solar Lab Entities (Selected) ---
+    - entity_id : "PLACE_PYLONSLAB_01"
+      entity_name: "Professor Pylon's  Derelict Solar Lab"
+      entity_type: "Place (Dungeon/Complex Location)"
+      primary _authentication_sources: "Primal Mama Re-contextualized Quest Log (YAML - quest_id: PM _BHBH_003)"
+      functional_properties_bundle:
+        core_function_purpose: 
+          primary_role: "House multiple challenges, puzzles, unique items, and rewards for the 'Of Sunshine and Sl ime' quest."
+        key_capabilities_powers:
+          - capability_id: "FUNC-LAB-GATEWAYSYSTEM -01"
+            name: "Interconnected Gateway System"
+            description: "Contains multiple hard-light gateways  activated by specific items (figurines) or consoles, linking different sections of the lab."
+            authentication: "Quest Log  YAML - descriptions of activating gateways in PM_BHBH_003."
+            limits_nuances: "Requires specific key  items or interactions to operate."
+          - capability_id: "FUNC-LAB-HAZARDCONTAINMENT-01 "
+            name: "Environmental Hazard Zones"
+            description: "Features areas with distinct environmental hazards (e.g., Ir radiated Filter Beds, Flooded Generator Core)."
+            authentication: "Quest Log YAML - section descriptions in PM_BHBH _003."
+
+    - entity_id: "ITEM_FIGURINE_SUNSTONE_01" 
+      entity_name: "Cracked Sunstone Figurine"
+      entity_type: "Object (Quest  Item, Key)"
+      primary_authentication_sources: "Primal Mama Re-contextualized Quest Log (YAML -  quest_id: PM_BHBH_003 prerequisites)"
+      functional_properties_bundle:
+        core _function_purpose:
+          primary_role: "Acts as a key component for activating the initial gateway in P ylon's Lab."
+        key_capabilities_powers:
+          - capability_id: "FUNC-FIG URINE-KEYCOMPONENT-01A"
+            name: "Gateway Activation Component"
+            description: "When  used with OBJ_CONTROLPANEL_GATEWAY_01 (and potentially other required items), enables gateway  activation."
+            authentication: "Quest Log YAML - \"Activate it (if you have the aforementioned figurines in your inventory... )\" (PM_BHBH_003)"
+
+    - entity_id: "OBJ_CONTROLPANEL _GATEWAY_INITIAL_01" # Initial panel
+      entity_name: "Humming Pre-C alamity Control Panel"
+      entity_type: "Object (Interactive)"
+      primary_authentication_sources:  "Primal Mama Re-contextualized Quest Log (YAML - quest_id: PM_BHBH_0 03 initiation_steps)"
+      functional_properties_bundle:
+        core_function_purpose:
+           primary_role: "Activates the initial hard-light gateway into Pylon's Lab."
+        key_capabilities_ powers:
+          - capability_id: "FUNC-PANEL-ACTIVATEGATEWAY-01"
+             name: "Gateway Activation"
+            description: "Upon successful interaction (and prerequisite items present), creates a portal ."
+            authentication: "Quest Log YAML - \"Activate it... to cause a flickering hard-light gateway to shimmer into existence .\" (PM_BHBH_003)"
+        costs_dependencies_operational_constraints:
+          -  constraint_id: "DEPEND-PANEL-FIGURINESREQUIRED-01"
+            applies_to:  "OBJ_CONTROLPANEL_GATEWAY_INITIAL_01"
+            description: "Requires player  to possess \"Cracked Sunstone Figurine\" and \"Corroded Gecko Figurine\" for successful activation."
+            authentication : "Quest Log YAML - prerequisites and initiation_steps for PM_BHBH_003."
+
+    -  entity_id: "HAZARD_IRRADIATEDSLUDGE_01"
+      entity_name : "Irradiated Sludge (Pylon's Lab Filter Beds)"
+      entity_type: "Environmental Hazard" 
+      primary_authentication_sources: "Primal Mama Re-contextualized Quest Log (YAML - quest_ id: PM_BHBH_003, section: The Irradiated Filter Beds)"
+      functional_properties_ bundle:
+        core_function_purpose:
+          primary_role: "Inflict radiation damage and impede player  movement/regeneration in the Filter Beds section."
+        key_capabilities_powers:
+          - capability_id:  "FUNC-HAZARD-RADIATIONDAMAGE-01"
+            name: "Radiation Damage Aura"
+            description : "Causes Geiger counter to spike, impedes health regeneration, causes visual distortion upon proximity/contact."
+            authentication: "Quest  Log YAML - description of Irradiated Filter Beds (PM_BHBH_003)."
+        vulnerabilities _weaknesses:
+          - vulnerability_id: "VULN-HAZARD-RADRESISTANCE-01 "
+            description: "Effects can be mitigated by Rad-Away Chems or Rad-Resistant gear."
+            authentication : "Quest Log YAML - \"sprint through it, chugging Rad-Away Chems.\" (PM_BHBH _003)"
+
+    - entity_id: "CREATURE_GIGAGECKO_01 "
+      entity_name: "Giga-Gecko"
+      entity_type: "Creature (Mut ated Reptile, Hostile)"
+      primary_authentication_sources: "Primal Mama Re-contextualized Quest Log  (YAML - quest_id: PM_BHBH_003, section: The Flooded Generator Core)" 
+      functional_properties_bundle:
+        core_function_purpose:
+          primary_role: "Acts  as a mini-boss encounter in the Flooded Generator Core section of Pylon's Lab."
+        key_capabilities _powers:
+          - capability_id: "FUNC-GG-COMBATPROWESS-01"
+             name: "Combat Proficiency (Mutated)"
+            description: "Engages in combat, likely with melee attacks and enhanced  durability/abilities due to mutation and size."
+            authentication: "Quest Log YAML - \"Kill it and search around.\"  (PM_BHBH_003)"
+        vulnerabilities_weaknesses:
+          - vulnerability_id:  "VULN-GG-COMBATDEFEAT-01"
+            description: "Can be defeated  in combat by the player."
+            authentication: "Implied by objective."
+
+    - entity_id: "OBJ_BAR RIER_ENERGY_PYLONSLAB_01"
+      entity_name: "Red Energy Barrier (Pylon's  Lab)"
+      entity_type: "Object (Obstacle, Trap)"
+      primary_authentication_sources: "Primal  Mama Re-contextualized Quest Log (YAML - quest_id: PM_BHBH_003,  section: The Burt Special)"
+      functional_properties_bundle:
+        core_function_purpose:
+           primary_role: "Block access to the room containing \"The Burt Special\" and other loot."
+        key_capabilities_ powers:
+          - capability_id: "FUNC-BARRIER-ACCESSDENIAL-01"
+             name: "Energy Field Access Denial"
+            description: "Projects an impassable energy field."
+            authentication: "Quest Log  YAML - \"large, angry, red energy barrier crackling...\" (PM_BHBH_003)"
+         vulnerabilities_weaknesses:
+          - vulnerability_id: "VULN-BARRIER-CRY STALDESTRUCTION-01"
+            description: "Barrier deactivates upon the destruction or overloading of two specific  Focusing Crystals."
+            authentication: "Quest Log YAML - \"Once both have been shattered or overloaded, the barrier will  fall.\" (PM_BHBH_003)"
+
+    - entity_id: "ITEM_WEAP ON_BURTSPECIAL_01"
+      entity_name: "\"The Burt Special\" (.44 Magnum)" 
+      entity_type: "Object (Weapon, Unique)"
+      primary_authentication_sources: "Primal Mama Re -contextualized Quest Log (YAML - quest_id: PM_BHBH_003, section:  The Burt Special)"
+      functional_properties_bundle:
+        core_function_purpose:
+          primary_ role: "Provides the player with a powerful, unique firearm."
+        key_capabilities_powers:
+          -  capability_id: "FUNC-WEAPON-SUPERIORCOMBAT-01" # General assumption
+            name:  "Enhanced Combat Performance"
+            description: "Likely offers superior damage, accuracy, or other beneficial combat stats compared to standard  .44 Magnums, due to its unique status."
+            authentication: "Quest Log YAML - presented as significant  loot. Named after a deity."
+            limits_nuances: "Still requires .44 Magnum ammunition."
+
+    #  --- Guarded Stash (Alpha Solar Gator) Entities ---
+    - entity_id: "CREATURE_AL PHASOLARGATOR_01"
+      entity_name: "Alpha Solar Gator"
+      entity_ type: "Creature (GE Alligator, Boss)"
+      primary_authentication_sources: "Primal Mama  Re-contextualized Quest Log (YAML - event_id: PM_BHBH_E003)" 
+      functional_properties_bundle:
+        core_function_purpose:
+          primary_role: "Act  as a powerful boss guardian for high-value loot (\"Sunstroke\" laser rifle)."
+          secondary_roles: "Represent  a pinnacle of GE alligator technology/danger in the region."
+        key_capabilities_powers:
+          - capability_id:  "FUNC-ASG-POWERFULATTACKS-01"
+            name: "Devastating Melee Attacks"
+             description: "Likely possesses extremely damaging bite/tail attacks due to size and GE nature."
+            authentication: "Implied  by \"Alpha\" status and Level 20 equivalent."
+          - capability_id: "FUNC-ASG-ARM OREDHIDE-01"
+            name: "Heavily Armored Hide"
+            description: "Res istant to conventional damage."
+            authentication: "Described as \"heavily armored\" (Quest Log YAML - PM_BH BH_E003)."
+          - capability_id: "FUNC-ASG-VAMPIREB UNNYSYNERGY-01" # Or "Summon"
+            name: "Vampire Bunny Association /Attraction"
+            description: "Tolerates or attracts swarms of Vampire Bunnies, adding complexity to the encounter." 
+            authentication: "Quest Log YAML - \"swarms of Vampire Bunnies ... it seems to tolerate or even attract\" ( PM_BHBH_E003)."
+        vulnerabilities_weaknesses:
+          - vulnerability_ id: "VULN-ASG-COMBATDEFEAT-01"
+            description: " Can be defeated in combat, though likely requiring significant player skill/resources."
+            authentication: "Objective of the encounter." 
+          - vulnerability_id: "VULN-ASG-SOLARDEPENDENCY-POSSIBLE-0 1" # Speculative, based on "Solar Gator"
+            name: "Potential Solar Power Weakness/Expl oit"
+            description: "Its solar nature might present specific vulnerabilities (e.g., reduced effectiveness at night, target able solar components)."
+            authentication: "Speculative based on name; not explicitly in quest log."
+            narr ative_function: "Could provide tactical depth if explored."
+
+    - entity_id: "ITEM_WEAPON_ SUNSTROKE_01"
+      entity_name: "\"Sunstroke\" (Heavy Laser Rifle)"
+      entity_ type: "Object (Weapon, Unique, Energy)"
+      primary_authentication_sources: "Primal Mama Re- contextualized Quest Log (YAML - event_id: PM_BHBH_E003)"
+       functional_properties_bundle:
+        core_function_purpose:
+          primary_role: "Provides the player with a powerful , unique energy weapon."
+        key_capabilities_powers:
+          - capability_id: "FUNC-WE APON-HEAVYENERGYDAMAGE-01"
+            name: "High-Powered Energy Blasts"
+             description: "Delivers significant energy damage, likely effective against armored targets or specific creature types."
+            authentication: "Named  \"Sunstroke\" and classified as \"Heavy Laser Rifle,\" guarded by a powerful boss."
+            limits_nuances : "Likely consumes energy cells at a high rate."
+
+  # --- Overall Questline Functional Profile Summary ---
+  questline _functional_summary:
+    questline_name: "Bayou Haunts & Beetriot Hustles"
+     core_functional_identity_player: |
+      Within "Bayou Haunts & Beetriot Hustles," the  PC functions as an Investigative Operative & Problem Solver.
+      Their capabilities revolve around exploration (FUNC-PC-NAVIGATION ), information gathering (FUNC-PC-SWAMPSAVVY),
+      overcoming physical obstacles (FUNC-PC-LOCK PICK, FUNC-PC-BRUTEFORCE, FUNC-PC-JUMPING),
+      combat engagement (FUNC -PC-ARMEDCOMBAT), and social interaction (FUNC-PC-DIALOGUECHOICE leading to barter, intimidation, deception ).
+      Their primary limitation is their dependence on acquiring specific items (keys, blueprints, figurines) or information to progress through  gated challenges.
+    key_narrative_functions_served_by_entities: |
+      - Blueprints/Unique  Items: Drive motivation for exploration and overcoming challenges; provide tangible player power progression.
+      - NPCs (Homesteader,  Initiate): Initiate quests, provide exposition, act as objectives (rescue), and dispense rewards, grounding PC actions in the world's social  fabric.
+      - Hostile Factions/Creatures (Reavers, Raiders, Gators): Provide direct conflict, test PC  combat capabilities, and act as guardians of objectives/loot.
+      - Environmental Hazards/Puzzles (Locked Objects, Ir radiated Sludge, Energy Barriers): Test PC observation, resourcefulness, and non-combat skills/attributes; vary gameplay pacing .
+    relationship_to_alethic_modality: |
+      The quests consistently test the world's laws of  possibility. Locked doors are impossible to pass without a key/skill (alethic limit).
+      Gateways require specific " keys" (figurines) to become possible.
+      The Alpha Solar Gator presents a high threshold of combat possibility to overcome .
+    key_functional_tensions_tradeoffs: |
+      - Combat vs. Non-Combat Solutions (e .g., Reavers: fight, barter, intimidate, or deceive).
+      - Resource Expenditure (Ammo, Meds , Creds, Lockpicks) vs. Reward Gained.
+      - Risk (Combat, Hazards) vs. Reward ( Loot, Quest Progression).
+      - Exploration Time/Effort vs. Discovery of Optional Loot/Lore.
+```

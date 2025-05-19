@@ -1,0 +1,41 @@
+A Dangerous Game
+Let's finish up with Zoltan and Dandelion before we move onto other things. Head over to Dandelion's tavern, the Rosemary and Thyme. Outside you'll see some low-lifes threatening Zoltan, who are wise enough to depart when Geralt arrives. Ask him about his troubles and it seems that our two favorite things intersect-Gwent, and Zoltan! Seems we have to obtain some rare cards in order to help out our dwarven buddy. Yes, please. This starts the quest "A Dangerous Game."
+
+Zed's Collection
+Screw Dandelion. This is a matter of life or Gwent! Head south-west from the tavern to find Zed's house. Climb the stairs and knock on the door... to get no response. Looks like we'll have to find another way in. Climb a ladder to the east, then climb another one. Jump a gap to the west, head up some stairs to the north, then go through the door to the west.
+
+Drop down to the lower level and investigate the body lying here. Looks like we're a little late. Head downstairs and you'll find two of Duke's goons rummaging through the house. You're not going to be friends. Kill them, and loot one of them to find the "Key to Zed's Pawnshop" and the "Isengrim Faoiltiarna" Card-a 10 Strength Close Combat Unit Hero Card with the "Morale Boost" ability. A rare card, indeed. Turn on your Witcher Senses and search near the stairs to find some scratches on the floor. Aard the planks to reveal a chest under the stairs, then loot said chest to lay your hands on the "Ledger of Income Outlays."
+
+Take the book back to Zoltan and tell him about Zed's fate and his ledger, then ask about the two buyers of Zed's other cards-Ravvy and Caesar Bilzen. Zoltan will elaborate on the two-and his relationship with them-and suggest you meet the latter, together.
+
+Ravvy's Bad Hand
+First, however, let's go pay Ravvy a visit, a ne'er-do-well who is passing time at the Golden Sturgeon. Travel there and head downstairs, where you'll find Ravvy, who has gotten into some trouble with some local ruffians. Either choose to play cards for Ravvy's life-and a unique card-or decline and fight them. The latter option dooms Ravvy, and you'll have to fight the Bandits (levels fourteen and eleven), but that way you can just loot the "John Natalis" card from Ravvy. If you play Gwent, you'll have to face a laughable Nilfgaardian deck, after which the two Bandits will prove to be poor sports, and you'll have to kill them anyways-but Raavy will survive, and cough up the "John Natalis" card after some prompting.
+
+Cheating Caesar
+Now it's time to meet up with Zoltan and pay Caesar a visit, whose house happens to be along the south-eastern edge of Hierarch Square. Zoltan's plan is simple, you sneak in, he'll distract Caesar with booze and banter. Carry the plan out and endure some good old dwarven conversation before you're sent out to get some more alcohol. Head upstairs and use your Witcher Senses to highlight a knife on a table. Search it, then take the "Triangular Key" out of the drawer that opens, then use your Witcher Senses again to spot a triangular hole on a bookshelf. Use the key in the keyhole to cause a nearby bookshelf to shift, then go through the secret door it reveals. Lot of security for a Gwent Card... can't really blame him, though.
+
+Head up some stairs and loot a small box on a dresser to the south to find a "Jade Figurine." Grabbing this item will start the quest "The Soldier Statuette," which we'll need to take to Triss at some point. In the center of the room are some Nilfgaardian relics, which reveal Caesar to be something of a Nilfgaardophile. You can score a Gold Silver Necklace and an Ornate Sword here, but the "Fringilla Vigo" Card is what you're really after. Grab it and head downstairs. Talk to Zoltan and tell him it's time to go. Before you can make good your escape, however, Cleaver's henchmen will show up, clearly at odds with Caesar. Either leave Caesar to his fate, or fend off the henchmen (level eight), after which Caesar decides it's time to leave town. If you grabbed the Jade Figurine, Geralt will also tell Zoltan about it afterwards-don't worry about them talking about Triss, we can have it looked at later.
+
+Note: If you've already completed "Now or Never" you'll have to wait until much later in the game to start the quest "The Soldier Statuette"... and even then, you can only complete it if you started a romance with Triss.
+
+Dealing with Duke
+Time to take these cards to Zoltan's buyer. Follow Zoltan to the east and you'll find that, once again, Duke is ahead of you. After some chatter Duke will wander off-kill his goons (level twelve) if you wish, or just chase after Duke. Again, this is another "chase" you can't lose, so take all the time you want. Head into a tower to the south-east and climb two ladders. An injured guard will implore you to catch Duke. Righty-o. Go through a door to the south-west and chase Duke along the battlements and into another tower, where you'll have to descend five ladders to reach the sewers.
+
+Duke will flee through a door to the north-west, which he locks behind him. You'll have to go north-east, then north-west, then north-east again. Kill a pair of Drowners (level four) and blast a weak section of wall to the north-west with Aard. Kill another trio of Drowners (level four) then continue north-west to reach a large chamber with many branching paths.
+
+A Tome Entombed (level 13)
+Ignore Duke for a moment and head south and through a gate. In the room beyond, examine the south-western wall to spot an Aard-able section of wall. Knock it down and continue into the room beyond, where you'll have to use Aard again to clear more debris. Continue south-west through the second hole in the wall and drop down several ledges to find a tomb-robber (who identifies himself as Vairmont Jonne, an Oxenfurt professor). Agree to help him open the sarcophagus to find a rather taciturn vampire inside. Pester the vampire again and you'll have to fight a Katakan (level eleven). After it falls the professor will complain about not finding what he came here to find, and the quest "A Tome Entombed" will end. Loot the vampire and it's lair, and be sure to climb some stairs to the south-west to find a chest, then backtrack to the sewers.
+
+Objective	Reward
+For killing the Katakan	XP Varies
+Return to the sewer room where you blasted the Aard. If you head south-east you'll be able to score some parcels and other lootables, but... well, we've already destroyed the illusion of urgency enough. Backtrack to the north-west to return to the large room with multiple exits and continue up the stairs to the north-east, where you'll find Duke, injured by some Drowners. Decide whether to let him live or not, but either way, take the coin Zoltan needs. Geralt returns to Zoltan and tells him what transpired-and Zoltan will give you a choice. Since you did almost all the work, Zoltan will let you pick whether you want to keep the cards, or the coin you recovered. This is really a no-brainer, folks. You can get Crowns anywhere, but these cards are unique, and considering you only get 150 Crowns to sacrifice the Cards... just not a smart move.
+
+Objective	Reward
+For solving Zoltan's debt problems	
+XP Varies
+150 Crowns
+-OR-
+Isengrim Faoiltiarna Card
+John Natalis Card
+Fringilla Vigo Card
+

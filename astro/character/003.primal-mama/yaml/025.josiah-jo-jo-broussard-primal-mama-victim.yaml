@@ -1,0 +1,103 @@
+
+# Story World Codex: Fictional Person Constitution Protocol
+# Based  on Doležel's Heterocosmica III.B.II.C (Character as Property Bundle)
+
+World: Pr imal Mama
+Codex_Version: 0.2 - Character Constitution
+Last_Updated: '[Current Date]'  # Placeholder
+Lead_Architects: '[Your Name/Studio Name]' # Placeholder, key changed from "Lead Architect(s)" 
+
+Introduction: |
+  This protocol guides the detailed definition of Fictional Persons (characters, significant sentient beings) within the  Primal Mama heterocosm. Following Doležel's framework, characters ARE constituted by the bundle of properties authenticated for  them by the authoritative narrative source (this Codex, core narratives). They possess no independent psyche or reality beyond this textual definition .
+  Use this template to systematically build characters by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted  individuals whose complexity arises from the richness, coherence, and potential tensions within their authenticated bundle, and whose actions are logically grounded  in their defined nature and the world's rules. Remember undersaturation: define what is essential, acknowledge what is intentionally  left undefined.
+
+Character_Profile:
+  Entity_ID: CHAR_JosiahBroussard_0 1
+  Character_Name: Josiah "Jo-Jo" Broussard
+  Entity_Type: Person (Human)
+   Archetype: The Squeezed Smallholder / Downtrodden but Resilient Father
+  Primary_Authentication _Sources: This Codex Entry; Primal Mama Coherence Protocol v0.1
+  Canon_Tier: Tier  2 (Significant Supporting Character)
+  Authentication_Status: Authenticated_Canonical_Active
+
+  Authenticated_Property_ Bundle:
+    Physical_Properties:
+      Purpose: Define the character's tangible presence.
+      Appearance_ General: "[Human male, late 40s, with distinct African features: dark brown skin, broad nose,  full lips. Stocky, powerful build gone slightly to paunch from stress and inconsistent diet, though muscles from manual labor  are still evident beneath.]" # Auth: [Visual Concept / Primal Mama Inhabitant Profile]
+      Appearance_Specific_ Features: Tightly coiled black hair greying significantly at the temples and in his short, neat beard. Kind, deep -set brown eyes that often carry a haunted or worried expression. Lines of labor and worry deeply etched around eyes and mouth . # Auth: [Visual Concept]
+      Appearance_Distinctive_Marks: A long, faded scar along his left forearm  from an old alligator handling accident. Calloused, work-roughened hands. Often has a smudge of grease or  mud on his cheek or clothes. # Auth: [Narrative Detail]
+      Typical_Attire: Worn, patched- up denim overalls (1970s style utility wear) over a faded, sweat-stained work shirt. St urdy, mud-caked work boots. Occasionally a wide-brimmed straw hat against the sun when working the solar panels  for his gator pens. # Auth: [Primal Mama Aesthetic Guide (Lickskillet Working Class)]
+      Voice _Speech_Pattern: Warm, baritone Louisiana Creole accent, often speaking slowly as if weighing his words or conserving energy. Pr one to sighs. Can rise in passion when speaking of injustice or his family. # Auth: [Dialogue Direction / Regional  Dialect Guide]
+      Gait_Mannerisms: Slightly stooped posture, as if carrying a weight. Moves with  the deliberate economy of a man used to hard physical work. Wrings his hands or rubs the back of his neck when  anxious. # Auth: [Action Description]
+      Associated_Scent_If_Any: Swamp mud, alligator feed  (processed algae/nutrient slurry), faint metallic tang from old machinery, cheap soap. # Auth: [Sensory Palette  (Lickskillet Farm)]
+      Physical_Undersaturation: Exact height/weight, specific brand of boots , details of any non-work attire (rarely seen).
+
+    Functional_Properties:
+      Purpose: Define what the  character can and cannot do.
+      Skill_Experienced_Alligator_Husbandry: "[Experienced Alligator Husband ry (Solar-GE strain): Manages small-scale farm with 1970s-aesthetic automated feeders  and pen systems. Knows their energy cycles, basic bio-maintenance for solar absorption.]" # Auth: [Primal  Mama World Codex: Alligator Biogenesis, Solar Dominance, Tech Aesthetic]
+      Skill_Basic_Mechanics_Repair:  "[Basic Mechanics & Repair (1970s tech): Can fix and maintain his aging farm equipment (solar panels, feed dispensers , water circulators) with salvaged parts and ingenuity.]" # Auth: [Primal Mama World Codex: Tech Aesthetic  Constraint]
+      Skill_Swamp_Navigation: "Swamp Navigation (Local area): Knows the bayous around  his Lickskillet farm well, can navigate by small, solar-powered skiff." # Auth: [Narr ative Setting]
+      Skill_Proficient_Firearms: Proficient with common firearms (shotgun, rifle) for defense /pest control (e.g., oversized rodents, not Vampire Bunnies as those are Witch-turf). # Auth : [Primal Mama World Codex: Gun Ownership (Regional)]
+      Limitation_Economic: "[Perpetually  in debt to local meat processing sub-contractors (linked to the Oligarchy): struggles to afford quality solar cells,  gator feed supplements, and parts for repairs.]" # Auth: [Primal Mama World Codex: Deontic  - Friction from Meat Oligarchy]
+      Limitation_Influence: No political or economic leverage against the meat oligarchy's  price-fixing or restrictive processing quotas. His complaints to local Lickskillet authorities go unheeded or are met  with platitudes. # Auth: [Primal Mama Social Structure]
+      Limitation_Knowledge: "[Limited understanding of the wider  economic forces controlling his life: suspects but cannot prove collusion. No knowledge of advanced bio-engineering beyond user-level for  his GE gators.]" # Auth: [Epistemic Status of Lickskillet Farmers]
+      Lim itation_Resources: Cannot afford Automatons or LLMs for farm optimization, and wouldn't use them due to social stigma  and personal distrust, further disadvantaging him against larger operations. # Auth: [Primal Mama World Codex: Automaton/LL M User Stigma]
+      Functional_Undersaturation: Ability to pilot larger watercraft; detailed knowledge of wild alligator hunting  (focus is on farmed GE gators); sophisticated combat skills beyond basic self-defense.
+
+    Psychological_Properties: 
+      Purpose: Define the character's textually constituted inner life.
+      Core_Trait_Resilience_ Stoicism: Resilience / Stoicism (Hard-earned) # Auth: [Actions: Continuing despite adversity]
+      Core _Trait_Deep_Familial_Love_Responsibility: Deep Familial Love & Responsibility # Auth: [Mot ivations, Dialogue about family]
+      Core_Trait_Wary_Suspicious: Wary / Suspicious  (of outsiders, authorities, big business) # Auth: [Interactions, Internal Monologue snippets]
+      Core _Trait_Underlying_Sense_Fairness_Justice: Underlying sense of Fairness/Justice (though often suppressed by prag matism) # Auth: [Outbursts of frustration, desire for a "fair shake"]
+      Dominant_ Emotion_Chronic_Anxiety_Worry: Chronic Anxiety / Worry (about finances, family future, farm viability) # Auth : [Mannerisms, Dialogue content]
+      Key_Motivator: Keeping his family fed and sheltered; Pres erving his small farm (ancestral land post-Calamity). # Auth: [Character Goals]
+      Key _Belief: "Believes in honest hard work, but increasingly feels the \"game is rigged\" by powerful, unseen  forces (sometimes echoes the \"invisible women\" conspiracy, though not a fervent believer, more a general distrust of the powerful and hidden)."  # Auth: [Dialogue, Primal Mama World Codex: Conspiracy] # Inner quotes escaped
+      Internal_Conflict: Hope  for a better future vs. Grinding despair of his situation; Desire to provide vs. Inability to overcome systemic exploitation; Pride  in independence vs. Humiliation of debt. # Auth: [Narrative Tension]
+      Subjective_Memory_ Content: Clear memories of better times on the farm before the Oligarchy's squeeze intensified; stories from his parents about  the early days of solar gator farming in Lickskillet. # Auth: [Backstory elements]
+       Psychological_Undersaturation: "[Specific religious beliefs beyond a general Southern spirituality: detailed opinions on Beetriot elite culture ( beyond general resentment); deep engagement with deified celebrity lore (likely has a worn Burt Reynolds prayer card, but more cultural  habit than deep faith).]"
+
+    Social_Relational_Categorical_Properties:
+      Purpose: Define the character 's place within the world's networks.
+      Official_Role: Independent Alligator Farmer (Small Scale)  # Auth: [Narrative Context]
+      Social_Status: Lower working class (Lickskillet); Res pected within his immediate community for his tenacity, but seen as struggling. # Auth: [Interactions with other Lickskillet residents ]
+      Primary_Affiliation: Broussard Family Farm (Owner/Operator) # Auth: [Narrative Context ]
+      Secondary_Affiliations: Informal network of other struggling Lickskillet farmers (share information, commiser ate, occasionally barter for scarce parts). # Auth: [Community Interactions]
+      Key_Relationship_1_W ife_Elodie: "[To his wife, Elodie Broussard (Unseen/Off-screen property bundle  for now): Source of strength and deep worry.]" # Auth: [Mentioned in dialogue/motivation]
+       Key_Relationship_2_Children_Amity: "[To his children (e.g., young daughter, Am ity): Primary motivation for his struggles.]" # Auth: [Mentioned in dialogue/motivation]
+      Key_Relationship_3 _Oligarchy_Agents: "[To local Oligarchy agents/sub-contractors (e.g., \" Smilin'\" Jack Tibbeaux): Antagonistic, exploitative relationship defined by debt and unequal power.]" # Auth : [Narrative Conflict] # Inner quotes escaped
+      Species_Type: "Human (Lickskillet Bayou  Strain – i.e., standard human adapted to local conditions)" # Auth: [Default]
+      Social_Und ersaturation: Extended family network beyond immediate household; specific friendships; interactions with Swamp Witches (likely avoids them, considers  them bad luck or dangerous).
+
+    Modal_Properties:
+      Purpose: Define any inherent unique relationship to world laws .
+      Entries:
+        - Property_ID: MODAL-JOSIAHB-NONE
+          Details :
+            Property: None Authenticated. Operates entirely within the standard physical, biological, and social laws of Primal Mama  for a human of his standing.
+            Description: N/A
+            Limits: N/A
+            Authentication : Absence of any narrative indication of supernatural abilities or special dispensations.
+      Note: Josiah's victimhood and struggle are amplified  by his lack of exceptional abilities; he is an ordinary man in an extraordinary and oppressive world.
+
+    Axiological _Properties:
+      Purpose: Define the character's value status within Primal Mama.
+      Reputation_ Lickskillet_Community: Authenticated as viewed as 'honest', 'hard-working', 'a good family man', but  also 'unlucky', 'too proud to ask for handouts', 'stuck in a bad spot with the processors'. #  Auth: [Dialogue from other Lickskillet residents]
+      Reputation_Oligarchy_Agents: Authenticated as ' small fry', 'easily managed debtor', 'expendable if he causes too much trouble', 'predictable in his  desperation'. # Auth: [Attitude/Actions of antagonists]
+      Moral_Alignment_Narrative_Framing : Authenticated via narrative perspective as 'sympathetic victim', 'righteous anger suppressed by circumstance', embodying the struggle of the  common person against systemic greed. # Auth: [Narrator tone, plot focus on his hardships]
+      Axiological_Und ersaturation: "[Reputation in Beetriot (unknown/non-existent): perception by Erpenthropes or Swamp Witches  (likely none, unless he stumbles into their affairs).]"
+
+    Historical_Properties:
+      Purpose: Define  the character's known origins and connections to past events.
+      Origin: Born and raised in Lickskillet . Family farm established by his grandfather shortly after GE Alligators became viable post-Calamity, utilizing early solar tech within  the 1970s aesthetic. # Auth: [Local History/Character Backstory]
+      Key_ Past_Event_Connection: Witnessed the gradual decline of independent farming in Lickskillet as the Meat Oligarchy consolidated power,  buying out or crushing smaller operations. Remembers his father's struggles, which mirror his own but have become more acute . # Auth: [Character Memory/Local History]
+      Inherited_Items: The farm itself, heavily mortgaged. His  grandfather's original (barely functional) 1970s-style solar charge meter, kept for sentiment . A few old family photos from before the worst of the economic squeeze. # Auth: [Narrative Props]
+       Historical_Undersaturation: Specific details of his ancestors' survival during the Biological Calamity; any notable family achievements or  shames pre-dating the current economic hardship. # Corrected for Josiah
+
+  Character_Constitution_Summary_and_ Narrative_Function:
+    Core_Essence: "[Josiah \"Jo-Jo\" Broussard is constituted as  an embodiment of the Primal Mama world's working-class struggle, particularly in Lickskillet. He is a man  defined by his connection to his family, his ancestral (though technologically dependent on GE gators and solar tech) farm, and the  relentless economic pressure exerted by the Meat Oligarchy. His existence is a testament to resilience in the face of systemic exploitation,  grounded in the world's 1970s retro-tech aesthetic and bayou culture. He is a victim of the  world's deontic structure (oligarchy power, ineffective local governance) and its axiology (his honest labor is undervalued). ]" # Inner quotes escaped
+    Primary_Narrative_Function: "[To represent the human cost of the Meat Olig archy's dominance; to provide a grounded, sympathetic viewpoint character for exploring the socio-economic realities of Licksk illet; to potentially act as a catalyst or reluctant participant in any narrative arc involving resistance or investigation into the oligarchy's practices . He highlights the disparity between the \"incredible source of energy\" (solar) and its equitable distribution or benefit.]"  # Inner quotes escaped
+    Key_Internal_Conflicts_From_Bundle: "[Pride in self-sufficiency vs. Crushing  weight of debt and dependence on predatory lenders/buyers. Love for family vs. Fear of failing them. Desire for justice vs . Pragmatic fear of retaliation from the powerful. Hope for future vs. Daily grind of poverty and exploitation. Distrust  of advanced tech (Automatons/LLMs due to stigma) vs. The potential benefits he's missing.]"
+     Potential_for_Development_Based_on_Bundle: "[Josiah could be pushed to a breaking point, leading to  desperate actions (potentially illegal or dangerous). He might become involved with individuals seeking to expose or challenge the oligarchy (e .g., an Erpenthrope truth-seeker, an investigative journalist from outside Lickskillet). His practical  skills could become vital in unexpected circumstances. He could be forced to confront his prejudices (e.g., about Automaton users or even  Swamp Witches) if they offer an unlikely path to survival or resistance.]"
+
+End_Of_Fictional_Person _Profile_Marker: CHAR_JosiahBroussard_01

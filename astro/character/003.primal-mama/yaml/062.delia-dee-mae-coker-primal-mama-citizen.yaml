@@ -1,0 +1,167 @@
+
+Entity_ID: CHAR_DeliaCoker_01 
+Character_Name: 'Delia "Dee" Mae Coker'
+Entity_Type: 'Person (Human Citizen )'
+Archetype: 'Grit-Covered Independent Proprietor / Swamp-Tough Homesteader'
+ Primary_Authentication_Sources: 'This Codex Entry, Primal Mama Coherence Protocol v0.1'
+Canon _Tier: 'Tier 2 (Significant Local Character)'
+Authentication_Status: Authenticated_Canonical_Active
+
+Authenticated_ Property_Bundle:
+  Physical_Properties:
+    Appearance_General:
+      value: 'Human female, late 4 0s, wiry and strong from physical labor. Skin weathered by sun and swamp humidity, lines of worry and determination  etched around her eyes and mouth.'
+      auth: 'Primal Mama Setting Implied Traits'
+    Appearance_ Specific_Features:
+      value: 'Sharp, observant dark eyes. Dark brown hair, usually tied back practically,  streaked with grey. Calloused hands.'
+      auth: 'Derived from Archetype & Role'
+    Appearance_Distinct ive_Marks:
+      value: 'A faded, silvery scar tracing her left forearm from an old encounter with a feisty  juvenile gator during processing.'
+      auth: 'Implied Occupational Hazard'
+    Typical_Attire:
+       value: 'Durable denim overalls or canvas work pants over a faded, breathable cotton shirt (sometimes a worn band t-shirt of  Jerry Reed). Sturdy, mud-caked work boots. Always has a multi-tool on her belt with a  chunky, 1970s-style casing.'
+      auth: 'Primal Mama Aesthetic & Lickskillet  Practicality'
+    Voice_Speech_Pattern:
+      value: 'A warm but firm Southern drawl, pragmatic  and direct. Tends to speak plainly, sometimes with a dry wit. Can raise her voice to be heard over machinery  or a lively Lickskillet bar.'
+      auth: 'Regional Flavoring'
+    Gait_Manner isms:
+      value: 'Purposeful, efficient movements. Often wipes her hands on her pants, even when clean. Squ ints slightly when concentrating or suspicious. Taps her foot when impatient.'
+      auth: 'Inferred from Personality & Occupation '
+    Associated_Scent_If_Any:
+      value: 'Faint smell of smoked alligator meat, swamp  water, diesel from her boat/generator, and the metallic tang of old machinery.'
+      auth: 'Sensory Palette of L ickskillet & Occupation'
+    Physical_Undersaturation:
+      value: "Exact height/weight, specific facial bone  structure beyond 'sharp', detailed history of minor scars."
+
+  Functional_Properties:
+    Skill_Alligator_Processing : # Made key more specific
+      value: 'Expert in alligator butchery, smoking, and jerky preparation (Family  business "Coker''s Cajun Critters").'
+      auth: 'Occupation'
+    Skill_Equipment_Maintenance: #  Made key more specific
+      value: 'Proficient in operating and performing basic-to-intermediate maintenance on her 19 70s-aesthetic food processing equipment (smokers, grinders, vacuum sealers with chunky dials and analog readouts).' 
+      auth: 'Tech Aesthetic & Occupation'
+    Skill_Skiff_Piloting: # Made key more specific 
+      value: 'Skilled pilot of a small, solar-assisted swamp skiff (primary transport/hauling ).'
+      auth: 'Swamp Environment & Solar Dominance'
+    Skill_Shotgun_Use: # Made key  more specific
+      value: 'Proficient with a pump-action shotgun (common for Lickskillet residents for defense/pest  control – non-vampire bunnies, rogue gators not from Sanctuary).'
+      auth: 'Gun Ownership Norms' 
+    Limitation_Financial:
+      value: 'Operates on tight margins; vulnerable to price manipulation by meat  oligarchies.'
+      auth: 'Socio-economic Structure'
+    Limitation_Technological:
+       value: 'Relies on older, albeit functional, 1970s style tech; cannot afford or access  cutting-edge (within the aesthetic) processing upgrades without significant debt. Distrusts/avoids Automatons/LLMs due  to social stigma and personal preference for hands-on work.'
+      auth: 'Tech Aesthetic & Automaton Stigma'
+     Limitation_Influence:
+      value: 'Lacks political or economic leverage against the Beetriot-based meat processing oligarchies.' 
+      auth: 'Power Dynamics'
+    Limitation_Knowledge:
+      value: 'Deep knowledge of local  swamp ecology and gator behavior, but limited understanding of advanced GE principles behind the solar gators or the wider political mach inations of Beetriot beyond local rumor.'
+      auth: 'Epistemic Sphere of Lickskillet citizen'
+     Functional_Undersaturation:
+      value: 'Ability to perform complex repairs beyond her usual scope; knowledge of advanced  ritual magic; Erpenthropic potential (explicitly none).'
+
+  Psychological_Properties:
+    Core_ Trait_Independent_Self_Reliant: # Made key more specific
+      value: 'Fiercely Independent /  Self-Reliant'
+      auth: 'Actions, Resistance to Oligarchy'
+    Core_Trait_Pragmatic_ Resourceful: # Made key more specific
+      value: 'Pragmatic / Resourceful'
+      auth:  'Occupation, Tech Maintenance'
+    Core_Trait_Loyal: # Made key more specific
+      value:  'Deeply Loyal (to family legacy, Lickskillet community)'
+      auth: 'Motivations'
+     Dominant_Emotion_Stoic_Resilience_Anxiety: # Made key more specific
+      value:  'Stoic Resilience / Underlying Anxiety (about the business)'
+      auth: 'Narrative Tone, Inferred from Situation '
+    Key_Motivator:
+      value: "Preserving her family's business and way of life;  Providing for her (implied) small family/dependents; Maintaining her autonomy."
+      auth: 'Plot Driver for her  character type'
+    Key_Belief_Fair_Work: # Made key more specific
+      value: '"A fair day ''s work deserves a fair day''s pay." Belief in the value of tangible labor and local community. Deep skepticism of Beet riot elites and their pronouncements.'
+      auth: 'Axiological Values of Lickskillet'
+     Key_Belief_Invisible_Women_Conspiracy: # Made key more specific
+      value: 'The "Invisible  Women" conspiracy is "Beetriot nonsense to distract folks," but she acknowledges some neighbors believe it fervently.'
+       auth: 'Epistemic Stance on Conspiracy'
+    Internal_Conflict:
+      value: 'Pride in traditional  methods & independence vs. the crushing economic pressure to modernize (within 70s aesthetic, but still costly) or sell out to  the oligarchy. Desire to trust local community vs. paranoia about informants for the big processors.'
+      auth: 'World  Tensions personified'
+    Subjective_Memory_Content:
+      value: "Rich memories of her parents/grandparents  working the same business, simpler times with less oligarchy pressure. Knows local Lickskillet history and gossip extensively."
+      auth : 'Character History'
+    Psychological_Undersaturation:
+      value: "Specific religious beliefs beyond a  general reverence for the Deified Trio as cultural icons; detailed opinions on art beyond the 1970s aesthetic ; deep-seated phobias not related to her work."
+
+  Social_Relational_Categorical_Properties: 
+    Official_Role:
+      value: 'Owner and primary operator of "Coker''s Cajun Critters ," a small-scale alligator meat processing and jerky business in Lickskillet.'
+      auth: 'Character Concept'
+     Social_Status:
+      value: 'Respected, long-standing member of the Lickskillet community;  seen as hardworking and fair, but economically vulnerable.'
+      auth: 'Implied by Role and Location'
+     Primary_Affiliation:
+      value: "Lickskillet's informal network of independent swamp folk and small  business owners."
+      auth: 'Community Ties'
+    Secondary_Affiliations:
+      value: 'None formal.  Avoids dealings with Beetriot officialdom or oligarchy representatives where possible.'
+      auth: 'Psychological Traits'
+     Key_Relationship_1_Pops_Thibodeaux: # Made key more specific
+      value: " Mentor figure for tech repair, source of local wisdom and rumors, respects her."
+      auth: 'Supporting Character Example '
+    Key_Relationship_2_Varrick: # Made key more specific
+      value: 'Ant agonistic, source of economic pressure and unwelcome buyout offers. Represents the external threat.'
+      auth: 'Conflict Driver '
+    Key_Relationship_3_Grandpappy_Coker_Memory: # Made key more specific
+       value: 'Founder of the business, represents the legacy she fights for. His old (1970s aesthetic) tools  are still in use.'
+      auth: 'Historical/Emotional Anchor'
+    Species_Type:
+      value : 'Human (Baseline Post-Calamity Stock)'
+      auth: 'World Rules'
+    Social_Unders aturation:
+      value: 'Specific number of children/dependents; exact relationships with every other shopkeeper in Lickskillet ; any distant relatives in Beetriot.'
+
+  Modal_Properties:
+    MODAL-DELIA-00:
+       Property: 'None Authenticated.'
+      Description: 'Operates fully under the established alethic, deont ic, axiological, and epistemic modalities of Primal Mama for a human citizen of Lickskillet. No  known supernatural abilities (e.g., Erpenthropy, advanced ritual magic). Is not biochemically immune to the  cattle flesh taboo.'
+      Limits: 'N/A'
+      Authentication_Source: 'Default status for non- exceptional citizens; Primal Mama Coherence Protocol (Alethic Rules regarding cattle).' # Changed key slightly for clarity
+
+   Axiological_Properties:
+    Reputation_Lickskillet:
+      value: "'tough as gator hide',  'honest', 'a hard worker', 'stubbornly independent', 'keeper of good jerky recipes'." # Note: value  contains colons, but they are part of the description of reputation values.
+      auth: 'Inferred Local Perception '
+    Reputation_Meat_Oligarchy_Agents:
+      value: "'minor independent operator', 'resistant  to consolidation but ultimately insignificant', 'potential target for acquisition or undermining'."
+      auth: 'Oligarchy Perspective' 
+    Moral_Alignment_Narrative_Framing:
+      value: "Authenticated via likely narrative sympathy as 'salt  of the earth', embodying underdog resilience and traditional values against impersonal corporate greed. Methods are legal by Lickskillet standards."
+       auth: 'Implied Narrative Stance'
+    Adherence_To_1970s_Aesthetic:
+       value: "High; views it as the 'proper' way things should look and function. Newer, sleeker designs  (if they existed beyond the aesthetic) would be mistrusted as 'Beetriot fancies'."
+      auth: ' Axiological Modality'
+    Axiological_Undersaturation:
+      value: "Her reputation among  Swamp Witches (likely indifferent unless she encroaches on their territory/resources); specific views by individual members of the Deified  Trio's 'clergy' (if such exist formally)."
+
+  Historical_Properties:
+    Origin:
+       value: "Authenticated as born and raised in Lickskillet, Parish of Bayou Tenebrous. Coker  family has been in the gator processing business for at least two generations post-Calamity."
+      auth:  'Character Backstory'
+    Key_Past_Event_Connection_Consolidation_Squeeze: # Made key more specific 
+      value: "Witnessed the \"Consolidation Squeeze\" of '73 (Post-Calamity  calendar) when several local processors were bought out or driven under by the emerging oligarchies. This event hardened her resolve to remain  independent."
+      auth: 'Fictional Historical Event'
+    Inherited_Items:
+      value:  'Authenticated to possess the original "Coker''s Cajun Critters" smoker (a hefty, wood-paneled 19 70s-style unit), her Grandpappy''s favorite skinning knife (utilitarian, Bakelite handle), and the  family''s secret jerky spice recipe (handwritten on stained index cards).'
+      auth: 'Tangible Links to  Past'
+    Historical_Undersaturation:
+      value: "Full genealogy pre-Grandpappy Coker;  specific details of her childhood beyond 'growing up in the business'; any direct family involvement in major post-Calamity events beyond  local economic shifts."
+
+Character_Constitution_Summary_And_Narrative_Function:
+  Core_Essence:
+     value: 'Delia "Dee" Mae Coker is constituted as the embodiment of Lickskillet''s resilient, self -reliant spirit, a pragmatic survivor tethered to her family''s legacy and the tangible realities of alligator processing in a  world dominated by high-concept GE and retro aesthetics. Her identity is forged in the friction between traditional swamp practicality and the encro aching pressures of the Beetriot-based meat oligarchy. She is defined by her functional skills with 197 0s-era technology, her psychological fortitude, and her deeply rooted social connections within her local community, contrasted with her  powerlessness against larger economic forces.'
+  Primary_Narrative_Function:
+    value: "To provide a grounded , sympathetic viewpoint on the socio-economic realities of Primal Mama outside the elite centers; to personify the \"mom-and- pop\" struggle against systemic exploitation; to showcase the daily life, values, and challenges of Lickskillet citizens;  potential catalyst or victim in narratives involving the meat oligarchy's influence."
+  Key_Internal_Conflicts:
+     value: 'Independence vs. Economic Survival (selling out or adapting); Tradition vs. Necessity (compromising quality or ethics under  pressure); Trust in Community vs. Paranoia (who might be an informant?); Personal Weariness vs. Duty to Legacy.'
+   Potential_for_Development:
+    value: "Could be forced to make difficult alliances (perhaps even with distrusted  outsiders or users of stigmatized tech if desperate); might become a reluctant leader for other small operators; could discover a vulnerability  in the oligarchy's local operations; might be pushed to the breaking point, leading to loss or a defiant last  stand. Her views on Automatons/LLMs or even the \"Invisible Women\" conspiracy could shift if direct evidence impacted her  business/life."

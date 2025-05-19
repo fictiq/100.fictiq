@@ -1,0 +1,102 @@
+
+story_world_cod ex_character_constitution_protocol:
+  world: Primal Mama
+  codex_version: '0 .2 - Character Constitution'
+  last_updated: '[Current Date]' # To be filled by user
+   lead_architects: '[Your Name/Studio Name]' # To be filled by user
+  introduction: |
+     This protocol guides the detailed definition of Fictional Persons (characters, significant sentient beings) within the Primal Mama  heterocosm. Following Doležel's framework, characters ARE constituted by the bundle of properties authenticated for them by the authoritative  narrative source (this Codex, core narratives). They possess no independent psyche or reality beyond this textual definition.
+
+    Use  this template to systematically build characters by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted individuals whose complexity arises  from the richness, coherence, and potential tensions within their authenticated bundle, and whose actions are logically grounded in their defined nature  and the world's rules. Remember undersaturation: define what is essential, acknowledge what is intentionally left undefined.
+
+ character_profile:
+  entity_id: 'CHAR_LeroyC_01'
+  character_ name: "Leroy Coombs (often called 'Lucky' Coombs, ironically)"
+  entity_type:  'Person (Human)'
+  archetype: 'Downtrodden Everyman / Ruined Entrepreneur'
+   primary_authentication_sources: 'This Codex Entry'
+  canon_tier: 'Tier 2 (Significant Supporting  Character)'
+  authentication_status: 'Authenticated_Canonical_Active'
+
+  authenticated_property_bundle:
+     physical_properties:
+      purpose: "Define the character's tangible presence."
+      properties:
+         - "- Appearance_General: [Male, distinct African features, early 50s but appears older due to hardship , lean and sinewy from a life in the swamps and manual labor.] # Auth: [This Codex Entry]" 
+        - "- Appearance_Specific Features: [Deep-set, weary brown eyes that still hold a spark of defiance ; broad nose; lines etched deep around his mouth and forehead. Skin weathered by sun and swamp air.] # Auth:  [This Codex Entry]"
+        - "- Appearance_Distinctive Marks: [A faded, jagged scar along his left  forearm from a young bull gator years ago; knuckles permanently swollen on his right hand from a processing machine accident.] #  Auth: [This Codex Entry]"
+        - "- Typical Attire: [Patched and re-patched canvas overalls  (originally a deep 1970s tan, now faded to near-grey) over a worn, dark  plaid flannel shirt. Knee-high rubber swamp boots, perpetually mud-caked. Occasionally a battered, wide-brimmed  straw hat.] # Auth: [This Codex Entry / Primal Mama Visual Guide (Implied)]"
+        -  "- Voice/Speech Pattern: [Slow, deliberate Louisiana-inflected drawl, voice raspy like dried reeds;  often trails off mid-sentence when talking about his losses, but can rise with righteous anger when discussing the \"Beet riot Trust.\"] # Auth: [This Codex Entry]"
+        - "- Gait/Mannerisms: [S light stoop, walks with the careful, ground-aware tread of a lifelong swamp dweller. Wrings his call oused hands when agitated; often stares off into the middle distance, lost in thought.] # Auth: [This Codex Entry]"
+         - "- Associated Scent (If Any): [Swamp mud, alligator musk, stale coffee, and the faint, lingering metallic tang  of old machinery.] # Auth: [This Codex Entry / Primal Mama Sensory Palette (Implied)]"
+       undersaturation_notes: "[Exact height/weight, specific details of non-work attire (if any), dental condition.]" 
+
+    functional_properties:
+      purpose: "Define what the character *can* and *cannot* do."
+      properties :
+        - "- Skill: [Expert Alligator Trapper & Skinner (Traditional methods, pre-GE gator scale)]  # Auth: [Backstory / Demonstrated Knowledge]"
+        - "- Skill: [Proficient Small Skiff Pilot &  Mechanic (1970s-era outboard motors)] # Auth: [Backstory / Demonstrated Actions]"
+         - "- Skill: [Knowledge of Swamp Navigation & Survival (Lickskillet Delta region)] # Auth: [Backstory  / Demonstrated Actions]"
+        - "- Skill: [Basic Alligator Meat Curing & Smoking (Family recipes)] # Auth: [ Backstory]"
+        - "- Limitation (Technological): [Struggles with anything more complex than basic analog  1970s tech; previous attempt to use a \"Mark IV LedgerMaster\" Automaton for his failing business ended  in mockery and deeper debt due to its obtuse interface and the social stigma.] # Auth: [Backstory / World Rule:  Automaton User Stigma]"
+        - "- Limitation (Economic): [Impoverished; lacks capital, resources, or  connections to challenge the meat oligarchy. Lives hand-to-mouth.] # Auth: [Social Status / Narrative Context]"
+         - "- Limitation (Physical): [Aging, past injuries slow him down; no match for organized enforcers.]  # Auth: [Appearance / Narrative Context]"
+      undersaturation_notes: "[Firearm proficiency (likely has an  old shotgun, common outside Beetriot, but skill level TBD); detailed knowledge of GE gator physiology vs. wild.]"
+
+     psychological_properties:
+      purpose: "Define the character's textually constituted inner life."
+      properties: 
+        - "- Core Trait: [Resentment (towards the Beetriot Meat Trust and the elites)] #  Auth: [Dialogue, Motivations]"
+        - "- Core Trait: [Stubborn Pride (in his heritage , skills, and former independence)] # Auth: [Actions, Reactions to charity/pity]"
+        - "- Core Tra it: [Pervasive Weariness / Resignation (tempered by flickers of anger)] # Auth: [ Demeanor, Dialogue]"
+        - "- Dominant Emotion: [A simmering bitterness, often masked by a tired cynicism.] #  Auth: [Narrator Descriptions, Tone of Dialogue]"
+        - "- Key Motivator: [A desperate desire for some  form of justice or restitution, even if just seeing the Trust humbled; survival for himself and the memory of his family's legacy .] # Auth: [Explicit Statements, Plot Goals]"
+        - "- Key Belief: [\"They rigged the game.\" Bel ieves the system is designed to crush the little person. Distrusts \"progress\" as defined by Beetriot.] #  Auth: [Dialogue, Worldview]"
+        - "- Internal Conflict: [Pride in self-reliance vs. overwhelming  external forces. Desire to fight back vs. fear of complete annihilation. Lingering shame over Automaton failure.] # Auth: [ Internal Monologue, Difficult Choices Depicted]"
+        - "- Subjective Memory Content: [Vivid, painful memories of his  once-thriving family processing shed; the condescending agents of the \"Beetriot Meat Trust\" with their slick  1970s briefcases and impossible contracts; the day the bank foreclosed; the local whispers after the Ledger Master incident.] # Auth: [Narrative Depiction of his past]"
+      undersaturation_notes: "[Specific  religious beliefs (beyond general Primal Mama deities); opinions on Erpenthropes or Swamp Witches (likely views  them as just other strange swamp denizens, unless directly impacted).]"
+
+    social_relational_categorical_properties: 
+      purpose: "Define the character's place within the world's networks."
+      properties:
+         - "- Official Role: [None. Formerly: Owner/Operator, \"Coombs & Son Bayou Bites\" (def unct). Currently: Unofficial Subsistence Trapper.] # Auth: [Backstory]"
+        - "- Social Status: [Out cast / Marginalized. Resides on the impoverished outskirts of Lickskillet, or deeper in unclaimed swamp territory.] #  Auth: [Narrative Context, Interactions]"
+        - "- Primary Affiliation: [None. Deeply distrusts  organized groups after his experience.] # Auth: [Psychological Properties]"
+        - "- Secondary Affiliations: [Loose, informal ties  with other struggling swamp folk and small-time operators who remember him or share his plight. Potential source of information for those opposing  the Trust.] # Auth: [Narrative potential]"
+        - "- Key Relationship 1: [To \"Beetriot Meat  Trust\" (Oligarchy): Antagonistic; he is their victim, a symbol of their rapacious expansion.]  # Auth: [Backstory, Core Conflict]"
+        - "- Key Relationship 2: [To Mavis ( Daughter, whereabouts uncertain/estranged): A source of past pride and current sorrow; her departure or difficulties likely linked to the  family's financial ruin.] # Auth: [Narrative potential for motivation/regret]"
+        - "- Key  Relationship 3: [To Local Lickskillet Community (Older members): Pitied, sometimes respected for his stubborn ness, a living reminder of \"how things changed.\"] # Auth: [Potential Interactions]"
+        - "- Species/ Type: [Human (Baseline Primal Mama strain)] # Auth: [Default/Description]"
+      undersaturation_ notes: "[Specific friends; enemies beyond the Trust; detailed relationship with Mavis.]"
+
+    modal_properties: 
+      purpose: "Define any inherent unique relationship to world laws."
+      statement: "None authenticated. Leroy Coom bs operates under the general physical, deontic, and epistemic rules of Primal Mama. His victimhood stems from  socio-economic forces, not supernatural ones affecting him uniquely."
+
+    axiological_properties:
+      purpose: "Define the character 's value status *within* Primal Mama."
+      properties:
+        - "- Reputation (Meat Trust): [Authenticated  as viewed as 'irrelevant,' 'a minor nuisance at best,' 'a relic of an inefficient past.' They have likely forgotten  him or consider him utterly neutralized.] # Auth: [Implied by Oligarchy's power]"
+        - "- Reputation ( Lickskillet Locals): [Authenticated as a 'hard-luck case,' 'proof the Trust plays dirty,' 'know s the old ways of the swamp,' 'a good man dealt a bad hand,' 'touched by the Automaton curse .' Some fear associating with him too closely.] # Auth: [Dialogue/Interactions with locals]"
+        - "-  Moral Alignment (Narrative Framing): [Authenticated via narrative focus/sympathy as a victim of systemic injustice, embodying the struggles of the  common person against overwhelming corporate power within the Primal Mama world.] # Auth: [Narrator tone, plot context]" 
+      undersaturation_notes: "[Reputation among deeper swamp dwellers or more isolated communities; any reputation he might have had pre -ruin in Beetriot (unlikely significant).]"
+
+    historical_properties:
+      purpose: "Define the character' s known origins and connections to past events."
+      properties:
+        - "- Origin: [Authenticated as born and raised in the  Lickskillet Delta area. His family had processed wild alligator for generations before the Calamity and the rise of GE  gators.] # Auth: [Backstory]"
+        - "- Key Past Event Connection: [The \"Great Bayou  Consolidation\" – a period a decade or so ago when the Beetriot Meat Trust used aggressive buyouts, predatory contracts, and  manipulation of new (GE gator related) regulations to absorb or bankrupt most small, independent alligator processors like Coombs & Son. His  attempt to \"modernize\" with a clunky, expensive Automaton bookkeeper during this period, only to be hit with  the social stigma and its operational failures, was the final nail in his coffin.] # Auth: [Backstory, World Events]"
+         - "- Inherited Items: [Authenticated to possess his grandfather's favorite skinning knife (a pre-Calamity  steel tool, 1970s wooden handle) and a deeply tarnished St. Christopher medallion (a 197 0s design, perhaps a family heirloom representing hope for travelers/workers). His skiff, \"The Mavis' s Memory,\" is constantly in disrepair.] # Auth: [Narrative inventory]"
+      undersaturation_notes: "[Details  of his ancestors pre-Calamity; specific individuals within the Trust who targeted him; the exact year his business failed .]"
+
+  character_constitution_summary_narrative_function:
+    purpose: "Synthesize the core  identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+    core_essence: |
+       Leroy 'Lucky' Coombs is constituted as a casualty of Primal Mama's brutal socio-economic landscape, a man whose  traditional livelihood and pride were systematically dismantled by the powerful meat oligarchy and the societal pitfalls of ill-understood technology (Automat ons). He embodies the human cost of "progress" in a world clinging to a retro-futuristic aesthetic, representing  the fading independence of the "mom-and-pop" ethos against centralized, impersonal power. His African heritage connects him to a deep , resilient history, now overshadowed by personal and economic tragedy in the bayou.
+    primary_narrative_function: | 
+      To serve as a living testament to the predatory practices of the Beetriot Meat Trust, embodying the plight of the dispossessed in  Primal Mama. He can act as a reluctant informant, a cautionary tale, or a potential (if deeply pessimistic)  ally for protagonists seeking to challenge the status quo. His story highlights the "friction" caused by the oligarchy and the very real consequences  of the Automaton user stigma.
+    key_internal_conflicts: "Resentful anger vs. crushing  weariness; pride in old ways vs. the shame of obsolescence and Automaton failure; desire for justice vs.  the pragmatic fear of the Trust's retribution; hope for his daughter vs. the despair of his situation."
+     potential_for_development: |
+      Leroy could be pushed to a breaking point, leading to a desperate act  of defiance. He might find a new purpose in guiding or aiding others. There's potential for him to reclaim a  small piece of his dignity, or conversely, to sink further into despair and become a tool for darker forces. His knowledge  of old swamp ways and pre-GE gator lore could become unexpectedly valuable.
+
+end_of_profile_marker : "End of Fictional Person Profile: CHAR_LeroyC_01"

@@ -1,0 +1,98 @@
+Pyres of Novigrad
+Now it's time to conduct some business-it would be great to explore central Novigrad, but there's a quest that'll get in our way if we try, so we might as well deal with it, first.
+
+Hierarch Square
+Head to Hierarch Square, which is located in the central portion of Novigrad, south of the center of the island. When you arrive you'll witness a scene showing the Eternal Flame's fanaticism at its worst. After the fires die down, take some time to explore the plaza, as there's a Merchant, an Herbalist, and an Armorer to do business with. None of them play Gwent, sadly but the Armorer does sell "Edwin Greloff's Third Map," which start the quest "Scavenger Hunt: Griffin School Gear Upgrade Diagrams - Part 3."
+
+In the north-eastern corner of the square you can find a notice board. Grab the notice "Contract: Haunted House" to start the quest "Contract: Doors Slamming Shut," the notice "Contract: Imp" to begin "Contract: An Elusive Thief," "Fist Fights" to start "Fists of Fury: Novigrad" and "Contact: Monster in the Bits" which would begin the quest "Following the Thread"... which we already began in a somewhat less official fashion. Of these quests, the only one near our level is "Contract: An Elusive Thief," which we'll get to, eventually.
+
+Along the south-western part of the square you'll find the dwarf Vimme Vivaldi, who can convert all those Orens and Florins you've been finding into Crowns. He also plays Gwent-he's got an unusual Scoia'tael deck in that he doesn't play too many cards with the "Muster" ability. Instead, he relies on arbitrarily using "Decoy" Cards, and Dandelion, which has the same effect as as "Commander's Horn" Card. Beating him starts the quest "Gwent: Big City Players." We'll get to this Gwent quest shortly, but first, let's track down Triss.
+
+Objective	Reward
+For defeating Vimme Vivaldi at Gwent	25 XP
+Vesemir Card
+Tailing Thieves to Track Triss
+When you're done in Heirarch Square, head through some double doors south of the market and head up some stairs to spot a group of thugs rummaging through Triss's belongings. Approach them and either question them by picking the option "Let's talk" or provoke a fist fight by picking the option "Get lost". They both lead to the same dialogue chain, except with the latter option you'll have to beat the thugs into submission, first. Either way, get the information you want out of the two, after which some members of the Eternal Fire shows up, led by one pleasant fellow named Menge. You're deprived of the Thug's company and Menge will make some threats before leaving you to your own devices.
+
+Seems we need to look out for beggars and thieves, as they may lead us to where Triss is hiding. Before we bother with that, however, loot the vandalized containers outside Triss' house, note the crude graffiti outside, then head inside and loot. Activate your Witcher Senses and spot some herbs on the floor, then investigate a brush on the table. Head upstairs and loot some more, then search some amulets on a table. Climb another set of stairs where even more loot awaits your looting pleasure. Investigate some clothes on the floor, then grab the Rose of Remembrance from the bedside table-a gift Geralt gave Triss in The Witcher 2. All this really does is confirm that this was, in fact, Triss' abode.
+
+Leave Triss' house and return to Heirarch Square, where Geralt will spot some thieves plying their trade. Wait around near one of the search areas for another thief to show up and perform some skulduggery (your Witcher Senses won't help you here, you'll need to keep an eye out for this on your own) then follow them, keeping a healthy distance.
+
+Follow the thief through a door and you'll be pestered by a beggar. Either pay him (twenty Crowns), ask for the King of Beggars, or tell him to piss off, then follow the thief east, then drop down a ledge. Continue east through some double doors, then travel downhill to the south. After witnessing an exchange, follow the new target west along the canal, then south across a bridge and under an arch. Finally the stolen coin will be dropped off at its destination. Wait for the thief to depart, then head up to the door and knock on it. When the doorman arrives you'll have to either bribe him (fifty Crowns) or use the Axii Sign on him to get him.
+
+Objective	Reward
+For using Axii on the doorman	40 XP
+For gaining access to the Putrid Square	100 XP
+Putrid Square
+Before we go looking for Triss, head into a shop to the north, where you'll find a Merchant. He'll sell some Zerrikanian Saddlebags, which will improve your maximum carry weight by one hundred-a very welcome upgrade. He will also buy almost anything you could wish to sell, which is nice. Most importantly, however, he plays Gwent, fielding a pretty tenacious Monster deck, complete with plenty of cards with the "Muster" ability and the odd "Commander's Horn" and "Scorch" cards.
+
+Once you've beaten him and added another card to your collection, leave the shop and head east, then go through a door to find Triss and this "King of Beggars". Listen to him babble, then he'll give Triss and Geralt some alone time, which Triss decides to squander by taking us on a job. Follow her west and leave the Putrid Grove, then you'll chat with Triss some more, after which you'll need to follow her to a store.
+
+Triss's New Gig
+She'll talk to the storekeep named Kluhg, who was apparently less than diligent about delivering some supplies for Triss. Regardless of how you respond, you'll end up agreeing to go fetch the discarded contraband yourself. Loot the house, then open a trap door, then climb down a ladder to reach the sewers under the shop, where you'll have to dispatch a Drowner (level ten). After it's dead loot a chest behind the ladder, as well as two chests in the south-western corner of the chamber to the north. There's other containers to search, but those two have the best stuff inside.
+
+Once that's done, search the eastern side of the brick pillar with your Witcher Senses to find a button. Press it to open a secret passage to the north. Head outside and into a canal, which you should follow west. Triss will babble, and you'll get a cutscene as you cross under a bridge. Head into the lovely-and totally not sewage-filled-waters of the canal and swim west with your Witcher Senses active, scanning the ground for our misplaced package. Loot two chests along the way, then find the Leather Sack near a sunken boat next to a bridge.
+
+Return to Triss and hand her the package, then follow her to her destination-bantering along the way. Meet with the merchant to discover Triss' unflattering new job (and her desperation for work), then head inside the granary. After Triss tells you what to do, head east from the entrance until you reach the eastern wall of the granary and, with your Witcher Senses active, find the spot to place the first trap. Head down some stairs to the north and continue north to reach another wall, where the second trap can be placed. Finally, head west-up then down some stairs-to find the third spot to place a trap on some wooden planks. Return to the entrance and Triss will work her magic, which gets rid of the rodents.
+
+After a bit of chatter, the merchant will show up again with some Eternal Fire goons in tow. Apparently he decided he could hire Triss, then rat her out and avoid paying for her work. Kill the three Witch Hunters (level ten) then head outside to confront the false merchant. Geralt extracts some justice out of him, and Triss will suggest that a local "oneiromancer" might help Geralt find Ciri. This ends "Pyres of Novigrad" and begins "Novigrad Dreaming."
+
+Objective	Reward
+For reuniting with Triss	200 XP
+The Great Gwent Diversion
+We now have access to central Novigrad-unimpeded by random cutscenes cropping up. Now is as good of a time as any to explore central Novigrad... and so we will, but we'll also focus on advancing the all important Gwent sidequests. There are a lot of them which can be started (and finished) here. If you have no interest in Gwent, skip ahead to "Exploring Central Novigrad."
+
+First up, we need to finish the quest "Gwent: Playing Innkeeps." It just so happens that our third and final target is nearby in Novigrad. Return to Hierarch Square and head north to the signpost along the north-eastern end of the plaza. Head up the stairs behind the signpost to enter the rather high-end tavern named "The Kingfisher." Inside you'll find Olivier, the Innkeep. Play him and you'll win the "Tiborof Eggebracht" card, a 10 Strength Ranged Unit Card for Nilfgaardian decks. He will also sell a "Havekar Smuggler" card, a "Mahakaman Defender" card, a "Vrihedd Brigade Veteran" card, and a "Havekar Healer" card, should your Scoia'tael deck need some improvements.
+
+Objective	Reward
+For defeating Olivier at Gwent	25 XP
+Tibor Eggebracht Card
+So ends the quest "Gwent: Playing Innkeeps" but we've another Gwent quest to complete. After beating the Bloody Baron we should have begun the quest "Gwent: Velen Players." These guys can be more of a challenge than the Innkeeps were, so now, finally, it's time to discuss some basic Gwent strategy.
+
+Note: More in-depth discussion of Gwent can be found in the "Gwent Information" section of the guide.
+
+Gwent Strategies
+First, the Northern Kingdoms Deck should be all you need-it's not the only one that can win, but by now it's probably the most well-developed. The note-worthy unit cards you should have by now include Yennefer of Vengerberg, Prince Stennis, Crinfrid Reavers Dragon Hunter (x2), Dun Banner Medic, Sigismund Dijkstra and Blue Stripes Commando (x3). In addition to these your deck should be enhanced by three Decoy cards, three Commander's Horn cards, and perhaps a Clear Weather card. The best leader card to use, arguably, is Foltest, Lord Commander of the North, as it gives you a free "Clear Weather" effect once per game, which is a good safety net. On top of all that, stack your deck with the strongest unit cards you have. It's hard to gauge exactly what else you might have, since card drops from playing random merchants is random-if you're lucky you might have the Villentretenmerth card, or even Phillipa Eilhart.
+
+The strategy is simple-use your Tight Bond cards and Commander's Horn to pummel lesser decks into submission. Crude, but effective. More powerful opponents won't be so easily defeated, however. Monster decks, particularly, can use cards with the "Muster" ability to summon up a host of (usually Close Combat Unit) cards that even the Northern Kingdoms deck can't out-power, especially if they pair, say, Vampire cards and Crone cards with Commander's Horns and "Eredin, King of the Wild Hunt".
+
+More advanced strategies revolve around the smart use of cards with the "Medic" and "Spy" abilities. Both are simple enough-play a Medic card and you can raise another non-hero unit card. Play a Spy card and you get to draw two cards at the cost of adding that Spy's Strength to your opponent's total. With a powerful deck full of Decoy, Tight Bond, and high-powered unit cards, this is worth the trade-off, but weaker Spy cards are, in this case, more useful than stronger ones. Both Prince Stennis (5 Strength) and Sigismund Dijkstra (4 Strength) are passable at this task.
+
+When you throw Decoy cards into the mix, however, things get really fun. If an enemy uses a Spy on you, use Decoy to bring that card into your deck, then play it back at them, nullifying their advantage. Use Decoy on a Medic card, then play it again to revive another card. Especially useful for playing cards with Tight Bond in an earlier round, then recycling them in later rounds. If you have the Villentretenmerth card, you can use it to great effect against Monster decks, as its special ability (Scorch-but only on enemy close combat cards, and only against them if they have ten or more Strenght in that row). Just play him, kill the enemy's stronger close combat units, then use Decoy, and play him again. If those pesky Monster Decks want to use Commander's Horn, Crones, and Vampire cards... fine. But our dragon will have a field day with them, and leave them with nothing.
+
+All these special cards can be somewhat cumbersome-if you get too many Decoys and Commander's Horns, and too few unit cards, you could find yourself in more trouble than you'd be without them... but against more sophisticated opponents, such a risk is necessary, and using Spy cards to draw large hands should help ensure that you end up with whatever you need to win.
+
+Playing Random Gwent Players
+Of course, all of these tactics are useless if we don't have strong enough cards. If you've done everything suggested in the walkthrough so far, you should be fine... but it never hurts to score more cards. We should have played all the merchants in Oxenfurt (the Blacksmith and Armorer are very challenging foes, so if you skipped them, it's fine to come back after the next Gwent quest "Gwent: Velen Players") of which there were four-including Stjepen, the innkeep who was part of the quest "Gwent: Playing Innkeeps." The Innkeep at the Inn at the Crossroads (also part of the quest "Gwent: Playing Innkeeps"), the three merchants in Crow's Perch, the two in Blackbough, thre three in Lindenvale, the two in Midcopse, and Oreton and Downwarren both had one merchant to play.
+
+If that's not enough, there are more merchants you can play in Novigrad-quite a few more, in fact. We recently played the Innkeeps at Cunny of the Goose and the Seven Cat's Inn, as well as the elven merchant Elihal in the nonhuman district and the Herbalist and Madame in the docks district, not to mention the Merchant in the Putrid Square during the quest "Pyres of Novigrad."
+
+In addition to all that, there's an Alchemist, two Blacksmiths, two Innkeeps, a Loan Shark and five Merchants in the central part of Novigrad, not to mention a Priest of the Eternal Flame in the upper district. You can also play Gwent with the Nilfgaardian Nobleman back in Vizima, who should now be beatable. This doesn't include every Gwent player in Velen/Novigrad-but it does account for a vast majority of the ones we have access to right now.
+
+The cards you'll get from these random merchants are random, but can include a host of really great cards, the best of which at this point in the game is probably the "Villentretenmerth" card. You can save/load matches until you get the card you want, but it's arguably better to just play as many people as you can. Gwent cards from merchants are random, but they also come from a finite pool. Each merchant can only give you one card, but on the bright side, if you get a junk card from one, you're more likely to get something better from the next one. When you've played all the random merchants in the game, you'll stop gaining anything from playing Gwent. There are more random merchants to play Gwent with than there are random Gwent cards, so don't worry about finding every single one. We won't be able to complete our random Gwent cards until we reach Skellige.
+
+Gwent: Velen Players
+When you're done playing random folk, it's time for more running around. First head to Oreton and find the Boatwright, who you should challenge to a game of Gwent. His deck is a decent-but not exceptional-Nilfgaardian deck. He's got plenty of 10 Strength cards, and he might play "Scorch" but otherwise, he's a fairly easy win, and coughs up the "Letho of Gulet" Hero Card when he loses.
+
+Objective	Reward
+For defeating the Boatwright at Gwent	25 XP
+Letho of Gulet Card
+Diagram: Enhanced Feline Steel Sword
+Next up is the the Old Sage in Benek, which is east of Reardon Manor. Along the way, let's collect some nice loot and blow up some monster nests, eh? Fast-travel to the Reardon Manor and head north-east to find a cave at the end of a road (these roads are apparent on the map, so it should be no difficulty finding this location). Head inside the cave and use your Witcher Senses on a rock along the entrance (to the south-east) to spot the Cat symbol. Continue south-west into the cave and when you spot some elven floor tiles turn south-east to find a chest with the Diagram: Enhanced Feline Steel Sword inside.
+
+Monster Nest(s) (level 9)
+Leave the cave and head south-east to find fields liberally littered with Monster Nests. These nests are all guarded by Nekkers (level eight) and the odd Nekker Warrior (level nine). Kill the guardians, blow up the nests, and loot the remains. There are four nests in total. Near the eastern-most nest, you'll find a sacked caravan with some containers you can loot.
+
+Objective	Reward
+For destroying the Monster Nests	20 XP Each
+After destroying-or bypassing-the Monster Nests continue east to reach Benek, where you can find the Old sage along the northern end of the south-westernmost building. Talk to him and challenge him to game of cards (ignoring his quest). He uses a fairly potent Monster deck. Count on him exploiting cards with the "Muster" ability and using the special ability of "Eredin, King of the Wild Hunt" to double the strength of his Close Combat Unit cards. He's also got a "Scorch" card up his sleeves. When you defeat him you'll earn the "Crone: Weavess" Card, a mid-Strength card with the "Muster" ability.
+
+Objective	Reward
+For defeating the Old Sage at Gwent	25 XP
+Crone: Weavess Card
+Next head to Midcopse and look for Haddy, the ten year old Gwent Savant. Play him and you'll find that he's got a sturdy deck of cards, but nothing insurmountable. Trounce him and you'll get two cards; "Vernon Roche" and "Eredin, Bringer of Death." Can't go wrong with a 10 Strength Hero Card for the Northern Kingdoms. As for the Leader Card... eh.
+
+Objective	Reward
+For defeating Haddy at Gwent	25 XP
+Vernon Roche Card
+Eredin, Bringer of Death Card

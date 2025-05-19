@@ -1,0 +1,192 @@
+ 
+world: Primal Mama
+codexVersion: '0.2 - Character Constitution (Evelyn Dubois)'
+last Updated: '[Current Date]'
+leadArchitects: '[Your Name/Studio Name]'
+
+introduction:
+  title : 'Constituting Fictional Persons Textually'
+  text: |
+    This protocol guides the detailed definition  of **Fictional Persons** (characters, significant sentient beings) within the Primal Mama heterocosm. Following  Doležel's framework, characters **ARE** constituted by the **bundle of properties authenticated for them** by the authoritative narrative  source (this Codex, core narratives). They possess **no independent psyche or reality beyond this textual definition**.
+
+    Use this  template to systematically build characters by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted individuals whose complexity arises from  the **richness, coherence, and potential tensions within their authenticated bundle**, and whose actions are logically grounded in their defined  nature and the world's rules. Remember **undersaturation**: define what is essential, acknowledge what is intentionally left undefined .
+
+characterProfile:
+  entityId: CHAR_EvelynDubois_01
+  characterName: 'Amb assador Evelyn Dubois (often called "Evie" by those more familiar or less formal)'
+  entityType: ' Person (Human)'
+  archetype: 'The Pragmatic Idealist Diplomat' # Note: The goal is to move beyond  the archetype via specific property authentication
+  primaryAuthenticationSources:
+    - This Codex Entry
+    - 'Primal Mama  Coherence & Internal Logic Protocol v0.1'
+  canonTier: Tier 1
+  authenticationStatus: Authent icated_Canonical_Active
+
+authenticatedPropertyBundle:
+  physicalProperties:
+    purpose: "Define the character' s tangible presence, reflecting Primal Mama's aesthetic."
+    properties:
+      - id: Appearance_General 
+        value: 'Human female, early 40s, with a composed and observant demeanor. Athletic build suggesting  capability but not overt aggression.'
+        auth: '[Primal Mama Coherence - Implied Human Norms]'
+       - id: Appearance_Specific_Features
+        value: 'Clear, intelligent eyes (hazel); often a  slight frown of concentration. Hair is practical, often tied back, a sensible dark brown. Features are more sharp than soft .'
+        auth: '[Visual Concept - PM_Evie_01]'
+      - id: Appearance_ Distinctive_Marks
+        value: 'A faint, old scar near her temple from a "negotiation that went  sideways" in her youth, rarely spoken of. Wears a simple, functional chronometer with an analog display, its  casing showing some wear.'
+        auth: '[Narrative Hook; Coherence - 1970s Tech Aesthetic]' 
+      - id: Typical_Attire
+        value: 'Professionally tailored but durable clothing that adheres to the late 1 970s aesthetic: muted earth-tone pantsuits with slightly flared legs, practical blouses with wide collars, sturdy  low-heeled boots suitable for navigating uneven terrain or boat decks. Always carries a well-organized, leather-and -canvas satchel with brass fittings.'
+        auth: '[Coherence - Tech Aesthetic Constraint; Implied Practicality  for Role]'
+      - id: Voice_Speech_Pattern
+        value: 'Modulated, clear contralto. Speaks articul ately, choosing words with care. Can adopt a more formal tone for official Beetriot business, or a slightly more relaxed , though still professional, cadence when dealing with Lickskillet locals or Swamp Dwellers.'
+        auth:  '[Dialogue Snippets - Evie_Dialogue_Reel_01]'
+      - id: Gait_M annerisms
+        value: 'Purposeful and measured. Has a habit of subtly observing her surroundings and the body language  of others. When listening intently, she might tap a finger against her chin. Avoids ostentatious gestures.'
+         auth: '[Action Descriptions - Evie_Scenes_01-03]'
+      - id: Associated _Scent_If_Any
+        value: 'Faint scent of pressed linens (from Beetriot standards),  often overlaid with the ambient smells of her current environment – e.g., damp earth and ozone near swamps, or processed  alligator and solvent in Lickskillet.'
+        auth: '[Sensory Palette - Primal Mama]'
+    physical Undersaturation: '[Exact height/weight, specific brand of her boots, preference for tea or coffee (though likely something brewed  from local flora if offered out of politeness).]'
+
+  functionalProperties:
+    purpose: "Define what the  character *can* and *cannot* do within Primal Mama."
+    properties:
+      - id: Skill _Exceptional_Cross_Cultural_Negotiation_Diplomacy
+        value: 'Exceptional Cross-Cultural  Negotiation & Diplomacy (Core Skill)'
+        auth: '[Demonstrated Actions - Successful mediation between Lickskillet fishers  and a Beetriot transport guild regarding waterway access.]'
+      - id: Skill_Proficient_Beetriot_Legal_ Bureaucratic_Procedures
+        value: 'Proficient in Beetriot Legal & Bureaucratic Procedures'
+         auth: '[Role as Ambassador implies this knowledge.]'
+      - id: Skill_Working_Knowledge_Alligator_Hus bandry_Economics
+        value: 'Working Knowledge of Alligator Husbandry Economics & Lickskillet Processing Practices  (learned, not innate). Understands the basics of solar-gator energy cycles.'
+        auth: '[Research  notes within her satchel; Dialogue showing understanding of supply chains.]'
+      - id: Skill_Basic_Proficiency_Side arm
+        value: 'Basic proficiency with standard Beetriot-issue sidearm (mostly for deterrence, prefers not to use it).  Adheres to Beetriot''s stricter weapon control policies when within city limits.'
+        auth: '[Training Record Prop; Co herence - Gun Ownership Regionality]'
+      - id: Ability_Learned_Comms
+        value: 'Can operate basic  1970s-style communication arrays (radio, teletype-equivalents with chunky keyboards and CRT  displays). Understands the limitations of solar-powered comms in deep swamp or overcast conditions.'
+        auth: '[ Coherence - Tech Aesthetic, Solar Dominance; Narrative: Successfully sending a message during a solar flare disruption by rerouting through an older , more robust relay.]'
+      - id: Limitation_Knowledge_Esoteric
+        value: 'Limited understanding  of deep Swamp Witch esoteric lore or Erpenthrope metaphysics (approaches with respectful caution, not expertise). Not a bio -engineer; understands GE gator function, not creation.'
+        auth: '[Dialogue showing deference or seeking expert opinion  on these matters.]'
+      - id: Limitation_Physical_Baseline
+        value: 'Baseline human physical capabilities . Not a survivalist; would be at a disadvantage if stranded alone in the deep swamp without her gear or local guides .'
+        auth: '[Narrative descriptions: relies on local guides for dangerous swamp crossings.]'
+      - id: Limitation_ Social_Beetriot_Official
+        value: 'As a Beetriot official, often viewed with initial suspicion in Licksk illet and deep swamp communities. Her rejection of Automaton/LLM aid (due to social stigma) means some complex  data analysis is slower or relies on human assistants.'
+        auth: '[Coherence - Automaton Stigma, Beet riot/Lickskillet tensions.]'
+    functionalUndersaturation: '[Ability to pilot complex watercraft; knowledge of  specific ghost-summoning rituals (she knows *of* them, but not *how*); proficiency in hand-to- hand combat.]'
+
+  psychologicalProperties:
+    purpose: "Define the character's textually constituted inner life, shaped  by Primal Mama."
+    properties:
+      - id: Core_Trait_Pragmatic_Idealism
+        value : 'Pragmatic Idealism: Believes in finding common ground but understands the harsh realities and self-interest motivating most factions.' 
+        auth: '[Internal Monologue during difficult negotiations; Actions that seek compromise.]'
+      - id: Core _Trait_Intellectual_Curiosity
+        value: 'Intellectual Curiosity: Genuinely interested in understanding the  different cultures and beliefs within Primal Mama, even the unsettling ones.'
+        auth: '[Takes notes on local customs ; asks respectful questions about deified celebrities or local superstitions.]'
+      - id: Core_Trait_Resilience
+         value: 'Resilience: Able to withstand pressure, disappointment, and navigate tense situations without losing composure.'
+        auth: '[ Maintaining calm during a Lickskillet protest; continuing mission after a setback.]'
+      - id: Dominant _Emotion_Professional_Facade
+        value: 'Calm Composure'
+        auth: '[Consistent outward demeanor .]'
+      - id: Dominant_Emotion_Private
+        value: 'Frustration (with bureaucracy/intransigence ), Hope (for better relations), underlying weariness from constant navigation of conflicts.'
+        auth: '[Private journal entries ( if depicted); subtle reactions when alone.]'
+      - id: Key_Motivator
+        value: ' To foster stability and understanding between Beetriot and the outlying communities, believing it essential for mutual survival post-calamity .'
+        auth: '[Explicit mission statements; choices prioritizing peace over short-term gain.]'
+      - id: Key_ Belief
+        value: 'That direct human interaction and understanding are superior to automated solutions or detached governance for resolving complex  societal issues.'
+        auth: '[Her avoidance of LLMs aligns with this; preference for face-to-face meetings.] '
+      - id: Internal_Conflict
+        value: 'Her Beetriot upbringing and loyalty vs. her growing empathy for the  struggles of Lickskillet and swamp dwellers; The official narrative of progress vs. the unsettling truths hinted at by Erpenthrop es or ghost lore.'
+        auth: '[Difficult choices where Beetriot policy clashes with local needs; moments of questioning official explanations  for world events.]'
+      - id: Subjective_Memory_Content
+        value: 'Clear recall of  her diplomatic training, past assignments, and key figures in Beetriot and Lickskillet. Aware of the "official " history of the Calamity but suspects it''s incomplete.'
+        auth: '[Narrative Depiction of  her thoughts and recollections.]'
+    psychologicalUndersaturation: '[Deep personal fears beyond professional failure; specific childhood memories shaping  her idealism; her personal stance on the deified celebrities beyond professional respect.]'
+
+  socialRelationalCategoricalProperties:
+     purpose: "Define the character's place within Primal Mama's networks."
+    properties:
+      - id: Official _Role
+        value: 'Ambassador Plenipotentiary for the Beetriot Council, Office of Inter-Sett lement Affairs.'
+        auth: '[Official Documents Prop; Introductory Dialogue]'
+      - id: Social_Status
+        value : 'Respected official within Beetriot, though some hardliners view her methods as too conciliatory. In Lickskillet , seen as "the face of Beetriot," with reactions ranging from wary respect to outright hostility depending on current events.' 
+        auth: '[Interactions with Beetriot Council members; Reactions from Lickskillet characters.]'
+       - id: Primary_Affiliation
+        value: 'Beetriot Governance Structure.'
+        auth: '[Role ]'
+      - id: Secondary_Affiliations_Professional_Contacts
+        value: 'Liaison with L ickskillet Town Council (or equivalent informal leadership); cautious, respectful contact with certain Swamp Witch intermediaries; has exchanged information (guarded ly) with at least one Erpenthrope seeking "truth" about historical land treaties.'
+        auth: '[ Narrative events depicting these interactions.]'
+      - id: Key_Relationship_1_Thorne
+        value : 'To Councilman Thaddeus Thorne (Beetriot): Her direct superior, a pragmatic but often ruthless politician who sees Ev ie as a useful, if sometimes frustratingly idealistic, instrument.'
+        auth: '[Dialogue/Directives from Thorne.] '
+      - id: Key_Relationship_2_Coombs
+        value: 'To Jedediah  "Jed" Coombs (Lickskillet Gator Union Rep): A grudgingly respectful but often adversarial relationship. Jed sees  Evie as less deceitful than other Beetriot officials but fundamentally representing opposing interests.'
+        auth: '[Negotiation scenes.]' 
+      - id: Key_Relationship_3_Eulalie
+        value: 'To Mama Eulalie ( Swamp Witch Elder, rarely seen): Communicates through intermediaries. Evie shows immense deference, understanding Eulalie''s  influence in the deep swamp and her esoteric knowledge.'
+        auth: '[Reports of messages passed; Evie''s  careful adherence to protocols when near Witch territory.]'
+      - id: Species_Type
+        value: 'Human  (Baseline Primal Mama Strain – i.e., adapted to post-calamity environment but not supernaturally  altered). Is biochemically susceptible to the "death by burger" rule.'
+        auth: '[Coherence - Biological  Calamity Aftermath.]'
+    socialUndersaturation: '[Personal friendships within Beetriot; family ties;  specific enemies she might have made beyond professional adversaries.]'
+
+  modalProperties:
+    purpose: "Define any inherent  unique relationship to world laws."
+    properties:
+      - id: MODAL_EVIE_01
+        property : 'None Authenticated.'
+        description: 'Operates under the standard alethic, deontic, and  epistemic rules governing humans in Primal Mama. She possesses no inherent supernatural abilities or immunities beyond those of a baseline human in this  world.'
+        limits: 'N/A'
+        authentication: 'Absence of any textual evidence suggesting exceptional  modal status.'
+    note: 'Her influence comes from her skills, position, and intellect, not from any special  dispensation from world laws.'
+
+  axiologicalProperties:
+    purpose: "Define the character's value status * within* Primal Mama."
+    properties:
+      - id: Reputation_Beetriot_Elite
+         value: "Authenticated as 'effective but soft-hearted', 'risk-taker for diplomacy', 'doesn''t fully appreciate  the necessity of oligarchic strength'. Some respect her success, others her methods."
+        auth: "[Heard gossip  among Beetriot socialites; Councilman Thorne's private assessments.]"
+      - id: Reputation_Lick skillet_Populace
+        value: "Authenticated as 'the Beetriot Suit who actually listens (sometimes)', 'better  than most from the city', but still 'not one of us'. Suspected of hidden agendas by default."
+        auth: "[ Grumblings in Lickskillet bars; Jed Coombs' reluctant admissions of her fairness.]"
+      - id:  Reputation_Swamp_Witches_Erpenthropes
+        value: "Authenticated as 'a talker  from the hard-husk city', 'less arrogant than most', 'potentially useful for information exchange if handled carefully'. They  value her demonstrated respect for their boundaries and traditions."
+        auth: "[Messages from intermediaries; an Erpenthrope 's willingness to meet.]"
+      - id: Moral_Alignment_Narrative_Framing
+        value : "Authenticated via narrative focus as striving for 'fairness and mutual understanding', often navigating morally grey compromises for a greater good within  the harsh Primal Mama context. Her adherence to the 1970s aesthetic in her official capacity reinforces a  sense of 'order' or 'known procedure' in a chaotic world."
+        auth: "[Narrator tone,  outcomes of her diplomatic efforts.]"
+    axiologicalUndersaturation: '[Her reputation among the meat oligarchy ( likely negative); specific opinions from the deified celebrities'' "clergy" if such exist.]'
+
+  historicalProperties:
+     purpose: "Define the character's known origins and connections to past events."
+    properties:
+      - id : Origin
+        value: 'Authenticated as born in Beetriot, post-Calamity, to a family with ties to  the early administrative efforts to stabilize the city. Educated in Beetriot''s nascent diplomatic corps.'
+        auth:  '[Official Bio Prop; Dialogue references to her upbringing.]'
+      - id: Key_Past_Event_Connection
+        value : 'Was a junior attaché during the "Saurian Sanctuary Accords" negotiations, which solidified regulated alligator harvesting. This  experience shaped her views on inter-factional resource management.'
+        auth: '[Flashback snippet; references in dialogue  to lessons learned from the Accords.]'
+      - id: Inherited_Items_Responsibilities
+        value: 'Carries  a data-slate (1970s bulky cassette-tape style) containing the historical treaties and agreements between Beet riot and Lickskillet, a heavy burden of precedent she must navigate.'
+        auth: '[Narrative inventory ; reference to treaty clauses during negotiations.]'
+    historicalUndersaturation: '[Specifics of the "negotiation  that went sideways"; full details of her family''s role in post-Calamity Beetriot; personal experiences during major historical shortages  or upheavals.]'
+
+characterConstitutionSummary:
+  purpose: 'Synthesize the core identity, internal conflicts , and narrative role emerging from the authenticated property bundle.'
+  coreEssence: |
+    Ambassador Evelyn " Evie" Dubois is constituted as a bridge-builder in the fractured, retro-futuristic, bayou-infused  world of Primal Mama. Her being is defined by the tension between her Beetriot origins/loyalties and her empathetic drive to  understand and conciliate with the disparate, often hostile, cultures outside the city. Functionally, she is a skilled negotiator  constrained by the 1970s technological aesthetic and the deep-seated social stigmas (e.g., Autom aton use) of her world. Psychologically, her pragmatic idealism is constantly tested by the pervasive paranoia (e.g ., "invisible women" conspiracy), entrenched power structures (meat oligarchy), and the unsettling supernatural realities (Swamp Witches, Er penthropes, ghosts) of Primal Mama. She embodies the struggle for reasoned communication and cooperation in a world steeped in  bizarre traditions (cattle artifacts, celebrity deities) and raw survival instincts.
+  primaryNarrativeFunction: |
+    Can serve  as a POV character allowing exploration of Primal Mama's diverse factions and their conflicts. Alternatively, a key NPC who facilitates or  complicates the protagonist's interactions with these factions. Her missions can drive plots related to resource disputes, cultural misunderstandings,  political intrigue between Beetriot and Lickskillet, or attempts to mediate with the more enigmatic swamp communities.
+   keyInternalConflicts: 'Beetriot Duty vs. Lickskillet/Swamp Empathy; Idealistic Desire for  Cooperation vs. Pragmatic Acceptance of Harsh Realities; Respect for Tradition (including 1970s aesthetic,  celebrity gods) vs. Frustration with Irrationality/Inefficiency; Official Knowledge/Narratives vs. Whis pers of Deeper, More Disturbing Truths.'
+  potentialForDevelopment: "Deepening understanding and trust (or  escalating conflict) with Lickskillet or Swamp factions (Social/Relational change). Uncovering unsettling truths about the Cal amity or the nature of power in Primal Mama (Epistemic/Psychological change). Being forced to make  increasingly difficult moral compromises (Axiological/Psychological shift). Acquiring unique knowledge or even a grudging magical boon  from a Swamp Witch (Functional/Epistemic change if narrative supports it without breaking her baseline human status)."
+
+end OfProfileMarker: 'End of Fictional Person Profile: CHAR_EvelynDubois_01' 

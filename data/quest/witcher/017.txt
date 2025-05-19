@@ -1,0 +1,91 @@
+Helping Keira Metz
+An Invitation from Keira Metz (level 6)
+We could go after these "Ladies of the Wood," but why risk messing with witches we don't know when a pretty one we do know wants to see us? Head over to her house and you'll overhear her talking to somebody. Interrupt her and you'll see that she's already started playing with her new toy. Ask about the request she has for you and she'll ask you to help her lift a curse on a nearby isle, and provide you some background information about how the curse might have been formed, and her motivations, if you ask. You'll need to sail over to Fyke Isle, from whence this curse emanates. To aid you in your task she'll give you the Magic Lamp and a Xenovox. This ends the quest "An Invitation from Keira Metz" and begins "A Towerful of Mice."
+
+A Towerful of Mice (level 6)
+Head south along the road leading to Midcopse until it bisects another road running east-west. West takes you to Midcopse, east takes you to the ship you're looking for. Sail south down the river and Keira will shortly make use of the Xenovox to bug you. Turn south-east when you run out of south and hold course to reach the island. Once you land Keira will attempt to bug you again, but it seems the Xenovox is performing about as well as your standard cellphone. You'll be greeted by a batch of Rotfiends (level six) if you land on the western end of the island.
+
+Continue east along the southern end of the island, fighting off Drowners (level four) as you go until you come across the ruins of what appears to have been either a shrine or a tomb. North of the moss-covered rock in the center of the ruins you'll find a doorway leading to a flood cavern, within which lies a chest. Loot, leave, and continue exploring to the east, where you'll find more Necrophages along a trail in the form of Ghouls (level six). North of here another group of Rotfiends (level six) lurk.
+
+Kill them and proceed south-east to reach the edge of the search area where you'll find more Ghouls (levels six and nine) as well as the "Fyke Isle" signpost. If you spot any green clouds, whip out Keira's Magic Lamp and focus it on the aberration to witness a ghost scene play itself out. If you encounter a cloud of bugs... blast them with Igni to disperse them. There's a ghost scene at the far southern end of the search area, opposite the signpost, and one a short distance south-east of the signpost. Spot them out then head to the signpost.
+
+Objective	Reward
+For witnessing a ghost scene	50 XP Each
+South of the signpost you'll find the opening in the palisade. Head through the gates and continue north to find a tower, outside of which you'll encounter a Water Hag (level six). Kill it, then use your witcher Senses to spot a corpse in the water near where the hag appeared. Examine it, then turn south to find some stairs leading to a watch tower, upon which you'll find two chests and a crate to loot. Another crate can be found beside the stairs. When you're done looting, head around the northern side of the tower where you'll find another ghost scene. Along the way you can search a house to the north-west of the tower, and an adjacent shelter, both of which have containers to loot.
+
+Exploring the Tower
+Return to the southern end of the tower and head up some stairs to enter the tower. Once inside, turn your Witcher Senses on and search some weaponry near the door, then some dead rats (which makes Keira object). Loot a chest in a fire place to the north-east, then turn north-west and use the Magic Lamp to spy on a ghost scene. Seems that, despite the bad wrap nobles have been getting all game, the peasants might be the more vile party here. Then again, maybe anybody with any power sucks. Loot a crate near the stairs, then rummage through two sacks and search some blood on the floor.
+
+Ignore the stairs for now... the ones up, anyways, and go through a door north of the blood. As you descend the stairs you'll witness a mainstay of paranormal activity-the old swinging chandelier trick ghost seems to adore so much. The rats don't seem to mind, however, so neither should we. There are some sacks and a chest you can loot to the north, and another chest stacked atop some cages to the south-west. To the south-east you'll find another ghost memory. Guess that explains where the rats came from...
+
+Head back upstairs, and continue up the stairs we ignore a little while ago. All you can do here is witness another ghost scene opposite the door. Watch it, then head up another flight of stairs. Another favorite mainstay of poltergeists will occur here-self-lighting candles. Spooky. Head out onto a balcony opposite the stairs to score a chest, then return inside and loot some sacks near the next flight of stairs leading up. Go through a doorway to the north-east and loot another chest, then go through an adjacent doorway and use your Magic Lamp to witness another ghost scene.
+
+Climb another flight of stairs, loot a chest, walk around some beds, then go up more stairs. Keira will bug you when you reach the top, telling you to look for a laboratory. Search near a wall to examine some damage to the floor, then pull a lever on the north-western wall to open a door near the scratches on the floor. Go through a doorway, then up some stairs, then through another doorway to reach the laboratory. Once here, loot a chest along the north-western wall, examine some seedy testing tubes to the south-west, then score a smaller chest to the south-east, near another ghost image. Speaking of which... pop the Magic Lamp on it to witness another scene...
+
+Objective	Reward
+For discovering the laboratory	100 XP
+Anabelle's Plea
+Converse with the ghost and she'll mention that the mage who owned this tower was named Alexander-Keira had a (presumably unsent) letter to a mage who lived in a tower named Alexander. She'll also tell the story of what happened here, including the story of her gruesome demise. No wonder she can't rest in peace. After a while she'll tell you the conditions that will free her from this place-and presumably lift the curse.
+
+The request is rather reasonable, and if you offer to help her she'll ask you to bring Graham to her. You also have the option to turn her down, which is more involved in the short-run. If you do turn her down, she'll get understandably upset, turn into a Plague Wraith, then attack. She fights similarly to a Noonwraith, save she summons swarms of insects to attack you. Normally Yrden would be the correct course of action, but in this case starting out with Igni to disperse her bugs and rats might prove more helpful at the beginning of the fight. Of course, like other wraiths of this type, she'll take a pathetic amount of damage if she's not under the effects of a Yrden Sign. Once she's taken a bit of damage she'll flee. Chase her down the tower and fight her again in front of it. She'll stay a bit longer this time, but still vanishes before you can finish her off. Keira will berate you via the Xenovox and tell you to find Graham-the object of Anabelle's undying affection-in Oreton.
+
+Graham and the Ghost
+Either way, you'll end up having to go pay Graham a visit. Return to your boat and sail north-east to reach Oreton. You'll find Graham in an isolated riverside hut south-west of the rest of the village. Be sure to visit Oreton to get the signpost, in case we need to travel here later. Once done, knock on his door and he'll talk to you when you tell him about Fyke Isle. He'll tell you his side of the story, after which you can convince him to either go with you back to the island (if you got into a fight with Anabelle earlier) or bury her bones (if you agreed to help her).
+
+If you got into a tussle with Anabelle earlier you'll be back at the tower. Enter it and kill a pair of Wraiths (level five) on the first floor. Continue to the top of the tower to confront Anabelle again, who doesn't seem happy to see Graham. She'll ask for a show of his affection (ew) and will be cruelly treated by Anabelle for this show of love... but at least they're together now.
+
+Objective	Reward
+For reuniting Graham and Anabelle	500 XP
+On the other hand, if you handed her remains over, leave the hut. You'll hear a scream shortly afterwards. Return to see that Graham is dead, and Anabelle-the Pesta-is floating over him. Either way, the curse is lifted.
+
+Objective	Reward
+For bringing Anabelle's remains to Graham	300 XP
+Return to Keira (fast-traveling from the "Oreton" signpost to Midcopse is ideal) and tell her the good... well, the news, in any event. Go to leave and Keira will ask you to perform another task for her... this time somewhat more mundane. Agree to help her to complete "A Towerful of Mice" and start "A Favor for a Friend."
+
+A Favor for a Friend (level 6)
+Our next stop is Hangman's Alley, however, as you're leaving Keira's hut the pellar-of all people-will pester you and ask for help. Agree to help him to start the quest "Forefather's Eve," which is to take place on Fyke Isle. He can wait-a pretty lady is in need of aid!
+
+Note: Depending on which order you did the quest "Bloody Baron" and "Hunting a Witch" and their subsequent quests ("Family Matters" and "Wandering in the Dark") you could meet the pellar in different places. If you do "Hunting a Witch" first, you'll meet the pellar during "Family Matters" after talking to the peasants who help Tamara escape to Oxenfurt. As you return to the Bloody Baron in Crow's Peak, the pellar will be waiting near Fergus Graem's shop.
+
+Head to the "Midcopse" signpost and fast-travel to Hangman's Alley, then turn on your Witcher Senses. Under your feet you'll discover the heavy, wide wheels of a mechant's wagon. You'll also soon be accosted by a Water Hag (level six) and a pair of Drowners (level six). Kill them, then follow the wagon tracks south along the road until they veer off to the south-west. Examine more tracks, then follow the tracks until they terminate at another road, where you'll find the wagon.
+
+Examine the booze, food, and blood which all glow red and loot the various parcels lying around, but ignore the box under the wagon for now. Instead, follow the blood trail to the south-west to find the merchant's body. Loot it for the "Missing Merchant's Letter," then return to the wagon and search the box under it to obtain the "Package for Keira." Well, at least she'll get some of her delivery.
+
+Objective	Reward
+For recovering Keira's package	25 XP
+Return to the "Hangman's Alley" signpost and use it to fast-travel back to Midcopse. then make your way back to Keira's hut. Talk to her and Geralt will call her out on the mundane nature of her delivery and she'll tell you to wait outside. Agree, and "some time later" she'll show up and conjure some mighty steeds for you two. Geralt will explain a... new take on the Cinderella myth, and Keira will tell him to shut up and just indulge her for one night. Continue to pander to her tastes in the form of an illusion spell, then race her on horseback.
+
+Objective	Reward
+For racing Keira	50 XP
+Enjoy a romantic dinner with Keira, at the end of which you'll get an option to become "friends with benefits". If you choose this route, play a little game where Keira will hide, after which you'll need to follow a trail to the south, examining various pieces of discarded clothing along the way. When you reach the water's edge, Geralt will continue to indulge in own weakness-for sorceresses. This ends "A Favor for a Friend" and begins "For the Advancement of Learning," which takes place on... Fyke Isle. How convenient.
+
+Objective	Reward
+For spending a romantic night with Keira	80 XP
+
+More Fun on Fyke Isle
+For the Advancement of Learning (level 8)
+Swim over to Fyke Isle, or head east along the coast to Oreton and find a boat. Either way, make your way to the tower and Geralt will notice that, predictably, Keira has made her way to the lab atop the tower. As you near the tower Keira will come out with a few notes scavanged from the tower. Confront her and, if you're rude (call her a two-faced serpent or don't show sympathy for her minor inconveniences) and then demand the notes, things will end in a fight. To defeat Keira, simply side-dodge her spells and try to close with her. After a few hits, she'll teleport away from you. She does a fair bit of damage, so a Quen Sign might come in handy. When she falls Geralt will take the papers and burn them.
+
+Objective	Reward
+For killing Keira Metz	200 XP
+Well, that's kind of a downer. On the other hand, if you're more sympathetic (when she starts talking about Radovid, pick the option "Radovid never forgets," then tell her "It's suicide") you'll get the option to suggest that she waits the war out in Kaer Morhen. Before she departs, be sure to ask for the notes, which will give you the item "Alexander's Notes."
+
+Objective	Reward
+For sending Keira to Kaer Morhen	100 XP
+Alternatively you can pick the dismissive "Do what you want" at any point, and Keira will walk off with the sensitive documents. Either way, this is probably going to have an effect later down the line...
+
+Objective	Reward
+For letting Keira leave with the notes	100 XP
+Note: Letting Keira live will pay dividends in the quest "The Battle of Kaer Morhen." If you let her go to Radovid you'll get the quest "A Final Kindness" later on, but in general, things end badly. If you kill her, of course, neither will happen.
+
+Forefather's Eve - Part 1 (level 7)
+Now to help the pellar with his little Forefather's whatsit. Head to the western side of Fyke Isle where you'll find the pellar and his flock near the ruined shrine along the southern end of the island. Rest until midnight, then talk to the pellar, who is near the stone slab. Your task is simple-defend the petitioners from the spirits that will be summoned by the pellar's ritual. Begin the ritual when you're ready-the first wave of foes will include a Water Hag (level seven) and about a half dozen Drowners (level seven). Kill them and another ghost will be summoned from the flames and make an accusation.
+
+Before more progress can be made with the spirit, some Eternal Fire enforcers will show up to apprehend the pellar, for performing magic they don't like. If you refuse to stand up for the pellar and his mob, they'll be dispersed by the Eternal Fire jerks, and the pellar won't be pleased. This ends the quest, albeit unsatisfactorily.
+
+Objective	Reward
+For allowing the Eternal Flame Enforces to disrupt the ritual	200 XP
+On the other hand you can defend the pellar and his adherents. Kill the Witch Hunters (level seven) then the pellar will talk to you again and reveal that the bloodshed has tainted the ritual-which means we'll have to fight off more beasties. After some more chanting a trio of Wraiths (level seven) will disrupt the ritual. Banish them, then talk to the pellar again, who will admit to the charges of the spirt who disrupted the ritual. Seems Geralt has more work ahead of him... but this quest continues near where we'll need to go for "Ladies of the Wood," so we'll postpone it temporarily.
+
+Objective	Reward
+For defending the ritual	200 XP

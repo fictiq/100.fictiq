@@ -1,0 +1,27 @@
+Cerys' Vengeance
+Talk to Cerys and recount the dead-Blueboy Lugos amongst them (which is why we did the quest "The Cave of Dreams" before any of this business). Geralt notes that there are only three contenders for the throne who survived-Hjalmar, Cerys, and Svanrige, and considering that this is a massive shame for Clan An Craite... well, the motives point to Svanrige. That's not enough to settle anything, though.
+
+Note: Even after completing "The Cave of Dreams" it has a tendency to show up in the "Failed" quest section of your journal after completing this quest. Ignore it. We completed it.
+
+Activate your Witcher Sense and examine a bear corpse to determine that it's no normal bear. Examine the bodies for more information-interesting, if not useful-then examine the large metal bowls in which mead was served. The one in the center of the room matches the scent in the bear's mouth, a scent Geralt can now follow. Follow the scent trail north to find a drinking horn to the north, near the doors, where Geralt will find the substance the mead was spiked with.
+
+Geralt will call Cerys over, and she'll confirm that the "bears" were actually Berserkers, and suggest that we talk to Hjort about the mystery ingredients used to spike the mead. Head through the door to the east and go down stairs to find Hjort, who is praying for vengance against the traitors. Present drinking horn and he'll immediately identify the mushroom as Mardroeme.
+
+After talking to Hjort, Cerys will decide that the mead must have been spiked before it reached the feast, and will direct our search to the cellar. Follow her back into the main hall, then go through the doors to the north, up some stairs, through a doorway to the east, then through another doorway to the north, past where the Armorer works. Go through another door to the west, down more stairs, first west, then south, then west again, finally going through a door to the south to reach the cellar. Once here, head down some stairs to the east and search some barrels along the eastern wall-the southern-most one being the correct one.
+
+Place of Power
+Once Geralt identifies it, however, somebody throws a torch down into the cellar, igniting some spilled Mahakaman Spirit, whose purpose is now all too clear. Head north and blast some stacked barrels with Aard to reveal a doorway. Head inside and continue north until you find a Place of Power. Draw from it, slurp up that lovely ability point, then follow the tunnel south-west, then south, before returning through a door to the cellar.
+
+Loot the room you're in, then head through a door to the south-east and loot this room, too. Continue up some stairs to the south-east, then turn east and activate your Witcher Senses. Examine a broken bottle on the ground to reveal some foot prints, which you should follow back upstairs. When the trail ends, search a sconce on the wall near the stairs to find a clue that all but identifies our culprit.
+
+Objective	Reward
+For finding a key clue	XP Varies
+Return to the main hall to spot Arvald riding past out of the keep. You'll automatically mount Roach. Chase him down and give him a good whack with your sword, and when Cerys catches up she'll interrogate him. He'll spout some politics very similar to what Birna believes, and hand over some letters, which will have to be good enough evidence for the Jarls-Birna had plenty of motive and opportunity enough. Geralt will go with Cerys and present their evidence to the Jarls. In the end, though, nothing you present serves as good enough evidence... but a most unexpected accuser steps in to reveal the traitor. This completes the quest "King's Gambit," skip down to "Coronation" to conclude this quest line.
+
+Objective	Reward
+For restoring Clan An Craite's honor by implicating Birna	XP Varies
+Coronation (level 18)
+After helping either Cerys or Hjalmar, Crach will talk to you and discuss the messy business that occurred, then speak about a new king's election being imminent. Agree to go with him to witness the Jarl's decision-and the coronation of either Cerys, or Hjalmar, depending on who you sided with during "King's Gambit."
+
+Objective	Reward
+For witnessing the crowning of a new king... or queen	XP Varies

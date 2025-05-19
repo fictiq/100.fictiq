@@ -1,0 +1,232 @@
+
+world: Primal Mama 
+codex_version: '0.1 - Character Constitution'
+last_updated: '[Current Date]' #  To be filled by user
+lead_architects: '[Your Name/Studio Name]' # To be filled by user
+
+introduction :
+  title: Constituting Fictional Persons Textually
+  text: >
+    This protocol guides the detailed definition  of **Fictional Persons**
+    (characters, significant sentient beings) within the Primal Mama
+    heterocosm . Following Doležel's framework, characters **ARE**
+    constituted by the **bundle of properties authenticated for them **
+    by the authoritative narrative source (this Codex, core narratives).
+    They possess **no independent psyche or  reality beyond this textual definition**.
+
+
+    Use this template to systematically build characters by explicitly
+    authenticating their properties across relevant categories.  Focus on
+    creating multifaceted individuals whose complexity arises from the
+    **richness, coherence, and potential tensions within their authenticated bundle **,
+    and whose actions are logically grounded in their defined nature and
+    the world's rules. Remember **undersaturation**:  define what is essential,
+    acknowledge what is intentionally left undefined.
+
+character_profile:
+  entity_id: CHAR _VivianHolloway_01
+  character_name: 'Ambassador Vivian Holloway (prefers " Ambassador Holloway" in official capacity, "Vivian" to trusted associates)'
+  entity_type: 'Person  (Human)'
+  archetype: 'The Polished Diplomat / The Civilized Emissary in a Raw Land' 
+  primary_authentication_sources:
+    - This Codex Entry
+    - 'Primal Mama Coherence Protocol v0 .1'
+  canon_tier: 'Tier 1 (Significant NPC with potential for major plot involvement)'
+  authentication _status: Authenticated_Canonical_Active
+
+authenticated_property_bundle:
+  physical_properties:
+     purpose: "Define the character's tangible presence."
+    properties:
+      - name: Appearance_General
+         value: 'Human female, appears late 40s, poised and impeccably maintained. Medium height, slender build that suggests  discipline rather than fragility.'
+        auth_source: Primal Mama Visual Guide Concept
+      - name: Appearance_ Specific_Features
+        value: 'Sharp, intelligent dark eyes that miss little. Defined jawline. Hair is a  rich auburn, always styled in a neat, professional coif reminiscent of late 1970s formal styles  (e.g., a sophisticated wedge or feathered cut). Complexion is fair, suggesting diligent protection from the harsh sun , contrasting with swamp denizens.'
+        auth_source: Primal Mama Visual Guide Concept
+      - name:  Appearance_Distinctive_Marks
+        value: 'A single, tastefully small solar-charged lapel pin in the shape  of the Beetriot city emblem – a stylized skyscraper entwined with a solar flare. Wears subtle, 1970 s-style gold jewelry.'
+        auth_source: 'Primal Mama Visual Guide Concept, World Coherence ( Solar Dominance, 70s Aesthetic)'
+      - name: Typical_Attire
+        value: 'Custom- tailored pantsuits in muted but high-quality fabrics (e.g., stone grey, deep ochre, olive green) with  wide lapels and flared trousers, or elegant A-line dresses with structured shoulders – all adhering to the late 1970 s high-fashion aesthetic. Always wears heeled shoes or boots, practical for navigating official Beetriot functions but somewhat challenging in L ickskillet''s environs.'
+        auth_source: 'Primal Mama Visual Guide Concept, World Coherence (Techn ological Aesthetic Constraint)'
+      - name: Voice_Speech_Pattern
+        value: 'Modulated, clear alto voice with precise  diction. Speech is articulate, diplomatic, and calm, even under pressure. Avoids slang and overly casual vernacular. Cap able of a subtle, disarming charm or a firm, non-negotiable tone as required.'
+        auth_source : Narrative Description
+      - name: Gait_Mannerisms
+        value: 'Graceful, deliberate movements.  Maintains excellent posture. Often clasps her hands lightly in front of her when listening. Has a habit of subtly adjusting her lapel  pin when deep in thought or preparing to make a significant point.'
+        auth_source: Narrative Description
+      - name: Associated _Scent
+        value: 'Faint, expensive floral perfume (a rare luxury likely imported or synthesized in Beet riot) mixed with the sterile scent of recycled air from Beetriot''s arcologies, subtly clashing with the earthy miasma of  the swamps when outside the city.'
+        auth_source: 'Sensory Palette, World Coherence (Beetriot vs . Swamp)'
+    undersaturation_notes: 'Exact height/weight, specific brand of perfume, presence of minor,  non-visible scars or birthmarks.'
+
+  functional_properties:
+    purpose: "Define what the character *can* and  *cannot* do."
+    properties:
+      - name: Skill_Expert_Negotiation_Diplomacy 
+        value: 'Expert Negotiation & Diplomacy (Core Skill). Able to navigate complex discussions, de-escalate tensions , and find common ground, or strategically create advantageous deadlocks.'
+        auth_source: Demonstrated Actions in Diplomatic  Scenarios
+      - name: Skill_Proficient_Beetriot_Bureaucratic_Systems_Etiquette
+         value: "Understands the levers of power within the city's elite structures."
+        auth_source: 'Character Background,  Narrative Interactions'
+      - name: Skill_Basic_Self_Defense
+        value: 'Basic Self-Defense ( Beetriot Standard Protocol for officials – likely a stylized, efficient martial art). Not a combatant, but not helpless.'
+         auth_source: Character Background
+      - name: Knowledge_Beetriot_Economy_Policies
+        value: " Deep understanding of Beetriot's economy, reliance on alligator meat, and official policies regarding Lickskillet and the Saurian  Sanctuary."
+        auth_source: Role Requirement
+      - name: Knowledge_Celebrity_Deity_Ten ets
+        value: 'Working knowledge of major celebrity deity tenets and how they influence public opinion and policy, particularly those  favored in Beetriot vs. Lickskillet.'
+        auth_source: 'Role Requirement, World Coherence (Deified  Celebrities)'
+      - name: Limitation_Physical_Swamp_Adaptation
+        value: 'Not adapted to harsh swamp  conditions; susceptible to heat, humidity, and local swamp-borne ailments without proper precautions/Beetriot-tech immunoboosters . Lacks practical survival skills.'
+        auth_source: 'Narrative Contrast, Character Background'
+      - name: Limitation _Technical_Reliance
+        value: 'Reliant on Beetriot-maintained 1970s-aesthetic  communication technology. May struggle with jury-rigged or less sophisticated Lickskillet systems. While she understands the * utility* of Automatons/LLMs, she is acutely aware of and adheres to the social protocols minimizing their overt personal  use to avoid reputational stain, preferring human attachés for sensitive tasks.'
+        auth_source: 'World Coherence  (Tech Aesthetic, Automaton Stigma)'
+      - name: Limitation_Social_Outsider_Perception 
+        value: "Perceived as an outsider in Lickskillet, potentially viewed with suspicion or resentment by locals  and mom-and-pop operators. Her Beetriot polish can be a barrier."
+        auth_source: 'World  Coherence (Beetriot vs. Lickskillet)'
+    undersaturation_notes: 'Ability to pilot  watercraft; specific proficiency with any firearms (unlikely given her role and Beetriot''s likely stricter internal gun control ); depth of knowledge on Erpenthrope lore or Swamp Witch practices.'
+
+  psychological_properties:
+    purpose:  "Define the character's textually constituted inner life."
+    properties:
+      - name: Core_Trait_Pr agmatism_Professionalism
+        value: 'Approaches most situations with a calm, analytical demeanor, focused on achieving objectives.' 
+        auth_source: 'Dialogue, Actions'
+      - name: Core_Trait_Discipline_Control 
+        value: 'Maintains a composed exterior even when faced with unsettling or chaotic elements of the Primal Mama world.'
+         auth_source: 'Narrative Description, Reactions'
+      - name: Core_Trait_Underlying_Elitism
+         value: 'Privately views Beetriot as the pinnacle of post-calamity civilization, though too skilled to let  this show overtly in negotiations.'
+        auth_source: 'Internal Monologue (if used), Subtle Choices'
+       - name: Dominant_Emotion_Controlled_Watchfulness
+        value: 'A baseline sense of responsibility and the weight of  her mission.'
+        auth_source: 'Narrator Descriptions, Tone'
+      - name: Key_Mot ivator_Beetriot_Stability_Prosperity
+        value: "Maintaining Beetriot's stability and prosperity , which is intrinsically linked to the alligator meat supply from Lickskillet and the swamps. Career advancement within Beetriot 's diplomatic corps."
+        auth_source: 'Role, Stated Goals'
+      - name: Key _Belief_Order_Protocol_Negotiation
+        value: 'Believes in order, protocol, and negotiated solutions . Views unregulated elements (like unchecked oligarch power or uncooperative swamp communities) as threats to overall stability.'
+        auth_source : 'Actions, Justifications in Dialogue'
+      - name: Internal_Conflict
+        value: 'The necessity of dealing  with the "crude" realities of Lickskillet and the alligator industry vs. her refined Beetriot sensibilities. The  ethical compromises sometimes required for "the greater good" of Beetriot. Potential curiosity/unease about the deeper, wild er aspects of Primal Mama (e.g. Erpenthropes, magic) that Beetriot tries to pave  over or ignore.'
+        auth_source: 'Internal Monologue, Hesitations, Difficult Choices'
+      - name: Subject ive_Memory_Content
+        value: 'Possesses detailed knowledge of Beetriot''s official history post-calam ity. Understands the cattle taboo as an absolute societal and legal rule, possibly with some awareness of its propagandized elements versus  the raw biochemical threat.'
+        auth_source: 'Character Knowledge, World Coherence'
+    undersaturation_notes:  'Deep personal traumas or joys beyond her professional life; her true private opinions on the celebrity deities (beyond pragmatic acknowledgment); specific ph obias or deeply hidden desires.'
+
+  social_relational_categorical_properties:
+    purpose: "Define the character 's place within the world's networks."
+    properties:
+      - name: Official_Role
+        value: ' Ambassador Plenipotentiary of the Beetriot Consolidated Metropolitan Area to the Lickskillet Protectorate and Associated Swamp Territories .'
+        auth_source: Narrative Introduction
+      - name: Social_Status
+        value: "High-ranking Beet riot Official. Elite class. Commands respect (and often resources) within Beetriot; viewed with a mix of deference,  suspicion, and opportunity in Lickskillet."
+        auth_source: 'World Structure, Interactions'
+       - name: Primary_Affiliation
+        value: 'Beetriot Government / Diplomatic Corps.'
+        auth _source: Role
+      - name: Secondary_Affiliations
+        value: 'Possible informal ties to specific Beetriot oligarch factions  who see her as a useful instrument, though she strives for impartiality for effectiveness.'
+        auth_source: 'Narrative Im plication, Potential Plotlines'
+      - name: Key_Relationship_Beetriot_Council
+        value:  'To the Beetriot Council (Superiors): Reports to them, receives directives. Relationship is formal and based on performance.'
+         auth_source: Implied by Role
+      - name: Key_Relationship_Lickskillet_Leadership 
+        value: 'To Lickskillet Mayor/Leadership (Counterparts): Primary negotiating partners. Relationship is professional, potentially strained , focused on resource management and adherence to Beetriot accords.'
+        auth_source: Narrative Interactions
+      - name: Key_ Relationship_Attache_Security
+        value: 'To her Attaché/Security Detail (Subordinates): Expects loyalty and  efficiency. Likely maintains a professional distance but relies on their local knowledge and protection.'
+        auth_source: Standard for her role
+       - name: Key_Relationship_Meat_Processor_Oligarchies
+        value: 'To representatives of the Meat  Processor Oligarchies: A complex, often adversarial or manipulative relationship she must navigate carefully to protect Beetriot''s interests and ( ostensibly) Lickskillet''s stability from their overreach.'
+        auth_source: 'World Coherence (De ontic Friction)'
+      - name: Species_Type
+        value: 'Human (Beetriot Strain -  likely with access to better post-calamity healthcare/nutrition than average swamp dweller)'
+        auth_source : 'Default/Description'
+    undersaturation_notes: 'Specific family ties in Beetriot; personal friendships; precise  allegiances among Beetriot''s internal power factions; any covert informants or contacts within Lickskillet beyond official channels.'
+
+   modal_properties:
+    purpose: "Define any inherent unique relationship to world laws."
+    properties:
+       - property_id: N/A
+        name: None Authenticated
+        description: 'Operates fully under general  world rules for a baseline human of her status and origin.'
+        limits: N/A
+        authentication: N/A
+     note: 'As a baseline human ambassador, Vivian is not expected to have unique modal properties. Her influence comes from  her role and skills, not inherent supernatural abilities.'
+
+  axiological_properties:
+    purpose: "Define the character's  value status *within* Primal Mama."
+    properties:
+      - name: Reputation_Beetriot_Elite
+         value: "Authenticated as viewed as 'highly competent', 'professional', 'a rising star in the diplomatic corps', ' perhaps a bit too idealistic/by-the-book for some of the more ruthless oligarchs'."
+        auth_ source: 'Dialogue/Reports from Beetriot sources'
+      - name: Reputation_Lickskillet_General_Popul ace
+        value: "Authenticated as 'the face of Beetriot', 'another slick city official', 'someone who doesn'' t understand the swamp', but also 'someone who might listen if it benefits Beetriot', 'powerful and therefore to be  treated cautiously'."
+        auth_source: 'Lickskillet character dialogue/interactions'
+      - name:  Reputation_Meat_Oligarchs
+        value: "Authenticated as 'a potential obstacle to be managed', ' a conduit to Beetriot power to be exploited', 'predictably ethical, therefore exploitable in her adherence to rules'." 
+        auth_source: 'Oligarch character actions/musings'
+      - name: Moral_Alignment _Narrative_Framing
+        value: "Authenticated as operating under a 'lawful neutral' or 'lawful good  (from Beetriot''s perspective)' framework. Her primary value is order and the continuation of the current system that benefits Beetriot,  which she likely rationalizes as benefiting all."
+        auth_source: 'Narrator tone, consistent actions'
+     undersaturation_notes: "Her reputation among Erpenthropes or Swamp Witches (likely non-existent or purely as  'another city human'); specific views from the deified celebrity priesthoods."
+
+  historical_properties:
+    purpose: " Define the character's known origins and connections to past events."
+    properties:
+      - name: Origin
+         value: "Authenticated as born and raised within Beetriot's upper echelons post-calamity.  Educated in Beetriot's finest institutions (which would teach the 1970s aesthetic as proper design and technology)." 
+        auth_source: Character Background
+      - name: Key_Past_Event_Connection
+        value: "Her family  likely benefited from or skillfully navigated the societal restructuring post-calamity, securing their place in the new Beetriot elite . She has no direct memory of the calamity itself but has been extensively educated on its (official) consequences and the subsequent  rise of the alligator-based economy and solar dominance."
+        auth_source: 'Character Background, World History'
+      -  name: Inherited_Items_Status
+        value: 'Authenticated to possess her diplomatic credentials and access to Beetriot resources commensurate  with her rank. Her status is earned through career progression but built on a foundation of elite Beetriot upbringing.'
+        auth_ source: 'Role, Background'
+    undersaturation_notes: "Specifics of her family's rise; her  early career assignments before becoming ambassador; any personal tragedies or triumphs that shaped her before her current posting."
+
+character_constitution_ summary:
+  purpose: 'Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle.'
+   core_essence: >
+    Ambassador Vivian Holloway is constituted as a quintessential Beetriot elite,
+    embodying  its values of order, technological sophistication (within the 1970s
+    aesthetic), and reliance on the structured  exploitation of the swamp's resources.
+    Her Physical polish and Functional capabilities in diplomacy are a direct
+    product of her  upbringing and training. Psychologically, she is pragmatic and
+    controlled, driven by a belief in Beetriot's  civilizing mission, though this
+    creates an internal conflict when confronted with the raw, often ethically
+    murky,  realities of Lickskillet and the powerful, self-serving Meat Oligarchs.
+    Her Social position grants her authority  but also isolates her from the very
+    people she needs to understand and influence.
+  primary_narrative_function: > 
+    To act as a key interface and point of friction between the "civilized"
+    urban center of Beetriot and the  "primal" resource-rich swamplands of Lickskillet.
+    She can be a quest-giver,  an obstacle, a source of information (filtered
+    through Beetriot's lens), or a potential ally/target depending on protagonist 
+    goals. She embodies the themes of colonialism/neo-colonialism (Beetriot's
+    dependence  on and control over Lickskillet), order vs. chaos, and the
+    compromises of power.
+  key _internal_conflicts: >
+    'Beetriot idealism/order vs. Lickskillet pragmatism/chaos;  Adherence to
+    diplomatic protocol vs. the need for unconventional solutions to deal with
+    oligarchs or  swamp mysteries; Personal distaste/discomfort with the swamp vs.
+    professional necessity; Duty to Beetriot vs. nascent empathy or  understanding
+    for Lickskillet''s plight (potential development).'
+  potential_for_development: > 
+    Her views on Lickskillet and its people could evolve through prolonged exposure.
+    She might be forced  to make difficult ethical choices that challenge her
+    Beetriot conditioning. She could become more deeply entangled with the Meat
+    O ligarchs (either as an opponent or a compromised pawn). Her official
+    skepticism regarding the supernatural elements of  Primal Mama (Erpenthropes,
+    ghosts, Swamp Witches) could be shattered by direct  experience, forcing a
+    re-evaluation of her worldview. She might uncover inconvenient truths about
+    Beetriot 's history or its true relationship with the calamity.
+
+end_of_profile_marker: 'End of F ictional Person Profile: CHAR_VivianHolloway_01'

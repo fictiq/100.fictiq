@@ -1,0 +1,165 @@
+
+World: Primal Mama
+CodexVersion: '0.2 - Character Constitution'
+LastUpdated:  '[Current Date]' # Replace [Current Date] with the actual date
+LeadArchitects: '[Your Name/Studio  Name]' # Replace with actual name/studio
+
+CharacterProfile:
+  EntityID: CHAR_JebWashington_01
+   CharacterName: Jeremiah "Jeb" Washington
+  EntityType: Person
+  Archetype: 'The Dispossessed Homeste ader / Ruined Craftsman'
+  PrimaryAuthenticationSources: 'This Codex Entry; Primal Mama Coherence & Internal Logic  Protocol v0.1'
+  CanonTier: 'Tier 2 (Significant Supporting Character)'
+  AuthenticationStatus : Authenticated_Canonical_Active
+
+AuthenticatedPropertyBundle:
+  PhysicalProperties:
+    Purpose: "Define the character' s tangible presence."
+    Properties:
+      - Label: Appearance_General
+        Value: '[Human male, early 5 0s, with prominent African features – strong jawline, broad nose, dark skin weathered by sun and worry. Lean , almost gaunt, from harder times, but with a frame that suggests former strength.]'
+        Auth: This Codex Entry
+       - Label: Appearance_Specific_Features
+        Value: '[Deep-set, observant brown eyes that hold a  lingering sadness but can spark with old pride or anger. Close-cropped grey-flecked hair. Lines etched around  his eyes and mouth from years of work and recent stress.]'
+        Auth: This Codex Entry
+      - Label : Appearance_Distinctive_Marks
+        Value: '[A faded, puckered scar along his right forearm from an  old gator-handling mishap. Hands are calloused and capable, though often idle now.]'
+        Auth:  This Codex Entry
+      - Label: Typical_Attire
+        Value: '[Worn but clean overalls of a  faded denim or canvas, patched in places, over a simple, often threadbare, patterned 1970s -style collared shirt. Sturdy, resoled work boots.]'
+        Auth: 'This Codex Entry /  Primal Mama Aesthetic Constraint'
+      - Label: Voice_Speech_Pattern
+        Value: '[A deep bar itone, usually soft-spoken now, with a Southern Louisiana/Bayou cadence. Speech is thoughtful, sometimes hesitant, as if weighing  the cost of words. Can rise with passion when speaking of past injustices or alligator craft.]'
+        Auth: This Codex Entry 
+      - Label: Gait_Mannerisms
+        Value: "[Moves with a careful economy, a slight stoop in his  shoulders that wasn't there years ago. Often gazes towards the swamp, or at his hands, as if remembering work.  Habit of rubbing the scar on his arm when troubled.]"
+        Auth: This Codex Entry
+      - Label:  Associated_Scent
+        Value: '[Faint, lingering scent of swamp water, old engine oil (from maintaining  his now-gone 1970s-style processing equipment), and perhaps a hint of the spicy jerky he  used to make.]'
+        Auth: 'This Codex Entry / Primal Mama Sensory Palette'
+    Undersaturation: '[ Exact height/weight, specific brand of his boots, dental records.]'
+
+  FunctionalProperties:
+    Purpose: " Define what the character *can* and *cannot* do."
+    Properties:
+      - Label: Skill_ Alligator_Husbandry
+        Value: 'Expert Alligator Husbandry (GE & Wild – Pre-Olig archy Ruin): Knowledge of solar charging cycles for GE gators, habitat needs, traditional trapping.'
+        Auth:  'Backstory / Implied by former profession'
+      - Label: Skill_Alligator_Meat_Processing
+        Value : "Masterful Alligator Meat Processing (Artisanal – Pre-Oligarchy Ruin): Butchering, curing,  smoking, sausage-making, adhering to his family's traditional methods within the 1970s tech framework."
+         Auth: 'Backstory / Dialogue about past quality'
+      - Label: Skill_Repair_Maintenance_19 70s_Tech
+        Value: "Repair & Maintenance of 1970s-style Food Processing Tech: Could  keep his own smokers, grinders, and solar-assisted refrigeration units running."
+        Auth: 'Backstory / Pr imal Mama Tech Aesthetic'
+      - Label: Skill_Swamp_Navigation_Lore
+        Value: 'Swamp Navigation  & Lore: Intimate knowledge of local bayou routes, safe zones, and gator behavior (though less relevant to  GE gators in pens).'
+        Auth: 'Backstory / Lickskillet Resident'
+      - Label : Limitation_Economic
+        Value: 'Impoverished; Lacks capital, equipment, and license to commercially process alligator  meat after being forced out by oligarchs.'
+        Auth: 'Victim Premise / Deontic rules of commerce'
+       - Label: Limitation_Social
+        Value: 'Carries the unspoken stigma of failure in Lickskillet , despite sympathy; powerless against the meat processing oligarchies.'
+        Auth: 'Victim Premise / Axiological impact'
+       - Label: Limitation_Influence
+        Value: 'No political or economic leverage; his grievances are ignored by those in power  in Beetriot or the dominant processing companies.'
+        Auth: Social Status Property
+    Undersaturation: '[Ability  to pilot larger watercraft; firearms proficiency (though likely owned one, given regional norms); knowledge of advanced GE principles.] '
+
+  PsychologicalProperties:
+    Purpose: "Define the character's textually constituted inner life."
+     Properties:
+      - Label: Core_Trait_Wounded_Pride
+        Value: "Wounded Pride : Deeply proud of his heritage and craft, now struggles with the shame of his business's destruction."
+        Auth:  'Dialogue, Internal Monologue (if narrated)'
+      - Label: Core_Trait_Resentment_Bitterness
+         Value: 'Resentment & Bitterness: Towards the meat oligarchs who he feels stole his livelihood through  unfair practices.'
+        Auth: Dialogue, Reactions to Oligarchy
+      - Label: Core_Trait_Nost algia
+        Value: 'Nostalgia: Longs for the "better days" when independent operators could thrive and his family ''s recipes were renowned.'
+        Auth: Dialogue, fixation on past
+      - Label: Dominant_Emotion
+        Value : '[A quiet grief mixed with simmering anger. A pervasive sense of injustice.]'
+        Auth: Mannerisms, Tone of  Voice
+      - Label: Key_Motivator
+        Value: '[Survival for himself and any remaining family.  A faint, almost extinguished hope of seeing justice or exposing the oligarchs'' corruption. Finding dignity in a world that has  stripped him of it.]'
+        Auth: 'Actions, potential plot hooks'
+      - Label: Key_ Belief
+        Value: '["They rig the game." Believes the system is set up for the powerful to crush  the small, and that "truth" is what the wealthy pay for.]'
+        Auth: 'Dialogue, Cynicism consistent  with Epistemic rules'
+      - Label: Internal_Conflict
+        Value: '[Desire to speak out vs. fear  of retaliation from the powerful oligarchs. Pride in his skills vs. the demeaning necessity of taking whatever scraps of work are available.  Hope vs. Despair.]'
+        Auth: 'Behavioral hésitations, potential character arcs'
+      - Label: Subject ive_Memory_Content
+        Value: '[Vivid, cherished memories of his bustling family business – the sights, sounds, smells  of the processing house. The specific underhanded tactics (e.g., predatory pricing, supply chain strangulation via 197 0s-style "syndicate" control) used by "BayouPrime Meats" (an oligarch company ) to ruin him.]'
+        Auth: Backstory, Dialogue
+    Undersaturation: "[Specific views on the deified  celebrities (though likely sees them as symbols of a more 'honest' era); detailed opinions on Erpenthropes  or Swamp Witches (likely views them as just other strange parts of the swamp he mostly ignored while working).]"
+
+  Social RelationalCategoricalProperties:
+    Purpose: "Define the character's place within the world's networks."
+    Properties :
+      - Label: Official_Role_Former
+        Value: 'Owner/Operator, "Washington Family Gator  Delights" – a respected mom-and-pop processing business in Lickskillet.'
+        Auth: Back story
+      - Label: Official_Role_Current
+        Value: 'Unemployed / Occasional day laborer ( e.g., hauling, swamp clearing, minor repairs – if he can get it, avoiding Automaton-user stigma  if possible).'
+        Auth: Current State
+      - Label: Social_Status
+        Value: '[Fallen  from respected artisan to impoverished, marginalized figure within Lickskillet. Invisible to the elite of Beetriot.]'
+        Auth : Victim Premise
+      - Label: Primary_Affiliation
+        Value: '[Lickskillet community (sym pathetic but wary/powerless). Loosely, to the memory of other independent operators.]'
+        Auth: Setting 
+      - Label: Key_Relationship_1_Meat_Oligarchs
+        Value: 'To the Meat Oligarch s (e.g., "BayouPrime Meats" executives): Antagonistic (from his perspective); they  are the source of his ruin. They likely don''t remember him specifically.'
+        Auth: Core Conflict
+      -  Label: Key_Relationship_2_Other_Operators
+        Value: '[To other struggling/former independent operators in Lick skillet: A sense of shared grievance, unspoken camaraderie, and mutual fear.]'
+        Auth: Implied social dynamics 
+      - Label: Key_Relationship_3_Family
+        Value: '[Possibly a younger family member (e .g., grandchild) he tries to provide for, fueling his desperation and desire for a better world.]'
+         Auth: 'Potential Motivator - Undersaturated for now'
+      - Label: Species_Type
+        Value : '[Human (Native Lickskillet Stock)]'
+        Auth: Default/Description
+    Undersaturation: '[ Specific friends remaining; relationship with local law enforcement (likely ignored); any connection to Swamp Witches or Erpenthropes  (unlikely, but possible if desperate).]'
+
+  ModalProperties:
+    Purpose: "Define any inherent unique  relationship to world laws."
+    Value: 'None authenticated. Jeb operates entirely within the established alethic, deontic,  and epistemic laws of Primal Mama as a baseline human. His victimhood stems from the socio-economic application of  these laws by others.'
+
+  AxiologicalProperties:
+    Purpose: "Define the character's value status  *within* Primal Mama."
+    Properties:
+      - Label: Reputation_Lickskillet_General 
+        Value: 'Authenticated as "Poor Jeb," a "good man dealt a bad hand," "what happens when  you cross the Big Gators (oligarchs)." A cautionary tale. His products were "the best, once."'
+        Auth:  Local dialogue/gossip
+      - Label: Reputation_Meat_Oligarchs
+        Value: 'If remembered at  all, as "minor competitor, successfully neutralized/absorbed." His individual suffering is of no value to them.'
+         Auth: Oligarch perspective
+      - Label: Moral_Alignment_Narrative_Framing
+        Value: '[Authenticated via  circumstance and internal state as a sympathetic victim of systemic injustice. Represents the loss of valued autonomy and craftsmanship.]'
+        Auth : Narrative intent
+    Undersaturation: '[Reputation among Beetriot citizens (likely unknown); perception by Erpenthropes  or ghosts (irrelevant to his current state).]'
+
+  HistoricalProperties:
+    Purpose: "Define the character 's known origins and connections to past events."
+    Properties:
+      - Label: Origin
+        Value:  '[Authenticated as Lickskillet born and raised. His family was involved in alligator trade for generations, adapting from wild  hunt to GE farming post-Calamity.]'
+        Auth: Backstory
+      - Label: Key_ Past_Event_Connection
+        Value: 'The "Consolidation Crush" – a period a few years prior where several  large meat processors, backed by Beetriot capital, aggressively forced out or bought out smaller Lickskillet operations. Jeb''s " Washington Family Gator Delights" was a prominent casualty.'
+        Auth: 'World Event / Backstory'
+      - Label : Inherited_Items
+        Value: '[Authenticated to possess a small, tarnished silver-plated 19 70s-style award for "Best Smoked Gator Sausage – Lickskillet Annual Fair, Year 4 2 Post-Calamity." Perhaps his grandfather''s skinning knife, kept hidden and oiled.]'
+         Auth: Symbolic Props
+    Undersaturation: '[Detailed family tree; specific interactions with pre-Calamity history or knowledge;  any personal connection to the deified celebrities beyond general cultural reverence.]'
+
+CharacterConstitutionSummary:
+  Purpose: " Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+  CoreEssence : "Jeb Washington is constituted as a living embodiment of Primal Mama's socio-economic casualties. His identity is  forged from the loss of his craft, his pride, and his livelihood at the hands of the powerful meat oligarchy. His skills ( alligator processing, 1970s tech repair) are now rendered largely useless by his lack of capital (Functional  Limitation due to Deontic power plays). Psychologically, he is a blend of simmering resentment, profound nostalgia for a more  equitable past (Axiological dissonance), and the enduring, though wounded, pride of a master craftsman. His African features and deep roots  in Lickskillet ground him firmly in the bayou culture, a stark contrast to the faceless corporate power of  Beetriot."
+  PrimaryNarrativeFunction: "To serve as a poignant example of the \"friction\" caused by  the meat processor oligarchies. To provide a voice for the dispossessed in Lickskillet. He can act as a source  of local knowledge, a moral compass reminding protagonists of the human cost of unchecked power, or a potential catalyst for resistance if his  despair can be rekindled into action. He humanizes the abstract concept of \"economic oppression\" within Primal Mama." 
+  KeyInternalConflicts: '[Wounded Pride vs. Crushing Poverty; Desire for Justice/Revenge vs. Fear  of Oligarch Retaliation; Nostalgia for Past Autonomy vs. Bleak Present Reality; The skilled hands wanting  to work vs. the lack of opportunity.]'
+  PotentialForDevelopment: "[Could be drawn into a plot against the  oligarchs, his knowledge of their early tactics or his old processing skills becoming vital. Might find a new, smaller way to practice his  craft (e.g., barter, secret batches). Could mentor a younger character in the old ways. Could slide further into despair  or find a spark to fight back, perhaps inspired by encountering an Erpenthrope \"truth-seeker\" or a protagonist willing  to challenge the status quo.]"
+

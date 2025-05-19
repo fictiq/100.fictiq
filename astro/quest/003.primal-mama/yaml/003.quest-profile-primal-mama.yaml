@@ -1,0 +1,228 @@
+ 
+story_world_codex:
+  type: Quest Profile
+  world: Primal Mama
+  cod ex_version: '0.1 - Quests'
+  last_updated: '[Current Date]'
+   lead_architects: '[Your Name/Studio Name]'
+
+quest_profile:
+  quest_id: QUEST_ LKSK_SolarStunner_01
+  quest_name: Swamp-Stained Schematic
+   quest_giver_entity_id: NPC_MamaJuneau_01
+  starting_location: 'Lickskillet , Juneau''s Gator Shack'
+  prerequisites: 'Player character has established a neutral or positive reputation in Licksk illet (e.g., completed a minor local task).'
+  suggested_player_level_capabilities: Able  to handle moderate swamp creature encounters and navigate basic social challenges.
+
+quest_overview_premise:
+  overview: >
+     Mama Juneau, a respected elder and "mom-and-pop" alligator processor in Lickskillet, is  struggling.
+    Her ancient, gas-guzzling alligator stunner (a crucial piece of processing equipment that pacifies g ators before skinning/butchering) is on its last legs.
+    Replacement parts are scarce, and new  models from the Beetriot-based "GatorCorp" oligarchy are prohibitively expensive and designed to lock small operators  into their ecosystem.
+    Juneau, however, remembers whispers from her youth about a legendary, hyper-efficient Solar -Powered Gator Stunner – the "Bayou Bolt" – designed by a reclusive genius before the full clamp down of the 1970s aesthetic mandate on new designs (though this one, by chance, fit the  aesthetic perfectly).
+    The schematics were lost or scattered during a particularly fierce swamp storm decades ago, or perhaps suppressed  by the burgeoning oligarchy.
+    If such a device could be rebuilt, it would revolutionize her small operation, embodying  the Primal Mama values of solar ingenuity and self-reliance, and striking a small blow against the oligarchy.
+    The quest  involves tracking down fragments of this legendary schematic.
+  authentication_of_premise:
+    alethic:  'Solar power is an "incredible source of energy." Advanced technology (like a highly efficient stunner) is possible,  but *must* conform to the late 1970s design aesthetic. The existence of a lost, superior  design is plausible.'
+    deontic: 'The "friction" caused by meat processor oligarchies creates a natural  antagonist. The quest allows players to act against this (permissible, even encouraged by Lickskillet culture).'
+     axiological: 'Values self-reliance (mom-and-pop), ingenuity (solar power), and potentially challenges the olig archy''s control, aligning with anti-authoritarian sentiments potentially linked to the deified celebrities. Adherence to the  1970s aesthetic is a cultural norm for tech.'
+    epistemic: 'Lost knowledge ( schematics) is a common trope. Accessing it might require interacting with unusual sources, fitting the world''s fragmented knowledge landscape .'
+
+key_entities:
+  - entity:
+      entity_id: NPC_MamaJuneau_01
+       entity_name: Mama Juneau
+      entity_type: Person (NPC)
+      primary_authentication_sources:
+         - 'This Quest Design Doc (QUEST_LKSK_SolarStunner_01)'
+       functional_properties_bundle:
+        core_function_purpose:
+          - item:
+              primary_role:  'Quest Giver; Represents the struggling "mom-and-pop" alligator processor archetype in Lickskillet.' 
+              auth: Quest Design
+          - item:
+              secondary_roles:
+                - 'Source of local lore/ history; Potential vendor for gator products (if business improves).'
+              auth: Quest Design
+        key_capabilities _powers:
+          - capability_id: FUNC-MJN-01
+            name: Local Knowledge Broker
+             description: 'Possesses extensive (though sometimes anecdotal) knowledge of Lickskillet''s history, people, and  local swamp areas. Can provide initial leads for the schematic fragments.'
+            authentication: 'Quest Design (essential for quest  progression).'
+            limits_nuances: 'Memory can be hazy on specific details; relies on stories passed down.' 
+          - capability_id: FUNC-MJN-02
+            name: Basic Alligator Processing
+             description: 'Skilled in traditional alligator harvesting and butchering, albeit with failing equipment.'
+            authentication: 'World  background (her profession).'
+            limits_nuances: Currently hampered by broken stunner.
+        inabilities_lack_ of_function:
+          - inability_id: INAB-MJN-01
+            description: ' Cannot personally venture into dangerous swamp areas or confront oligarchy agents due to age and limited resources.'
+            authentication: 'Quest  Design (justifies player involvement).'
+            narrative_function: Creates need for player assistance.
+        costs_dependencies_operational _constraints:
+          - constraint_id: DEPEND-MJN-01
+            applies_to:  Her ability to thrive.
+            description: 'Dependent on a functional, efficient alligator stunner to maintain her livelihood against olig archy pressure.'
+            authentication: Quest Premise.
+            narrative_function: Drives her motivation to initiate the  quest.
+
+  - entity:
+      entity_id: OBJ_Schematic_BayouBolt_Frag_XX
+       entity_name: Bayou Bolt Schematic Fragment
+      entity_type: Object (Quest Item)
+      primary_ authentication_sources:
+        - 'This Quest Design Doc'
+      functional_properties_bundle:
+        core _function_purpose:
+          - item:
+              primary_role: 'Component of the legendary Solar Stun ner plans. Essential for rebuilding the device.'
+              auth: Quest Design
+        key_capabilities_powers:
+          - capability _id: 'FUNC-BBOLT-01 (when assembled)'
+            name: 'Hyper-Efficient  Solar Energy Conversion & Discharge (Stun Field)'
+            description: 'Details a method to draw significant solar energy,  store it in advanced (but 1970s-cased) capacitors, and discharge it as a targeted , non-lethal neuro-muscular stun effective on large alligators.'
+            authentication: 'Quest Premise (legendary  status).'
+            limits_nuances: 'Requires specific, possibly rare, 1970s-style components  for construction. Needs direct sunlight or a "Solar Charging Station" (another potential craftable/quest item).'
+        inabilities_ lack_of_function:
+          - inability_id: INAB-BBFRAG-01
+            description:  'A single fragment is insufficient to reconstruct the Bayou Bolt. Multiple fragments are needed.'
+            authentication: 'Quest Design (creates  multi-stage objective).'
+            narrative_function: Drives the search for multiple pieces.
+
+  - entity: 
+      entity_id: NPC_GlitchGauthier_01
+      entity_name: Aloysius "Gl itch" Gauthier
+      entity_type: Person (NPC)
+      primary_authentication_sources:
+         - 'This Quest Design Doc'
+      functional_properties_bundle:
+        core_function_purpose:
+           - item:
+              primary_role: 'Reclusive technophile who might possess a schematic fragment or knowledge of  its whereabouts. Suffers "stain on reputation" for Automaton/LLM use.'
+              auth: Quest Design 
+        key_capabilities_powers:
+          - capability_id: FUNC-GG-01
+            name: Retro -Tech Scavenging & Repair
+            description: 'Expert at finding, understanding, and jury-rigging technology  conforming to the 1970s aesthetic. His "Automaton" (likely a very sophisticated, custom- built analytical engine with analog readouts, not a true LLM by our standards) helps him process old data tapes or damaged  schematics.'
+            authentication: Quest Design.
+            limits_nuances: 'Socially ostracized; paranoid ; his tech might be unstable or draw unwanted attention.'
+        vulnerabilities_weaknesses:
+          - vulnerability _id: VULN-GG-01
+            description: 'His reliance on "forbidden" (or  at least heavily stigmatized) Automaton tech makes him a target for social condemnation or even investigation by authorities if his activities  become too overt.'
+            authentication: 'Primal Mama Coherence (Deontic: Automaton/LLM User Stigma ).'
+            narrative_function: 'Creates a social challenge for the player to interact with him; he might require discretion  or a specific favor to earn trust.'
+        costs_dependencies_operational_constraints:
+          - constraint_id: COST- GG-01
+            description: 'May require rare components (e.g., vacuum tubes, specific gauge copper wire,  an old Burt Reynolds 8-track for "luck") to get his Automaton to function optimally or to trade for information/ schematic fragment.'
+            authentication: 'Quest Design (adds fetch/barter element).'
+
+  - entity:
+       entity_id: NPC_Thibodeaux_Erp_01
+      entity_name: Old  Man Thibodeaux
+      entity_type: Person (Erpenthrope NPC)
+      primary_authentication_ sources:
+        - 'This Quest Design Doc'
+      functional_properties_bundle:
+        core_function _purpose:
+          - item:
+              primary_role: 'Ancient Erpenthrope dwelling deep in the swamp  who witnessed the original Bayou Bolt''s creation or the scattering of its schematics. Seeker of "truth," which  might include the "truth" of efficient, harmonious design.'
+              auth: 'Quest Design, Primal Mama Coherence ( Erpenthrope traits)'
+        key_capabilities_powers:
+          - capability_id: FUNC-OM T-01
+            name: 'Long Memory / Historical Witness'
+            description: 'Due to near-immortality , possesses direct knowledge of past events lost to most. Can recall details about the schematic or its creator.'
+            authentication : 'Primal Mama Coherence (Alethic: Erpenthrope "nearly immortal" nature).'
+            limits _nuances: 'May speak in riddles; his perception of time and importance might differ from humans; might require a specific  offering or test of character.'
+          - capability_id: FUNC-OMT-02
+            name: 'Er penthropic Transformation (Latent)'
+            description: Can transform into an Alligator Beast Man if threatened, making  direct confrontation highly dangerous.
+            authentication: 'Primal Mama Coherence (Alethic: Erpenthrope ability ).'
+            narrative_function: 'Adds tension/potential danger to interaction; player should aim for peaceful resolution.'
+         costs_dependencies_operational_constraints:
+          - constraint_id: OPCON-OMT-01
+             description: 'As a truth-seeker, he might only share information if the player demonstrates honesty, respect for the  swamp, or aids him in a small task aligned with his values (e.g., removing some particularly unnatural pollution, or  "correcting" a flawed historical account known only to him).'
+            authentication: 'Primal Mama Coherence ( Axiological: Erpenthrope pursuit of Truth).'
+
+  - entity:
+      entity_id: ANT _GatorCorp_Enforcer_01
+      entity_name: GatorCorp Enforcer
+      entity_ type: Person (NPC, Hostile)
+      primary_authentication_sources:
+        - 'This Quest Design Doc'
+       functional_properties_bundle:
+        core_function_purpose:
+          - item:
+              primary_ role: 'Agents of the meat oligarchy, tasked with suppressing independent innovation or recovering valuable lost tech for GatorCorp.'
+              auth : 'Quest Design, Primal Mama Coherence (Deontic: Oligarchy friction)'
+        key_capabilities_powers :
+          - capability_id: FUNC-GCE-01
+            name: 'Standard Issue Weaponry & Armor  (1970s Aesthetic)'
+            description: 'Equipped with reliable, mass-produced firearms (e .g., "GatorCorp Mangler" shotguns with wood paneling) and protective gear, all adhering to the 1 970s tech style.'
+            authentication: 'Primal Mama Coherence (Alethic: Tech Aesthetic  Constraint).'
+            limits_nuances: 'Not elite, but dangerous in groups.'
+        vulnerabilities_weaknesses: 
+          - vulnerability_id: VULN-GCE-01
+            description: Potentially overconfident  and reliant on numbers. Their standardized equipment might have predictable flaws if discovered.
+            authentication: 'Quest Design (for gameplay  balance).'
+        costs_dependencies_operational_constraints:
+          - constraint_id: DEPEND-GCE- 01
+            description: 'Operate on orders from GatorCorp; may withdraw if facing heavy resistance without clear profit  or if their actions draw too much negative attention from powerful local figures (unlikely in Lickskillet without player intervention).'
+             authentication: Quest Design.
+
+quest_objectives:
+  - step: 1
+    description: 'Speak with  Mama Juneau: Learn about the Bayou Bolt and her plight. She provides the first vague lead (e.g.,  "Old Man Gauthier, up the bog, always tinkerin'' with strange radios... maybe he heard somethin''").' 
+  - step: 2
+    description: 'Find "Glitch" Gauthier:'
+    details: 
+      - Navigate to his secluded shack.
+      - 'Deal with his paranoia/social awkwardness.'
+       - 'He might possess one fragment, or know where one is hidden (e.g., in a derelict pre -calamity research skiff sunk in the swamp).'
+      - 'May require a sub-quest: Fetch  a rare vacuum tube for his "Automaton" or convince him the player isn''t an oligarchy spy.'
+   - step: 3
+    description: 'Retrieve Fragment from [Location derived from Gauthier''s info]: '
+    details:
+      - 'E.g., The Sunken Skiff. Involves navigating treacherous water, possibly  dealing with territorial GE alligators or mutated swamp critters.'
+      - The fragment is found in a 1970s- style waterproof data cassette.
+      - '*Potential Complication:* GatorCorp Enforcers are also tracking the schematic and arrive to  ambush the player.'
+  - step: 4
+    description: 'Seek Old Man Thibodeaux (Er penthrope):'
+    details:
+      - Mama Juneau or Gauthier might suggest seeking the "Sw amp Sage" for another piece or crucial insight, warning of his strange nature.
+      - Locate his hidden dwelling deep in an old -growth cypress grove.
+      - 'Thibodeaux will test the player''s intentions or require a service  (e.g., "The river whispers a lie about the Moon-Eyed Snapper. Bring me three glowing  river stones from its true nest, and I will share a truth with you.")'
+      - 'He provides the  final fragment or a key piece of information to assemble/understand the others, perhaps speaking of the original designer''s intent  for "harmony between sun, swamp, and machine."'
+  - step: 5
+    description: '(Optional ) Confront GatorCorp Agents: They might make a final attempt to steal the completed schematic or sabotage its construction.'
+  - step:  6
+    description: 'Return to Mama Juneau with the Assembled Schematic:'
+    details:
+      -  She rejoices. A local artisan (or perhaps Gauthier, for a price) can now construct the Bayou Bolt.
+   - step: 7
+    description: '(Post-Quest) The Bayou Bolt is Built: Mama Juneau'' s business improves. She might offer the player a discount, unique gator meals, or even a smaller, portable version  of the stunner if enough resources are gathered.'
+
+potential_complications_player_choices:
+  - description : 'Moral Choice: Does the player hand over *all* schematic fragments to Mama Juneau, or keep a copy for themselves /sell it to another independent?'
+  - description: 'Dealing with Gauthier: Persuade, bribe, or threaten ( risky, given his unstable tech)? Help him with his Automaton for better results?'
+  - description: ' Dealing with Thibodeaux: Patience and respect, or attempting to trick/steal (extremely risky, potential for Erpenthrope rage ).'
+  - description: 'GatorCorp Involvement: Evade, fight, or perhaps even try to leak false information to them .'
+  - description: 'Resource Management: The components to build the Bayou Bolt (post-quest) might be  rare, requiring further exploration or specific alligator parts (e.g., "Charged Gator Hide" from alligators struck by lightning near solar  collectors).'
+
+resolution_rewards:
+  primary_reward: 'Mama Juneau gets her Bayou Bolt, visibly improving her stall and  mood. Lickskillet gains a small morale boost.'
+  player_rewards:
+    - Significant reputation increase in L ickskillet.
+    - Monetary/Material reward from Mama Juneau.
+    - 'Potentially, access  to unique items/services from Mama Juneau (e.g., "Solar-Charged Gator Steaks," schematics  for 1970s-style solar charging stations).'
+    - XP, unique dialogue, lore.
+   world_impact: 'A small, tangible victory for local enterprise against the oligarchy. The Bayou Bolt, while still 1 970s in aesthetic, represents a piece of "true" ingenuity.'
+
+primal_mama_coherence_functional _notes:
+  technological_consistency: 'The Bayou Bolt, despite its advanced function, would look like it came straight  from a 1976 Popular Mechanics "Future Tech" issue – chunky buttons, wood-grain panels on the  generator, analog dials for power levels, etc. Its internal workings (advanced solar cells, compact capacitors) are sophisticated, but the interface  and casing are retro.'
+  social_dynamics: 'The quest highlights the Lickskillet vs. Beetriot/ Oligarchy tension, the stigma of Automaton users, and the revered/feared nature of Erpenthropes .'
+  supernatural_integration: 'Erpenthropes are not just monsters but potential wisdom-keepers.  Ghosts could be an alternative for one fragment ("The original designer''s ghost haunts his flooded workshop and will only rest if his  design sees the light of day!").'
+  atmosphere: 'The quest encourages exploration of diverse swamp environments, from  polluted bogs to pristine groves, reinforcing the "bayou-infused miasma."'
+  celebrity_deities : 'While not central here, a character might mutter a prayer to Burt Reynolds for luck before heading into the swamp, or G authier might have a framed photo of Jerry Reed by his workbench as a "patron saint of ingenuity."'
+

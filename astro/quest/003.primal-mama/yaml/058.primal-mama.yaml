@@ -1,0 +1,56 @@
+
+quest_title: "Primal Mama: Bayou Haul - Soggy Bottoms Salvage Run" 
+world: Primal Mama
+codex_version: "(as per your reference)"
+current_objective: Sc avenge useful materials and intel around the Soggy Bottoms Shacks
+
+sections:
+  - title: To the  Soggy Bottoms Shacks
+    steps:
+      - description: "Head east back through the ramshackle  collection of stilt-houses and rusted houseboats known as the Soggy Bottoms Shacks until you reach the Gator Jaw Crossing,  a precarious series of planks and pontoons over a particularly murky channel. This is where our current sweep begins."
+       - action: "Carefully make your way across the Crossing. On the other side, you'll find what looks  like an Abandoned Oligarch Watchpost, likely used by the big meat processors to keep an eye on local trappers back in  the day. Rummage through the weathered crates; you might find some basic supplies or old ration packs."
+       - action: "Cross another, smaller pontoon bridge to reach a small islet dominated by a single, larger stilt -shack. Not much activity here."
+      - location_details:
+          name: Mama Liss's  Shack (Islet Stilt-Shack)
+          description: "The stilt-shack in the center  of the islet has two footlockers inside. One contains a decent haul of Swamp Remedies & Gator-Rigging Components  (think potent herbal poultices and scavenged mechanical bits useful for repairing your 1970s-aesthetic gear ). The woman in this shack—Mama Liss—is tight-lipped for now, best leave her be. Another rusty footlocker outside  (north of) the shack also holds some more Swamp Remedies & Gator-Rigging Components."
+      - action: "Leave  Mama Liss's shack and follow the muddy path leading from it back south. Continue until you hit a slightly more defined track running east -west along the southern edge of the islet. South of this track are some ruined airboat docks, near which you' ll find a waterlogged sack, a busted crate, and another rusty footlocker worth prying open."
+
+  -  title: "Guarded Stash: Mire-Thrall Menace"
+    steps:
+      - description:  "Cross a shallow, muddy ford to the south-east to reach the dense cypress woods near the Soggy Bottoms. If you  explore south along the murky shoreline, you'll spot some Mire-Thralls (wretched, mutated figures, perhaps  lingering victims of the Calamity or just driven mad by the swamp's miasma) lumbering about, surprisingly  bold in the daylight."
+      - combat_tip: "At this stage, Mire-Thralls are best tackled  one-on-one; they only become truly dangerous when they swarm you. A well-aimed shot from your  Flare Pistol (if you have one) can sometimes set their tattered rags alight, leaving them vulnerable to a few good whacks  with your trusty pipe wrench or reinforced tire iron. Don't bother trying to block their clumsy, heavy swings; their  attacks can knock you off balance even if you get a piece of metal in the way. Dispatch them, then continue following the shore counter -clockwise."
+      - action: "Across the murky river to the south-west, you'll see more  Mire-Thralls near a half-sunk airboat. Swim across (try to make landfall a bit away from them  to avoid an immediate scrum) and clear them out. Once done, loot the stash they were guarding: a couple of  salvaged crates, a sodden sack, and a reinforced strongbox. The partially submerged crate and strongbox, in particular , seem to hold more valuable salvage."
+    world_note: "The specific schematics, brew-recipes, or unique gear  pieces you find in containers are often randomized by the strange energies of the swamp. However, locations known to hold *superior quality* salvage  (like this one) are consistent. What exactly you'll get is up to Primal Mama's whims,  but *where* to find the good stuff is fairly reliable intel."
+
+  - title: Rustwater Renegade Camp 
+    steps:
+      - description: "Swim back across the river (to the north-east) and explore the southern end  of the cypress tangle. Near its heart, hidden amongst the dense growth and buzzing insects, you should find a Rustwater Renegade Camp  (local outlaws and desperate scavengers)."
+      - combat_tip: "Stick-and-move tactics work  well to pick them off. If they have any Harpoon Gunners (thugs with jury-rigged, spear-chucking contra ptions), try to disable them first. Your Jury-Rigged Repulsor Field (if the battery pack is charged) can  offer a moment's protection if you get cornered. Once they're all pushing up swamp daisies, loot the  sacks near their sputtering, 1970s-style generator for some Choice Salvage Parts, while the main chest  likely contains higher-grade tech bits or more refined components."
+
+  - title: "Contraband Drop-Point "
+    steps:
+      - description: "Return to the shoreline and follow it east until you reach a rick ety Skyway (an elevated, decaying walkway of metal and wood) connecting the Soggy Bottoms to the Mire Proper further  south. Underneath this Skyway, tucked away from prying eyes, is a Contraband Drop-Point. This is  a simpler score than the last two – just approach the Skyway from the east (keeping an eye out for gators ) and grab the concealed containers. The loot isn't as unique as the Mire-Thrall or Renegade st ashes, but hey... free salvage is free salvage, and no need to expend precious ammo or risk your hide."
+
+   - title: "Another Renegade Hideout & A Clue"
+    steps:
+      - description:  "From the Skyway, follow the old, cracked service track that heads north-east until it doglegs north-west. At  this bend, veer off the track, continuing north-east up a short, overgrown embankment. You'll need to scramble up a  collapsed pre-calamity access conduit, scale a rusted gantry above it, then turn north and make a risky jump across a  gap to another precarious metal ledge. From there, climb up onto more crumbling ferrocrete to find another Rustwater Renegade Hide out."
+      - action: "Dispose of these ne'er-do-wells. Search a crumbling utility shed to  the south of their main camp to find plenty of lootable sacks, crates, and a secure locker."
+      -  discovery:
+          item: Datapad with a marked map chip
+          reveals: Location of another Renegade Stash
+           details: "Investigate a Datapad with a flickering screen you find on the floor; it has a marked map chip that reveals the  location of another Renegade Stash."
+      - loot_highlight:
+          location: Secure locker
+          items :
+            - name: '"Subject Debriefing" (Oligarch Memo)'
+              triggers_quest:  '"Hoard Hunt: Mudcat Marauder Gear"'
+            - name: '"Schematic: ''Gator- Tooth'' Serrated Blade"'
+              crafting_note: "The 'Gator-Tooth' blade schematic details a nasty -looking weapon, a significant upgrade, but crafting it requires a rare Intact Bio-Luminescent Nodule (likely from some deep -swamp flora or fauna). Unless you get lucky and scavenge one, getting a Nodule will set you back a  hefty sum, maybe 500 Gator-Tags, from a shady vendor like 'Greasy' Willis down in L ickskillet."
+
+  - title: More Guarded Spoils
+    steps:
+      - description: " Carefully clamber back down the way you came, then head south until you reach the murky shoreline again... yes, back to  this delightful environment. Follow the waterline north-east. You'll need to wade into the muck near the Skyway's support  pylons at first, which is better than risking a fall from the ledges further on."
+      - encounter:  "Along the way, you'll find a couple of Mire-Thralls shuffling around a derelict fanboat and  some mostly-empty supply bags – deal with them and grab what little they have."
+      - action: "Further on is the  main Guarded Stash, protected by the expected quartet of Mire-Thralls. Once they've been put down for good , search the two mud-caked lockboxes half-buried in the muck they were guarding."
+
+end_of _log_marker: End of Soggy Bottoms Salvage Run Log

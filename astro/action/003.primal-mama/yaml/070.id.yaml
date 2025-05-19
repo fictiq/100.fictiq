@@ -1,0 +1,163 @@
+``` yaml
+quest_module:
+  id: PM_QUEST_LSK_01
+  entity_type : Narrative Process / Quest Structure
+  name: '"Bayou Spirit Blues: Investigate the haunted well near Lickskillet."'  # Quoted due to colon
+  primary_authentication_sources:
+    - PM_QUEST_LSK_ 01 YAML
+    - Primal Mama Coherence Protocol v0.1
+    - Entity Functional Profile Protocol
+   introduction_purpose: "Outlines functional properties of the quest module, detailing purpose, entity roles, operational sequence, outcomes , and narrative function using Entity Functional Profile Protocol principles."
+
+  core_function:
+    primary_role:
+      value : "[Resolve the spectral contamination (haunting) of the Abandoned Settlement well, thereby restoring its function as a source of  pure water required to fulfill the dependency of saving Jedediah's kin; Facilitate player exploration and interaction with the L ickskillet Southern Fringe environment.]"
+      auth: "Quest Premise (YAML: objective, problem_summary )"
+    secondary_roles:
+      - value: "[Introduce and characterize local NPCs (Jedediah, Mama Léonie);  Provide functional challenges requiring player capabilities (combat, exploration, investigation, interaction); Deliver world-building via environmental storytelling and discovered  texts (Calamity effects, Oligarchy history hints, spectral lore); Offer resource acquisition opportunities (loot, currency, salvage,  formulas); Present minor moral/value choice (reward acceptance).]"
+        auth: "Quest Content Analysis (YAML: steps, rewards )"
+
+  interacting_entities:
+    - entity_name: Player Character
+      entity_type: Implicit Agent 
+      function: "[Primary agent executing quest protocols. Success requires leveraging authenticated capabilities for navigation (watercraft), combat (Sc avengers, Wraith), investigation (senses analogue), interaction (NPCs, objects), resource management.]"
+      constraint : "[Effective function depends on player skill and access/utilization of world-appropriate tools and knowledge (e.g., Gator- Tooth Blade, containment ritual, Erpenthrope senses, gear).]"
+    - entity_name: Jedediah
+       entity_type: NPC
+      function: "[Quest Giver Node. Authenticates initial problem state, provides objective parameters , primary interaction for contract/reward.]"
+      capability:
+        name: Haggling Sub-Protocol Initiation
+        details : "Base offer 40 Scrip, annoyance threshold ~60 Scrip, target ~50 Scrip ."
+        auth: "YAML: contract"
+      limitation: "[Insufficient capabilities/resources to resolve spectral contamination directly.] "
+    - entity_name: Jedediah's Kin
+      entity_type: NPC
+      function : "[Narrative Catalyst Entity. Embodies primary stake (life/death), establishing urgency and dependency driving quest objective (need  for pure water).]"
+      inability: "[Incapacitated by authenticated illness; cannot perform actions.]"
+    - entity _name: Mama Léonie
+      entity_type: NPC (Mentioned)
+      function: "[Epistemic Authority  Node. Provides critical authenticated knowledge: links illness to water, identifies well water as necessary (currently unobtainable) solution, validating quest premise .]" # Quoted due to colon
+      auth: "YAML: initiation"
+    - entity_name:  Miasma Wraith
+      entity_type: Antagonist Creature
+      function: "[Primary Obstacle Entity. En forces blocked state of Well objective via hostility/influence. Embodies spectral threat profile.]"
+      capabilities:
+         - name: Spectral Melee Attack
+          description: "'Swift spectral claw swipes'"
+        - name: Area Denial 
+          description: "'Disorienting miasma cloud'"
+        - name: Evasion/Misdirection
+          description:  "'Periodic fading / illusory duplicates'"
+      auth_capabilities: "YAML: combat"
+      vulnerability:
+        name : Sigil Susceptibility & Object Binding
+        description: "[Physicality/Susceptibility increased within active Containment Sigil ; Fundamentally bound to Tarnished Silver Locket.]"
+        auth: "YAML: combat, investigation_follow _trail"
+      inability:
+        name: Immortality (Conditional)
+        description: "[Cannot be permanently  neutralized without addressing its binding object (Tarnished Silver Locket).]"
+    - entity_name: Tarnished  Silver Locket
+      entity_type: Object (Key Item)
+      function: "[Key Object / Binding Anchor.  Physical link for Wraith manifestation. Retrieval mandatory for resolution. Functions as investigative clue and resolution component.]"
+      auth: "YAML : action_explore, combat"
+    - entity_name: Water-Damaged Journal
+      entity_type: Object  (Information)
+      function: "[Information Object / Epistemic Resource. Provides contextual clues ('Epistemic data ') re: Wraith origin/binding object, facilitating investigation.]" # Quoted due to colon
+      auth: "YAML:  examine_item"
+    - entity_name: Abandoned Settlement Well
+      entity_type: Location/Object
+      function : "[Primary Objective Location. Designed function (pure water) blocked by spectral contamination. Contains Key Object (Locket). ]"
+      operational_constraint: "[Water retrieval function disabled until Wraith neutralized.]"
+    - entity_name:  Scavengers
+      entity_type: Minor Antagonists
+      function: "[Secondary Obstacle Entity / Environmental  Hazard. Provide combat challenge and function as loot distribution node.]"
+      auth: "YAML: encounter_loot"
+     - entity_name: Whispering Cypress
+      entity_type: Place of Power
+      function: "[Optional Resource Node /  Environmental Boon. Offers temporary capability enhancement (mundane buff) or potential permanent character development resource (Erpenthrope Ability Point). ]"
+      auth: "YAML: discovery_powerup"
+
+  quest_flow_protocol:
+    -  step_id: 1
+      description: Initiation & Contract Negotiation
+      dependencies:
+        - Player must locate and interact  with Jedediah.
+      actions:
+        - Receive authenticated briefing.
+        - Accept quest objective.
+      constraints _costs_risks:
+        - "Optional Haggling sub-protocol: Dialogue choices with defined risk/reward  (Base 40 Scrip, target 50 Scrip). Failure incurs opportunity cost."
+    - step _id: 2
+      description: Exploration & Diversion (South-West Path)
+      actions:
+         - Execute navigation protocols south.
+        - Select SW fork at designated junction.
+      optional_actions:
+         - "Expend time resource to interact with Whispering Cypress for potential capability gain."
+      constraints_costs_risks: 
+        - "Navigate Rickety Bridge (potential skill check/time cost?)."
+        - "Expend resources (ammo/ health/time) in combat vs. Scavengers."
+      operational_constraints:
+        - "World state integrity advises avoidance  of Abandoned GE Gator Pen location during this protocol execution."
+    - step_id: 3
+      description: Investigation  at Abandoned Settlement (South-East Path)
+      dependencies:
+        - Successful navigation to settlement via SE fork .
+        - Successful spectral trail detection and tracking.
+      actions:
+        - Activate Investigative Sense function for environmental  clues (blighted ground, husk).
+        - Execute search protocols on designated structures for loot and Key Information Object ( Journal).
+        - Process Information Object (Journal - time cost) to acquire Epistemic data.
+        - Activate Investigative  Sense function to detect and follow spectral trail from origin (corner) to the Well.
+      constraints_costs_risks:
+         - Minor environmental obstacles may require specific actions/capabilities (clearing beams).
+    - step_id:  4
+      description: Retrieval from Well & Caverns
+      dependencies:
+        - Possession/activation of required  underwater operational gear/capabilities.
+      actions:
+        - Execute entry into Well (Fall damage mitigated by water cushioning ).
+        - Activate underwater navigation/perception functions to locate/acquire Key Object (Locket).
+        - Execute navigation  through cave system sub-environment.
+      optional_actions:
+        - Expend time/exploration resources to locate/acquire  resources from submerged crates (formulas/loot).
+      constraints_costs_risks:
+        - Requires managing physiological  dependency (air supply) during underwater segments.
+    - step_id: 5
+      description: Confrontation &  Neutralization
+      dependencies:
+        - Player combat capability proficiency.
+      actions:
+        - Return to primary objective  area (Well).
+        - Execute trigger condition for Wraith manifestation (using Locket/ritual/burning materials).
+        - Engage  Miasma Wraith entity using combat protocols.
+        - Acquire resources from neutralized Wraith entity (Ghostly Essence, Wraith  Fetish, etc.).
+      constraints_costs_risks:
+        - "Optimal combat performance likely requires utilization  of specific tactics (Containment Sigil) and authenticated anti-spectral weaponry (Gator-Tooth Blade)."
+    -  step_id: 6
+      description: Debriefing & Reward Acquisition
+      actions:
+        - Return to Quest  Giver Node (Jedediah).
+        - Transmit success state report.
+        - Execute reward selection protocol ( Choice: 50 Gator Scrip OR Pre-Calamity Salvage Item if Scrip declined).
+      optional_actions :
+        - Initiate optional dialogue query (about 'Clara') for potential future narrative hooks/lore.
+      constraints _costs_risks:
+        - Reward choice locks outcome.
+    - step_id: 7
+       description: Optional Lingering Tasks (Post-Completion)
+      actions:
+        - Execute exploration protocols east from settlement.
+         - Execute search protocols at designated location (Fishing Shack/Houseboat) for potential high-value resource acquisition (R ifle/Schematics).
+
+  outcomes_summary:
+    successful_completion_state: "[Miasma Wraith  neutralized; Locket transformed to inert Wraith Fetish; Well restored to function; Dependency fulfilled (kin saved - implied);  Player receives rewards (XP, Scrip/Salvage); Southern Fringe state altered (threat removed, explored).]"
+    core _functional_identity: "[Self-contained, localized problem-solving loop. Integrates core gameplay functions (exploration, investigation , combat, interaction) with narrative delivery (environmental storytelling, dialogue, items) for cohesive experience.]"
+    key _narrative_functions_served:
+      - "[Instantiates spectral threat type and mechanics (binding objects, rituals). ]"
+      - "[Reinforces world themes (survival, post-Calamity hazards, community resilience).]"
+       - "[Provides diegetic justification for exploration/resource acquisition.]"
+      - "[Offers minor player agency (dialogue/reward  choices).]"
+      - "[Seeds potential future plotlines (Oligarchy history, 'Clara').]"
+     relationship_to_modalities: "[Engages player with world rules: Alethic (spectral properties, ritual effectiveness , tech limits), Deontic (contracts, haggling, reward choice), Axiological (value of life vs. Sc rip, aid), Epistemic (clues, journal interpretation, lore).]" # Quoted due to colon
+```

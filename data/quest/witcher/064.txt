@@ -1,0 +1,66 @@
+Battle Preparations
+Repair your equipment, sell off any junk you might be holding, and make your way to Avallac'h, who is on a ship north-west of the "Novigrad Docks" signpost. As you approach you'll spot Yennefer chatting with Phillipa and Margarita, after which she'll talk to you. When the conversation ends board the ship and enter the cabin to talk to Phillipa and Margarita, if you wish. When you're ready to go, talk to Avallac'h and tell him so.
+
+As you sail, you'll spot an unsettling sight off the coast of Skellige. Seems Emhyr's hunger for expansion can't be sated, no matter what he gobbles up. Talk to your allies and Avallac'h will elaborate about the Sunstone. Two goals will become clear-make it onto Emhyr's ship and rescue Fringilla, and find Ermion, who in turn can help us with the Sunstone. Completing these objectives forms the substance of the quests "Veni Vidi Vigo" and "The Sunstone", respectively. The former quest is far simpler, so let's get it out of the way, first.
+
+Veni Vidi Vigo (level 28)
+The boat you sailed in on is docked at Kaer Trolde Harbor-a place you should know well. Fast-travel to the "Marlin Coast" signpost and rest until night. If you try this during the day, you'll be shot at by sailors, which doesn't do much damage, but it can make it difficult for you to surface for air, or to board the ship. When it's night, swim north-east to find the Emperor's fleet-your goal is to avoid the spotlights (if you're spotted, just dive until they call off the search) and find the Emperor's ship in the search area. When you approach the anchor of the correct ship, a stand-down order will be given. Swim up to and activate the anchor to climb aboard and have a quick-but productive-chat with Emhyr. Afterwards you'll be back in Kaer Trolde Harbor and the quest "Veni Vidi Vigo" will end.
+
+Objective	Reward
+For rescuing Fringilla Vigo	200 XP
+The Sunstone (level 28)
+Well, that was simple. Time to find Crach. Head west up some stairs and talk to Crach, who will tell you where Ermion is... which varies depending on who is king. If one of Crach's kids is king, Ermion will be in Kaer Muire, trying to talk some sense into Lugos. If Svanrige is king, he's at Kaer Trolde.
+
+Svanrige is King
+Head to the "Bridge to Kaer Trolde" signpost and enter the keephall, where you'll find that Birna, who was willing to murder to make Svanrige king, is willing to sell Skellige to Nilfgaard to keep him on the throne. Head into the main hall join Crach as he watches negotiations commence... only to be terminated when Svanrige shows he's made of sterner stuff than his mother. Fight off some Nilfgaardian Soldiers (levels nineteen and twenty-nine) and afterwards, watch a scene that wraps up Svanrige's story in a surprising way.
+
+Cerys is Queen or Hjalmar is King
+
+Fast-travel to the "Kaer Trolde" signpost and enter the keep, heading north, up a ramp, and through a gate. Here you'll find that Lugos is inconsolable about the fact that Clan An Craite has won the throne, and is openly considering (actually, outright advocating) revolt. No matter what you say, the situation deteriorates and you'll have to fight Lugos (level thirty-two) and his Warriors (level twenty-eight). Fight your way out of the keep, and when you talk to Ermion out of the town you'll see a scene about helping one of Crach's kids ascend the throne.
+
+The Skald and the Fishlung Brothers
+Either way, ask Ermion about the Sunstone and he'll direct you to the skald Eyvind, who is in Arinbjorn, and the Fishlung brothers. Fast-travel to Arinbjorn and head west from the signpost to find Eyvind standing on a hill. You'll automatically talk to him as soon as you approach, and find out that he's oblivious to common concerns, and instead is engrossed in his task of looking for a whale. Stand and watch with him, and you'll have to pick two timed dialogue options. The first one is inconsequential, but for the second one, pick the option "Gathering material for an adventure novel." to learn the location of the caverns you're looking for.
+
+If you fail to get the information you're looking for from Eyvind, fast-travel to the "Eldberg Lighthouse" signpost and head south to the central island, then to the northern tip of the smaller almost-island to the east, where you'll find the Fishlung brothers... or their boats, anyways. Dive into the water and swim west of their boats to find a cave. Swim into the cave and surface, then head down a passage to the west to find your wayward brothers, who are up to no good. Talk to them and ask about the ruins you're looking for to learn their location, then fight off some Drowners (level twenty-nine).
+
+However you get the information, once you've got it fast-travel back to "Kaer Trolde Harbor" and talk to Yennefer, who will reveal some news about Avallac'h. Seems he's been holding out on us. This starts the quest "Child of the Elder Blood", which Ciri and Yennefer will head off to attend to. Phillipa, on the other hand, goes off in search of the Sunstone. Let's stay on track and go help Phillipa. You can also talk to Avallac'h, while you're here, who might have some new things to say, although it's nothing monumental.
+
+Elven Ruins
+Fast-travel (or sail, if you must) to the "Ancient Crypt" signpost, along the northern coast of Ard Skellige, north-east of Kaer Trolde. Phillipa will dispel the illusion over the entrance and walk on it. Geralt will chat with her as she heads into the ruins-follow her to the south and through another doorway. Go down some stairs to the west, then up some more to the south and through another doorway. When you reach a watery chamber beyond you'll have to fight off some Drowners (level twenty-eight) and a Sirine (level twenty-nine).
+
+Place of Power
+Explore to the west to find a Place of Power... hooray for ability points... then go south from the obelisk to find a small chest to look. When you're done, return to Phillipa and accompany her up some stairs to the south-east. When you reach a statue turn south-west to find a chest worth looting, then return to Phillipa and follow her to a chasm, which gives her the opportunity to show off her magical prowess.
+
+Hidden Treasure (level 28)
+Cross the makeshift stairs to reach a chamber that splits off three ways-Phillipa intends to continue west, but head east first, through a doorway to the east, then another to the north. Loot a chest to the north-just off the stone platform, then head down some stairs to the east to find a Hidden Treasure event. Kill the Venomous Arachas (level twenty-eight), then loot two chests-one in the water at the end of the stairs, and another to the north.
+
+Go through the doorway to the south to find some mutilated remains to find an "Elven-Made Key". Be wary of the spike traps on the floor, however-they do an absurd amount of damage. Speaking of which... the chest this key opens to beyond the trapped floor to the south. Cast Quen, get a running start, and try to leap over them as far as you can. The way back it trickier, but still doable.
+
+Return to Phillipa and follow her west into another chamber with multiple paths. Kill a Golem (level twenty-eight), then head north to find a chest in a small chamber. Backtrack to Phillipa, then follow her south, then west up some stairs, then south up more stairs to reach a door. Phillipa pays a toll at the door, and you two continue on and talk politics. After the chat, part company with Phillipa once again and head south, down some stairs, and behind a stalagmite where you'll find a chest. Loot it, return to the stairs, and at the base of them turn south-west to find more stairs in the distance-stairs which lead to a door. Go through the door and dispatch two Ghosts (level twenty-eight) which fight like typical human warriors. Once they're smote turn north-west to find two chests-one which is locked, and doesn't seem to have a key. Shame.
+
+The Mirror Puzzle
+Reunite with Phillipa and follow her east, through a doorway down a tunnel, then turn south and go down some stairs to reach a massive watery cavern. Phillipa will work some magic and reveal a puzzle you'll need to solve. Joy.
+
+From the ledge you start out on (along the northern end of the room) drop down the ledge (remember to mash [Circle] as you fall to roll and mitigate damage) and immediately turn south-west. Head up some stairs and follow the tunnel south-east, then head up another flight of stairs, where you'll have to fight a Ghost (level twenty-eight). Loot a chest, then activate the mirror to turn it.
+
+Drop down the ledge the mirror is on to the north and, when on lower ground, turn north-east to find a collapsed stone walkway that now forms a ramp-a ramp you can use to reach the platform the next mirror is on. Get a running jump off the ramp and hold [Circle] to grab the ledge, then banish another Ghost (level twenty-eight). No chest for you this time, just turn the mirror.
+
+Head back west, dropping off the platform you're on and back onto the ramp. Continue west and climb onto a stone platform north of the first mirror we manipulated, then continue north to find some ledges you can scale to reach the third mirror. Climb them, jump a gap, then scale a railing. Before you turn the next mirror, loot a chest to the north-west.
+
+Once the three mirrors have been moved Phillipa will exclaim at your success. Return down the ledges to the south to reach the floor of the cavern, head south-east around some stalagmites, then turn north-east to find some stairs. Ascend to reach Phillipa, who will insist on talking to you again. Respond to her as you will and she'll vanish, self-interested as always. Too bad Radovid couldn't take her tongue, too.
+
+Objective	Reward
+For recovering the Sunstone	500 XP
+Escaping the Elven Ruins
+This ends the quest "The Sunstone", but we're not done here yet. Plenty of loot to be had, and we can't just vanish like Phillipa. Head through a doorway to the south-east and follow the tunnel beyond, climb a ledge and turn south-east up some stairs, where you'll find a pair of Ghosts (level thirty-one) waiting for you.
+
+Head south-west up a slop, climb a ledge, then turn north-west and head up some more stairs. Continue north-west over a broken stone walkway and loot a chest behind a stalagmite to the west as you go. Climb onto another ruined walkway and continue up some stairs to the north, then turn east. Drop down off the stone walkway (temporarily ignoring the walkway to the east for now) and continue east along the cave floor, where you'll find two chests to loot, both to the north against the stonework, the one further east being submerged in some water.
+
+Climb back onto the stonework and continue east, leaping gaps when necessary. Turn north-west and, when there's a gap in the walkway, drop down to find a chest south of the western walkway. Climb onto the walkway when you're done looting its chest, then continue up some stairs to the north-west, disposing of three Ghosts (level thirty-one) when you reach the top.
+
+Go through a doorway to the south-west and turn north-west when you must to find two chests to plunder. Backtrack to where you fought the trio of Ghosts and head through another doorway to the north-west and scale a series of ledges, then follow the linear tunnel beyond until you have to drop down a ledge into a watery chamber. Kill another Ghost (level thirty-one) then turn south-east to spot a doorway, beyond which you should see daylight... if it's day out, of course. First, continue south-west to find a mighty haul of four chests. Loot them, then return back to the north-east, head through the doorway to the south-east, go up some stairs, and finally exit the ruins.
+
+Yorg's Sister
+You're now north-west of Rogne. Hey! Look at that! We got all those annoying events up here done. Groovy. Return to Rogne, where you'll see some villagers talking north-west of town. A little girl will run off. Track her down and talk to her to find out (if the name didn't give it away) that she's Yorg's sister, and she'll tell us why Yorg was chained to the rocks along the northern coast of Ard Skellig. Eh... kind of hard to call this one...
+
+Anyways, it's time to deal with "Child of the Elder Blood". Head to town and sell off all the excess loot you undoubtedly gathered in the Elven Ruins.

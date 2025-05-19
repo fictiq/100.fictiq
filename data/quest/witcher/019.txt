@@ -1,0 +1,216 @@
+Velen (Continued)
+Freeing the Ghost in the Tree
+If you decide to help the spirit, it'll tell you about a ritual you must perform consisting of three components-its remains, a horse, and raven feathers. Ask about each and it'll tell where to find them, and perhaps why (vaguely) it's required. It'll even open a short cut to the north, so you need not bother trekking back through the cave. We should have already obtained a Raven's Feather back when we search the nest for Johnny's voice, so we can safely ignore that requirement for now and instead focus on the horse and the corpse.
+
+Head north, exiting the cave, and from where you exit head west and slightly north, down some hills, and back into the swamp. When you reach the search area you'll need to defeat a Water Hag (level six) then use your Witcher Senses near the southern end of the search area to find a grave marking the resting spot of our spirit's physical remains. Loot the grave for some "Woman's Remains."
+
+Our next objective is a black mare far south of the grove. What a pain in the ass... but on the plus side it'll lead us perilously close to some pretty awesome loot. Head south from the tree (perhaps returning to the "Ancient Oak" signpost and following the trail south). When you reach the edge of huge search area, put all thoughts of find the horse out of mind for now, and continue following the trail south until it merges with a larger road. Continue south a short distance until yet another road branches off to the south-west and follow it until you discover the "Crossroads" signpost. This southern signpost will allow us to quickly obtain a superior Silver Sword.
+
+If you wish to obtain it now and not mess up any quests that's perfectly fine, just follow the road east a short distance until you see, east of the road, a ravine that parallels the road. Head into the gorge and follow it east, down some rocky ledges, then down a grassy slope, at which point you should find the "Entrance" map marker, which marks a cave to the north. Venture inside and proceed to the end of the cave, ignoring all the loot and glowing bodies save a chest, which you'll find next to a corpse that can be neither looted nor investigated. Inside you'll find the "Diagram: Enhanced Griffin Silver Sword". Hell, this was easier to get than the original diagram!
+
+In the search area, near the "Crossroads" signpost, you should have no trouble finding black mares trotting about. They seem to like this spot for some reason. Use Axii to tame one (you don't even have to be all that close) then mount it and ride it back north to the cave, which is north of the ancient oak. Ride the horsie into the cave and, with the three components in hand you'll be told how to complete the ritual. You can choose to renege on the spirit by purposefully botching the ritual, or you can be less subtle and fight the spirit. In the former case, you can skip to the section "Meeting the Crones," in the latter case, read "Fighting the Ghost in the Tree" first. If you perform the ritual the spirit-now possessing the body of the mare-will agree to free the children. In this case, skip to "Meeting the Crones."
+
+Fighting the Ghost in the Tree
+If you refuse to help free the spirit, it'll attack you, predictably enough. This fight is simple-it summons some Endrega Workers (level six) to pester you. Smite them, then attack the roots protecting the physical manifestation of the spirit. Once they'd hacked away you'll get to deal a few blows to the spirit, after which the roots go back into place, and it summons more Endrega Workers. Repeat until it dies. Once done, loot the tree for some Diamond Dust, then the Endrega for more mundane monster bits. The quest "The Whispering Hillock" ends, but we still need to talk to the Ealdorman of Downwarren to satisfy the Ladies. Fortunately a shortcut has opened up back west, so we need not even get our boots wet.
+
+Meeting the Crones
+Leave the cave where you'll find the Ealdorman and a group of peasants, who have surprisingly decided to brave the forest. Tell them about your deeds and remind hinm about the payment, which the Ealdorman will go off and... well, he'll give you his cut.
+
+Geralt will make an offering of the Ealdorman's reward and the Crones will show up, and, after roughly treating Gran, talk to you. You can talk about the children and the spirit in the tree, but they're vague about both. Ask about Ciri and eventually you'll get a cutscene detailing Ciri's interaction with the Crones...
+
+Objective	Reward
+For meeting the Crones	350 XP
+Ciri's Story: Fleeing the Bog (level 5)
+When you're in control of Ciri, kill the Drowners (level six) that are initially there, then head east. Along the way you'll be pestered by some Hounds of the Wild Hunt (level five), which you can either fend off or avoid. Reach the end of the trail and watch a cutscene, which links up with what we saw during the quest "Bloody Baron."
+
+Back in control of Geralt you can make the choice to either try and pick a fight with the Crones, or threaten to come back for them later with Ciri. Either way, they taunt you and wander off. This ends "Ladies of the Wood."
+
+Objective	Reward
+For learning of Ciri's encounter with the Crones	200 XP
+Return to Crookback Bog
+We're almost done in Velen for now, but before we head north to Novigrad and its environs, let's go tell the Baron what we learned in Crookback Bog. After haggling over the terms and listening to the Baron air more dirty laundry, give your opinion of the matter, then tell him where Anna is. Naturally, the Baron decides to take hasty-and professionally ill-advised-action, then tells you more about Ciri...
+
+Note: Be sure to have played Gwent with both the Bloody Baron and the merchant in Downwarren before starting this quest. Depending on choices you made earlier, they might not be around later.
+
+Ciri's Tale: Out of the Shadows (level 5)
+You'll start out exactly where you left off the last time the Baron talked about Ciri-fighting a Basilisk. Deplete its health bar, then give chase to the wounded critter. Once done, head south-eat and approach the southern end of the tower to witness another cutscene. Ciri shows off some of her more esoteric skills (why couldn't we do that earlier?) then takes a prize. At the end of the memory it will be revealed where Ciri went, and why.
+
+Rescuing Anna
+The Baron will then ask Geralt for aid in his attempt to rescue Anna. Might as well, considering how repugnant the Crones are. Anything that inconveniences them is something to highly consider. Agree to end the quest "Family Matters" and begin the "Return to Crookback Bog". Next destination? Downwarren. Before any action can be taken, however, Geralt and the Baron will be interrupted. Discuss the matter, then head out with the Baron.
+
+Fast travel to Downwarren to find the city... well, it was better off the last time we were here. The cause varies depending on what choice you made regarding the Ghost in the Tree during "The Whispering Hillocks." If you freed the beast, it will have come to Downwarren to exact vengeance on the Crone's servants. You'll also be informed that some Witch Hunters were here earlier, led by a woman. If you fought the ghost in the tree, the Witch Hunters were responsible for the lynchings. Seems we might have support some-or some competition.
+
+Follow the Baron and his retinue into the swamp, where you'll be attacked by a quartet of Drowners (level nine). Your allies can distract the Necrophages, but you shouldn't expect them to deal much in the way of damage-steel isn't very effective on such foes. Venture further until you engage a mixed group of monsters, including Drowners (level nine) Rotfiends (level six) and a Water Hag (level eight). After this you'll reach the swamp village, where Tamara and some Witch Hunters are fighting a pack of Drowners (level nine). The Baron and Tamara exchange pleasantries, which they insist on involving Geralt in. Respond how you wish, and, after some more chatter, the two groups decide to focus on the common cause... for now.
+
+After some searching, the parties will discover Anna, either incoherent (if you fought the ghost in the tree earlier) or polymorphed (if you freed the ghost in the tree). Shortly thereafter you'll be attacked, first by mundane monsters-Drowners (level nine) and Water Hags (level eight), before a Fiend (level nine) arrives. It's big, and it packs a whallop, but if you use Quen and let your allies draw the aggro while you resort to flank and rear attacks, you should be able to just chop it down at your leisure.
+
+Objective	Reward
+For defeating the Fiend	200 XP
+If you fought the ghost in the tree earlier, this is the end of the quest. If not, continue on with "Lifting the Curse." Either way, the results of your actions will be discussed under the "Conclusion" heading. The following rewards are only for the former course of action.
+
+Objective	Reward
+For freeing Anna	300 XP
+100 Crowns
+Lifting the Curse
+After the battle Geralt will be pestered for his expertise on the matter, which he determines might be better known by Johnny, who is, after all, more familiar with the Crones. Loot the Fiend (and whatever other monsters and men died here) then head north-east to find Johnny's lair again. Kill a pair of Drowners (level nine) and a water Hag (level eight) outside, then call Johnny out. When he doesn't respond, use your Witcher Senses to follow his trail, initially leading east from his den. Follow the trail until it ends, then continue south-east a bit from there to find Johnny hiding in a wooden shelter amidst some bushes. Johnny will tell you what happened to Gran/Anna, and where you can look to find out more.
+
+Objective	Reward
+For talking to Johnny	50 XP
+Return back to the swamp village, where dispositions haven't improved any. Tell them the news, decide just how alone you wish to work, then head inside the large house to the east. Once inside, search for the cellar door, which is to the south. Climb down and investigate the eastern alcove to discover a ritual table with a number of dolls on them. Pick the doll with the violet hollyhock bloom to break the curse... for what good that does in the long run. Return to Crow's Peak at the Baron's behest to get your reward.
+
+Objective	Reward
+For lifting the curse on Anna	300 XP
+For returning to Crow's Perch to claim your reward	100 Crowns
+Conclusion (Spoilers!)
+Yeah... spoilers, but by now you should have done everything mentioned above, so dry your tears. If you freed the ghost in the tree it became Black Beauty, a possessed mare that-after freeing the orphans and keeping them out of the Crone's oven-took vengeance on the Crone's servants in Downwarren. At the worst this just spared the Eternal Flame Witch Hunters the trouble of tying some rope.
+
+More meaningful was the price of success or failure on Anna. If you subverted the will of the Crones by freeing the ghots in the tree and freeing the orphans, it was Anna who ultimately paid the price. Cursed by the Crones, she was beyond even Geralt's help, and shortly expired after being freed from her polymorph. This led the Bloody Baron-abandoned by his daughter and outliving his wife (as dysfunctional as that marriage was)-to commit suicide upon returning to Crow's Peak. If you killed the ghost in the tree, it doomed the orphans, who were delivered to the Crones, but spared Anna... to a degree. She had lost her daughter, been kidnapped by the Crones, and seen the children she cared for taken away from her to be devoured by her masters. She was alive, though, for what that's worth, and the Bloody Baron was all too willing to leave Velen behind and travel with Anna to try and heal her.
+
+In either case, Velen no longer has a master, but power vacuums never remain empty for long. The Baron's sergeant takes up his place, promising a harsher regime for those unfortunate enough to be under his command. Perhaps the Baron will return to set things right some day, but once power is forfeited, it's not easy to regain. In the long run, however, it probably doesn't matter much. As long as the Nilfgaardians are pleased with the new power in Velen, the new regime is just as legitimate (or illegitimate) as the Baron's was.
+
+We're done in Velen for now, time to head to Novigrad. Officially, anyways, you may have visited there for crafting or Gwent on your own volition. Now, however, we'll be focusing on our hunt for Ciri there, but before we find her, we need to find Triss...
+
+Novigrad
+The Wilderness South of Novigrad
+Monster Den (level 18)
+Fast-travel to the Border Post-our staging point for the run up to Novigrad that'll see us explore the entirety of the island south of the city itself. From here head north, cross a bridge, and follow a road north. Be wary, as the critters here can be a good bit stronger than they were in Velen.
+
+Case in point, our first destination. Head north along the road leading from the Border Post and take the first trail you find to the west. Follow this trail until you find a Monster Den location south of the road. Explore in that direction and you'll find that a cave is guarded by Nekkers (level eighteen). Kill the beasties (if you're level fourteen by now, you should have Enhanced Griffin Swords, making you more than a match for these foes).
+
+Once the vanguard is dead, head inside the cave, where more Nekkers await. Continue north, down some stairs, and into a large central chamber, where more Nekkers are joined by a Rock Troll (level sixteen). Try to get rid of the Nekkers before tackling the Troll-the two are only really dangerous in the presence of the other. Quen, perform Strong Attacks (the "rule-of-three" works again), then dodge the Troll when he blocks or counters. It should go down fast enough. If you climb a ledge to the east and blast some stalagmites you'll uncover a chamber with a chest in it, which in turn contains the Diagram: Superior Feline Silver Sword. In a larger chamber to the west you'll find two chests-one large, one small, which both contain goodies worth grabbing.
+
+Monster Nest(s) (level 9)
+Leave the cavern and head north-west through the forest until you find a part of Monster Nests a short distance apart. Both are Endrega nests, and are guarded by Endrega Workers (level nine) and Warriors (level nine). Stomp the bugs and blow up their nests, then loot them for a small collection of runes.
+
+Objective	Reward
+For destroying the Monster Nest	20 XP Each
+John's New Job
+From the Endrega nests head south-west to find the village of Ursten. Besides the signpost, there's not much of interest here... just a Merchant who doesn't even play Gwent. Oh well. Take a road leaving Ursten to the north until it forms a triangle splitting in three directions. Follow the western road a bit and you'll find a camp south of the road. If you rescued John Verdun... the deserter that was going to be fed to Drowners back in Velen. Seems he wasn't brave enough to stand and fight the Nilfgaardians, but he's proved more than capable of banditry. He'll offer to thank you for rescuing him earlier. If you accept he'll hand you some Crowns and you'll get an experience reward. Alternatively you can state your regret for rescuing John, which provokes him and his Bandit buddies. Kill them, then search some note under a shelter to the south to find a "Letter From Toben."
+
+Objective	Reward
+For reuniting with John Verdun	50 XP
+50 Crowns
+For fighting John Verdun	50 XP
+Hidden Treasure: Coast of Wrecks (level 15)
+Head west and slightly south from John's camp to reach the coast. South-west of the coast you'll find three small islands, on the eastern-most of which is absolutely infested with Drowners (level ten) and occassionaly a Mucknixer (level fifteen), which is just a stronger form of Drowner. Kill the horde of Necrophages and search the western end of the island to find the remains of a ship, near which you'll find a chest which contains a "Letter." Pick it up and read it to start (and advance) the quest "Coast of Wrecks." Venture west into the water to find a chest containing quality loot, then turn south-west and dive to find another chest. The third chest can be found on the northern end of the island to the south, while the fourth is just to the south-west of the last one, past a bush.
+
+Widow's Grotto
+Swim north to return to the mainland... or at least, to a more significant island. Continue up the shore to the north to find a cave entrance, and the "Widow's Grotto." Head inside the nearby cave, where you can score two chests and a few other, less profitable containers.
+
+Bandit Camp (level 9)
+Head east and slightly north to reach a road, east of which is a Bandit's Camp. Kill the Bandits (level nine) then loot the houses, in one of which are two chests. The chest being molested by some parcels contains the superior loot.
+
+Smuggler's Cache
+If you head north from the Bandit Camp you'll reach a Scoia'tael camp in the woods, where you can find a Merchant to trade with, although he doesn't sell anything unique. North-east of the Bandit's Camp is the "Lucian's Windmill." Underneath the windmill itself you'll find a chest. Alternatively, follow a road north-west from the Bandit's Camp until it forks into three new paths-north, north-west, and north-east. Veer west off the road here, head over some hills, and dive into the water. Swim west to find a Smuggler's Cache event. Dive near the barrels and score three chests anchored here.
+
+Guarded Treasure (level 14)
+From the site of the Smuggler's Cache continue swimming west until you find a small island with a scuttled ship near the eastern shore. Swim around the boat and reach the shore near the boat, where you'll find a skeleton near which is the book "Captain's Log." Take it, read it, then turn around and swim onto the boat, looking for the gap in the railing where you can climb aboard. One on the ship head below deck to find a chest which contains the book "Mage's Note" and the Diagram: Feline Crossbow.
+
+Leave the boat and explore the northern end of the island to find a nesting Basilisk (level fourteen). Ciri battled one earlier-now it's our turn. The Basilisk fights much like a Wyvern, save the Basilisk can poison you, and it'll spit poison at your from a distance. It's also somewhat more fond of staying in the air, trying to remain aloft as much as possible. Kill the beast and search its nest, north of which is a corpse containing some nice loot.
+
+From the Lighthouse to Novigrad Outskirts
+Swim back to shore then continue following the coast north-west until you find the "Lighthouse" signpost. The lighthouse itself contains some loot you can crab, but nothing exceptional. Now follow the northern coast to the east to find the "Logger's Hut" signpost, which again, isn't very interesting, but it's worth getting the signpost. Continue east along a road until you reach the outskirts of Novigrad.
+
+Two bridges-both with their own signposts-lead north to southern Novigrad. The "Portside Gate" is to the west, while the "Glory Gate" is to the east. In between them you can find a notice board, where you can pick up the notices "Contract: Devil in the Woods" and "Contract: The White Lady," which start the quests "Contract: Lord of the Wood" and "Contract: The White Lady." The former is too high of a level for us right now, but the latter should be well within our means. Ignore the notice "High Stakes Gwent Tournament!" as the related quest is currently unavailable, despite being posted.
+
+Smuggler's Cache
+Before we run off to deal with any quests, though, head to the "Glory Gate" signpost, and from there dive into the canal outside of Novigrad and swim to the north-east to find a "Smuggler's Cache" event. Loot the three chests connected to barrels, then return to shore. Easy-peasy.
+
+Contract: The White Lady (level 16)
+We might as well do the quest "Contract: The White Lady," since it takes place to the south of where we are now. Head south from the notice board where, behind a house, you'll find a lady named Helma, who will tell you about the White Lady and her most recent victims-Micko and a band of fellow drunkards who chose an unusual-but unfortunately uneffective-method for trying to banish the White Lady. Accept to help (after haggling for money, first, if you wish) then head off to find this White Lady.
+
+Head south and slightly east from the outskirts to find a search area. Just east of the center of this area you'll find Micko and his gang, unburied in the fields as Helma told us. Use your Witcher Senses and investigate the bodies and some discarded bodies, then after searching the three bodies follow a trail to the south (after investigating it) and it'll lead you to Drahim Castle.
+
+Search a blood trail outside the castle, which seems to lead down some stairs. Before we follow the trail, however, let's explore the castle, as there's some pretty nifty loot inside. First loot a barrel south-west of the stairs down, where you'll have a chance to score quality loot. There will be plenty of barrels and parcels in the castle which hold Diagrams and Formula-containers which normally don't contain such treasures. Be sure to loot everything.
+
+Head south-east to find a door which can be broken down with Aard, then enter the chamber beyond. There are multiple levels up and down, littered with great loot at no cost to ourselves. Atop the tower are the remains of a whirlwind near a chest that can be investigated, for what that's worth, while at the bottom of the tower you'll find a chest containing "Prince Adrien's Journal" and the Diagram: Feline Steel Sword. If you're fortunate, you could walk out of this place possessing half a dozen new Diagrams/Formula.
+
+Leave the tower and return to the stairs, where a trail beckons us. head down the stairs, loot whatever containers are around and go down another flight of stairs to the south-east, where you'll find the missing body. Examine it and Geralt will decide he needs to find something that belonged to our prey, so we can lure it out.
+
+Objective	Reward
+For finding all of the Noonwraith's victims	25 XP
+Return to the outskirts and talk to Helma, who, when Geralt reveals the nature of the White Lady, will instantly identify who the victim was in life. You'll be given the significant belonging you need to lure the fiend, as well as some backstory about the cause of this event. Take the Silver Dagger you're given and return to the site of Micko's massacre. Prepare as you wish, then active the fire to dispose of the dagger and summon the White Lady. Typical Noonwraith rules apply-use Yrden to force the wraith to manifest so you can harm her with your Silver Sword, then Strong Attack and dodge until she's dead, smiting her life-draining clones when she summons them. Loot her remains for the Silver Sword Deithwen and another Noonwraith Trophy. Once the looting is done, return to Helma and collect your reward.
+
+Objective	Reward
+For slaying the White Lady	260 XP
+184 Crowns
+Two Taverns and a Crossed Witcher
+Cunny of the Goose
+From the outskirts follow a road near the shore to the east where, at a crossroads, you should find a Merchant... not a wandering one, even! He's got a proper stall and everything. Shop from him as you wish, then take a road south to find the "Cunny of the Goose" signpost near a lake. Loot around the inn, as there's plenty of nice alchemical and crafting components here, then head inside. You can talk to Brean Hotsch, who is involved in the quest "Contract: Lord of the Wood" quest, but we need not bother just yet. Instead, talk to the Innkeeper and play Gwent with him. Be sure to buy some cards from him, including an "Impera Brigade Card," a "Young Emissary" card, the "Francesca Findabair, Daisy of the Valley" card, a "Havekar Healer" card and a "Scorch" card. The latter card will be restocked until you've accumulated three of them. You can also find an Herbalist who likes to hang outside of the tavern, although he doesn't sell anything worthwhile.
+
+Guarded Treasure (level 18)
+Leave the tavern and head down a road to the south, along the eastern side of the lake south of Cunny of the Goose. Keep following this road south until you find a Guarded Treasure along another road to the south-east, which once led to Hindhold. Here you'll find a Wyvern (level eighteen) guarding a treasure chest that's lying in some water. Kill the beast, then take its treasure.
+
+Monster Nest (level 6)
+Head along a road to the south-west to find a Monster Nest, guarded by a group of Rotfiends (level six) near some huts. Kill the Rotfiends and blow up their nest and kill the strong Rotfiend (level five) that emerges. Once you pop that one, loot the nest, then search a around the huts for a variety of containers that can be looted.
+
+Objective	Reward
+For destroying the Monster Nest	20 XP
+Now to sum up the rest of this island, as there's really not much left of interest. In the fields north-east of Cunny of the Goose you might come across another Noonwraith (level fifteen), who fights in an identical fashion to every other Noonwraith we've encountered thus far. Along the south-eastern corner of the island you can find a Redanian outpost, south of which you'll find discarded military equipment, now guarded by Drowners (level nine) and Wolves (level five). Just west of the bridge connecting this island to a larger landmass to the east you'll find the "Eternal Fire Shrine"-the signpost and the area.
+
+Seven Cats Inn
+North-east of Cunny of the Goose you'll find a bridge crossing some water to the north beyond which you'll find the "Seven Cat's Inn." Head inside the Inn (perhaps after reading the notices on the notice board... for flavor, not for quests) and talk to the Innkeep, who will play Gwent with you. Once you beat her, buy the following cards from her: "Impera Brigade," "Young Emissary," "Havekar Smuggler" and "Mahakaman Defender."
+
+Smuggler's Cache
+Head north from the Seven Cat's Inn until you reach the spot where three roads converge into one. At this point veer off the road to the west and dive into the water, where you'll find a "Smuggler's Cache" event. Grab the free loot. Smugglers don't deserve to keep their caches.
+
+Guarded Treasure (level 8)
+Swim north, under the bridge that connects the nonhuman district of Novigrad to the land north of the Seven Cat's Inn. Keep swimming north until you reach a small village outside of Novigrad named "Arette". Be sure to get the signpost. There's a quest we can start nearby, but before we bother head north-east from Arette to discover a marsh where a "Guarded Treasure" event can be found. Murder the woefully under-leveled Water Hag (level eight) then search for a treasure chest, near which are some sacks and two corpses that can be looted.
+
+Following the Thread (level 11)
+Return to Arette and head to the south-west to find a small bridge that leads to Novigrad's largest-central-district. Near this bridge is a rather impressive stone millhouse. Head around to the south-eastern side of the building and activate your Witcher Sense to find some blood on the deck outside of the building. Head inside and you'll hear the sounds of combat. Upstairs you'll find a man fighting an Ekimmara (level eleven). Give him a hand and put down the lesser vampire, after which you'll talk to your fellow monster slayer, who just so happens to be a fellow Kaer Morhen-trained Witcher, Lambert. He's got important business drawing him to Novigrad-which he won't elaborate on-but he promises you half of the reward, presumably for the Ekimarra that we killed.
+
+Objective	Reward
+For helping Lambert defeat the Ekimmara	50 XP
+You'll automatically go to collect the reward with Lambert, but things don't turn out quite so simple-after Lambert yells about some "Jad Karadin," he chases our presumed employer off and leaves us to fend off three Guards (level eleven). Kill them, then loot the area-there are two chests nearby, one under a wagon, and another sandwiched between two crates. Once done, head south-east into a building, where you'll witness Lambert finish his business with the man he chased earlier. Afterwards he'll tell you to meet him back at the Seven Cats Inn... and little else. Loot the building then leave-you're now along the northern end of the nonhuman district of Novigrad, just south of the "Southern Gate" signpost.
+
+Before you head off to meet Lambert, return to the mill and loot the place-no need to let a perfectly good Ekimarra go to waste. Return to the Seven Cat's Inn to find Lambert waiting outside. Talk to him and learn the whole sad story behind his erratic behavior, then the two of you will head into the inn to speake to vienne. Play nice and get all the information you need-seems that she knows precious little, but she knows people who might know more. Seems to further this quest, Geralt will have to heady to Skellige, so we'll put it on the back-burner for now. How come we have to go to Skellige and he gets to deal with Selyse and her brothel, anyways? Hardly seems fair...
+
+Objective	Reward
+For chatting with Vienne	80 XP
+The Nonhuman District and the Docks
+Now it's time to finally turn our attentions to Novigrad. Head nort from the Seven Cat's Inn and cross the bridge into the nonhuman district of Novigrad. Along the western end of the island are three bridges leading to other districts, all marked with their own signposts. the "Southern Gate" and "Tretogor Gate" lead to the large, central district of Novigrad, while the southern-most "Gate of the Hierarch" leads to lower Novigrad.
+
+The Dwarven Document Dilemma (level 2)
+Along the eastern coast of the nonhuman district you'll find a bit more to do than discover signposts. Just south of the bridge we used to reach this island you'll find a dwarf named Rostan Muggs standing near the road. Talk to him and he'll tell you of his woes, ultimately starting the quest "The Dwarven Document Dilemma."
+
+Return east across the bridge and, under the eastern arch activate your Witcher Sense and locate where Muggs broke his bottle over his assailant's head. Follow the resulting scent trail back south to the Seven Cat's Inn to find Axel, who is sitting outside of the inn. He has a different take on things-you can either pick a fight with him by being aggressive, then pummel him into submission to get the papers, you can play Gwent for them, or you can use the Axii Sign on him. Of the options, the last is the most lucrative, as it at least gives you some experience.
+
+Objective	Reward
+For using Axii on Axel... heh	40 XP
+Head back to Rostan and he'll come clean, admitting his wrong-doing. A rather perturbed Geralt briskly asks for his pay, which he receives.
+
+Objective	Reward
+For giving Rostan his documents back	20 Crowns
+Ronvid, Shield-Bearer and Scarecrow Slayer!
+Continue south along the road from Rostan and you'll encounter an old friend... Ronvid of the Small Marsh awaits you, seeking a rematch. This time he sports a shield, which he clearly thinks will make a difference. Fight him and beat him and send him running off again.
+
+Objective	Reward
+For teaching Ronvid another lesson	25 XP
+Keep traveling along the road, now to the west. To the south you should spot a merchant's shop near the shore. It's run by one "Elihal", who sells fine clothing and masquerade masks, neither of which you need right now. He also plays Gwent, however, so beat him and add another card to your collection.
+
+Continue south along the road from Elihal's shop until you reach a crossroads. Ignore the bridge to the south-east, and instead follow the dirt road to the west, eventually passing through the "Gate of the Hierarch" to reach lower Novigrad. Once here, head south-west and follow a road west along the southern side of the island. The road will turn north-west and run past a sheltered brazier. Head west past the brazier to find a rather non-descript house, inside which dwells the elven Blacksmith Hattori. Don't talk to him yet-as it advances the quest "Of Swords and Dumplings" which is a bit out of our league right now, but it's worth noting his location for later, all the same.
+
+If you head south-west from the Hattori's shop you might encounter a she-elf being harassed by some human racists. If you step in and interfere on the elf's behalf, the racists will leave peacefully enough, but the elf's response won't be quite as thankful as you might expect. If you leave them alone, the men will run the elf off.
+
+From the brazier head north, and when the street turns east, follow it. You should shortly see an Herbalist icon on your mini-map in one of the houses to the north. This Halfling plays Gwent and sells a surprising variety of Formulae, so he's worth visiting.
+
+A Feast for Crows (level 20)
+Leave the Herbalist's shop and head east along the road until you spot a small bridge to the north. After you cross it, Geralt will comment about a stench. Follow the scent trail (using your Witcher Senses, of course) west into the grass to find a corpse. Use your Witcher Senses to investigate the corpse, which will start the quest "A Feast for Crows," which might be just a little high of a level for now... or so the level indicator seems, but this is one of many cases where the level of the event doesn't really express the difficulty of the quest (or lack thereof). If you're at least level fourteen, you should find this quest to be quite easy.
+
+Search some bloody footprints near by, then follow the trail back east, then north, before it leads into a house to the east. Inside you'll find some seedy looking Dwarves, who apparently work for someone named "Cleaver." After some babbling you'll be given an ultimatum-give them the key you found on the body, or fight. The former option ends the quest quickly and cleanly... but the reward leaves much to be desired. On the other hand, if you refuse you'll provoke the three dwarves (level twenty). It's an enclosed space, and they have two-handed weapons, so parrying isn't much of an option, and dodging can be tricky. Blast them with Igni or use Axii to take one out of the fight, then focus on any unaffected targets, using Strong Attacks to break their guard, repeating as necessary and in general keeping away from them until you're ready to attack. When they're dead, loot their bodies, then the house in general. The chest in question is upstairs, and contains significantly more loot than you would have obtained by just selling the key.
+
+Objective	Reward
+For selling the key to the Dwarves	20 Crowns
+Leave the house and head north a short distance until you find a stone arch to the west. Go through the arch and head west along the canal, crossing under a wooden bridge, then passing by a stone bridge to the north. Between this bridge, and another stone bridge spanning the canal to the north, you'll find a brothel to the south. Head inside and talk ot the Madame. Aside from the obvious services such a place offers, you can buy a number of sweets, treats, and booze from the Madame. She also plays Gwent, so be sure to leave her one card poorer before you leave.
+
+Now to turn our attentions to the western part of this disctrict-the crescent moon-shaped docks. Along the north-central part of the crescent you'll find the "Novigrad Docks" signpost. There's also plenty of miscellaneous containers you can loot here, and precious few guards to stop you. If you're diligent, you should be able to stock up on quite a haul of Alcohest, Alchemists' Powder, and Dwarven Spirit, along with the odd bit of junk or valuable alchemy and crafting components.
+
+Warehouse of Woe (level 13)
+Along the south-western end of this district-the crescent moon shaped docks-you'll find a dwarf arguing with a human while some rather annoyed-sounding guards look on. Talk to the guard and he'll try to hire you to deal with the monster in the warehouse (how it got there is a matter of some dispute between the dwarf and the human). The guard doesn't care-he just wants it gone, and like a good Witcher, so should Geralt.
+
+Accept to do the job and head inside the warehouse, where you'll find a lone Nekker (level thirteen). Kill it, then search the northern corner of the warehouse to find a footprint and a cage with your Witcher Senses. Examine them, head head outside and report to the guard. You can lie about what you found (or lie about finding anything at all), or you can tell the truth.
+
+Objective	Reward
+For dealing with the monster in the warehouse	25 XP
+60 Crowns

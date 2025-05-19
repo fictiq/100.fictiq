@@ -1,0 +1,38 @@
+Skellige (Continued)
+Ruins, Hidden Treasure, You Know... (level 18)
+Loot the giant and its cave, then leave and return to Dorve. You can search the village for piles of boards lying around, which contain the Nails that Octo wants. What we're really after, though, is the treasure mentioned in the letter we picked up earlier. Head along a trail north-east of Dorve until you find some ruins, which are guarded by some Sirines (level thirteen). Kill them, then head through a doorway into a ruined tower, then scale a ledge to the north-west and climb a ladder. Here you'll find a monster nest you can't deal with, a chest. Looting it completes the quest "Ruins, Hidden Treasure, You Know..."
+
+Treasure Hunt: Shortcut (level 13)
+Return to the "Dorve Ruins" signpost and fast-travel to Urksar. From here head north to reach the northern shore of the lake, then follow the shore east. Loot a chest under a roof, then continue east until you find a cave entrance. Enter the cave and score a chest, then continue out another exit and head north-east along the shore to find a "Hidden Treasure" event. Kill some Bandits (level twelve) then loot a sack on their boat, which contains a "Torn Piece of Paper." Picking up the "Torn Piece of Paper" will start the quest "Shortcut." Read it and head south-west into the lake, diving when you reach a search area. You'll find a boat underwater, which contains a chest. Loot it for some goodies, then surface.
+
+King's Gambit (level 18)
+We rescued both of Crach's children, so we might as well go collect our reward. Fast-travel to the "Bridge to Kaer Trolde" signpost and head to the keep, where you'll discover that the wrangling for succession has already begun. Because of Geralt's help, however, he's an honored guest at these proceedings, and who turns down a free meal? Follow Arnvald into the main hall, and as you walk he'll express his concerns about the event.
+
+When you reach the main hall you'll witness some sibling rivalry. Talk to Hjalmar afterwards, then head to Crach's room to collect your reward. Near the room you'll run into Bran's widow, Birna, who is somewhat biased about her political preferences. After chatting with her a bit, you'll take to Crach. Chat him up and he'll talk about his own political ideals, as well as talk about the strengths and weaknesses of his two children. Ask about your reward, and he'll give you a gift most befitting a Witcher. Afterwards you'll hear a commotion from the great hall, and the two will rush off to investigate.
+
+Objective	Reward
+For claiming your reward from Crach	XP Varies
+Fate
+Put down three Bears (level sixteen) which are terrorizing the feast, after which grief and accusations will reign. Fortunately, calmer heads prevail, and a course of action is set upon. It's up to Crach and his clan, as hosts, to seek out and punish this transgression. You can choose to opt out of helping, which completes the quest by leaving it up to Clan an Craite to deal with their own problems... or you can lend them a helping hand. Hjalmar wants to rush out and punish those whom he presumes to be guilty, even without confirmation, while Cerys wants to gain evidence, first. Pick one of the two siblings-preferably whichever one you think would make a better ruler of Skellige.
+
+Objective	Reward
+For killing the bears	XP Varies
+Spoilers!: If you opt out of this quest by leaving it up to Clan an Craite to investigate the incident at the party, Svanrige Bran-son of the late king Bran and his widow, Birna-will become king of Skellige. Otherwise, the new king-or queen-will be whomever you back during this quest, either Hjalmar or Cerys. Backing one of Crach's kids can prove helpful during the quest "The Battle of Kaer Morhen," and of course, the long-term effects on Skellige this decision has is obviously pretty significant.
+
+Hjalmar's Fury
+Geralt and Hjalmar will ride to the village of Fornhala, where Hjalmar tells you of his suspects-the Vildkaarls. Talk to him and he'll continue to be a hot-headed Skellige traditionalist. An eye for an eye... simple, but effective, if you pluck out the right eye. Apply some Cursed Oil to your blade then head up to the village. Hjalamar will point out a corpse to you, and sic his Witcher bloodhound-that's you-on it.
+
+This town is full of lootable containers, so keep your loot googles on as you search around. Activate your Witcher Senses and head up some stairs to the south, then, when you reach a fork, head west to find a grisly shrine. Inspect some clothes, then examine a corpse. Finally check out the shrine, which Hjalmar will identify as belonging to a god named "Svalblod," a god which was too brutal for even the Skelligers.
+
+After the chatter follow a scent trail to the south-west, then up some stairs to the south-east. Examine a corpse then follow some tracks which eventually lead to a house along the southern end of the village. Head inside, where you can find some tattoo dyes, bloody gloves, and some mushrooms. Follow the trail west to find a trap door hidden under a bearskin rug. Climb down a ladder and head down some stairs, then continue south, then east to reach a chamber.
+
+Objective	Reward
+For finding the Vildkaarls' den	XP Varies
+When you enter the chamber a Berserker named Halgrim will speak to you, and claim partial responsibility for what happened at Kaer Trolde. This conversation is bound to be short, as both Hjalmar and Halgrim have no taste for sustained chatter. Defeat Halgrim (level seventeen) and he'll pull a transformation trick. Put this form of Halgrim down, too, then after Geralt exchanges some words with Hjalmar head south and climb a ledge to go further into the caves.
+
+Continue south and drop down a ledge until you find a chamber where more berserkers are performing a ritual. After witnessing how baby Vildkaarls are made, head south-east, the south before climbing a ledge to the west. Continue north-west, then north to reach the ritual chamber, where you'll encounter the Druid who led the ritual. He'll admit to the attacks at Kaer Trolde, but decides to risk fighting a Witcher rather than telling who he was working for. In the fight that ensues you'll have face the Druid-Artis (level eighteen) who will summon Bears (level eighteen) to aid him. Ignore the Bears and focus on Artis. He'll attack with his staff, both physically and magically, but if you Strong Attack-then dodge, and repeat that combo, there's little he can do against you.
+
+When he dies Geralt will find a letter, which reveals that Cerys' approach might have been wiser. We broke the tool, but the hand that wielded it is still at large. Still, blood vengeance was all that was required to restore Clan An Craite's honor, and blood has been spilled in that pursuit. Hjalmar will return to Kaer Trolde and report his findings. Although the masterminds weren't found, Hjalmar's actions restored his clan's honor. So ends "King's Gambit," skip down to "Coronation" to conclude this quest line.
+
+Objective	Reward
+For restoring Clan An Craite's honor by implicating the Vildkaarls	XP Varies

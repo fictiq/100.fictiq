@@ -1,0 +1,66 @@
+A Deadly Plot
+Speaking of Radovid... we might as well go see about Dijkstra's plot against the king. Taking this step won't commit us into anything, so there's no harm in it-besides, it would be premature to turn this quest down before we know more about what Dijkstra is planning.
+
+Plot at the Passiflora
+Travel to the Passiflora and talk to Marquise Serenity, who is in the room to the north-west. Talk to her and she'll lead you to the meeting spot-clearly if she's not one of the conspirators, she's at least aware of the conspiracy. Go through the secret door near where she was standing and up some stairs to find Dijkstra, who will introduce you to one of his co-conspirators. Seems like former intelligence officers tend to stick together, and Radovid's angered all of them... save one glaring omission from the first Witcher game... Anyways, ask what's expected of you and you'll be sent off to find a wayward associate of theirs.
+
+Fast-travel to the "Border Post" signpost and head north to find Gregor. talk to him and he'll tell you why he's in on the conspiracy before he tells you about the "cobbler" you're looking for, whose cart was found nearby. Once you have the info you need, head south from the Border Post and continue south-east along the road (ignoring all forks along the way) until you find the cobbler's cart east of the road. The big shoe on top should identify it well enough.
+
+Trolls and Thaler
+Kill some Wolves (level five) and a Warg (level eight) then activate your Witcher Senses to spot some "signs of a scuffle" on a road, then head south-west, following a trail of shoes (rather than their prints for a change). Along the way you'll find a Troll, who is fussing over a pile of shoes. Ask the Troll-Rogg-about the shoes and he'll point you in the right direction. Head to the "Monster Den" north-west of the "Hanged Man's Tree" signpost. While formerly home to some Nekkers, it is now the home to Trolls.
+
+Venture into the cave's large cavern, where you'll find your cobbler, as well as the other two Trolls, Ogg and Pogg. If you threaten the Trolls, you'll provoke them, and have to fight three Rock Trolls (level sixteen). Otherwise, navigate the conversation and you can tell them that you just need to borrow the cobbler for a little while.
+
+Either way, make off with the cobbler and the two of you will talk on your way back to his cart. When you reach the cart there will be more chatter-ask Thaler more about his cobbler act as you please and the quest will end.
+
+Objective	Reward
+For rescuing Thaler	25 XP
+Note: Completing these three quests will allow us to start the quest "Reason of State" later in the game, which has great impact on the long-term politics of the north. On their own, however, "Eye For an Eye," "Redania's Most Wanted" and "A Deadly Plot" affect nothing, so there's no harm in completing them, no matter how bright or bleak you want the future of the north to be.
+
+Gwent: Playing Thaler
+Before you run off, talk to Thaler again, where you'll find the option to play Gwent with him. He's got a mediocre Scoia'tael deck-count on him to use his "Francesca Findabair, the Beautiful" card to boost the Strength of his Ranged Unit Cards, but otherwise, he's mostly got mid-strength unit cards and a few weak cards with the "Muster" ability. When you win you'll walk away with the coveted "Geralt of Rivia" card, a 15 Strength Close Combat Unit Hero Card. This will start and complete the quest "Gwent: Playing Thaler" as well as update the quest "Gwent: Old Pals." Like Vernon, Thaler tells you to play Lambert.
+
+Objective	Reward
+For defeating Thaler at Gwent	25 XP
+Geralt of Rivia Card
+
+Skellige
+From Novigrad to Kaer Trolde
+We've finished our search for Ciri in Novigrad-seems like Skellige is the only place left to search. Maybe Yennefer has been more successful than we have been?
+
+Destination: Skellige (level 16)
+Track this quest and you'll spot three search areas-three ship captains you need to talk to along the western end of Novigrad, between the Golden Sturgeon and Crippled Kate's. One is a woman just south-west of the Golden Sturgeon who has good reason to never to travel to Skellige again. Head north-west along the shore and head down the first dock you find and board the ship in the search area... which... kind of just disappears on its own. Okay. Time to explore the ship to the west of Crippled Kate's, where you'll find Captain Liglad on the deck of his ship. He'll refer you to someone named Wolverstone, the captain of the ship "Atropos," who is at the Golden Sturgeon.
+
+Head over to the Golden Sturgeon to find Captain Wolverstone on the main floor, drinking away. Talk to him to find out that he's sloshed... and getting passage on his ship will cost you a hefty sum of 1000 Crowns. At this point in the game, though... well, it's not chump change, but you should have enough to spare. Pay him and tell him you're ready to go and you'll set sail.
+
+Geralt will wake to the sound of trouble outside-a proper Skellige welcome. Head outside and fight off some Pirates (levels fourteen, fifteen and sixteen). After a cutscene Geralt will arrive in Skellige, although not in the most graceful of manners. Fend off the question a Skelliger collecting his harvest to learn that a witch has become the guest of some "Crach" character, in Kaer Trolde. Might that be Yennefer? Our handsy Skelliger will give us directions to Kaer Trolde, then depart. Loot the beach to the east and, on a body near a piece of broken boat, along the coast, you'll find 1050 Crowns. Looks like you get to keep the money you paid to get here after all. There's also plenty of containers to loot around here. The dead sure don't need it anymore, and it's better off in your hands than in some Skelliger's.
+
+Monster Nest (level 19)/Place of Power
+New area, new signposts to find, villagers to explore, Merchants and Innkeepers to play Gwent with (yes!), and map markers to clear. Might as well clear our way north to Kaer Trolde and get established in Skellige. First head west into the shallows, where you'll find a couple of small islands. On one is a sunken ship, whereupon you'll find a Monster Nest. Blow it up with a bomb and kill the Erynia (level nineteen) that spawns, then loot the nest and the other various containers nearby. South of this shipwreck you'll find a Place of Power.
+
+Objective	Reward
+For destroying the Monster Nest	20 XP
+For killing the Eryina Guardian	50 XP
+Monster Nest (level 18)
+Backtrack east, then follow the coast in that direction (swimming around sheer rock faces when you must) until you find a Drowner Nest. Kill off a half dozen of so Drowners (level fifteen) then blow up the nest. A stronger Drowner (level eighteen) will arise to oppose you. Put it down and loot the nest, as well as some corpses nearby.
+
+Objective	Reward
+For destroying the Monster Nest	20 XP
+Guarded Treasure (level 16)
+Head uphill to the north until you find a road. Head north-west a short distance to where three road meet to find the "Crossroads" signpost. Yes, another one. Every area has a "Crossroads" signpost, it seems. You can fast travel back to Novigrad/Velen from any signpost on Skellige, which is convenient enough. For now, though, follow a road to the south, then east, and up a hill to find a Wyvern (level sixteen) lurking about its nest. Kill it and loot the corpses nearby to knock off a rather unrewarded "Guarded Treasure" event.
+
+Peace Disrturbed (level 25)
+Return to the "Crossroads" and follow the road north, north-west. Ignore a fork to the north-east as it leads to some crypts where we can start the quest "Peace Distrubed" by talking to two Skelliger women. At level twenty-five, it's doable, but if you want to wait until you're a higher level, that's just as well-it'll be covered here for when you're ready.
+
+Apply some Specter Oil to your Silver Sword and head into the crypt. You'll be able to search the first chamber in relative peace. Put your loot goggles on, because there's a bit of it to be found in these crypts. Score a lucrative chest near a sarcophagus north-east of the entrance, then head down a tunnel to the north-west.
+
+Travel down two flights of stairs and dispatch a Wraith (level twenty-four) then had down a tunnel to the south-west to reach a larger chamber with two Wraiths inside. Loot around, then head down some stairs to the north-west to reach a flooded crypt occupied by two Wraiths (level twenty-four) and a Nightwraith (level twenty-five). Dispatch the lesser Wraiths first, then focus on the Nightwraith, who fights the same as every other Nightwraith we've encountered. Once they're dead, search the room for chests and various other containers, then find an Aardable wall to the north-east of the stairs that led here.
+
+Blast the wall then search beyond the rubble to find some... Han Fiber? Ah well, they're not all winners... Oh, right. Scale the ledge to the south-east and score a chest, then turn north-east, head up a ramp, then scale another pair of ledges and continue down a passage to the south-east, jumping gaps and scaling ledges as you go. Eventually you'll reach a dead-end chamber with a hole in the ground to the south-east. Scale a rock to the north-east to find a chest hiding behind it, then drop down the hole.
+
+Reach the chamber below and search to the north-west to find a chest in an alcove. Once done, head up some stairs to the north-west, continue through a chamber in the same direction, then turn south-west and scale a ledge and Aard some rocks to reach daylight. You can now head south and talk to the old ladies at your leisure-just make your way to the west to reach some roads and follow them south. Along the way, east of the road, you'll spot a merchant. He'll sell you a bunch of maps which reveal signposts when you read them, albeit at significant cost. Save some money and just walk (or ride, or sail) everywhere. Deal with him as you wish, but return to the ladies for your meager reward.
+
+Objective	Reward
+For putting the ghosts to rest	50 XP
+Guarded Treasure (level 7)
+Continue along the road to the north-west until you come to another fork, where you should again ignore the north-eastern road. Instead veer off into the wilderness to the west and head uphill until, near the coast, you find some gravestones over-looking the sea. A trio of Wraiths (level seven) will arrive and challenge you. Banish them, then loot a chest and a corpse to finish this "Guarded Treasure" event.

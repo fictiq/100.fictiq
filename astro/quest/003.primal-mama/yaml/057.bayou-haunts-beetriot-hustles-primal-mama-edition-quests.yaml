@@ -1,0 +1,175 @@
+
+document_title: "Bayou Haunts & Beetriot Hustles - Primal Mama Edition "
+quests:
+  - quest_id: PM_BHBH_001
+    title: "Blueprint: Advanced  Solar Gator-Hide Vest"
+    type: Item Acquisition / Prerequisite
+    location_description: |
+      Fast-travel  (via the Beetriot Monorail shuttle) to the "Delta Interchange" station and take the rusted walkway back towards  the Lickskillet access canal.
+      From the security checkpoint, head south-west, scrambling up a pile  of pre-calamity rubble.
+      Continue past some petrified mangrove stumps and a patch of glowing swamp fungus  to find a corroded maintenance ladder hidden behind a clump of razor-reeds.
+      Scale the ladder into a  derelict pre-calamity pumping station, climb a shaky gantry, and search a locked footlocker along the  southern wall (requires a Lockpick Kit [Basic] or Brute Force [STR 6]).
+    item_reward: " Blueprint: Advanced Solar Gator-Hide Vest"
+    narrative_hook: "Only two more pieces of advanced gear to find ... If you can fabricate any of the Gator-Hide gear, and it would benefit you, consider visiting a Lick skillet fabricator now."
+    gameplay_note: |
+      Although we're crafting new gear,  you shouldn't necessarily scrap your old components. Higher-tier Primal Mama schematics often require components from earlier designs  (e.g., a basic solar cell for an advanced one). Constantly breaking down and rebuilding is wasteful. If  you can bear the weight, consider keeping old Gator-Hide pieces or tech modules in your stash until it's time  to upgrade them again.
+    next_quest_setup:
+      quest_name: "Bogle-Bog ged Gator"
+      travel_instructions: |
+        Now it's time for a long, mucky trek . Fast-travel (via airboat charter) to "Mama Legba's Shack" (a known Swamp Witch  abode, east of the Lickskillet periphery) and follow the murky waterway south-west until it meets the Old Contam River , and consequentially, a tangle of other canals running south-east.
+        Your goal is to follow the raised  levee-road south through the cypress stands.
+      encounter_description: |
+        Along the way, you 'll spot a dilapidated stilt-house east of the levee, where a nervous Homesteader awaits a wandering Runner to offer  aid.
+        He claims some "Bayou Bogle" stole his prized solar-charged pack-gator.  Agree to help him to start the quest "Bogle-Bogged Gator."
+
+  - quest_id: PM _BHBH_002
+    title: "Bogle-Bogged Gator"
+    threat_level : Moderate
+    objective_summary: "Retrieve a stolen solar-charged pack-gator for a homesteader ."
+    steps:
+      - step_description: |
+          Activate your Swamp Savvy to find some distinctive three-to ed pack-gator prints in the mud leading south-east.
+          Follow them as they veer into the dense  sawgrass to the east, then terminate at a scummy gator-wallow, albeit temporarily.
+          Cross the wall ow (watch for leeches!) and continue following the tracks to the south-east until you come to a hidden Bayou Reavers ' camp.
+      - step_description: |
+          The Reaver sentry who spots you will demand to know your business . Tell him you're taking the pack-gator back and he'll threaten violence.
+        choices: 
+          - type: "[FIGHT]"
+            description: "Engage the Reavers (likely 3- 4, armed with crude melee weapons and old shotguns)."
+          - type: "[BARTER (50 Cred s)]"
+            description: "Offer to buy the gator back."
+          - type: "[INTIM IDATE (Erpenthrope Trait or High Reputation)]"
+            description: "Use your fearsome presence  or renown."
+          - type: "[DECEPTION (High Charm/Speech)]"
+            description: "Try  to convince them it's your gator and was just \"borrowed.\""
+          - type: "[FAIL  QUEST]"
+            description: "Or, of course, you can just let the Reavers keep the gator,  but this willingly fails the quest."
+      - step_description: |
+          Once you have the pack-g ator (it's the one with the distinctive solar panel harness, probably looking a bit stressed), guide it back to  the enclosure near its owner's stilt-house, unhitch it, and talk to the Homesteader  to claim your meager reward.
+    rewards_list:
+      - objective: "For Intimidating/De ceiving the Reavers"
+        reward: "40 XP"
+      - objective: "For eliminating the  Reavers"
+        reward: "XP Varies"
+      - objective: "For finding the pack-g ator"
+        reward: "XP Varies"
+      - objective: "For returning the pack-gator "
+        reward: "XP Varies, 20 Gator-Scrip, 3x Purified Water  Rations"
+    gameplay_note: "If you approach the pack-gator within the Reaver camp  without initiating dialogue, they will attack on sight."
+
+  - event_id: PM_BHBH_E0 01
+    title: "Raider Stash"
+    type: Minor Encounter / Loot Location
+    threat _level: Low-Moderate
+    location_description: |
+      Continue following the levee-road south-east until you  find the "Sunken Highway Overpass" landmark signpost.
+      (Optional: "We're a bit past our goal  now, but why not mark it on your nav-comp?")
+      From here, continue south-east to find  a Raider Stash hidden beneath a collapsed section of the overpass.
+    encounter_details: "Eliminate the Rust Devil  Raiders (likely 2-3, plus a guard dog-mutant)."
+    loot_details: |
+       Loot the containers they were guarding.
+      One is a heavy ammo crate near a sputtering generator.
+      Another is  inside the rusted-out shell of a pre-calamity van.
+
+  - event_id: PM_ BHBH_E002
+    title: "Citizen(s) in Distress"
+    type: Rescue  Encounter
+    threat_level: Moderate
+    location_description: |
+      Backtrack north-west, past  the "Sunken Highway Overpass" and take a barely visible side-canal running more east than the levee-road. 
+      Follow it (careful of submerged debris) and it'll turn north-east shortly, eventually splitting into  a waterway running south-east, and another to the north-east.
+      Go south-east until you find  a "Citizen(s) in Distress" marker on your nav-comp.
+    encounter_steps:
+       - "Eliminate several Gator-Gang Punks (level 9 equivalent, armed with nail-bats and rusty pistols)."
+       - "Loot their leader for a \"Crudely Welded Cage Key.\""
+      - "Free the Swamp Witch Initiate , who will mumble thanks and head back to her mistress's territory, which is along the canal a ways to the south." 
+      - "Once done, loot the nearby supply caches, then grab the \"Gator-Gang Ledger\" from  a makeshift table."
+    rewards_list:
+      - objective: "For freeing the Swamp Witch Initiate"
+         reward: "150 XP, Minor Boon from Mama Legba later?"
+
+  - quest_id:  PM_BHBH_003_PART1
+    title: "Professor Pylon's Derelict Solar  Lab - Blueprint Acquisition"
+    type: Item Acquisition / Prerequisite
+    item_to_acquire: "Blueprint : Advanced Thermal Regulator Unit (for Armor)"
+    location_description: |
+      Backtrack north to the canal fork and  follow the north-eastern waterway.
+      When the canal forks again, continue north-east, and when it forks  a third time, head south-east to find the "Pylon's Folly" landmark signpost.
+      Continue south -east to reach the overgrown grounds of the lab, then head over to the tilting, vine-choked main building .
+    narrative_note: "This starts the quest \"Of Sunshine and Slime,\" which we'll ignore for now ."
+    action_sequence: |
+      Instead, head up two flights of precarious metal stairs (one external, one internal)  to find what was once an observation deck, still littered with smashed consoles (1970s aesthetic) and now missing its  dome. And walls. And much of the floor.
+      Anyways, search by a toppled data-tape rack  to the north to find a reinforced chest, which contains the Blueprint: Advanced Thermal Regulator Unit.
+
+  - quest_ id: PM_BHBH_003
+    title: "Of Sunshine and Slime"
+    threat _level: Moderate-High
+    prerequisites:
+      - item: "Cracked Sunstone Figurine" 
+      - item: "Corroded Gecko Figurine"
+      - optional_trigger: "Interaction with data-broker  \"Info-Shorty\" in Beetriot Undercity, or finding Pylon's Folly."
+    init iation_steps:
+      - |
+        If you didn't previously interact with the eccentric data-broker "Info-Short y" in the Beetriot Undercity, the quest "Of Sunshine and Slime" will start, and you 'll be directed to find him... hence why we may have triggered this earlier.
+      - |
+        You should  already have the "Cracked Sunstone Figurine" and the "Corroded Gecko Figurine" (perhaps from  a previous quest or random loot).
+      - |
+        Use your Swamp Savvy (or a specific scanning device if the quest  provides one) to investigate a humming, sparking pre-calamity control panel.
+      - |
+        Activate it  (if you have the aforementioned figurines in your inventory, they might slot into receptacles) to cause a flickering hard-light  gateway to shimmer into existence. Head inside.
+    sections:
+      - section_title: "The Irradiated  Filter Beds"
+        description: |
+          Inside, you'll discover that the Professor who used to work here was... a  bio-luminescence enthusiast with questionable safety protocols. The quest name makes sense now, doesn't it?
+          Below you to  the east is a series of interconnected filtration tanks, some of them leaking such toxic, glowing sludge they'll cause your radiation geiger  counter (part of your HUD) to spike dangerously, impeding your health regeneration and causing visual distortion.
+          The goal is simple:  clear the maze by sticking to the less contaminated walkways (or quickly dashing through hotter zones) and avoiding direct contact with the  sludge.
+          You can tell the dangerously irradiated sludge by the intense, sickly green/yellow glow and the angry crack le of your geiger counter.
+          Simply move towards a pathway, and if your rad-meter spikes violently,  backtrack and pick another direction... or you can just sprint through it, chugging Rad-Away Chems.
+           There are enough small, shielded alcoves to survive. You start out along the western edge of the area, and your  goal is to climb onto a maintenance platform to the south-east.
+          Once on the platform, head up some stairs ( and a rickety wooden ramp someone else jury-rigged) until you find a reinforced blast door to the east.
+         rewards_list:
+          - objective: "For surviving the Irradiated Filter Beds"
+            reward: "XP Varies,  1x Rad-Resistant Underlay (clothing mod)"
+
+      - section_title: "The Flooded  Generator Core"
+        description: |
+          Continue through the blast door and interact with another flickering gateway to activate it, then head  on through to reach another part of the lab – this one housing a flooded coolant system for a massive, inert generator core .
+          Continue down some grimy stairs, then down a rubble-strewn ramp to reach the oily water.
+          Path  1 (less optimal): From here you can swim south, then east (never having to dive, but the water  is opaque and unnerving) to reach a partially submerged control room to the east, surrounded by unscalable, slime-covered walls.  There's a waterlogged chest along the southern edge of this room, but otherwise, there's little to recommend  it.
+          Path 2 (optimal): Instead, swim north from where you first reach the water and dive (requires Re breather Mask or good lungs) until you reach a utility tunnel where you can surface. Do so and swim/w ade to the east to find shallow water near a scalable ladder. Climb up some platforms and continue south-east, then east until  you find another ladder to climb. Climb it, then continue south-east to find a narrow service catwalk you can jump  across (or you can chicken out and drop down to some lower gantries to the north-east, then, while on lower- ground head south to find some more ladders to climb).
+        encounter_details: |
+          On the other side , you'll find a Giga-Gecko (a large, mutated, bio-luminescent reptile, level  8 equivalent) prowling a forgotten laboratory. Kill it and search around.
+          To the south-west, you'll  find – on a console – a "Robo-Bull Figurine (Toy)" and "Pylon's Final  Log Entry (Audio-Tape)."
+          Continue west to find some crumbling concrete you can blast away with an Explosive Charge  (or if you have an Erpenthrope's strength, maybe smash through), beyond which you'll find some supply containers  you can loot.
+          North of the blastable wall is another gateway console, which you can activate and pass through.
+         rewards_list:
+          - objective: "For navigating the Flooded Generator Core"
+            reward: "XP  Varies, Schematic: Rebreather Filter Upgrade" # This value contains a colon, so it's quoted.
+
+      -  section_title: "The Burt Special"
+        description: |
+          To the south-west, you'll spot a  large, angry, red energy barrier crackling between you and some serious loot.
+          Head south to find some more unstable concrete that  can be blasted with an Explosive Charge.
+          Then, target the Focusing Crystal on the pedestal with a well-aimed shot  from an energy weapon (or perhaps by overloading it with a jury-rigged EMP device).
+          Another crystal lies along the wall  to the north, but this one isn't hidden.
+          Once both have been shattered or overloaded, the barrier  will fall.
+          Head up some stairs and grab a "Robo-Snake Figurine (Toy)" from a  chest, and take the unique, lovingly maintained .44 Magnum from its display case near a faded Burt Reynolds poster...  which your character might dub "The Burt Special."
+        narrative_flavor: |
+          ...Yes. "The Burt  Special" is named after the deified celebrity. It's got custom gator-tooth grips and "Bandit " scratched into the barrel. Oh, Primal Mama... why not?
+        exit_instructions: "Anyways,  head up some stairs near the poster to the south-west to find another gateway, which will take you out of this  dangerously eccentric laboratory."
+        rewards_list:
+          - objective: "For claiming the unique .44 Magnum , \"The Burt Special\""
+            reward: "XP Varies, \"The Burt Special\" (Unique Fire arm)"
+
+  - event_id: PM_BHBH_E003
+    title: "Guarded St ash (Alpha Solar Gator)"
+    type: Boss Encounter / Loot Location
+    threat_level: Very High
+    location_ description: |
+      Head south-west from the "Pylon's Folly" landmark and into the deep swamp. 
+    preliminary_encounters: "Dispatch whatever aggressive Mutated Snapping Turtles (level 5 equivalent) and packs  of Feral Hounds (level 8 equivalent) pester you along the way."
+    main_encounter_ description: |
+      Eventually, you'll come across a "Guarded Stash" marker, where an Alpha Solar Gator  (a massive, heavily armored GE alligator, level 20 equivalent) stands guard in front of a half-submerged pre- calamity armored car.
+    objective: "Kill the Alpha Solar Gator – and perhaps the swarms of Vampire Bunnies ( level 22 equivalent annoyance) it seems to tolerate or even attract."
+    loot_reward: "Loot the armored  car's strongbox. Inside is the Heavy Laser Rifle \"Sunstroke.\""
+    narrative_segue:  "If you can handle this, you'll be fine to tackle whatever quests await in the Beetriot hazardous zones.  Speaking of which..."

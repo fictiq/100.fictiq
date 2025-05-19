@@ -1,0 +1,132 @@
+Velen
+Geralt arrives at Velen to discover that the "Hanged Man's Tree" lives up to its name. This area is the front lines in the war between Redania and Nilfgaard, with the Pontar River serving as the major geographical feature separating the two hostile forces. Atrocities are, unfortunately, to be expected in such a situation.
+
+Go into your menu and take a peek at your map, and one thing should become abundantly clear-this are is on an entirely different scale than White Orchard was. It's different in another regard, as well: Enemy levels will vary quite a bit more here than in White Orchard. In the fields near Hanged Man's Tree you can find Wild Dogs (level one) that might lull you into a false sense of security. A short distance north can encounter Nekkers (level six). Still not too bad. Further north, by the shore, you can expect to start running into Endrega (levels nine and eleven, for workers and warriors, respectively), and Drowners (also level nine). As a level four Witcher with a Viper Silver Sword, these kinds of critters are at the limit of our powers. Further east along some swamp island you might encounter a level twenty Water Hag.
+
+Simply put, the old geographical/clear everything in the area approach we used in White Orchard won't work here. We'll have to pick and choose our targets as we can handle them, even if it means a bit of back-tracking.
+
+Crossing the Pontar
+As you've probably noticed, there are a couple of large cities in the area, namely Novigrad to the north, and Oxenfurt to the east. Unfortunately, if you try to head there on foot, and cross the bridges like a good, civilized Witcher, you'll find that access is being restricted by the Redanians. There are a number of reasons why we'd want to get into these cities before we have to head here for story purposes. Access to more diverse merchants, Journeyman rank Blacksmiths and Armorers, and more Gwent players being on the top of that list of reasons. So how to get there?
+
+The first and easiest way to get there is by simply swimming. Yeah, access is restricted, and nobody in their right minds would swim through often-polluted city waters. Witchers who are immune to disease, however, are less bothered. Of course, there are quests we can do to gain access, and since they'll end up with us scoring loot and experience, it's not a bad idea to try and get into these cities through legitimate means. Well... perhaps legitimate isn't the correct word...
+
+Start things out by heading along the road north of the "Hanged Man's Tree" signpost. Ignore the first road to the west (unless you want to score some extra loot and experience, in which case see the "Monster Den" section, below), then when you come to another fork, continue north-west to reach a small camp (another map marker can be cleared along the way here, see the "Person(s) in Distress" section below). A battlefield sprawls to the south, while to the north is a bridge that leads to a small island, an island that's been garrisoned by the Redanians. North of this is a larger island south of Novigrad. For all intents and purposes, however, getting over the Pontar will give us access to Novigrad.
+
+Monster Den (level 6)
+There are a few things we can do along the way, if you're feeling adventurous. First, while heading north from the "Hanged Man's Tree" signpost, take the first road to the west. It'll turn south-west soon enough, and eventually head past a cave, outside of which lurk several Nekkers (level six). You may have encountered Nekkers in White Orchard. They're small, weak, and they like to attack in packs-not really much strategy involved, considering you can knock them out of attacks with even fast attacks, aggressive play works fine, just try to not get surrounded. Exterminate the pests, then loot a chest west of the cave entrance, then climb some scaffolding to the north of the cave to score another chest. Further south, in a chasm bridged by a decrepit wooden construction, you'll find more goodies to loot.
+
+Head into the cave and go down a tunnel that loops around counter-clockwise. Make sure to loot a cubby to the north as you go, as it has a pair of crates and a chest with the Diagram: Superior Ursine Armor, Diagram: Superior Ursine Gauntlets, Diagram: Superior Ursine Trousers, and the Diagram: Superior Ursine Boots in it. Score. It's a high-level set (level 27), and we'll need to find its lesser "Enhanced" version before we can craft it... but better to have it than not.
+
+Keep heading down the tunnel until you reach a large chamber occupied by more Nekkers. Smite them, then loot a chest along the northern end of the room, then climb onto a wooden structure and loot another chest above the last one with some decent loot in both. In a cubby to the east you'll find another chest worth searching.
+
+Bandit Camp (level 10)
+Don't let the level scare you off-with a little patience, this map marker is easy enough to clear. It lies north and slightly east of the Monster Den, above, but it's also close to the road we were traveling along. You'll probably spot some mounted Bandits (level seven) before encountering any of the stronger Bandits on foot (levels nine and ten). Kill the mounted Bandits first, either by slasing them as they ride by (using Quen to negate their attacks) or by using Aard to knock them off their horses, and performing a coup-de-grace while they're on the ground.
+
+Once done, head to the map marker where you'll find stronger Bandits on foot. A combination of ripostes, strong attacks, and either Aard or Quen will see you to victory, just as long as you're patient. They're not fast or powerful enough to be really dangerous, despite their levels. Once they're dead, loot the Bandit Chief (who had a shield) for a Cage Key, then head over to the cage where you'll find a poor, imprisoned merchant. Free him and he'll tell you he's heading to the camp near the Pontar (near out own destination, to the north-west), where he'll happily sell you junk you don't need. Be sure to pick up the note "Unsent Letter" where the Bandit Chief gleefully laid out his plans to spend the ill-gotten gain and show up his nagging wife. Right. Head north from the cage to find some containers to search, including a chest which can contain exceptional items. Once done, head north to find the road and follow it north-west, through a battlefield camp, then over a bridge.
+
+Thou Shall Not Pass (Level 7)
+As you head across the bridge, however, you'll be accosted by Redanians, who inform you that the bridge is closed to all who don't have a pass. Inquire further and you'll find out that the Redanians aren't too friendly to Witchers, and according to the report we got back in Vizima, this includes all nonhumans, magic-users, and other "deviants". Either bribe him (ten Crowns) or use the Axii Sign to get more information-we'll either need to find a royal official, or failing that, buy one off the black market. This starts the quest "Thou Shall Not Pass".
+
+Note: Bribing people will earn you one experience point per ten Crowns spent. Not really a great way to earn experience, but it's worth nothing. It will not be included in the quest rewards.
+
+Objective	Reward
+For using the Axii Sign on the Redanian Soldier	25 XP
+Fake Papers
+Return to the camp south of the Redanian fort and look around for a "Shady Merchant". Talk to him and he'll offer to sell you a pass for the low, low price of 100 Crowns. Okay, that's not so low. That kind of sucks. Either pay him for your pass, use the Axii Sign (requires Delusion level one) to get a discounted price of 50 Orens, or play the cheapskate. In the latter case, he'll offer you a discount if you do a little job for him-his brother-in-law is busy looting the battlefield to the south, but like all scenes of slaughter, it's drawn Necrophages. Guard his brother and he'll give you a discount. This starts the quest "Bitter Harvest". Since the latter is worth some Crowns and experience, there's no reason we shouldn't lend a hand.
+
+Objective	Reward
+For using the Axii Sign on the Shady Merchant	40 XP
+
+Bitter Harvest (level 9)
+Head down to the battlefield and search for a man named Albin Hart-you may have to dispatch a few Ghouls (level nine) before you can talk to him. Once you do, you'll find that he's pretty straight-forward. He'll offer to pay you to get rid of the Necrophages around here. Agree, then head south and wait for your prey to arrive. Fight off several waves of Necrophages, including two waves of three Ghouls (level seven) then a group including a Rotfiend (level eight) and two Ghouls, then finally another group of three Ghouls. You have to be diligent on this quest, as the Necrophages are shameless about going after Albin Hart and his subordinates.
+
+After the Necrophages are dead, talk to one of the survivors-preferably Albin Hart. Depending on how many people survived you'll get 20, 50, 70, or 100 Crowns, and 50 experience. Return to the Shady Merchant and tell him the good news, which will prompt him to lower the price of the pass to 25 Orens. If Albin died, he'll decide to be a jerk an refuse to sell you the pass, even though you can use the Axii Sign on him and go through the motions (complete with experience) but you won't get a pass.
+
+If you failed to get a pass here, or you just want to do some more questing, good news! Head over to the Notice Board near the bridge and take the notice "Contract: Woodland Beast" to start a quest by the same name. Talk to the nearby Captain of the Guard and ask about the notice to learn that some critter in the swamp has been raiding their supplies, and now they're in a sorry state. In exchange for the beast's head he'll offer Crowns and a pass. Sounds good.
+
+Objective	Reward
+For fighting off the Necrophages	50 XP
+20 - 100 Crowns
+Hungry Children (level 4)
+Head along a road south-west from the camp until you reach a four-way split in the path. From here continue along a road to the south until you reach a three-way junction, at which juncture you'll want to head west, and continue west when the path splits again. Along the way you'll spot a house to the north, and since it has a cute little quest marker, we might as well check it out.
+
+Walk up to the house and slaughter a Wild Dog (level four), then listen to some children scheme inside, after which Geralt will coax them out. This collection of unrelated kids lost their parents either through war, or simple abandonement, as you'll learn if you ask about their parents. Either give them Crowns, food, or nothing. The middle choice seems best, since having coin might just make them more of a target. If you read the book "In Beast's Clothing" you'll get a bestiary entry for Ulfhedinn and Werewolves, as well as the formula for Werewolf Decoction.
+
+Objective	Reward
+For giving the children money or food	10 XP
+Doll
+In Beast's Clothing
+Contract: Woodland Beast (level 6)
+Continue along the road to the south-west until you find the quest marker east of the road. Veer off into the wilderness and slay a pair of Alghouls (level five) who fight much like Ghouls, save you'll be repelled after you strike them. Use Igni, strong style, and dodge when necessary, then activate your Witcher Senses and search the wreckage. Examining the bodies and some crates suggests that this wasn't the work of monsters.
+
+Examine, then follow a trail to the south and the search area will shift to accomodate the tracks. Follow them south-west, over a road, and down to a river ford. Dispatch a half-dozen Drowners (level four) then follow the footprints on the opposite bank up a hill. A short distance later, Geralt will be spotted by some Scoia'tael, who are, as usual, suspicious of the motives of any human.
+
+You have two options here-agree to surrender your weapons and go talk to the Scoia'tael leader, or you can pick a fight for challenging their genocidal actions or by pretending you're out for a stroll. Humorless elves... If you do the latter, you'll have to put down a group of Scoia'tael (level five) and their leader, Vernossiel (level nine). Even if you plan to pick a fight later, for now it's best to agree to surrender your weapons and meet their leader.
+
+Once you meet their leader, you again get the option to pick a fight (this time unarmed!) or agree to leave and forget what you saw here. For making the latter, wiser choice (in the Scoia'tael's eyes at least) you'll be given a reward. Perhaps an incentive for good behavior? You can now choose to return to the Captain and tattle on the Scoia'tael (which will earn you the pass, but not the coin) or you can, after agreeing to leave the Scoia'tael alone, simply murder them, loot their camp, and tell the Captain about your good deed, which earns you the full reward from both sides, and prompts the Captain to decide that the only way to pacify the nonhumans is by pouring gasoline on a fire... Either way, be sure to get your pass.
+
+Objective	Reward
+For promising to leave the Scoia'tael alone	Silk
+Tracker's Trousers
+Wolf Hide x6
+Allspice x2
+For telling the Captain about the location of the Scoia'tael	25 XP
+Letter of Safe Conduct
+For telling the Captain you killed the Scoia'tael	25 XP
+30 Crowns
+Letter of Safe Conduct
+
+
+
+
+
+
+
+
+
+Anyways, one way or another you now have a pass to get into Novigrad, so return to the guards, flash your new pass, and walk on past. This will work to get you into the Border Post island, as well as into Oxenfurt. While it's a fine time to explore the map at your leisure, find signposts, play Gwent (most merchants will play you-innkepers will usually play, and they'll sell cards), and shop, we won't officially be exploring either two areas just yet. If you want to avoid accidently starting quests before you're ready, make Oxenfurt your destination. It has the craftsmen you need without any surprise quests... or just reload if you get involved in something in Novigrad you don't yet wish to deal with.
+
+Objective	Reward
+For showing the guard your swanky new pass	75 XP
+
+
+Griffin Swords
+Before we start hunting Ciri, there's one more thing we can do-namely, find some better Witcher gear. We won't be able to do all of this quest yet, but we should at least be able to get the Steel Sword diagram, and if you're determined enough, the Silver Sword diagram. Once you're level seven, you should be able to complete the entire quest, but again, there's no harm in getting started early.
+
+Death by Fire (level 10)
+From the Border Post head back south-east across the bridge and follow the road through the camp, past the Prisoner(s) in Distress marker, and to the roads that lead south to Hanged Man's Tree. From here continue east along a currently unexplored road until you find some Bandits hanging around outside a house. A burning house. Approach and they'll admit they set the fire, and threaten to... well, it's rude.
+
+Either leave them to their cooking, or stand up for their victim. In the case of the latter, you'll have to kill the Bandits. Once done, use Aard on the junk in front of the door, then head inside the burning house. Smoke inhalation works like drowning-you only have so much time before you start to suffocate. The elf woman is smart enough to get herself out of there. Be sure to loot a shelf, then prove you're as smart as she is. Once outside, talk to her and she'll reward you by telling you about some cash she stashed... which it's just not safe for her to have anymore. With that, she departs. Loot the bandits-one of them will drop Relic-quality boots "Alder Folk Boots", which are most likely better than what you've got on now.
+
+Objective	Reward
+For saving the elf	25 XP
+Monster Nest (Level 6)
+Follow the road east until you find a branch leading south, where you can discover the "Codger's Quarry" signpost, for fast-travel convenience. Backtrack to the north and continue following the road to the north-east until this road bisects another road, also running north-east/south-west, albeit at a shallower angle. To the west will be a bridge looming over a shallow stream. Climb down to the stream and follow it north to find a Nekker nest, guarded, of course, by Nekkers (level six). Kill the critters, blow the nest, and loot a chest near the nest.
+
+Objective	Reward
+For destroying the Monster Nest	20 XP
+Monster Nest (level 7)
+Climb back onto the road and follow it south-west, leaping over the gap in the bridge, and following the road until it terminates at a ruined bridge collapsing into the swamp. Climb down into the swamp and continue across to the north, where the bridge-and the road beyond-continues. There are two things to be wary of here-first, Foglets (level four). As their name suggests, they're critters that enjoy ambushing prey from the concealment of swamp fog, turning themselves invisible. You can still see the fog they trail, however, so you don't need to see them to dodge them, after which they become visible. Or you could use Igni to catch them while they think they can't be seen, or Yrden, which will force them to become visible.
+
+The next threat is further north, near the tower, the in form of Endrega Workers (level nine) and Endrega Warriors (level eleven). The latter are the most dangerous, capable of poisoning with a hit, dealing some wicked damage, and most of all, taking a bit of punishment themselves. Try to eliminate the Workers first so they don't get in your way, then engage the Warriors one at a time, is possible. They'll take a lot of hits at our level, but they're pretty predictable. Use Quen to absorb their attacks, then hit them with three strong attacks, after which, dodge and repeat. It's the "rule-of-three" that works on a surprising variety of foes.
+
+Once the bugs and Foglets are dead, search along the southern end of the island to find a doorway you can use to gain entry to the keep, as well as the "Hindhost" signpost. On the ground floor of the keep you can find plenty of containers to loot (your reward for getting past the Endregas). Near a closed and blocked gate south of stairs leading to the upper reaches of the keep you'll find the note "Aen N'og Mab Taedh'morc".
+
+Go up the stairs to reach an exterior, elevated part of the keep, where the Harpies (levels 5-7) and cut them down. Their nest is near the stairs. Blow it up, then head through a doorway east of the nest to find a skeleton and a chest to loot. The Skeleton can be searched for the Diagram: Griffin Steel Sword and "Balsick's Letter". Picking up the latter starts the quest "Scavenger Hunt: Griffin School Gear". In the nearby chest you'll find, among other gear, "Witcher George's Confession".
+
+Objective	Reward
+For destroying the Monster Nest	20 XP
+The next part of the quest can be somewhat hard to get, mostly because it's guarded by a powerful foe. It can be done, however, and it'll be a significant upgrade to our current Silver Sword-even if you crafted the Viper Silver Sword earlier. If you're going to pass, skip ahead to the main story quest, "The Nilfgaardian Connection".
+
+Hidden Treasure: The Things Men Do for Coin (level 12)
+Activate the "Hindhold" signpost and fast travel back to the "Border Post" signpost. From there, make your way to the water and swim west to an island, where a Hidden Treasure event awaits. The signature feature here is a mound of burning corpses. Lovely. There are also some Nekkers (level six) guarding this area, which shouldn't be any trouble. At the Hidden Treasure marker you'll find a dead Dwarf near a watch tower. Search his body for a "Treasure Key" and a "Letter", which starts the quest "The Things Men Do For Coin...". Read the latter to update the quest, then follow a trail to the south-to the mound of corpses. Use Aard on the mound of corpses to put the fire out, then search near some wooden debris to find a container with some choice loot inside.
+
+Monster Nest (level 6)
+Swim west again to reach another island, where the remains of some military camp is evident. Now the area houses a Rotfiend nest. Rotfiends (level six) are Necrophages like Ghouls, with one imporatant difference-they explode violently when they are nearly dead, so when they start to shudder and stop moving, get clear of them. The Igni Sign works wonders on them.
+
+Once the guardians are dead, blow the nest and a stronger Rotfiend (level five) will show up. Don't let its level fool you-it can withstand a lot more damage, and will only explode once it's dead, and this time into a cloud of noxious mist. Considering using Igni, your crossbow, or bombs when it's nearly dead to safely finish it off from afar. Loot the nest, then search the camp for some loot, including a chest with exceptional loot inside of it at the end of a road, near the shore north of the Rotfiend Nest.
+
+Objective	Rewards
+For destroying the Monster Nest	20 XP
+Spoils of War (level 4)
+Leave the island and swim south-west to find a "Spoils of War" event in the water. You'll have to dive to get at two chests resting on the sea floor, and you might be harassed by some Drowners (level four). Shoot them with your crossbow, as it's your only means of defending yourself while under water. Loot the chests, surface, then continue swimming west, avoiding the island to the south entirely, and instead swimming to the one beyond it to the west. The island we passed has a Forktail (level 18) along the northern hills that's just looking for a low-level Witcher to snack on. Don't be that guy.

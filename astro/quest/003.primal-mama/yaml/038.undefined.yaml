@@ -1,0 +1,178 @@
+
+# Story World Codex: Quest Functional Profile
+# Based on Doležel 's Heterocosmica III.B.II.B (Functional Properties)
+
+World: Primal Mama
+Cod exVersion: "0.1 - Quest Definitions"
+LastUpdated: "[Current Date]" # Placeholder, replace with actual date
+ LeadArchitects: "[Your Name/Studio Name]" # Placeholder
+
+---
+
+# Quest Functional Profile: Gator Bait and Switch 
+
+QuestID: QUEST_GatorBaitSwitch_01
+QuestName: Gator Bait and Switch
+QuestType : "Investigation | Problem-Solving | (Optional) Combat | Social Interaction"
+PrimaryAuthenticationSources:
+  - "Pr imal Mama Coherence & Internal Logic Protocol v0.1"
+  - "This Codex Entry"
+EstimatedLevel : "Player Level 5-8"
+Locations:
+  - Lickskillet Outskirts
+  -  Mambo Shula's Shack (Swamp)
+  - Potential GatorCorp Processing Overflow (Swamp Edge) 
+
+---
+
+AuthenticatedFunctionalPropertiesBundle:
+  # Purpose: Define the primary intended or actualized function of the quest  within the world system.
+  CoreFunctionPurpose:
+    PrimaryRole:
+      Description: "To immerse the  player in the socio-economic tensions of Primal Mama by highlighting the conflict between mom-and-pop alligator farmers and  the encroaching influence of the Meat Oligarchy. It showcases the world's unique blend of advanced biotech (GE All igators) and the imposed 1970s technological aesthetic, and introduces key character archetypes (struggling farmer,  enigmatic Swamp Witch)."
+      Authentication: "[PrimalMama_Coherence_v0.1_Deontic _Axiological]"
+    SecondaryRoles:
+      Descriptions:
+        - "Provide an opportunity for the player  to make choices with tangible local consequences, build reputation with Lickskillet locals or gain insight into GatorCorp's  methods."
+        - "Introduce the concept of technological sabotage masked as other issues."
+        - "Allow interaction with  the supernatural elements (Swamp Witch) in a practical problem-solving context."
+      Authentication: "[PrimalMama _Coherence_v0.1_Axiological_Epistemic]"
+
+  # Purpose: Define what the  player *can* actively do to progress the quest.
+  KeyCapabilitiesAndPowers:
+    - CapabilityID: FUNC- QGBS-01
+      Name: Investigate Distressed Gators
+      Description: "Player is tasked by Mama  Agnes, a Lickskillet gator farmer, to discover why her prize GE Alligators are failing to hold their  solar charge and exhibiting unusual sluggishness or aggression. Player uses observational skills (Witcher Senses-equivalent: \" Swamp Sense\") to examine the gators and their enclosure."
+      Authentication: "Visual cues on gators ( dimmed chromatophores, unusual attachments), environmental clues."
+      LimitsNuances: "Initial examination may yield confusing or  misleading data (e.g., appearing like a biological ailment or simple malfunction)."
+    - CapabilityID: FUNC- QGBS-02
+      Name: Consult Local Experts
+      Description: "Player seeks advice. Mama Agnes  suggests Mambo Shula, a local Swamp Witch, due to the \"unnatural\" feel of the problem. Player  can also try talking to a local (stigmatized) Automaton mechanic if they suspect tech, though the mechanic may be unhelpful  or fearful."
+      Authentication: "Dialogue with Mama Agnes. Mambo Shula's known esoteric knowledge. Automaton mechanic' s social standing."
+      LimitsNuances: "Mambo Shula speaks in riddles or demands a small favor  (e.g., a rare herb, a shiny bauble). Automaton mechanic is hesitant to get involved due to  stigma."
+    - CapabilityID: FUNC-QGBS-03
+      Name: Uncover Sabotage  Device
+      Description: "Guided by clues (e.g., Mambo Shula pointing out non-70 s tech, or player's own deduction), player discovers a small, sophisticated device attached to the gators' solar  absorption arrays or internal bio-batteries. The device's design is too sleek, too modern, violating the  1970s aesthetic constraint."
+      Authentication: "Device is visually distinct. Swamp Sense highlights it as anomalous. Possible  interaction with it yields diagnostic data (if player has tech skill) or Mambo Shula can \"read\" its intent ."
+      LimitsNuances: "Device might have a minor countermeasure (small shock, temporary disorientation)."
+     - CapabilityID: FUNC-QGBS-04
+      Name: Trace Device Origin
+      Description: " Player investigates the origin of the device. This could involve: finding a discarded shipping manifest with a GatorCorp shell company logo nearby,  Mambo Shula identifying residual \"corporate magic\" (i.e., bad juju from soulless entities),  or tracking faint energy signatures back to a hidden drop point used by a GatorCorp agent."
+      Authentication: "Physical evidence, magical  \"scrying\" by Shula, or following electronic/energy trails with Swamp Sense."
+      LimitsNuances:  "Evidence trail may be deliberately obscured or lead through dangerous swamp territory (vampire bunnies, wild gators)."
+     - CapabilityID: FUNC-QGBS-05
+      Name: "Confront GatorCorp Agent / Resolve Situation "
+      Description: "Player confronts a low-level GatorCorp \"field technician\" or enforcer responsible for placing the devices.  Player has multiple resolution paths:"
+      ResolutionPaths:
+        - "1. Intimidation/Persuasion:  Convince/threaten the agent to remove devices and provide a counter-measure or compensation for Mama Agnes."
+         - "2. Combat: Fight the agent (who might have a stun baton or a less-lethal 70s- style energy weapon, or even a \"leashed\" small, aggressive gator)."
+        - "3. Sab otage Reversal: With Mambo Shula's help or player's own tech/magic skill, disable or reverse- engineer the devices (potentially creating a jury-rigged 70s-style counter)."
+        - "4 . Report to Ineffective Local Authority: Leading to minimal or no real consequence for GatorCorp but perhaps some local sympathy." 
+      Authentication: "Dialogue system, combat mechanics, crafting/ritual mechanics."
+      LimitsNuances: "Agent might offer  a bribe. Direct assault on GatorCorp interests could have future negative repercussions. A \"perfect\" solution might be difficult."
+
+   # Purpose: Define learned or practiced functional competencies the player will use.
+  AcquiredSkillsAndExpertise:
+     - SkillID: SKL-QGBS-INV
+      Name: Swamp Sense Investigation
+      ProficiencyLevel : "Basic to Competent."
+      Authentication: "Required for finding clues on gators, tracking devices, and  navigating swamp hazards."
+    - SkillID: SKL-QGBS-SOC
+      Name: "Dialogue & Persuasion "
+      ProficiencyLevel: "Competent. (Potentially augmented by Axii-equivalent if player is Erpenthrope  or has learned minor swamp charms)."
+      Authentication: "Needed for interacting with Mama Agnes, Mambo Shula, Automaton mechanic , and GatorCorp agent."
+    - SkillID: "SKL-QGBS-CMB (Optional )"
+      Name: "Bayou Brawling / Firearm Proficiency"
+      ProficiencyLevel: "Basic  to Competent."
+      Authentication: "May be required if confronting GatorCorp agent turns violent."
+    - SkillID: " SKL-QGBS-TEC/MAG (Optional)"
+      Name: "Retro-Tech Tinkering / Minor Swamp Magic "
+      ProficiencyLevel: "Basic."
+      Authentication: "Could allow for alternative solutions like disabling devices or  creating countermeasures, influenced by 1970s aesthetic for tech."
+
+  # Purpose: Define what the player explicitly *cannot * easily do, or quest failure states.
+  InabilitiesAndLackOfFunction:
+    - InabilityID: IN AB-QGBS-01
+      Description: "Cannot directly accuse or bring down the entirety of GatorCorp through this quest 's actions."
+      Authentication: "GatorCorp is established as a powerful meat oligarchy (Deontic /Axiological)."
+      NarrativeFunction: "Maintains world power balance, sets up potential for future,  larger-scale conflicts."
+    - InabilityID: INAB-QGBS-02
+      Description : "If key NPCs (Mama Agnes, Mambo Shula, GatorCorp agent before vital info) are killed,  the quest may become incompletable or default to a suboptimal ending."
+      Authentication: "Narrative dependency."
+       NarrativeFunction: "Encourages non-lethal solutions or careful engagement."
+    - InabilityID:  INAB-QGBS-03
+      Description: "Cannot simply bypass the 1970s  tech aesthetic constraint when devising tech solutions; any player-made counter-device must conform or be unstable/inefficient." 
+      Authentication: "Alethic Modality: Technological Aesthetic Constraint."
+      NarrativeFunction: "Reinforces a core world  rule and creative challenge."
+
+  # Purpose: Define specific quest susceptibilities to player error or external factors.
+  Vulner abilitiesAndWeaknesses:
+    - VulnerabilityID: VULN-QGBS-01
+       Description: "Player might be misled by the \"unnatural\" feel and focus too long on a purely supernatural cause,  wasting time or resources if they don't consult Mambo Shula effectively or miss technological clues."
+      Authentication: "World 's blend of tech and supernatural allows for misdirection."
+      NarrativeFunction: "Tests player's deductive  reasoning and understanding of the world's blended nature."
+    - VulnerabilityID: VULN-QG BS-02
+      Description: "A heavy-handed approach with the GatorCorp agent might escalate the situation,  leading to a tougher fight or alerting higher-ups in GatorCorp, potentially impacting future interactions or adding a temporary \"heat\" status for  the player in GatorCorp-controlled areas."
+      Authentication: "Implied corporate hierarchy and resources."
+      NarrativeFunction:  "Adds consequences to player choices beyond immediate quest resolution."
+
+  # Purpose: Define the necessary inputs, expenditures, or procedural rules  for quest progression.
+  CostsDependenciesAndOperationalConstraints:
+    - ConstraintID: COST-QGBS- 01
+      AppliesTo: "Consulting Mambo Shula"
+      Description: "Mambo Sh ula may require a small offering (e.g., 3x Vampire Bunny Ears, a specific glowing swamp fungus,  a vintage 8-track tape) before offering her full assistance or insights."
+      Authentication: "Swamp Witch lore suggests  bartering or specific needs for their craft."
+      NarrativeFunction: "Adds minor fetch/barter element, reinforces Swamp  Witch character."
+    - ConstraintID: DEPEND-QGBS-01
+      AppliesTo: "Tracing  Device Origin"
+      Description: "Successful tracing depends on finding specific physical clues (manifest, logo) or Mambo Shula  performing a successful \"reading\" of the device (which might depend on the offering provided earlier or a separate small ritual)."
+       Authentication: "Investigation quest structure."
+      NarrativeFunction: "Creates a clear investigative path with potential branches."
+     - ConstraintID: OPCON-QGBS-01
+      AppliesTo: "Crafting a  Counter-Device (Optional Solution)"
+      Description: "If the player chooses to craft a technological counter, they will need specific  (but commonly available within 1970s aesthetic) components: e.g., vacuum tubes, copper wiring , a repurposed transistor radio chassis. Mambo Shula might offer an alternative magical \"warding\" solution requiring different, more  esoteric components."
+      Authentication: "Technological Aesthetic Constraint, Swamp Witch Lore."
+      NarrativeFunction: "Offers divergent  solution paths reflecting world's tech/magic blend."
+
+  # Purpose: Define the tangible and intangible rewards for quest completion.
+   Rewards:
+    - RewardID: REW-QGBS-MONEY
+      Description: "Variable  amount of \"Swamp Credits\" (local currency) from Mama Agnes, depending on success and how much she can afford . Potential extra from GatorCorp agent if bribed/persuaded."
+      Authentication: "Standard quest reward structure ."
+    - RewardID: REW-QGBS-REPUTATION
+      Description: "Positive reputation increase in L ickskillet if Mama Agnes is helped effectively. Negative reputation with GatorCorp if their agent is killed or operations significantly disrupted."
+       Authentication: "Faction/reputation system implied."
+    - RewardID: "REW-QGBS-ITEM01  (Good Outcome for Agnes)"
+      Description: "Mama Agnes might gift the player a unique item: e.g ., \"Mama Agnes's Extra-Spicy Gator Jerky\" (provides a temporary buff), or a well-maintained piece of  1970s-era firearm/gear."
+      Authentication: "Flavorful reward reflecting local culture." 
+    - RewardID: "REW-QGBS-ITEM02 (Mambo Shula Assisted)"
+       Description: "Mambo Shula might gift a minor charm (e.g., \"Bunny's Foot  of Warding\" – slight resistance to bad luck/minor curses) or a recipe for a basic swamp potion."
+       Authentication: "Reflects Swamp Witch capabilities and rewards player interaction."
+    - RewardID: REW- QGBS-XP
+      Description: "Standard experience points, with potential bonuses for finding optimal solutions or uncovering all clues."
+       Authentication: "Game progression mechanic."
+
+---
+
+QuestFunctionalProfileSummaryAndNarrativeRole:
+  # Purpose : Synthesize the quest's dynamic potential and its function within the narrative system.
+  CoreFunctionalIdentity: " Gator Bait and Switch functions as an introductory investigation into the underbelly of Primal Mama's primary food source,  forcing the player to navigate local grievances, esoteric swamp wisdom, and corporate malfeasance, all while constrained by the world 's peculiar technological and social rules. It's a microcosm of the world's core conflicts."
+  Key NarrativeFunctionsServed:
+    - "Introduces the player to the everyday struggles of Lickskillet inhabitants versus the Meat  Oligarchy."
+    - "Provides tangible examples of the 1970s tech aesthetic clashing with underlying  advanced biotech."
+    - "Allows meaningful interaction with a Swamp Witch, showcasing their role and knowledge."
+    - "Offers  choice and consequence in a localized conflict, building player agency."
+    - "Reinforces the Alethic modality of  the 1970s tech aesthetic by showing attempts to subvert it (the sabotage device)."
+    -  "Demonstrates the Deontic modality of Automaton user stigma if that path is explored for information."
+  RelationshipToAle thicModality: "The quest directly engages with the 'Technological Aesthetic Constraint' by introducing a device that violates  it. The capabilities of GE Alligators are central to the problem. Mambo Shula's potential magical interventions test the boundaries  of 'Spectral Interaction' or similar esoteric knowledge."
+  RelationshipToDeonticModality: "The actions of GatorCorp and  the potential involvement of an Automaton/LLM user (if that path is taken for how the devices were planted)  brush against the 'Automaton/LLM User Stigma.' The power of the Meat Oligarchy to act with relative impunity reflects  their de facto permission to bend rules."
+  RelationshipToAxiologicalModality: "The quest highlights the value  of alligator meat to the local economy, the ingenuity required to survive (Mama Agnes, potentially the player), and the negative  value placed on corporate overreach by Lickskillet locals. It also subtly reinforces the ingrained 1970 s aesthetic by making deviations noticeable and suspicious."
+  RelationshipToEpistemicModality: "The player must discern truth from  misdirection (is it magic, malfunction, or sabotage?). Mambo Shula holds specific 'Swamp Witch Lore.' GatorCorp operates  with a degree of hidden knowledge/intent. The 'invisible women' conspiracy might be invoked by paranoid locals as an initial  explanation for the gator problems before the truth is found."
+  KeyFunctionalTensionsTradeOffs:
+     - "Helping Mama Agnes vs. avoiding direct conflict with the powerful GatorCorp."
+    - "Trusting the \"weird\" Swamp  Witch vs. relying on purely \"logical\" (but perhaps flawed) technological explanations."
+    - "Choosing a \"clean\"  solution that lets GatorCorp off easy vs. a \"messy\" one that might bring justice but also repercussions."
+     - "Upholding the 1970s tech aesthetic in solutions vs. the temptation of using/ understanding the more advanced (but illicit) sabotage tech."
+
+---
+# End of Quest Functional Profile: QUEST_GatorB aitSwitch_01

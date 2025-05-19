@@ -1,0 +1,152 @@
+
+World: Primal Mama
+Codex_Version: " 0.2 - Character Constitution (Jedediah Honeycutt)"
+Last_Updated: "[Current Date]" #  Assuming this will be filled
+Lead_Architect_s: "[Your Name/Studio Name]" # Assuming this will be  filled
+
+--- # Character Profile Separator
+
+Character_Profile:
+  Entity_ID: "CHAR_JED_HONEY CUTT_01"
+  Character_Name: "Jedediah \"Jed\" Honeycutt"
+   Entity_Type: Person
+  Archetype: "The Squeezed Small Businessman / Tragic Everyman" 
+  Primary_Authentication_Source_s:
+    - This Codex Entry
+    - "Primal Mama World Coherence Protocol  v0.1"
+  Canon_Tier: "Tier 2 (Significant Supporting Character)"
+  Authentication_Status:  Authenticated_Canonical_Active
+
+  Authenticated_Property_Bundle:
+    Physical_Properties:
+      Purpose: "Define  the character's tangible presence."
+      Properties:
+        - Appearance_General: "[Human male, African features, late  40s but appears older due to hardship. Wiry, strong frame built from years of physical labor in the g ator trade. Dark, weathered skin.]"
+          Authentication: "This Codex Entry"
+        - Appearance_Specific_Features : "[Deep-set, kind brown eyes often clouded with worry or fatigue. A neatly trimmed but greying mustache, reminiscent  of a faded 1970s icon. Pronounced worry lines on forehead and around mouth.]"
+          Authentication:  "This Codex Entry"
+        - Appearance_Distinctive_Marks: "[A long, thin scar running down his left forearm from  a mishap with a skinning knife years ago. Calloused, capable hands, often stained from work.]"
+          Authentication:  "This Codex Entry"
+        - Typical_Attire: "[Worn, faded denim overalls over a patched flannel shirt  (colors: earth tones, muted oranges/browns). Heavy-duty, mud-caked work boots. Occasionally  a battered, wide-brimmed straw hat against the swamp sun.]"
+          Authentication: "This Codex Entry -  Visual Guide based on 1970s rural aesthetic"
+        - Voice_Speech_Pattern: "[Warm, baritone  voice with a noticeable Louisiana-inspired bayou drawl. Speaks slowly, thoughtfully, sometimes with a sigh of resignation. Capable  of quiet intensity when discussing injustices.]"
+          Authentication: "This Codex Entry - Dialogue Direction"
+        - Gait_M annerisms: "[Deliberate, slightly weary movements. Habit of rubbing the back of his neck when stressed. Can  still move with surprising swiftness when handling his airboat or gator lines.]"
+          Authentication: "This Codex Entry  - Action Description"
+        - Associated_Scent: "[Swamp water, alligator musk, rust, old motor oil,  and the faint, metallic tang of the Lickskillet processing plants.]"
+          Authentication: "This Codex Entry  - Sensory Palette"
+      Physical_Undersaturation: "[Exact height/weight, specific brand of his (fictional ) 1970s-style cigarettes (if he smokes), detailed dental status.]"
+
+    Functional_ Properties:
+      Purpose: "Define what the character *can* and *cannot* do."
+      Properties: 
+        - Skill_Expert_Alligator_Hunter_Trapper: "[Expert Alligator Hunter/Trapper ( traditional, non-GE specific methods within Saurian Sanctuary when gates are open)]"
+          Authentication: "Demonstrated  Actions / Backstory"
+        - Skill_Proficient_Alligator_Butcher_Processor: "[Proficient All igator Butcher/Processor (small-scale, artisanal quality, now struggling to compete)]"
+          Authentication: "Backstory"
+         - Skill_Adept_Airboat_Pilot_Mechanic: "[Adept Airboat Pilot & Mechanic (for  older, 1970s-aesthetic models)]"
+          Authentication: "Demonstrated Actions"
+        - Skill _Competent_Firearms_Use: "[Competent with common firearms (e.g., bolt-action rifle, shotgun  for swamp defense/hunting, as per non-Beetriot gun culture)]"
+          Authentication: "Primal Mama World  Coherence Protocol - Deontic"
+        - Limitation_Economic: "[Crippling debt; Lacks capital to  upgrade equipment or compete with oligarchy pricing/supply chains.]"
+          Authentication: "Backstory / Social Context"
+         - Limitation_Knowledge: "[Limited formal education; knowledge is practical, focused on his trade. Unfamiliar with advanced GE tech or Beet riot high society/politics.]"
+          Authentication: "Dialogue/Actions"
+        - Limitation_Social: "[No significant  influence outside his small Lickskillet community; easily ignored or crushed by powerful entities like the meat oligarchy.]"
+          Authentication : "Social Status Property"
+        - Limitation_Resource: "[Relies on aging, often malfunctioning 1970 s-style equipment; cannot afford new parts or advanced (even if aesthetically retro) tools.]"
+          Authentication: "Setting  Detail"
+      Functional_Undersaturation: "[Ability to perform ritual magic; understanding of Erpenthrope nature ; proficiency with advanced solar tech.]"
+
+    Psychological_Properties:
+      Purpose: "Define the character' s textually constituted inner life."
+      Properties:
+        - Core_Trait_Resilience_Stubbornness : "[Resilience / Stubbornness (in the face of adversity)]"
+          Authentication: "Action Patterns, Refusal  to give up his family business"
+        - Core_Trait_Sense_of_Fairness_Indignation: "[Deep -seated Sense of Fairness / Quiet Indignation (at the oligarchy's actions)]"
+          Authentication: "Dialogue,  Internal Monologue snippets"
+        - Core_Trait_Proud: "[Proud (of his craft, his heritage as an  independent processor, and his family name)]"
+          Authentication: "Dialogue, Actions"
+        - Core_Trait_Wear y_Burdened: "[Weary / Burdened (by debt, loss, and the constant struggle)]"
+          Authentication : "Emotional Descriptions, Non-Verbal Cues"
+        - Dominant_Emotion: "[A simmering pot of frustration,  grief (for his deceased wife and dying business), and a carefully guarded hope for his daughter.]"
+          Authentication:  "Narrator Descriptions, Tone of Dialogue"
+        - Key_Motivator: "[Providing for his young daughter, Mae- Lynn; preserving the last vestiges of his family's legacy; a desperate desire for simple dignity.]"
+          Authentication:  "Explicit Statements, Plot Driver"
+        - Key_Belief_Hard_Work_Corrupt_Olig archy: "[Believes in hard work and honest dealing, and that the \"big guys\" (oligarchy) are  fundamentally corrupt and bleed the life from communities like Lickskillet.]"
+          Authentication: "Dialogue, Worldview "
+        - Key_Belief_Fear_of_Failing_Family: "[Secretly fears he is failing his daughter  and the memory of his wife.]"
+          Authentication: "Internal Monologue/Subtext"
+        - Internal_Conflict_ Tradition_vs_Compromise: "[Pride in traditional methods vs. temptation of 'easier' but potentially reputation -damaging solutions (e.g., sub-standard practices, or even considering taboo Automaton use for efficiency if he  were truly desperate, though the social stigma is a strong deterrent).]"
+          Authentication: "Potential Plot Points, World  Rules"
+        - Subjective_Memory_Content: "[Vivid, often painful memories of his late wife, Clara , who died from a swamp fever they couldn't afford proper Beetriot-level care for; happier memories of his father  teaching him the trade; the increasing encroachment and unfair tactics of the 'Gator Barons' (oligarchy agents).]" 
+          Authentication: "Backstory Snippets"
+      Psychological_Undersaturation: "[Specific views on de ified celebrities beyond general cultural osmosis; detailed opinions on Erpenthropes or Swamp Witches (likely views them with wary , local folklore respect/fear); complex philosophical positions.]"
+
+    Social_Relational_Categorical_Properties:
+       Purpose: "Define the character's place within the world's networks."
+      Properties:
+        - Official_Role:  "Owner/Operator of \"Honeycutt's Quality Gator\" (a failing mom-and-pop alligator processing shack in L ickskillet)"
+          Authentication: "Setting/Backstory"
+        - Social_Status: "[Lower class (L ickskillet); Respected among some peers for his stubbornness and past quality, but increasingly seen as a cautionary tale.]"
+           Authentication: "World Structure Doc, Interactions"
+        - Primary_Affiliation: "Lickskillet Community  (though strained by his misfortunes)"
+          Authentication: "Residence/Occupation"
+        - Key_Relationship_1_ MaeLynn_Honeycutt: "[To Mae-Lynn Honeycutt (Daughter, approx. 8-1 0 years old): Deeply loving, fiercely protective; she is his primary reason to keep fighting.]"
+          Authentication : "This Codex Entry"
+        - Key_Relationship_2_Meat_Oligarchy: "[To The Meat Oligarchy  (e.g., \"Consolidated Gator Corp\" or similar): Antagonistic; they are the source of his economic ruin through  predatory pricing, supply manipulation, and \"friction.\"]"
+          Authentication: "Primal Mama World Coherence Protocol  - Deontic, Assessment Notes"
+        - Key_Relationship_3_Clara_Honeycutt_ Deceased_Wife: "[To Clara Honeycutt (Deceased Wife): A guiding memory, source of both strength and  profound grief; her loss is partly attributed to their poverty caused by the oligarchy.]"
+          Authentication: "Backstory" 
+        - Key_Relationship_4_Lickskillet_Processors: "[To other Lickskillet small processors:  A mix of camaraderie, shared struggle, and sometimes mistrust or pity as Jed's situation worsens.]"
+          Authentication: "Community  Dynamics"
+        - Species_Type: "Human (Baseline Primal Mama Strain)"
+          Authentication: "Default /Description"
+      Social_Undersaturation: "[Extended family network (if any); specific friends outside of fellow  processors; any clandestine dealings out of desperation.]"
+
+    Modal_Properties:
+      Purpose: "Define any inherent unique  relationship to world laws."
+      Property_ID: "N/A" # N/A implies no specific unique modal  properties
+      Details:
+        Property: "[None Authenticated. Operates fully under general world rules and societal pressures .]"
+        Description: "[Jed possesses no supernatural abilities, advanced technological interfaces, or exceptional legal standing. His vulnerability  is a core aspect of his character as a victim.]"
+        Limits: "N/A"
+        Authentication:  "[Absence of contrary evidence; consistent with role as everyman victim.]"
+
+    Axiological_Properties:
+      Purpose : "Define the character's value status *within* Primal Mama."
+      Properties:
+        - Reputation_Lick skillet_Community: "[Authenticated as viewed as 'honest', 'hard-working', 'a good man down on his luck',  but increasingly 'a lost cause' or 'too proud for his own good'.]"
+          Authentication: "Community Dialogue/Per ception"
+        - Reputation_Meat_Oligarchy_Agents: "[Authenticated as 'insignificant holdout ', 'easily squeezed', 'a minor annoyance to be swept aside'.]"
+          Authentication: "Oligarchy Character Dialogue /Actions"
+        - Moral_Alignment_Narrative_Framing: "[Authenticated via narrative sympathy as a fundamentally  good man unjustly victimized by systemic greed and power imbalance; his struggle highlights the world's harshness.]"
+           Authentication: "Narrator Tone, Plot Focus"
+      Axiological_Undersaturation: "[Reputation in  Beetriot (likely unknown); perception by Swamp Witches or Erpenthropes (likely indifferent or unaware unless direct  interaction occurs).]"
+
+    Historical_Properties:
+      Purpose: "Define the character's known origins and connections to past events ."
+      Properties:
+        - Origin: "[Authenticated as born and raised in Lickskillet, Primal  Mama. The Honeycutt family has been in the small-scale alligator trade for two generations, since shortly after the societal  restructuring post-Biological Calamity.]"
+          Authentication: "Backstory"
+        - Key_Past_ Event_Connection_Oligarchy_Warfare: "[The gradual but relentless economic warfare waged by the meat oligarchy over  the last decade, leading to the ruin of many mom-and-pop businesses like his.]"
+          Authentication: "World  Lore, Backstory"
+        - Key_Past_Event_Connection_Personal_Loss: "[The death of his wife , Clara, from a preventable swamp-borne illness, exacerbated by their inability to afford advanced medical interventions available in Beetriot,  a direct consequence of their declining income due to oligarchy pressure.]"
+          Authentication: "Backstory"
+         - Inherited_Items: "[Authenticated to possess his father's set of hand-forged gator skinning knives (1 970s tool aesthetic), the heavily mortgaged deed to his shack and a small patch of swamp, and a temperamental,  gas-guzzling airboat with wood paneling and an 8-track player (broken).]"
+          Authentication : "Narrative Inventory, World Aesthetic"
+      Historical_Undersaturation: "[Detailed family history pre-Calamity;  specific interactions with major historical figures of Primal Mama (unlikely); any direct experience with the \"invisible women\" conspiracy beyond general  cultural awareness.]"
+
+  Character_Constitution_Summary_And_Narrative_Function:
+    Purpose: "Synt hesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+    Core_Essence: | 
+      Jedediah Honeycutt is constituted as a man of integrity and skill being systematically crushed by the impersonal economic  machinery of Primal Mama's meat oligarchy. His Physical weariness, Functional limitations (lack of capital/modern tools), and  Psychological burden (grief, worry for his daughter, indignation) are direct results of his Social position as a small Licksk illet processor. He embodies the human cost of the world's core Deontic rule (oligarchy power) and  Axiological tension (value of tradition/small business vs. ruthless "progress"). His very existence is a testament to the " friction" mentioned in the world's governing laws.
+    Primary_Narrative_Function: |
+      To serve  as a primary victim character, illustrating the harsh realities of life in Lickskillet under the shadow of the meat oligarchy. He  humanizes the socio-economic conflict, providing an emotional anchor for themes of injustice, resilience, and the potential for desperation . He can act as a motivator or a cautionary tale for other characters.
+    Key_Internal_Conflicts_From_Bundle:  |
+      Hope for his daughter's future vs. the crushing weight of despair; Maintaining pride and traditional methods vs.  the desperate need for any advantage to survive; Grief for his lost wife and business vs. the responsibility to keep going; Desire  for justice vs. the pragmatic understanding of his powerlessness.
+    Potential_for_Development_Based_on_Bundle : |
+      Could be pushed to make a desperate, morally compromising choice (e.g., dealing with shady elements, attempting  to use forbidden/stigmatized tech for a quick buck, a desperate act against the oligarchy). Could become a reluctant  symbol for other downtrodden Lickskillet residents. Could find an unexpected, unconventional ally (perhaps an Erpenth rope with a strange sense of justice, or someone from Beetriot with a conscience). His storyline could explore the limits of endurance or the  spark of rebellion in the oppressed.
+
+--- # End of Fictional Person Profile
+End_of_Fictional _Person_Profile: "CHAR_JED_HONEYCUTT_01"

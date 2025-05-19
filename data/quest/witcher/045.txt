@@ -1,0 +1,78 @@
+Dealing with Druids
+We've chased down pretty much every side quest and free form quest in the western part of Ard Skellig... not to mention all the loot we pulled out of the water. Sure, we did it under flimsy pretenses, but you can't argue with the results.
+
+Practicum in Advanced Alchemy (level 24)
+Fast-travel back to the "Whale Graveyard" and head along a trail to the south-west until you reach a cave, outside of which you'll find Gremist, the master alchemist who is the subject of the quest "Practicum in Advanced Alchemy". Well... While we're here... Go talk to him. He's reluctant about teaching you the formulae he struggled and sacrificed for, but if you persist he'll come around and offer to teach you-if you perform three tasks for him. Agree and... well... the tasks are to get him some rare spirit, a pimpernel, and convince the druid Frijof to preform a ritual for him. Seems simple enough. Agree and the next round of Skellige exploration will begin.
+
+Ruined Inn
+Don't worry. This won't be nearly as involved as the last quest we ran around half of Skellige for. But it will be far more lucrative. Fast-travel back to Fyresdal and follow a road out of town to the south-east to find the "Ruined Inn"-the location and the map marker. Near here you'll find a Monster Nest and a Hidden Treasure event. Kill the Sirines (level thirteen) then blow up their nest. Once that's done, head into the building west of the signpost and loot a chest to the north-west to find a "Letter". Loot the rest of the building and read the letter to update the quest "Bound by Blood". Head south-west to find a large, wrecked ship along the shallows, which will have a Sirine (level thirteen) or two guarding it. Find a chest along the eastern side of the ship the complete this quest.
+
+Diagram: Ursine Steel Sword
+Return to the Ruined Inn and head north from the signpost to find a collapsed house. Along the northern end of the ruins, search for some rubble blocking some stairs down, then blast it with Aard. Head downstairs and kill two Wraiths (level twenty), then grab the "Arrest Warrant for the Witcher Gerd" from the wall to the south. Go through the doorway to the east to find a chest, which contains an "Innkep's Notes" and the Diagram: Ursine Steel Sword. Nice.
+
+The Distillery
+Head north from the Ruined Inn and go through a pass-our first destination, the distillery, is to the east, but we'll have to approach from the north to get there. Continue north until you can make your way east along the lower reaches of the mountain, straddling the forest and mountain as go. Eventually you'll come across a trail leading south up the mountain. Follow it and you'll eventually reach the distillery, which is now the stomping grounds of a trio of Alghouls (level twenty-three). Kill them and loot the ruins to the north, then head down some stairs to the south-east, then south-west to find the "Distillery" signpost.
+
+Cross a bridge and turn north to enter a cave, wherein you'll find a Cyclops (level twenty-one). Nothing we haven't handled before-kill it and search its home to score a few crates full of meager loot. When done, head up into a structure in the south-eastern corner of the chamber and loot around here, too. Search the beds for a "Distiller's Letter" and a "Distiller's Log". The former contains the following relevant information about the brewing process:
+
+Put the mash in the evaporator.
+Light the fire under the evaporator.
+Cool the condenser. FIRST turn the right lever, then the left. NOT the other way around.
+Simple enough. Head to the northern end of the room and climb a ladder, then use your Witcher Senses to highlight a a jar of Mash. Return to the ground floor and head east to find a machine into which you can place the Mash. Do so, then when Geralt prompts you, hit it with Igni. When prompted again, hit it with Aard. Head further east to find two levers-pull the right (eastern) one first, then the left (western) one. Once done loot a barrel to claim the "Skellige Spirit" that Gremist wants.
+
+Objective	Reward
+For brewing some Skellige Spirit	80 XP
+Prudes and Pimpernel
+Leave the Distillery-and the mountain-and follow the trail... generally to the north-west. Eventually it'll bisect another road running more or less east-west. You want to follow this new road east, being wary of White Wolves (level fifteen) that lurk about. Your destination is north of this road, so keep an eye on your quest marker and head to the search area. Once there, activate your Witcher Senses and spot some pimpernel, which, unfortunately, has already been harvested. Search it and a druid will approach and tell you of some difficulties Gremist has been inflicting upon some other prospective students.
+
+Agree to go with the druid in search of his wayward companion then follow some tracks to the south-hoofed biped tracks. Haven't we seen this before? Eventually the tracks will lead to a road, where you'll find a grave. Investigate it and the druid will identify the corpse. Kill an Armored Arachas (level twenty-six) nearby. Once the giant bug is smote continue south along the road to find more hoofed tracks, which will shortly be joined by normal, human prints.
+
+Eventually you'll find the wayward druid and his monstrous companion... which, if you guess Succubus, you were correct! Ramund insists his new friend is harmless, and the Succubus makes a plausible case for her innocence. Either be a good Witcher and exterminate the monster, or be a good person and don't condemn a possibly innocent sapient being. In the former case, you'll have to put down the Succubus (level twenty-five)-who is fond of fire spells-after which Ramund will be quite upset. If you refuse to kill her, the druid will get annoyed and stomp off, vowing to return later.
+
+Follow a scent trail-and a more traditional trail-to the east (or the Succubus, if you spared her) to find a cave. Head to the southern end of the cave and take the pimpernel you need.
+
+Objective	Reward
+For obtaining a pimpernel	80 XP
+Taken as a Lass - Part 1 (Level 25)
+Time to go after our last ingredient. Head north down a slope (sliding down carefully, of course) until you reach a some flatlands. From here head east to reach the shore, then swim south to find an alcove. Swim to shore-past a boat and jetty-to find a Warrior fending off a group of Pirates (level twenty-five). Kill the Pirates and talk to the Warrior, who will talk about his abducted sister, and ask you to help look for her. Agree to help to start the quest "Taken as a Lass."
+
+Objective	Reward
+For helping the Warrior fend off the Pirates	50 XP
+The Sad Tale of the Grossbart Brothers (level 26)
+Take the Warrior's boat and sale south along to coast until you find the "Grotto" signpost. What we're really looking for is the signpost outside, with which we can fast-travel to our destination, but while we're here... head inside the grotto and pop a Cat-it's pretty dark in here, after all. Score a chest in the water in the main cavern, then climb onto the rocks to the north-east.
+
+Head north into a tunnel to find your friend Djenge Frett, who asked you to help him hunt down the notorious Grossbart Brothers. When you approach he'll ask you if you're still game for some light bounty hunting. Confirm and follow him into a chamber to the south-west, where the vile threesome lurks. Apply some Hanged Man's Venom to your Steel Sword before you engage the brothers to make this already easy fight even easier, and put the three vagrants (level twenty-six) down. When you're done, Djenge (if he survived) will ask if you want to do more work together, and offer Geralt declines. Loot their chamber, including the chest just west of some bedding which contains the Diagram: Enhanced Ursine Armor. Score. Return to the north-eastern chamber, then follow it north, as there are several containers to loot in here. Especially be sure to explore the slope in the north-western corner of the chamber to find a lucrative chest.
+
+Objective	Reward
+For putting an end to the Grossbart Brothers	25 XP
+50 Crowns
+Making it Rain
+Leave the cave and fast-travel to Blandare, then head over to a cluster of houses to the north-west of the signpost, where you'll find the druid we're looking for. Of course, he's got a problem of his own he needs to resolve before he can help you-and it's a problem that, fortunately for us-a sword can help with. Agree to help him and follow him a short distance to a shrine, where he'll start his ritual. Fend off several waves of Foglets (level twenty-three) and afterwards the druid will spin the Foglet menace positively and agree to go see Gremist.
+
+Objective	Reward
+For helping Fritjof summon rain	80 XP
+Return to the "Blandare" signpost and fast-travel to the Whale Graveyard. Follow the trail to the south-west to find Gremist again, who is in his hobbit-hole, hanging out with Fritjof. Talk to your new master and he'll promptly kick you out to perform his ritual. Rest for a day, then head back inside the cave to discover that the "ritual" and all the materials and effort that went into it served a rather mundane purpose. You'll be invited to study with the two, after which this quest ends.
+
+Objective	Reward
+For helping Gremist perform his ritual	
+80 XP
+5 Sulfer
+5 Alcohest
+5 Han Fiber
+5 Saltpeter
+
+The reward might seem rather underwhelming, but if you talk to Gremist again, you'll be able to finally peruse his wares. He sells just about every potions, oil and bomb diagram/formula in the game, as well as other, generally useful alchmecial formulae, so if you have holes in your knowledge (and want to put some in your pocket) you've got plenty to buy.
+
+Shock Therapy (level 24)
+Buy what you will, then leave Gremist's cave and head south-east along a trail until it forks, at which point follow a faint trail uphill to the south-west to find the "Gedyneith" signpost. From the signpost head west to find the great oak that draws such devotion. North of this tree, in a ravine in front of a cave you'll find a druid, who seems most eager to speak to a Witcher. Talk to him and he'll tell you of his troubles, which seems to be work not really worthy of a Witcher's attention. But... he promises us an "excellent" Gwent card, so... we're hired!
+
+Head north-west to find a "Taciturn Druid." If you'll talk to him, you'll find out that this name is more appropriate than his given name. Geralt will have to harass this poor, incommunicado druid in various ways to continue the quest. When he's warming himself at a campfire, extinguish the flames. When he's sitting on a rock near a bee's nest, blast it with Aard to provoke the insects. When he goes to sleep, use Aard to rattle a collection of pans. Once you've done all three the druid will find his voice again, and use it against you. After he's done whining go back to the druid who gave you the quest, and he'll pay up, as promised. The excellent Gwent card happens to be Iorveth-a 10 Strength Ranged Combat Unit Hero Card for the Scoia'tael deck.
+
+Objective	Reward
+For restoring Egill's voice	75 XP
+Iorveth Card
+Abandoned Sawmill (level 24)
+West of the "Gedyneith" signpost you'll find... another "Gedyneith" signpost. Kind of redundant, but... okay. From the western of the two signpost head south-west and slide down some hills to find the "Abandoned Sawmill"-the signpost, the location AND the quest. This quest should be well within our means, so let's search the village, from east to west. In the eastern-most house you'll find a chest which contains a "Lumberjack's Letter to his Wife." Take it, read it and head into the next house over, where you'll find some "Sawmill Owner's Notes" lying on some stonework. Read that and head to the open structure to the west, south of which you'll find some bones. Search them then move onto the next house. Blast the door down with Aard and search a chest inside to find a "Letter from a Druide." Once you've collected enough evidence a Leshen (level twenty-four) will show up. Kill it and the quest will end.
+
+Objective	Reward
+For learning the fate of the lumberjacks	50 XP

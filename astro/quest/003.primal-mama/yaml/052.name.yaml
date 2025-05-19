@@ -1,0 +1,242 @@
+
+title: "Primal Mama:  Bayou Blues & Gator Guts"
+world: "Primal Mama"
+quest_arc: "Early Explorations  in the Lickskillet Outskirts"
+sections:
+  - Reclaimed_Shrine:
+      title: "Re claimed Shrine (Abandoned Site Re-imagined)"
+      narrative: |
+        Leave your stilt-house  on the bayou's edge and follow the main elevated boardwalk east until you find a "Forgotten Shrine" marker on your  HUD's chunky, amber display. Forgotten, presumably, because of the aggressive Feral Swamp Crawlers (mutated,  semi-bipedal crustaceans) scuttling around. Exterminate them with your trusty Gator-Prod and some well-aimed  shots from your rivet gun. Soon, some grateful Bayou Settlers will return to their makeshift shrine, dedicated to a lesser Swamp  Spirit (or perhaps a fuzzy image of Jerry Reed).
+      npc:
+        name: "Mama Mumbo"
+         description: "Local Swamp Witch and herbalist."
+        sells:
+          - item: "Formula: Alligator  Antivenom Decoction"
+            details: "Cures potent bayou toxins"
+          - item: "Formula:  Solar-Charged Hide Decoction"
+            details: "Temporary damage resistance, skin glows faintly"
+          - item : "Formula: Night-Howler Repellent Decoction"
+            details: "Keeps nocturnal predators at bay "
+          - item: "Volatile Gator Glands"
+            details: "An essential component for crafting makeshift explosives." 
+        payment_methods: "Pre-Calamity bottle caps or shiny gator teeth."
+      crafting_task: 
+        item_to_craft: "Swamp Gas Bomb"
+        tool: "Wrist-mounted P. A.D. (Personal Alchemy Device)"
+        menu: "Crafting (flickering, CRT-style )"
+      objectives_rewards:
+        - objective: "For clearing the Forgotten Shrine"
+          reward:  "XP 90"
+      notes: |
+        Crafting a Swamp Gas Bomb will add two of the devices to your  inventory – the most you can carry.
+        Used bombs are automatically refilled when you rest at a safe campfire by consuming  "Swamp Shine" (potent, locally distilled alcohol) from your inventory.
+
+  - Relic_of_ the_Deified:
+      title: "Relic of the Deified (Place of Power Re-imagined )"
+      narrative: |
+        Before we get to those Mutant Nests – and believe me, we will – head south -west of the now bustling Reclaimed Shrine. You'll shortly come across another glowing Relic of the Deified (perhaps  a strangely preserved 8-track tape of Gram Parsons, humming with faint energy), which is guarded by a Level 6 Alpha  Bull Gator (a particularly large and aggressive GE Alligator).
+      encounter:
+        creature: "Level 6 Alpha Bull  Gator"
+        description: "Bio-engineered behemoth, predictable charging attacks."
+        strategy: "Use ' Kinetic Dampener' belt buckle (Quen equivalent) to absorb hits. Use Heavy Melee Slam with modded pipe wrench and  dodge-roll."
+      interaction:
+        item: "Relic of the Deified"
+        action: "Interface by  placing hand on its oddly warm surface."
+        reward: "Extra Insight Point (Ability Point equivalent)."
+
+  - Mutant _Nests_Part1:
+      title: "Mutant Nests"
+      introduction: |
+        There are  two Feral Erpenthrope Dens (Monster Nests re-imagined, where devolved, bestial Erpenthropes  or other nasty swamp mutants breed) we can destroy now. By doing so, we can consider the north-eastern stretch of  this bayou sector more or less pacified.
+      dens_to_destroy:
+        - location_description: "Near  the Relic of the Deified by the old, rusted-out battle tank remnants."
+          travel_instructions: " Fast travel (via airboat, 'The Swamp Fox') back to 'Broken Bayou Bridge,' wade through muck to den ."
+          enemies_at_den: "Feral Swamp Crawlers (may have respawned)."
+          destruction _method: "Use Swamp Gas Bombs. Select on P.A.D., walk up to pulsating organic mass, press [ ACTIVATE] button on bomb."
+          aftermath: "Stroll away, let den explode, sift through gooey  remains for salvage."
+        - location_description: "Near where your airboat first sputtered to a halt. South-east  of the 'Gator Jaw Crossing' signpost (gator skull on a pole)."
+          travel_instructions: "Head south -east across the irradiated marsh, through the ruined scavenger camp, and to the elevated roadway beyond. Continue south, pass over  another, smaller collapsed overpass, and head downhill into a bioluminescent fungus patch."
+          enemies_at_den : "Feral Erpenthropes (quicker and hit harder than Crawlers)."
+          destruction_method:  "Repeat bomb process."
+      loot_note: |
+        Looting dens should earn you a "Pre-Calam ity Circuit Board" (valuable salvage), which is worth a bit in trade, but can also be broken down by a  Tinkerer into "Gold Filament" and a "Synthetic Gem." All in all, it might be a better idea to hang onto  them, in case you need to scrap them for high-end crafting later.
+      objectives_rewards:
+        - objective : "For destroying a Feral Erpenthrope Den"
+          reward: "20 XP"
+        - objective:  "For destroying... another Feral Erpenthrope Den!"
+          reward: "20 XP"
+
+   - Exploring_Northern_Bayou_Delta:
+      title: "Exploring the Northern Bayou Delta"
+      preparation: | 
+        Return to the Lickskillet settlement (Primal Mama's White Orchard village equivalent – a collection of shacks and  processing platforms built over the water). Repair your gear at the crank-operated workshop, sell off excess gator hides and mutant  glands, all that other fun stuff.
+      exploration_area: "Broad stretch of murky water and mangrove islands north of Lick skillet, across the main channel."
+      start_point: "Northernmost dock of Lickskillet." 
+      method: "Dive into algae-choked water, swim/wade up-channel to the north-west. Keep  'Bio-Scanner' (goggles with flickering green readouts, Primal Mama's Witcher Senses) active."
+       discoveries:
+        - "One reinforced footlocker under a hopeful local fishing from a precarious-looking hover- raft."
+        - "Two more sealed containers as you navigate further up the channel, possibly containing quality salvage or pre -Calamity tech scraps."
+
+  - A_Skillet_Clean_and_Gleaming:
+       title: "A Skillet, Clean and Gleaming (A Frying Pan, Spick and Span Re-imag ined)"
+      trigger: "Once you score the third container from Northern Bayou Delta exploration, surface and turn south-west to  spot a dilapidated shack on a small muddy island."
+      initial_interaction: "Swim to shore, loot soggy sacks on rick ety dock, talk to Old Mama Beulah. She needs you to break into her shack (door jammed) and recover  her prized cast-iron skillet."
+      shack_entry: "Use 'Kinetic Pulse Gauntlet' (A ard equivalent) on the door."
+      shack_interior:
+        - room: "First room"
+          loot :
+            - "Number of containers"
+            - "Rusted footlocker (corner): might contain a weapon mod schematic,  a decoction formula, or a piece of retro-70s armor"
+        - room: "Second room  (north-west)"
+          discovery: "Corpse – one of the two 'guests' Mama Beulah mentioned , likely a failed scavenger."
+          loot:
+            - "Tipped-over cooler: might yield worthwhile gear "
+          investigation:
+            - "Examine 'Cracked Data-Slate' (Silver Monocle equivalent ) on the floor."
+            - "Examine the corpse itself."
+        - room: "Third room (south-west )"
+          actions:
+            - "Activate Bio-Scanner"
+            - "Search makeshift stove: discover some partially  burned schematics near an old oven. Seems they were trying to jury-rig something."
+          loot:
+            - "Shelf "
+          key_item_found: "The skillet."
+          observation: "Skillet – described as old and sooty  – has been meticulously scraped clean by her 'guests.' The harvested soot wasn't for ink, but rather a crude  conductive paste, likely for repairing some scavenged tech."
+      resolution: "Leave shack, give Mama Beulah her skillet  and some advice. She gives a reward."
+      objectives_rewards:
+        - objective: "For returning Old  Mama Beulah's skillet"
+          reward: "10 XP"
+          items_rewarded:
+             - "Fresh Gator Nuggets x5"
+            - "Filtered Swamp Water x5"
+            - "Roasted  Root Vegetables x5"
+
+  - Sunken_Stash:
+      title: "Sunken Stash ( Hidden Treasure Re-imagined)"
+      location_path: "From Old Mama Beulah's shack, follow  dilapidated boardwalk along bayou north-west to a collapsed bridge leading north-east across channel."
+      hazard_along _path:
+        creatures: "Packs of Feral Bayou Hounds (escaped pre-Calamity  hunting dogs, mutated and vicious), possibly led by Alpha Hound."
+        combat_tips: "Keep guard up,  parry with Gator-Prod, counter with quick jabs. Use 'Wrist-Mounted Igniter' (Igni equivalent) for  crowd control."
+      bridge_hazard:
+        creatures: "Swamp Skulkers (Drowner equivalent,  amphibious humanoids with bioluminescent lures)."
+      key_discovery_at_bridge:
+        location: "North of  bridge, on western bank."
+        item_found: "Body of a Beetriot Sec-Force Scout."
+        loot _from_body: "Corroded Sec-Force Keycard."
+      underwater_loot_north_of_ bridge:
+        action: "Dive with rebreather."
+        container: "Reinforced military chest."
+        contents :
+          - "Other loot"
+          - "Waterlogged Sec-Force Directives (data-chip)" 
+        quest_trigger: "Grabbing Directives starts quest 'Oligarch's Valuables.' Reading them  on P.A.D. updates it."
+      additional_resources_nearby:
+        - item: "Biol uminescent Moss (Buckthorn equivalent)"
+          location: "Submerged roots up-channel."
+          use: "Advanced  crafting."
+        - item: "Another generous sealed crate (not quest related)"
+          location: "South of  the bridge (underwater)."
+
+  - Oligarchs_Valuables:
+      title: "Oligarch' s Valuables (Level 4) (Temerian Valuables Re-imagined)"
+      prerequisite_ quest: "Sunken Stash (obtaining Waterlogged Sec-Force Directives and Corroded Sec-Force Keycard )."
+      path: "Cross remains of Bridge north-east, follow barely visible path to 'Old Processing Plant' signpost . Follow path north-east, up slippery mud hill, under wooden gantry with gator skulls."
+      exploration _points:
+        - location: "East of path, derelict buildings."
+          sub_locations:
+            -  name: "Southern-most building (dilapidated mill/processing vats)"
+              loot_areas: "Eastern  and southern sides."
+            - name: "Modest, corrugated iron-roofed lean-to (north-east)" 
+              loot: "Footlocker (may contain exceptional salvage, e.g., working pre-Calamity vacuum tube)." 
+        - location: "Building further north-east (at a glance, empty)."
+          secret_area:
+             entry: "Inside, along south-eastern end, poorly concealed metal stairs to flooded cellar."
+            action_ to_proceed: "Use 'Kinetic Pulse Gauntlet' to blast open rusted, jammed hatch."
+            contents: " No fewer than four old Beetriot Sec-Force footlockers."
+            quest_completion_chest:
+              description : "Footlocker furthest from hatch (glows red with Bio-Scanner)."
+              key_required: "Corro ded Sec-Force Keycard."
+              action: "Looting completes quest 'Oligarch's Valu ables.'"
+
+  - Echoing_Locus_Cemetery:
+      title: "Echoing Locus ( Place of Power - Cemetery Re-imagined)"
+      minor_location_nearby: "Less interesting farmstead on  a hill to the north (door reinforced, few sacks lootable out front)."
+      path_to_locus: " Return to Old Processing Plant signpost, follow smaller overgrown trail north to 'Sunken Parish' (old, half-submerged pre -Calamity church)."
+      landmark: "Tilted, moss-covered statue (probably of Burt Reynolds in  a heroic pose)."
+      place_of_power:
+        name: "Echoing Locus"
+        location : "In front of the modest chapel, shimmering with strange energy."
+      encounter_at_locus:
+        cre ature: "Lingering Specter (Wraith equivalent, shimmering, distorted humanoid figure – a true ghost)."
+        behavior : "Phases in/out, energy-draining hits."
+        combat_tips: "Keep Kinetic Dampener up,  dodge-roll. Attack with Heavy Melee Slam (Gator-Prod) when it solidifies. Spectral Charge mod helps ."
+        event: "Vanishes with electronic screech at ~50% energy."
+      action_at_l ocus: "Draw from Echoing Locus to gain another Insight Point."
+
+  - Guarded_Relics:
+      title : "Guarded Relics (Guarded Treasure Re-imagined)"
+      location: "Sunken Parish chapel ."
+      entry_method: "Search near chapel door with Bio-Scanner (spot odd, glowing handprints).  Blast door open with Kinetic Pulse Gauntlet."
+      crypt_encounter:
+        location: "Down stairs, through  open rusted gate."
+        creature: "Lingering Specter (reappears, still partially dematerialized)."
+         combat_tips: "Same as before, more difficult in enclosed space."
+        resolution: "Specter fully dispersed (final  sound: distorted 70s game show jingle)."
+      crypt_loot:
+        - area: "East" 
+          discoveries:
+            - item: "Two skeletons."
+              details: "One presumably an Erpenthrope  Truth-Seeker (from 'Incident Report: Sector Gamma-7'), failed trial by ordeal."
+              loot_from_erp enthrope:
+                - "Journal of Erpenthrope Kael of the Silent Seekers"
+                - "Sche matic: Spectral Disruptor Coil (high-tech weapon mod, Serpentine Silver Sword equivalent)"
+              crafting_note_ for_schematic: "Requires 'Pristine Solar Shard' (Emerald Dust equivalent, rare/expensive).  Purchasable from shady Beetriot merchants or found in oligarchy stashes."
+        - area: "North,  against crumbling wall"
+          loot: "Reinforced chest with nice loot."
+        - area: "Nearby skeleton  resting against pillar"
+          loot: "(Implied additional minor loot)"
+      post_crypt_exploration:
+         path: "Leave crypt, chapel, Sunken Parish. Head north to elevated highway remnant (east-west)." 
+        next_location_marker: "Travel west, spot strung-up Scavenger corpses north of highway." 
+        destination: "Beetriot Sec-Force Forward Post (further north)."
+        camp_description: "Occup ied by Sec-Force Troopers. Loot belongs to them."
+        key_loot_in_camp:
+           item: "Schematic: Concussive Harpoon"
+          location: "Locked chest behind one of prefab  barracks."
+          stealth_instructions: "Wait until no patrolling Troopers have line of sight (helmet visors flash  red on HUD if spotted). Interface with chest keypad. P.A.D. warning buzz if about to be caught ."
+        enemy_note: "Sec-Force Troopers are ~level 15. 'Oppressive regimes ...'"
+
+  - Mutant_Nest_Echoing_Locus_Combined:
+      title: "Mutant Nest / Echo ing Locus"
+      path: "From Sec-Force Forward Post, head north-east into a petrified mangrove forest ."
+      discovery_point: "Out-of-place, monolithic concrete structures (pre-Calamity infrastructure )."
+      features:
+        - name: "Echoing Locus"
+        - name: "Feral  Erpenthrope Den (nearby)"
+      speculation: "Maybe Feral Erpenthropes like nesting near energy  sources? Or Loci attract mutations? 'No, that's just a conspiracy theory...'"
+      actions:
+         - "Kill Feral Erpenthropes."
+        - "Plant Swamp Gas Bomb in den, blow it up." 
+        - "Loot the den."
+        - "Gain Insight Point from Echoing Locus."
+      objectives _rewards:
+        - objective: "For destroying yet another Feral Erpenthrope Den"
+          reward : "20 XP"
+      note: "Occasionally, when you go to blow up the den, more F eral Erpenthropes will emerge from hidden tunnels to defend it. Killing these reinforcements will earn you 75  experience."
+
+  - Contraband_Cache:
+      title: "Contraband Cache (Hidden Treasure Re -imagined)"
+      path: "Return south to derelict building near Old Processing Plant (where 'Oligarch 's Valuables' treasure was). From this building, head north-east into dense, overgrown wilderness."
+       campsite_discovery:
+        description: "Abandoned campsite – Beetriot Sec-Force issue (discarded energy  cell packs)."
+        current_occupants: "Pack of Feral Bayou Hounds, maybe territorial mutated Swamp Gulls." 
+        combat_tip: "Try to avoid fighting them all at once."
+      campsite_loot:
+        general : "Ration packs, waterlogged containers."
+        main_prize:
+          location: "Reinforced footlocker  in a tattered, camouflaged tent."
+          contents:
+            - "Various quality salvage"
+            -  "Smudged Logbook"
+          quest_trigger: "Picking up 'Smudged Logbook' starts quest  'Black Market Blues.' Reading it updates it."
+      next_step_hint: "Raider Stash mentioned  in notes is east of here, deeper in the irradiated zone. 'Well, it would be a shame not to follow up on  this information...'"

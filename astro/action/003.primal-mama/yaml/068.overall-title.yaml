@@ -1,0 +1,234 @@
+Okay, I will convert the Markdown document you provided (which is structured using the "Entity Functional Profile Protocol" for entities *within * the Primal Mama quest segments) into a new YAML document.
+
+This YAML will represent the functional profiles of the entities  as they were detailed.
+
+```yaml
+document_metadata:
+  title: 'Primal Mama: Entity Functional Manifest ations in Bayou Expeditions'
+  introduction: "This document analyzes the functional properties of entities encountered during the 'Bay ou Expeditions & Local Troubles' questline (derived from `primal_mama_quest_log.yaml`).  It applies the 'Entity Functional Profile Protocol' to illustrate how these entities' capabilities, limitations, and purposes are authenticated through their actions and  interactions within these specific narrative segments. The primary authentication source for these profiles is the Primal Mama quest log itself."
+   conclusion: "By applying the Entity Functional Profile Protocol to the events of the 'Bayou Expeditions & Local Troubles ,' we can see how the core rules and flavor of Primal Mama are expressed through the dynamic potential of its inhabitants and objects . Each entity's authenticated functions, capabilities, and limitations contribute to the narrative mechanics, conflict generation, and overall coherence of the  world as experienced during these quests. This approach allows for a granular understanding of how entities serve the story through what they * do* and *cannot do*."
+
+entity_functional_profiles:
+  - entity_id: 'PLAYER _CHARACTER_PM_SASS'
+    entity_name: 'The Fixer (Player Character)'
+     entity_type: 'Person'
+    primary_authentication_sources:
+      - "Quest Segment 'Souls  in a Swamp Snare' actions"
+    encountered_in_quest_segment_name: 'Rescue Bio-Tinkerer  from River Scum at Swamp Snare.'
+    core_function_purpose:
+      primary_role:
+         description: 'Rescue operative; Threat neutralizer.'
+        authentication: 'Quest segment objective.'
+      secondary_ roles:
+        description: 'Acquirer of resources; Initiator of future interactions.'
+        authentication: "L ooting actions, Bio-Tinkerer's invitation."
+    key_capabilities_powers:
+      -  capability_id: 'FUNC-PLAYER-NAV01'
+        name: 'Airboat Piloting'
+         description: 'Can operate and navigate an airboat through bayou environments.'
+        authentication:
+          - '" Fast-travel (or chug your airboat) back to Gator''s Tooth Landing and commandeer a serviceable air boat..."'
+          - '"Pilot it along the main channel..."'
+        limits_nuances: 'Requires  serviceable airboat; solar cell charge dependent (implied by Primal Mama rules).'
+      - capability_id:  'FUNC-PLAYER-CMB01'
+        name: 'Combat Proficiency (General)'
+        description:  'Capable of engaging and neutralizing hostile humanoids.'
+        authentication:
+          - '"Land and deal with the River Scum..." '
+      - capability_id: 'FUNC-PLAYER-INT01'
+        name: 'Object Interaction  (Looting/Key Use)'
+        description: 'Can search containers/bodies for items and use specific items  like keys.'
+        authentication:
+          - '"Loot them to find a ''Cage Latch Key.''" '
+          - '"Use it to free a Bio-Tinkerer."'
+
+  - entity_id: 'ENEMY _RiverScum_SASS_01'
+    entity_name: 'River Scum'
+    entity_ type: 'Person (Hostile)'
+    primary_authentication_sources:
+      - "Quest Segment 'Souls in a  Swamp Snare' enemy list & actions"
+    encountered_in_quest_segment_name: 'Rescue Bio -Tinkerer from River Scum at Swamp Snare.'
+    core_function_purpose:
+      primary _role:
+        description: 'Antagonistic force; Captors.'
+        authentication: "Player action 'Deal  with the River Scum'; Bio-Tinkerer is caged."
+    key_capabilities_powers:
+       - capability_id: 'FUNC-RS-ARM01'
+        name: 'Armed Combat (Crude Weaponry)' 
+        description: 'Engage in combat using crude pipe guns and machetes.'
+        authentication:
+          - '"armed  with crude pipe guns and machetes"'
+      - capability_id: 'FUNC-RS-CAP01' 
+        name: 'Imprisonment'
+        description: 'Capable of capturing and holding individuals against their will.' 
+        authentication:
+          - 'Bio-Tinkerer is found caged.'
+    inabilities_lack_of _function:
+      - inability_id: 'INAB-RS-DEF01'
+        description: 'Cannot withstand  focused assault from the Player Character.'
+        authentication:
+          - 'Implied by player "dealing" with them.'
+     vulnerabilities_weaknesses:
+      - vulnerability_id: 'VULN-RS-COMBAT01' 
+        description: "Susceptible to player's combat capabilities."
+        authentication:
+          - 'Implied  by player successfully neutralizing them.'
+
+  - entity_id: 'ITEM_CageLatchKey_SASS_01' 
+    entity_name: 'Cage Latch Key'
+    entity_type: 'Object'
+    primary _authentication_sources:
+      - "Quest Segment 'Souls in a Swamp Snare' loot & actions" 
+    encountered_in_quest_segment_name: 'Rescue Bio-Tinkerer from River Scum at  Swamp Snare.'
+    core_function_purpose:
+      primary_role:
+        description: 'Un locking mechanism for a specific cage.'
+        authentication: "Player action 'Use it to free a Bio-Tinkerer.'"
+     key_capabilities_powers:
+      - capability_id: 'FUNC-CLK-UNLOCK01'
+         name: 'Cage Unlocking'
+        description: 'Opens the specific cage holding the Bio-Tinkerer .'
+        authentication:
+          - '"Use it to free a Bio-Tinkerer."'
+        limits_ nuances: 'Specific to this cage; design conforms to 1970s aesthetic ("chunky, brass"). '
+    costs_dependencies_operational_constraints:
+      - constraint_id: 'OPCON-CLK-ACQ0 1'
+        applies_to: 'ITEM_CageLatchKey_SASS_01'
+         description: 'Must be acquired (looted) from River Scum to be used.'
+        authentication:
+           - '"Loot them to find a ''Cage Latch Key.''"'
+
+  - entity_id: 'NPC_ BioTinkerer_SASS_01'
+    entity_name: 'Bio-Tinkerer' 
+    entity_type: 'Person'
+    primary_authentication_sources:
+      - "Quest Segment ' Souls in a Swamp Snare' NPC list & actions"
+    encountered_in_quest_segment_name : 'Rescue Bio-Tinkerer from River Scum at Swamp Snare.'
+    core_function_purpose :
+      primary_role:
+        description: 'Rescue objective; Potential future vendor/contact.'
+        authentication : "Quest segment objective; 'invite you to meet him at his workshop...'"
+    key_capabilities_powers :
+      - capability_id: 'FUNC-BT-OFFER01'
+        name: 'Offer  Future Business Interaction'
+        description: 'Can invite the player for future commerce/services.'
+        authentication:
+           - '"He’ll invite you to meet him at his workshop in Catfish Creek..."'
+    acquired_skills_ expertise:
+      - skill_id: 'SKL-BT-TINKER01'
+        name: ' Bio-Tinkering (1970s Cybernetics & Gator-Leather)'
+        proficiency_level: 'Implied  Professional'
+        authentication:
+          - '"specializing in 1970s aesthetic cybernetics and gator-leather  accessories."'
+    inabilities_lack_of_function:
+      - inability_id: 'INAB-BT- ESCAPE01'
+        description: 'Unable to self-liberate while caged by River Scum.'
+         authentication:
+          - 'Requires player intervention to be freed.'
+
+  - entity_id: 'ENEMY_F eralSkyGator_HHMI_01'
+    entity_name: 'Feral Sky-Gator '
+    entity_type: 'Creature (GE Alligator Variant)'
+    primary_authentication_sources:
+      -  "Quest Segment 'Hidden Hoard' enemy list & actions"
+    encountered_in_quest_segment_name : 'Find Mangrove Island Hoard Guarded by Feral Sky-Gators.'
+    core_function_purpose:
+       primary_role:
+        description: 'Aerial hostile guarding an area.'
+        authentication: '"The skies above are patrolled  by Feral Sky-Gators."'
+    key_capabilities_powers:
+      - capability_id: ' FUNC-FSG-FLY01'
+        name: 'Flight'
+        description: 'Winged variant  capable of aerial movement and patrol.'
+        authentication:
+          - '"winged GE alligator variants gone rogue"'
+      -  capability_id: 'FUNC-FSG-ATK01'
+        name: 'Aggressive Attack ( Biting/Screeching)'
+        description: 'Hostile attackers ("nasty biters with a screech  like a busted synthesizer").'
+        authentication:
+          - 'Description in quest text.'
+    vulnerabilities _weaknesses:
+      - vulnerability_id: 'VULN-FSG-GROUND01'
+         description: 'Can be shot out of the sky and dispatched on the ground.'
+        authentication:
+          -  '"pick them out of the sky with your Harpoon Gun... and dispatch any survivors on the ground..."'
+      - vulnerability _id: 'VULN-FSG-HARPOON01'
+        description: 'Susceptible  to Harpoon Gun fire while airborne.'
+        authentication:
+          - '"pick them out of the sky with your Harpoon  Gun"'
+
+  - entity_id: 'ITEM_DatachipKey_HHMI_01'
+     entity_name: 'Datachip Key'
+    entity_type: 'Object'
+    primary_authentication _sources:
+      - "Quest Segment 'Hidden Hoard' loot & actions"
+    encountered_in_quest_segment _name: 'Find Mangrove Island Hoard Guarded by Feral Sky-Gators.'
+    core_ function_purpose:
+      primary_role:
+        description: 'Unlocking mechanism for a specific footlocker.' 
+        authentication: '"unlocked by the Datachip Key you just picked up."'
+    key_capabilities_powers :
+      - capability_id: 'FUNC-DCK-UNLOCK01'
+        name: 'Foot locker Unlocking'
+        description: 'Opens the reinforced footlocker containing the hoard.'
+        authentication:
+           - '"unlocked by the Datachip Key you just picked up."'
+        limits_nuances: 'Con forms to 1970s aesthetic ("looks like an oversized 8-track tape").'
+    costs _dependencies_operational_constraints:
+      - constraint_id: 'OPCON-DCK-LOC01'
+         applies_to: 'ITEM_DatachipKey_HHMI_01'
+        description:  'Found in a specific location (rusted-out airboat wreck, on skeletal remain).'
+        authentication:
+           - 'Quest text describing its discovery.'
+
+  - entity_id: 'NPC_SlimJimbo_PM_MULTI '
+    entity_name: 'Slim Jimbo'
+    entity_type: 'Person'
+    primary _authentication_sources:
+      - "Quest Segments: 'A Cherished Charm intro', 'Luminous Bayou  Pearl retrieval'"
+    encountered_in_quest_segment_name:
+      - "Find Burt's Lucky Lure , Start 'A Cherished Charm' Quest."
+      - "Retrieve Luminous Pearl for Slim Jimbo, Fight  Bog Lurkers."
+    core_function_purpose:
+      primary_role_segment_1_charm_ intro:
+        description: 'Quest contact; Information provider (implied for Luminous Pearl).'
+        authentication: '" Slim Jimbo awaits us..."'
+      primary_role_segment_2_pearl_retrieval:
+         description: 'Quest giver; Task delegator; Payment defaulter.'
+        authentication: '"Slim Jimbo will  deliver the news that *you''re* the one...", "kinda sorta forgot to bring your reward money..."'
+     key_capabilities_powers:
+      - capability_id: 'FUNC-SJ-DELEGATE01' 
+        name: 'Task Delegation'
+        description: 'Assigns dangerous/laborious tasks (finding the pearl ) to the player.'
+        authentication:
+          - '"Slim Jimbo will deliver the news that *you''re*  the one who is going to have to... search for the elusive Luminous Bayou Pearl."'
+      - capability_id: 'FUNC -SJ-NEGOTIATE01'
+        name: 'Promise Future Compensation'
+        description: 'Offers  promises of future payment when current payment fails.'
+        authentication:
+          - '"he''ll promise to pay you back in  The Glowering Sprawl."'
+    inabilities_lack_of_function:
+      - inability_id:  'INAB-SJ-SELFRELY01'
+        description: 'Appears unable or unwilling to retrieve  valuable items himself.'
+        authentication:
+          - 'Delegates pearl retrieval to player.'
+      - inability_id:  'INAB-SJ-PAY01'
+        description: 'Fails to provide agreed-upon reward on  time/on site.'
+        authentication:
+          - '"kinda sorta forgot to bring your reward money..."' 
+    vulnerabilities_weaknesses:
+      - vulnerability_id: 'VULN-SJ-B OGLURK01'
+        description: 'Susceptible to attack by Bog Lurkers when alone.'
+        authentication :
+          - '"you''ll find that Slim Jimbo is under attack by some Bog Lurkers"'
+    functional_ profile_summary:
+      core_functional_identity: 'Slim Jimbo functions as a somewhat unreliable quest-related contact,  primarily serving to delegate tasks and create minor resource conflicts through payment defaulting. He acts as a catalyst for player action rather than  a capable agent himself.'
+      key_narrative_functions_served:
+        - 'Drives fetch/retrieval  sub-plot'
+        - 'Introduces minor betrayal/trust theme'
+        - 'Provides motivation for travel  to specific locations'
+      relationship_to_alethic_modality: "His existence and actions are well  within the established possibilities of Primal Mama's social dynamics (shady characters, forgotten promises)."
+      key_functional_ tensions_trade_offs:
+        - "Player's need for reward vs. Slim Jimbo's  unreliability."
+        - 'Player effort vs. minimal/delayed compensation.'
+```

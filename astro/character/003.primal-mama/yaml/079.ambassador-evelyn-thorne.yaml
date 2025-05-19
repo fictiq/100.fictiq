@@ -1,0 +1,177 @@
+
+world: Primal Mama
+cod ex_version: '0.2 - Character Constitution'
+last_updated: '[Current Date]'
+lead_architects : '[Your Name/Studio Name]'
+
+character_profile:
+  entity_id: CHAR_Thorne_ E_01
+  character_name: 'Ambassador Evelyn Thorne (occasionally referred to as "Evie " by close, permitted associates or disparagingly by swamp locals)'
+  entity_type: 'Person (Human )'
+  archetype: 'Cultured Diplomat in a Savage Land / Ambitious Bureaucrat'
+   primary_authentication_sources: 'This Codex Entry, Primal Mama Coherence Protocol v0.1'
+   canon_tier: Tier 1
+  authentication_status: Authenticated_Canonical_Active
+
+  authenticated_ property_bundle:
+    physical_properties:
+      purpose: "Define the character's tangible presence."
+      appearance_ general:
+        description: 'Human female, appears early 40s, meticulously maintained. Medium height, slender  but with a poised, authoritative posture that belies any physical fragility.'
+        authentication_source: '[Primal Mama  Visual Guide Concept]'
+      appearance_specific_features:
+        description: 'Sharp, intelligent hazel eyes that miss  little; a patrician nose and a mouth often set in a polite, neutral smile that rarely reaches her eyes. Hair  is a dark auburn, always impeccably coiffed in a practical yet stylish (within 1970 s parameters) updo or bob.'
+        authentication_source: '[Primal Mama Visual Guide Concept]'
+       appearance_distinctive_marks:
+        description: 'A small, almost invisible silver pin shaped like the Beetriot  Citadel always worn on her lapel. A faint, pale scar on her left forearm, poorly concealed by her sleeve –  result of an early, ill-advised attempt to pet a "tame" juvenile alligator in a Beetriot politician'' s menagerie.'
+        authentication_source: '[Narrative Backstory Snippet]'
+      typical_attire :
+        description: 'Impeccably tailored pant-suits or skirt-suits made of high-quality synthetic fabrics in muted  jewel tones or conservative neutrals, adhering strictly to late 1970s Beetriot fashion aesthetics (e.g .: wide lapels, slightly flared trousers, chunky but elegant brooches). Always wears practical, sturdy-heeled shoes suitable  for navigating official buildings but less so for swamp mud.'
+        authentication_source: '[Primal Mama Visual Guide Concept / Coherence  Protocol - Tech Aesthetic]'
+      voice_speech_pattern:
+        description: 'Clear, modulated alto voice with  precise, educated Beetriot diction. Speech is articulate, measured, and persuasive. Can affect a warmer, more folksy  tone when attempting to disarm or build rapport, though it often sounds slightly forced to discerning swamp ears.'
+        authentication_source : '[Dialogue Direction]'
+      gait_mannerisms:
+        description: 'Walks with a confident, purposeful stride on  solid ground; more hesitant and visibly uncomfortable in swampy or uneven terrain. Has a habit of subtly adjusting her clothing, as if  perpetually brushing off unseen swamp detritus. Often carries a sleek, wood-paneled data-slate (strictly no LLM capabilities ).'
+        authentication_source: '[Action Description / Coherence Protocol - Tech Aesthetic]'
+      associated_scent _if_any:
+        description: 'A faint, expensive, and slightly anachronistic floral perfume (rose and sandalwood , perhaps a pre-calamity formula replicated with difficulty) that battles with the ambient smells of alligator, swamp gas, and  diesel from watercraft.'
+        authentication_source: '[Sensory Palette]'
+      physical_undersaturation: ' Exact height/weight; specific brand of her data-slate; details of her off-duty, private attire (likely still  adhering to the aesthetic but more relaxed).'
+
+    functional_properties:
+      purpose: "Define what the character *can* and  *cannot* do."
+      skill_negotiation_diplomacy:
+        description: 'Masterful Negotiation  & Diplomacy (Core Skill, honed in Beetriot''s political arenas).'
+        authentication_source: '[Demonstrated Actions in Dipl omatic Scenarios]'
+      skill_beetriot_law_protocols:
+        description: 'Proficient in Beet riot Law and Inter-Settlement Protocols.'
+        authentication_source: '[Role Requirement]'
+      skill_public _speaking_persuasion:
+        description: 'Public Speaking & Persuasion (Adept at crafting and delivering speeches  that align with Beetriot''s agenda).'
+        authentication_source: '[Narrative Depiction]'
+      skill_ information_analysis:
+        description: 'Information Analysis (Can quickly process reports and identify key intelligence from approved, non-Autom aton sources).'
+        authentication_source: '[Role Requirement]'
+      skill_limited_self_defense:
+         description: 'Limited Self-Defense (Basic training with a compact, solar-charged stun pistol – 19 70s design, of course – for emergencies, but prefers to avoid direct confrontation).'
+        authentication_source: '[Character  Background Detail]'
+      limitation_physical:
+        description: 'Not physically strong or agile; unsuited for  prolonged exposure to harsh swamp environments or strenuous manual labor.'
+        authentication_source: '[Narrative Comparisons, Physical Description]'
+       limitation_knowledge:
+        description: 'Superficial understanding of deep swamp ecology, Erpenthrope lore , or Swamp Witch practices beyond official Beetriot briefings (which are often biased or incomplete).'
+        authentication_source:  '[Dialogue revealing misunderstandings / Coherence Protocol - Epistemic]'
+      limitation_technical:
+        description: 'While  adept with her 1970s-style data-slate and comms, she has no practical engineering skills for GE tech  or advanced solar arrays; reliant on Beetriot technicians.'
+        authentication_source: '[Coherence Protocol - Tech Aesthetic  & Solar Dominance]'
+      limitation_social:
+        description: 'Her Beetriot elitism and adherence to protocol can  make her appear aloof, out-of-touch, or untrustworthy to Lickskillet locals and other swamp  dwellers.'
+        authentication_source: '[Interaction Descriptions]'
+      functional_undersaturation: 'Ability to pilot swamp  craft (unlikely); proficiency in any specific scientific field beyond what''s needed for briefings; artistic talents.'
+
+     psychological_properties:
+      purpose: "Define the character's textually constituted inner life."
+      core _trait_ambitious:
+        description: 'Ambitious (Driven to succeed within Beetriot''s power  structures).'
+        authentication_source: '[Internal Monologue, Career-focused Decisions]'
+      core_trait_prag matic_results_oriented:
+        description: 'Pragmatic / Results-Oriented (Values efficiency and tangible  outcomes over sentimentality, especially in her duties).'
+        authentication_source: '[Decision-Making Patterns]'
+      core_ trait_observant_analytical:
+        description: 'Observant / Analytical (Constantly assessing situations and people for  opportunities or threats to Beetriot''s interests).'
+        authentication_source: '[Narrative Focus on her perceptions]' 
+      core_trait_underlying_professional_integrity:
+        description: 'Underlying Professional Integrity (Bel ieves in upholding agreements and the "civilized" process of diplomacy, even if the goals are self-serving for Beet riot).'
+        authentication_source: '[Actions in upholding treaties/deals]'
+      dominant_emotion:
+        description: ' Controlled Composure (Rarely displays strong outward emotion, maintaining a professional veneer). Internally, often experiences frustration with " primitive" local customs or bureaucratic inefficiencies.'
+        authentication_source: '[Narrator Descriptions, Contrast between outward/inward state ]'
+      key_motivator_career_advancement:
+        description: 'Career advancement within Beetriot'' s diplomatic corps; furthering Beetriot''s influence and resource acquisition from the territories.'
+        authentication_source: '[Explicit Goals,  Dialogue with Superiors]'
+      key_motivator_secondary_emerging_curiosity:
+        description:  'A reluctant, growing curiosity about the resilience and strange wisdom of the swamp cultures, despite her ingrained biases.'
+        authentication_source : '[Subtle shifts in internal monologue after prolonged exposure]'
+      key_belief_beetriot_order:
+        description : 'Beetriot represents order, progress, and the best hope for structured survival post-calamity; its  dominance is ultimately beneficial (or at least inevitable).'
+        authentication_source: '[Justifications for her actions/policies ]'
+      key_belief_aesthetic_stability:
+        description: 'Adherence to the 197 0s Aesthetic is a sign of cultural stability and sophistication, a bulwark against the chaos of the calamity''s aftermath  and the "unrefined" nature of the swamps.'
+        authentication_source: '[Internal thoughts on technology and design, Co herence Protocol - Axiological]'
+      internal_conflict:
+        description: 'Her indoctrinated Beetriot superiority vs. the undeniable  effectiveness of some swamp-dweller survival strategies. The desire for efficient information (potentially via forbidden LLMs) vs.  the severe social/legal repercussions and her own ingrained cultural aversion.'
+        authentication_source: '[Internal Monologue, Difficult Choices Dep icted]'
+      subjective_memory_content:
+        description: 'Vivid memories of Beetriot''s  political landscape, social etiquette, key figures, and the official histories of the Calamity and the rise of the celebrity  deities (viewed as cultural cornerstones).'
+        authentication_source: '[Narrative Depiction]'
+      psychological_unders aturation: 'Deep personal fears unrelated to her career; specific childhood experiences beyond a typical privileged Beetriot upbringing; genuine feelings about the de ified celebrities (likely views them as useful cultural icons rather than true divinities).'
+
+    social_relational_categorical_properties :
+      purpose: "Define the character's place within the world's networks."
+      official_role:
+         description: 'Accredited Ambassador from the Beetriot High Council to the independent township of Lickskillet and liaison  for outlying territories.'
+        authentication_source: '[Intro Scene, Official Documents Prop]'
+      social_status: 
+        description: 'High status within Beetriot; treated with formal respect (and often suspicion or resentment) as an official envoy in  Lickskillet and other swamp settlements.'
+        authentication_source: '[World Structure Doc, Interactions]'
+       primary_affiliation:
+        description: 'Beetriot Diplomatic Corps / Beetriot High Council.'
+        authentication _source: '[Role]'
+      secondary_affiliations_operational:
+        description: 'Liaises with  representatives of the Meat Oligarchy (carefully); maintains a network of (often unreliable) local informants.'
+        authentication _source: '[Narrative events, Operational Needs]'
+      key_relationship_1_mayor_hoolihan :
+        description: 'To Mayor Hoolihan of Lickskillet (Fictional Example): A relationship  of strained professionalism, mutual necessity, and constant underlying negotiation over resources and regulations.'
+        authentication_source: '[Dialogue/Actions ]'
+      key_relationship_2_superior_rexford:
+        description: 'To her direct superior in  Beetriot (e.g.: Councillor Rexford): Formal, deferential, focused on reporting successes and managing expectations.'
+         authentication_source: '[Communication Props/Scenes]'
+      key_relationship_3_local_guide:
+        description:  'To a local Lickskillet guide/aide (e.g.: "Coot" or "Delta"  – Fictional Examples): Transactional at first, potentially evolving into grudging respect or manipulation, depending on narrative arc .'
+        authentication_source: '[Interaction Scenes]'
+      species_type:
+        description: 'Human ( Standard Beetriot Genotype – likely benefiting from better, more stable nutrition and healthcare access compared to some deep swamp populations).' 
+        authentication_source: '[Default/Description]'
+      social_undersaturation: 'Specific family ties in Beetriot (likely  influential but not detailed); personal friendships (few, and likely politically motivated); detailed hierarchy within the Diplomatic Corps.'
+
+     modal_properties:
+      purpose: "Define any inherent unique relationship to world laws."
+      status: 'None authenticated . Ambassador Thorne operates entirely within the established physical, biological, and social laws of Primal Mama for baseline humans.'
+       note: 'Her diplomatic immunity, if any, is a Deontic (legal/social) construct, not an inherent  modal property.'
+
+    axiological_properties:
+      purpose: "Define the character's value status *within* Pr imal Mama."
+      reputation_beetriot_elite:
+        description: 'Viewed as a competent, ambitious, and  effective diplomat; a reliable instrument of Beetriot policy. Some rivals may see her as overly cautious or too "by-the -book."'
+        authentication_source: '[Dialogue from Beetriot peers/superiors]'
+      reputation_lickskillet _populace:
+        description: 'Widely seen as an outsider, "the Beetriot Suit," "She-G ator" (derogatory, implying coldness/predation), or "Miss High-and-Mighty." Some may  grudgingly respect her tenacity or see her as a necessary evil for trade/negotiation.'
+        authentication_source: '[ Local character dialogue/gossip]'
+      reputation_meat_oligarchy:
+        description: 'A useful contact point for  official channels, but also a potential obstacle if her integrity interferes with their less savory operations. Likely attempt to cultivate or co-opt  her.'
+        authentication_source: '[Oligarchy character interactions]'
+      moral_alignment_narrative_ framing:
+        description: 'Initially appears as an agent of a potentially exploitative urban power. Narrative may explore  the complexities of her role, offering potential for her to become a more sympathetic (or tragically flawed) figure as she confronts  the realities of Primal Mama beyond Beetriot''s sanitized view.'
+        authentication_source: '[Narrator tone , plot outcomes]'
+      axiological_undersaturation: 'Her reputation among Erpenthropes (likely seen as just  another ephemeral human official, unless she directly impacts their hidden concerns); Swamp Witches'' opinion (likely utter indifference or mild contempt).' 
+
+    historical_properties:
+      purpose: "Define the character's known origins and connections to past events."
+      origin :
+        description: 'Born in Beetriot, post-Calamity, into a family with established connections to the city ''s administrative bureaucracy. Educated in Beetriot''s premier (and aesthetically compliant) institutions.'
+        authentication_ source: '[Character Backstory Outline]'
+      key_past_event_connection:
+        description: 'Played  a key role in negotiating the "Solar Array Accord" which standardized energy tariffs between Beetriot and several vital outlying solar farms, a significant  but unglamorous achievement that marked her as a capable negotiator.'
+        authentication_source: '[Official Record Prop  / Backstory]'
+      inherited_items:
+        description: 'Besides the citadel pin, she possesses a set  of antique (by post-calamity standards, i.e.: early 1970s design)  fountain pens, a gift from her mentor, symbolizing the "art of communication."'
+        authentication_source: '[Narr ative inventory]'
+      historical_undersaturation: 'Specific details of her education beyond its aesthetic compliance; her family''s exact  level of influence; any significant personal tragedies or triumphs pre-dating her current posting.'
+
+  character_constitution_summary_narr ative_function:
+    purpose: "Synthesize the core identity, internal conflicts, and narrative role emerging from the  authenticated property bundle."
+    core_essence: 'Ambassador Evelyn Thorne is constituted as a product of Beetriot''s ordered , aesthetically rigid, and ambitious culture, thrust into the chaotic, organically vibrant, and often contradictory reality of Primal Mama ''s swamplands. Her identity is a performance of Beetriot sophistication and control, constantly challenged by the world beyond the  city walls. She embodies the tension between the "civilized" artifice of Beetriot (including its veneration of cattle- as-art and 1970s tech) and the raw, bio-engineered nature of the alligator-dependent territories.  Her adherence to non-LLM/Automaton information systems is a core part of her operational and cultural identity.'
+    primary _narrative_function: 'Serves as a key viewpoint character for exploring the political, economic, and cultural clashes between Beetriot  and the swamp territories (especially Lickskillet). Can act as a protagonist, antagonist, or complex supporting character,  driving plots related to resource negotiation, cultural misunderstanding, the influence of the Meat Oligarchy, and the enforcement/sub version of Beetriot''s laws (like the cattle consumption taboo). Her interactions can reveal the practical impact of Primal  Mama''s core modalities.'
+    key_internal_conflicts_from_bundle: 'Beetriot- instilled prejudice vs. observed swamp resilience/ingenuity; personal ambition vs. ethical dilemmas posed by Beetriot''s policies ; the desire for effective diplomacy vs. the "primitive" or supernatural elements she encounters (ghosts, Erpenthropes,  Swamp Witch activities); upholding the 1970s tech aesthetic and LLM-stigma vs. the practical  need for efficient information in a dangerous world.'
+    potential_for_development_based_on_bundle: ' Could "go native" and develop genuine empathy for swamp communities, potentially challenging her Beetriot loyalties. Conversely, could become  more hardened and manipulative in service of Beetriot. Might be forced to confront the supernatural elements she officially dismisses. Her relationship with the  truth (especially regarding the "invisible women" conspiracy or the real history of the Calamity) could be tested if she encounters  Erpenthropes or reliable ghostly testimony.'

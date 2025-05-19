@@ -1,0 +1,63 @@
+Carnal Sins
+Head to the hospital and talk to the doctor caring to Priscilla, who tells you more about her injuries. Dandelion will implore you to go after the attacker, which Geralt agrees to without hesitation. The doctor will provide some insight into related attacks, and suggests you investigate other victims of their presumed common assailant. Agree, and you'll travel to the sewers with the good doctor.
+
+The doctor will chatter at you a bit-follow him south-east, then south-west, then south-east again. Along the way you'll have to fight off two Drowners (level sixteen) and a Water Hag (level seventeen). Continue north-east to reach a chamber dominated by some wooden stairs, where you'll have to put down two more Drowners (level sixteen). When the Necrophages are gone, ascend the stairs and continue down a tunnel to the north-west, then go up some stairs to the north-east, and finally climb a ladder to exit the sewers.
+
+The Austopsy
+Now that you're in the morgue, loot around-you're looking for the body of a dwarven woodcarver-but there's no harm in helping yourself to various goodies along the way. When you're ready, search the room to the north-east and investigate a corpse along the south-eastern wall to start the autopsy. Cycle through all the dialogue options to examine the body thoroughly and give Joachim whatever conclusion you wish. Afterwards you'll be interrupted by the coroner Hubert Rejk then by Reverend Nathaniel, who is somewhat more rude than the coroner.
+
+When you leave, question Joachim some more. He doesn't seem to have a high opinion of Nathaniel, and he has history with Hubert. He won't elaborate on this history unless you press him, and even then, he's vague. It should be noted that Joachim mentions that Hubert "hasn't changed a bit" in 30 years. Whereas Joachim is old and grey, Hubert seems to still be comparatively youthful. It's something that should arouse one's suspicions, but Geralt ignores it entirely.
+
+Geralt and Joachim part ways-but there's plenty for us to do. We've got three leads-we need to find Eustace the corpse collector, examine the place where the woodcarver died, and examine the site where Priscilla was attacked.
+
+The Corpse Collector
+The closest objective to us is the corpse collector, so head east to find him. You'll stumble upon a scene most certainly calling for a corpse collector. Gang warfare must be a lucrative source of income for a corpse collector. Talk to Eustace, who is messing with a corpse near a building. Ask him some questions and he'll get uppity, after which you'll either need to bribe him (200 Crowns), or use the Axii Sign on him (he can't be provoked, though you can slug him after he makes a comment about Priscilla).
+
+Objective	Reward
+For using the Axii Sign on Eustace	40 XP
+Woodcutter's Murder Site
+Our next destinations-the two murder sites-are pretty close to each other. Both are south-east of Hierarch Square, one being near the haunted house where Corsinne dreamed, and the other being just east of the northern end of Tretogor Gate bridge. Head to the former, first, the site of the woodcutter's murder, and knock on two large wooden doors, where some dwarf will be understandably suspicious of you. After he lets you in, ask him about the dead dwarf to learn... well, precious little about the circumstances of his death.
+
+Activate your Witcher Senses adn search the blood pool, some furrows indicating where something was dragged across the ground, then the pyre of half-burned statues. Finally pick up the letter "Concerned Citizen's Sermon" from atop an anvil and read it. It seems to implicate the Eternal Fire cult, but why would such a cult-which happily burns heretics in public-need to hide the murder of this dwarf?
+
+Investigate the locked door to the workshop and the dwarf will open it for you. Head inside the workshop and put your Witcher Senses to work again, this time searching some rotten eyes on a cabinet along the southern wall, an over-turned chair, some spilled formaldehyde, and another blood stain. Talk to the dwarf again and tell him what happened... you can also talk about the statues of Melitele, which, like everything else fun, the cult of the Eternal Fire didn't like.
+
+Priscilla's Attack Site
+Leave the site of this murder and head east to the site of Priscilla's attack. At this spot you should encounter a guard who tells you that there's been another victim, and you're to head to the coroner at your earliest convenience. Wonderful. First, though, let's examine this crime scene.
+
+Activate your Witcher Powers-go!-and look around. As you explore a woman will call out to some accomplices (level sixteen) who will engage you in fisticuffs. You can use Signs to aid you here, and you might as well, since there are three of them. Once you win, Geralt will confront the woman, and she'll reveal they were here to take vengeance on Priscilla's attacker... because the perpetrator always returns to the scene of the crime and all.
+
+Talk to the woman, then use your Witcher Senses to find a scent trail in the middle of the search area, which Geralt identifies as formaldehyde, then search a brazier, a foot print and some blood. A short trail leads to a wall to the south-west, where you can find the note "Concerned Citizen's Sermon." Seems we've got a preachy sort of killer. Also note what Geralt says when he observes that the killer escaped by leaping a wall even he couldn't scale. Might we have a supernatural cultist on our hand, or are the sermons red herrings to cover for such?
+
+Another Autopsy
+Return to the Coroner, who is north and slightly east of Hierach Square. You'll find him standing over the body of a new victim. He's somewhat more accomodating now, so ask him some questions to get his side of the story as it concerns Joachim. Also be sure to ask him about his youthful appearance, which he writes off with a rather bogus story. If you ask about the victim you'll find that it's another apparently religiously-inspired murder. He also has a low opinion of Nathaniel. Joy. Perform the autospy and, after breezing through the killer's modus operandi Hubert will discover a note naming the killer's next victim. Geralt doesn't mess around and decides to head directly to the location.
+
+A Crisis of Faith
+Find a signpost and fast-travel to the "Vegelbud Residence." Talk to the guards outside, whom Geralt convinces to be reasonable. Talk to her Ingrid and she'll take you to Patricia-after talking about a pyre, the result of Patricia's recent crisis of faith. Head up into the manor Ingrid will go into Patricia's room-the lady Vegelbud is in no mood for guests. Sadly, it doesn't seem like she got her wish.
+
+Chase your target out the door, down some stairs, and out of the manor. Run past (or kill) a pack of Dogs (level one) and continue running to the north-west, where you'll encounter some Guards (level sixteen) who mistake you as the murderer. Fight defensively and after a while, a cheater with a crossbow will show up, and Geralt will decide that they've delayed him too long for him to catch the murderer.
+
+After the Guards have finished botching their jobs (and have been admonished for it) talk to Ingrid and tell her what you wish. You'll be given free reign by Ingrid, and he'll use it to search Patricia's room, where he'll find the predictable note naming the next victim. When you're back in control search the room if you wish-Geralt decides that obsessing over the victim's corpse is a waste of time, but you can spot another empty formaldehyde bottle.
+
+Sweet Nettie
+Fast-travel back to Hierarch Square and head back to Crippled Kate's brothel. Once inside Geralt will be informed that Sweet Nettie is upstairs with a "very important client." Head upstairs and sure enough, you'll find Sweet Nettie with a certain Reverend, who is caught in a very compromising position. If you remember from earlier conversations it was revealed that our good priest once was a torturer who enjoyed plying his trade on women, in particular.
+
+You'll get a timed dialogue response-if you pick the first option "Try it asshole," or you get fed up with him on any subsequent responses, you'll end up fighting him (level thirteen). While he has been dangerous enough to craftsmen, bards, and old women, he's not match for a Witcher. When you kill him, loot him for a leveled, relic-quality "Poker", then free Sweet Nettie, who talks about how she came to be in such a compromised position... Doesn't seem like how the killer of the other victims operated. Oh well. Head back to Dandelion and Priscilla to find that the latter is recovering quite well. Maybe there's a happy ending to this quest after all? This ends the quest "Carnal Sins."
+
+Objective	Reward
+For killing Nathaniel	
+100 XP
+Tracker's Trousers
+Diagram: Ard Skellige Aketon
+
+On the other hand, if you choose to hear the priest out, both during the time dialogue option and during then in subsequent responses, you'll find that, while reprehensible, Nathaniel isn't your murderer. To do this, first pick the option "Just like that? No formaldehyde?" then "So who left the letter of Patricia's body?" and he'll tell you the location and identity of the true killer. After your chat he decides to go back to torturing Sweet Nettie. Either leave her to her fate, use the Axii Sign to make him go away, or pick "Can't allow it." to pick a fight. The last option is by far the most satisfying option, and you get the same reward for killing him now as you would above... so learn the killer's true identity, then snuff out this scumbag, and get the rewards for both.
+
+Objective	Reward
+For using Axii on Nathaniel	40 XP
+Travel to a warehouse west of the "Novigrad Docks" signpost, where you'll find our dear Coroner picking up his formaldehyde, just like Nathaniel suggested. The criminal will admit to the crimes, and tell you his motives, which are just as bizarre as suspected-a supernatural being with a twisted sense of morality who took it upon himself to carry out the will of the Eternal Fire. He's very forthcoming with information, indeed. Unfortunately, a fight is unavoidable, and a higher vampire is no mean foe. At least, according to the lore, but this critter fights like a normal Katakan, albeit a level sixteen one. When it falls, loot it for the Silver Sword Deargdeith, some Rubedo and a Katakan Mutagen.
+
+Objective	Reward
+For killing the true murderer	500 XP
+Diagram: Assassin's Boots
+Lesser Svarog Runestone
+Anyways, return to the hospital and talk to Dandelion and Priscilla. The latter seems to be recovering quicker than expected, and with Dandelion's devotion to help her through things, she might just do alright. You can also talk to Joachim and talk to him about various things-including telling him about the murderer's identity. You can also ask about Shani, a medic and potential romantic interest from the first Witcher game.

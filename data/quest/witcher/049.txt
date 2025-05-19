@@ -1,0 +1,52 @@
+Possession
+Yennefer has been appeased, we've got one lead on Ciri, and we're no longer in debt. We've only got a few things left to do in Skellige-help Crach's children, chase down Hammond for Lambert, and perhaps, if we have time to spare, collect some more Witcher set diagrams. We'll also try to work some Gwent cards into the mix, too. First, let's deal with Crach's kids.
+
+Svorlag
+Our first destination is Svorlag, which is an island north-west of Ard Skellig. Either sail or fast-travel there, as your means and disposition allows-there's loot that can be pulled out of the water in the former case, but for the sake of focus, we'll save that for later.
+
+Once you make it to town... well, time for the typical town stuff. A Blacksmith, a Mercant and an Innkeep all play Gwent... if you haven't already obtained every random card in the game, you have to be getting close by now. The Innkeep in Svorlag also sells an "Ice Giant" Card, an "Arachas" Card, the "Vampire: Ekimmara" Card, and a "Foglet" Card. Both the "Arachas" and the "Vampire: Ekimmara" Cards are worthy additions to a Monster deck due to their "Muster" ability. Also be sure to grab the notice "Contract: Nils' Disapperance" to start the quest "Contract: Here Comes the Groom", which we'll deal with later.
+
+Possession (level 17)
+When you're done messing around in Svolag enter a building south of the tavern to find the Jarl's house. After chatting to some guards outside and waiting for the Jarl to conclude some business, Geralt will try to pry some information out of the Jarl, who seems like he's in no shape to provide any coherent answers.
+
+Leave the Jarl's house and return to the village, where you can ask a Skelliger Woman about Cerys. She can't get you directly to Cerys, but she'll point you to two people named Bergthora and Eiric, who might know more. A Fisherman nearby is a dead-end, so go talk to Bergthora, who is uphill to the north. After possibly gossiping about other Spikerogg girls, she'll give you more defintive directions than the Skelliger Woman did, saying that Cerys was with Eiric.
+
+Head to the northern shore of Spikerogg, where you'll find a Skelliger trapped on a rock by some Drowners (level seventeen). Kill them and the Skelliger will come down and claim an unearned share of the credit for the demise of the Drowners. Let him have it, or not, then ask about Cerys to find out that she was apparently interested in Spikerogg's Jarl, and that she went to the Jarl's old family home.
+
+Objective	Reward
+For being saved by Eiric	XP Varies
+The Jarl's old family home is to the south-west, which you can reach by following a trail uphill, scaling some ledges and leaping some gaps, or you can make your way back south to Svorlag and head uphill along a road to the north-west. Either way, enter the front door and Geralt will immediately spot something amiss. Activate your Witcher Senses and find some tracks near the front door, then follow them to the south-west. Go through a door to the north-west and grab a "Key to Cellar" from atop a stone ledge then loot a chest and leave the room. Follow the trail to the south-west then turn north-west to find Cerys.
+
+After you recover her, the two will talk. Cerys will tell a story about Jarl Udalryk, a family dispute involving a sword, a mysterious death in the family that implicates the Jarl, and visions that might be something more sinister than the influence of the gods.
+
+Return to the house and, with the "Key to Cellar" in hand, open a trap door in the north-eastern corner of the main room, then climb down a ladder to reach the cellar. You'll find the sword in question-Brokvar-on a table. Take it, and a shadowy image will appear on the wall.
+
+Objective	Reward
+For obtaining Brokvar	XP Varies
+Climb back to daylight and talk to Cerys, then follow her to the Jarl's house. She'll babble about your relationship with her dad along the way. When you near the Jarl's house she'll make an unfortunate observation about Yennefer. Talk to the Jarl, who has, in our absence, made another "sacrifice" to the "gods". Geralt will tell the Jarl the probable truth behind his visions, and suggest a course of action. The superstitious Jarl disagrees, but not enough to dissuade Geralt... especially with the aid of Hjort.
+
+Hidden Treasure: Not Only Eagles Dare (level 10)
+Head east to reach the shore, then swim along the coast to the south-east. Along the way you'll find a series of small islands where Drowners (level fifteen) prowl. Find the largest of these small islands to the east, where a small ruined ship is beached. Near a stone jutting out of the water you'll find a corpse, on which is a "Note" and a "Key With Ring Attached," which starts the quest "Not Only Eagles Dare." Read the Note then loot a nearby chest. Swim to the south-east to find a search area, then find a chest just west of the center of the search area. Loot it to complete this even, then swim east to find Aki's body.
+
+Place Brokvar with Aki's remains, then return to Jarl Udalryk's house. Unfortunately, it doesn't seem like our efforts have paid off, as the Udalryk's voices have, if anything, become more malicious in our absence, to Udalyrk's misfortune. Question the Jarl further to learn more about the "gods" and how they communicate with him. After learning all Geralt can from the Jarl, he'll talk to Cerys in private and tell Cerys the truth of the Jarl's affliction, and describe two possible solutions-trick it and lure it to a new victim, or draw the creature out and kill it-and their possible short-comings. Cerys leans towards attempting to trick the Hym first, and if you choose to get right to work, you'll save yourself a bit of walking.
+
+Walk to the Jarl's old home... or instantly travel there with Cerys, depending on how you ended the conversation with her. Enter the house and activate your Witcher Senses. Investigate the oven along the south-western wall, then head into the room where we found the key. The Hym will try to perform a sneaky illusion to discourage Geralt, but Geralt simply views this as a good sign. Search some boards to the north-west, then head into another room to the south-west and search a cradle.
+
+Cerys will call to you, so head outside the house and talk to her. She'll suggest that she has a plan, but, as Geralt told her, he can't be in on the plan. You'll either have to trust Cerys and comply with whatever horrible thing she's got concocted, or decline. The latter option forces you to handle the Hym in the good old-fashioned Witcher's Way, as does failing to trick the Hym later. If you opt out of trickery (or fail at it) continue the quest by following the text under the heading "The Witcher's Way." Otherwise, keep reading the text under the heading "Tricking the Hym."
+
+Tricking the Hym
+Agree to Cerys' plan. The watchword for the rest of this quest is trust. Trust Cerys at every turn, do what she says, and you should be fine. Agree to get started and she'll send you on a mundane errand while she runs off. Shortly she'll return with a possession rather deal to the Jarl, with the Jarl and some of his soldiers in tow. You'll get a timed decision-do what Cerys says, or wuss out. If you do what Cerys says, fight off three Warriors (level seventeen) and witness the payoff of Cerys' ruse. If you chicken out... well, Cerys will be upset, and you'll have to continue with "The Witcher's Way."
+
+Objective	Reward
+For tricking the Hym	XP Varies
+Crystalized Essence
+The Witcher's Way
+Travel with Cerys to Udalyrk and tell him about your goal. Hjort will fetch the materials you need, after which you'll need to return to the Jarl's old house and place the torches in sconces located around the Jarls house (which will highlight with your Witcher Senses active).
+
+Place the torches, then head outside and talk to Udalyrk, either explaining to him what will happen in more detail, or leaving him in the dark... figuratively, anyways. Head back into the house with Udalyrk and apply some Specter Oil to your Silver Sword, then light the torches, after which the Hym will arrive. It's a pretty easy opponent-use the "Rule-of-Three" again-three Strong Attacks with the Silver Sword, then dodge. If the Jarl freaks out during the fight, calm him with Axii. Repeat until the Hym flees. Head down into the cellar, where the Hym will have recovered to half its life. Repeat the process above to kill it, at which point you'll get some Crystalized Essence. Search the body for some typical specter loot, then return upstairs and tell Udalyrk and Cerys the good news.
+
+Objective	Reward
+For killing the Hym	XP Varies
+Crystalized Essence
+Time to move on. We can quest around Spikerogg now, if you wish, including pillaging the nearby sea-especially all the events between Spikerogg and Undvik. Otherwise, it's time to help Crach's other child, Hjalmar.
+

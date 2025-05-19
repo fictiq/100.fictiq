@@ -1,0 +1,169 @@
+
+ World: Primal Mama
+CodexVersion: '0.1 - Character Constitution'
+LastUpdated: '[Current  Date]'
+LeadArchitects: '[Your Name/Studio Name]'
+
+CharacterProfile:
+  EntityID: ' CHAR_Juneau_MG_01'
+  CharacterName: 'Mama Gator Juneau (born Juneau  Marie Thibodeaux)'
+  EntityType: 'Person (Human Citizen of Lickskillet)'
+  Archetype : 'Resilient Homesteader / Bayou Matriarch'
+  PrimaryAuthenticationSources: 'This Codex Entry,  Primal Mama World Codex v0.1'
+  CanonTier: 'Tier 2 (Significant Local Figure)' 
+  AuthenticationStatus: 'Authenticated_Canonical_Active'
+
+  AuthenticatedPropertyBundle:
+    PhysicalProperties:
+       Purpose: 'Define the character''s tangible presence.'
+      Appearance_General:
+        Value: 'St urdy, weathered human female, appears late 50s but moves with the vigor of someone younger. Sun-le athery skin from decades in the swamp.'
+        Authentication: 'PM_Codex_0.1 - Implied  Lickskillet lifestyle'
+      Appearance_Specific_Features:
+        Value: 'Sharp, assessing hazel eyes ; a network of fine lines around them. Strong, calloused hands. Jaw often set with determination. Hair, once dark brown , now mostly silver, usually tied back in a practical bun or braid.'
+        Authentication: 'Implied by archetype  and environment'
+      Appearance_Distinctive_Marks:
+        Value: 'Faded, thin scar running along  her left forearm from a juvenile gator mishap decades ago. A single alligator tooth, polished smooth, worn on a leather thong around  her neck.'
+        Authentication: 'Plausible for her profession'
+      Typical_Attire:
+        Value: ' Practical, durable clothing adhering to a subtle 1970s rural aesthetic: faded denim overalls over a plaid work  shirt, or sturdy canvas pants and a simple knit top. Always wears knee-high, waterproof swamp boots. Often a  wide-brimmed, woven river-grass hat, patched with what looks like duct tape with a wood-grain  pattern.'
+        Authentication: 'PM_Codex_0.1 - Technological Aesthetic Constraint; Lickskillet  environment'
+      Voice_Speech_Pattern:
+        Value: 'Warm but firm contralto with a pronounced Lickskillet  bayou drawl. Speaks plainly and directly, often using colorful, swamp-derived metaphors. Can be surprisingly soft-spoken until  angered.'
+        Authentication: 'Implied regional dialect'
+      Gait_Mannerisms:
+        Value: 'Econom ical, sure-footed movements, even on unstable ground. Habit of scanning the waterline. Wipes hands on her overalls. When  thinking, she might tap the gator tooth necklace.'
+        Authentication: 'Implied by profession and environment'
+      Associated_ Scent:
+        Value: 'Faint, earthy smell of swamp water, alligator musk, and smoked meat,  with an occasional hint of solar panel cleaning fluid or 1970s-style degreaser.'
+        Authentication: ' PM_Codex_0.1 - Alligator meat processing, Solar dominance'
+      UndersaturationNotes:  'Exact height/weight, specific brand of her preferred (likely locally made or heavily modified) boots, childhood illnesses.'
+
+     FunctionalProperties:
+      Purpose: 'Define what the character *can* and *cannot* do.'
+      Skills :
+        - Value: 'Expert Alligator Husbandry (GE Solar Gators): Deep, practical knowledge of their diet  (beyond solar), breeding cycles, health, solar charging requirements, and humane harvesting/processing techniques.'
+          Authentication: 'PM _Codex_0.1 - Alligator Biogenesis, Alligator Meat'
+        - Value: 'Prof icient Mechanic (1970s Analog Tech): Adept at repairing and maintaining her farm’s solar power arrays, watercraft  engines (likely airboats or shallow-draft skiffs), and butchering equipment, all within the 197 0s aesthetic using chunky, repairable components.'
+          Authentication: 'PM_Codex_0.1 -  Solar Dominance, Technological Aesthetic Constraint'
+        - Value: 'Proficient Marksmanship (Hunting Rifle & Shotgun ): Owns and maintains firearms for protection and occasional (non-alligator) swamp game hunting, reflecting local gun culture.'
+           Authentication: 'PM_Codex_0.1 - Gun Ownership (Regional)'
+        - Value: 'Small -Scale Alligator Meat Curing & Smoking: Runs a small, "mom-and-pop" operation, producing quality smoked  gator products.'
+          Authentication: 'PM_Codex_0.1 - Alligator Meat, implied friction with olig archy'
+        - Value: 'Swamp Navigation & Foraging: Intimate knowledge of local waterways, edible/medic inal swamp plants (though not esoteric Swamp Witch lore).'
+          Authentication: 'Implied by Lickskillet lifestyle '
+      Limitations:
+        - Value: 'Limited understanding of the advanced genetic engineering principles behind the gators beyond  "what works." No formal training in advanced solar physics, relies on practical experience and analog readouts.'
+          Authentication: 'PM _Codex_0.1 - Technological Aesthetic Constraint implies limits on information display/access'
+        - Value:  'Economic: Operates on tight margins; vulnerable to price manipulation and supply chain pressures from the meat processing oligarchy.' 
+          Authentication: 'PM_Codex_0.1 - Deontic: Friction from meat oligarchy' 
+        - Value: 'Social/Political: Little influence outside Lickskillet; distrustful of Beetriot bureaucracy  and has no desire to engage with it. Avoids Automaton/LLM use, relying on her own ledgers and community  word-of-mouth, which may put her at a disadvantage against more ''modernized'' (within 70 s tech) oligarch operations.'
+          Authentication: 'PM_Codex_0.1 - Automaton/LL M User Stigma, Axiological: Autonomy vs Automation'
+      UndersaturationNotes: 'Ability to pilot  larger vessels, complex financial literacy, knowledge of advanced ritual magic (explicitly not a Swamp Witch).'
+
+    PsychologicalProperties:
+       Purpose: 'Define the character''s textually constituted inner life.'
+      Core_Trait_Independence:
+         Value: 'Fiercely Independent / Self-Reliant'
+        Authentication: 'PM_Codex_0. 1 - Axiological: Autonomy vs Automation, Gun Ownership'
+      Core_Trait_Resilience:
+        Value: ' Deeply Resilient / Stubbornly Persistent'
+        Authentication: 'Implied by surviving as mom-and- pop'
+      Core_Trait_Pragmatism:
+        Value: 'Pragmatic / No-N onsense'
+        Authentication: 'Consistent with archetype and challenging environment'
+      Dominant_Emotion:
+        Value : 'Weary Determination, often masked by a gruff warmth or wry humor.'
+        Authentication: 'Implied by  constant struggle'
+      Key_Motivator:
+        Value: 'To maintain her family''s legacy and  independence; to provide for her small community in Lickskillet; to resist the encroachment of the meat oligarchy.'
+        Authentication : 'PM_Codex_0.1 - Deontic: Friction from meat oligarchy'
+      Key_Belief _Swamp_Provides:
+        Value: '"The Swamp provides for those who respect it and work hard." Deep suspicion of unchecked  corporate power and "city folk" (Beetriot) trying to dictate terms.'
+        Authentication: 'Consistent with archetype  and world tensions'
+      Key_Belief_Quality_Meat:
+        Value: 'Believes in the quality of traditionally  prepared alligator meat over mass-produced alternatives.'
+        Authentication: 'Motivates her small-scale operation'
+      Internal _Conflict:
+        Value: 'Desire to preserve her traditional methods vs. the economic necessity to adapt (within 70 s tech limits) to compete. Pride in her independence vs. the loneliness and vulnerability of her position.'
+        Authentication: ' Plausible character tension'
+      Subjective_Memory_Content:
+        Value: 'Vivid memories of  Lickskillet before the oligarchy became so dominant. Knowledge passed down from her parents about living in the swamp post -Calamity. No direct memory of pre-Calamity, but holds onto stories.'
+        Authentication: 'P lausible for her age and location'
+      UndersaturationNotes: 'Specific views on the deified celebrities ( likely sees them as distant figures, less relevant to daily survival than local spirits/lore, if any), detailed opinions on Er penthropes (might view them with wary respect or simple pragmatism if encountered), depth of belief in "invisible women" conspiracy  (could be a low-level grumble or a more active suspicion).'
+
+    Social_Relational_Categorical_ Properties:
+      Purpose: 'Define the character''s place within the world''s networks.'
+      Official_Role:
+         Value: 'Owner-Operator of "Juneau''s Bayou Bites," a small, independent alligator farm and smokehouse  in the outskirts of Lickskillet.'
+        Authentication: 'Self-defined role, consistent with world'
+      Social _Status:
+        Value: 'Respected elder and figure of resilience within the Lickskillet community. Economically minor league  compared to oligarchy.'
+        Authentication: 'Implied by archetype and narrative potential'
+      Primary_Affiliation :
+        Value: 'Lickskillet Community (Informal but strong ties).'
+        Authentication: 'Logical  for her character'
+      Secondary_Affiliations:
+        Value: 'Loose, informal network of other small, independent  gator farmers (if any are left or willing to associate openly). Possible cautious, transactional relationship with local Swamp Witch for specific non -magical supplies or rare swamp goods.'
+        Authentication: 'Plausible connections'
+      Key_Relationship_O ligarchy:
+        Value: 'To unnamed representatives of the "Consolidated Bayou Processors" (Meat Oligarchy):  Antagonistic, characterized by economic pressure, buyout offers, and subtle intimidation.'
+        Authentication: 'PM_Codex_ 0.1 - Deontic: Friction from meat oligarchy'
+      Key_Relationship_Community:
+         Value: 'To the Lickskillet Community: Protective, seen as a source of quality goods and a symbol of " the old ways." Likely barters and extends credit locally.'
+        Authentication: 'Implied social role'
+      Key _Relationship_Grandchild:
+        Value: 'To a Grandchild (e.g., Remy): Represents her  legacy and the future she''s fighting for. This relationship provides emotional grounding and motivation.'
+        Authentication: 'Adds  depth and motivation'
+      Species_Type:
+        Value: 'Human (Native Primal Mama Strain, adapted  to swamp environment over generations)'
+        Authentication: 'Default'
+      UndersaturationNotes: 'Specific named friends,  exact number of employees (if any beyond family), relationship with any formal Lickskillet governance (if it exists beyond informal  councils or oligarch influence).'
+
+    ModalProperties:
+      Purpose: 'Define any inherent unique relationship to world laws.'
+      Property ID: 'N/A'
+      Property: 'None Authenticated.'
+      Description: 'Operates under  the standard alethic, deontic, axiological, and epistemic modalities of a human citizen in Primal Mama, Lick skillet region. Not an Erpenthrope, not a primary magic user (though may know some folk remedies/ superstitions).'
+      Limits: 'Subject to all general biological and societal laws of Primal Mama.'
+      Authentication:  'Primal Mama World Codex v0.1 (General Rules).'
+      Note: 'Juneau''s strength  comes from her conventional skills and resilience within the established world rules, not from exceptional modal properties.'
+
+    AxiologicalProperties: 
+      Purpose: 'Define the character''s value status *within* Primal Mama.'
+      Reputation_ Lickskillet:
+        Value: 'Authenticated as ''tough but fair,'' ''knows her gators better than anyone ,'' ''a stubborn holdout against the big boys,'' ''keeper of good quality meat.'''
+        Authentication: 'Implied from  social role and Axiological values of autonomy'
+      Reputation_Meat_Oligarchy:
+        Value: 'Authenticated as  ''minor nuisance,'' ''inefficient traditionalist,'' ''potential acquisition target (for cheap),'' ''symbol of dwindling independent  operations to be made an example of or quietly absorbed.'''
+        Authentication: 'PM_Codex_0.1 - Deont ic: Friction from oligarchy'
+      Moral_Alignment_Narrative_Framing:
+        Value: ' Authenticated via narrative potential as a principled underdog, embodying values of hard work, independence, and community against impersonal corporate power. Her  adherence to the 1970s aesthetic is genuine and practical, not just stylistic.'
+        Authentication: 'PM_ Codex_0.1 - Axiological: Autonomy vs. Automation'
+      UndersaturationNotes: 'Her reputation  among Swamp Witches (might be seen as a reliable source of mundane goods, or simply irrelevant), Beetriot elite ( utterly unknown or dismissed as "swamp folk").'
+
+    HistoricalProperties:
+      Purpose: 'Define the character''s  known origins and connections to past events.'
+      Origin:
+        Value: 'Authenticated as born and raised in Licksk illet. Her family adapted from pre-Calamity swamp fishing/trapping to alligator farming after the Biological Calamity and  subsequent shift in food sources.'
+        Authentication: 'PM_Codex_0.1 - Biological Calamity  Aftermath'
+      Key_Past_Event_Connection:
+        Value: 'Witnessed the rise of GE  Alligators as the primary protein and the subsequent formation and consolidation of the meat processing oligarchy, experiencing firsthand the squeeze on independent  farmers.'
+        Authentication: 'Implied historical development from PM_Codex_0.1'
+      Inher ited_Items:
+        Value: 'Authenticated to possess the family farm plot, her father''s primary hunting rifle (a  well-maintained bolt-action with a wooden stock and chunky scope, 70s style), and a collection of  handwritten family recipes for curing and smoking gator, written in faded ink on recipe cards with 70s patterns.'
+         Authentication: 'PM_Codex_0.1 - Technological Aesthetic Constraint, regional gun culture'
+      Undersaturation Notes: 'Specific details of her parents'' lives beyond "they farmed gators," precise timeline of her taking over the farm , any personal involvement or impact from the deification of Reynolds, Reed, and Parsons beyond general cultural awareness.'
+
+   CharacterConstitutionSummaryAndNarrativeFunction:
+    Purpose: 'Synthesize the core identity, internal conflicts, and narrative  role emerging from the authenticated property bundle.'
+    CoreEssence: |
+      Mama Gator Juneau is constituted as the resilient  heart of Lickskillet's fading independence. Her identity is forged from a lifetime in the Primal Mama sw amplands, mastering GE alligator husbandry and 1970s analog technology through sheer necessity and grit. She embodies  the Axiological tension between cherished Autonomy and the encroaching, impersonal power of the Meat Oligarchy. Her Functional skills are intrinsically  tied to her Physical environment and the world's specific Technological Aesthetic. Her Psychological makeup (stubborn, pragmatic, fiercely independent) is  a direct result of her Social position as a small operator fighting for survival.
+    PrimaryNarrativeFunction: |
+      To  serve as a key representative of the "mom-and-pop" sector struggling against the oligarchy, providing a grounded, local perspective  on the Primal Mama world. She can act as a mentor, a source of crucial local knowledge, a symbol of  resistance, or a tragic figure illustrating the costs of the oligarchy's dominance. She grounds the more bizarre elements of the world  in everyday struggle.
+    KeyInternalConflicts:
+      Value: 'Tradition vs. Pragmatic Adaptation (within 70 s tech). Independence vs. Vulnerability. Community Obligation vs. Self-Preservation. Suspicion of "New" (even  70s-style advanced) vs. Need to Utilize Tools for Survival.'
+    PotentialForDevelopment:
+       Value: |
+        Juneau could be pushed to: organize a local resistance/cooperative (Social/Relational change ); be forced to make a deal with an unlikely ally (e.g., a specific Erpenthrope, a more ethical Beet riot contact, or even a rival small operator); reluctantly adopt a new piece of 1970s-style tech that gives  her an edge (Functional change); or face the loss of her farm, forcing a major Psychological and Social shift.
+ 

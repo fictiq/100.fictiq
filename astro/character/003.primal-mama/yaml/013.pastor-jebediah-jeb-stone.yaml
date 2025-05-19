@@ -1,0 +1,138 @@
+
+CHAR_JebStone_PM_01:
+  CharacterName: Pastor  Jebediah "Jeb" Stone
+  EntityType: Person (Human)
+  Archetype: 'The Steadfast Preacher  in a Strange Land / Keeper of an Old Faith'
+  PrimaryAuthenticationSources:
+    - This Codex Entry
+     - Primal Mama World Codex v0.1
+  CanonTier: Tier 2 (Significant Local Figure) 
+  AuthenticationStatus: Authenticated_Canonical_Active
+
+  AuthenticatedPropertyBundle:
+    PhysicalProperties:
+       Items:
+        - Appearance_General: 'Human male, appears late 50s/early 60s,  weathered face from sun and swamp air, wiry build but with a stoop of someone who carries burdens or spends much  time in contemplation.'
+          Auth: This Entry
+        - Appearance_Specific_Features: 'Kind, clear blue  eyes that hold a deep weariness but also a spark of conviction. Thinning grey hair, often damp from humidity.  Pronounced Adam''s apple.'
+          Auth: This Entry
+        - Appearance_Distinctive_Marks: 'Calloused hands , not just from prayer books but from mending things around his small chapel in Lickskillet. A faint, old scar  across his chin from a ''misunderstanding'' in his younger, more fiery days.'
+          Auth: This Entry
+         - Typical_Attire: 'Simple, often mended, button-up shirt (perhaps a faded plaid or  solid earth tone), durable denim or canvas trousers tucked into practical swamp boots. For services, he dons a slightly threadbare but clean , dark brown polyester suit jacket that screams late 1970s thrift store.'
+          Auth: '[This  Entry / Primal Mama Codex: 1970s Aesthetic Constraint]'
+        - Voice_Speech_Pattern : 'Warm, resonant baritone with a distinct, unhurried bayou drawl. Speech is plain, direct, often  quoting scripture (or what passes for it post-Calamity) or folksy wisdom. Capable of rising to fervent passion during  sermons delivered through a chunky, microphone with a coiled cord.'
+          Auth: '[This Entry / Primal Mama Codex : 1970s Aesthetic Constraint]'
+        - Gait_Mannerisms: 'Slow, deliberate walk.  Often clasps his hands. Has a habit of looking up at the sky (or the thick canopy) as if seeking  guidance or sighing at the state of the world. Will polish his glasses (if he wears them, TBD)  with a handkerchief.'
+          Auth: This Entry
+        - Associated_Scent: 'Faint smell of damp  earth, old books, and perhaps a hint of the cheap, woody incense he burns in his chapel to combat the swamp ''s miasma.'
+          Auth: This Entry
+      Undersaturation: 'Exact height/weight, specific brand of boots , presence/absence of eyeglasses regularly.'
+
+    FunctionalProperties:
+      Items:
+        - Skill_BiblicalExeg esisAndOratory: '(Christian tradition, adapted/survived post-Calamity). Able to connect scripture to the struggles  of Lickskillet life.'
+          Auth: This Entry
+        - Skill_CommunityCounselingAndMediation : '(Offers solace and guidance to his small flock, often dealing with fear of the swamp, grief, or social friction not  involving meat oligarchs directly).'
+          Auth: This Entry
+        - Skill_BasicHerbalismFolkMedicine: '( Learned from swamp dwellers, for minor ailments when ''town'' remedies are scarce or mistrusted).'
+          Auth: This Entry
+         - Skill_RudimentaryRepair1970sSolarTech: '(Can keep his chapel''s lights and PA system functional  with salvaged parts and prayer).'
+          Auth: '[This Entry / Primal Mama Codex: Solar Dominance,  1970s Aesthetic Constraint]'
+        - Ability_Unique: 'None supernatural. His ''power'' is  derived from faith and conviction, which can inspire resilience in others but adheres to Primal Mama''s natural laws.'
+           Auth: '[This Entry / Primal Mama Codex]'
+        - Limitation_Knowledge: 'Limited understanding of advanced  GE bio-engineering (beyond "God''s creatures, tampered with"). Skeptical of and largely ignorant about the  inner workings of Beetriot''s elite or the full extent of the meat oligarchy''s power.'
+          Auth: This Entry 
+        - Limitation_Physical: 'Not a fighter; relies on words and faith. Subject to the frailties of  age and the harsh swamp environment.'
+          Auth: This Entry
+        - Limitation_SocialInfluence: 'His influence  is largely confined to his small congregation in Lickskillet. Viewed as anachronistic or harmless by most outsiders. No sway  with meat oligarchs or Beetriot elites.'
+          Auth: '[This Entry / Primal Mama Codex: Deontic/A xiological Rules]'
+        - Limitation_Resources: 'His chapel, "The Last Light Chapel," operates on meagre donations (often  bartered goods like gator jerky or useful scrap). Struggles to acquire ''modern'' 1970s tech components.'
+           Auth: This Entry
+      Undersaturation: 'Specific level of mechanical skill; proficiency in navigating deep swamp; ability to  handle firearms (likely minimal, if any).'
+
+    PsychologicalProperties:
+      Items:
+        - CoreTrait _Faith: 'Unshakeable (though often tested) Faith in a singular, benevolent-but-just God (Abrahamic  tradition, as understood in Primal Mama).'
+          Auth: This Entry
+        - CoreTrait_Compassion:  'Deep Compassion (Especially for the downtrodden, the confused, and those ''lost'' to the world''s strange new  faiths).'
+          Auth: This Entry
+        - CoreTrait_Resilience: 'Stubborn Resilience / Principled Stand ( Refuses to bow to the deification of celebrities or fully embrace all societal norms he deems contrary to his faith).'
+          Auth:  This Entry
+        - DominantEmotion: 'A profound Sadness for the ''fallen'' state of the world and its  people, yet undercut by a persistent, quiet Hope in eventual redemption or divine sense.'
+          Auth: This Entry
+         - KeyMotivator: 'To be a beacon of ''True Light'' (as he sees it) in a spiritually  murky world. To offer solace and point towards a divine order beyond the chaos of Primal Mama.'
+          Auth: This Entry
+         - KeyBelief_CelebrityDeities: 'The celebrity deities (Reynolds, Reed, Parsons) are false  idols, distractions from the true God, perhaps even manifestations of human folly or spiritual misdirection post-Calamity.'
+           Auth: '[This Entry / Primal Mama Codex: Axiological/Epistemic Rules]'
+        - KeyBel ief_BiologicalCalamity: 'The Biological Calamity was a trial, a consequence, or a profound mystery  of God''s plan, not fully understood but demanding faith and perseverance.'
+          Auth: '[This Entry / Pr imal Mama Codex: Alethic Rules]'
+        - KeyBelief_ErpenthropesAndGhosts:  'Erpenthropes and Ghosts are spiritually significant: Erpenthropes as perhaps ''touched'' or  ''cursed'' beings needing salvation, ghosts as unquiet souls needing prayer and release, not just ritual interaction.'
+           Auth: '[This Entry / Primal Mama Codex: Alethic/Epistemic Rules]'
+        -  KeyBelief_SwampWitches: 'Swamp Witches practice dangerous, perhaps demonic, arts that lead souls astray, though  he might pity individual witches as ''lost sheep''. Vampire Bunnies are unnatural abominations, signs of a world out of balance.'
+           Auth: '[This Entry / Primal Mama Codex: Alethic Rules]'
+        - KeyBelief_ CattleConsumption: 'The consumption of cattle flesh is an abomination not because of propaganda or psychosomatic reaction alone, but because  it violates a God-given order post-Calamity, or represents a profound human transgression linked to the Calamity.' 
+          Auth: '[This Entry / Primal Mama Codex: Alethic/Deontic Rules]'
+         - InternalConflict: 'His love for his community vs. his condemnation of their embrace of celebrity deities or ''superstitions' '; his desire for a simpler faith vs. the overwhelming, complex spiritual miasma of Primal Mama; weariness vs. the  call to duty.'
+          Auth: This Entry
+        - SubjectiveMemoryContent: 'Possesses knowledge of Christian  scripture (likely fragmented, perhaps with local apocrypha), oral histories of faith pre-and-post Calam ity. No direct memory of pre-Calamity world, but a strong inherited narrative of it.'
+          Auth : This Entry
+      Undersaturation: 'Specific theological nuances of his denomination (if any survived distinctly); his private  doubts (though faith is authenticated as core); detailed views on Automaton/LLM stigma (likely shares it, seeing them as '' soulless constructs'').'
+
+    SocialRelationalCategoricalProperties:
+      Items:
+        - OfficialRole: ' Pastor of "The Last Light Chapel" in Lickskillet (a small, independent Christian congregation).'
+          Auth : This Entry
+        - SocialStatus: 'Respected elder within his small flock; viewed as somewhat eccentric, old -fashioned, but generally harmless by the wider Lickskillet community. Irrelevant to Beetriot elite.'
+          Auth: This  Entry
+        - PrimaryAffiliation: The Last Light Chapel and its congregation.
+          Auth: This Entry
+         - SecondaryAffiliations: 'Informal network of other scattered, traditional faith keepers (if any exist, very loosely connected ). Known to most long-term residents of Lickskillet.'
+          Auth: This Entry
+        - Key Relationship_Congregation: 'To his Congregation (The Bayou Flock): Shepherd, spiritual guide, source of comfort. They  provide him with sustenance and purpose.'
+          Auth: This Entry
+        - KeyRelationship_CelebrityPriests:  'To "Priests" or Devotees of Celebrity Deities: Theological opposition, sometimes gentle debate, sometimes weary  disapproval. Views them as leading people astray.'
+          Auth: '[This Entry / Primal Mama Codex: Axiological  Rules]'
+        - KeyRelationship_Erpenthropes: 'To Erpenthropes (if encountered ): A mixture of fear, pity, and a theological puzzle. Sees them as beings in profound spiritual need or crisis.'
+           Auth: '[This Entry / Primal Mama Codex: Alethic Rules]'
+        - KeyRelationship_Swamp Witches: 'To Swamp Witches: Distrust and condemnation of their practices, but perhaps a reluctant acknowledgement of their  deep swamp knowledge. Avoids direct conflict but would pray for their ''conversion''.'
+          Auth: '[This Entry  / Primal Mama Codex: Alethic Rules]'
+        - SpeciesType: Human (Baseline Primal Mama Strain)
+           Auth: Default/Description
+      Undersaturation: 'Specific named members of his flock; relationships with local Lickskillet  ''officials'' (if any exist beyond oligarchy enforcers); views on specific meat processing families.'
+
+    Modal Properties:
+      Items:
+        - PropertyID: MODAL-JEB-NONE
+          Property: ' None Authenticated. Operates fully under Primal Mama''s established alethic, deontic, and epistemic  modalities for baseline humans.'
+          Description: 'His ''strength'' comes from conviction and interpretation of divine will, not  from an inherent alteration of world laws for him.'
+          Limits: Subject to all physical and societal laws of Primal Mama.
+           Authentication: '[Primal Mama Codex / This Entry]'
+      SectionNote: 'Pastor Jeb''s significance is cultural  and spiritual within his niche, not based on exceptional physics-bending abilities.'
+
+    AxiologicalProperties:
+       Items:
+        - Reputation_LickskilletGeneral: 'Authenticated as ''a good man, if a bit stuck in the  past''; ''harmless''; ''says some strange things about the Saints Reynolds and Reed, but his heart'' s in the right place''; ''someone to talk to when you''re real low''.'
+          Auth:  '[This Entry / Inferred from Primal Mama Codex values]'
+        - Reputation_CelebrityDeityCults : 'Authenticated as ''misguided''; ''anachronistic''; ''doesn''t understand true joy/power/freedom  as shown by the Saints''.'
+          Auth: '[This Entry / Inferred from Primal Mama Codex values]' 
+        - Reputation_SwampWitchesFringe: 'Potentially viewed as ''naive'', ''meddling'', or simply  ''irrelevant'' to their esoteric concerns.'
+          Auth: This Entry
+        - MoralAlignment_NarrativeFram ing: 'Authenticated via narrative intent as a force for traditional ''good'' and compassion, offering an alternative spiritual path,  even if it''s a difficult and unpopular one in Primal Mama.'
+          Auth: This Entry
+      Und ersaturation: 'Reputation among meat oligarchy members (likely non-existent or dismissive); views of any potential  Erpenthropes he might have encountered.'
+
+    HistoricalProperties:
+      Items:
+        - Origin: 'Authenticated  as born post-Calamity in a small, isolated community (likely in the deeper bayous) that clung to pre-C alamity Christian traditions. Journeyed to Lickskillet as a younger man to ''spread the Word''.'
+           Auth: This Entry
+        - KeyPastEventConnection: 'Witnessed the full ascendance of the celebrity deity cults and  the solidification of the cattle taboo, viewing these as signs of a deepening spiritual crisis.'
+          Auth: This Entry
+         - InheritedItems: 'Authenticated to possess a tattered, water-stained King James Bible (or a heavily  edited/fragmented Primal Mama equivalent passed down), a simple wooden cross necklace carved by his mentor, and the deed  (a faded, handwritten note on repurposed cardstock) to the land where "The Last Light Chapel" now stands –  a chunky, prefabricated structure with wood-panelled interior walls.'
+          Auth: '[This Entry / Primal Mama  Codex: 1970s Aesthetic Constraint]'
+      Undersaturation: 'Details of his original community;  the identity of his mentor; specific events that forged his deep faith.'
+
+  CharacterConstitutionSummaryAndNarrativeFunction:
+     CoreEssence: 'Pastor Jebediah Stone is constituted as a relic of an older faith, a man of sincere Christian conviction ( as it has survived and been interpreted in post-Calamity Primal Mama) striving to offer spiritual guidance in a  world dominated by bizarre new deities, pervasive swamp magic, and retro-futuristic anxieties. His existence is a quiet but persistent challenge to  Primal Mama''s dominant axiological and epistemic norms. He finds meaning in his steadfastness, his service to  a small flock, and his belief in a divine order that transcends the tangible, solar-powered, alligator-fueled reality around him.  His understanding of God, sin, and salvation is filtered through the lens of the Biological Calamity, the 1 970s aesthetic that defines "proper" things, and the ever-present spiritual miasma of the bayou .'
+    PrimaryNarrativeFunction: 'Moral counterpoint to the prevailing Primal Mama culture; spiritual guide for characters  seeking alternatives to celebrity worship or swamp magic; source of conflict when his beliefs clash with others''; potential provider of forgotten lore or a  different perspective on the Calamity; symbol of enduring human need for faith and meaning even in the strangest of worlds .'
+    KeyInternalConflicts: 'Faith vs. Despair at the state of the world; Duty to preach Truth  vs. Prudence in a world hostile to his message; Compassion for individuals vs. Condemnation of their beliefs/practices ( e.g., celebrity worship, witchcraft); Adherence to tradition vs. Need to adapt to survive in Primal Mama .'
+    PotentialForDevelopment: 'Could discover texts or relics that recontextualize his faith for Primal Mama ; might be forced into an uneasy alliance with ''unholy'' elements (e.g., a Swamp Witch, an Erp enthrope) for a greater good; his faith could be severely tested by a direct confrontation with the ''divine''  power of a celebrity god''s manifestations or the deeper truths of the Calamity; could inspire a revival or bemartyred for  his beliefs.'

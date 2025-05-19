@@ -1,0 +1,186 @@
+```yaml
+entity_id: PM_Q_BayouBoogieBlues 
+entity_name: "Bayou Boogie Blues: Help Beau Gator open his juke joint."
+entity_type: " Narrative Structure / Event Sequence (Quest)"
+authentication_sources:
+  - "Codex Quest Data (YAML Source)" 
+  - "In-Game Journal/Dialogue Authentication"
+
+functional_properties_bundle:
+  core_function _purpose:
+    primary_role_player_perspective:
+      description: "Successfully assist the entity 'NPC _BeauGator_01' in establishing a functional entertainment venue ('Beau Gator''s Bayou Boogie') by overcoming  a series of obstacles."
+      authentication: "[YAML: name, final_objective/description]"
+    primary_role _narrative_design:
+      description: "Guide player interaction with key NPCs (Beau Gator, Magnolia May, Delta  Dawn, Cletus, Mud Puddle Pete, Mama Junebug); introduce/reinforce world elements (Licksk illet locale, Oligarchy presence, Deity worship, 70s aesthetic choices, Airboat mechanics); drive the plot towards the  subsequent quest ('[New Quest Name, e.g., Swamp Sins or Carnal Critters]')."
+       authentication: "[YAML: initiator, objectives, player_choices, leads_to_quest]"
+    secondary_roles:
+       description: "Provide opportunities for player expression (decor choices, dialogue options); offer optional challenges with tangible rewards (Airboat  Race); develop character relationships (player <-> Beau Gator)."
+      authentication: "[YAML: player_choices, optional objectives, rewards ]"
+
+  key_functional_steps:
+    - function_id: QUEST-BBB-FUNC-01
+       step_name: "Initiation"
+      trigger: "Player interaction with NPC 'Beau Gator' at location 'The Rusty  Flotilla' post-completion of 'prerequisite_quest'."
+      required_player_capabilities:
+        - Dialogue Interaction 
+      npc_functions_triggered: "Beau Gator delivers exposition, establishes core conflict (argument with Magnolia May), assigns  initial task (retrieve prop)."
+      optional_capabilities:
+        - "Inventory Interaction (Offer 'Hierarch Brand  Cattle Feed Advertisement Poster')"
+      authentication: "[YAML: initiator, parts/Start/description]"
+    - function_ id: QUEST-BBB-FUNC-02
+      step_name: "Prop Retrieval"
+      trigger:  "Player reaches Delta Dawn."
+      required_player_capabilities:
+        - Navigation (to Solar Charging Station Delta- 7)
+        - Dialogue Interaction (with NPC 'Delta Dawn')
+      npc_functions_triggered: "Delta  Dawn provides item 'Ceremonial Gator Spear Prop'."
+      authentication: "[YAML: parts/Part1/object ives/PM_Q_BBB_P1_Obj1]"
+    - function_id: QUEST-BBB -FUNC-03
+      step_name: "Mama Junebug Charade"
+      trigger: "Player  approaches Mama Junebug's shack with Beau Gator."
+      required_player_capabilities:
+        - Navigation (to Mama  Junebug's Retro-Shack)
+        - "Timed Dialogue Interaction (supporting Beau Gator's performance)" 
+      npc_functions_triggered: "Beau Gator performs 'Solar Bandit' role-play; Mama Junebug ( implicitly) reacts based on player's supportive actions."
+      outputs: "Authentication of Objective PM_Q_BBB_P1 _Obj3 completion (XP Reward)."
+      authentication: "[YAML: parts/Part1/objectives/PM _Q_BBB_P1_Obj2, PM_Q_BBB_P1_Obj3]"
+     - function_id: QUEST-BBB-FUNC-04
+      step_name: "Decor Decision" 
+      trigger: "Player returns to The Rusty Flotilla after Mama Junebug encounter."
+      required_player_capabilities :
+        - Navigation (return to The Rusty Flotilla)
+        - Menu Interaction (selecting decor theme) 
+      world_state_change: "Visual update to 'The Rusty Flotilla' location based on player choice."
+       npc_functions_triggered: "Magnolia May provides exposition (Beau missing), assigns next task."
+      authentication: "[YAML : parts/Part2/description, player_choices]"
+    - function_id: QUEST-BBB-FUNC -05
+      step_name: "Musician Recruitment"
+      trigger: "Player arrives at Rhythm Ruby' s location."
+      required_player_capabilities:
+        - Navigation (to Rhythm Ruby's location)
+         - "Investigation (using 'Swamp Sense' or similar to find key)"
+        - Object Interaction (unlock door)
+         - "Dialogue Interaction / Combat (Fisticuffs) / Diplomacy (Timed Choices with NPC 'Cletus')"
+       npc_functions_triggered: "Beau Gator requests assistance; Cletus obstructs/reacts to player approach ; Rhythm Ruby's services are secured (state change)."
+      outputs: "Authentication of Objective PM_Q_BBB_ P3_Obj2 completion (XP Reward)."
+      authentication: "[YAML: parts/Part3/objectives ]"
+    - function_id: QUEST-BBB-FUNC-06
+      step_name: "Painter  Location"
+      trigger: "Player arrives at Mud Puddle Pete's shack."
+      required_player_capabilities :
+        - Navigation (to Mud Puddle Pete's shack)
+        - Combat (Fisticuffs against  'Oligarchy Goons')
+        - Dialogue Interaction (interrogating defeated Goons)
+      npc_ functions_triggered: "Oligarchy Goons provide hostility/obstacle; provide information upon defeat."
+      authentication: "[YAML : parts/Part4/objectives/PM_Q_BBB_P4_Obj1]"
+    -  function_id: QUEST-BBB-FUNC-07
+      step_name: "Painter Resolution"
+       trigger: "Player interacts with Mud Puddle Pete at the Airboat Races."
+      required_player_capabilities:
+         - Navigation (to Airboat Races)
+        - Dialogue Interaction (with NPC 'Mud Puddle Pete')
+         - Choice Interaction (Pay Debt / Win Race / Abandon)
+        - "(Conditional) Inventory Interaction (expend 'Gator  Scrip' if 'PayDebt')"
+        - "(Conditional) Vehicle Piloting Skill (Airboat Race minig ame/check if 'WinRace')"
+      npc_functions_triggered: "Mud Puddle Pete explains situation, reacts to player  choice."
+      outputs: "Authentication of Objective PM_Q_BBB_P4_Obj4 completion (XP  Reward); Potential authentication of PM_Q_BBB_P4_Obj3 completion (XP, Currency, Item Rewards)." 
+      authentication: "[YAML: parts/Part4/objectives/PM_Q_BBB_P4_ Obj2, PM_Q_BBB_P4_Obj3, PM_Q_BBB_P4_ Obj4, player_choices/PeteDebt]"
+    - function_id: QUEST-BBB-FUNC-0 8
+      step_name: "Completion"
+      trigger: "Player returns to the renovated Flotilla and speaks with  Beau Gator."
+      required_player_capabilities:
+        - Navigation (return to renovated Flotilla)
+         - Dialogue Interaction (with NPC 'Beau Gator')
+      optional_capabilities:
+        - Dialogue Interaction (accept  drink)
+      npc_functions_triggered: "Beau Gator provides concluding dialogue, expresses reaction to decor/placards; triggers  celebratory scene; triggers subsequent event (panic about Magnolia May)."
+      outputs: "Authentication of Final Objective PM_Q_BBB _Complete (XP Reward); Transition to state initiating quest '[New Quest Name, e.g., Swamp Sins or Carnal Crit ters]'."
+      authentication: "[YAML: parts/Conclusion]"
+
+  costs_dependencies_constraints:
+    -  constraint_id: DEPEND-BBB-01
+      applies_to: QUEST-BBB-FUNC-01  (Initiation)
+      description: "Requires prior completion of authenticated quest '[Assumed Previous Quest...]'.'"
+      authentication:  "[YAML: prerequisite_quest]"
+    - constraint_id: LOC-BBB-01
+      applies_to: 
+        - QUEST-BBB-FUNC-01
+        - QUEST-BBB-FUNC-04
+         - QUEST-BBB-FUNC-08
+      description: "Progression gated by player presence at specific location 'The Rusty  Flotilla'."
+      authentication: "[YAML: initiator, parts/Part2, parts/Conclusion]"
+     - constraint_id: TIME-BBB-01
+      applies_to:
+        - QUEST-BBB-FUNC- 03 (Mama Junebug Charade)
+        - "QUEST-BBB-FUNC-05 (Musician Recruitment:  Cletus confrontation)" # Quoted due to colon
+      description: "Specific interactions require player input within a defined  time limit (Timed Dialogue Choices). Failure may lead to alternate (potentially less optimal) outcomes."
+      authentication: "[ Narrative description implying timed choices]"
+    - constraint_id: CHOICE-BBB-01
+      applies_to: 
+        - QUEST-BBB-FUNC-04 (Decor Decision)
+        - QUEST-BBB-FUNC- 07 (Painter Resolution)
+      description: "Progression requires explicit player choice from provided options. Choices have authenticated consequences (visual  change, objective path, reward availability)."
+      authentication: "[YAML: player_choices]"
+    - constraint_id: COST -BBB-01
+      applies_to: QUEST-BBB-FUNC-07 (Painter Resolution)
+       condition: "Conditional on 'PayDebt' choice"
+      description: "Selecting 'PayDebt' option requires expenditure of  200 units of authenticated currency 'Gator Scrip'."
+      authentication: "[YAML: player_choices /PeteDebt/options/PayDebt]"
+    - constraint_id: SKILL-BBB-01
+       applies_to: QUEST-BBB-FUNC-07 (Painter Resolution)
+      condition: "Conditional on ' WinRace' choice"
+      description: "Selecting 'WinRace' option requires successful execution of authenticated gameplay mechanic 'Air boat Racing'. Failure prevents associated rewards."
+      authentication: "[YAML: player_choices/PeteDebt/options/WinRace , objectives/PM_Q_BBB_P4_Obj3]"
+
+  inabilities_lack_of_function: 
+    - inability_id: INAB-BBB-01
+      description: "Quest cannot be initiated before  completion of 'prerequisite_quest'."
+      authentication: "[YAML: prerequisite_quest]"
+    - inability_ id: INAB-BBB-02
+      description: "Player cannot typically bypass core objective steps (e.g ., cannot recruit Rhythm Ruby without dealing with Cletus; cannot resolve painter issue without finding Pete). Sequential dependency is enforced."
+       authentication: "[Logical flow of YAML parts/objectives]"
+    - inability_id: INAB-BBB -03
+      condition: "Conditional on 'AbandonPlacards' choice"
+      description: "If  'AbandonPlacards' choice is made, the functional path to acquire placards via Pete becomes unavailable within this quest structure."
+       authentication: "[YAML: player_choices/PeteDebt/options/AbandonPlacards]"
+
+  functional_ outputs_consequences:
+    - output_id: REWARD-BBB-XP
+      trigger: "Completion  of objectives: PM_Q_BBB_P1_Obj3, PM_Q_BBB_P3_ Obj2, PM_Q_BBB_P4_Obj3 (Optional), PM_Q_BBB_P 4_Obj4, PM_Q_BBB_Complete." # Quoted due to colon
+      description: "Awards authenticated  amounts of Experience Points (XP) to Player entity."
+      authentication: "[YAML: reward/xp values]"
+     - output_id: REWARD-BBB-CURRENCY
+      trigger: "Successful completion of QUEST-BBB -FUNC-07 via 'WinRace'."
+      condition: "Conditional"
+      description: "Awards 8 0 units of 'Gator Scrip'."
+      authentication: "[YAML: objectives/PM_Q_BBB_ P4_Obj3/reward/currency]"
+    - output_id: REWARD-BBB-ITEM
+       trigger: "Successful completion of QUEST-BBB-FUNC-07 via 'WinRace'."
+      condition:  "Conditional"
+      description: "Awards item 'Mastercrafted Airboat Rudder (70s Style)'." 
+      authentication: "[YAML: objectives/PM_Q_BBB_P4_Obj3/reward/items ]"
+    - output_id: STATE-BBB-LOCATION
+      trigger: "Completion of QUEST-BBB-FUNC-0 4 (Decor Decision)."
+      description: "Applies persistent visual change to 'The Rusty Flotilla' location based  on player choice."
+      authentication: "[YAML: parts/Part2 implication]"
+    - output_id:  STATE-BBB-NPC
+      trigger: "Completion of QUEST-BBB-FUNC-05, QUEST-BBB -FUNC-07."
+      description: "Updates internal state flags indicating Rhythm Ruby is recruited and Mud Puddle Pete' s placard situation is resolved (affecting Beau's final dialogue)."
+      authentication: "[Logical requirement for quest conclusion ]"
+    - output_id: LINK-BBB-NEXTQUEST
+      trigger: "Completion of QUEST-BBB -FUNC-08."
+      description: "Triggers the initiation state for the subsequent authenticated quest '[New Quest  Name, e.g., Swamp Sins or Carnal Critters]'."
+      authentication: "[YAML: leads_to _quest]"
+
+functional_profile_summary:
+  core_functional_identity: "PM_Q_Bay ouBoogieBlues operates as a multi-stage 'fetch-and-resolve' narrative structure. It functions by imposing sequential objectives  on the player, requiring navigation, dialogue, investigation, combat/diplomacy, choice-making, and potentially skill- based minigame capabilities. Its progression is dependent on successful interaction with specific NPC entities and overcoming defined obstacles."
+  key _narrative_functions_served: "Drives local plot progression in Lickskillet; Develops the character of Beau  Gator and his relationship with the player/Magnolia May; Introduces thematic elements (local culture, Oligarchy conflict,  Deity reverence, aesthetic choices); Provides gameplay variety (dialogue, combat, investigation, optional race); Acts as a necessary functional  bridge to the subsequent, likely more dramatic, quest involving Magnolia May."
+  relationship_to_modalities:
+    de ontic: "Obligation: The quest structure imposes obligations on the player via Beau Gator's requests." # Quoted due to  colon
+    alethic: "Possibility: Player success relies on exercising possible world actions (combat, dialogue, using  senses, piloting); race outcome depends on possibility defined by skill/mechanics." # Quoted due to colon
+    ax iological: "Value: Decor choices allow player expression of value within the 70s aesthetic; helping Beau reflects a choice to value  his goals." # Quoted due to colon
+    epistemic: "Knowledge: Player acquires knowledge (Pete's location  from Goons, Beau's schemes)." # Quoted due to colon
+  key_functional_tensions_ tradeoffs: "Player resource expenditure (Scrip for Pete) vs. alternative solutions (Race skill); Time/effort of optional  objective (Race) vs. reward gained; Diplomatic approach vs. Combat approach (Cletus); Player decor preference vs.  Beau's potential reaction."
+
+```

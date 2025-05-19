@@ -1,0 +1,154 @@
+
+World: Primal Mama
+CodexVersion: ' 0.2 - Character Constitution (Wade Johnson)'
+LastUpdated: '[Current Date]'
+LeadArchitects: '[Your  Name / Studio Name]'
+
+CharacterProfile:
+  EntityID: CHAR_WadeJohnson_01
+  CharacterName:  'Wade Johnson (Known derisively by some as "Gatorbait")'
+  EntityType: Person
+   Archetype: 'The Ruined Homesteader, The Embittered Survivor'
+  PrimaryAuthenticationSources:  'This Codex Entry, Primal Mama Coherence Protocol v0.1'
+  CanonTier: 'Tier  2 (Significant NPC, potential plot catalyst)'
+  AuthenticationStatus: Authenticated_Canonical_Active
+
+  AuthenticatedPropertyBundle:
+     PhysicalProperties:
+      Appearance_General:
+        value: 'Human male, mid-40s, with pronounced African  features: dark skin, broad nose, full lips. Once powerfully built from manual labor in alligator processing, now gaunt  and wiry, carrying the weight of loss.'
+        authentication: Narrative Design
+      Appearance_SpecificFeatures:
+         value: 'Tightly coiled black hair, heavily flecked with grey, often unkempt. Deep-set, tired  eyes that constantly scan his surroundings with a mix of fear and resentment. Prominent brow, often furrowed.'
+        authentication: Narrative  Design
+      Appearance_DistinctiveMarks:
+        value: 'A faded, jagged scar running from his left temple down his cheek  – an old gator-handling injury. Hands are calloused and scarred but tremble slightly. Several missing teeth, a result of a  "persuasion" tactic by oligarchy enforcers.'
+        authentication: 'Backstory Element, Primal Mama Coherence -  Oligarchy'
+      TypicalAttire:
+        value: 'Worn, patched-up denim overalls over a faded,  oil-stained thermal shirt (classic 1970s workwear aesthetic). Heavy, cracked swamp boots. Often clutches  a battered, wide-brimmed straw hat with a frayed cord.'
+        authentication: 'Primal Mama Co herence - 1970s Aesthetic, Visual Guide'
+      VoiceSpeechPattern:
+        value: 'Deep , resonant voice, now often raspy and low, tinged with a Lickskillet regional drawl. Speaks  slowly, deliberately, as if words are too heavy. Prone to muttering under his breath.'
+        authentication:  'Dialogue Direction / Primal Mama Coherence - Lickskillet'
+      GaitMannerisms:
+        value : 'A noticeable limp, favoring his right leg (another "reminder" from oligarchy enforcers). Moves with a hunted , cautious air. Flinches at loud noises or sudden movements. Wrings his hands or rubs his temples when agitated.'
+         authentication: 'Backstory Element, Action Description'
+      AssociatedScent:
+        value: 'Faint  smell of stale swamp water, old engine grease, and the metallic tang of fear/stress.'
+        authentication: Sensory  Palette
+      PhysicalUndersaturation: 'Exact height/weight, specific brand of boots, details of non-work attire ( likely doesn''t own much else).'
+
+    FunctionalProperties:
+      Skills:
+        - name: 'Expert Small -Scale Alligator Butchering & Processing (Pre-Oligarchy takeover)'
+          authentication: Backstory
+         - name: 'Knowledge of Swamp Navigation & Trapping (Lickskillet regional expertise)'
+          authentication: Back story
+        - name: 'Basic Repair of 1970s-era Analog Processing Machinery (e. g.: grinders, smokers, rudimentary solar chargers for small tools)'
+          authentication: 'Backstory, Primal Mama Coherence -  1970s Tech'
+        - name: 'Proficient with a bolt-action rifle (common  firearm outside Beetriot)'
+          authentication: 'Primal Mama Coherence - Gun Ownership'
+      Limitations:
+         - name: 'Lingering injuries from oligarchy enforcement make heavy labor difficult; chronic pain.'
+          authentication: 'Physical Properties , Backstory'
+        - name: 'Penniless, assets seized or destroyed by the meat oligarchy. No access to capital  or resources.'
+          authentication: 'Backstory, Primal Mama Coherence - Oligarchy Friction'
+        - name:  'Branded as a troublemaker/failure in Lickskillet; most locals avoid him for fear of olig archy reprisal. No official standing or influence.'
+          authentication: Social Properties
+        - name: 'Limited understanding of Beet riot''s high society, advanced GE Alligator technology beyond basic husbandry, or complex legal/economic systems used by the  oligarchy.'
+          authentication: 'Backstory, Character Role'
+      FunctionalUndersaturation: 'Ability to  operate complex vehicles beyond a simple skiff; literacy level (assumed functional but not scholarly); skill in interacting with ghosts or  Erpenthropes (likely none).'
+
+    PsychologicalProperties:
+      CoreTraits:
+        - name: 'Deep -seated Resentment / Bitterness (towards the oligarchy and his perceived abandonment by the community)'
+           authentication: 'Dialogue, Internal Monologue Hints'
+        - name: 'Pervasive Fear / Paranoia (const antly expecting further retribution or misfortune)'
+          authentication: 'Mannerisms, Dialogue'
+        - name: ' Lingering (but suppressed) Pride / Sense of Injustice (remembers his former self-sufficiency)'
+          authentication: ' Flashbacks, Occasional Defiant Statements'
+      DominantEmotion:
+        value: 'A potent cocktail of  Hopelessness, Anger, and Fear.'
+        authentication: 'Narrator Descriptions, Overall Demeanor'
+       KeyMotivators:
+        - value: 'Survival (day-to-day); A desperate, almost futile  desire for retribution or to see the oligarchy fall; Protecting any remaining sliver of dignity.'
+          authentication: ' Plot Driver if engaged, Internal Monologue'
+      KeyBeliefs:
+        - value: 'Believes  "the big fish always eat the little fish," the system is rigged against the common folk. Increasingly susceptible to conspiracy theories  like the "invisible women" as an explanation for his suffering and the world''s ills.'
+          authentication: ' Dialogue, Primal Mama Coherence - Conspiracy'
+      InternalConflict:
+        value: 'Desire for revenge  vs. crippling fear of the oligarchy; Pride in his past skills vs. shame of his current state; Trusting anyone vs . deep-seated paranoia.'
+        authentication: 'Internal Monologue, Difficult Choices Depicted'
+      Subjective MemoryContent:
+        value: 'Vivid, painful memories of his thriving small processing business, the specific enforc ers who brutalized him and destroyed his property, the indifference of local authorities. Fond memories of a simpler time before the  oligarchy''s stranglehold tightened.'
+        authentication: 'Narrative Depiction, Flashbacks'
+      Psych ologicalUndersaturation: 'Specific religious beliefs (beyond general reverence for Reynolds/Reed/Parsons, if any); detailed  political opinions beyond "anti-oligarchy"; artistic inclinations.'
+
+    SocialRelationalCategoricalProperties:
+      OfficialRole: 
+        value: 'None. Formerly: Independent Alligator Processor, Lickskillet.'
+        authentication: Back story
+      SocialStatus:
+        value: 'Outcast, Pariah (in Lickskillet). Viewed  as a dangerous example by the oligarchy.'
+        authentication: 'Interactions, World Structure Doc'
+      PrimaryAffiliation: 
+        value: 'None. Formerly: Lickskillet Small Processors Guild (defunct/absorbed).'
+         authentication: Backstory
+      SecondaryAffiliations:
+        value: 'None. Actively avoided by most.' 
+        authentication: 'Narrative events'
+      KeyRelationships:
+        - value: 'To Meat Oligarchy  (e.g.: "Consolidated Reptile Rinds Corp"): Victim, object of their contempt and a warning to others. Source  of his ruin.'
+          authentication: 'Backstory, Primal Mama Coherence - Oligarchy Friction'
+         - value: 'To Lickskillet Community: Formerly a peer, now pitied and feared. Represents their collective vulnerability.' 
+          authentication: Interactions
+        - value: 'To the "Invisible Women" Conspiracy: A growing, desperate belief . Sees their alleged influence in his downfall and the oligarchy''s power.'
+          authentication: 'Psychological Properties, Pr imal Mama Coherence - Epistemic'
+      SpeciesType:
+        value: 'Human (Licksk illet native strain)'
+        authentication: 'Default/Description'
+      SocialUndersaturation: 'Any surviving family (wife,  children – could be a powerful motivator if they exist and are also suffering); specific friends from his past who might secretly aid him; knowledge  of or interaction with Erpenthropes or Swamp Witches (likely minimal and fearful).'
+
+    ModalProperties: 
+      Properties: # Changed from PropertyID to make it a list of properties
+        - PropertyID: MODAL -WJ-NONE
+          Property: 'None. Operates entirely within the standard alethic, deontic , and epistemic modalities of a Primal Mama citizen of Lickskillet.'
+          Description: 'His suffering  is a result of socio-economic power dynamics and violence, not supernatural affliction or unique status.'
+          Limits: N /A # Not a colon, but often good to quote N/A
+          Authentication: 'Consistent portrayal as a baseline  human victim of worldly forces.'
+      Note: 'Wade''s victimhood is mundane in its source (gre ed, power) even if extreme in its manifestation, grounding the more fantastical elements of Primal Mama.'
+
+    AxiologicalProperties :
+      Reputations:
+        - forWhom: Oligarchy # Changed from 'Oligarchy' to  a key
+          value: '''Gatorbait'' – a broken example, insignificant, beneath further notice unless he makes trouble again.' 
+          authentication: 'Oligarchy character dialogue/internal thoughts'
+        - forWhom: Lickskillet Popul ace
+          value: '''Poor Wade,'' ''That fella the Oligarchy crushed,'' ''Best to stay clear.'' A  symbol of fear and helplessness. Some older folk might quietly express sympathy but offer no aid.'
+          authentication: 'Community  dialogue/interactions'
+      MoralAlignmentNarrativeFraming:
+        value: 'Authenticated via narrative focus as a deeply wronged individual . His potential descent into violence or conspiratorial delusion born of suffering would be portrayed as a tragic consequence of his victimization.'
+        authentication : 'Narrator tone, plot context'
+      AxiologicalUndersaturation: 'Wider public perception;  Reputation among Erpenthropes or Swamp Witches (likely unknown to them or irrelevant); how Beetriot elites would perceive him  if they even knew he existed (utterly insignificant).'
+
+    HistoricalProperties:
+      Origin:
+        value:  'Authenticated as born and raised in the Lickskillet Delta, descended from generations of small-scale swamp homesteaders  who adapted after the Biological Calamity.'
+        authentication: 'Backstory, Regional Lore'
+      KeyPastEvent ConnectionPersonal:
+        value: 'The "Hostile Takeover Event" – a specific period (e.g .: 2-3 years prior to narrative present) where the Meat Oligarchy systematically crushed his independent processing operation through intimidation,  violence, and trumped-up regulatory violations (leveraging their control over local 1970s-style  bureaucracy).'
+        authentication: 'Backstory Details, Flashbacks'
+      InheritedItems:
+        value:  "Authenticated to possess a rusty but functional .30-06 bolt-action rifle (Grandpappy's , 1970s model), a well-worn skinning knife with a hand-carved bone handle , and a faded photograph of his former processing shed in full operation, featuring a younger, smiling Wade."
+        authentication : 'Narrative inventory, Prop Design'
+      HistoricalUndersaturation: 'Specific details of his ancestors'' survival post -Calamity; his life before the Oligarchy became aggressively expansionist; any direct personal impact from the Biological Calamity itself  (likely minimal, as he was born after its immediate aftermath settled).'
+
+  CharacterConstitutionSummary:
+    CoreEssence:  'Wade "Gatorbait" Johnson is constituted as a man systematically broken by the brutal socio-economic realities of  Primal Mama, specifically the unchecked power of the Meat Oligarchy. His identity is forged in loss, injustice, and  the corrosive effects of fear and resentment. His physical and psychological scars are direct authentications of his victimhood. His belief  in the "invisible women" conspiracy is a desperate attempt to make sense of a world where mundane greed inflicts catastrophic suffering , showcasing the epistemic fragility of the oppressed.'
+    PrimaryNarrativeFunction: "To embody the human cost of the Olig archy's dominance in Lickskillet; to serve as a potent example of the 'friction' they cause for mom -and-pop operations; a potential (if reluctant or damaged) source of information or catalyst for action for protagonists opposing the status quo ; to illustrate the spread and psychological appeal of conspiracy theories among the dispossessed."
+    KeyInternalConflicts:
+      - ' Desire for revenge vs. crippling fear of the oligarchy'
+      - 'Pride in his past skills vs.  shame of his current state'
+      - 'Trusting anyone vs. deep-seated paranoia'
+    PotentialForDevelopment: ' Could be pushed to a desperate act of rebellion (Social/Functional change); Could find a new, albeit grim, purpose in exposing the  Oligarchy (Psychological/Social change); Could succumb entirely to paranoia and conspiracy (Psychological change); Could be "rescued " or offered a path to small vengeance by more powerful actors (e.g.: Erpenthropes, protagonists ), altering his Social and Functional properties.'
+

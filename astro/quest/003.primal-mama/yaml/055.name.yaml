@@ -1,0 +1,85 @@
+
+quest:
+  title: 'Primal Mama:  Bayou Awakening'
+  location: 'A Stilt Shack on the Outskirts of Lickskillet'
+   protagonist:
+    name: 'Croc'
+    description: '(An Erpenthrope, our player  character)'
+  stages:
+    - stage_id: 1
+      name: 'A Rude Awakening'
+       description: >
+        The game begins with a familiar, humid warmth – the surprisingly functional solar-heated water of a reclaimed,
+         avocado-green bathtub (1970s aesthetic on full display). The scarred, leathery feet that  frustrated some unseen
+        peeper belong to Croc, our Erpenthrope, just tryin' to soak off the  swamp grime. The peace is shattered
+        not by a crustacean, but by a sharp nip from a Vampire  Bunny, no doubt a mischievous sending from his
+        Swamp Witch associate, Mama Odé. She materializes from the  steam and shadows, her Cthulhu-goth-Southern
+        charm radiating disapproval.
+      dialogue :
+        - character: 'Mama Odé'
+          line: "'Still lazin'' about, Cher? That little swamp  orchid, Lulu, is supposed to be learnin'' the proper incantations for wardin'' off rogue GE gator bio- feedback, not how to best stick crawdads in Pops Thibodeaux''s fishin'' boots!'"
+       actions:
+        - 'Croc and Mama Odé exchange some choice words.'
+        - 'Croc and Mama  Odé slip into their worn denim and gator-hide-trimmed vests (1970s chic, naturally).'
+
+     - stage_id: 2
+      name: 'Key Retrieval'
+      description: >
+        First  things first, though. The shack door is barred – not just against the swamp's usual toothy denizens,
+         but also against the more... *unseen* things that whisper on the miasma. Croc needs the Shack Key Fob
+         (a chunky piece of Bakelite with a faded image of Burt Reynolds on it).
+      objective: 'Find the Shack Key  Fob.'
+      tutorial:
+        name: 'Erpenthrope Senses'
+        trigger_input : '[L2]'
+        dialogue_cue:
+          character: 'Mama Odé'
+          line: "'Time  to use those special eyes o'' yours, Croc.'"
+        mechanic_description: >
+          Hold it down. The  world shifts; the usual grime and clutter are overlaid with faint auras,
+          shimmering traces of energy, and the tell -tale glint of important objects. Think of it like
+          tuning into a ghostly radio frequency, but for your  eyes.
+        key_location_hint: >
+          Over on a stack of well-loved 8-track tapes ( Gram Parsons' greatest hits, naturally) near the door,
+          the Key Fob glows with a subtle insistence. 
+      actions:
+        - 'Croc snags the Key Fob.'
+
+    - stage_id: 3 
+      name: 'Unbarring the Way'
+      objective: 'Open the shack door.'
+      tutorial:
+         name: 'Door Opening'
+        mechanic_description: "'Now, for the complex ritual of door-opening: face the  door (it''s got some lovely wood paneling) and press [X]. The wonders of modern convenience, eh?'" 
+      game_note:
+        context: 'Mini-map directions'
+        text: "'All directions, like north by  north-gator, will be given in relation to your trusty, solar-powered wrist-mounted mini-map ( complete with flickering Nixie-tube display). It''s a godsend in these murky waters.'"
+      actions: 
+        - 'Croc unlocks the door and saunters down the creaky wooden stairs, Croc-style.'
+
+    -  stage_id: 4
+      name: 'Downstairs Distractions'
+      description: >
+        Once on the main  floor of the stilt shack (a delightful mix of scavenged tech and swamp detritus),
+        Croc gr unts. His old Erpenthrope mentor, Pops Thibodeaux, who was supposed to be showing Lulu
+         how to recalibrate the rooftop solar array (Solar Dominance is key, after all), is snoozing soundly 
+        in a beaded doorway, an empty bottle of homebrewed gator-grape wine by his side.  Lulu, meanwhile,
+        is out on the rickety porch, gleefully attempting to lasso a particularly feisty mutated bullfrog
+         with a length of old antenna cable, nearly taking out a collection of prized glass insulators.
+      dialogue:
+         - character: 'Croc'
+          recipient: 'Pops Thibodeaux'
+          line: "'Those solar  conduits ain''t gonna align themselves, old man!'"
+      actions:
+        - 'Croc heads out  to have a word with Lulu.'
+        - "Croc gives Lulu the usual 'don't antagonize the hyper -evolved amphibians' lecture."
+
+    - stage_id: 5
+      name: 'Running the Le vees'
+      objective: 'Participate in the "run the levees" mobility tutorial.'
+      dialogue: 
+        - character: 'Lulu'
+          line: "'Enough jawin'', Croc! Wanna **run the leve es**? Bet I can make it to the old gator processing sluice and back ''fore you even get your boots muddy! '"
+      tutorial:
+        name: 'Advanced Mobility'
+        description: 'An in-depth tutorial on navigating the treacherous , often unstable, terrain of the Primal Mama world.'

@@ -1,0 +1,391 @@
+```yaml
+world: Primal Mama
+codex_version: "0.1 - Quest Entity Functions "
+last_updated: "[Current Date]"
+lead_architects: "[Your Name/Studio Name]"
+source_document : "PM-QUEST-001 (YAML)"
+
+introduction: |
+  This document analyzes the entities encountered within the " Bayou Investigations & The Matrons of the Mire" quest sequence through the lens of Doležel's functional properties. Quest  progression emerges from the player character's interaction with these entities, leveraging their capabilities, overcoming their limitations, and exploiting their  vulnerabilities according to the authenticated rules of the Primal Mama heterocosm. This analysis focuses on how entity functions define the  challenges, opportunities, and narrative branches within this specific quest arc.
+  Note: The Player Character ("Runner") functions  are implicit – information gathering (Scanner/Senses), interaction (Dialogue, Combat, Object Use), locomotion (Walking, Swimming, Fan boat), and inventory management.
+
+functional_encounters:
+  initial_investigations:
+    section_title: " I. Initial Investigations Near Lickskillet: Functional Encounters"
+    entities:
+      - entity_id: " NPC_ScrapTrader_LickskilletFringe_01"
+        entity_name: "L ickskillet Fringe Scrap Trader"
+        entity_type: "Person (NPC)"
+        authentication_sources:
+           - "Quest Narrative: PM-QUEST-001 (\"A Demanding Appliance\" section)"
+        functional_properties _bundle:
+          core_function:
+            - role: "Primary Role: Provides minor world interaction; acts  as a game vendor (Implicit: Barter/Trade Function)."
+              authentication: "Quest Narrative: PM-QUEST -001"
+            - role: "Secondary Role(s): Offers recreational challenge ('Gator Bones' game)." 
+              authentication: "Quest Narrative: PM-QUEST-001"
+          key_capabilities:
+            - id : "FUNC-TRD-01"
+              name: "Engage in Barter/Trade"
+               description: "Possesses inventory of goods (Implicit); Can exchange goods for Scrap/Items."
+              authentication:  "Quest Narrative: PM-QUEST-001 (Implied function of a Trader)"
+              limits_nu ances: "Inventory likely limited to common scrap and local goods."
+            - id: "FUNC-TRD- 02"
+              name: 'Play "Gator Bones"'
+              description: "Can participate in the local  game; Possesses a 'powerful deck' (functional strength in the game's context)."
+              authentication: " Quest Narrative: PM-QUEST-001"
+              limits_nuances: "Outcome depends on player skill  and game rules."
+          acquired_skills:
+            - id: "SKL-TRD-01"
+               name: '"Gator Bones Proficiency"'
+              proficiency_level: "High ('powerful deck')."
+              authentication : "Quest Narrative: PM-QUEST-001"
+          vulnerabilities:
+            - id: "VUL N-TRD-01"
+              description: "Susceptible to player skill/luck in Gator Bones."
+              authentication : "Implied by game mechanic."
+        functional_profile_summary:
+          core_functional_identity: | 
+            Functions primarily as a standard NPC vendor and optional recreational challenge. Its functional interaction is limited to trade and the mini -game, providing minor resource acquisition or loss opportunities for the player.
+          key_narrative_functions: " Standard Vendor, Mini-game Opponent"
+
+      - entity_id: "CREATURE_AllSparkGator_ 01"
+        entity_name: '"All-Spark" Gator'
+        entity_type: "Creat ure (Modified GE Gator) / Object (Rigged Systems)"
+        authentication_sources:
+          - "Quest Narrative:  PM-QUEST-001 (\"A Demanding Appliance\" section)"
+        functional_properties_bundle:
+           core_function:
+            - role: "Primary Role: Functions as a local obstacle/mystery; Hoards resources (' offerings')."
+              authentication: "Quest Narrative: PM-QUEST-001"
+            - role : "Secondary Role(s): Source of minor quest resolution choices; Potential combat encounter."
+              authentication: "Quest Narrative: PM -QUEST-001"
+          key_capabilities:
+            - id: "FUNC-ASG- 01"
+              name: "Consume Offerings/Power"
+              description: "Actively draws power from rigged  grid connection; Accumulates offered scrap/components."
+              authentication: "Quest Narrative: PM-QUEST-001" 
+              limits_nuances: "Dependent on external power source and continued offerings."
+            - id: "FUNC-ASG -02"
+              name: "Verbal Communication (Synthesized)"
+              description: "Can articulate demands and intent  via rigged comms/voice synthesizer."
+              authentication: "Quest Narrative: PM-QUEST-001"
+               limits_nuances: "Quality described as 'crackling'."
+            - id: "FUNC-ASG-03" 
+              name: "Defensive Combat Actions"
+              description: "Can vent superheated steam, utilize salvaged plasma cutter, perform  tail-whip attacks (if engaged)."
+              authentication: "Quest Narrative: PM-QUEST-001  (Combat option description)"
+              limits_nuances: "Effectiveness tied to its rigged systems."
+            - id:  "FUNC-ASG-04"
+              name: "Maintain Illusion (Indirectly)"
+              description:  "Benefits from holographic projector creating illusion of refuse pile hiding its lair."
+              authentication: "Quest Narrative: PM-QUEST -001"
+              limits_nuances: "Illusion vulnerable to Signal Disruptor or physical interaction with projector." 
+          inabilities:
+            - id: "INAB-ASG-01"
+              description: "Cannot leave  its cellar lair (due to rigged connections/hoarding)."
+              authentication: "Implied by setup in Quest Narrative:  PM-QUEST-001."
+          vulnerabilities:
+            - id: "VULN- ASG-01"
+              description: "Rigged systems susceptible to EMP; Power conduits are weak points."
+              authentication : "Quest Narrative: PM-QUEST-001 (Combat option description)"
+            - id: "V ULN-ASG-02"
+              description: "Susceptible to player negotiation/intimidation (Pers uasion function)."
+              authentication: "Quest Narrative: PM-QUEST-001 (Negotiation option description)" 
+          costs_dependencies_constraints:
+            - id: "DEPEND-ASG-01"
+              applies_ to: "Core Function"
+              description: "Requires continuous external power supply and 'offerings' from locals to maintain its  state."
+              authentication: "Quest Narrative: PM-QUEST-001"
+        functional_profile_ summary:
+          core_functional_identity: |
+            This entity functions as the central challenge of the "A  Demanding Appliance" quest. Its capabilities (communication, rigged combat) provide interaction points, while its vulnerabilities (EMP, negotiation,  dependency on power/offerings) dictate the player's potential resolution paths (destruction, negotiation, maintaining charade). Its  core function is parasitic hoarding, enabled by deception (illusion).
+          key_narrative_functions: "Quest Obstacle, Combat  Encounter, Choice Generator"
+
+      - entity_id: "OBJECT_DrawbridgeMechanism_01"
+         entity_name: "Wasted Bayou Estates Drawbridge Mechanism"
+        entity_type: "Object"
+         authentication_sources:
+          - "Quest Narrative: PM-QUEST-001 (\"A Demanding Appliance\"  follow-up)"
+        functional_properties_bundle:
+          core_function:
+            - role: " Primary Role: Controls Drawbridge state (Raised/Lowered); Functions as environmental gate."
+              authentication: "Quest Narrative: PM -QUEST-001"
+          key_capabilities:
+            - id: "FUNC-DBM- 01"
+              name: "Lower Drawbridge"
+              description: "When activated by player interaction (using  the 'Wheel Mechanism'), changes bridge state to 'Lowered'."
+              authentication: "Quest Narrative: PM-QUEST -001"
+              limits_nuances: "Requires player proximity and interaction; Initially guarded by Poachers." 
+          inabilities:
+            - id: "INAB-DBM-01"
+              description: "Cannot  activate itself; Requires external interaction."
+              authentication: "Implied by object type and quest description."
+          costs _dependencies_constraints:
+            - id: "OPCON-DBM-01"
+              applies _to: "FUNC-DBM-01"
+              description: "Requires player to overcome/bypass guarding Poachers  to access and interact with the mechanism."
+              authentication: "Quest Narrative: PM-QUEST-001"
+        functional _profile_summary:
+          core_functional_identity: |
+            Functions as a simple environmental gate controlled by  player interaction.
+          key_narrative_functions: "Requires overcoming guarding NPCs, Enables area progression."
+
+  abandon ed_sites_salvage:
+    section_title: "II. Exploring Abandoned Sites & Salvage Opportunities" 
+    entities:
+      - entity_id: "OBJECT_InfestationSource_Rustwater_01" 
+        entity_name: "Feral Tech Infestation Source (Rustwater Bend vicinity)"
+        entity_type : "Object (Broken Control Node) / Location Feature (Vampire Bunny Warren)"
+        authentication_sources:
+           - "Quest Narrative: PM-QUEST-001 (\"Feral Tech Infestation / Abandoned Processing Out post\")"
+        functional_properties_bundle:
+          core_function:
+            - role: "Primary  Role: Generates hostile entities (Sanitation Bots or Vampire Bunnies); Renders associated site 'Abandoned'."
+              authentication: " Quest Narrative: PM-QUEST-001"
+          key_capabilities:
+            - id: "FUNC -IFS-01"
+              name: "Spawn Hostiles"
+              description: "Continuously (or periodically ) produces/attracts specified hostile creatures/bots."
+              authentication: "Quest Narrative: PM-QUEST-00 1 (Implied by \"Monster Nest\" concept)"
+              limits_nuances: "Spawn rate/limit not  specified, but sufficient to deny area to NPCs."
+          inabilities:
+            - id: "INAB- IFS-01"
+              description: "Cannot defend itself directly."
+              authentication: "Implied by nature  of object/feature."
+          vulnerabilities:
+            - id: "VULN-IFS-0 1"
+              description: "Susceptible to destruction/neutralization via specific player actions (EMP, fire/chemicals )."
+              authentication: "Quest Narrative: PM-QUEST-001"
+        functional_profile_summary :
+          core_functional_identity: |
+            Functions as a classic "Monster Spawner" trope. Its core  function (spawning hostiles) creates the environmental hazard.
+          key_narrative_functions: "Creates environmental hazard, Objective  for 'Abandoned Site' liberation, Triggers world state change."
+
+      - entity_id: "CREATURE_ AlphaGEGator_SalvageGuard_01"
+        entity_name: "Alpha GE Gator (Gu arded Salvage Guardian)"
+        entity_type: "Creature"
+        authentication_sources:
+          -  "Quest Narrative: PM-QUEST-001 (\"Guarded Salvage\")"
+        functional_properties_ bundle:
+          core_function:
+            - role: "Primary Role: Functions as guardian for valuable salvage; Presents  high-level combat challenge."
+              authentication: "Quest Narrative: PM-QUEST-001"
+           key_capabilities:
+            - id: "FUNC-AGG-01"
+              name: "Advanced Combat  Prowess"
+              description: "Possesses thick hide (defensive function); Capable of erratic energy discharges (offensive  function)."
+              authentication: "Quest Narrative: PM-QUEST-001"
+              limits_nuances : "Level 14 suggests significant damage output and resilience compared to earlier threats."
+          vulnerabilities:
+            - id : "VULN-AGG-01"
+              description: "Possesses physical weak points (joints, potential sensor clusters )."
+              authentication: "Quest Narrative: PM-QUEST-001 (Implied combat strategy)"
+         functional_profile_summary:
+          core_functional_identity: |
+            Functions as a high-level " guardian" entity. Its capability is primarily high combat effectiveness, forcing a difficult fight.
+          key_narrative_functions:  "Gates access to valuable loot, Provides high-level combat encounter."
+
+      - entity_id: "NPC_Independent Technician_Rescued_01"
+        entity_name: "Rescued Independent Technician"
+         entity_type: "Person (NPC)"
+        authentication_sources:
+          - "Quest Narrative: PM -QUEST-001 (\"Poacher Camp / Person(s) in Distress\")"
+          - "Follow -up Note in PM-QUEST-001"
+        functional_properties_bundle:
+          core_ function:
+            - role: "Primary Role: Functions as quest objective (rescue target); Later becomes a specialized vendor." 
+              authentication: "Quest Narrative: PM-QUEST-001"
+          key_capabilities:
+             - id: "FUNC-TEC-01"
+              name: "Offer Specialized Goods (Post-Rescue)"
+               description: "Can provide rare '70s Tech Schematics, unique Weapon Mods, Celebrity Memorabilia."
+              authentication:  "Quest Narrative: PM-QUEST-001 (Note section)"
+              limits_nuances: "Requires  player to visit him later at Rustwater Bend. Inventory is specific and potentially valuable."
+            - id: "FUNC-TEC -02"
+              name: "Offer Discount (Post-Rescue)"
+              description: "Reduces cost  of goods/services as reward for rescue."
+              authentication: "Quest Narrative: PM-QUEST-001 "
+            - id: "FUNC-TEC-03"
+              name: 'Play "Gator Bones" (Post -Rescue)'
+              description: "Can participate in the local game."
+              authentication: "Quest Narrative: PM -QUEST-001 (Note section)"
+          inabilities:
+            - id: "INAB- TEC-01"
+              description: "Cannot self-rescue from Poacher cage."
+              authentication: " Quest Narrative: PM-QUEST-001 (Premise of rescue)"
+        functional_profile_summary: 
+          core_functional_identity: |
+            Initially functions as a passive quest objective requiring player action (unlocking cage). Post -rescue, transitions to a potentially valuable vendor function.
+          key_narrative_functions: "Rescue Objective,  Reward Mechanism (Discount), Specialized Vendor (Post-Rescue)."
+
+  deeper_mire:
+    section_title: "III . Journey into the Deeper Mire: The Matrons' Domain"
+    entities:
+      - entity_id: " CREATURE_Whisper_GatorCreek_01"
+        entity_name: '"Whisper"' 
+        entity_type: "Creature (Bio-luminescent Entity)"
+        authentication_sources:
+           - "Quest Narrative: PM-QUEST-001 (\"The Trail of Flickering Lights\" follow-up, \"Helping Whisper \")"
+        functional_properties_bundle:
+          core_function:
+            - role: "Primary Role:  Functions as information source regarding [Target Info/Ciri Equiv.]; Key to progressing main quest past Gran."
+              authentication:  "Quest Narrative: PM-QUEST-001"
+            - role: "Secondary Role(s): Requires  assistance (mini-quest); Acts as guide."
+              authentication: "Quest Narrative: PM-QUEST-00 1"
+          key_capabilities:
+            - id: "FUNC-WSP-01"
+               name: "Non-Verbal Communication"
+              description: "Can communicate via gestures and projected feelings/images." 
+              authentication: "Quest Narrative: PM-QUEST-001"
+              limits_nuances: " Ineffective for detailed information transfer initially."
+            - id: "FUNC-WSP-02"
+               name: "Guidance / Pathfinding"
+              description: "Can lead the player through hazardous terrain to specific locations (crystal  location, back to village)."
+              authentication: "Quest Narrative: PM-QUEST-001"
+            - id:  "FUNC-WSP-03"
+              name: "Verbal Communication (Post-Crystal)"
+               description: "After receiving 'Cracked Resonant Crystal', can communicate complex information verbally (potentially via Scanner translation)."
+               authentication: "Quest Narrative: PM-QUEST-001"
+            - id: "FUNC-WSP -04"
+              name: "Persuade NPC (Gran)"
+              description: "Can use its  restored voice/presence to convince Gran to cooperate."
+              authentication: "Quest Narrative: PM-QUEST-00 1"
+          inabilities:
+            - id: "INAB-WSP-01"
+               description: "Cannot retrieve its own 'voice' (Resonant Crystal)."
+              authentication: "Quest Narrative: PM -QUEST-001 (Requires player action)"
+            - id: "INAB-WSP-0 2"
+              description: "Cannot verbally communicate detailed information initially."
+              authentication: "Quest Narrative: PM- QUEST-001"
+          costs_dependencies_constraints:
+            - id: "DEPEND-WSP -01"
+              applies_to: "FUNC-WSP-03, FUNC-WSP -04"
+              description: "Requires player to retrieve and return the 'Cracked Resonant Crystal' from  guarded location."
+              authentication: "Quest Narrative: PM-QUEST-001"
+        functional_profile_ summary:
+          core_functional_identity: |
+            Whisper functions as a crucial gatekeeper for information and quest  progression. Its initial inability (lack of voice) creates a mandatory sub-quest for the player (retrieve crystal).
+           key_narrative_functions: "Information Source, Quest Progression Gate, Sub-Quest Trigger, Guide, NPC Pers uader."
+
+      - entity_id: "ENTITY_Matrons_Mire_01"
+        entity_name : "The Matrons of the Mire"
+        entity_type: "Organization / Supernatural Entity / NPC Group (Ambiguous )"
+        authentication_sources:
+          - "Quest Narrative: PM-QUEST-001 (\"Helping Whisper\"  follow-up)"
+        functional_properties_bundle:
+          core_function:
+            - role: " Primary Role: Function as major regional power; Act as quest givers for next stage."
+              authentication: "Quest Narrative: PM -QUEST-001"
+            - role: "Secondary Role(s): Instill fear/control in local area ( implied); Possess esoteric knowledge/power."
+              authentication: "Quest Narrative: PM-QUEST-001 ( Implied by Whisper/Foreman reactions)"
+          key_capabilities:
+            - id: "FUNC-MAT -01"
+              name: "Issue Quests/Demands"
+              description: "Can communicate objectives  to the player (deal with Whispering Knoll entity)."
+              authentication: "Quest Narrative: PM-QUEST-0 01"
+            - id: "FUNC-MAT-02"
+              name: "Provide Quest Item /Authentication"
+              description: "Can furnish player with 'Sigil-Etched Circuit Board' to prove agency ."
+              authentication: "Quest Narrative: PM-QUEST-001"
+            - id: "FUNC -MAT-03"
+              name: "Remote Communication/Appearance"
+              description: "Can manifest/communicate remotely  (projections, telepathy, distorted speakers)."
+              authentication: "Quest Narrative: PM-QUEST-001" 
+            - id: "FUNC-MAT-04"
+              name: "Exert Influence (Indirect)"
+              description : "Cause NPCs (Foreman) to react with fear/cooperation based on their reputation/power."
+              authentication:  "Quest Narrative: PM-QUEST-001 (Foreman interaction)"
+        functional_profile_summary: 
+          core_functional_identity: |
+            The Matrons function as high-level quest directors within this arc . Their primary function is to redirect the player towards the Whispering Knoll.
+          key_narrative_functions: "Quest  Giver, Plot Direction, Authority Figure, Source of Key Item."
+
+  contracts_whispering_knoll: 
+    section_title: "IV. Contracts and The Whispering Knoll"
+    entities:
+      - entity _id: "CREATURE_MiasmaPhantom_01"
+        entity_name: "Miasma Phantom ( Ignis Fatuus Equivalent)"
+        entity_type: "Creature"
+        authentication_sources:
+           - "Quest Narrative: PM-QUEST-001 (\"Gas Leak\")"
+        functional_properties_ bundle:
+          core_function:
+            - role: "Primary Role: Functions as target monster for 'Gas  Leak' contract; Area denial via toxic fog."
+              authentication: "Quest Narrative: PM-QUEST-00 1"
+          key_capabilities:
+            - id: "FUNC-MIP-01"
+               name: "Fog Generation/Manipulation"
+              description: "Creates dense fog for obscurity; Inflicts suffocation within fog." 
+              authentication: "Quest Narrative: PM-QUEST-001"
+            - id: "FUNC- MIP-02"
+              name: "Toxic Gas Attack"
+              description: "Can release concentrated blasts  of toxic gas."
+              authentication: "Quest Narrative: PM-QUEST-001 (Implied combat abilities )"
+            - id: "FUNC-MIP-03"
+              name: "Phasing/In visibility"
+              description: "Can phase in/out of visibility within fog."
+              authentication: "Quest Narrative : PM-QUEST-001 (Likely adaptation of Foglet mechanics)"
+            - id: "FUNC -MIP-04"
+              name: "Physical Attack (Tendrils)"
+              description: "Can  form semi-solid tendrils to attack."
+              authentication: "Quest Narrative: PM-QUEST-001  (Implied combat abilities)"
+          inabilities:
+            - id: "INAB-MIP-0 1"
+              description: "Likely less effective outside of its foggy cave environment."
+              authentication: "Implied  environmental dependency."
+          vulnerabilities:
+            - id: "VULN-MIP-01" 
+              description: "Susceptible to environmental counters (Filters/Rebreathers negate suffocation); Gaseous form vulnerable to  fire/sonic/EMP."
+              authentication: "Quest Narrative: PM-QUEST-001 (Implied combat strategy )"
+        functional_profile_summary:
+          core_functional_identity: |
+            Functions as a challenging  contract monster. Its capabilities revolve around environmental control (fog) and gas attacks.
+          key_narrative_functions : "Contract Target, Combat Encounter (Environmental Hazard Focus)."
+
+      - entity_id: "ENTITY_KnollEntity_Whis peringKnoll_01"
+        entity_name: "Whispering Knoll Entity (Fungal Hub / AI  Core / Energy Being)"
+        entity_type: "Creature / Object / Entity (Ambiguous)"
+         authentication_sources:
+          - "Quest Narrative: PM-QUEST-001 (\"The Whispering Knoll\") "
+        functional_properties_bundle:
+          core_function:
+            - role: "Primary Role:  Central figure/objective of the Whispering Knoll location; Presents major ethical/narrative choice."
+              authentication: "Quest Narrative : PM-QUEST-001"
+            - role: "Secondary Role(s): Source of conflict/ alternative narrative regarding Matrons; Potential ally or target."
+              authentication: "Quest Narrative: PM-QUEST-001" 
+          key_capabilities:
+            - id: "FUNC-KNE-01"
+              name:  "Communication (Remote/Projected)"
+              description: "Can communicate its perspective and requests to the player (telepathy, hacked  speakers, monitors)."
+              authentication: "Quest Narrative: PM-QUEST-001"
+            - id : "FUNC-KNE-02"
+              name: "Offer Alternative Quest Path"
+              description:  "Can request player assistance for its freedom, outlining necessary steps/components."
+              authentication: "Quest Narrative: PM-QUEST -001 (Choice description)"
+            - id: "FUNC-KNE-03"
+               name: "Broadcast Interference/Whispers"
+              description: "Generates the pervasive mental static/distorted broadcast defining  the location."
+              authentication: "Quest Narrative: PM-QUEST-001"
+          inabilities: 
+            - id: "INAB-KNE-01"
+              description: "Cannot free itself;  Is physically trapped/contained within the Knoll."
+              authentication: "Quest Narrative: PM-QUEST-001  (Premise of its request)"
+          vulnerabilities:
+            - id: "VULN-K NE-01"
+              description: "Possesses a physical core/anchor/power source susceptible to destruction/ overload/counter-agent (if player chooses antagonism)."
+              authentication: "Quest Narrative: PM-QUEST- 001 (Choice description)"
+          costs_dependencies_constraints:
+            - id: "DEPEND-K NE-01"
+              applies_to: "Freedom/Alternative Quest Path"
+              description: " Requires player to perform specific actions/retrieve items to be freed."
+              authentication: "Quest Narrative: PM-QUEST -001 (Choice description)"
+        functional_profile_summary:
+          core_functional_identity:  |
+            This entity is the crux of the Matrons' demand and the Whispering Knoll location. Its primary function is  to present the player with a significant choice.
+          key_narrative_functions: "Central Quest Objective, Major  Choice Point, Source of Narrative Conflict, Potential Ally/Antagonist."
+
+conclusion: |
+  This functional analysis demonstrates  how the "Bayou Investigations & The Matrons of the Mire" questline unfolds through a series of interactions defined by entity capabilities and  limitations. Player choices often involve selecting *which* function of an entity to engage with – its vulnerability (combat), its communication capability  (negotiation/information gathering), or its dependency (retrieval tasks). The coherence of the quest relies on these  functions operating consistently within the established rules of Primal Mama.
+
+```

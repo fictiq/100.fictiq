@@ -1,0 +1,460 @@
+
+world: Primal Mama
+scenario_log: "0.1 - L ickskillet Hustle"
+based_on: "Witcher 3 Quest Path Analysis (Velen Start )"
+quests:
+  - id: resonant_node
+    title: "Resonant Node (Neural Attunement )"
+    area: "Bayou Sector - The Mirelands"
+    requirements:
+      - "Basic Skiff/ Watercraft"
+    description: |
+      Maneuver your skiff around the crumbling pylons of a  pre-Calamity structure half-submerged along the north-western edge of the main 'gator farm archipelago . Along the eastern bank of this small, overgrown island of concrete and rusted metal, you should detect faint energy readings with  your handheld scanner. This indicates a Resonant Node, likely an old solar relay or bio-feedback conduit still pulsing with residual energy . Interface with it carefully (risk of bio-feedback shock) to gain a Neural Attunement Point. Note the derel ict Solar Tower looming on the cliffs above, its access ramp long retracted. Access seems impossible from here.
+    notes :
+      - "Ironically, the way up involves going *down*."
+    reward:
+      name: Neural  Attunement Point
+      description: "improves innate abilities or allows interface with more complex retro-tech" 
+    risk: "Bio-feedback shock during interface"
+
+  - id: submerged_access
+    title: "Sub merged Access"
+    area: "Bayou Sector - The Mirelands (Under Resonant Node)"
+    requirements:
+       - "Hazard Suit / Good Lungs"
+    recommended_gear:
+      - "Basic Hazard Suit" 
+      - "Harpoon Gun/Electro-Prod"
+    description: |
+      Dive off the south-eastern edge  of the Node island. Murky water conceals a maintenance tunnel leading under the structure. Feral Bio-Filters pollute  the tunnel. Use your harpoon gun to thin their numbers if needed, or try to navigate past their grasping pseudopods . Eventually, you'll find rusted rungs leading up a maintenance shaft. Surface and climb. Your reward for the  hazardous swim is a waterlogged footlocker containing surprisingly well-preserved Salvaged Components (Superior Quality) just east of the water logged entry point. Nearby, scale some crumbling ferrocrete ledges twice, then climb a maintenance ladder to reach the Rust water Spire level.
+    potential_threats:
+      - "Feral Bio-Filters (Level  10)"
+    reward:
+      name: "Salvaged Components (Superior Quality)"
+      location: "waterlogged  footlocker"
+
+  - id: rustwater_spire
+    title: "Rustwater Spire"
+     area: "Rustwater Spire"
+    requirements:
+      - Caution
+    potential_threats:
+       - Structural Instability
+      - "Territorial Skyscale (Level 14)"
+    description: |
+      Asc end a set of grated stairs, scavenging a small parts chest and a discarded data chit (minor lore/flavor). Continue up  another flight, looting two more storage chests and three supply parcels (good haul of basic crafting materials and stim-packs). Head  through a doorway framed in faded orange plastic to the south-west, then turn south-east and find a manual winch  mechanism (classic 70s chunky lever). Crank it to lower the rusted access ramp, connecting the spire back to a precarious  cliff path. Cross the ramp to activate the "Rustwater Spire" Wayfinder Post on your map device. Good time to  log your progress (save game).
+
+      Return to the Spire interior near the doorway you emerged from. Spot a rickety service  ladder leading to an upper platform housing the main solar collector array (or what's left of it). Up here are two more  chests, a functional grindstone (weapon maintenance), and other containers. We're primarily interested in the maintenance locker next to the  grindstone, along the south-eastern wall.
+
+      Problem: The upper platform is the nesting ground of a Territorial  Skyscale (Level 14). It will make short work of an unprepared Runner. Your best bet is a quick smash-and -grab: sprint up the ladder, force the locker (requires decent Mechanics skill or a prybar), grab the contents (Old  Schematics, Schematic: Electro-Prod Mk II), and scramble back down (or drop, taking impact damage). If  successful, you'll have the plans for a powerful Level 7 Electro-Prod.
+    loot:
+      -  "small parts chest"
+      - "discarded data chit"
+      - "2 storage chests"
+      - " 3 supply parcels"
+      - "2 chests (upper platform)"
+      - "Old Schematics (maintenance locker)"
+       - "Schematic: Electro-Prod Mk II (maintenance locker)"
+    actions:
+      - description: "Lower access  ramp using winch"
+        result: "Activates 'Rustwater Spire' Wayfinder Post"
+      -  description: "Loot upper platform maintenance locker (Smash-and-grab)"
+        risk: "Provoking  Territorial Skyscale"
+        reward: "Schematic: Electro-Prod Mk II"
+    optional_risk:
+      description : "Loot adjacent radio booth (1st and 3rd levels)"
+      potential_loot:
+        - Minor  loot
+        - "Damaged data slate: 'Log Entry: Maintenance Tech Dobromir'"
+      consequence: "Re aching the roof platform *will* provoke the Skyscale"
+    notes:
+      - "Story Progression may alter this location . Skyscale might be replaced by Oligarchy 'surveyors' or scavengers."
+
+  - id: shrieker_feeding _ground
+    title: "Shrieker Feeding Ground (Optional Hazard Zone)"
+    area: "Near Rustwater Spire "
+    requirements:
+      - "Decent Firearm/Anti-Air Capability"
+    description: | 
+      From the Rustwater Spire ramp exit, follow the crumbling service road south-east, then south until it intersects  a muddy track running north-east. You'll find the "Shrieker Feeding Ground" Wayfinder Post. Aptly  named, the area is infested with Shrieker Flocks. A half-buried supply crate lies nearby, lootable if you can  suppress the airborne pests long enough.
+    potential_threats:
+      - "Shrieker Flocks (Level 7 )"
+    loot:
+      - "Supply crate (minor resources)"
+    notes:
+      - "This  detour yields minor resources but isn't critical for the main objective."
+
+  - id: preparation_note
+    title:  "Preparation Note"
+    description: |
+      The next phase likely involves confronting more organized threats or powerful individual entities.  Recommended Level 7+ with crafted Electro-Prod Mk II.
+    options:
+      - "Grind: Hunt lesser  creatures or take minor contracts. Good spots include the Swamp Rat Camp north of 'The Slag Pit' or the F eral Gator Pup field south of it."
+      - "Continue Primary Quest: Focus on 'Whispers in the Mias ma' leads."
+
+  - id: mudlark_crossing
+    title: "Mudlark Crossing" 
+    area: Mudlark Crossing
+    quest_line: "Whispers in the Miasma"
+    requirements: 
+      - "Basic Interaction Skills"
+    description: |
+      Head south along the main swamp trail from " The Gator Hook" until you reach the small, stilt-house settlement of Mudlark Crossing. Check the Community  Notice Board (rusted metal sheet). Grab any posted jobs.
+    quests_started:
+      - name: "Swamp  Heart"
+        trigger: "Notice: 'Missing Husband - Reward Offered'"
+
+  - id: corpse_disposal _detail
+    title: "Corpse Disposal Detail"
+    area: "Near Mudlark Crossing"
+     quest_line: "Whispers in the Miasma"
+    suggested_level: 3
+    requirements :
+      - "Tolerance for Grim Work"
+    description: |
+      As you leave Mudlark Crossing via the south -west track, meet a Parsons Penitent deacon and two guards. He offers a task: dispose of 3 contaminated carcass  piles using Bio-Neutralizing Agent and ignition to prevent disease and deter Scavenger Packs. Promises payment.
+
+       Site 1 (North): Guarded by Scavenger Pack (Levels 2 & 4 - Mire Ghouls , Rat Hounds). Neutralize and burn.
+      Site 2 (South-West): Guarded by Corp se Crawler and Feral Hounds (Level 3). Neutralize and burn.
+      Site 3 (South- East): Find Titus fending off Mire Ghouls (Levels 2 & 4). Save him. He reveals the deacon' s involvement in the "Swamp Shimmer" trade and that the bodies are victims. Neutralize and burn the final  pile.
+
+      Confrontation: Find the deacon at a shelter between Oligarchy Checkpoint and Hindhold ruins. Confront him.  He offers a bribe.
+    objectives:
+      - Neutralize 3 carcass piles.
+      - Save  Titus.
+      - Confront the deacon.
+    potential_threats:
+      - "Scavenger Pack  (Levels 2 & 4)"
+      - "Corpse Crawler (Level 3)"
+      - " Feral Hounds (Level 3)"
+      - "Mire Ghouls (Levels 2 &  4)"
+      - "Deacon and 2 Goons (Level 4-5, if bribe refused)"
+    rewards :
+      - description: "For neutralizing first pile"
+        amount: 10
+        type: "Rep Points ( Local)"
+      - description: "For neutralizing second pile"
+        amount: 10
+        type:  "Rep Points (Local)"
+      - description: "For neutralizing third pile"
+        amount: 10 
+        type: "Rep Points (Local)"
+      - description: "For discovering deacon's motives"
+        amount : 25
+        type: "Rep Points (Local)"
+    choices:
+      - option: "Accept B ribe"
+        reward:
+          - { amount: 50, type: "Rep Points (Local)" }
+           - { amount: 60, type: Creds }
+      - option: "Refuse Bribe"
+        con sequence: "Fight deacon and goons"
+        reward:
+          - { amount: 50, type: "Rep  Points (Local)" }
+          - { potential_loot: "200 Creds from deacon" }
+
+   - id: deserter_dilemma
+    title: "Deserter Dilemma"
+    area : "Coastal track near Mudlark Crossing"
+    quest_line: "Whispers in the Miasma" 
+    suggested_level: 4
+    requirements:
+      - "Basic Combat"
+    description:  |
+      Near the junction of the south-west road from Mudlark Crossing and the coastal track, find John  Verdun tied up and harassed by two Mire Ghouls. Kill the ghouls. Verdun explains he's a  militia deserter tied up by refugees. Untie him. He is grateful but has no reward.
+    potential_threats: 
+      - "Mire Ghouls (Level 4)"
+    reward:
+      - amount: 2 5
+        type: "Rep Points (Local)"
+        description: "For rescuing John Verdun"
+
+  -  id: soggy_bottom_bar
+    title: "The Soggy Bottom Bar"
+    area: "Soggy Bottom  Bar"
+    quest_line: "Whispers in the Miasma"
+    requirements:
+      -  Social Skills
+      - "Optional: Bayou Blitz Deck"
+    description: |
+      Follow tracks north-west,  then south-west from Mudlark to reach the Soggy Bottom Bar Wayfinder Post. Check Notice Board. Talk  to locals about Boss Croker. Talk to Barkeep about Hendrik; he's evasive. Order a drink. Olig archy Enforcers arrive and hassle you. Choose dialogue carefully to avoid a fight or engage them. Afterwards (if peaceful  or after fight), Barkeep reveals Hendrik went to Hushwater Hamlet, mentioning a "strange cold mist."
+    quests _started:
+      - name: "Contract: Bayou Brother"
+        trigger: "Notice: 'Missing:  Mikkel'"
+        suggested_level: 33
+    potential_threats:
+      - "3  Oligarchy Enforcers (Level 4)"
+      - "Backup Enforcers (Level 5, if  initial fight lingers)"
+    dialogue_choices:
+      - option: "Aggressive Response"
+        con sequence: "Fight Enforcers"
+      - option: "Cautious/Professional Response"
+        consequence:  "Enforcers leave after insults"
+      - option: "Offer Drinks/Diplomacy"
+        consequence:  "Avoid fight with correct follow-up choices"
+    optional_activities:
+      - description: "Talk to  Barkeep again (if peaceful)"
+        topic: "Learn more about Boss Croker and Croker's Ro ost"
+      - description: "Peruse Barkeep's wares"
+        items:
+          - "Basic  supplies"
+          - "Bayou Blitz Card: GE Gator Handler (6 Strength, Ranged, 20 Cred s)"
+          - "Bayou Blitz Card: Swamp Witch Initiate (3 Strength, Melee, Tight Bond,  20 Creds)"
+          - "Bayou Blitz Card: Mud Skipper Pilot (2 Strength, Ranged,  Tight Bond, 20 Creds)"
+          - "Bayou Blitz Card: Burt Reynolds Deity Card (Leader, 5 0 Creds)"
+      - description: "Play Barkeep at Bayou Blitz"
+        difficulty: "Mediocre deck , watch for 'Gator Stampede' and 'Solar Flare'"
+        reward:
+          - { amount: 2 5, type: "Rep Points (Local)" }
+          - { type: Item, name: "Bayou Blitz Card : Jerry Reed Deity Card (Hero)" }
+
+  - id: swamp_rat_camp_optional
+    title:  "Swamp Rat Camp (Optional Cleanup)"
+    area: "North-west of Soggy Bottom Bar"
+    quest _line: "Whispers in the Miasma"
+    suggested_level: 7
+    description : |
+      Detour north-west from the Soggy Bottom Bar to find a Swamp Rat Camp hidden in the mangroves.  Clear out the Scavengers and loot their stash.
+    potential_threats:
+      - "Scavengers ( Level 7)"
+    loot:
+      - Ammo
+      - Parts
+      - "Potential Swamp Shimmer" 
+
+  - id: mutants_misery
+    title: "A Mutant's Misery (Optional Encounter)"
+     area: "Coast north of Soggy Bottom Bar"
+    quest_line: "Whispers in the Mias ma"
+    requirements:
+      - "Minimal Combat"
+    description: |
+      Head west from the bar to the  coast, then north. Find a Groggy Mutant being harassed by Scavenger Packs. Kill the pests. Ensure  the Mutant isn't hostile (just confused). Let it be. It might give you Questionable Fungi.
+    potential _threats:
+      - "Scavenger Packs (Level 2 Nekker equivalent)"
+    reward:
+       - amount: 25
+        type: "Rep Points (Local)"
+        description: "For helping the Grog gy Mutant"
+      - potential_item: "Questionable Fungi"
+
+  - id: hushwater_ham let_investigation
+    title: "Hushwater Hamlet"
+    area: Hushwater Hamlet
+    quest_line:  "Whispers in the Miasma"
+    requirements:
+      - Investigation Skills
+      - "Basic Combat"
+     description: |
+      Trek west from Soggy Bottom Bar, then north-west, then south-west  towards Hushwater Hamlet. May encounter Swamp Rats looting a skiff. Approach the village noting the unnatural cold mist and frost . Explore silent houses. Find a lone Survivor attacked by Feral Hounds north. Kill hounds, calm Survivor (Pers uasion/Tech). He recounts a violent event involving Hendrik.
+
+      Locate Hendrik's safehouse (third house,  south side). Find his body. Use Swamp Sense. Find magnetic keycard in his boots. Find hidden floor hatch under  sacking, open with keycard. In cellar, activate wall panel, find ledger in storage chest. Ledger details two leads: Boss  Croker and a Swamp Witch near Malcose Mire. Note missing person poster for Boss Croker's daughter.
+    potential _threats:
+      - "Swamp Rats (Levels 5 & 6)"
+      - "F eral Hounds (Level 2)"
+    objectives:
+      - Reach Hushwater Hamlet.
+      - Find and  calm the Survivor.
+      - Investigate Hendrik's safehouse.
+      - Find the ledger.
+    loot :
+      - "Minor loot in outlying hut & village houses"
+      - "Magnetic keycard (from Hendrik 's body)"
+      - "Ledger (in cellar chest)"
+      - "Creds, supplies (in cellar  chest)"
+    quests_started:
+      - "Boss Croker's Grip"
+      - "Hunting  the Mire Witch"
+    clues:
+      - "Unnatural cold mist in village"
+      - "Missing person  poster: Boss Croker's daughter"
+    reward:
+      - amount: 10
+        type: " Rep Points (Local)"
+        description: "For killing Swamp Rats en route"
+      - amount: 100
+         type: "Rep Points (Local)"
+        description: "For finding Hendrik's information"
+
+  -  id: enroute_crokers_roost_prep
+    title: "Enroute to Croker's Ro ost"
+    area: "Roads south of Hushwater Hamlet"
+    quest_line: "Whispers in the  Miasma"
+    requirements:
+      - Combat Readiness
+    description: |
+      Two leads available: Croker' s Roost (south-east) or Malcose Mire (far south). Heading towards Croker's Roost first.  Detours available.
+
+  - id: swamp_rat_camp_level7
+    title: "Swamp Rat  Camp (Level 7)"
+    area: "Four-way split south of Hushwater Hamlet"
+    quest _line: "Whispers in the Miasma"
+    suggested_level: 7
+    description : |
+      At the four-way intersection south of Hushwater, clear out a Swamp Rat Camp in a ruined gas  station. Loot the main chest near pumps and minor loot inside.
+    potential_threats:
+      - "Swamp  Rats (Level 7)"
+    loot:
+      - "Main chest loot"
+      - "Minor building  loot"
+
+  - id: defender_of_the_faith
+    title: "Defender of the Faith" 
+    area: "West of road split south of four-way intersection"
+    quest_line: "Whis pers in the Miasma"
+    suggested_level: 10
+    requirements:
+      -  "Minor Repair Skill / Strength"
+    description: |
+      Find an old woman by a vandalized roadside shrine (B urt Reynolds motif). Agree to help repair it (Strength check or prybar). She praises you and asks you to fix other  vandalized shrines further south past Malcose Mire.
+    reward:
+      - amount: 10
+        type : "Rep Points (Local)"
+        description: "For repairing the shrine"
+    objectives_added:
+       - "Repair other vandalized shrines (Optional, locations TBD)"
+
+  - id: blackwillow_bend 
+    title: Blackwillow Bend
+    area: Blackwillow Bend
+    quest_line: "Whispers  in the Miasma"
+    requirements:
+      - Interaction Skills
+      - "Optional: Bayou Blitz Deck "
+    description: |
+      Reach Blackwillow Bend. Rest until daytime if needed. Play Gwent/ Bayou Blitz with Traveling Merchant (east) and Mechanic/Blacksmith (south-west) for random card rewards.
+     optional_activities:
+      - description: "Play Bayou Blitz vs Traveling Merchant"
+        reward: "Random Gwent Card" 
+      - description: "Play Bayou Blitz vs Mechanic/Blacksmith"
+        reward: "Random Gwent Card "
+      - description: "Check Mechanic's wares"
+        items:
+          - Various Schematics
+          -  "'Scavenger's Datapad: Feline Gear - Vol 2'"
+      - description: "Check Merchant 's wares"
+        items:
+          - "'Scavenger's Datapad: Feline Gear -  Vol 1'"
+    quests_started:
+      - name: "Scavenger Hunt: Feline Retro -Suit Upgrade Schematics - Part 2"
+        trigger: "Reading 'Scavenger's Datapad : Feline Gear - Vol 2'"
+      - name: "Scavenger Hunt: Feline Retro- Suit"
+        trigger: "Reading 'Scavenger's Datapad: Feline Gear - Vol 1 '"
+      - name: "Scavenger Hunt: Feline Retro-Suit Upgrade Schematics - Part 1 "
+        trigger: "Reading 'Scavenger's Datapad: Feline Gear - Vol 1'" 
+    action: "Initiate 'Swamp Heart' Quest"
+      trigger: "Talk to Niellen in NW  house about missing wife Hanna"
+      notes: "Hanna's sister Margrit interjects suspiciously. Margrit suggests asking  Mechanic and Glenna."
+
+  - id: swamp_heart_quest
+    title: "Swamp Heart"
+    area : "Blackwillow Bend & nearby Swamp"
+    quest_line: "Side Quest"
+    suggested_level : 7
+    requirements:
+      - Investigation
+      - Combat
+    description: |
+      Ask Mechanic about Hanna ( saw her go into woods with another woman, warns of Feral Hounds). Ask Glenna (also blames hounds). Follow trail NW  out of town, then N, then W into search area. Use Swamp Sense. Encounter Feral Hound Pack (Level 6). 
+
+      After fight, Margrit appears, urges you to lie to Niellen that Hanna died to hounds, offers bribe .
+      Choice 1: Accept Offer. Gain Rep/Creds. Lie to Niellen (accept/de cline his reward). Quest ends.
+      Choice 2: Refuse Offer. Margrit angered. Continue search.
+      Choice  3: Accept Offer, Keep Looking. Gain bribe money, continue search.
+
+      Search near hound site with Swamp Sense. Find  dead gator-dog with large claw wounds. Find blood spatters. Find Hanna's corpse nearby (killed by Erpenth rope). Quest updates: Find the creature.
+
+      Follow large clawed tracks NE. Find claw marks high on tree. Find  distinctive reptilian fur/hide at base. Follow bio-luminescent trail (Swamp Sense) NW. Find discarded men 's clothes. Track footprints NW to "Recluse's Stilt Shack" Wayfinder Post.
+    potential_ threats:
+      - "Feral Hound Pack (Level 6)"
+    choices:
+      - option: " Accept Margrit's Offer & Lie"
+        reward:
+          - { amount: 72, type: Rep  Points } # Assuming Local Rep
+          - { amount: 55, type: Creds }
+        consequence:  "Quest ends unsatisfactorily. Further reward from Niellen possible."
+      - option: "Refuse Margrit's Offer "
+        consequence: "Continue investigation."
+      - option: "Accept Margrit's Offer & Keep Looking"
+         reward:
+          - { amount: 55, type: Creds }
+        consequence: " Continue investigation."
+    clues:
+      - "Gator-dog with claw wounds"
+      - " Hanna's corpse with Erpenthrope wounds"
+      - "Large clawed tracks"
+      - "Rept ilian fur/hide sample"
+      - "Bio-luminescent scent trail"
+      - "Discarded men's clothes "
+
+  - id: recluses_stilt_shack
+    title: "Recluse's Stilt Shack "
+    area: "Recluse's Stilt Shack & Cave Below"
+    quest_line: " Swamp Heart"
+    suggested_level: 7
+    description: |
+      Explore shack interior ( minor loot, one locked chest). Find "Cryptic Log Entries" (data slate) detailing Erpenthrope's struggle  with "the Change" and folk remedies. Search outside, find blood trail leading to hidden hatch on west side.
+
+       Rest until midnight. Prepare gear. Force open hatch (Brute Force/Tool). Descend into cave. Reach  large cavern. Attacked by Erpenthrope (Level 7-8, possibly with summoned Swamp Critters). Fight  it.
+
+      When Erpenthrope is wounded, Margrit appears, pleads for you to stop. Reveals Er penthrope is Niellen. Admits luring Hanna into swamp hoping Niellen would lose control. Enraged Niellen overhe ars. Margrit claims partial innocence. Niellen disbelieves.
+
+      Timed Decision:
+      1. Tell Margrit to  Run: Finish off Niellen.
+      2. Let Niellen Kill Margrit: Stand aside. Afterwards, Niellen likely  begs for death.
+
+      Loot based on choice (Niellen's body yields Erpenthrope Tissue Samples ). Get Niellen's Key either way. Loot cave (2 chests). Use key on locked chest in shack upstairs  (Creds, Schematic: Bayou Stalker Jacket).
+    potential_threats:
+      - "Erpenthrope  (Level 7-8)"
+      - "Summoned Swamp Critters (Minor)"
+    loot:
+      -  "Minor shack loot"
+      - "'Cryptic Log Entries' (data slate)"
+      - "2 chests in cave "
+      - "Niellen's Key (from Niellen or Margrit)"
+      - "Erpenthrope Tissue  Samples (if Niellen killed by player)"
+      - "Locked Chest Loot (upstairs): Creds, ' Schematic: Bayou Stalker Jacket'"
+    choices:
+      - option: "Tell Margrit to Run"
+        con sequence: "Fight/kill Niellen. Margrit survives."
+      - option: "Let Niellen Kill Marg rit"
+        consequence: "Margrit dies. Niellen likely asks for death."
+    reward:
+      - amount : 45 # Placeholder based on Witcher 3 XP, adjust as needed
+        type: "Rep Points (Local)"
+         description: "For killing the Werewolf/Erpenthrope"
+
+  - id: abandoned_filter_ tower
+    title: "Abandoned Filter Tower (Optional Loot)"
+    area: "East of Recluse's St ilt Shack"
+    quest_line: "Optional Exploration"
+    description: |
+      Head east from Re cluse's Stilt Shack to find a track, follow it east to Abandoned Filter Tower Wayfinder Post. Tower  seems inaccessible. Climb rough stonework/concrete on the corner pointing towards track. Mantle onto lower platform from highest point. Loot  two chests. Carefully climb down.
+    loot:
+      - "2 chests on tower platform"
+
+  -  id: monster_nest_biohazard
+    title: "Monster Nest (Bio-Hazard)"
+    area:  "South of Blackwillow Bend"
+    quest_line: "Optional Exploration"
+    suggested_level: 9 
+    description: |
+      Fast travel back to Blackwillow Bend. Leave via SE road. Take southern track to find  Ghoul Nest (pulsating bio-pods). Clear Mire Ghouls. Destroy nest (explosives/heavy ordnance ). Note nearby burnt/unburnt bodies.
+    potential_threats:
+      - "Mire Ghouls (Level  9)"
+    objectives:
+      - Destroy the Ghoul Nest.
+    reward:
+      - amount : 20
+        type: "Rep Points (Local)"
+        description: "For destroying the Monster Nest "
+    notes:
+      - "Presence of bodies suggests sinister origin for nest attraction."
+
+  - id: approach _crokers_roost
+    title: "Approach Croker's Roost"
+    area: "Approaching Cro ker's Roost"
+    quest_line: "Boss Croker's Grip"
+    description:  |
+      Return north to main SE road from Blackwillow Bend. Continue towards Croker's Roost. Quest  "Boss Croker's Grip" updates upon approach. Objective: Find a way inside and search for Boss Croker.
+ 

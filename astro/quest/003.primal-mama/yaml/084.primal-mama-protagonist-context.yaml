@@ -1,0 +1,311 @@
+
+world: Primal Mama
+protagonist_context: 'Assumed to be an Erp enthrope "Truth Seeker" or a uniquely skilled Bayou Operative.'
+quests:
+  - title: Gator back Isle Bound
+    description: |
+      Well, that was an… illuminating round of Gator Knuckles at the  Lickskillet dive, but duty calls.
+      Pilot your airboat back to the Gator Boneyard ( where they dump the failed GE experiments),
+      fend off any opportunistic Swamp Scrabblers (mutated scavengers , imagine level eighteen toughness)
+      that have crawled out of the muck, and commandeer a working skiff.  Your destination is
+      Gatorback Isle, a large, treacherous island east and slightly south of your current position, 
+      rumored to be a hotbed of strange occurrences.
+    objectives:
+      - description: ' Pilot airboat to the Gator Boneyard.'
+      - description: 'Fend off Swamp Scrabblers ( level eighteen toughness).'
+      - description: 'Commandeer a working skiff.'
+      - goal: 'Reach  Gatorback Isle.'
+
+  - title: 'Lost to the Mire - Part 2'
+    threat_level : 'High - akin to level 25'
+    description: |
+      Navigate your skiff around to  the southern stretch of Gatorback Isle. You're looking for a
+      beached, derelict barge along a  small, mangrove-choked islet (it’s the easternmost of
+      three such islets off Gatorback's south -western coast). Neutralize the territorial
+      Armored Snapper (a heavily augmented, aggressive GE gator variant , around level nineteen
+      challenge) patrolling the wreck. Search the barge; inside a rusted footlocker, you'll find 
+      a waterlogged datapad encased in cracked faux-wood paneling. Accessing it reveals the
+      "Sc rawled Notes of a Bayou Scavenger." Reading it provides a crucial lead in the ongoing
+      investigation " Lost to the Mire." East of the barge, along the northern shore of the islet,
+      you’ll discover old  campsites with discarded medical supplies (stim-packs, bio-foam
+      canisters – all with that chunky 7 0s design) and signs of a struggle.
+    objectives:
+      - description: 'Navigate to the  southern end of Gatorback Isle, to the easternmost of three islets.'
+      - description: 'Neutralize the  Armored Snapper (level nineteen challenge).'
+      - description: 'Search the derelict barge for a datapad with  "Scrawled Notes of a Bayou Scavenger".'
+      - description: 'Investigate the area east of the barge  for signs of a struggle and medical supplies.'
+    leads_to_quest_update: 'Lost to the Mire' 
+
+  - title: 'Whispers from the Calamity''s Edge'
+    threat_level: ' Moderate - akin to level 15'
+    description: |
+      Steer your skiff or wade through the shall ows to the north-east. On the shore of a murky
+      inlet, you'll find Mama Ag we, a reclusive but powerful Swamp Witch, her presence marked by
+      strange totems and the scent of exotic  incense. After she expresses her displeasure at your
+      intrusion (likely involving some cryptic pronouncements about the spirits being restless),
+       you'll follow her to the struggling settlement of Mudflat Haven.
+
+      Head north into the village proper.  You’ll interrupt a tense gathering; the locals are
+      trying to appease something with a makeshift offering. When you  inquire about the "Bayou
+      Reavers" – a feared band of marauders or mutated enforcers possibly linked to  the meat
+      oligarchies – they’ll claim these Reavers, or something like them, recently attacked. 
+      After some careful questioning (and perhaps a show of your unique Erpenthrope insight or
+      a display  of a solar-charged sidearm), you get a description matching Elara, the young
+      woman you’re  searching for. Mama Agwe and you will be disappointed to learn that a
+      jittery local named "Croaker ," who might know more, apparently fled into the forbidden
+      Mama Cecile's Grove on a half-mad quest to confront  a monstrous entity known only as the
+      Bayou Behemoth.
+
+      Ask about this Behemoth to  learn it’s a legend of unnatural resilience and ferocity. Gain
+      grudging permission (or use Mama Agwe ’s influence) to enter the sacred, overgrown grove.
+      Follow Mama Agwe out a creaking, rusted  gate to the north, then east along a barely visible
+      path, then north again alongside a stagnant canal to reach  the heart of Mama Cecile's Grove.
+      This completes "Whispers from the Calamity's  Edge."
+    objectives:
+      - description: 'Find Mama Agwe on the shore of a murky inlet to  the north-east.'
+      - description: 'Follow Mama Agwe to Mudflat Haven.'
+      - description : 'In Mudflat Haven, interrupt the local gathering and inquire about "Bayou Reavers" and Elara.'
+      -  description: 'Learn about "Croaker" and the "Bayou Behemoth" from the villagers.'
+      -  description: 'Gain permission to enter Mama Cecile''s Grove.'
+      - description: 'Follow Mama Agwe  to Mama Cecile''s Grove.'
+
+  - title: 'Nameless Terrors'
+    threat_level:  'Moderate - akin to level 14'
+    description: |
+      Mama Agwe and you will glimpse  the hulking silhouette of the Bayou Behemoth through a gap
+      in the colossal, moss-covered cypress trees.  Follow Mama Agwe up a rickety series of
+      wooden stairs and along a walkway made of lashed-together metal grates  to eventually reach
+      the Great Weeping Cypress, the Grove's central spiritual nexus. After some terse,
+       pragmatic exchange where Mama Agwe makes it clear this is *your* problem to solve while
+      she  observes (and perhaps wards the area), you're on your own.
+
+      Activate your Erpenthrope S enses (or heightened perception). Examine a patch of disturbed
+      earth and traces of what looks like Croaker’s  hastily discarded supplies, then a dug-out
+      hole. You can follow a faint trail to the south-east, deeper  into the unnervingly silent
+      grove… or, for a more direct approach, head north under some vine-choked,  rusted metal
+      arches and drop down a short ledge to reach some crumbling concrete steps. Dispatch a
+      pack of F eral Gator Hounds (escaped, less-refined GE gators, about level fifteen
+      challenge), then investigate a heavy , barred gate. Your senses tell you Croaker must have
+      fled through it, sealing it behind him.
+
+       Return south-east and scale a muddy embankment to get back near the Great Weeping Cypress.
+      Continue south- east and drop down another ledge – this one north of the walkway you and
+      Mama Agwe used. Once down, head through  an archway in a ruined pre-calamity structure to
+      the north-east. Take out another F eral Gator Hound (level fourteen) and continue
+      north-east. Drop down a ledge, cross a makeshift bridge over a  deep drainage channel,
+      then scale a graffiti-covered concrete wall to the north. Here you'll find a  control panel
+      with two large, chunky levers (classic 1970s industrial design) for the old  floodgate
+      system. Activate the right (northern) lever first, then the left (southern) lever. The
+      gro an of ancient machinery echoes as a sluice gate grinds open.
+
+      Head back down to the bridge, drop into  the now-flowing canal, and swim/wade north-west.
+      Climb a slippery ledge then ascend a rusted ladder  bolted into the stone. Continue
+      north-west until you find some steps leading down to the south-west. This is the  other
+      side of the barred gate.
+
+      Activate your Erpenthrope Senses. Study a trail leading to an old , deep well, its surface
+      covered in algae. You begin to understand Croaker’s desperate plan. Before  descending,
+      you sense a disturbance. Head north-east to find a dilapidated outbuilding, its door
+      ripped  from its hinges. Investigate the door, then enter. Inside, amidst overturned bunks
+      and scattered personal effects , you find signs of a violent struggle and, disturbingly,
+      a severed, cybernetically augmented limb still  shackled to the floor.
+
+      The Bayou Behemoth will emerge, its form a grotesque fusion of flesh and  malfunctioning
+      1970s-era tech, roaring its anguish. If you can withstand its terrifying presence (perhaps
+       through Erpenthrope resilience or sheer nerve), you might perceive fragmented, agonizing
+      memories or images emanating  from it. Once its psychic outburst subsides, it attacks. As
+      the legends suggested, it's incredibly  resilient, shrugging off conventional damage. Beat
+      it into a temporary stupor. Recalling Croaker’s desperation,  you leap into the well.
+
+      Scale a ledge to the south-east to exit the water into a flooded cistern. Follow  traces of
+      Croaker’s passage south, then east, to find his body, broken and still. Before you examine
+       him, spot a glint of metal on another nearby corpse – the "Key to Mama Cecile's Grove
+       Utility Access" (a chunky, uniquely shaped keycard). This opens a nearby maintenance door.
+
+      Once you  have the key, search Croaker. You find what Elara left with him. You contact Mama
+      Agwe ( perhaps via a crackling, short-range radio). Back at the Great Weeping Cypress, Mama
+      Agwe  will perform a potent, risky ritual (perhaps involving spectral interaction or a
+      dangerous melding of her consciousness with the Grove's energies ) to extract the
+      information Elara left behind.
+    objectives:
+      - description: 'Follow  Mama Agwe to the Great Weeping Cypress.'
+      - description: 'Activate Erpenthrope Senses to investigate  Croaker''s trail.'
+      - description: 'Dispatch Feral Gator Hounds (level fifteen challenge) and  investigate the barred gate.'
+      - description: 'Navigate the grove to find the sluice control levers.'
+      - description : 'Solve the sluice gate puzzle: activate right (northern) lever, then left (southern) lever.'
+       - description: 'Proceed through the opened sluice gate area to the other side of the barred gate.'
+       - description: 'Investigate the trail to the well.'
+      - description: 'Investigate the dilapidated outbuilding  and the severed limb.'
+      - description: 'Confront and subdue the Bayou Behemoth.'
+      - description: ' Leap into the well.'
+      - description: 'Find Croaker''s body in the cistern.'
+      -  description: 'Acquire the "Key to Mama Cecile''s Grove Utility Access".'
+      - description:  'Search Croaker''s body for what Elara left.'
+      - description: 'Return to Mama Agwe at the  Great Weeping Cypress for the ritual.'
+
+  - title: 'The Stillness After the Storm'
+    narrative_focus : Elara
+    description: |
+      You are now Elara. Engage in hushed conversation with Remy, a young,  resourceful swamp
+      guide who helped you escape. You're interrupted by Sister Willow, an acolyte from a local 
+      hidden community, who insists you need a ritual cleansing at their purification springs to
+      recover from your ordeal.
+
+       Follow Sister Willow out of the hidden shelter to the steamy, geothermally heated springs.
+      You’ll have to enter  a changing hut. Undress, then either wrap yourself in a rough-spun
+      towel or proceed to the springs as you  are. Follow Sister Willow into the main spring area
+      where she and an elder woman from her community speak with you. If you  didn’t bring a
+      towel, they might comment on a strange birthmark or an unusual scar you possess – it’ s
+      mostly a moment for them to assess you.
+
+      Agree to immerse yourself in the mineral-rich water . As you soak, you feel some of your
+      vitality return (health replenishes). This is unusual;  you normally recover slowly from
+      exertion. Go through an opening in the rocks to the south-east and  immerse yourself in a
+      deeper, hotter pool to further restore your strength. When your energy feels mostly
+       restored, climb out and walk across a wooden platform to find a carved wooden bowl of
+      "Grove Nectar " (a potent, energizing herbal brew) near a totem. Drink some, and your
+      energy fully returns. Return to  the springs, enter the changing hut, put your clothes back
+      on, and leave.
+
+      Once outside,  head south-west to find a makeshift pen where Remy has readied a
+      surprisingly agile swamp-runner (a small, GE  pack animal). As Elara, you can engage in
+      some grateful, perhaps even cautiously flirtatious, dialogue with  Remy. Whatever you
+      choose, it's cut short by the arrival of your pursuers: Reaver Trackers ( fast-moving
+      scouts, level twelve threat) and heavily armed Reaver Brutes (level fourteen threat)  emerge
+      from the treeline, their crude optics glowing.
+
+      Fight them off alongside Remy until he shouts for you to  flee. You both mount swamp-runners
+      and race along a dangerous, overgrown trail, dodging energy blasts from the  Reavers’
+      retro-fitted weaponry. Reach the edge of a vast, fog-shrouded lake.  You see what drove
+      you to this desperate flight, and what Remy witnessed as you vanished into the mists… 
+    objectives_as_elara:
+      - description: 'Converse with Remy.'
+      -  description: 'Follow Sister Willow to the purification springs.'
+      - description: 'Enter the changing hut and decide on  attire.'
+      - description: 'Follow Sister Willow to the main spring and interact with her and the elder.'
+      - description : 'Immerse in the mineral-rich water to replenish health.'
+      - description: 'Immerse in  the deeper pool to further restore strength.'
+      - description: 'Drink "Grove Nectar" to fully restore energy .'
+      - description: 'Return to the changing room, get dressed, and leave the springs.'
+      - description: ' Meet Remy at the swamp-runner pen.'
+      - description: 'Fight off Reaver Trackers (level twelve threat ) and Reaver Brutes (level fourteen threat).'
+      - description: 'Flee with Remy on swamp-runners along  the trail, dodging attacks.'
+      - description: 'Reach the edge of the fog-shrouded lake.'
+
+  -  title: 'Post-Ritual Debrief & Aftermath' # Combined for flow
+    description: |
+       (Back as the Protagonist)
+      After Mama Agwe ends her exhausting ritual, she and you will discuss the fragmented visions 
+      and information gleaned about Elara and her pursuers. Before you can leave the Grove,
+      however, several stern- faced Grove Wardens (or concerned Mudflat Haven elders) appear,
+      understandably furious about the desecration and  the rampaging Behemoth. Mama Agwe, in a
+      rare display of something other than self-interest , uses her considerable influence (or
+      perhaps a veiled threat involving Vampire Bunnies) to take responsibility, allowing you 
+      to depart.
+
+      Outside the Grove, you and Mama Agwe will analyze what you’ve learned and formulate your 
+      next steps. This ends "Nameless Terrors," and begins new lines of inquiry: "Echoes in the
+       Miasma," "The Bayou Courier," and "Aberrant Origins."
+    objective_reward:
+       description: 'For discovering Elara’s knowledge via Croaker & Mama Agwe’s ritual'
+      reward : 'Significant XP & Insight'
+    ends_quest: 'Nameless Terrors'
+    begins_quests: 
+      - 'Echoes in the Miasma'
+      - 'The Bayou Courier'
+      - ' Aberrant Origins'
+
+  - title: 'Hoarded Tech Cache'
+    type: 'Treasure Hunt' 
+    threat_level: 'Moderate - akin to level 16'
+    location_hint: 'South -west of Mama Cecile''s Grove, between overgrown access roads.'
+    description: |
+      Mama Agwe needs to  meet you in Lickskillet Proper next, which provides a good opportunity
+      to explore more of Gatorback Isle. From  Mama Cecile's Grove, head south-west. Between
+      the overgrown access roads leading to the Grove,  you'll detect a hidden cache (Guarded
+      Treasure event). Dispatch a Restless Spirit (a spectral echo, perhaps  of a former
+      technician, level sixteen challenge) guarding it and loot a reinforced container to
+      complete this event . It likely contains some valuable pre-calamity components or a
+      working, if battered, piece of 19 70s-style tech.
+
+      Once done, head north-east to find a small, somewhat fortified encamp ment south-east of
+      Mama Cecile's Grove. Here you'll find Old Man Tiber, who  doesn’t add much to what you
+      know about the Bayou Behemoth. More importantly, you find Leon ie here, the sister of a
+      Lickskillet gator-skinner you were asked to find in  the quest "Lost to the Mire." Listen
+      to her story of being abducted by scavengers and her eventual escape to  complete the quest.
+      You can also trade with a Grove Herbalist for rare swamp ingredients or rudimentary
+      med-kits .
+    objectives:
+      - description: 'Locate the hidden cache south-west of Mama Cecile ''s Grove.'
+      - description: 'Dispatch the Restless Spirit (level sixteen challenge).'
+      - description: 'L oot the reinforced container.'
+      - description: 'Travel to the encampment south-east of Mama Cecile''s  Grove.'
+      - description: '(Optional) Speak with Old Man Tiber.'
+      - description: 'Speak with  Leonie to learn her fate (updates "Lost to the Mire").'
+      - description: '(Optional) Trade  with the Grove Herbalist.'
+    objective_reward_leonie:
+      description: 'For learning the fate of Leon ie'
+      reward: '75 XP & Local Favor'
+
+  - title: 'Abandoned Pump Station' 
+    type: 'Liberation Event'
+    threat_level: 'Moderate - akin to level 15 '
+    location_hint: 'South-east from Mudflat Haven, past "Delta Pumping Station No. 7"  signpost.'
+    description: |
+      Leave the encampment and head towards Mudflat Haven. If you get there  quickly, you might
+      find salvageable parts from the Reaver tech you and Remy disabled as Elara. Bonus . Leave
+      Mudflat Haven via a southern path and follow it south-east, passing a faded "Delta
+       Pumping Station No. 7" signpost. Follow the crumbling access road, cross a rusted
+      bridge, and  continue until you find an Abandoned Pump Station complex and an "Isolated
+      Maintenance Hut" landmark. Clear out the prowling  Feral Gator Hounds (level fifteen) that
+      have nested there. Once clear, a small group of resourceful Swamp Settlers  will
+      cautiously move in, including a Trader offering scavenged goods.
+    objectives:
+      - description : 'Locate the Abandoned Pump Station complex.'
+      - description: 'Clear the area of Feral Gator Hounds ( level fifteen).'
+      - description: 'Witness Swamp Settlers moving in and establishing a Trader.'
+    objective_reward:
+       description: 'For liberating the Abandoned Pump Station'
+      reward: '170 XP, 5 0 Circuit Scrip (local currency)'
+
+  - title: 'Abandoned Watchpost'
+    type: 'Liber ation Event'
+    threat_level: 'Low-Moderate - akin to level 13'
+    location _hint: 'South-east from previous location, take northern fork to "Delta Region Watchpost" / "Lurthen  Bluff".'
+    description: |
+      Continue south-east along the main path until it forks. Take the northern fork to  find
+      another Abandoned Site, this one an old "Delta Region Watchpost," near a faded sign for
+       "Lurthen Bluff." Eliminate the flock of aggressive Giant Mosquito Hawks (level thirteen
+      bio-engineered pests) roost ing there. Once the skies are clear, relieved Local Trappers
+      will return to their outpost.
+    objectives: 
+      - description: 'Locate the Abandoned Watchpost.'
+      - description: 'Eliminate the Giant  Mosquito Hawks (level thirteen).'
+      - description: 'Witness Local Trappers returning.'
+    objective_reward: 
+      description: 'For liberating the Abandoned Watchpost'
+      reward: '170 XP,  50 Circuit Scrip'
+
+  - title: 'Arrival in Lickskillet Proper'
+    type: 'Hub  Arrival / Quest Hub Activation'
+    description: |
+      Leave the now-secured Watchpost via a trail leading east , then take the first path north
+      you find, following it until you reach the larger, more established settlement of
+      L ickskillet Proper. Here you'll find a Trader, a rowdy Saloon Keeper, and a
+      Gunsmith/ Scrap-smith – all of whom might be persuaded to play a few rounds of Gator
+      Knuckles if you're looking  for unique local trinkets or info. Check the community notice
+      board (a sheet of flak-metal with  notes pinned by magnets) outside the Saloon and pick up
+      the bounties: "Bounty: Terror of  the Trade Route" and "Race for the Sun-Stone Trophy" to
+      start the quests "Bounty: Bayou Butcher"  and "The Great Airboat Rally: For Mama's Favor!"
+      respectively.
+    location: 'Lickskillet  Proper'
+    interactions_available:
+      - 'Trader'
+      - 'Saloon Keeper (Gator Knuckles )'
+      - 'Gunsmith/Scrap-smith (Gator Knuckles)'
+      - 'Community Notice  Board'
+    starts_quests_from_notice_board:
+      - new_quest_title: 'Bounty : Bayou Butcher'
+        source_item: 'Bounty: Terror of the Trade Route'
+      - new_ quest_title: 'The Great Airboat Rally: For Mama''s Favor!'
+        source_item: ' Race for the Sun-Stone Trophy'

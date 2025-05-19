@@ -1,0 +1,162 @@
+
+Entity _ID: CHAR_BrotherAmos_01
+Character_Name: 'Brother Amos (self-styled),  sometimes called ''Song-Seeker'' or ''Parsons'' Pilgrim'''
+Entity_Type: Person (Human) 
+Archetype: Wandering Mystic / Devout Hermit / Relic Hunter
+Primary_Authentication_Sources: ' This Codex Entry, Primal Mama Coherence Protocol v0.1'
+Canon_Tier: 'Tier 2 ( Significant supporting character or potential recurring figure)'
+Authentication_Status: Authenticated_Canonical_Active
+
+Authenticated_Property_Bundle :
+  Physical_Properties:
+    Purpose: "Define the character's tangible presence."
+    Appearance_ General:
+      value: 'Human male, lean and weathered, appears late 40s/early 5 0s but age is hard to pinpoint. Long, sun-bleached brown hair, often tied back with a strip  of alligator hide. Deep-set eyes.'
+      auth: This Codex
+    Appearance_Specific_Features:
+       value: 'Kind, almost sorrowful blue eyes that light up when discussing Gram Parsons. A network of fine lines  around eyes and mouth from sun and contemplation. Often has a faint, serene smile.'
+      auth: This Codex
+    Appearance _Distinctive_Marks:
+      value: 'A faded, amateurish tattoo of a Nudie-suit style  poppy on his forearm. Calloused fingertips from playing a stringed instrument.'
+      auth: This Codex
+    Typical_Att ire:
+      value: 'Worn denim jacket (1970s cut) adorned with hand-stit ched patches (stylized suns, musical notes, weeping willows). Faded corduroy trousers. Boots made from  GE alligator hide, surprisingly well-maintained. Carries a battered acoustic guitar case, its surface covered in peeling stickers of  sunbursts and celestial imagery, all in a 1970s design language.'
+      auth: ' This Codex / Primal Mama Coherence: 1970s Aesthetic Constraint'
+    Voice_Speech_ Pattern:
+      value: 'Soft-spoken, gentle Southern drawl. Speech is often interspersed with lines from Gram  Parsons songs or philosophical musings. Sings with a clear, melancholic tenor. Tends to speak in parables  or poetic phrases.'
+      auth: This Codex
+    Gait_Mannerisms:
+      value: ' Slow, deliberate movements. Often pauses to gaze at the sky or listen to the sounds of the swamp. A habit of  humming quietly to himself. When speaking of his quest, his hands become more animated.'
+      auth: This Codex
+     Associated_Scent:
+      value: 'Faint smell of swamp water, woodsmoke, old denim, and perhaps a  hint of jasmine or some other swamp flower he uses as incense.'
+      auth: This Codex
+    Physical_Und ersaturation: 'Exact height/weight, specific details of his guitar beyond "acoustic," specific non-patched clothing.' 
+
+  Functional_Properties:
+    Purpose: 'Define what the character *can* and *cannot* do.'
+    Skill _Knowledge_Gram_Parsons:
+      value: 'Extensive knowledge of Gram Parsons'' life, music,  and (apocryphal) teachings (Core Skill)'
+      auth: Demonstrated through dialogue/actions
+    Skill _Guitar_Singer:
+      value: 'Proficient Acoustic Guitar Player & Singer (specializing in Parsons'' " hymns")'
+      auth: Demonstrated Actions
+    Skill_Swamp_Survival:
+      value:  'Basic Swamp Survival (foraging, navigating shallow waters by pirogue, identifying safe/dangerous flora/fauna )'
+      auth: Implied by lifestyle
+    Skill_Rudimentary_Ritual_Magic:
+      value : 'Rudimentary Ritual Magic (Ghost Perception/Appeasement - sufficient to occasionally perceive echoes or seek guidance from the recently  departed, especially if they were "believers")'
+      auth: 'Primal Mama Coherence: Spectral Interaction; Dialogue/ Actions'
+    Ability_Unique_Resonances:
+      value: 'Possesses an uncanny ability to find "reson ances" or "echoes" of Gram Parsons in the world – places where strong emotions or events related to his " spirit" might have occurred. This is more intuitive and faith-based than a supernatural power.'
+      auth: Narrative  descriptions
+    Limitation_Physical:
+      value: 'Not a fighter; relies on diplomacy, faith, or  flight. Average strength for his age and build.'
+      auth: Implied by archetype
+    Limitation_Knowledge :
+      value: 'Largely ignorant of high technology (beyond basic solar chargers for a small radio/cassette player), Beet riot politics, or the intricacies of the meat oligarchy. His knowledge is focused on the spiritual and historical (as it  pertains to his quest).'
+      auth: Dialogue revealing ignorance
+    Limitation_Social:
+      value: 'Little to no  formal influence. His "authority" is purely charismatic or spiritual, recognized only by a few.'
+      auth: Social Status Property 
+    Functional_Undersaturation: 'Ability to repair 1970s tech; proficiency with firearms ( though likely avoids them); knowledge of Erpenthrope lore beyond general awareness.'
+
+  Psychological_Properties:
+    Purpose:  "Define the character's textually constituted inner life."
+    Core_Trait_Sincere_Faith:
+       value: 'Deeply Sincere Faith (in Gram Parsons as a conduit to the divine)'
+      auth:  'Internal Monologue, Dialogue Patterns, Actions'
+    Core_Trait_Gentle_Melancholy:
+       value: 'Gentle Melancholy / Wistfulness'
+      auth: 'Dominant Emotion, Song  Choices'
+    Core_Trait_Persistent_Hope:
+      value: 'Persistent Hope (that true connection/ understanding is possible)'
+      auth: "Despite world's harshness"
+    Dominant_Emotion:
+      value:  'Reverent Serenity, tinged with a yearning sadness'
+      auth: 'Narrator Descriptions, Tone  of Voice/Song'
+    Key_Motivator:
+      value: 'To "find God" by  truly understanding and embodying the spiritual message of Gram Parsons; to collect and preserve his "sacred works" (lost recordings , lyrics, inspired artifacts) and share their solace.'
+      auth: 'Explicit Statements, Plot Driver'
+     Key_Belief:
+      value: 'Believes the spirits of the Deified, particularly Gram, offer guidance , beauty, and a path to spiritual peace in a broken world. Believes their art contains coded truths.'
+      auth:  'Actions, Justifications given in dialogue'
+    Internal_Conflict:
+      value: 'The purity of his faith vs . the often cynical or brutal reality of Primal Mama; The desire for solitude and contemplation vs. the need to share the  "good word" of Gram; Occasional doubts about the nature of the Deified, quickly suppressed.'
+      auth : 'Internal Monologue, Difficult Choices Depicted'
+    Subjective_Memory_Content:
+      value:  'Richly detailed "memories" of Gram Parsons'' songs, interpreting them as direct spiritual experiences. Vague personal past before his  "calling."'
+      auth: Narrative Depiction
+    Psychological_Undersaturation: "Specifics of his  life before dedicating himself to Gram; views on Burt Reynolds or Jerry Reed beyond general acknowledgement; deeper subconscious fears (beyond framework  unless authenticated as, e.g., a 'divinely inspired premonition')."
+
+  Social_Relational _Categorical_Properties:
+    Purpose: "Define the character's place within the world's networks." 
+    Official_Role:
+      value: 'None. Self-appointed "Pilgrim of the Cosmic American Way."'
+       auth: Self-description
+    Social_Status:
+      value: 'Outsider. Respected by  some isolated swamp communities for his songs and gentle nature; viewed as an eccentric or harmless fool by others, especially more pragmatic or urban individuals .'
+      auth: 'World Structure Doc, Interactions'
+    Primary_Affiliation:
+      value: 'Loosely  to the "Church of the Deified Trio," but his focus on Parsons is specific and deeply personal, sometimes bordering on  his own interpretation.'
+      auth: Implied faith
+    Secondary_Affiliations:
+      value: 'T olerated by some Swamp Witches who see him as another strange but mostly harmless part of the bayou''s spiritual  ecosystem. May occasionally trade songs for information or safe passage.'
+      auth: 'Narrative events, Primal Mama  Coherence: Swamp Witches'
+    Key_Relationship_1_Spirit_Gram_Parsons:
+       value: 'To the "Spirit of Gram Parsons": An ongoing, one-sided dialogue and perceived guidance. This is the central relationship  of his life.'
+      auth: Dialogue/Actions
+    Key_Relationship_2_Communities:
+      value : 'To communities he visits: Offers music, solace, and stories of Gram; receives food, shelter, and sometimes  leads for "relics."'
+      auth: Narrative Events
+    Key_Relationship_3_Erpenthropes: 
+      value: 'To Erpenthropes (if encountered): Likely views them with cautious curiosity, as other  truth-seekers, but their path is not his. Might wonder if their ancient knowledge could shed light on the pre- Deified world or the nature of spirit.'
+      auth: 'Primal Mama Coherence: Erpenthrop es'
+    Species_Type:
+      value: 'Human (Baseline Post-Calamity Strain)'
+       auth: Default/Description
+    Social_Undersaturation: 'Specific named allies or enemies; family ties ( likely severed or lost); precise views on the Meat Oligarchy beyond general disapproval of worldly power.'
+
+  Modal_Properties:
+     Purpose: 'Define any inherent unique relationship to world laws.'
+    MODAL_AMOS_01:
+       Property: 'Heightened Spiritual Resonance (Epistemic/Axiological Exception)'
+      Description: 'Authenticated ability  to perceive and interpret subtle spiritual "echoes" or "signatures" related to Gram Parsons'' influence or presence in specific  locations or objects, beyond what ordinary believers experience. This allows him to "divine" locations of potential significance to his quest.'
+       Limits: 'Subjective and intuitive, not scientifically verifiable. Perception is often vague, requiring interpretation through prayer, song , and meditation. Does not grant foresight or direct communication, more like feeling "warm" or "cold" in a  spiritual sense.'
+      Authentication: 'Narrative descriptions of his "hunches" leading to discoveries; character dialogue explaining his "feel ings" about places/items; success in finding obscure "relics" or places of meaning.'
+    Note : 'This modal property is subtle, framing his deep faith and intuition as a minor, personalized exception to purely mundane perception within the  world''s spiritual framework.'
+
+  Axiological_Properties:
+    Purpose: "Define the character's  value status *within* Primal Mama."
+    Reputation_Rural_Swamp_Communities:
+      value: "Authenticated  as viewed as a 'holy man' by some, a 'wandering singer with a good heart' by others, 'a  bit touched but harmless'. His music is often genuinely appreciated."
+      auth: Community interactions
+    Reputation_Beet riot_Oligarchy_Circles:
+      value: "If known at all, likely dismissed as 'irrelevant  swamp folk', 'religious fanatic', or 'nostalgic nuisance'."
+      auth: Implied by cultural divide
+     Moral_Alignment_Narrative_Framing:
+      value: 'Authenticated via narrative focus/sympathy as  genuinely seeking spiritual good, peace, and beauty in a harsh world. His methods are non-violent and aimed at solace .'
+      auth: 'Narrator tone, plot outcomes favoring his gentle nature'
+    Axiological_Und ersaturation: 'Reputation among Erpenthropes or more organized "Church of the Trio" clergy.'
+
+  Historical _Properties:
+    Purpose: "Define the character's known origins and connections to past events."
+    Origin :
+      value: 'Authenticated as having a "moment of awakening" years after the Biological Calamity, where  a scratchy broadcast of a Gram Parsons song (perhaps "Return of the Grievous Angel" or "In My Hour of Darkness ") heard on a salvaged 1970s radio provided profound solace and a new purpose during a personal crisis. Details of  his life before this are intentionally vague and unauthenticated, even to him.'
+      auth: Character backstory revealed in dialogue/ monologue
+    Key_Past_Event_Connection_Subjective:
+      value: 'Believes the spirit  of Gram Parsons directly intervened or guided him during his "awakening." Considers the era of Parsons (late 1 960s-early 1970s) a lost golden age of spiritual truth, reflected in the  world''s enforced 1970s aesthetic, which he sees as a sign.'
+      auth: Character  beliefs
+    Inherited_Items:
+      value: "Authenticated to possess a tattered songbook with handwritten notes  and interpretations of Parsons' lyrics, which he treats as scripture. His guitar might be a \"found relic\" or a lovingly maintained instrument  from his pre-pilgrimage life."
+      auth: Narrative inventory
+    Historical_Undersaturation: ' Specifics of his pre-awakening life, family, original occupation. The exact nature of his personal crisis leading to  his faith.'
+
+Character_Constitution_Summary_Narrative_Function:
+  Purpose: 'Synthesize the core  identity, internal conflicts, and narrative role emerging from the authenticated property bundle.'
+  Core_Essence: 'Brother  Amos is constituted as a vessel of sincere, melancholic faith in a world of bizarre pragmatism and retro-futuristic odd ities. His identity is woven from Gram Parsons'' perceived spiritual legacy, seeking solace and "truth" not in empirical fact (like  Erpenthropes) or worldly power (like the Oligarchy), but in the "Cosmic American Music" that he believes  holds the key to spiritual survival in Primal Mama. His adherence to the 1970s aesthetic is not  merely stylistic but a reflection of his belief in the spiritual authenticity of that era, which he believes the world unconsciously mimics.'
+   Primary_Narrative_Function: 'To embody the "strangely spiritual miasma" of Primal Mama;  to offer a counterpoint to cynical or purely materialist perspectives; to serve as a source of lore about the Deified Trio (especially  Parsons); to potentially guide protagonists to unexpected truths or offer moments of beauty/solace; to highlight the diverse ways beings in Primal  Mama cope with and interpret their reality.'
+  Key_Internal_Conflicts: 'Maintaining pure faith amidst pervasive weirdness and corruption ; reconciling the beautiful ideals of Parsons'' music with the often harsh realities of survival; the loneliness of his unique path versus  the desire to share his perceived divine connection; the struggle to interpret the "signs" and "resonances" he perceives .'
+  Potential_for_Development: 'Deepening his understanding of "God" (Parsons'' spirit) through encounters  or "relic" discoveries; facing a crisis of faith or a challenge to his interpretations; forming an unlikely alliance with  other truth-seekers (e.g., an Erpenthrope, a disillusioned Automaton user); potentially becoming a more influential  spiritual figure or, conversely, retreating further into hermitage.'
+
+End_of_Fictional_Person_Profile:  CHAR_BrotherAmos_01

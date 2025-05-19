@@ -1,0 +1,162 @@
+Okay, I will take the Markdown document containing the Entity Functional Profiles for Remy, Mama Mambo , and the Security Fob (derived from the "Bayou Awakening" quest context) and recontextualize it into  a YAML document.
+
+This YAML document will represent the same information, structured according to the Entity Functional Profile Protocol, making  it data-centric and ready for loading. Values containing colons will be wrapped in quotes.
+
+```yaml
+world : Primal Mama
+codex_version: "0.2 - Functional Definitions (Bayou Awakening Subset)"
+last _updated: "[Current Date]" # Placeholder, replace with actual date
+lead_architects: "[Your Name/Studio  Name]" # Placeholder
+
+introduction: |
+  This document applies the Entity Functional Profile Protocol to entities featured or implied within the "Bay ou Awakening" quest segment. It defines their functional properties—capabilities and limitations—as demonstrated or strongly suggested by their roles and interactions in  that introductory scenario. Authentication is primarily drawn from the `PrimalMama_Quest_BayouAwakening.yaml` (representing  the quest's events) and the overarching `PrimalMama_CoherenceProtocol.md`.
+
+entities:
+   - entity_id: CHAR_Remy_01
+    entity_name: Remy
+    entity_type: " Person (Erpenthrope)"
+    primary_authentication_sources:
+      - "PrimalMama_Quest_Bay ouAwakening.yaml (Events QS001-QS008)"
+      - "Primal Mama_CoherenceProtocol.md (Erpenthrope Modalities)"
+    functional_properties_bundle:
+       core_function_purpose:
+        - type: primary_role
+          description: "Protagonist; Swamp -dwelling survivor; Reluctant guardian/mentor."
+          authentication: "YAML: QS001 (prot agonist), QS003 (chastised about P'tit Gator)"
+        - type: secondary_roles 
+          description: "User of Erpenthrope abilities; Interactor with local personalities (Mama Mambo, Old  Man Bayou)."
+          authentication: "YAML: QS004 (Erpenthrope Senses), QS0 02, QS007 (interactions)"
+      key_capabilities_powers:
+        - capability_id: FUNC -REM-01
+          name: Erpenthrope Senses
+          description: "Can perceive important objects as bio -luminescent, detect spectral traces, and hear faint ghostly whispers. Used to locate specific items like the security fob." 
+          authentication: "YAML: QS004_Tutorial_FindFob (tutorial_mechanic description)" 
+          limits_nuances: "Requires active use (L2 button press). Scope of spectral/ghostly perception not  fully detailed in this segment."
+        - capability_id: FUNC-REM-02
+          name: Operate  Reinforced Door Security
+          description: "Can utilize a security fob and keypad to lock/unlock reinforced doors."
+           authentication: "YAML: QS004_Tutorial_FindFob (objective_item_location, door_ opening_tutorial)"
+          limits_nuances: "Requires the specific security fob for the door in question."
+         - capability_id: FUNC-REM-03
+          name: Basic Swamp Traversal
+          description:  "Possesses a \"Remy-style\" swagger indicating proficiency in navigating uneven swamp terrain."
+          authentication: "YAML : QS006_SceneTransition_MainDeck"
+          limits_nuances: "Still relies on tools  like the Bayou Navigator for complex navigation."
+      acquired_skills_expertise:
+        - skill_id: SKL-REM -01
+          name: "Alligator-Tooth Carving (Implied)"
+          proficiency_level:  "Unspecified; tools are present."
+          authentication: "YAML: QS004_Tutorial_FindF ob (objective_item_location: \"table cluttered with alligator-tooth carving tools\")"
+        - skill_ id: SKL-REM-02
+          name: "Interpersonal Interaction (Gruff)"
+          proficiency _level: "Competent; engages in terse exchanges and banter."
+          authentication: "YAML: QS00 2, QS003, QS007 (interactions with Mama Mambo, P'tit Gator, Old  Man Bayou)"
+      inabilities_lack_of_function:
+        - inability_id: INAB-REM- 01
+          description: "Cannot fully prevent P'tit Gator from engaging in risky or distracting behavior, even with other supervision present ."
+          authentication: "YAML: QS006 (P'tit Gator terrorizing alligator despite Old Man Bayou's  supposed supervision)"
+          narrative_function: "Source of ongoing responsibility and potential conflict."
+      vulnerabilities _weaknesses:
+        - vulnerability_id: VULN-REM-01
+          description: " Susceptible to surprise \"nips\" or minor molestations from entities like Vampire Bunnies, especially when caught off-guard  (e.g., bathing)."
+          authentication: "YAML: QS002_Interaction_BunnyNip" 
+          narrative_function: "Humor; illustrates the unpredictable nature of the swamp and its denizens."
+       costs_dependencies_operational_constraints:
+        - constraint_id: COST-REM-01
+           applies_to: "FUNC-REM-01 (Erpenthrope Senses)"
+          description:  "Requires conscious activation and holding of a specific control (L2 button)."
+          authentication: "YAML: QS0 04_Tutorial_FindFob (tutorial_mechanic)"
+        - constraint_id: DEPEND-REM -01
+          applies_to: "FUNC-REM-02 (Operate Reinforced Door Security)" 
+          description: "Requires possession of the correct security fob."
+          authentication: "YAML: QS004 _Tutorial_FindFob"
+    functional_profile_summary:
+      core_functional_identity: " Remy functions as a seasoned swamp survivor possessing unique Erpenthropic sensory capabilities, enabling interaction with the world's subtle energies.  He is functionally capable of basic self-preservation and interaction with local technology (70s aesthetic security). His limitations  stem from responsibilities towards others and the inherent unpredictability of his environment."
+      key_narrative_functions_ served: "Drives initial tutorial objectives; Introduces core world mechanics (Erpenthrope Senses, tech aesthetic); Establ ishes relationships with key supporting characters."
+      relationship_to_alethic_modality: "His Erp enthrope Senses directly instantiate the world's authenticated rules regarding spectral interaction and heightened perception for certain individuals. His use  of solar-heated water and retro-tech aligns with Solar Dominance and Tech Aesthetic Constraint modalities."
+      key_functional_t ensions_tradeoffs: "Need for peace/solitude vs. responsibility for P'tit Gator; Advanced senses vs. mundane vulnerabilities  (bunny nips); Reliance on personal skill vs. dependence on specific tools (fob, Navigator)."
+
+  - entity_ id: CHAR_MamaMambo_01
+    entity_name: Mama Mambo
+    entity_type: "Person  (Swamp Witch)"
+    primary_authentication_sources:
+      - "PrimalMama_Quest_Bay ouAwakening.yaml (Event QS002, QS004)"
+      - "Primal Mama_CoherenceProtocol.md (Swamp Witch Lore, Vampire Bunny Propagation)"
+    functional_properties_bundle:
+       core_function_purpose:
+        - type: primary_role
+          description: "Advisor (mystical/practical ); Controller of minor supernatural entities; Instigator/Commentator."
+          authentication: "YAML: QS002  (chastises Remy, directs bunny), QS004 (mystical aphorisms)"
+        - type: secondary_ roles
+          description: "Fashion icon (ethically sourced bird skulls, 70s LEDs)."
+          authentication: " YAML: QS002 (description)"
+      key_capabilities_powers:
+        - capability_id:  FUNC-MAM-01
+          name: Vampire Bunny Control
+          description: "Can direct and utilize Vampire Bunn ies for specific actions (e.g., delivering a \"nip\")."
+          authentication: "YAML: QS00 2_Interaction_BunnyNip (bunny acts, she plucks it away)"
+          limits_nuances : "Scale of control and range not defined in this segment."
+        - capability_id: FUNC-MAM -02
+          name: Deliver Mystical Aphorisms & Chastisements
+          description: "Can provide cryptic or direct commentary  and advice, often with a critical edge."
+          authentication: "YAML: QS002 (chastises  Remy), QS004 (mystical aphorisms)"
+        - capability_id: FUNC-MAM -03
+          name: Appear from Shadows
+          description: "Can emerge unexpectedly from obscured areas."
+           authentication: "YAML: QS002 (\"emerges from the shadows\")"
+      acquired_skills_expertise: []  # None explicitly demonstrated in this segment
+      inabilities_lack_of_function: [] # None explicitly demonstrated in  this segment
+      vulnerabilities_weaknesses: [] # None explicitly demonstrated in this segment
+      costs_dependencies _operational_constraints: [] # None explicitly demonstrated beyond needing Vampire Bunnies for FUNC-MAM-01
+     functional_profile_summary:
+      core_functional_identity: "Mama Mambo functions as a source of supernatural  influence and esoteric knowledge, capable of manipulating minor creatures and delivering potent (if sometimes unwelcome) wisdom. Her presence is often  sudden and impactful."
+      key_narrative_functions_served: "Introduces supernatural elements (Vampire Bunnies,  witchery); Provides exposition/commentary; Acts as a minor catalyst for Remy's actions."
+      relationship_ to_alethic_modality: "Her control of Vampire Bunnies and her general demeanor authenticate the \"Swamp Witch Lore \" and \"Vampire Bunny Propagation\" rules. Her LED-adorned hat fits the \"Technological Aesthetic Constraint.\ ""
+      key_functional_tensions_tradeoffs: "Helpfulness vs. mischievousness; Traditional magic vs. retro -tech adornments."
+
+  - entity_id: OBJ_SecurityFob_Grotto_01
+     entity_name: "Security Fob (Grotto Guest Shack)"
+    entity_type: Object
+    primary _authentication_sources:
+      - "PrimalMama_Quest_BayouAwakening.yaml (Event  QS004)"
+    functional_properties_bundle:
+      core_function_purpose:
+        -  type: primary_role
+          description: "Access key for a specific reinforced door."
+          authentication: "YAML: QS0 04 (objective to find it to open door)"
+        - type: secondary_roles
+          description: " Tutorial objective item."
+          authentication: "YAML: QS004"
+      key_capabilities_powers: 
+        - capability_id: FUNC-FOB-01
+          name: Enable Door Unlocking
+          description: " When used in conjunction with the correct keypad, allows a reinforced door to be opened."
+          authentication: "YAML:  QS004_Tutorial_FindFob (door_opening_tutorial implies its necessity)"
+          limits_ nuances: "Specific to one door/security system; requires keypad interaction."
+        - capability_id: FUNC-F OB-02
+          name: "Magnetic Charging (Implied)"
+          description: "Can be charged by  detaching from a magnetic charger."
+          authentication: "YAML: QS004 (\"detaches from its magnetic  charger\")"
+      acquired_skills_expertise: [] # N/A (Object)
+      inabilities_ lack_of_function:
+        - inability_id: INAB-FOB-01
+          description: " Cannot unlock door independently; requires user interaction with keypad."
+          authentication: "YAML: QS004 (door_opening_ tutorial implies user action)"
+        - inability_id: INAB-FOB-02
+          description:  "Cannot be easily located without specialized senses (e.g., Erpenthrope Senses) if misplaced."
+          authentication : "YAML: QS004 (Erpenthrope Senses needed to find it)"
+      vulnerabilities_ weaknesses:
+        - vulnerability_id: VULN-FOB-01
+          description: " Can be lost or misplaced."
+          authentication: "YAML: QS004 (\"wayward key\")"
+       costs_dependencies_operational_constraints:
+        - constraint_id: DEPEND-FOB-01
+           applies_to: FUNC-FOB-01
+          description: "Dependent on a functioning keypad and door mechanism ."
+          authentication: "PrimalMama_CoherenceProtocol.md (Tech Aesthetic assumes functional, if retro, tech )"
+    functional_profile_summary:
+      core_functional_identity: "The Security Fob is a simple technological  key object, conforming to the 1970s aesthetic, essential for accessing secured areas within the Grotto. Its primary  function is to enable passage when correctly utilized."
+      key_narrative_functions_served: "Serves as the first  tutorial MacGuffin; Demonstrates the utility of Erpenthrope Senses; Establishes the world's retro- tech security measures."
+      relationship_to_alethic_modality: "Its existence and operation fall under the \" Technological Aesthetic Constraint.\" Its need for power (magnetic charger) hints at \"Solar Dominance\" for energy sources."
+      key _functional_tensions_tradeoffs: "Security provided vs. inconvenience if lost."
+```

@@ -1,0 +1,61 @@
+Something Ends, Something Begins
+This epilogue quest varies depending on the choices you made throughout the game. If you appear in White Orchard, read the text under the heading "Confidence and a Crown". If you appear in Vizima, follow the text under "The Witcheress". If you appear in Velen, consult the text under the heading "Doubt, Death, and Despair".
+
+Confidence and a Crown
+You will get this ending if you mostly made choices that boosted Ciri's confidence and you took her to see Emhyr before the quest "Bald Mountain".
+
+You're now in White Orchard. After a bit of chatter, talk to Dandelion and Zoltan if you wish, then leave the tavern and enter the snow-covered village beyond. Head west and, after a peasant bothers you, continue west to reach the notice board. From here, head south-west to reach Mislav's hut and talk to the hunter, then head east to find Ciri. Chat with her a bit, then head south-east to return to the Royal Griffin's nest. Fend off a Forktail (level thirty) then chat with Ciri, who seems rather upset at something.
+
+Geralt decides to take her fishing to cheer her up. Follow her to the lake, then chuck a bomb at a bear to scare it off. Collect four fish on the ice near the fishing hole, then follow Ciri back to town. They'll chat and play around as they go, reminiscing about Kaer Morhen as they go. When you approach White Orchard, however, Geralt is in for a surprise, and Ciri will explain why she's so despondant, and the two will part company once again.
+
+Objective	Reward
+For scaring off the Bear	200 XP
+The Witcheress
+You will get this ending if you mostly made choices that boosted Ciri's confidence and you did not take her to see Emhyr before the quest "Bald Mountain".
+
+Geralt will visit Emhyr and update him on Ciri, after which Emhyr makes clear that he never wants to see Geralt again. Fair enough. Geralt will then appear in White Orchard and chat with some folks before moving on. Ride to the Nilfgaardian Garrison and meet a man there, who will deliver a sword to you. Make your way back to the tavern in White Orchard, where Geralt will give the sword over to an aspiring new Witcheress...
+
+Doubt, Death, and Despair
+You will get this ending if you mostly made choices that caused Ciri to doubt herself.
+
+Talk to a Werewolf named Barem and it'll lead you to what Geralt seeks-the lone surviving Crone who made off with Ciri's medallion. Follow him until you reach a camp. Say what you will, then fight off the Hunters (level two). Follow Barem to the Orphanage to confront the Weavess. Geralt's not here to make friends, and a battle with the Weavess will ensue. Kill her and the Drowners (level four) and the Water Hag (level twenty-eight) that join her. Afterwards, Geralt will ransack the house the Weavess was in and reclaim Ciri's amulet.
+
+Objective	Reward
+For killing the Hunters	180 XP
+For killing the Weavess	900 XP
+Other Resolutions (Spoilers!)
+After completing the epilogue you'll see the conclusion of other stories, including the fate of the north, Skellige, Emhyr, and, of course, Geralt himself, depending on the choices you made. There will be spoilers here.
+
+The Fate of the North
+If you did not complete the quest "Reason of State" Radovid remained in power and protected the north from Nilfgaard. The north might have been preserved, but only under the rule of a madman, who continued murdering mages and nonhumans unopposed.
+
+If you allowed Dijkstra to take control after completing "Reason of State", he'll have taken control of the north and repelled Nilfgaard. His rule proves enlightened-but ruthless, prosperous, but pragmatic.
+
+If you opposed Dijkstra after completing "Reason of State", the north was conquered, being deprived of the only two men who could turn back the Nilfgaardian legions. Temeria, however, thanks to the support of Vernon Roche and the rest of the partisans, secured its continued nationhood as a vassal of Nilfgaard.
+
+The Fate of Skellige
+Skellige prospers with Cerys as queen, for the first time focusing on improving Skellige itself, instead of raiding the continent. Peace and prosperity reigns, but some of the fabled Skelliger bloodthirstiness was lost in the transition to a more civilized lifestyle.
+
+Hjalmar remained an irascible, honor-bound red-blooded Skelliger, constantly raiding Nilfgaard regardless of the cost to Skellige, and Skellige traditions remained more or less untouched under his rule.
+
+Svaringe, to the surprise of all, led Skellige with an iron hand. However, he had no mind for tradition, and tired of the Jarl's constant insubordination. Eventually he succeeds at subjugating all of Skellige to an absolute monarchy, but only after much bloodshed.
+
+The Fate of Emhyr
+If you did not complete the quest "Reason of State" or you allowed Dijkstra to take over afterwards, the war in the north failed, and support for Emhyr faded back home. Ultimately the "White Flame Dancing on the Graves of His Foes" fell victim to a coup.
+
+If you completed the quest "Reason of State" and sided with the Temerian rebels, Emhyr conqured the north, and, due to his string of victories, earned the continued support of his subjects. Those who had intrigued against him were disposed in typically ruthless fashion, further cementing his power.
+
+The Fate of Ciri
+If you did not take Ciri to meet Emhyr before the quest "Bald Moutain" and she survived the White Frost, she'll take up the trade of a Witcher and roam the northlands, practicing her craft.
+
+Alternatively, if you took her to meet Emhyr before the quest "Bald Mountain" and she survived the White Frost, she'll take up her father's offer to become his heir. After he abdicates, she'll become the Empress of Nilfgaard, where she might do more good for the world than she would as a Witcheress.
+
+The Fate of Geralt
+If you tried to romance both Triss and Yennefer, Geralt will continue doing what he's been doing-living on the road, eeking out a meager living as an itinerant monster-slayer.
+
+If you romanced Yennefer, life is good. The two of you live away from the world and its politics, stay in bed late, and live a carefree life.
+
+If you romanced Triss, Geralt goes to live with Triss, who becomes wealthy serving the king of Kovir. Geralt continues to ply his trade as his whims demand, but mostly he lives a life of luxury, happily ever after with Triss.
+
+Post-Game Play
+The game is over-the main story, anyways, but you aren't necessarily done playing. You can now continue playing the game from where you left off... but of course, no main-story progression is possible. Still, if you have some treasure hunts, contracts, or side-quests to complete, now's the time!

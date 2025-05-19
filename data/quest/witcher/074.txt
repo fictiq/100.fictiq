@@ -1,0 +1,717 @@
+Witcher Sets
+Some of the best armor and weapon plans in the game aren't random, however, and are the subject of special quests-these are the "Witcher School" quests. There are three Witcher School gear sets (in the vanilla game, at least) and are well worth getting, as they tend to be quite a bit stronger than most other armors and weapons in the game. There are three full sets of Witcher School gear in the game-Cat (Feline), Griffin, and Bear (Ursine), light, medium, and heavy armor, respectively.
+
+Cat School Gear (base)
+Feline Gear	Required Components	Level	Craftsman Requirements	Stats
+Feline Armor	Hardened Timber x2
+Hardened Leather x2
+Shirt x1
+Dark Steel Plate x2
+Powdered Monster Tissue x1	14	Armorer/Journeyman	Armor: 105
+Attack Power: 5%
+Resistance to Piercing Damage: 5%
+Resistance to Slashing Damage: 5%
+Resistance to Damage from Monsters: 5%
+Resistance to Elemental Damage: 20%
+Feline Boots	Hardened Timber x1
+Dark Iron Ore x1
+Hardened Leather x2
+Leather Straps x2
+Monster Eye x2	14	Armorer/Journeyman	Armor: 37
+Attack Power: 5%
+Resistance to Piercing Damage: 1%
+Resistance to Slashing Damage: 2%
+Resistance to Damage from Monsters: 2%
+Resistance to Elemental Damage: 5%
+Feline Gauntlets	Hardened Timber x1
+Dark Iron Ore x1
+Cured Leather x2
+Nails x2
+Monster Tooth x2	14	Armorer/Journeyman	Armor: 33
+Attack Power: 5%
+Resistance to Piercing Damage: 1%
+Resistance to Slashing Damage: 1%
+Resistance to Damage from Monsters: 1%
+Resistance to Elemental Damage: 5%
+Feline Trousers	Leather Scraps x4
+Cured Leather x1
+Silk x2
+Hardened Timber x1
+Monster Brain x1	14	Armorer/Journeyman	Armor: 37
+Attack Power: 5%
+Resistance to Piercing Damage: 1%
+Resistance to Slashing Damage: 3%
+Resistance to Damage from Monsters: 3%
+Resistance to Elemental Damage: 10%
+Feline Silver Sword	Monster Eye x1
+Silver Ingot x2
+Leather Straps x2
+Ruby Dust x1	13	Blacksmith/Journeyman	Damage: 240
+Aard Sign Intensity: 12%
+Chance to Cause Bleeding: 5%
+Bonus Experience from Monsters: 20%
+Feline Steel Sword	Monster Saliva x1
+Iron Ingot x4
+Leather Straps x1
+Ruby Dust x1	14	Blacksmith/Journeyman	
+Slashing Damage: 153
+Chance to Cause Bleeding: 5%
+Bonus Experience from Humans and Nonhumans: 5%
+
+Cat School Gear (Enhanced)
+Feline Gear	Required Components	Level	Craftsman Requirements	Stats
+Enhanced Feline Armor	Lunar Shards x2
+Hardened Leather x4
+Feline Armor x1
+Dark Steel Plate x2
+Monster Blood x2	20	Armorer/Journeyman	Armor: 135
+Attack Power: 10%
+Resistance to Piercing Damage: 6%
+Resistance to Slashing Damage: 6%
+Resistance to Damage from Monsters: 8%
+Resistance to Elemental Damage: 30%
+Enhanced Feline Boots	Monster Eye x2
+Leather Straps x2
+Hardened Leather x2
+Feline Boots x1
+Dark Iron Ore x1
+Hardened Timber x1	20	Armorer/Journeyman	Armor: 49
+Attack Power: 5%
+Resistance to Piercing Damage: 2%
+Resistance to Slashing Damage: 3%
+Resistance to Damage from Monsters: 3%
+Resistance to Elemental Damage: 5%
+Enhanced Feline Gauntlets	Monster Tooth x2
+Nails x2
+Cured Leather x2
+Feline Gauntlets x1
+Dark Iron Ore x1
+Hardened Timber x1	20	Armorer/Journeyman	Armor: 45
+Attack Power: 5%
+Resistance to Piercing Damage: 2%
+Resistance to Slashing Damage: 2%
+Resistance to Damage from Monsters: 2%
+Resistance to Elemental Damage: 5%
+Enhanced Feline Trousers	Monster Brain x1
+Hardened Timber x1
+Silk x2
+Feline Trousers x1
+Cured Leather x1
+Leather Scraps x4	20	Armorer/Journeyman	Armor: 49
+Attack Power: 5%
+Resistance to Piercing Damage: 2%
+Resistance to Slashing Damage: 4%
+Resistance to Damage from Monsters: 4%
+Resistance to Elemental Damage: 10%
+Enhanced Feline Silver Sword	Ruby Dust x1
+Leather Scraps x1
+Feline Silver Sword x1
+Meteorite Silver Ingot x2
+Monster Hair x1	19	Blacksmith/Journeyman	Damage: 300
+Aard Sign Intensity: 14%
+Chance to Cause Bleeding: 10%
+Bonus Experience from Monsters: 20%
+Enhanced Feline Steel Sword	Ruby Dust x1
+Leather Straps x2
+Feline Steel Sword x1
+Dark Steel Ingot x2
+Monster Claw x1	19	Blacksmith/Journeyman	Slashing Damage: 193
+Chance to Cause Bleeding: 10%
+Bonus Experience from Humans and Nonhumans: 5%
+Cat School Gear (Superior)
+Feline Gear	Required Components	Level	Craftsman Requirements	Stats
+Superior Feline Armor	Quicksilver Solution x3
+Cured Draconid Leather x2
+Enhanced Feline Armor x1
+Dimeritium Plate x2
+Monster Hair x4	26	Armorer/Journeyman	Armor: 165
+Attack Power: 15%
+Resistance to Piercing Damage: 8%
+Resistance to Slashing Damage: 11%
+Resistance to Damage from Monsters: 11%
+Resistance to Elemental Damage: 35%
+Superior Feline Boots	Leather Straps x2
+Hardened Leather x2
+Enhanced Feline Boots x1
+Dark Steel Ingot x1
+Monster Bone x1	26	Armorer/Journeyman	Armor: 61
+Attack Power: 10%
+Resistance to Piercing Damage: 3%
+Resistance to Slashing Damage: 4%
+Resistance to Damage from Monsters: 4%
+Resistance to Elemental Damage: 5%
+Superior Feline Gauntlets	Leather Straps x2
+Hardened Leather x1
+Enhanced Feline Gauntlets x1
+Dark Steel Ingot x1
+Monster Claw x4	26	Armorer/Journeyman	Armor: 57
+Attack Power: 10%
+Resistance to Piercing Damage: 3%
+Resistance to Slashing Damage: 3%
+Resistance to Damage from Monsters: 3%
+Resistance to Elemental Damage: 5%
+Superior Feline Trousers	Hardened Timber x2
+Silk x2
+Enhanced Feline Trousers x1
+Dark Steel Ingot x1
+Monster Heart x1	26	Armorer/Journeyman	Armor: 61
+Attack Power: 10%
+Resistance to Piercing Damage: 3%
+Resistance to Slashing Damage: 5%
+Resistance to Damage from Monsters: 5%
+Resistance to Elemental Damage: 15%
+Superior Feline Silver Sword	Ruby x1
+Leather Scraps x1
+Enhanced Feline Silver Sword x1
+Dimeritium Ingot x1
+Monster Heart x1	25	Blacksmith/Journeyman	Damage: 360
+Aard Sign Intensity: 14%
+Critical Hit Chance: 5%
+Chance to Cause Bleeding: 10%
+Chance to Dismember: 5%
+Bonus Experience from Monsters: 20%
+Superior Feline Steel Sword	Ruby x2
+Leather Scraps x1
+Enhanced Feline Steel Sword x1
+Dark Steel Ingot x3
+Monster Tooth x1	25	Blacksmith/Journeyman	Slashing Damage: 241
+Critical Hit Chance: 5%
+Chance to Cause Bleeding: 10%
+Bonus Experience from Humans and Nonhumans: 5%
+Cat School Gear (Mastercrafted)
+Feline Gear	Required Components	Level	Craftsman Requirements	Stats
+Mastercrafted Feline Armor	Monster Tongue x2
+Cured Draconid Leather x3
+Superior Feline Armor x1
+Dimeritium Plate x2
+Monster Hide x1	31	Armorer/Master	Armor: 190
+Attack Power: 20%
+Resistance to Piercing Damage: 10%
+Resistance to Slashing Damage: 15%
+Resistance to Damage from Monsters: 15%
+Resistance to Elemental Damage: 45%
+Mastercrafted Feline Boots	Leather Straps x2
+Hardened Leather x2
+Superior Feline Boots x1
+Dark Steel Ingot x1
+Monster Bone x1	31	Armorer/Master	Armor: 71
+Attack Power: 10%
+Resistance to Piercing Damage: 4%
+Resistance to Slashing Damage: 5%
+Resistance to Damage from Monsters: 5%
+Resistance to Elemental Damage: 5%
+Mastercrafted Feline Gauntlets	Leather Straps x4
+Hardened Leather x1
+Superior Feline Gauntlets x1
+Dark Steel Ingot x1
+Monster Claw x4	31	Armorer/Master	Armor: 67
+Attack Power: 10%
+Resistance to Piercing Damage: 4%
+Resistance to Slashing Damage: 4%
+Resistance to Damage from Monsters: 4%
+Resistance to Elemental Damage: 5%
+Mastercrafted Feline Trousers	Hardened Timber x2
+Silk x2
+Superior Feline Trousers x1
+Dark Steel Ingot x1
+Monster Heart x1	31	Armorer/Master	Armor: 71
+Attack Power: 10%
+Resistance to Piercing Damage: 4%
+Resistance to Slashing Damage: 6%
+Resistance to Damage from Monsters: 6%
+Resistance to Elemental Damage: 15%
+Mastercrafted Feline Silver Sword	Flawless Ruby x1
+Cured Leather x2
+Superior Feline Silver Sword x1
+Dimeritium Ingot x2
+Powdered Monster Essence x1	30	Blacksmith/Master	Damage: 410
+Aard Sign Intensity: 15%
+Critical Hit Chance: 10%
+Chance to Cause Bleeding: 15%
+Chance to Dismember: 10%
+Bonus Experience from Monsters: 20%
+Mastercrafted Feline Steel Sword	Flawless Ruby x1
+Leather SCraps x2
+Superior Feline Steel Sword x1
+Monster Bone x1	30	Blacksmith/Master	Slashing Damage: 281
+Critical Hit Chance: 10%
+Chance to Cause Bleeding: 20%
+Bonus Experience from Humans and Nonhumans: 5%
+Griffin School Gear (base)
+Griffin Gear	Required Components	Level	Craftsman Requirements	Stats
+Griffin Armor	Leather Straps x5
+Hardened Leather x2
+Shirt x1
+Meteorite Silver Plate x1
+Monster Eye x2	8	Armorer/Journeyman	Armor: 75
+Sign Intensity: 5%
+Resistance to Piercing Damage: 5%
+Resistance to Bludgeoning Damage: 5%
+Resistance to Slashing Damage: 10%
+Resistance to Damage from Monsters: 15%
+Griffin Boots	Leather Scraps x4
+Meteorite Ore x1
+Hardened Leather x1
+Thread x3
+Monster Essence x1	8	Armorer/Journeyman	Armor: 25
+Sign Intensity: 5%
+Resistance to Piercing Damage: 1%
+Resistance to Bludgeoning Damage: 1%
+Resistance to Slashing Damage: 2%
+Resistance to Damage from Monsters: 2%
+Griffin Gauntlets	
+Thread x2
+Meteorite Ore x1
+Leather Scraps x4
+Leather Straps x2
+Powdered Monster Tissue x4
+
+8	Armorer/Journeyman	Armor: 21
+Sign Intensity: 5%
+Resistance to Piercing Damage: 1%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 2%
+Resistance to Damage from Monsters: 5%
+Griffin Trousers	Monster Blood x1
+Meteorite Ore x1
+Silk x2
+Cured Leather x1
+Leather Scraps x4	8	Armorer/Journeyman	Armor: 25
+Sign Intensity: 5%
+Resistance to Piercing Damage: 2%
+Resistance to Slashing Damage: 5%
+Resistance to Damage from Monsters: 7%
+Resistance to Elemental Damage: 17%
+Griffin Silver Sword	Monster Brain x1
+Silver Ingot x3
+Leather Scraps x1
+Fifth Essence x1	7	Blacksmith/Journeyman	Damage: 180
+Sign Intensity: 5%
+Bonus Experience from Monsters: 20%
+Griffin Steel Sword	Monster Eye x1
+Steel Ingot x2
+Leather Scraps x1
+Monster Brain x1	7	Blacksmith/Journeyman	
+Slashing Damage: 97
+Sign Intensity: 5%
+Bonus Experience from Humans and Nonhumans: 5%
+
+Griffin School Gear (Enhanced)
+Griffin Gear	Required Components	Level	Craftsman Requirements	Stats
+Enhanced Griffin Armor	Linen x4
+Hardened Leather x3
+Griffin Armor x1
+Meteorite Steel Plate x1
+Monster Feather x5	15	Armorer/Journeyman	Armor: 110
+Sign Intensity: 10%
+Resistance to Piercing Damage: 8%
+Resistance to Bludgeoning Damage: 8%
+Resistance to Slashing Damage: 14%
+Resistance to Damage from Monsters: 20%
+Enhanced Griffin Boots	Leather Scraps x4
+Meteorite Ore x1
+Hardened Leather x1
+Griffin Boots x1
+Thread x3
+Monster Essence x1	15	Armorer/Journeyman	Armor: 39
+Sign Intensity: 5%
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 3%
+Resistance to Damage from Monsters: 3%
+Enhanced Griffin Gauntlets	Thread x2
+Meteorite Ore x1
+Leather Scraps x4
+Griffin Gauntlets x1
+Leather Straps x2
+Powdered Monster Tissue x4	15	Armorer/Journeyman	Armor: 47
+Sign Intensity: 6%
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 3%
+Resistance to Slashing Damage: 3%
+Resistance to Damage from Monsters: 6%
+Enhanced Griffin Trousers	Monster Blood x1
+Meteorite Ore x1
+Silk x2
+Griffin Trousers x1
+Cured Leather x1
+Leather Scraps x4	15	Armorer/Journeyman	Armor: 39
+Sign Intensity: 5%
+Resistance to Piercing Damage: 3%
+Resistance to Slashing Damage: 6%
+Resistance to Damage from Monsters: 7%
+Resistance to Elemental Damage: 19%
+Enhanced Griffin Silver Sword	Monster Egg x1
+Leather Straps x2
+Griffin Silver Sword x1
+Meteorite Silver Ingot x2
+Monster Tongue x1	14	Blacksmith/Master	Damage: 250
+Sign Intensity: 10%
+Bonus Experience from Monsters: 20%
+Enhanced Griffin Steel Sword	Powdered Monster Tissue x1
+Leather Scraps x1
+Griffin Steel Sword x1
+Dark Steel Ingot x2
+Monster Claw x1	14	Blacksmith/Journeyman	Slashing Damage: 153
+Sign Intensity: 10%
+Bonus Experience from Humans and Nonhumans: 5%
+Griffin School Gear (Superior)
+Griffin Gear	Required Components	Level	Craftsman Requirements	Stats
+Superior Griffin Armor	Monster Hide x1
+Cured Draconid Leather x3
+Enhanced Griffin Armor x1
+Dimeritium Plate x2
+Monster Heart x2	23	Armorer/Journeyman	Armor: 150
+Sign Intensity: 15%
+Resistance to Piercing Damage: 12%
+Resistance to Bludgeoning Damage: 12%
+Resistance to Slashing Damage: 18%
+Resistance to Damage from Monsters: 25%
+Superior Griffin Boots	String x2
+Hardened Leather x2
+Enhanced Griffin Boots x1
+Meteorite Silver Ingot x1
+Monster Claw x2	23	Armorer/Journeyman	Armor: 55
+Sign Intensity: 10%
+Resistance to Piercing Damage: 3%
+Resistance to Bludgeoning Damage: 3%
+Resistance to Slashing Damage: 4%
+Resistance to Damage from Monsters: 4%
+Superior Griffin Gauntlets	String x2
+Cured Leather x1
+Enhanced Griffin Gauntlets x1
+Meteorite Silver Plate x1
+Monster Tongue x2	23	Armorer/Journeyman	Armor: 51
+Sign Intensity: 10%
+Resistance to Piercing Damage: 3%
+Resistance to Bludgeoning Damage: 4%
+Resistance to Slashing Damage: 5%
+Resistance to Damage from Monsters: 8%
+Superior Griffin Trousers	Meteorite Silver Ingot x1
+Silk x2
+Superior Griffin Trousers x1
+Leather Straps x1
+Monster Egg x1	23	Armorer/Journeyman	Armor: 55
+Sign Intensity: 10%
+Resistance to Piercing Damage: 4%
+Resistance to Slashing Damage: 7%
+Resistance to Damage from Monsters: 10%
+Resistance to Elemental Damage: 23%
+Superior Griffin Silver Sword	Monster Blood x1
+Leather Scraps x2
+Enhanced Griffin Silver Sword x1
+Dimeritium Ingot x1
+Powdered Monster Tissue x1	21	Blacksmith/Journeyman	Damage: 330
+Sign Intensity: 15%
+Critical Hit Damage Bonus: 25%
+Chance to Dismember: 10%
+Bonus Experience from Monsters: 20%
+Superior Griffin Steel Sword	Monster Blood x1
+Leather Scraps x1
+Enhanced Griffin Steel Sword x1
+Dark Steel Ingot x2
+Monster Feather x1	21	Blacksmith/Journeyman	Slashing Damage: 209
+Sign Intensity: 15%
+Critical Hit Damage Bonus: 25%
+Bonus Experience from Humans and Nonhumans: 5%
+Griffin School Gear (Mastercrafted)
+Griffin Gear	Required Components	Level	Craftsman Requirements	Stats
+Mastercrafted Griffin Armor	Fifth Entrance x1
+Cured Draconid Leather x2
+Superior Griffin Armor x1
+Dimeritium Plate x3
+Monster Brain x1	31	Armorer/Master	Armor: 190
+Sign Intensity: 20%
+Resistance to Piercing Damage: 17%
+Resistance to Bludgeoning Damage: 16%
+Resistance to Slashing Damage: 22%
+Resistance to Damage from Monsters: 30%
+Mastercrafted Griffin Boots	String x2
+Hardened Leather x2
+Superior Griffin Boots x1
+Meteorite Silver Ingot x1
+Monster Claw x2	31	Armorer/Master	Armor: 71
+Sign Intensity: 10%
+Resistance to Piercing Damage: 4%
+Resistance to Bludgeoning Damage: 4%
+Resistance to Slashing Damage: 5%
+Resistance to Damage from Monsters: 5%
+Mastercrafted Griffin Gauntlets	String x2
+Cured Leather x1
+Superior Griffin Gauntlets x1
+Meteorite Silver Plate x1
+Monster Tongue x2	31	Armorer/Master	Armor: 67
+Sign Intensity: 10%
+Resistance to Piercing Damage: 4%
+Resistance to Bludgeoning Damage: 5%
+Resistance to Slashing Damage: 5%
+Resistance to Damage from Monsters: 10%
+Mastercrafted Griffin Trousers	Meteorite Silver Ingot x1
+Silk x2
+Superior Griffin Trousers x1
+Leather Straps x1
+Monster Egg x1	31	Armorer/Master	Armor: 71
+Sign Intensity: 10%
+Resistance to Piercing Damage: 5%
+Resistance to Slashing Damage: 8%
+Resistance to Damage from Monsters: 10%
+Resistance to Elemental Damage: 30%
+Mastercrafted Griffin Silver Sword	Monster Feather x1
+Leather Scraps x2
+Superior Griffin Silver Sword x1
+Dimeritium Ingot x2
+Monster Heart x1	30	Blacksmith/Master	Damage: 410
+Sign Intensity: 20%
+Critical Hit Damage Bonus: 25%
+Critical Hit Chance: 5%
+Chance to Dismember: 10%
+Bonus Experience from Monsters: 20%
+Mastercrafted Griffin Steel Sword	Monster Egg x1
+Leather Scraps x2
+Superior Griffin Steel Sword x1
+Dimeritium Ingot x2
+Siren Vocal Cords x1	30	Blacksmith/Master	Slashing Damage: 281
+Sign Insensity: 20%
+Critical Hit Damage Bonus: 15%
+Critical Hit Chance: 5%
+Bonus Experience from Humans and Nonhumans: 5%
+Bear School Gear (base)
+Ursine Gear	Required Components	Level	Craftsman Requirements	Stats
+Ursine Armor	Linen x4
+Hardened Leather x2
+Shirt x1
+Darken Steel Plate x1
+Monster Bone x1	17	Armorer/Journeyman	Armor: 120
+Adrenaline Point Gain: 5%
+Resistance to Piercing Damage: 5%
+Resistance to Bludgeoning Damage: 5%
+Resistance to Slashing Damage: 15%
+Resistance to Damage from Monsters: 20%
+Ursine Boots	Fur Scrap x1
+Dark Iron Ore x1
+Hardened Leather x2
+String x2
+Monster Blood x1	17	Armorer/Journeyman	Armor: 43
+Adrenaline Point Gain: 5%
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 2%
+Resistance to Damage from Monsters: 2%
+Ursine Gauntlets	Leather Straps x2
+Dark Iron Ore x1
+Cured Leather x2
+Silver x3
+Monster Tongue x2	17	Armorer/Journeyman	Armor: 39
+Adrenaline Point Gain: 5%
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 2%
+Resistance to Damage from Monsters: 2%
+Ursine Trousers	Monster Liver x1
+Silver x5
+Silk x2
+Cured Leather x1
+Leather Scraps x2	17	Armorer/Journeyman	Armor: 43
+Adrenaline Point Gain: 5%
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 7%
+Resistance to Slashing Damage: 10%
+Resistance to Damage from Monsters: 5%
+Ursine Silver Sword	Powdered Monster Essence x1
+Silver Ingot x3
+Leather Straps x1
+Monster Brain x1	16	Blacksmith/Journeyman	Damage: 270
+Adrenaline Point Gain: 5%
+Critical Hit Chance: 5%
+Chance to Dismember: 10%
+Bonus Experience from Monsters: 20%
+Ursine Steel Sword	Monster Tongue x1
+Steel Ingot x2
+Leather Straps x1
+Monster Essence x1	16	Blacksmith/Journeyman	
+Slashing Damage: 161
+Adrenaline Point Gain: 5%
+Bonus Experience from Humans and Nonhumans: 5%
+
+Bear School Gear (Enhanced)
+Ursine Gear	Required Components	Level	Craftsman Requirements	Stats
+Enhanced Ursine Armor	String x5
+Hardened Leather x3
+Ursine Armor x1
+Dark Steel Plate x1
+Monster Hair x5	22	Armorer/Journeyman	Armor: 145
+Adrenaline Point Gain: 10%
+Resistance to Piercing Damage: 10%
+Resistance to Bludgeoning Damage: 10%
+Resistance to Slashing Damage: 20%
+Resistance to Damage from Monsters: 30%
+Enhanced Ursine Boots	Fur Scrap x1
+Dark Iron Ore x1
+Hardened Leather x2
+Ursine Gauntlets x1
+String x2
+Monster Blood x1	22	Armorer/Journeyman	Armor:
+Adrenaline Point Gain: 5%
+Resistance to Piercing Damage: %
+Resistance to Bludgeoning Damage: %
+Resistance to Slashing Damage: %
+Resistance to Damage from Monsters: %
+Enhanced Ursine Gauntlets	Monster Tongue x2
+Silver x3
+Cured Leather x2
+Ursine Gauntlets x1
+Dark Iron Ore x1
+Leather Straps x2	22	Armorer/Journeyman	Armor: 49
+Adrenaline Point Gain: 5%
+Resistance to Piercing Damage: 3%
+Resistance to Bludgeoning Damage: 3%
+Resistance to Slashing Damage: 3%
+Resistance to Damage from Monsters: 3%
+Enhanced Ursine Trousers	Monster Liver x1
+Silver x5
+Silk x2
+Ursine Trousers x1
+Cured Leather x1
+Leather Scraps x2	22	Armorer/Journeyman	Armor: 53
+Adrenaline Point Gain: 5%
+Resistance to Piercing Damage: 3%
+Resistance to Bludgeoning Damage: 8%
+Resistance to Slashing Damage: 10%
+Resistance to Damage from Monsters: 10%
+Enhanced Ursine Silver Sword	Nigredo x1
+Leather Scraps x2
+Ursine Silver Sword x1
+Meteorite Silver Ingot x2
+Monster Saliva x1	21	Blacksmith/Master	Damage: 320
+Adrenaline Point Gain: 10%
+Critical Hit Damage Bonus: 25%
+Critical Hit Chance: 8%
+Chance to Dismember: 10%
+Bonus Experience from Monsters: 20%
+Enhanced Ursine Steel Sword	Monster Hair x1
+Leather Scraps x2
+Ursine Steel Sword x1
+Dark Steel Ingot x2
+Monster Bone x1	21	Blacksmith/Journeyman	Slashing Damage: 209
+Adrenaline Point Gain: 10%
+Critical HitÂ Damage Bonuse: 20%
+Bonus Experience from Humans and Nonhumans: 5%
+Bear School Gear (Superior)
+Ursine Gear	Required Components	Level	Craftsman Requirements	Stats
+Superior Ursine Armor	Monster Essence x1
+Cured Draconid Leather x3
+Enhanced Ursine Armor x1
+Dimeritium Plate x2
+Monster Hide x1	27	Armorer/Journeyman	Armor: 170
+Adrenaline Point Gain: 15%
+Resistance to Piercing Damage: 15%
+Resistance to Bludgeoning Damage: 15%
+Resistance to Slashing Damage: 25%
+Resistance to Damage from Monsters: 35%
+Superior Ursine Boots	Leather Straps x2
+Hardened Leather x1
+Enhanced Ursine Boots x1
+Dark Steel Ingot x1
+Monster Claw x2	27	Armorer/Journeyman	Armor: 63
+Adrenaline Point Gain: 10%
+Resistance to Piercing Damage: 4%
+Resistance to Bludgeoning Damage: 4%
+Resistance to Slashing Damage: 4%
+Resistance to Damage from Monsters: 4%
+Superior Ursine Gauntlets	Meteorite Ore x1
+Leather Scraps x6
+Enhanced Ursine Gauntlets x1
+Dark Steel Ingot x1
+Monster Tooth x4	27	Armorer/Journeyman	Armor: 59
+Adrenaline Point Gain: 10%
+Resistance to Piercing Damage: 4%
+Resistance to Bludgeoning Damage: 4%
+Resistance to Slashing Damage: 4%
+Resistance to Damage from Monsters: 4%
+Superior Ursine Trousers	Dark Steel Ingot x1
+Silk x2
+Enhanced Ursine Trousers x1
+Hardened Leather x1
+MonsterÂ Brain x1	27	Armorer/Journeyman	Armor: 63
+Adrenaline Point Gain: 10%
+Resistance to Piercing Damage: 4%
+Resistance to Slashing Damage: 9%
+Resistance to Damage from Monsters: 15%
+Resistance to Elemental Damage: 15%
+Superior Ursine Silver Sword	Albedo x1
+Leather Scraps x2
+Enhanced Ursine Silver Sword x1
+Dimeritium Ingot x1
+Monster Hair x1	26	Blacksmith/Master	Damage: 370
+Adrenaline Point Gain: 15%
+Critical Hit Damage Bonus: 50%
+Critical Hit Chance: 10%
+Chance to Dismember: 13%
+Bonus Experience from Monsters: 20%
+Superior Ursine Steel Sword	Monster Blood x1
+Leather Scraps x1
+Enhanced Ursine Steel Sword x1
+Dimeritium Ingot x1
+Monster Claw x1	26	Blacksmith/Journeyman	Slashing Damage: 249
+Adrenaline Point Gain: 15%
+Critical HitÂ Damage Bonuse: 50%
+Bonus Experience from Humans and Nonhumans: 5%
+Bear School Gear (Mastercrafted)
+Ursine Gear	Required Components	Level	Craftsman Requirements	Stats
+Mastercrafted Ursine Armor	Optima Mater x1
+Cured Draconid Leather x3
+Superior Ursine Armor x1
+Dimeritium Plate x3
+Monster Carapace x1	31	Armorer/Master	Armor: 190
+Adrenaline Point Gain: 20%
+Resistance to Piercing Damage: 25%
+Resistance to Bludgeoning Damage: 25%
+Resistance to Slashing Damage: 30%
+Resistance to Damage from Monsters: 45%
+Mastercrafted Ursine Boots	Leather Straps x2
+Hardened Leather x1
+Superior Ursine Boots x1
+Dark Steel Ingot x1
+Monster Claw x1	31	Armorer/Master	Armor: 71
+Adrenaline Point Gain: 10%
+Resistance to Piercing Damage: 5%
+Resistance to Bludgeoning Damage: 5%
+Resistance to Slashing Damage: 5%
+Resistance to Damage from Monsters: 5%
+Mastercrafted Ursine Gauntlets	Meteorite Ore x1
+Leather Scraps x6
+Superior Ursine Gauntlets x1
+Dark Steel Ingot x1
+Monster Tooth x4	31	Armorer/Master	Armor: 67
+Adrenaline Point Gain: 10%
+Resistance to Piercing Damage: 5%
+Resistance to Bludgeoning Damage: 5%
+Resistance to Slashing Damage: 5%
+Resistance to Damage from Monsters: 5%
+Mastercrafted Ursine Trousers	Dark Steel Ingot x1
+Silk x2
+Superior Ursine Trousers x1
+Hardened Leather x1
+Monster Brain x1	31	Armorer/Master	Armor: 71
+Adrenaline Point Gain: 10%
+Resistance to Piercing Damage: 5%
+Resistance to Slashing Damage: 10%
+Resistance to Damage from Monsters: 15%
+Resistance to Elemental Damage: 20%
+Mastercrafted Ursine Silver Sword	Rebis x1
+Leather Scraps x2
+Superior Ursine Silver Sword x1
+Dimeritium Ingot x2
+Monster Essence x1	30	Blacksmith/Master	Damage: 415
+Adrenaline Point Gain: 20%
+Critical Hit Damage Bonus: 75%
+Chance to Dismember: 14%
+Bonus Experience from Monsters: 20%
+Mastercrafted Ursine Steel Sword	Monster Saliva x1
+Leather Scraps x2
+Superior Ursine Steel Sword x1
+Dimeritium Ingot x2
+Monster Teeth x1	30	Blacksmith/Master	Slashing Damage: 282
+Adrenaline Point Gain: 20%
+Critical Hit Damage Bonuse: 75%
+Bonus Experience from Humans and Nonhumans: 5%

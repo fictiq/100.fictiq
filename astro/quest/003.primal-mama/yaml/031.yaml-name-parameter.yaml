@@ -1,0 +1,248 @@
+
+#  Story World Codex: Quest Profile - Primal Mama
+world: Primal Mama
+codex_version_quest: 0 .1
+quest_title: Gator Bait and Switch
+last_updated: "[Current Date]"
+designer_s: "[ Your Name/Studio Name] (Inspired by Lead Architect's Codex)"
+
+introduction:
+  title: A Tangled  Tail in the Bayou
+  content: >
+    This quest, "Gator Bait and Switch," is designed to  immerse the player
+    in the unique socio-economic and technological landscape of Primal Mama,
+    specifically the struggles  of mom-and-pop alligator operations against
+    larger, more predatory entities within the retro-futuristic,
+    bayou -infused setting of Lickskillet. It leverages established
+    modalities (Alethic, Deontic , Axiological, Epistemic) to ensure
+    coherence with the world's internal logic.
+
+quest _overview:
+  quest_giver: Maude "Mama" Clementine
+  locations:
+    - Clementine Gator  Farm (outskirts of Lickskillet)
+    - Lickskillet Black Market (optional)
+     - Old Man Tiber's Bayou Shack (optional)
+  suggested_player_level: "5-8  (assuming a level progression system)"
+  core_conflict: Economic sabotage and technological mystery.
+  themes: Survival  of the small operator, technological obsolescence/idiosyncrasy, corporate greed, bayou ingenuity.
+  summary: > 
+    Maude Clementine's prize genetically engineered (GE) breeding alligator,
+    "Burt Reynolds the  Second," has suddenly become lethargic and its
+    solar-intake panels are malfunctioning, displaying bizarre error codes 
+    on its 1970s-style diagnostic console. Maude suspects foul play by the
+     encroaching Bayou Meat Packers Inc. (BMP Inc.), who have been trying
+    to buy her out. The  player must investigate the malfunction, determine
+    if it's sabotage or a genuine (if strange) technical failure,  and
+    potentially find a way to fix Burt II.
+
+quest_objectives_walkthrough:
+  - objective_ title: Meet Maude Clementine
+    trigger: >
+      Player enters Lickskillet and hears rumors of Maude 's troubles,
+      or approaches the Clementine Gator Farm directly.
+    details: >
+      Maude  is a weathered, resilient woman in her late 50s, fiercely
+      protective of her small farm. She  explains the situation with Burt II,
+      her prize solar-powered GE gator, and her suspicions of BMP Inc.
+     dialogue_hooks:
+      - "Danged ol' BMP Inc. thinks they can run us small folk outta  business, by Burt Reynolds' ghost, they got another thing comin'!"
+      - "This newfangled  GE stuff is a blessing and a curse. Works like a charm 'til it don't, and then tryin ' to fix it with these old-timey readouts... it's enough to make a preacher cuss." 
+
+  - objective_title: Investigate Burt Reynolds the Second
+    details:
+      summary: The player examines  the massive GE alligator.
+      physical_check: Burt II is indeed lethargic, his scales dull.
+       technological_check:
+        # Original MD Key: Technological Check (1970s Aesthetic Constraint)
+         description: >
+          The main control panel on Burt II's harnessing rig is pure late 1970 s:
+          chunky buttons, wood paneling, analog-style readouts (even for complex
+          genetic  data). The error codes are cryptic (e.g., "ERROR 74-B: SOLAR FLUX CAP ACITANCE IMBALANCE - CHECK AUXILIARY SUN-SYNCHRONIZER").
+        note_aesthetic_ constraint: "1970s Aesthetic Constraint applied"
+      perception_skill_check:
+        # Original MD  Key: Witcher Senses (or equivalent perception skill)
+        findings:
+          - "Detects an unusual, faint energy signature  from a specific access port on the solar panel array, hidden beneath a poorly-fitted faux-wood panel."
+           - "May detect faint traces of unfamiliar swamp mud/residue near the panel, not typical of Maude's  farm."
+    relevant_modalities:
+      - "Alethic (Alligator Biogenesis): Burt II's  solar energy absorption capabilities are established."
+      - "Alethic (Technological Aesthetic Constraint): The diagnostic console * must* conform."
+
+  - objective_title: Diagnose the Malfunction
+    details:
+      summary: Opening  the suspect access port reveals the problem.
+      discovery: >
+        A small, modern-looking (i.e.,  NOT 1970s aesthetic) micro-regulator
+        has been crudely spliced into the solar panel 's power distribution unit.
+        It's clearly out of place and seems to be causing an overload or interference .
+      knowledge_check:
+        # Original MD Key: Knowledge Check (Technical Skill or Epistemic link) 
+        description: >
+          A player with technical skills, or access to someone with such knowledge,
+          might  recognize the micro-regulator as a deliberate sabotage device,
+          designed to look like a jury-rigged repair but actually  meant to disable.
+          The 1970s console wouldn't be able to properly diagnose this foreign
+          component , hence the cryptic errors.
+    relevant_modalities:
+      - "Alethic (Technological Aesthetic Constraint):  The foreign part violates this, making it stand out."
+      - "Epistemic (Technical Knowledge): Specialized knowledge  is needed to understand the advanced biotech vs. retro-tech interface."
+
+  - objective_title: "Find a Replacement Part  OR a Way to Bypass/Remove the Sabotage"
+    path_a:
+      title: "Replacement Part  (1970s Compliant)"
+      details: Maude doesn't have a spare "Sun-Synchronizer"  module that the console *thinks* is faulty.
+      leads:
+        - >
+          Ask around L ickskillet: A seedy tech-scrapper in the market might
+          have old GE gator parts.  (Social interaction, potential bartering/cost).
+        - >
+          Old Man Tiber: A reclusive ex -bio-engineer living deep in the bayou,
+          rumored to tinker with pre-calamity and  early post-calamity tech.
+          Might have parts or knowledge. (Exploration, potential danger from
+           swamp creatures/Swamp Witches).
+    path_b:
+      title: "Bypass/ Remove (Technical Skill)"
+      details: >
+        A skilled player might attempt to carefully remove the sabotaging
+         micro-regulator and re-wire the original 1970s-style components.
+      challenge : >
+        Requires a good technical skill check. Failure could further damage
+        Burt II or alert the sab oteurs. The 1970s components might be finicky.
+    optional_complication:
+       # Original MD Key: Optional Complication (Epistemic/Social)
+      description: >
+        If the  player uses an Automaton/LLM to diagnose or find info,
+        they might suffer the "stain on their reputation"  if observed by
+        Maude or other Lickskillet locals. Maude might comment, "Heard tell 
+        them thinkin' machines ain't to be trusted, son. Hope you know what
+        you' re doin'."
+    relevant_modalities:
+      - "Axiological (Autonomy vs. Automation)" #  No colon in value
+      - "Deontic (Automaton/LLM User Stigma)" # No colon in  value
+
+  - objective_title: "Confront the Evidence (Optional, leads to different outcomes)"
+    details : >
+      The foreign micro-regulator might have a barely visible manufacturer's
+      mark, traceable to  a shell company for BMP Inc.
+    investigation_paths:
+      - Checking Lickskillet shipping manifests  (if accessible).
+      - >
+        Interrogating a disgruntled BMP Inc. employee (low-level,  perhaps
+        found drinking his sorrows away).
+      - >
+        Consulting an Erpenthrope truth-seeker (if  the player has such a
+        contact) who might have observed BMP Inc.'s covert activities.
+        (Interaction  with unique entity type).
+    relevant_modalities:
+      - "Epistemic (Erpenthrope  Knowledge)" # No colon in value
+      - "Deontic (Friction from meat oligarchy)" # No colon in value 
+
+  - objective_title: Repair Burt Reynolds the Second
+    details: Install the replacement part or successfully complete the bypass.
+     outcome: >
+      Burt II's solar panels hum back to life, his eyes brighten, and he lets
+       out a (relatively) contented bellow. The 1970s console now shows
+      "SYSTEM NOMINAL  - ALL HAIL BURT!" (a little custom Easter egg Maude programmed).
+
+  - objective_title: Report to Ma ude Clementine
+    details: Maude is overjoyed.
+    player_choices_consequences:
+      -  choice: "Just fix it, no accusations"
+        consequence: Maude is grateful, pays a modest reward . She remains wary.
+      - choice: "Present evidence of BMP Inc. sabotage - Weak evidence"
+        consequence:  >
+          Maude is scared, pays a slightly better reward but urges caution.
+          BMP Inc. might send goons to  intimidate Maude or the player later.
+      - choice: "Present evidence of BMP Inc. sabotage - Strong evidence  (player makes it public)"
+        consequence: >
+          Maude is emboldened. Lickskillet might rally  (briefly) against
+          BMP Inc. BMP Inc. retaliates more severely – perhaps a direct attack
+          on the  farm, or attempts to discredit the player. This could lead
+          to a follow-up quest.
+      - choice:  "Present evidence of BMP Inc. sabotage - Strong evidence (player advises Maude to use it carefully)"
+        con sequence: >
+          Maude uses the info as leverage, gaining a temporary reprieve from
+          BMP Inc. harassment . Player gets a good reward.
+    relevant_modalities:
+      - "Axiological (Autonomy, Independence)"  # No colon in value
+      - "Deontic (Cattle Consumption Prohibition) indirectly – Maude might say , \"Least it ain't like we're tryin' to eat no damn cow, that'd bring  the real fire down on us!\""
+
+key_npcs_entities:
+  - entity_name: Maude  "Mama" Clementine
+    entity_type: "Person (Quest Giver, Ally)"
+    core_ function: Initiate quest, provide local context, represent "mom-and-pop" struggle.
+    key_capabilities: Oper ates Clementine Gator Farm, basic 1970s-style tech maintenance knowledge (within limits), resilience.
+     vulnerabilities: Economically pressured by BMP Inc., protective of Burt II.
+    axiological_driver: "Independence , survival of her farm, affection for Burt II (as a valuable asset and almost a pet)."
+
+  - entity _name: Burt Reynolds the Second
+    entity_type: "Creature (GE Alligator - Objective/MacGuffin )"
+    core_function: Subject of sabotage, key to Clementine farm's viability.
+    authenticated_properties: Solar -powered, genetically engineered for breeding, interfaces with 1970s-aesthetic console.
+    malfunctioning _state: Lethargy, non-functional solar panels, cryptic error codes.
+
+  - entity_name: " Bayou Meat Packers Inc. (BMP Inc.) Agent/Saboteur"
+    entity_type: "Person (Antagonist -  Indirect/Potential Direct)"
+    core_function: Implement sabotage, represent corporate threat, potential combat encounter.
+     key_capabilities: Access to non-standard tech (sabotage device), stealth/infiltration (to plant device).
+     limitations: Likely low-level, expendable by BMP Inc.
+    deontic_driver: Following  BMP Inc. orders for profit/job security.
+
+  - entity_name: "Sabotage Device (Micro-reg ulator)"
+    entity_type: "Object (Clue, Plot Device)"
+    core_function: Cause  malfunction in Burt II, serve as evidence of foul play.
+    authenticated_properties: Advanced (non-1970s  aesthetic) technology, designed to disrupt solar energy flow when spliced into older system.
+    narrative_function: Highlights  tech disparity, acts as a key piece of evidence.
+
+  - entity_name: Silas Blackwood (Optional Erpenthrope  Informant)
+    entity_type: "Person (Erpenthrope - Optional Ally/Information Source)"
+    core_ function: Provide esoteric or hidden information regarding BMP Inc. or advanced tech.
+    authenticated_properties: Truth-seeker , near-immortal (possesses historical/deep knowledge), can transform.
+    interaction: May require specific persuasion, payment , or completion of a minor task for him. Values truth above Lickskillet politics but dislikes corporate bullies.
+
+ potential_challenges_obstacles:
+  - "Technical Skill Checks: Diagnosing the 1970s console, identifying the  foreign part, attempting a bypass."
+  - "Social Skill Checks: Convincing tech-scrappers to sell  parts cheaply, getting information from Tiber or Silas, dealing with BMP Inc. goons non-lethally."
+  - " Combat (Optional): Swamp creatures en route to Tiber, BMP Inc. goons if player is discovered or makes accusations public."
+   - "Resource Management: Cost of replacement parts, payment for information."
+  - "Environmental Hazards: Navigating  the bayou to find Tiber."
+
+rewards:
+  currency: Based on player choices and Maude's gratitude .
+  items:
+    - "Unique 1970s-style gator-themed weapon or  armor piece (e.g., \"Maude's Lucky Wrench,\" \"Jeb's Reinforced Overalls \")."
+    - GE Alligator components (valuable for crafting).
+    - Rare herbs or alchemical  ingredients from Old Man Tiber.
+  reputation:
+    - Increased standing in Lickskillet if BMP Inc. is exposed /rebuffed.
+    - Negative attention from BMP Inc.
+  information: Leads to further quests against BMP Inc., or  knowledge about Erpenthropes if Silas is involved.
+  xp: Details to be determined based on game system. 
+
+world_coherence_notes:
+  alethic_modalities:
+    - "The entire premise  relies on `Alligator Biogenesis` and `Solar Dominance`."
+    - "The `Technological Aesthetic  Constraint` is central to the mystery and diagnostic challenge."
+    - "The potential involvement of an Erpenthrope  (`Erpenthropic Transformation` and their truth-seeking nature) provides an optional layer."
+  deontic _modalities:
+    - "The \"friction\" from the `meat processor oligarchy` (BMP Inc.) is the  primary antagonistic force."
+    - "The `Automaton/LLM User Stigma` can be a minor social  consequence for the player."
+    - "This quest avoids the `Cattle Consumption Prohibition` directly but exists within its societal  shadow (alligator meat is the norm)."
+  axiological_modalities:
+    - "`Alligator Meat`  (and by extension, healthy GE gators) is highly valued."
+    - "The `Late 19 70s Aesthetic` for tech is a key cultural and diagnostic element."
+    - "`Autonomy vs. Automation ` is touched upon with the Automaton/LLM stigma."
+    - "Maude's farm embodies values of `independence ` and `self-reliance`."
+    - "The naming of Burt Reynolds the Second reflects `Deified Celebrities` ."
+  epistemic_modalities:
+    - "`Technical Knowledge` (or lack thereof regarding the mixed  tech) is crucial."
+    - "`Erpenthrope Knowledge` (via Silas) can offer hidden insights." 
+    - "The \"official narrative\" of a simple malfunction could be challenged by the player's findings, echoing the broader theme  of `obscured truths` in Primal Mama."
+  historical_temporal_coherence:
+    - " The reliance on GE alligators is a direct result of the `post-biological calamity` state."
+    - " The 1970s tech aesthetic is a `consistent historical layer` affecting current technology."
+  synchronic _coherence:
+    - "The quest demonstrates the `Entity Properties vs. World Laws` (GE gators function by  solar power but are diagnosed via retro tech)."
+    - "Maude's actions (seeking help) are plausible  given her `resources and social standing` against the oligarchy."
+    - "The `coexistence of advanced biotech and limited computational /digital tech` (implied by 1970s aesthetic and LLM stigma) is a core challenge ."

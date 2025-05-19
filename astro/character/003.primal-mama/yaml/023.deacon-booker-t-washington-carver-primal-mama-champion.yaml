@@ -1,0 +1,167 @@
+
+world: "Primal Mama"
+codex_ version: "0.2 - Character Constitution (Deacon Booker)"
+last_updated: "[Current Date]"
+ lead_architects: "[Your Name/Studio Name]"
+
+character_profile:
+  entity_id: "CHAR_ DeaconBooker_01"
+  character_name: "Deacon Booker T. Washington Carver (often  called \"Deacon Book\" or just \"The Deacon\")"
+  entity_type: "Person (Human)" 
+  archetype: "Charismatic Community Leader / Principled Rebel / Folk Hero"
+  primary_authentication_sources:
+     - "This Codex Entry"
+    - "Primal Mama Coherence Protocol v0.1"
+    - "Narr ative Outline: Lickskillet Uprising Arc" # This value contains a colon
+  canon_tier: " Tier 1"
+  authentication_status: "Authenticated_Canonical_Active"
+
+  authenticated_property_bundle :
+    Physical_Properties:
+      Appearance_General:
+        value: "Tall, powerfully built man of  African descent, early 50s, with a commanding presence. Weather-beaten skin from years in the swamp  sun."
+        auth: "Primal Mama Visual Guide Sketch #DB01"
+      Appearance_Specific_Features:
+         value: "Broad face, kind but determined dark eyes, a short, neatly-trimmed grey-flecked beard  and afro. Smile lines around eyes and mouth that deepen when he speaks to his community."
+        auth: "Narr ative Description Intro Scene - Lickskillet"
+      Appearance_Distinctive_Marks:
+        value: " A faded, jagged scar on his left forearm from a \"disagreement\" with a wild gator in his youth. W ears a necklace made of polished alligator teeth and a small, surprisingly intricate solar-charged Burt Reynolds amulet."
+        auth: " Character Detail Sheet"
+      Typical_Attire:
+        value: "Durable denim overalls (often patched with bright  70s floral or geometric fabric) over a simple work shirt, heavy-duty swamp boots. Sometimes a wide-br immed straw hat woven with colorful plastic strips. His \"formal\" attire for community meetings includes a well-kept, dark  brown corduroy jacket with wide lapels."
+        auth: "Visual Guide / Narrative Desc."
+      Voice_Speech_ Pattern:
+        value: "Deep, resonant baritone that carries easily without shouting. Speaks with a calm, measured  cadence, often incorporating folksy wisdom and subtle references to the Deified Trio's \"teachings\" (e. g., \"Like the Bandit says, we got a long way to go, and a short time to get there!\ "). Can shift to fiery oratory when rousing the community."
+        auth: "Dialogue Snippets - Lickskillet U prising Arc"
+      Gait_Mannerisms:
+        value: "Walks with a sure-footed , deliberate pace. Uses broad, open hand gestures when speaking publicly. Has a habit of resting a hand on his custom-modded  airboat, \"The Preacher,\" which features wood paneling and an 8-track player."
+        auth: "Action  Description - Community Rally"
+      Associated_Scent:
+        value: "Sun-baked earth, alligator musk, hint  of sweetgrass and engine oil."
+        auth: "Sensory Palette - Lickskillet"
+      Unders aturation_Notes: "Exact height/weight, specific brand of boots, full details of non-scar tattoos if any ."
+
+    Functional_Properties:
+      Skill_Master_Alligator_Husbandry:
+        value:  "Master Alligator Husbandry (GE and Wild Stock – a Lickskillet specialty). Includes knowledge of solar charging needs for  GE gators and traditional swamp hunting techniques."
+        auth: "Demonstrated Actions in \"Gator Harvest\" sequence"
+       Skill_Persuasive_Oratory_Community_Organizing:
+        value: "Persuasive Oratory  & Community Organizing (Core Skill). Can rally disparate mom-and-pop operators."
+        auth: "Narrative  Depiction - Town Hall Meeting"
+      Skill_Proficient_Airboat_Operation_Basic_Mechanics: 
+        value: "Proficient Airboat Operation & Basic Mechanics (1970s aesthetic tech; can coax  life out of aging solar converters and analog guidance systems)."
+        auth: "Chase Scene - Bayou Pursuit"
+      Skill_Compet ent_Firearms_Use:
+        value: "Competent with common firearms (shotguns, hunting rifles –  per \"outside Beetriot\" gun pride norms). Not a gunslinger, but a capable defender."
+        auth: " Skirmish with Oligarchy Enforcers"
+      Ability_Situational_Swamp_Knowledge:
+        value:  "Deep knowledge of local swamp geography and its hazards/resources, including safe navigation through shifting bayous and awareness of Swamp  Witch territories (to be avoided or respectfully navigated around)."
+        auth: "Narrative - \"Escape through the M iasma Marsh\""
+      Limitation_Resources:
+        value: "Operates with limited financial and material resources compared  to the meat oligarchy."
+        auth: "Plot Point - Struggle for Supplies"
+      Limitation_Influence:
+         value: "Lacks formal political power or influence within Beetriot's elite circles."
+        auth: "Narr ative Contrast - Beetriot Council Scene"
+      Limitation_Technology_Distrust:
+        value: "Dist rusts and refuses to use Automatons/LLMs, adhering to the cultural stigma and valuing human skill/judgment.  This can hinder information gathering or large-scale coordination efforts compared to the oligarchy."
+        auth: "Dialogue -  \"A man's work, not a machine's.\""
+      Undersaturation_Notes: "Advanced  genetic engineering knowledge; ability to perform complex ritual magic; skill with exotic weaponry."
+
+    Psychological_Properties:
+      Core _Trait_Principled_Incorruptible:
+        value: "Deeply Principled & Incorruptible" 
+        auth: "Rejection of Oligarchy Bribe Scene"
+      Core_Trait_Charismatic_Empat hetic:
+        value: "Charismatic & Empathetic (towards his community)"
+        auth: "Inter actions with struggling families in Lickskillet"
+      Core_Trait_Resilient_Patiently_Determined:
+         value: "Resilient & Patiently Determined (knows change is slow)"
+        auth: "Internal Monologue during setbacks" 
+      Dominant_Emotion_Protective_Warmth_Righteous_Indignation:
+        value: "Protective Warm th (for his people) / Righteous Indignation (towards injustice)"
+        auth: "Narrator Descriptions during  speeches"
+      Key_Motivator_Fair_Treatment_Livelihood:
+        value: "Ensuring fair  treatment and sustainable livelihood for Lickskillet's independent alligator farmers/processors against the encroachment of the meat oligarchy."
+         auth: "Explicit Statements / Plot Driver"
+      Key_Belief_Community_Self_Reliance_Swamp_Provides :
+        value: "Believes in the strength of community, self-reliance, and that \"the swamp provides  for those who respect it and each other.\" Sees the Deified Trio as embodying ideals of freedom and clever defiance."
+         auth: "Speeches, private reflections"
+      Key_Belief_Death_By_Burger_Law:
+        value : "Views the \"death by burger\" law not just as a rule, but a foundational pillar of their post-Calam ity identity, a necessary sacrifice that binds them. Cattle artifacts are a symbol of a past they *must not* return  to for survival's sake."
+        auth: "Discussion about cultural laws"
+      Internal_Conflict_Leadership _Vs_Simple_Life:
+        value: "The burden of leadership vs. desire for a simpler life; The  need for direct action vs. the risk to his people; Maintaining hope amidst oligarchy pressure."
+        auth: " Internal Monologue, difficult choices depicted"
+      Subjective_Memory_Content:
+        value: "Clear memories of Lick skillet's development post-Calamity, the early days of GE gator farming, and the gradual rise of  the meat oligarchy's \"friction.\" Remembers stories from elders about the immediate Calamity aftermath."
+         auth: "Reminiscences in dialogue"
+      Undersaturation_Notes: "Specific childhood traumas not directly relevant to his  current role; nuanced opinions on abstract art (unless it's 70s inspired!); deep-seated phob ias unrelated to Primal Mama threats."
+
+    Social_Relational_Categorical_Properties:
+      Official_Role:
+         value: "None formally recognized by Beetriot. Unofficial Elder/Spokesperson for the Lickskillet Independent  Gator Producers' Cooperative (LIGPC) – a body he helped found."
+        auth: "Narrative Description"
+       Social_Status:
+        value: "Highly respected and trusted figure within Lickskillet and surrounding swamp communities;  seen as a pariah or dangerous radical by the meat oligarchy and their Beetriot allies."
+        auth: "Character interactions,  Oligarchy reports"
+      Primary_Affiliation:
+        value: "Lickskillet community; LIGPC." 
+        auth: "Role"
+      Secondary_Affiliations:
+        value: "Loose network of sympathizers  in other swamp settlements; respectful but distant acquaintance with certain isolated Erpenthropes who share a disdain for the oligarchy 's exploitation."
+        auth: "Narrative events, overheard conversations"
+      Key_Relationship_1_ Mama_Roulade:
+        value: "To \"Mama Roulade\" (Elderly Swamp Witch): C autious respect and occasional barter for rare herbs or swamp knowledge. Avoids her \"vampire bunny\" business." 
+        auth: "Scene - Seeking counsel on unusual gator sickness"
+      Key_Relationship_2_Sil as_Slim_Perkins:
+        value: "To \"Silas 'Slim' Perkins\" (Young, hot -headed gator farmer): Mentor figure, trying to temper Slim's recklessness."
+        auth: "Dialogue /Actions"
+      Key_Relationship_3_The_Baron:
+        value: "To \"The  Baron\" (Oligarchy Enforcer): Primary antagonist, representing the oppressive force Deacon Book fights against."
+        auth:  "Confrontation scenes"
+      Species_Type:
+        value: "Human (Post-Calamity  Strain)"
+        auth: "Default/Description"
+      Undersaturation_Notes: "Details of extended family  not directly involved in the struggle; casual friendships outside the LIGPC."
+
+    Modal_Properties:
+      Property_ID : "N/A"
+      Property: "None authenticated."
+      Description: "Deacon Booker T.  Washington Carver operates fully under the established physical, biological, and societal rules of Primal Mama. His influence stems from his  character and actions, not inherent supernatural abilities beyond the norm (e.g., he cannot transform or inherently perceive ghosts without  ritual)."
+      Limits: "N/A"
+      Authentication: "Consistent portrayal as a baseline human within Pr imal Mama's context."
+      Notes: "His \"champion\" status is achieved, not an innate modal property ."
+
+    Axiological_Properties:
+      Reputation_Lickskillet_Independents:
+        value:  "Authenticated as a 'Man of the People', 'Our Voice', 'The Deacon of Deeds', 'Unshakeable'. His  word is trusted implicitly by many."
+        auth: "Community dialogue, rally chants"
+      Reputation_Meat_ Oligarchy:
+        value: "Authenticated as 'Agitator', 'Seditionist', 'Threat to Order and  Progress', 'Swamp Rat Ringleader'. Actively targeted for suppression."
+        auth: "Oligarchy internal memos/ dialogue"
+      Reputation_Beetriot_General_Populace:
+        value: "Likely  unknown or dismissed as a distant, irrelevant troublemaker by those insulated from the gator industry's ground-level realities ."
+        auth: "Implied by Beetriot's detachment"
+      Moral_Alignment_Narrative_Framing :
+        value: "Authenticated via narrative focus as a moral center, embodying justice, community, and resilience against oppressive forces. His  adherence to the 1970s aesthetic is portrayed as authentic and connected to core values of craft and human ingenuity, not  Luddism."
+        auth: "Narrator tone, plot outcomes favoring his efforts"
+      Undersaturation_ Notes: "Reputation among specific Erpenthrope factions or more distant swamp communities unfamiliar with Lickskillet' s direct struggles."
+
+    Historical_Properties:
+      Origin:
+        value: "Authenticated as born and raised  in the Lickskillet region in the decades following the Biological Calamity. Son of one of the first families to  successfully farm GE alligators after the cattle consumption prohibition."
+        auth: "Dialogue referencing family history, local elder testimony"
+       Key_Past_Event_Connection:
+        value: "Witnessed firsthand the consolidation of power by the meat oligarchy and  the \"friction\" that squeezed out many smaller, independent operators. A specific event, \"The Bayou Bend Buyout,\"  where a neighboring co-op was forcibly dismantled, is authenticated as a catalyst for his activism."
+        auth: "Flash back sequence / Recollection in dialogue"
+      Inherited_Items:
+        value: "Authenticated to possess his father's  original, hand-tooled leather-bound manual on \"Solar Gator Husbandry (Mk I - 70's Edition )\" and a lucky fishing lure blessed by Jerry Reed (according to family legend)."
+        auth: "Narrative inventory,  character reflection"
+      Undersaturation_Notes: "Precise details of his early education; specifics of his parents ' lives beyond their pioneering role; youthful romances not impacting his current mission."
+
+  character_constitution_summary_and _narrative_function:
+    Core_Essence: "Deacon Booker T. Washington Carver is constituted as the resilient  heart and voice of Primal Mama's common folk, specifically those in Lickskillet struggling against the dehumanizing pressures  of the meat oligarchy. His identity is forged from a deep connection to his community, the practical realities of alligator farming  (embracing the 1970s tech aesthetic as a mark of skilled human endeavor), and a profound, lived spirituality centered  on the Deified Trio's perceived virtues of independence and defiance. He is a man whose Physical strength, Functional capabilities (oratory , gator lore), and Psychological fortitude (principled, empathetic) are all directed towards his Social role as a protector  and leader. His rejection of Automatons/LLMs is not just cultural stigma but an axiological stance on the value of human  work and community."
+    Primary_Narrative_Function: "To serve as a primary protagonist or major supporting protagonist representing the  \"people's struggle\" against systemic oppression (the meat oligarchy). He embodies the positive values of community, self-reliance , and adaptation within Primal Mama's unique constraints. He can drive plots related to social justice, economic warfare, and the  preservation of cultural identity."
+    Key_Internal_Conflicts_From_Bundle: "The constant pressure of leading a vulnerable community against  a powerful foe. The moral dilemma of when peaceful resistance must give way to more direct confrontation. Balancing his hope for the future  with the often grim realities of the present. His respect for tradition (including the cattle taboo) clashing with the olig archy's attempts to redefine or exploit all resources."
+    Potential_for_Development_Based_on_Bundle : "Forging wider alliances (perhaps even with distrusted Erpenthropes or sympathetic Beetriot outsiders). Being  forced to make increasingly difficult choices that test his principles. Inspiring a larger-scale movement or, conversely, facing devastating  setbacks that challenge his resilience. His relationship with the Deified Trio's lore could deepen, finding new interpretations relevant to his struggle." 

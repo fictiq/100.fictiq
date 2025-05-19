@@ -1,0 +1,166 @@
+
+world: Primal Mama 
+codex_version: "0.2 - Character Constitution (Jebediah Dubois)"
+last_updated: "[ Current Date]"
+lead_architects: "[Your Name/Studio Name]"
+
+character_profile:
+  entity_id : CHAR_JebDubois_01
+  character_name: 'Jebediah "Jeb" Dubois '
+  entity_type: Person
+  archetype: "The Ruined Homesteader / The Dispossessed Worker"
+   primary_authentication_sources: "This Codex Entry, Primal Mama Coherence Protocol v0.1"
+   canon_tier: "Tier 2 (Significant Supporting Character)"
+  authentication_status: Authenticated_Canonical_ Active
+
+authenticated_property_bundle:
+  physical_properties:
+    appearance_general:
+      value: "Male,  late 50s, with strong, weathered African features. Once powerfully built from years of swamp work, now carries himself with  a slump, frame thinned by hardship."
+      auth: "Primal Mama Visual Palette - Lickskillet  Denizens"
+    appearance_specific_features:
+      value: "Rich dark skin, flecked with  lighter patches from sun and swamp exposure. Deep-set, tired brown eyes. A once-full beard and close- cropped hair are now heavily streaked with grey, almost white at the temples. Prominent brow and a broad, slightly  flattened nose."
+      auth: "Narrative Description Concept"
+    appearance_distinctive_marks:
+       value: "A long, jagged scar runs from his left temple down his cheek, partially obscured by his beard – a  souvenir from a 'gator that got too close. His right hand is gnarled, fingers permanently crooked from a  poorly healed break – an \"accident\" at the Consolidated GatorCorp processing line."
+      auth: "Backstory Event  Link"
+    typical_attire:
+      value: "Faded, patched-up canvas overalls (once  a vibrant bayou-brown, now sun-bleached and stained), worn over a threadbare, dark-colored thermal shirt . Heavy, cracked rubber boots, perpetually caked in dried mud. Sometimes wears a wide-brimmed hat made  of woven swamp reeds, frayed at the edges."
+      auth: "Primal Mama Coherence - Lickskillet Common Att ire"
+    voice_speech_pattern:
+      value: "Deep baritone, once resonant with laughter and  confidence, now often quiet, laced with a weary bitterness. Speaks with a distinct Lickskillet bayou drawl . Prone to muttering prayers or curses under his breath to \"Smokey\" (Burt Reynolds) or  \"The Snowman\" (Jerry Reed)."
+      auth: "Primal Mama Coherence - Deified Celebrities /  Regional Dialects"
+    gait_mannerisms:
+      value: "Slow, deliberate movements, favoring his  right side due to the hand injury. Often stares off into the middle distance, lost in thought. Wrings his good  hand when agitated. Once had a proud, upright posture; now walks with his shoulders hunched."
+      auth:  "Observation Notes"
+    associated_scent:
+      value: "Swamp mud, stale sweat, alligator  musk (faintly, from past life), and the faint, acrid smell of industrial cleaning agents from his brief, disastrous stint  at the processing plant."
+      auth: "Sensory Palette - Lickskillet"
+    physical_unders aturation: "Exact height/weight, specific childhood illnesses, detailed dental records."
+
+  functional_properties:
+    skill_former _trapper:
+      value: "Expert Alligator Trapper & Skinner (Pre-Injury). Knew the  deep swamp routes like the back of his (once good) hand."
+      auth: "Backstory, Community Knowledge "
+    skill_former_mechanic:
+      value: "Proficient in maintaining and repairing 19 70s-aesthetic outboard motors and small-scale solar chargers for his skiff and trapping equipment."
+      auth : "Primal Mama Coherence - Tech Aesthetic & Solar Dominance"
+    skill_vestigial_her balist:
+      value: "Deep knowledge of swamp flora/fauna, including medicinal herbs (though less relevant  now without resources)."
+      auth: "Cultural Knowledge - Lickskillet"
+    limitation_physical: 
+      value: "Mangled right hand severely limits manual labor, especially tasks requiring grip strength or fine motor skills like  skinning or engine repair. Chronic back pain from past labor and recent \"accidents\"."
+      auth: "Physical Property Link "
+    limitation_knowledge:
+      value: "Lacks understanding of Beetriot's complex legal or financial systems  that were used against him. Unaware of the true extent of the meat oligarchy's influence until it was too  late."
+      auth: "Primal Mama Coherence - Deontic/Epistemic Disparities" 
+    limitation_social_economic:
+      value: "No capital, no equipment, reputation smeared by Consolidated GatorCorp (\" unreliable,\" \"prone to accidents\"). Lives on the fringes of Lickskillet society, relying on meagre charity or scavenging." 
+      auth: "Current Situation"
+    limitation_technological:
+      value: "Distrustful  and unskilled with Automatons/LLMs, even if they weren't stigmatized; his world was hands-on ."
+      auth: "Primal Mama Coherence - Automaton Stigma"
+    functional_undersaturation:  "Ability to swim long distances; skill with firearms (likely owned one, as per regional norms, but current status unknown); literacy level ."
+
+  psychological_properties:
+    core_trait_resentment:
+      value: "Resentment (towards  Consolidated GatorCorp and the elite)."
+      auth: "Dialogue, Internal Monologue Snippets"
+    core_ trait_grief:
+      value: "Deep-seated Grief (for his lost way of life, his independence , and perhaps lost family/friends due to his downfall)."
+      auth: "Emotional Displays, Narrative Tone"
+     core_trait_suppressed_pride:
+      value: "Lingering Pride (in his past skills  and self-sufficiency, making his current state more painful)."
+      auth: "Flashbacks, Occasional Defiant  Remarks"
+    dominant_emotion:
+      value: "Apathy mixed with simmering anger and despair."
+       auth: "Behavioral Patterns"
+    key_motivator_past:
+      value: "To be a  respected, self-sufficient provider; to live in harmony with the swamp's bounty."
+      auth: "Back story"
+    key_motivator_present:
+      value: "Day-to-day survival. A  faint, almost extinguished hope for some form of justice or for someone to expose the truth about what happened to him and others  like him."
+      auth: "Internal Desires"
+    key_belief_former:
+      value:  "\"The swamp provides for those who respect it and work hard.\" \"A man's got a right to make his  own way.\" Belief in the fairness of the 'old gods' like Burt Reynolds."
+      auth: "Primal Mama Axiology  - Lickskillet Values"
+    key_belief_current:
+      value: "\"The whole damn system 's rigged by them Beetriot fat-cats and their GatorCorp cronies.\" \"Even the spirits of the swamp can't  protect you from greed.\" Questions his faith in the deified celebrities."
+      auth: "Dialogue, Cynical Outlook "
+    internal_conflict:
+      value: "Desire for retribution vs. Crippling fear of further harm from the  oligarchy. Pride preventing him from asking for help vs. Desperate need. Memory of his capable past vs. Incapac itated present."
+      auth: "Narrative Tension"
+    subjective_memory_content:
+      value : 'Vivid, often idealized memories of his life as an independent trapper: the smell of dawn on the bayou,  the fight of a big gator, the satisfaction of a good haul. Contrasted with sharp, traumatic memories of the  Consolidated GatorCorp "takeover" – veiled threats, sabotaged equipment, the "accident" that crippled his hand,  the smug look on the face of the local GatorCorp enforcer.'
+      auth: "Narrative Depiction" 
+    psychological_undersaturation: "Specific nature of his relationship with the deified celebrities beyond general reverence/disappointment ; full details of family life before his ruin; specific fears beyond the oligarchy (e.g., of vampire bunnies, specific ghosts )."
+
+  social_relational_categorical_properties:
+    official_role:
+      value: "None. Formerly ' Independent Alligator Harvester'. Briefly 'Processing Line Worker, Grade F' at Consolidated GatorCorp."
+      auth: "Back story, World Employment Structure"
+    social_status:
+      value: "Outcast. Pariah in some  circles (those afraid of or allied with GatorCorp). Object of pity in others. Socially invisible to Beetriot elite."
+       auth: "Interactions, Narrative Framing"
+    primary_affiliation:
+      value: "None. Formerly  strong ties to the Lickskillet independent harvester community."
+      auth: "Backstory"
+    secondary_affiliations :
+      value: "Loosely connected to other dispossessed individuals in Lickskillet's shant ytown fringes. May seek solace at a rundown shrine to Gram Parsons, sharing cheap booze with other lost souls."
+       auth: "Narrative Potential, Primal Mama Axiology"
+    key_relationships:
+      - name : "Consolidated GatorCorp (Local Manager/Enforcer, e.g., 'Boss Finnigan')"
+        description : "Antagonistic. Finnigan is the face of Jeb's ruin, embodying the oligarchy's ruthless  efficiency."
+        auth: "Plot Driver"
+      - name: "'Mama Agnes' (elderly, wise -woman type in Lickskillet, perhaps with minor Swamp Witch leanings)"
+        description: "She offers occasional  cryptic advice or a bowl of 'gator tail stew, one of the few who shows him kindness, though perhaps fears  direct association."
+        auth: "Potential Ally/Mentor Figure"
+      - name: "Memory of 'Sarah ' (wife/daughter, status: deceased/lost due to hardship)"
+        description: "A source of profound  grief and a symbol of everything he lost."
+        auth: "Internal Motivator, Backstory Element"
+     species_type:
+      value: "Human (Primal Mama Native - Lickskillet Strain)"
+       auth: "Default/Description"
+    social_undersaturation: "Specific names of former friends who now shun him ; any surviving distant family; his standing with local Erpenthropes (likely fear/avoidance)."
+
+  modal_ properties:
+    property_id: "N/A"
+    status: "None Authenticated."
+     description: "Jeb Dubois operates entirely under the established alethic, deontic, axiological, and epistemic modalities of Pr imal Mama. His victimhood is a result of these modalities being exploited by more powerful entities, not from any unique exception he  possesses."
+    authentication: "Absence of evidence for exceptional status; narrative portrays him as subject to, not an  exception to, world rules."
+
+  axiological_properties:
+    reputation_consolidated_gatorcorp :
+      value: "Authenticated as 'liability neutralized', 'example made', 'obsolete resource'."
+      auth : "Implied Corporate Memos/Attitudes"
+    reputation_lickskillet_populace:
+       value: "Varies. Some see him as 'tragic figure', 'victim of progress/greed'. Others  whisper he 'brought it on himself' or was 'lazy/inefficient' (GatorCorp propaganda). Children might see him as  a bogeyman or a sad, broken old man."
+      auth: "Community Dialogue/Interactions"
+     reputation_swamp_witches_fringe:
+      value: "Potentially seen as someone 'tou ched by misfortune', possibly vulnerable to their influence or, conversely, too broken to be of interest. Some may pity his loss  of connection to the 'true' swamp."
+      auth: "World Group Attitudes"
+    moral_alignment_ narrative_framing:
+      value: "Authenticated via narrative sympathy as a fundamentally good man wronged by systemic injustice  and corporate greed. His anger and bitterness are portrayed as justified reactions to his suffering."
+      auth: "Narrator Tone,  Plot Context"
+    axiological_undersaturation: "How the deified celebrities (or their 'priests') might view his  plight; reputation among Erpenthropes (if any interaction)."
+
+  historical_properties:
+    origin:
+       value: "Born and raised in the Lickskillet Delta region, several generations post-Calamity.  His family were among the first to adapt to alligator harvesting as a primary livelihood."
+      auth: "Local History Tro pe"
+    key_past_event_connection_gatorcorp_squeeze:
+      value: 'The "Consolidated  GatorCorp Squeeze" of Year ''78 (relative to current narrative timeline): A period where the meat oligarchy  systematically bankrupted, bought out, or violently suppressed independent alligator harvesters in the Lickskillet region. Jeb  was a prominent holdout and thus a primary target.'
+      auth: "Specific World Event"
+    key_ past_event_connection_personal_accident:
+      value: 'The "Accident" on the GatorCorp processing line:  Orchestrated event that permanently disabled his hand, ending his viability as both an independent and a corporate worker.'
+      auth : "Character-Specific Plot Point"
+    inherited_items:
+      value: "Lost his prized custom-built, solar -charged skiff 'The Bayou Queen'. May still possess a small, worn gator-tooth necklace, a gift  from Sarah, hidden away – his last link to his former life."
+      auth: "Narrative Detail"
+     historical_undersaturation: "Specifics of his ancestors' survival of the Biological Calamity; precise details of  his courtship/marriage to Sarah; his actions during any prior (smaller) conflicts or environmental events in the swamp."
+
+ character_constitution_summary_narrative_function:
+  core_essence: 'Jebediah Dubois is constituted as a  living testament to the brutal socio-economic realities of Primal Mama, specifically the crushing power of the meat oligarchy ( Consolidated GatorCorp) in places like Lickskillet. His Physical (mangled hand, weathered appearance), Functional (loss of  skills, inability to work), and Psychological (grief, resentment, broken pride) properties are direct consequences of his victim hood under the world''s Deontic (exploitative corporate practices) and Axiological (devaluation of independent labor)  systems. His history is one of decline from respected self-sufficiency to marginalized despair, a direct result of the "Consolidated GatorCorp  Squeeze." He is a man whose connection to the traditional, solar-powered, 1970s- aesthetic bayou life has been severed.'
+  primary_narrative_function: 'To serve as a poignant example of the human  cost of the oligarchy''s dominance; to provide a personal face to the "friction" mentioned in the Coherence Protocol ; to potentially act as a catalyst for other characters (e.g., inspiring pity, a desire for justice, or serving as  a cautionary tale); to embody the fading spirit of Lickskillet''s independent past; to potentially seek aid from  or offer crucial information to protagonists about the oligarchy''s methods or the swamp''s hidden dangers.'
+  key _internal_conflicts: 'Pride vs. Need (struggling to accept his fall and dependency); Hope vs. Despair  (a flicker of desire for justice against overwhelming odds); Memory of Strength vs. Reality of Weakness (the ghost of his former  self haunting his present incapacitation); Faith (in old ways/deities) vs. Bitter Disillusionment.'
+  potential _for_development: 'Finding a new, albeit different, purpose (e.g., storyteller, keeper of lost swamp lore);  becoming a reluctant voice for the downtrodden if galvanized; succumbing further to bitterness and becoming a tool for darker elements ; or finding a measure of peace/acceptance. His knowledge of old swamp ways (Functional/Historical) could become unexpectedly valuable .'

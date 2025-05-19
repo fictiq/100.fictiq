@@ -1,0 +1,362 @@
+Armor
+Armor helps keep a Witcher alive, while preferably being light and comfortable... or at not too uncomfortable. Armor is split into four parts-Armor, Boots, Gauntlets and Trousers.
+
+Armor	Required Ingredients	Level	Craftsman Requirements	Weight	Stats
+Angrenian Cuirass	Meteorite Ore x1
+Hardened Leather x3
+Linen x4
+Leather Straps x3
+Dark Steel Plate x2	16	Armorer/Journeyman	Medium	Armor: 107
+Resistance to Piercing Damage: 25%
+Resistance to Bludgeoning Damage: 25%
+Resistance to Slashing Damage: 35%
+Ard Skellige Aketon	
+Rope x2
+Hardened Leather x2
+Linen x5
+Leather Scraps x2
+String x1
+
+13
+
+Armorer/Journeyman	Light	Armor: 92
+Resistance to Bludgeoning Damage: 30%
+Resistance to Slashing Damage: 30%
+Ban Ard Breastplate	Steel Plates x1
+Cured Draconid Leather x2
+Silk x5
+Leather Straps x4
+Dark Steel Plate x3	27	Armorer/Journeyman	Heavy	Armor: 162
+Resistance to Piercing Damage: 30%
+Resistance to Bludgeoning Damage: 20%
+Resistance to Slashing Damage:35%
+Bounty Hunter's Gambeson	Thread x4
+Cured Leather x4
+Linen x5
+Leather Straps x3
+Leather Scraps x1	8	Armorer/Amateur	Light	Armor: 67
+Resistance to Bludgeoning Damage: 25%
+Resistance to Slashing Damage: 25%
+Cidarian Cavalry Armor	Leather Scraps x3
+Hardened Leather x3
+Linen x4
+Leather Straps x5
+Steel Plates x3	14	Armorer/Journeyman	Medium	Armor: 97
+Resistance to Piercing Damage: 15%
+Resistance to Bludgeoning Damage: 20%
+Resistance to Slashing Damage: 30%
+Cidarian Gambeson	Thread x2
+Cured Leather x1
+Linen x4
+Leather Straps x2	1	Armorer/Amateur	Light	Armor: 32
+Resistance to Piercing Damage: 7%
+Resistance to Bludgeoning Damage: 10%
+Resistance to Slashing Damage: 15%
+Hindarsfjall Heavy Armor	Wire x6
+Cured Draconid Leather x2
+Hardened Leather x2
+Leather Scraps x5
+Dark Steel Plate x4	30	Armorer/Journeyman	Heavy	Armor: 177
+Resistance to Piercing Damage: 40%
+Resistance to Bludgeoning Damage: 30%
+Resistance to Slashing Damage: 45%
+Impera Brigade Armor	Sapphire Dust x2
+Cured Draconid Leather x2
+Silk x4
+Leather Straps x2
+Dimeritium Plate x1	30	Armorer/Journeyman	Heavy	Armor: 180
+Aard Sign Intensity: 20%
+Resistance to Piercing Damage: 40%
+Resistance to Bludgeoning Damage: 35%
+Resistance to Slashing Damage: 40%
+Resistance to Elemental Damage: 25%
+Kaedwni Gambeson	Thread x3
+Cured Leather x3
+Linen x4
+Leather Straps x2
+Leather Scraps x1	3	Armorer/Amateur	Light	Armor: 42
+Resistance to Piercing Damage: 10%
+Resistance to Bludgeoning Damage: 15%
+Resistance to Slashing Damage:25%
+Mag Deira Cuirass	Wire x5
+Cured Draconid Leather x2
+Cured Leather x4
+Leather Scraps x5
+Dark Steel Plate x2	26	Armorer/Journeyman	Heavy	Armor: 157
+Resistance to Piercing Damage: 30%
+Resistance to Bludgeoning Damage: 25%
+Resistance to Slashing Damage:30%
+Nilfgaardian Guardsman Armor	Silk x1
+Cured Draconid Leather x2
+Hardened Leather x2
+Leather Scraps x5
+Dark Steel Plate x4	28	Armorer/Journeyman	Heavy	Armor: 167
+Resistance to Piercing Damage: 35%
+Resistance to Bludgeoning Damage: 30%
+Resistance to Slashing Damage: 40%
+Redanian Halerdier's Armor	Leather Scraps x4
+Hardened Leather x3
+Linen x6
+Leather Straps x5
+Steel Plates x4	15	Armorer/Journeyman	Medium	Armor: 102
+Resistance to Piercing Damage: 20%
+Resistance to Bludgeoning Damage: 20%
+Resistance to Slashing Damage: 30%
+Salmian Brigandine	Nails x5
+Hardened Leather x2
+Linen x5
+Leather Straps x2
+Steel Plates x2	13	Armorer/Journeyman	Medium	Armor: 92
+Resistance to Piercing Damage: 15%
+Resistance to Bludgeoning Damage: 20%
+Resistance to Slashing Damage: 20%
+Shiadhal's Armor	Silk x1
+Cured Draconid Leather x2
+Linen x5
+Meteorite Silver Plate x3
+Amber Dust x2	24	Armorer/Amateur	Light	Armor: 150
+Igni Sign Intensity: 20%
+Resistance to Piercing Damage: 25%
+Resistance to Bludgeoning Damage: 10%
+Resistance to Slashing Damage: 25%
+Resistance to Burning: 100%
+Skellige Gambeson	Thread x2
+Cured Leather x1
+Linen x4
+Leather Straps x3
+Silk x1	2	Armorer/Amateur	Light	Armor: 38
+Resistance to Piercing Damage: 10%
+Resistance to Bludgeoning Damage: 15%
+Resistance to Slashing Damage: 15%
+Spikerogg Aketon	Thread x2
+Cured Leather x3
+Linen x2
+Leather Straps x2
+String x3	5	Armorer/Amateur	Light	Armor: 54
+Resistance to Piercing Damage: 10%
+Resistance to Bludgeoning Damage: 15%
+Resistance to Slashing Damage: 30%
+Thyssen Armor	Ruby Dust x1
+Cured Draconid Leather x2
+Hardened Leather x2
+Meteorite Ingot x2
+Dark Steel Plate x4	30	Armorer/Journeyman	Medium	Armor: 180
+Resistance to Piercing Damage: 20%
+Resistance to Bludgeoning Damage: 20%
+Resistance to Poisoning: 100%
+Resistance to Slashing Damage: 35%
+Chance to Deflect Projectiles with Quen: 5%
+Verden Archer's Gambeson	Thread x3
+Cured Leather x3
+Linen x5
+Leather Straps x5
+Silk x1	7	Armorer/Amateur	Light	Armor: 62
+Resistance to Bludgeoning Damage: 20%
+Resistance to Slashing Damage: 20%
+Warrior's Leather Jacket	Wire x2
+Cured Leather x1
+Kaer Morhen Armor x1
+Leather Scraps x2	1	Armorer/Amateur	Medium	Armor: 30
+Resistance to Bludgeoning Damage: 9%
+Resistance to Slashing Damage: 18%
+Resistance to Damage from Monsters: 12%
+Resistance to Elemental Damage: 15%
+Boots	Required Ingredients	Level	Craftsman Requirements	Weight	Stats
+Alder Folk Boots	Dark Steel Ingot x3
+Leather Scraps x1
+Cured Leather x1
+Thread x2
+Leather Straps x1	36	Armorer/Journeyman	Heavy	Armor: 80
+Resistance to Piercing Damage: 5%
+Resistance to Bludgeoning Damage: 5%
+Resistance to Slashing Damage: 6%
+Resistance to Damage from Monsters: 5%
+Resistance to Elemental Damage: 5%
+Assassin's Boots	String x2
+Leather Scraps x4
+Cured Leather x1
+Thread x3	10	Armorer/Journeyman	N/A	Armor: 26
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 4%
+Axemen's Boots	Oil x1
+Leather Scraps x3
+Cured Leather x2
+Thread x4	18	Armorer/Journeyman	Heavy	Armor: 42
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 2%
+Cavalry Boots	Leather Scraps x2
+Cured Leather x1
+Thread x3	6	Armorer/Amateur	N/A	Armor: 18
+Resistance to Piercing Damage: 1%
+Resistance to Bludgeoning Damage: 1%
+Resistance to Slashing Damage: 2%
+Condottiere's Boots	Dark Steel Ingot x1
+Leather Scraps x4
+Hardened Leather x1
+Thread x4	29	Armorer/Journeyman	Medium	Armor: 66
+Resistance to Piercing Damage: 5%
+Resistance to Bludgeoning Damage: 5%
+Resistance to Slashing Damage: 5%
+Bonus Gold: 25%
+Executioner's Boots	Oil x1
+Thread x3
+Leather Scraps x4
+Dark Steel Plate X1	24	Armorer/Journeyman	Heavy	Armor: 54
+Resistance to Piercing Damage: 5%
+Resistance to Bludgeoning Damage: 5%
+Resistance to Slashing Damage: 6%
+Guardsman's Boots	Steel Ingot x1
+Leather Scraps x3
+Hardened Leather x1
+Thread x4	21	Armorer/Journeyman	Heavy	Armor: 47
+Stamina Regeneration in Combat: 3%
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 4%
+Resistance to Damage from Monsters: 3%
+Hunter's Boots	String x2
+Leather Scraps x4
+Linen x1
+Thread x3	1	Armorer/Amateur	Light	Armor: 8
+Resistance to Piercing Damage: 1%
+Resistance to Bludgeoning Damage: 1%
+Resistance to Slashing Damage: 1%
+Mountain Folk Boots	String x2
+Meteorite Ore x2
+Cured Leather x2
+Thread x3
+Oil x2	15	Armorer/Journeyman	N/A	Armor: 38
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Poisoning: 25%
+Resistance to Slashing Damage: 5%
+Resistance to Damage from Monsters: 2%
+Reaver's Boots	Oil x1
+Leather Scraps x4
+Hardened Leather x1
+Thread x4	22	Armorer/Journeyman	Medium	Armor: 50
+Resistance to Piercing Damage: 4%
+Resistance to Bludgeoning Damage: 4%
+Resistance to Slashing Damage: 5%
+Tracker's Boots	Leather Scraps x3
+Cured Leather x1
+Thread x4	8	Armorer/Amateur	Medium	Armor: 22
+Resistance to Piercing Damage: 1%
+Resistance to Bludgeoning Damage: 1%
+Resistance to Slashing Damage: 3%
+Gauntlets	Required Ingredients	Level	Craftsman Requirements	Weight	Stats
+Assassin's Gauntlets	Hardened Leather x1
+Leather Scrap x4
+Thread x3	12	Armorer/Journeyman	Light	Armor: 28
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 5%
+Critical Hit Chance: 10%
+Chanced to Find Additional Herbs: 5%
+Assault Gauntlets	Dark Iron Ore x2
+Steel Ingot x2
+Cured Leather x2
+Thread x3	27	Armorer/Journeyman	Heavy	Armor: 55
+Resistance to Piercing Damage: 4%
+Resistance to Bludgeoning Damage: 4%
+Resistance to Slashing Damage: 5%
+Axeman's Gauntlets	Steel Ingot x2
+Cured Leather x2
+Thread x1	16	Armorer/Journeyman	Heavy	Armor: 34
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 2%
+Cavalry Gauntlets	Cured Leather x1
+Leather Scraps x4
+Thread x3	6	Armorer/Amateur	Medium	Armor: 14
+Resistance to Piercing Damage: 1%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 2%
+Hunter's Gauntlets	Cured Leather x1
+Leather Scraps x2
+Thread x3	1	Armorer/Amateur	Light	Armor: 4
+Resistance to Bludgeoning Damage: 1%
+Resistance to Slashing Damage: 1%
+Knight's Gauntlets	Dark Iron Ore x1
+Steel Ingot x2
+Cured Leather x2
+Thread x2	22	Armorer/Journeyman	Medium	Armor: 45
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 3%
+Resistance to Slashing Damage: 4%
+Nilfgaardian Guardsman's
+Guantlets	Dark Steel Ingot x2
+Cured Leather x1
+String x1	41	Armorer/Journeyman	Heavy	Armor: 65
+Resistance to Piercing Damage: 5%
+Resistance to Bludgeoning Damage: 5%
+Resistance to Slashing Damage: 5%
+Resistance to Damage from Monsters: 5%
+Critical Hit Damage Bonus: 50%
+Tracker's Gauntlets	Cured Leather x2
+Leather Scraps x3
+Thread x3	9	Armorer/Amateur	Light	Armor: 20
+Resistance to Piercing Damage: 1%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 3%
+Trousers	Required Ingredients	Level	Craftsman Requirements	Weight	Stats
+Assassin's Trousers	String x1
+Cured Leather x1
+Linen x2
+Leather Straps x4	11	Armorer/Journeyman	Light	Armor: 30
+Vitality: 350
+Resistance to Piercing Damage: 5%
+Resistance to Bludgeoning Damage: 5%
+Resistance to Slashing Damage: 15%
+Axeman's Trousers	Leather Straps x2
+Steel Plates x1
+Linen x2
+Dark Iron Ingot x1
+String x1	16	Armorer/Journeyman	Heavy	Armor: 37
+Resistance to Piercing Damage: 4%
+Resistance to Bludgeoning Damage: 4%
+Resistance to Slashing Damage: 6%
+Cavalry Trousers	Twine x1
+Leather Straps x2
+Linen x2
+Thread x4	6	Armorer/Amateur	Light	Armor: 18
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 6%
+Hunter's Trousers	String x1
+Leather Scraps x1
+Linen x2
+Thread x3	1	Armorer/Amateur	Light	Armor: 8
+Resistance to Piercing Damage: 2%
+Resistance to Bludgeoning Damage: 2%
+Resistance to Slashing Damage: 3%
+Lyrian Hardened Leather Trousers	Dark Iron Ingot x3
+Linen x2
+Leather Straps x3	29	Armorer/Journeyman	Heavy	Armor: 63
+Resistance to Piercing Damage: 8%
+Resistance to Bludgeoning Damage: 8%
+Resistance to Slashing Damage: 10%
+Mahakaman Trousers	Leather Straps x3
+Hardened Leather x1
+Linen x3
+Dark Steel Plate x1	39	Armorer/Journeyman	Heavy	Armor: 85
+Resistance to Piercing Damage: 10%
+Resistance to Bludgeoning Damage: 10%
+Resistance to Slashing Damage: 15%
+Chance to Find Additional Herbs: 25%
+Sapper's Trousers	Dark Iron Ingot x2
+Linen x2
+Leather Straps x2	22	Armorer/Journeyman	Medium	Armor: 50
+Resistance to Piercing Damage: 5%
+Resistance to Bludgeoning Damage: 5%
+Resistance to Slashing Damage: 7%
+Tracker's Trousers	Leather Straps x2
+Leather Scraps x1
+Linen x3
+Timber x2
+String x1	9	Armorer/Amateur	Medium	Armor: 24
+Resistance to Piercing Damage: 4%
+Resistance to Bludgeoning Damage: 4%
+Resistance to Slashing Damage: 9%

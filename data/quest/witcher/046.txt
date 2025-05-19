@@ -1,0 +1,42 @@
+Echoes of Gwent
+We've now done most everything we can do on Ard Skellig at this level without advancing the main story or helping Crach. Time we got around to looking for Ciri again. From the "Abandoned Sawmill" signpost head south-east through the woods. Be wary, however, as you'll come across Endrega Drones (level twenty) and perhaps a Venomous Arachas (level thirty-one) if you're unlucky. Discretion is the better part of valor in this case.
+
+Echoes of the Past (level 13)
+When you near the objective marker you'll discover the "Druid's Camp" signpost and witness Ermion engaged in a shouting match with Yennefer. Shortly you'll be dragged into the argument, Ermion indulges in a tirade, and Yennefer slips off and commits some mischief while Geralt and Ermion talk. Follow Ermion a bit (applying some Necrophage Oil to your Silver Sword isn't a bad idea) and when he begins casting a spell, continue to the south-west to find Yennefer.
+
+Fend off some Foglets (level seventeen) and Geralt will talk to Yennefer, who gives Geralt the mask. Complain or not, but Geralt will eventually concede. Follow Yennefer to the south-east and when she instructs, put on the mask [R1] to witness a scene. After some chatter, follow Yennefer further to the south-east and kill another Foglet (level seventeen). When prompted put the mask back on to witness another scene. Travel south-east a third time, kill another Foglet, and don the mask again to learn what happened to Ciri. Further south-east you'll need to use the mask a fourth time to see what happened to Ciri's friend.
+
+Geralt and Yennefer will discuss what they've seen, only to be interrupted by Ermion. After he's done complaining, Geralt will tell him what they've learned. Head south and Yennefer will lift a tree, revealing the nature of Ciri's assailants. After even more discussion the next destination will be settled upon-you can either meet Yennefer there on your own time, or get her to teleport you there.
+
+Objective	Reward
+For using the Mask of Ouroboros to see the past	XP Varies
+Gwent: Skellige Style
+For Geralt's sake... and for the sake of our Gwent deck, decline to travel with Yennefer and talk to Ermion. Challenge him to a round of Gwent, then defeat his surprisingly mediocre Monster deck. For your victory, he'll give you the "Leshen" Card, a 10 Strength Ranged Combat Unit Hero Card for Monster decks. He'll then recommend you play Crach and Gremist.
+
+Objective	Reward
+For defeating Ermion at Gwent	25 XP
+Leshen Card
+Place of Power
+We just happen to know those two characters, so why not seek them out and augment our decks further? Return north to the Druid's Camp, and from there head east to find a Place of Power. Draw from it to get Geralt another ability point, then fast-travel back to the "Bridge to Kaer Trolde" signpost.
+
+You'll find Crach in his keep. Challenge him to a game of Gwent and you'll discover that if what Ermion said about "the student surpassing the teacher" was true, it's not by much as Crach also has a fairly weak Monster deck. Crush him and he'll yield the "Draug" Card, a 10 Strength Close Combat Unit Hero Card for the Monster deck. He'll also suggest you track down and play a tailor named Sjusta, who just happens to live in town.
+
+Objective	Reward
+For defeating Crach at Gwent	25 XP
+Draug Card
+Fast-travel to the "Kaer Trolde Harbor" signpost and head north to find the tailor's shop, which you might be familiar with from the quest "The King is Dead - Long Live the King." In any event, his shop is just east of the tavern. Challenge him to a game of Gwent and he'll field a Northern Kingdoms deck, for a change of pace. He's capable of fielding "Commander's Horn" cards and perhaps a few unit cards with the "Muster" ability, but otherwise, he's no dangerous. Count on him to counter any build-ups of Siege Unit cards with his leader ability, however. Defeat him and he'll fork over the "Yaevinn" card, a 6 Strength Scoia'tael card with the "Agile" ability. Yeah, not really anything special...
+
+Objective	Reward
+For defeating Sjusta at Gwent	25 XP
+Yaevinn Card
+Our next target is our good master Gremist, and if anybody deserves to lose a card, it's him. Fast-travel to the "Gedyneith" signpost and head north to reach his dwelling. Call Gremist a chicken and he'll agree to play Gwent with you. His Nilfgaardian deck, like all the other quest-related Skelliger decks you've seen, is nothing special. He is fond of using weather cards, but those became largely obsolete a long time ago. Thrash him and he'll hand over "Avallac'h" card... which is just a fantastic card for every deck. It's a 0 Strength Close Combat Unit Hero Card with the "Spy" ability, which you've certain seen played against you by now. Now it's yours to abuse. He'll also suggest your next victim-Madman Lugos.
+
+Objective	Reward
+For defeating Gremist at Gwent	25 XP
+Avallac'h Card
+Fast-travel to Kaer Muire and head inside Madman Lugos's paltry keep. Find the nutter and challenge him to a game of Gwent-he'll offer up his "Vampire: Katakan" as the prize for victory. He'll play another unimpressive Monster deck. He's got some Hero Cards, and will pull out a "Scorch", but otherwise, it's nothing to worry over. When you win he'll live up to his end of the bargain and give you the promised vampire-a 5 Strength Close Combat Unit Card with the "Muster" ability. He'll also throw in the "Emhyr var Emreis, the White Flame" Leader Card, which cancels out opposing enemy Leader Cards. This completes "Gwent: Skellige Style."
+
+Objective	Reward
+For defeating Madman Lugos	25 XP
+Vampire: Katakan Card
+Emhyr var Emreis, the White Flame Card

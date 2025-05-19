@@ -1,0 +1,30 @@
+The Battle of Kaer Morhen
+Geralt and Ciri will appear in Kaer Morhen, and despite the imminent arrival of the Wild Hunt, a jovial mood prevails, albeit a short-lived one. The quest "Isle of Mists" ends and the quest "The Battle of Kaer Morhen" begins. Expect to gain a sizeable lump of experience for completing "Isle of Mists," which will help for the next few quests
+
+Objective	Reward
+For rescuing Ciri	1000 XP
+Note: The text that pops up on the screen says you earned 1000 experience for completing "Isle of Mists," but the reality is closer to 5000... at least, it at level twenty-five, that's about was I gained.
+
+The Defenders of Kaer Morhen
+We need to convene the war council, but first, we should go see who all showed up. This section of the guide will assume you completed all the major NPC-related side-quests presented earlier and you told Voorhis you kept Letho alive. If somebody isn't here, you either killed them off, did not complete their personal side quests (as mentioned in the "Brothers in Arms" quests) or you simply didn't ask them to come.
+
+Head up the ramp to the east, then turn north find Hjalmar and perhaps Vigi and Folan, if you rescued them both during "The Lord of Undvik." To the west is Zoltan Chivay, who'll serve as an Armorer for now... just don't expect too much out of him, crafting-wise. He's only an amatuer-grade smith. Repair your gear and sell off any excess junk you found.
+
+Go through a gate to the north and turn west to find Ermion and Vesemir chatting over a fissure. Wait for Ermion to get done with his business, then talk to him and ask about the gas, then comment on the state of Kaer Morhen's walls. If you suggest patching up the walls, Ermion will agree to help and it seems Lambert might just get roped into the mix, too. Go through a broken gate to the west and find a chest in the north-western corner of the chamber beyond. Inside you'll find "Berengar's Notes." Ah... Berengar. One of the few people from out past who didn't make it here. Actually, Yaevinn, Siegfried and Toruviel aren't here, either. Suppose a lot of people from the first game didn't make it.
+
+Head back outside and loot a chest against the eastern wall, if you haven't already, then go up another ramp to the west. Up on the third level here you'll find Lambert fussing over a ballista. Continue up some stairs to the east to find Eskel, who isn't very talkative, then go up another flight of stairs to reach the courtyard.
+
+Here you'll find Vernon Roche and Ves. As you approach, a scene occurs involving them and Letho. Seems like Temerian patriots don't like the guy who killed Foltest. Who knew? Head to the main hall-but don't enter it. From here head south and climb some stairs to reach the battlements around the courtyard, where Ciri is standing. Talk to her again to learn a few more things about your daughter.
+
+Enter the keep to find Keira Metz in the antechamber. Talk to her to find out what she's been up to recently, then talk to her again if you wish to peruse her wares... perhaps to buy another Potion of Clearance for a later date? Or you can just sell off excess alchemical junk, although she hardly offers you a good prices for it.
+
+Last Minute Preparations
+Head to the main hall, where everybody will gather, and discuss battle plans. All the matters are two choices concerning how to use our limited manpower and time resources concerning the laboratory and the workshop. For the Laboratory you'll get the options to focus on potions or traps. Picking potions will get you a Thunderbolt Potion and a Superior Swallow Potion (unless you already have them), while focusing on traps will impede your foes during the battle. As for the workshop, you again have two options-fix the walls, or clear the armory and recover some weaponry. If you fix the walls, you'll have to face fewer foes, while if you clear the armory, you'll get a random Silver Sword. Confirm your choices after picking them, then Vesemir will go over the battle plans once more. You get more goodies and experience if you pick potions and the armory, but most of it's junk by now, so do what you will.
+
+Objective	Reward
+For preparing	500-550 XP
+For letting Vesemir brew potions	Thunderbolt
+Superior Swallow
+Lesser Perun Rune
+For clearing the armory	Rose of Shaerrawed
+A few hours later Lambert will show up and you'll reap the rewards of your actions if you picked potions and the armory. Making another hard save here is a good idea. When you're ready, talk to Ciri again, then leave the keep.

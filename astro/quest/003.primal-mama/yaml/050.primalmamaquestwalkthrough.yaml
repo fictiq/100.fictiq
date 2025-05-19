@@ -1,0 +1,153 @@
+
+---
+document_title : "Primal Mama: Bayou Awakening & The Murky Margins"
+
+tutorial_section:
+  title: "Tutorial : Bayou Awakening"
+  location: "Secluded Swamp Shack, Primal Mama Bayou"
+  protagonist_ description: "Gator (An Erpenthrope, or an individual deeply connected to the swamp's strange energies )"
+  opening_scene: |
+    The game begins with Gator submerged in a murky, revitalizing mud bath  within their secluded swamp shack… until a particularly feisty vampire bunny, likely a "gift" from their enigmatic mentor/lover , Mama Legba, gives a playful nip. She materializes from the shadows, perhaps with a knowing chuckle, and ch ides Gator about neglecting the training of their young protégé, Cypress. The two share a moment, get dressed in practical swamp-worn  attire, and another day steeped in the bayou's miasma begins.
+  first_task_header: "Or  rather, the game's tutorial begins."
+  first_task:
+    objective_text: "Your first  task is to find the Shack Key to unlock the main door, wisely secured against swamp critters and prying eyes. Aside from point lessly fiddling with salvaged 70s-tech knick-knacks and examining strange gourds, there' s not much to do."
+    key_location: "In the north-western corner of the room, on  a worn book atop a crate near the door, you'll find the key."
+    mechanic_introduction: 
+      text: "Of course, you're supposed to be trying out your innate Bayou Sight [L2]  (or 'Swamp Sense'). Hold that button down, and the world shimmers, highlighting interactable objects with an eerie green glow  – in this case, the Shack Key. Grab it and open the door."
+      door_opening_note: "Yes,  the game even gives you a tutorial for opening doors. Turns out you have to face them and press [X]. Who knew in this  crazy, retro-futuristic swamp?"
+  note_minimap: "Note: All directions will be given in relation to the  salvaged 70s-style compass display on your wrist-mounted 'Bayou Buddy' device. It's  a pretty nifty tool that'll make both our lives easier."
+  after_unlocking_door: |
+    Unlock  the door and slink outside, Gator-style. Once in the humid air, Gator will note that their old mentor  – Papa Croc – who was supposed to be teaching Cypress the ways of the swamp, has nodded off. Instead of some dull herb -lore, Cypress decided to practice her aim on some discarded Beetriot propaganda posters while Papa Croc caught forty winks.  After some gruff chatter with Papa Croc, Gator heads over to speak with the young aspiring swamp-walker. After  chatting with Cypress for a bit, she'll ask if you want to 'run the mangroves,' which is a handy , more in-depth tutorial covering basic mobility.
+  running_the_mangroves:
+    title: "Running the  Mangroves"
+    description: |
+      If you chose to "run the mangroves," start out by heading west  and climbing a rickety ladder [X] made of gator bones and vines, then scale two mossy platforms to  the north [Circle] and climb onto a fallen cypress trunk to the west. Drop off a ledge to the north, then  another to the south before scrambling down another vine ladder to the east. Head down some muddy stairs to the south and climb  down another ladder, then navigate some wooden walkways to the west, going down two more flights of stairs and another ladder. Once  all this is done, your goal is to head east into a sunken grotto to find Papa Croc, who is waiting with two  other Erpenthropes (or seasoned swamp dwellers), Lambertine and Eskelbert.
+    note_design _inspiration: "Note: The Kaer Morhen design nod could be translated to the shack and its surroundings having a familiar,  almost ritualistically laid-out feel if Gator has been there before or if it's a traditional Erpenthrope  dwelling."
+  combat_training_intro: |
+    Papa Croc will give Cypress the "seen-too-many -summers" glare before finally moving on to combat training. Accept the tutorial if you wish to learn more about bayou b rawling (why wouldn't you?) or pass.
+  bayou_brawling_fundamentals:
+    title:  "The Fundamentals of Bayou Brawling"
+    introduction: |
+      Choose to "start with the fundamentals" and Gator  will retrieve their trusty weapons. The game will briefly introduce you to the three basic tools of a Bayou survivor: blades, Bayou  Juju, and Swamp Concoctions. For now, we're focusing on blades.
+    weaponry:
+      steel _equivalent: "Press [Left] on the D-pad to quick-draw your Gator-Tooth Blade (useful for fighting  humanoids, especially those Beetriot Enforcers in their clunky 70s-style armor)."
+      silver_ equivalent: "Your Spirit-Touched Machete [Right] will come into play later when we're hunting mutated  swamp beasts or dealing with restless spirits, who are vulnerable to its energies."
+    combat_maneuvers: | 
+      Once your blade is out, lock onto Papa Croc by pressing down on the [R3] button,  then perform a series of Fast Attacks [Square], followed by Strong Attacks [Triangle]. Next up, dodging [Circle]. Papa  Croc gives ample warning before he attacks, so you should have no trouble scoring two dodges that this task requires. Next  you'll need to roll out of the way twice [X], which is more of the same, except Papa Croc's  attacks are even more obvious. What's the difference? Dodges are shorter and faster, best for evading quick critters and retali ating. Rolls are good for dodging heavy, slower attacks from something like a Mutated Snapping Turtle. Parrying is the next  order of business-simply hold down [L2] to parry all of Papa Croc's attacks. Finally, it' s time to practice ripostes. Hit [L2] as Papa Croc attacks to block-and-counter him.
+     bayou_juju_section:
+      title: "Bayou Juju"
+      introduction: "Now it 's time to move onto Bayou Juju. Press [L1] to open the Quick Access Juju Wheel,  from which you can select your powers."
+      powers:
+        - name: "Turtle Shell Ward"
+          description: " Select it, then cast it by pressing [R2]. Turtle Shell Ward blocks damage from one significant hit, and is  eminently useful for mitigating damage. Cast it and let Papa Croc hit you – to no effect."
+        - name: " Swampfire"
+          description: "Then switch to Swampfire, which projects a cone of fire at your foe , handy for harming or dispatching a group of weaker Swamp Shamblers, or perhaps setting a tougher critter alight ."
+        - name: "Gator's Gaze"
+          description: "Next up is Gator' s Gaze, which Gator can use to disorient foes. It's also handy for gaining the upper hand in tense negotiations with  stubborn bayou folk or even some less-resolute Beetriot patrols."
+        - name: "Mud Trap (or Binding  Roots)"
+          description: "Last up is Mud Trap (or Binding Roots), which places a magical trap on the  ground that slows enemies who enter."
+    swamp_concoctions_section:
+      title: "Sw amp Concoctions"
+      introduction: "Blades and Juju are done, which leaves only Swamp Concoctions.  First up are bombs. Press [L1] again and access the lower half of your radial, which contains equipped concoctions (Bog  Brews, bombs, Gator Greases)."
+      bomb_example: "Select a Stink Bomb (or Fire Ant Grenade ), then chuck one at Papa Croc [R1]. Then head to the selected spot and toss some more bombs at  some training dummies (perhaps gator-shaped scarecrows), this time holding down [R1] to free- aim."
+  free_training_conclusion: |
+    You can now freely train with Papa Croc, and it's  nice to have the gloves off. Practice dodging, countering, attacking... all that good stuff. The training ends when you she athe your blade. After an unsettling intrusion from a spectral whisper or a tremor in the swamp's energy, so does the vision  (or intense training daydream) in which the tutorial occurred.
+
+murky_margins_section:
+  title: "The  Murky Margins: The Hunt is On"
+  location: "The Fringes of the Primal Mama  Bayou, near Lickskillet Outpost"
+  awakening_scene: |
+    Gator will wake up , perhaps from a trance induced by Mama Legba, and the old Erpenthrope, Papa Croc, will start chatting with  him. Either reveal the details of your vision-tutorial, or not. Afterwards the two will decide to head out.  According to a tattered, water-stained note Gator received from Mama Legba, their destination was the now-submerged ruins  of "Willoughby's Landing," a rendezvous somewhat complicated by the fact that the recent swamp-quakes and rising waters had pill aged it further. Tensions between Lickskillet and the Beetriot oligarchs are high, and where upheaval occurs , mutated critters and desperate scavengers follow.
+  first_encounter:
+    description: "This fact is punctuated  by the Swamp Shamblers that will show up and attack you here. They're not challenging foes – dispatch them by using Fast  Attacks with the Spirit-Touched Machete, then loot them for any Mutagenic Slime or Shambler  Bones they might drop."
+    healing_mechanic: "If you get injured, you can meditate by touching the [Touch Pad ] and heading to the 'Meditation' screen to brew some basic Bog Brews (if you have the herbs) or simply to  let Gator's Erpenthropic nature (or general toughness) slowly mend their wounds. At this point in the  game, you've got more time than disposable healing items on your hands."
+  note_regeneration: " Note: Gator naturally regenerates one point of Vitality per second. Sadly, since they start the game with 350 0 Vitality, this amounts to... well, frankly, piss-poor regeneration. It will take nearly an hour to regenerate from near -death to full health without Bog Brews or other aids."
+  post_shambler_activity: |
+     When you're done picking on Shamblers, return to your Gator-Steed (a large, genetically engineered alligator  modified for riding, likely with some chunky 70s-tech solar panels on its back and a rudimentary control harness ) and from it head north-west, just past a small game trail, where, with your Bayou Sight active, you should  spot a strange Bone Fetish lying on the ground. Gator will guess this odd object belongs to Mama Legba. Might come in handy .
+  note_bayou_sight_details: "Note: Using Bayou Sight will cause interactable (usually loot able) object to glow yellow or green. Quest-related interactable objects will glow red. Mutated creatures or spirits  will be shown as shimmering white ripples (of varying size, depending upon proximity). Objects that can be affected by specific Juj us will have that Juju's symbol over them – typically objects that can be shattered with a Forceful Gust ( Aard-like) or ignited with Swampfire."
+  travel_segment:
+    instructions: |
+       That's enough goofing around for now. Time to head over to your Gator-Steed, mount up (care fully), and follow Papa Croc. Don't worry, we'll return to explore this area in more detail  shortly. Summon your Gator-Steed by double-tapping [L3] (perhaps it responds to a specific whistle or a  clicker device). While riding, hold down [X] to canter (a steady, solar-efficient gait),  double-tap and hold [X] to gallop (drains the bio-batteries faster), press [Circle ] to make it lunge/jump small obstacles, and hold [Circle] to dismount. [Square] and [ Triangle] attack from gator-back, but it's not an ideal way to fight.
+    path_description: | 
+      There are two larger mud roads that eventually connect to the south – you want to follow the eastern of the two . Papa Croc will comment on the state of the bayou and the encroaching influence of Beetriot as you ride,  showing a decidedly un-Erpenthropic view of politics (which Gator doesn't fail to comment on). When  the road turns from heading south-east to south you'll spot some crude warning posts east of the road with g ator skulls impaled on them – likely a territorial marker or a warning from local swamp folk. Follow the road south-west to  find a "Pillaged Fishing Shanty." The constant struggle for resources hits the poor swamp dwellers the hardest. Leave  the people in peace for now and continue to follow Papa Croc south, then south-east, eventually crossing over a rickety wooden  bridge.
+  note_fast_travel: "Note: Strange, glowing Spirit Wells (or Leyline Fonts) serve  as fast-travel waypoints. To use one, simply approach it and hit the [X] button, then select  any other discovered Spirit Well to travel there, perhaps by briefly merging with the swamp's spiritual pathways."
+  sky _serpent_and_tavern:
+    title: "The Sky Serpent and the Watering Hole"
+    encounter _description: |
+      Some time later, Gator and Papa Croc will run across a Salvager (a merchant  dealing in pre-Calamity scrap) being harassed by a Sky Serpent (a giant, mutated heron or pelican with  razor-sharp beak and talons). The Erpenthropes (or skilled swamp-walkers) will succeed at chasing the  beast off (although not in depriving it of its meal – a pack mule carrying salvaged tech) and Papa Croc will  be superficially wounded in the process. Afterwards, the maligned Salvager will emerge from under his armored, solar-powered cart and  offer to pay you for your good deed.
+    objective_rewards_1:
+      - objective: "For asking the  Salvager for a reward"
+        reward: "50 Gator Scutes"
+    post_encounter_travel : |
+      If you bother checking out your map you'll note that you've traveled north-west from where you  were before the cutscene, and you should continue west along the road from the "Cypress Bend" marked on your map.  Papa Croc and Gator will discuss the Sky Serpent's odd hunting habits (perhaps driven from its usual territory by pollution  from Beetriot, or by the Calamity's lingering effects). Seems Erpenthropes will gladly attribute any odd  monster behavior to human activity or the Calamity. Keep riding east, cross "Wailin' Willow Bridge" to  reach the village of Lickskillet. Follow Papa Croc to the Watering Hole (the local tavern) and he and Gator  will dismount and head inside.
+    tavern_scene: |
+      Witness some tension in the Watering Hole (perhaps between  locals and a few off-duty Beetriot Enforcers, or just between rival trappers), after which Gator and Papa Croc  will talk to the Saloon Keeper, a tough-as-nails woman named Belle. If you didn't shakedown her  cousin (the Salvager) earlier, she'll be thankful and give you four Smoked Alligator Legs. Keep  talking to her to learn that there's no official contract from Beetriot for the Sky Serpent yet. The Erpenth ropes might speculate on why the Sky Serpent has chosen abnormal hunting habits, but the reason why there's no bounty  can fully be blamed on Beetriot's bureaucratic incompetence or their focus on exploiting the region rather than protecting its inhabitants. Other  than that, she sells some food, potent home-brewed spirits, and hasn't seen Mama Legba…  although somebody else in the tavern may have.
+    note_merchant_economy: "Note: Merchants have a fixed  amount of Scutes/Tokens on them at any given time. Fortunately, the entire economy of the bayou isn't dependent  upon our actions – if you meditate for a while (passing time), eventually the Merchants will replenish their money, and some of their  wares."
+    objective_rewards_2:
+      - objective: "For not taking the Salvager's  money earlier and talking to the Saloon Keeper"
+        reward: "4 Smoked Alligator Legs"
+    information_ gathering:
+      - source: "a pair of Bayou Folk"
+        interaction: "They're a pair  of superstitious yokels, but if you use Gator's Gaze on one of them, you'll get the  information you seek – Mama Legba passed through here a few days ago. In quite a hurry."
+        objective_reward:
+           objective: "For using Gator's Gaze to get the Yokel to talk"
+          reward: "25 XP "
+      - source: "a mysterious, robed figure (Gaunterius O'Malley)"
+        interaction: " Ignore the threesome playing Gator Gambits (a local card game using carved gator scutes or polished bones) east of  the Saloon Keeper, and instead talk to a mysterious, robed figure further east, possibly a wandering Swamp Hermit or a  surprisingly well-informed Beetriot informant named Gaunterius O'Malley. As far as tavern patrons go, he's a rather  insightful chap, if a bit cryptic. Play as nice as the dialogue options will allow and you'll score some rare  Pre-Calamity Coffee Beans for free, as well as the information you seek. He not only knows Mama Legba by her  description, but he knows *you*, as well. Seems tales of Gator's exploits (or Mama Legba's  protégé) travel far. The Yokels from before were right, but lacked sufficient information. The local Beetriot garrison, if there is  one, might know more."
+  gator_gambits_game:
+    title: "A Game of Gator Gambits "
+    setup: |
+      Talk to the threesome sitting at the table, and one fanatic (perhaps a fervent believer  in the deified Burt Reynolds) will chase the other two off. Ask him about his collection of 70s memorabilia, what  he meant when he mentioned the "Spectral Gator of Cletus's Bog," and chat about Lickskillet' s future as far as Beetriot's influence is concerned. Once that's done, go to leave and he 'll ask you to play Gator Gambits with him. For more information on Gator Gambits, check out the heading  "Gator Gambit Strategies" (a separate codex entry/tutorial).
+    gameplay_tips: |
+       Play your first match of Gator Gambits with the Fanatic, and with any luck you should win. He's not too  bright, despite his fervor. If you play powerful, diverse scutes/bones, he's really got no chance.  Just don't play all your pieces in one round – you rarely get to draw new ones. If you build up  a comfortable lead (five Strength or more higher) you might just want to pass. This will end the game for you, and there 's a chance he'll spend himself to victory, but if he does this on the first round, there's a good  chance he just won't have any pieces left to compete with on the next two rounds.
+    objective_reward:
+       objective: "For defeating the Fanatic at Gator Gambits"
+      reward: "Legendary Bull Gator Sc ute"
+    post_game_notes: "When you win (best two out of three rounds takes the game) you 'll get the 'Legendary Bull Gator' Scute, a Close Combat piece that has no specific faction allegiance – it  can be played in any set. Sweet. You can also buy more Gator Gambit pieces from the Saloon Keeper – she sells five,  including another 'Papa Croc' Leader Piece, three high-Strength 'Swamp Shambler Horde' pieces with the 'Pack  Tactics' special ability (pieces that amplify duplicate pieces when played together) and a 'Mirage Heron' piece (Dec oy equivalent). In any event, the Fanatic will mention a certain 'Old Man Tiber' you should look up later  in your travels. All this starts the quest 'Collect \\'Em All: Bayou Edition.' Seriously, be sure to  buy these pieces as soon as you can – you might not be able to later, and missing out on the 'Mirage Heron ,' 'Armored Crawdad,' 'Twin-Headed Snapper' and 'Bog Stalker' pieces would be a shame." 
+  exploring_lickskillet_outpost_segment:
+    title: "Exploring Lickskillet Out post"
+    community_message_post_subsection:
+      title: "Community Message Post"
+      post _tavern_encounter: |
+        Leave the Watering Hole, whereupon you'll discover that the local toughs who  eyed you earlier are waiting for you outside. Hatred of outsiders (or Erpenthropes) tends to come  paired with the lack of sense to avoid provoking them. And so it is in this case, as well. A fight  ensues regardless of what action you pick in response to them, but if you use the Gator's Gaze Juju you  can earn some extra experience and take one of them out of the fight. Wisely, they choose fisticuffs as their  weapons, so smack them around.
+      objective_rewards_thugs:
+        - objective: "For using  the Gator's Gaze on the Thug"
+          reward: "40 XP"
+        - objective : "For beating up the Thugs"
+          reward: "350 XP"
+      exploration_plan : "It's finally time to start exploring – the Beetriot Enforcers (if any are around) can wait , they're not going anywhere any time soon. We'll start with the outpost, where one would expect to  receive plenty of work, and then move on to exploring the wilderness, focusing on points of interest as we go. Whenever possible our  area of exploration will be centered around a nearby Spirit Well (which also double as a fast travel locations), but when that 's not concise enough, geographic features (a haunted bog, a ruined pre-Calamity structure, a cluster of shant ies) or simple directional bias (the north-eastern stretch of the murky waters) will be used."
+      salvager_ revisit: |
+        Anywho, first things first, head down the muddy path from the Watering Hole to the  east a bit – there are a few discarded 70s-style coolers and rusted containers near the gator pens worth  looting, but as a general rule every box, crate, and sack won't be pointed out (unless they have  something particularly note-worthy inside, of course) – where you'll find your old pal the Salvager. You  remember him? He was almost eaten by a Sky Serpent. Seems he salvaged some of his pre-Calamity tech,  but his solar-cart repairs take time and are expensive, so he's eager to sell off what goods he has while he  waits. While it's nice to catch up with him, he doesn't really sell much of interest… unless you installed  the "Bayou Rattler Retro Gear" DLC, in which case, he'll have a full set of that  gear in his inventory. It's the best armor we'll immediately have access to (alligator hide reinforced with scav enged 70s plastic and metal plating), and if you've got the Scutes, it's worth buying. 
+      general_looting_and_herbalist_notice: |
+        Turn around and follow the path west,  looting shacks and grabbing glowing swamp herbs as it pleases you. It's a good way to score some roasted craw dads, crafting components (like alligator teeth or strange fungi), and perhaps a few Pre-Calamity Tokens. Posted  on a cypress tree to the south of the path you'll find a notice scrawled on a piece of fl otsam: "Wanted: Fire Ant Nectar. Will pay top Scute. Large quantities welcome. Mama Toussaint, the  Herbalist." Good to know.
+      message_post_details: |
+        Continue west until the path forks.  At the fork you'll find the Community Message Post – that staple of desperate settlements which bestows quests upon us. Even  better, just looking at the Community Post (even without taking any of the notices) will update your Bayou Buddy's map  with a variety of "Uncharted Locations." These range from Shambler Mounds, Guarded Stashes, Raider  Encampments, and other optional places worth exploring to score loot and experience. The notices worth grabbing are "Contract: Terror  of Crawdad Creek" which starts a quest of the same name, and "Brother Missing in the Mists" which starts  "Lost in the Bayou." If you save and reload your game, new notices might appear (perhaps delivered by a Talking  Crow, a Primal Mama world feature), but since none of them start new quests, there's not much point in bothering. 
+    sabotaged_solar_still_quest:
+      title: "The Sabotaged Solar Still (Twisted Fire starter Re-skin)"
+      quest_giver_interaction: |
+        From the Community Post head south to find a very  angry, greasy Mechanic named Willy cursing as he works at his jury-rigged solar still. Talk to the poor guy and,  as one would expect, he's rather snippy. Keep cool and he'll tell you that somebody sabotaged his still –  an act he feels was brought on by tensions with a local meat-processing oligarch's goons from Beetriot, or perhaps  just some Luddite swamp folk fearing his "newfangled" (but still 70s aesthetic) tech . Offer to help him for a price and he'll agree to give you whatever he has left (some quality distilled water or potent  moonshine) to find the cause of his misfortune. This begins the quest "The Sabotaged Solar Still."
+      investigation _steps: |
+        First, note the Grindstone (or perhaps a "Gator-Hide Strop") to the north -east. Using it is free, and will sharpen your Gator-Tooth Blade, giving you the "Razor Edge" boon  for 15 minutes. Score. Head behind the mechanic's shack and search to the south-east using your Bayou  Sight to spot some evidence on the ground (a discarded tool, specific footprints). Investigate them and Gator will deduce the  saboteur's actions. Further south-east Gator will find footprints, which seem to belong to a large man wearing distinctive  Beetriot-issue boots. Follow them or less east to a cypress tree, where Gator will detect the smell of cheap  synth-booze and desperation – a common combination. Keep following the tracks east to reach a waterway, then north-east until  they terminate near a half-sunken fanboat. As drunk as our saboteur was, he was at least wise enough to try  and cover his trail by taking to the water. Loot a submerged chest to the north and pass under a rickety bridge  to find where the tracks continue, north of the bridge. Signs of a struggle are noted – apparently our saboteur was attacked  by Mutated Crawdads and lost his boots in the scuffle. The trail continues to the west and onto the  muddy path that runs through Lickskillet. Follow the wounded saboteur's trail to a shack just south of the Watering  Hole.
+      confronting_saboteur: |
+        Head inside and Gator will comment that we'll be  able to spot our saboteur by the wounds he bears. Search the eastern room to find Nappo, who is obviously  drunk and injured, reeking of synth-booze. Talk to him and he'll confirm the mechanic's suspicions –  a combination of anti-tech sentiment and orders from a Beetriot foreman led him to trash the still. Knowing that he's  in trouble, however, he'll offer to give you some salvaged components to let him go.
+      outcome_ 1_let_go:
+        description: "If you accept, the mechanic will be upset you couldn't 'bring  the varmint to justice,' but he'll still offer his services to you… which is really the point of all  this (access to a 70s tech mechanic for upgrades/crafting)."
+        objective_rewards:
+           - objective: "For talking to the saboteur"
+            reward: "25 XP"
+          - objective : "For letting the saboteur go"
+            reward: "25 XP"
+          - objective: " For telling Willy about your failure"
+            reward: "50 XP"
+      outcome_2_appre hend:
+        description: |
+          Alternatively, you can attempt to apprehend him. Doing so will provoke him to attempt to fist  fight you. You can indulge him and pummel him into submission, or you can use the Gator's Gaze  Juju to subdue him and get him to come along peacefully. In the former case, you'll appear back near  the mechanic, in the latter case, you'll have to escort Nappo to him. Either way, the outcome  is the same – Willy thanks you, perhaps mentioning he'll let the local "Swamp Justice" (a council of elders,  or maybe just Mama Legba) deal with Nappo. Once they're gone, Willy decides you're alright and  will offer to work his forge/workshop for you.
+        objective_rewards:
+          - objective: "For using  the Gator's Gaze on Nappo"
+            reward: "25 XP"
+          - objective : "For bringing Nappo back to Willy"
+            reward: "25 XP"
+      mechanic _services_unlocked: |
+        One way or another, we have a mechanic at our disposal, which allows  us to repair our gear, craft new 70s-tech items or swamp-infused gear, break down old  salvaged tech for components, and of course, peruse his wares. Dismantling hides, old tools, and inferior weapons is  a good idea, as it's a fine way to score components at little cost. You also are able to turn more  refined components into more generic ones (Circuits into Wires, for example), but at this point in time, there's  little need to do so. Consider dismantling all your Junk, while leaving Crafting Components and Alchemy Ingredients alone. For more information on crafting , see the section "Crafting in the Bayou."
+      economic_notes_and_next_steps: | 
+        Of particular interest in his inventory are the Expanded Gator-Steed Saddlebags, which will increase your maximum inventory  weight by 30, a boost of 50%. They cost nearly 200 Scutes, however. Also , you might have – or nearly have – the components required to upgrade your armor to the Reinforced Gator-Hide Jacket, depending  on how diligently you looted the shacks in Lickskillet. All of this costs Scutes however, and right now the  best way to earn Scutes is by selling the rare swamp herbs we pick. They're plentiful, they grow everywhere, and  each one is worth a Scute. Hunting alligators (for meat and hide, the primary economy) works, too, especially if  you use the Swampfire Juju to save wear and tear on your weaponry. Or… we could start exploring. That 's an option, too. There's nothing stopping you from hunting game, killing mutated critters, and picking herbs  while we explore, either. In fact, it's recommended! Yeah… let's do that.

@@ -1,0 +1,196 @@
+ 
+story_world_codex:
+  world: Primal Mama
+  codex_version: '0 .2 - Character Constitution (Jolene Croft)'
+  last_updated: '[Current Date]' # Placeholder
+  lead _architects: '[Your Name/Studio Name]' # Placeholder
+  description: |
+    This protocol guides the detailed definition  of Fictional Persons (characters, significant sentient beings)
+    within the Primal Mama heterocosm. Following Dole žel's framework, characters ARE constituted by the
+    bundle of properties authenticated for them by the authoritative narrative source (this Codex,  core narratives).
+    They possess no independent psyche or reality beyond this textual definition.
+
+character_profile:
+   entity_id: CHAR_JoleneCroft_PM_01
+  character_name: Jolene "Jo"  Croft
+  entity_type: Person (Human Citizen)
+  archetype: 'Gritty Homesteader / Beleaguered  Small Business Owner'
+  primary_authentication_sources:
+    - This Codex Entry
+    - Primal Mama Coherence Protocol  v0.1
+  canon_tier: Tier 1
+  authentication_status: Authenticated_Canonical_Active
+
+   authenticated_property_bundle:
+    physical_properties:
+      purpose: Define the character's tangible presence.
+       appearance_general:
+        value: 'Human female, early 40s, lean and wiry from  physical labor. Sun-weathered skin, lines of worry and determination etched around eyes and mouth.'
+        authentication_ source: '[Primal Mama Visual Palette – Lickskillet Citizenry]'
+      appearance_specific_features: 
+        value: 'Sharp, observant hazel eyes. Brown hair, usually tied back practically, often escaping in flyaways . Strong hands, calloused from work.'
+        authentication_source: '[Narrative Description Concept]'
+      appearance _distinctive_marks:
+        value: 'Faded, silvery scar tracing her left forearm, a near- miss from a juvenile gator during her apprenticeship. A small, amateurish Burt Reynolds "Bandit" mustache tattooed on  her right bicep – a youthful indiscretion/tribute.'
+        authentication_source: '[Character Backstory Detail,  PM Cultural Element – Celebrity Deification]'
+      typical_attire:
+        value: 'Worn but clean denim overalls or  tough canvas trousers, often patched. Flannel or simple cotton work shirts with a 1970s cut.  Sturdy, waterproof boots caked with swamp mud. A wide-brimmed, sun-faded hat made  of woven swamp grass.'
+        authentication_source: '[PM Coherence – 1970s Aesthetic,  Lickskillet Environment]'
+      voice_speech_pattern:
+        value: 'Slightly raspy , practical Southern drawl, common to Lickskillet. Speaks plainly and directly, can be sharp when pressed.  Uses local vernacular and gator-processing jargon naturally.'
+        authentication_source: '[PM Audio Palette – Lickskillet Dial ect]'
+      gait_mannerisms:
+        value: 'Efficient, economical movements. Walks with a purpose . Habit of squinting against the sun, even indoors. Often wipes hands on her trousers. When listening intently, she  tilts her head slightly, like a predator assessing prey.'
+        authentication_source: '[Narrative Action Concept]'
+       associated_scent:
+        value: 'Faint, lingering smell of gator musk, swamp water, diesel from her  skiff, and the cheap, lye-based soap used in Lickskillet processing sheds.'
+        authentication _source: '[PM Sensory Palette – Lickskillet]'
+      physical_undersaturation: 'Exact height/weight,  specific brand of boots, full details of non-work attire (if any).'
+
+    functional_properties:
+       purpose: Define what the character *can* and *cannot* do.
+      skills:
+        - name: ' Expert Alligator Husbandry (Wild & Basic Farmed – non-GE types). Includes knowledge of breeding cycles, common  ailments, safe handling of non-solar, smaller gators.'
+          authentication_source: '[Character Role – Mom-and- Pop Gator Farmer]'
+        - name: 'Proficient Small-Scale Alligator Processing (Skinning, butchering, preserving  meat/hides using traditional Lickskillet methods and 1970s-era tools like band saws , smokers with analog dials).'
+          authentication_source: '[Character Role, PM Tech Aesthetic]'
+        - name: 'Compet ent Swamp Skiff Operation & Basic Maintenance (1970s-style outboard motors, hull patching).'
+          authentication _source: '[PM Environment & Tech]'
+        - name: 'Decent Shotgun Marksmanship (Primarily  for pest control – e.g., vampire bunnies trying to get at gator eggs – and personal defense. Owns a pump- action shotgun with wood paneling on the stock).'
+          authentication_source: '[PM Deontic – Gun Ownership , PM Alethic – Vampire Bunnies]'
+      ability_unique:
+        value: 'N/A – Oper ates under standard human capabilities within Primal Mama.'
+        authentication_source: '[Primal Mama Coherence Protocol – Baseline  Human Status]' # Adapted Auth from Modal
+      limitations:
+        - type: Physical
+          description: 'Standard human strength ; susceptible to swamp fevers and infections if not careful. Cannot single-handedly manage a fully grown GE Alligator.'
+           authentication_source: '[PM Alethic – Biological Realities]'
+        - type: Knowledge
+          description: 'Rud imentary understanding of GE Alligator biology (knows they''re solar, big, and for the elite/oligarchs). Little  knowledge of Beetriot high society, advanced solar tech beyond basic panel maintenance, or the deeper intricacies of Erpenthrope/Swamp  Witch lore (views them with superstitious caution common in Lickskillet).'
+          authentication_source: '[Social Strata, PM  Epistemic – Folk Knowledge]'
+        - type: Social/Economic
+          description: 'Limited capital and influence;  struggles against the pricing power and regulatory manipulation of the Meat Oligarchy. No direct access to Beetriot elite markets for her  non-GE gator products.'
+          authentication_source: '[PM Deontic/Axiological – Olig archy Friction]'
+      functional_undersaturation: 'Cooking ability beyond basic camp fare; artistic talents; knowledge of complex  ritual magic (highly unlikely).'
+
+    psychological_properties:
+      purpose: Define the character's textually constituted inner  life.
+      core_traits:
+        - trait: Resilience / Stubborn Perseverance
+          authentication_source: '[Character Actions  in face of hardship]'
+        - trait: Pragmatism / No-Nonsense Attitude
+          authentication_source: '[Dialogue , Problem-solving approach]'
+        - trait: 'Deep-Seated Distrust of Authority/Oligarchy  (especially Beetriot-based)'
+          authentication_source: '[Reactions to Oligarchy actions, Internal Monologue]' 
+      dominant_emotion:
+        value: Weary Determination / Stoic Endurance
+        authentication_source: '[Narrative Tone  when focusing on her]'
+      key_motivator:
+        value: 'Keeping her small family operation, "Croft'' s Catch," afloat; preserving her independence; providing for her small community/family (if any detailed later).'
+         authentication_source: '[Plot Driver for Character]'
+      key_beliefs:
+        - belief: 'Believes  in honest work and fair dealing, though the world rarely provides it. Believes Lickskillet and its people are  the backbone of the real economy, exploited by Beetriot.'
+          authentication_source: '[Dialogue, Axiological grounding ]'
+        - belief_cultural: 'Reveres Jerry Reed as a symbol of rebellious ingenuity and "sticking it to  the man," though her worship is more cultural homage than devout faith. Views cattle consumption with ingrained revulsion as per societal  norm.'
+          authentication_source: '[PM Axiological – Deified Celebrities, PM Alethic/Deontic –  Cattle Taboo]'
+      internal_conflict:
+        value: 'Desire for a fair life vs. the  crushing reality of the Oligarchy''s power; Loyalty to Lickskillet traditions vs. the need to adapt or be wiped out ; Innate caution vs. moments of defiant anger.'
+        authentication_source: '[Potential Character Arc Drivers]'
+      subject ive_memory_content:
+        value: 'Clear memories of learning the gator trade from her father, the  smell of the processing shed, the ever-present dampness of the swamp. Remembers specific instances of being squeezed by  Oligarchy agents (e.g., predatory pricing for gator feed, sudden "health inspections" with hefty fines for  minor infractions on her 1970s tech).'
+        authentication_source: '[Backstory Elements, PM World Logic]' 
+      psychological_undersaturation: 'Specific childhood fears beyond general swamp dangers; detailed romantic history; complex views on Er penthrope nature (likely just "dangerous weirdos").'
+
+    social_relational_categorical_properties:
+      purpose : Define the character's place within the world's networks.
+      official_role:
+        value: 'Owner -Operator, Croft''s Catch (a small, independent alligator farm and processing unit in Lickskillet, dealing in  non-GE, locally sourced/bred gators).'
+        authentication_source: '[Character Concept]'
+      social_status: 
+        value: 'Working-class Lickskillet local. Respected by some peers for her tenacity, seen as a  small fry by the Oligarchy.'
+        authentication_source: '[PM Social Structure]'
+      primary_affiliation:
+        name : 'Lickskillet Independent Processors'
+        description: '(a loose, informal network of similar small operators, more for  commiseration than real collective bargaining power).'
+        authentication_source: '[Narrative Potential]'
+      secondary_ affiliations:
+        value: 'None formal. Occasional dealings with itinerant swamp traders for specific supplies.'
+         authentication_source: '[Character Scope]'
+      key_relationships:
+        - name: 'Silas (CHAR _Silas_PM_02)'
+          description: 'An older, more cynical Lickskillet mechanic  who helps keep her 1970s-era equipment running: Mentor/Confidante, source of local gossip and warnings .'
+          authentication_source: '[Support Character Concept, PM Tech Aesthetic]'
+        - name: 'Agent Rex ford (CHAR_Rexford_PM_03)'
+          description: 'A low-level enforcer/buyer for  the Meat Oligarchy: Antagonistic, transactional, represents the oppressive power she struggles against.'
+          authentication_source: '[Ant agonist Character Concept]'
+        - name: 'Memory of "Pops" Croft (deceased father)'
+          description:  'Source of her skills, her pride, and her burden to keep the family business alive.'
+          authentication_source : '[Backstory Motivator]'
+      species_type:
+        value: 'Human (Baseline Primal Mama Strain)' 
+        authentication_source: '[Default/Description]'
+      social_undersaturation: 'Extended family details; specific  friendships outside work context; any romantic partners.'
+
+    modal_properties:
+      purpose: Define any inherent unique relationship to world  laws.
+      property_id: N/A
+      property_description: 'None Authenticated. Operates entirely within the  established alethic, deontic, epistemic, and axiological modalities of a typical Lickskillet human citizen  in Primal Mama.'
+      limits: N/A
+      authentication_source: '[Primal Mama Coherence Protocol –  Baseline Human Status]'
+      note: 'Jolene embodies the ''normal'' struggling citizen, making her a good  baseline against which more exceptional characters (Erpenthropes, Witches) can be contrasted.'
+
+    axiological_properties: 
+      purpose: Define the character's value status *within* Primal Mama.
+      reputation_lickskillet_ peers:
+        value: 'Authenticated as viewed as ''tough as gator jerky'', ''honest but stubborn'', ''carrying  on Pops'' legacy'', ''always struggling but never quits''.'
+        authentication_source: '[Community Dialogue/Perception]'
+       reputation_meat_oligarchy:
+        value: 'Authenticated as ''minor independent producer'', ''neglig ible'', ''easily squeezed or bought out if necessary'', ''not worth significant attention unless she causes trouble''.'
+        authentication _source: '[Oligarchy Internal Views]'
+      moral_alignment_narrative_framing:
+         value: 'Authenticated via narrative focus as fundamentally ''good'' or ''sympathetic'', representing the plight of the common person against  oppressive forces. Her adherence to local Lickskillet values (hard work, community, gun ownership for self-reliance, suspicion  of outsiders) is framed as understandable within her context.'
+        authentication_source: '[Narrator Tone, PM Axi ological Values]'
+      axiological_undersaturation: 'Reputation in Beetriot (likely non-existent); views  of local Swamp Witches towards her (likely indifferent unless she trespasses).'
+
+    historical_properties:
+      purpose: Define  the character's known origins and connections to past events.
+      origin:
+        value: 'Authenticated as born  and raised in Lickskillet, approximately 15-20 years after the main societal stabilization post-Biological  Calamity. Her parents were among the first generation to make a living from alligator processing in the restructured economy.'
+         authentication_source: '[PM Timeline Context, Character Backstory]'
+      key_past_event_connection_ subjective:
+        value: 'Vivid memories of her father teaching her to pilot a skiff through treacherous back waters, how to read gator sign, and his rants about the unfairness of early Oligarchy encroachment. A childhood memory of  a particularly bad "Swamp Lung" outbreak in Lickskillet, reinforcing a practical fear of the environment''s dangers.'
+         authentication_source: '[Character formative experiences]'
+      inherited_items:
+        value: 'Authenticated to possess her father ''s heavily modified 1970s-style gator processing bandsaw (with chunky buttons and a flickering  CRT status display), his favorite wide-brimmed hat, and the deed to their small, mortgaged plot of  land/swamp access.'
+        authentication_source: '[Narrative Inventory, PM Tech Aesthetic]'
+      historical _undersaturation: 'Details of her mother''s life/fate; specifics of pre-Calamity family history  (likely lost or irrelevant to current generation).'
+
+  character_constitution_summary_narrative_function:
+     purpose: Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle.
+    core_essence:  |
+      Jolene "Jo" Croft is constituted as the resilient, pragmatic heart of Lickskillet's dwindling independent  spirit.
+      Her existence is a constant negotiation between the harsh realities of the Primal Mama swamp,
+      the crushing economic  pressure of the Meat Oligarchy, and the ingrained 1970s technological
+      and cultural aesthetics of her world.  She is defined by her Functional capabilities (gator farming/processing,
+      skiff handling) and her Psychological determination , rooted in her Historical inheritance (family business,
+      Lickskillet upbringing) and Axiological standing as a  symbol of local grit. Her primary conflict
+      stems from her Social/Economic position as a small operator versus a powerful , exploitative system.
+    primary_narrative_function: |
+      Can serve as a protagonist embodying the struggle for  survival and dignity in Primal Mama's underclass.
+      Alternatively, a key viewpoint character providing an authentic window into Lick skillet life,
+      grounding the more bizarre elements of the world. Her actions (or inactions) can  trigger or react
+      to larger plot movements involving the Oligarchy, resource scarcity, or even encounters with the
+      stranger  facets of the swamp (Witches, Erpenthropes, fallout from GE gator escapes).
+    key_internal _conflicts: |
+      The will to maintain independence vs. the pragmatic need for survival (which might mean compromising with the Olig archy).
+      Loyalty to traditional Lickskillet methods vs. the temptation/necessity of risky innovation.
+       Hope for a better future vs. the ingrained cynicism born of experience.
+      Personal safety vs. defending her livelihood/community .
+    potential_for_development: |
+      Jolene could be pushed to: organize other small operators (Social  change);
+      uncover a dangerous secret about the Oligarchy's practices or the GE gators (Epistemic change );
+      be forced into an uneasy alliance with an Erpenthrope or even a sympathetic Beetriot outcast (Relational change); 
+      or adapt her 1970s tech in an ingenious, unexpected way to gain an edge (Functional /Axiological change – ingenuity is valued).
+      She might also be forced to confront the limits of her knowledge  regarding the supernatural elements of her world.
+
+# End of Fictional Person Profile: CHAR_JoleneCroft_ PM_01

@@ -1,0 +1,206 @@
+
+ # Story World Codex: Quest Profile
+# World: Primal Mama
+# Codex Version: 0.1
+ # Last Updated: "[Current Date]"
+# Lead Architect(s): "[Your Name/Studio Name]"
+
+quest _id: "QM_LKSK_001_GatorBaitBlues"
+title: "Gator Bait  Blues"
+locations:
+  - "Cletus & Jolene's Gator Farm (outskirts of L ickskillet)"
+  - "Lickskillet Proper"
+  - "Potentially a secluded Meat Conglomerate diagnostic  outpost"
+quest_giver: "NPC_Jolene_Broussard_01"
+associated _entities:
+  - "NPC_Jolene_Broussard_01"
+  -  "NPC_Cletus_Beau_01"
+  - "CREATURE_BigEarl_GEA _01"
+  - "FACTION_MeatConglomerate"
+  - "NPC_MamaM ambo_SW_01"
+  - "ITEM_RetroDiagnosticScanner_01"
+  - "ITEM_Solar Gel_Contaminated_01"
+
+overview_and_hook:
+  logline: "Jolene and C letus, a struggling mom-and-pop gator farming couple near Lickskillet, find their prize breeding  bull, 'Big Earl' (a top-of-the-line GE Solar Gator), mysteriously ill and unable to  properly absorb solar energy. They suspect foul play from the encroaching Meat Conglomerate and need help diagnosing and curing Earl  before their farm goes belly-up."
+  themes:
+    - "Survival"
+    - "David vs. Goliath  (Mom-and-Pop vs. Oligarchy)"
+    - "Technological Reliance & Vulnerability"
+     - "Bayou Resourcefulness"
+    - "Corporate Sabotage"
+  player_motivation: "Helping the underdog,  uncovering potential corporate malfeasance, acquiring unique rewards (tech schematics, gator-related gear, reputation)."
+
+authenticated _world_context:
+  description: "This quest leverages established Primal Mama modalities and states:"
+  alethic :
+    - "GE Alligators (`Alligator Biogenesis`) are central. Big Earl's solar energy absorption is  failing, directly impacting his authenticated function."
+    - "The 1970s tech aesthetic (`Technological Aesthetic Constraint `) will be present in diagnostic tools and any potential repair solutions."
+    - "The 'Solar Dominance' modality is highlighted  by Earl's reliance on it and the consequences of its failure."
+    - "Potential for `Spectral Interaction` or  `Vampire Bunny Propagation` (via Swamp Witch involvement) if the player seeks unconventional help."
+  deontic:
+     - "The 'friction' caused by meat processor oligarchies (`Automaton/LLM User Stigma` indirectly highlights a preference  for human ingenuity, which the Conglomerate might bypass) provides the backdrop for potential sabotage."
+    - "The quest  operates outside the direct laws concerning cattle but within the economic pressures of alligator farming."
+  axiological:
+    - "Alligator  Meat (`Alligator Meat`) is the farmers' livelihood, making Big Earl's health crucial."
+    - " Solar Power & Ingenuity (`Solar Power & Ingenuity`) are valued; the failure of such tech is a serious problem."
+     - "Adherence to the 1970s aesthetic (`Late 1970s Aesthetic`) is expected in any  tech solutions."
+    - "The implied value of autonomy (`Autonomy vs. Automation`) is represented by the mom -and-pop farmers."
+  epistemic:
+    - "The exact nature of Earl's illness is  initially unknown, requiring investigation."
+    - "Specialized technical knowledge (`Technical Knowledge`) is needed for diagnosis."
+     - "Swamp Witch Lore (`Swamp Witch Lore`) could offer alternative diagnoses or cures."
+    - "The ' invisible women' conspiracy (`Conspiracy`) might be idly blamed by Cletus for their misfortunes, adding local color."
+
+ stages:
+  - stage_id: 1
+    title: "Ailing Earl"
+    description:  |
+      The player encounters Jolene Broussard at their farm. She's distraught.
+      Clet us Beau is tinkering with a chunky, wood-paneled diagnostic unit
+      hooked up to Big Earl, who is  lethargic and whose solar-adaptive
+      chromatophores are dull.
+    objectives:
+      - "Speak to  Jolene."
+      - "Speak to Cletus."
+      - "Examine Big Earl."
+     involved_entities:
+      - entity_id: "NPC_Jolene_Broussard_0 1"
+        role_in_stage: "Quest Giver, provides exposition, offers initial reward."
+      -  entity_id: "NPC_Cletus_Beau_01"
+        role_in_stage:  "Attempts initial diagnosis with 1970s tech, provides technical observations (e.g.: 'Checked the primary  solar intake valve, looks like ''78 spec, should be fine!')."
+      - entity_id: "CREATURE _BigEarl_GEA_01"
+        role_in_stage: "Prize breeding alligator, currently non- functional (impaired solar absorption, lethargic)."
+    player_actions_world_logic: |
+      Player  can use their own observational skills (akin to Witcher Senses)
+      to note Earl's dull chromatophores, weak  pulse (if detectable on a gator).
+      Interacting with Cletus's scanner (`ITEM_RetroDiagnostic Scanner_01`)
+      shows appropriately retro readouts (analog dials, blinking incandescent lights).
+
+  - stage_ id: 2
+    title: "Bayou Diagnosis"
+    description: |
+      Standard diagnostics are inconclusive. Jol ene mentions the Meat
+      Conglomerate has been trying to buy them out. Cletus found a strange,
+       oily residue near Earl's solar charging station after the last "routine
+      maintenance check" by a surprisingly cheap Conglomer ate-affiliated tech.
+    objectives:
+      - "Investigate the solar charging station."
+      - "Collect a  sample of the residue."
+      - "Take the sample for analysis (Options: Lickskillet's old  Sawbones Willy, or Mama Mambo the Swamp Witch)."
+    involved_entities:
+      - entity_id: "OBJECT _SolarStation_Farm_01"
+        role_in_stage: "Solar charging station to be examined for tampering." 
+      - entity_id: "ITEM_SolarGel_Contaminated_01"
+        role_in _stage: "Plot device, clue requiring analysis."
+    player_actions_world_logic: |
+       Finding the residue triggers a consistency check: How sophisticated is
+      sabotage in a 1970s aesthetic  world? The residue itself might be
+      simple, but its *effect* on advanced biotech is key.
+     choice_point:
+      prompt: "Where to take the sample for analysis?"
+      options:
+        - option_ id: "SAWBONES_WILLY"
+          text: "Sawbones Willy (Conventional)"
+          leads_to_ stage_path: "3A"
+        - option_id: "MAMA_MAMBO"
+           text: "Mama Mambo (Unconventional)"
+          leads_to_stage_path: "3B "
+
+  - stage_id: 3
+    title: "The Conglomerate Connection / Swamp Solution"
+    paths :
+      - path_id: "A"
+        title: "Sawbones Willy - Tech Sabotage"
+         condition_for_path: "Player chose Sawbones Willy for analysis."
+        description: |
+          Willy identifies the residue  as a rare, industrial-grade solar
+          dampening gel, likely originating from a specialized Conglomerate R &D
+          outpost disguised as a "weather station" or "agricultural research
+          facility" (with a 1 970s facade). He might know a disgruntled
+          ex-Conglomerate tech who could help.
+         objectives:
+          - "Locate the ex-Conglomerate tech."
+          - "Infiltrate  the Conglomerate outpost to find an antidote/counter-agent or disable a hidden emitter."
+        involved_entities :
+          - entity_id: "NPC_Silas_Disgruntled_01"
+            role_in_stage : "Ex-Conglomerate Tech, provides intel, schematic for counter-measure."
+          - entity_id:  "LOC_ConglomerateOutpost_01"
+            role_in_stage: "Source of sabotage , contains solution, features 1970s-style security."
+        player_actions_world_logic : |
+          Infiltration requires bypassing/disabling retro-security. Combat or
+          stealth options. Solution  might be a physical component swap (e.g.:
+          replacing a "circuit board" that looks like something  from an old
+          Atari with a clean one) or uploading a "deactivation code" via a
+           tape reel or oversized floppy disk.
+
+      - path_id: "B"
+        title: "Mama Mambo - Es oteric Ailment/Curse"
+        condition_for_path: "Player chose Mama Mambo for analysis ."
+        description: |
+          Mama Mambo determines Earl is afflicted by a "Solar Leech Larva,"
+           a semi-supernatural parasite attracted by advanced energy signatures,
+          possibly drawn or "sent" by a rival using  bad juju. Or, she
+          determines it's a rare swamp toxin that mimics tech failure. She
+           knows a ritual or poultice but needs rare ingredients.
+        objectives:
+          - "Gather  ingredients (e.g.: glowing algae from a haunted part of the swamp, molted skin of a 'Ghost Piper' snake , distilled moonlight collected in a Burt Reynolds commemorative decanter)."
+          - "Return to Mama Mambo for the ritual/ poultice."
+        involved_entities:
+          - entity_id: "NPC_MamaMambo_ SW_01"
+            role_in_stage: "Provides cure through esoteric means, requires player to gather rare ingredients ."
+          - entity_id: "ITEM_EsotericComponent_X_01" # Placeholder for various  ingredients
+            role_in_stage: "Rare ingredients necessary for the cure."
+        player_actions_world _logic: |
+          Ingredient gathering involves exploration, possibly minor combat or
+          environmental puzzles (e.g.: dealing with  ghosts to get algae,
+          navigating a treacherous part of the swamp). The ritual itself should
+          be atmospheric and  align with the "strangely spiritual miasma."
+
+  - stage_id: 4
+    title: "G ator Aid"
+    description: "The player returns with the solution (antidote, counter-measure, or  magical cure)."
+    objectives:
+      - "Administer the cure to Big Earl."
+      - " Observe Earl's recovery."
+    involved_entities:
+      - entity_id: "CREATURE_Big Earl_GEA_01"
+        role_in_stage: "Receives treatment, recovers if solution is correct ( chromatophores glow vibrantly)."
+    player_actions_world_logic: |
+      Applying the cure is the climax  of the chosen path. Success is visually
+      represented by Earl's improved state, consistent with `Alligator Bi ogenesis`
+      capabilities.
+
+  - stage_id: 5
+    title: "Payback and Payouts" 
+    description: |
+      Jolene and Cletus are overjoyed. They offer a reward. News of  the
+      Conglomerate's potential involvement (if Path A was taken) might spread,
+      or Mama  Mambo's successful intervention might bolster her reputation.
+    objectives:
+      - "Speak to Jolene  for the reward."
+    involved_entities:
+      - entity_id: "NPC_Jolene_ Broussard_01"
+        role_in_stage: "Provides reward and resolution."
+      -  entity_id: "NPC_Cletus_Beau_01"
+        role_in_stage:  "Provides reward and resolution."
+    player_actions_world_logic: |
+      The resolution can lead to further quests  or changing dynamics with the
+      Meat Conglomerate. The reward must fit the `Technological Aesthetic Constraint`.
+       Reward options: monetary, custom 1970s-style gator tack (e.g.: "Wood-Pane led
+      Solar-Charge Enhancer"), or a schematic for a useful farm tool. Increased
+      reputation with  Lickskillet independents.
+
+potential_complications_and_branches:
+  - "Misdiagnosis: If the  player chooses Willy and it's actually a supernatural issue (or vice-versa), the initial solution fails, requiring them to pursue the  other path."
+  - "Conglomerate Retaliation: If the player is too overt in investigating/sabotaging the  Conglomerate outpost, they might face repercussions later."
+  - "Cletus's 'Help': C letus might try to 'improve' the player's solution with his own 1970s tech know -how, potentially complicating things humorously."
+  - "Erpenthrope Witness: An Erpenthrope, seeking  truth, might have observed the sabotage or know about the rare ailment and could be a third, harder-to-access source of  information. Their `Erpenthropic Transformation` could be witnessed if they need to defend themselves or the player."
+
+ design_notes: # Formerly "Functional Consistency Check"
+  alethic_consistency: "GE Gator tech functions  consistently. Sabotage methods (tech or esoteric) operate within world rules. 1970s aesthetic is maintained for all  player-facing tech. Solar power's importance is central."
+  deontic_consistency: "Conglomerate acts  within their established role of creating 'friction.' No illegal cattle consumption involved."
+  axiological_consistency: "Motivations  (saving the farm, profit, revenge, curiosity) align with character/faction values. Rewards are culturally appropriate."
+  epist emic_consistency: "Information discovery is plausible via investigation, NPC dialogue, or esoteric means, consistent with how knowledge works in  Primal Mama."
+  narrative_purpose: "This quest provides a framework for exploring the core tensions and unique elements  of Primal Mama, ensuring actions and outcomes are logically consistent with the established heterocosm."
+

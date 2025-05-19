@@ -1,0 +1,57 @@
+Revenge
+Blood on the Battlefield (level 20)
+Our stated goal is to talk to Avallac'h about our next movie... but really, it's about talking to everybody about what happened. Do so, then pay your respects at the pyre if you wish. When you're done, head north to meet with Ciri, Yennefer, Avallac'h, and possibly Triss.
+
+Yennefer will propose stronger allies of a somewhat controversial nature, since conventional force didn't fare so well at Kaer Morhen. Her bargaining chip might just be enticing to them, especially considering Radovid's actions of late. Ciri will interrupt your scheming and demand a say in her future before ultimately storming off.
+
+Ciri: Confidence or Doubt #1 - Snowball Fight
+A number of choices you'll make throughout the game concerning Ciri might seem fairly innocuous... but they aren't. Various responses will affect Ciri's confidence in the long run and influence the ending of the game. One such choice is coming up. After Ciri and Avallac'h exit Kaer Morhen keep, you'll get a chance to either console Ciri by saying "Relax, you don't need to be good at everything." or cheer her up by saying "Think I know what might lift your spirits." Make the timed decision-the first option causes her to doubt herself, while the latter causes her to gain confidence. If you picked the latter option you'll also get to indulge in a snowball fight-throw snowball with the same mechanics you use for throwing grenades, and pick up more snow off the ground when you run out of ammo.
+
+Ciri: Confidence or Doubt #2 - Politics and Greed
+Whatever you say, Ciri will wake Geralt up and propose a bold plan to get revenge, which starts the quest "Bald Mountain." After she explains the plan, you'll get a timed dialogue response, which is as momentous-if not more so-than the last one. Pick the option "Gotta visit the Emperor first." to suggest that they travel to Vizima enroute to Velen to see Emhyr. Alternatively you can pick the dialogue option "All right, Velen it is." to skip going to Vizima entirely... and keep Ciri from ever having political ambitions.
+
+If Ciri goes to Vizima, not only will this enlighten her to future political possibilities, but you'll be offered the other half of your pay, which presents us with another chance to influence Ciri via a timed dialogue option. Pick the dialogue option "I definitely need it more than you do." to collect 2000 Crowns, but it comes at the cost of infecting Ciri with doubt. Alternatively you can choose the dialogue option "Didn't do it for the coin." to turn down the money and bolster Ciri's confidence. You'll be compensated in horse flesh. After the decision, chat with Voorhis, then leave with Ciri, who'll be rather upset... with Emhyr, and possibly Geralt, depending on whether you took the coin or not.
+
+Objective	Reward
+For bringing Ciri to Vizima and accepting your pay	2000 Crowns
+Bald Mountain (level 26)
+Ciri and Geralt will land near Bald Mountain, along the southern reaches of Velen. Nearby is the "Road to Bald Mountain" signpost, which you can't use presently. Talk to Ciri a bit, then head along a trail to the south-east a short distance before following her up some stairs and to a village. Chat with some revelers until they refer you to Thecla, who can give us access to the top of Bald Mountain.
+
+Once done with the conversation, you'll be free to wander around-there's a Trader here who will sell copious amount of Mandrake Cordial and Cherry Cordial, should you need any to make White Gull... which is in turn needed to make the most advanced alchemical recipies. There's also a Blacksmith nearby, who'll perform a variety of useful functions. Repair your weapons, dismantle and sell any junk you've picked up, and craft new weapons (he's a Journeyman level craftsman). Take advantage of him while you have the chance.
+
+Head along a trail north of the village and you'll run into Johnny... and perhaps Sarah, if you smoked her out of Novigrad. Chat with the Godling(s), who will try to speak sense into you, and when the fails, will point you to Thecla. Continue north-west, between some rocks, and over a bridge and north through another encampment of revelers. There's another Trader here, but he doesn't sell anything interesting.
+
+Thecla's Challenge
+You'll find Thecla in a tent to the north, who will be quick to send Ciri to see the ladies. Well, that was easy. Geralt, however, is not so lucky, and will have to agree to complete a challenge to have the "honor" of meeting the ladies. Fair enough. The challenge will be made. Take a leap of faith to start the trial.
+
+Dive into the water and shoot two Drowners (level five) then swim east into an underwater cave. Activate your Witcher Senses and snatch the "Defiers Oren" from the ground... and perhaps loot a chest in the cave. No sense in exploring the cave too much, though.
+
+Swim to and scale some ledges to the west, then, if you've got a bit of extra pluck, head south along some bridges to find a Fiend (level twenty-six) near a cave. Don't fight him along the bridges, as you're liable to get knocked off, instead lure him back north to more open ground. Defeat him, then head into-and through-his cave, turning south when you reach a fork. Exit the cave, run south-west along some bridge, scale a ledge, and head uphill to the east to return back to the reveler's village, from which it shouldn't be hard to find Hecla, who is in her tent to the north.
+
+Or, if you don't care to tangle with a Fiend, follow a trail north, then east from the water in which you dove for the coin. Climb two ledges and head east up some stairs and you'll find your north of Thecla's tent. Talk to Thecla and present your coin, who will grant you access to the top of the mountain.
+
+Objective	Reward
+For completing Thecla's challenge	300 XP
+Follow Marica up the mountain to some doors, which she'll open for you. Head into the cave and travel north-east, then north, dropping down a ledge to encounter a Sylvan named Fugas (level twenty-six), who will comment on the coin, then attack. Typical stuff, he'll stomp and throw fire, but nothing a Silver Sword can't fix. When he dies, Geralt and Ciri will see to the division of labor and split up.
+
+Ciri and the Crones
+As Ciri, head north-west and drop down a ledge then examine a chasm. Leap into the chasm and swim to the south-west to find dry land to climb onto. Continue down a passage to the south-west to reach a chamber, where you'll find the Crones embroiled in the same vile atrocities, albeit in a somewhat more alluring form. This changes quickly when Ciri makes her presence known, and violence shortly ensues.
+
+This fight is actually pretty easy. Ciri regenerates quickly enough when she's not in combat, and the Crones aren't just aren't dynamic enough on offense to be be that dangerous. Keep moving-if you're not dodging or attacking, you're probably doing something wrong. The Whispess acts like a Water Hag (not much of a stretch, is it?), dipping into the water and surfacing elsewhere to throw vile substances at you. Fortunately, she doesn't do this terribly often, and you'll rarely be hit if you keep moving. Also, Ciri doesn't get quite so incapacitated as Geralt does by similar effects. The rule-of-three doesn't work here-stick to using two fast attacks before dodging away again, as it's usually all you'll be able to do before the Crone either dodges or counter-attacks. When your energy meter is full, consider using Ciri's teleport-attack (hold down [R2]) to score some cheap hits-just be far enough away when you start it, as it takes time to charge. When the first one falls (the Brewess, being slow, makes her an easy target) the fight becomes even easier.
+
+Geralt and Imlerith
+Once the Crones fall you'll find yourself in control of Geralt. Have Samum equipped and make sure you have potions equipped. Once done, head north along a trail and cross a bridge. Once across the bridge immediately turn east and score a Place of Power-another helpful buff for the upcoming encounter. Continue up a narrow trail to the north-west, scale a ledge, then leap over a rock in the path to find Imlerith indulging in supernatural delights.
+
+The pleasantries don't last long, however. Imlerith is terribly easy at first-he'll lazily swipe with his humongous maul, which, when wielded one-handed is just too slow to hit a Witcher. Wait for him to attack, then dodge around him, and hit him a few times. Repeat until he's at half health and he'll drop his shield and begin teleporting. Now sporting a two-handed grip, he attacks much faster. Spam dodge [Circle]-do nothing else aside applying Quen, and be wary, as he'll teleport behind you, forcing you to change the direction of your dodge. He'll unleash a flurry of activity, and your job is to survive. Shortly, he'll tire himself out, giving you the opportunity to land a good hit on him. Repeat this process until he falls.
+
+Objective	Reward
+For avenging Vesemir	1000 XP
+Magic Acorn
+Geralt and Ciri will chat a bit after their dual victories. When the conversation turns towards the future say "Not quite yet.", as this will allow you to exploring Bald Mountain further. Return to where you fought Imlerith and loot his body to find a "Magic Acorn". Once you've obtained this, head back down from Bald Mountain, past the Place of Power and cross the bridge to the south. Follow the road until you find a man named Stregomir arguing with other peasants, who are now worrying about how they'll get along without their magic acorns. You can give them the one you got from Imlerity, or keep it for yourself-if you consume it, you'll get two ability points. Doesn't seem like much of a choice, does it?
+
+Back to Novigrad
+Ciri and Geralt will return to Novigrad, where you'll see the outcome of your choices during the quest "Now or Never". The Witch Hunters have either finished their grisly business with the mages, or, in their absence, they've turned to new scapegoats. In Dandelion's tavern you'll learn that Avallac'h is waiting for you, but there's plenty more to do before we talk to him.
+
+This begins the quests "Final Preparations", "Blindingly Obvious" "Payback" and "The Great Escape". Finally, choices! We also have free run of the map for the first time since we started "Isle of Mists". Since we've gained a good bit of experience since then, we should be able to handle just about every unfinished quest in the game. Of particular interest ware the high-end Witcher set items (superior and mastercrafted), which will serve us well and might be worth going after.
+
+Either go on some treasure hunts, or skip to the next main story quests... all of which are related to the quest "Final Preparations".

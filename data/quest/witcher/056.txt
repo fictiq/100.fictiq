@@ -1,0 +1,83 @@
+Lifting the Curse
+Return to Kaer Morhen's keep, where you'll find Vesemir tending to Uma, Eskel performing an autopsy on a Katakan (you can help him with this, if you care to) and Lambert being... Lambert. He'll play Gwent with you, if you haven't beaten him already, but aside from all that-and some looting-there's not much to see here. Head to the south-eastern corner of the keep, go through the kitchen, then climb some stairs to reach Yennefer.
+
+Disturbance (level 19)
+Talk to Yennefer, who seems to be in a worse mood than we imagined-if you press her too much on matters concerning Triss you could end up taking an unexpected swim. If you stick to business, she'll pass on Lambert and Eskel's tasks to you, which we've already done. Next up-her megascope. She needs to make a call, but there's some interference, so we'll have to find-and remove-it. She'll give you a "Potestaquisitor"-a device which plays "hot-and-cold" with magical disturbances.
+
+Equip the device [R1] and head down to the main level of the keep, then head over to Vesemir and Uma to get a good reaction out of the device. The source of the disturbance is in some crates to the south. Approach them, and Vesemir will come over and offer to deal with them while you babysit Uma. After a while, you'll be free to go report to Yennefer, who will contact a fellow sorceress and question her on relevant matters. Before the communication is ended, however, you'll have to hear some more warnings concerning Ithlinne's Prophecy.
+
+No Place Like Home (level 19)
+Question Yennefer further, or not, then head downstairs, where Vesemir will make a power-play on Yennefer and decide to try a less risky cure for Uma. Yennefer and the three remaining Witchers will sit around and decide to waste the evening drinking and catching up. The Witchers tell stories, Lambert provokes Yennefer, and Yennefer explains her plans regarding Uma. When Yennefer retires for the night, the boys will have some fun... or you can just call it a night, but what fun is that? Play some Gwent, a drinking game (which, if you've played the previous two games, you'll be drinking a lot) and, if you drink too much, you'll have to go on a hunt for a missing Eskel, who wandered outside the keep after going to fetch some more vodka.
+
+Objective	Reward
+For finding Eskel	XP Varies
+Lambert will come up with an awful idea... but if you continue to indulge your drunkeness, you'll find yourself in Yennefer's room as part of a ploy to liven the party up. Loot her chest and put on the clothes you find there, then the three odd Witchers will do their best to work Yennefer's megascope. Sadly, Yennefer arrives and puts an end to the fun before the three can cause too much trouble with the megascope. The ends "No Place Like Home" and begins "Va Fail, Elain."
+
+Va Fail, Elain (level 19)
+In the morning the experiment on Uma will begin. Ask Vesemir about his attempt to remove the curse, after which Yennefer will hand out more tasks. You'll be given the task to brew a potion, and you'll be given the formula for the "Decoction of the Grasses." Head west from Uma and search a box to obtain the ingredients you need, make the potion, then return to Yennefer, after which the operation begins.
+
+Your only task is to operate some valves (the order doesn't matter), clean up a mess, and pick some dialogue options, including telling Yennefer a story to keep her awake through the trial. When the trial is over, you'll learn where Ciri is. This ends "Va Fail, Elain" and "Ugly Baby."
+
+Objective	Reward
+For lifting Uma's Curse	XP Varies
+We must recover Ciri, but when we do so, the Wild Hunt will follow. It's time to stop running from them, and make a stand. You can run off to go and find Ciri-the object of the quest "The Isle of Mists," but you'd be wiser if you called in some favors, first. The quests "Brothers in Arms: Nilfgaard," "Brothers in Arms: Novigrad,", "Brothers in Arms: Skellige" and "Brothers in Arms: Velen" cover this. In fact, if you've been following this guide, you've already done the requirements to satisfy your allies, you need only ask them for aid. The quest "Brothers in Arms: Velen" should complete as soon as it begins. Let's go call in some favors, shall we?
+
+Gather Allies
+Brothers in Arms: Nilfgaard (level 22)
+First up, let's go to Vizima and talk to the emperor... well see if Emyhr is willing to put his army where his heir is. Fast-travel to the "Royal Palace in Vizima" and talk to Emhyr. He makes demands, Geralt makes demands, the two don't see eye-to-eye, and nothing productive ensues. Well, let's hope the rest of our attempts will bear more fruit.
+
+Brothers in Arms: Novigrad (level 22)
+Next stop, Novigrad. There are four people we can get help from here. Triss Merigold should be a lock since we already did "A Matter of Life and Death" and "Now or Never." Vernon Roche will join if we did "Eye for an Eye" earlier, just fast-travel to the "Temerian Partisan Hideout" and talk to him.
+
+After that, fast-travel to the "Gate of the Hierarch" signpost along the southern end of Novigrad and head to Dandelion's tavern to find Zoltan Chivay out front. If you completed "A Dangerous Game" (and why wouldn't you have? Gwent Cards were at stake!) he'll agree to come along.
+
+Last and least, head to Dijkstra's bath house and talk to him in his office. He'll aid you if, during "Count Reuven's Treasure" you infiltrated Menge's stronghold sneakily (at Triss's expense) and asked Menge about his treasure. If not, he'll tell you to... well, go away, but in less friendly terms.
+
+Brothers in Arms: Skellige (level 22)
+Fast travel to the "Gedyneith" signpost in Skellige, then find Ermion in one of the druid dens built into the hillside. Talk to him and ask for help, but because of Yennefer's theft and destruction of his mask... nah, just fooling. Ermion's a stand up guy, and agrees to help defend Ciri in spite of all the crap you've put him through.
+
+Return to Kaer Trolde and ask Crach for help. For perfectly logical reasons, he can't aid you with troops, but he will give you the sword "Winter's Blade."
+
+Objective	Reward
+For asking Crach for help	50 XP
+Winter's Blade
+Now go talk to the new monarch, whomever that may be... if, of course, there is a new monarch. If you completed the quests "Possession," "The Lord of Undvik," "King's Gambit" and "Coronation" Hjalmar will join your quest-regardless of who is actually the monarch.
+
+Objective	Reward
+For recruiting Hjalmar	50 XP
+Brothers in Arms: Velen (level 22)
+There's only one person in Velen whom is officially involved in the quest "Brothers in Arms: Velen" and that's Keira Metz. To get her to help out you'll have had to have completed the quests "An Invitation from Keira Metz," "A Towerful of Mice," "A Favor for a Friend" and "For the Advancement of Learning"... obviously killing her or letting her run off to Radovid were not the right choices in the latter quest, if you wanted to get her aid, but if you sent her to Kaer Morhen, you'll be fine.
+
+Also, if you told Voorhis that Letho was still alive at the beginning of the game and completed the quests "The Fall of House Reardon" and "Ghosts of the Past" and sent him to Kaer Morhen, he'll be there to lend a helping hand, too.
+
+The Isle of Mists
+It's time to go after Ciri. By now you should have completed all the "Brothers in Arms" quests and their related side-quests. Doing this should put your level in the low-to-mid twenties, especially if you've done everything else in the guide. Having Enhanced (or better yet, Superior) Witcher set gear will help. Also ensure you've upgraded your Potions, Oils, Decoctions, and Bombs as much as possible. When you've done all that, it's time to go get Ciri.
+
+The Isle of Mists (level 22)
+Board a boat anywhere in Skellige-your destination is on the isle of Undvik. There are two harbors you can fast-travel to that will get you to your destination much faster-one near the "Marlin Coast" signpost, and an even closer one, to the north-west. Sail west along the northern coast of Undvik-your goal being a small island to the north-west of Undvik. Sail into the mists carefully-it would be unwise to damage your boat needlessly-and when prompted, take the game's advice and create a manual save before you proceed further. You should, if you're following this guide, be well above the suggested level of twenty-two, and you should have already completed all the side quests that you would otherwise be unable to complete after proceeding, so don't worry about that too much.
+
+Warning!: Just in case it didn't sink in, here's another reminder. Make a hard save at the beginning of "The Isle of Mists." Do not save over it. We'll be dealing with story missions for a while from this point on, and making decisions that affect the end of the game. It might be wise to back up all that hard work now, in case you want to see things play out a different way later.
+
+Geralt will unleash the Magic Firefly he was given after removing the curse from Avallac'h, which will guide us through the mist. Follow the firefly (or the quest marker indicating it on the minimap) and avoid the rubble and rocks as you go. If any Ekhidna (level nineteen) show up, let go of the helm [Circle] before they latch onto the boat. This will get them to attack you and not tear your poor ship to pieces.
+
+Eventually you'll reach a jetty. Dock your boat and jump onto the dock, loot some chests on the shore and under the jetty (keep an eye to the shore on this isle, as there are plenty of lucrative chests along the shore) then follow the firefly south-east. Apply some Necrophage Oil to your Silver Sword, as Tangalore (level nineteen) roam around here. They're essentially just Foglets with a different name, and the old strategies work fine-Quen to protect yourself, dodge when you see them move in, and counter with Strong Attacks.
+
+Follow the firefly to a hut near the center of the island and examine the locked door. After some initial caution, the people inside will tell you-through the door-how they came to be here, and why they're so suspicious. Eventually you'll have to end up agreeing to look for their mates, of which there are three-Ivo, Gaspard, and Ferenc. Ask about them all, then set out to find them.
+
+Hunting for Ivo
+Our goal now is to find Ivo on the northern coast, which can be accomplished by head north around-and past-the hut by going through a series of caves, which this island seems to be riddled with. From the hut head east until you spot a cave to the north. Follow the winding cave until you find another cave entrance above you to the north. Scale some rocks head into the new cave, score a chest and loot a corpse to the north-east, then exit the cave to the north-west. You're now over-looking the coast. Turn north-east, jump a gap, then climb down some ledges and a ramp.
+
+When you reach the northern coast, head west. The coast here it littered with Bilge Hags (level twenty). A level twenty-five Witcher with a Superior Feline Silver Sword and Superior Necrophage Oil, one or two Strong Attacks should be all it takes to kill them. Ah, how times change... Anyways, when you approach Ivo's location, he'll call out to you from atop a high rock formation, and opt to take the fast way down.
+
+Going After Gaspard
+Well, that's one rescued... or found, in any case. Continue west along the northern coast until you spot a tower. Enter it, loot two chests, then climb a ladder. Loot two sacks, then climb two more ladders to find Gaspard at the top of the tower. Wake the sleepy dwarf, then convince him to come with you.
+
+Now for a rather annoying escort quest. Gaspard can't die, but he finds other ways to be obnoxious... namely by constantly falling victim to his chronic, crippling, how-did-he-survive-this-long case of narcolepsy. Every so often he'll lie down and fall asleep, forcing you to go back and wake him up. He also won't climb or jump, and moves at a snail's pace, so we'll have to find another way back.
+
+Head south-east along a road from the tower, stopping just long enough to dispatch a pair of Tangalores (level nineteen), then continue until you reach a fork, where you'll need to kill another pair of Tangalores. Take the first road to the east you find, following it uphill as it winds its way along a craggy hill. Kill some Harpies (level nineteen) that don't know better than to pester Geralt and follow the trail as it turns south, then east again to reach the hut.
+
+Finding Ferenc
+After dropping off the nuisance that is Gaspard, head to the south-western end of the island in search of Ferenc. In this case, it seems that Gaspard's dreams were right, as Ferenc has fallen victim to the Fiend (level twenty-two) that stalks these swamps. Kill the Fiend, then examine Ferenc's body.
+
+Answers
+Hopefully one out of three is good enough for the people in the hut. Return there and the dwarves in the hut will come out and welcome their own back into the fold. They'll then give you bad news about Ciri, who is apparently in the hut. Ciri and the six dwarves? Anyways, Geralt will enter the hut and you'll witness a touching scene, and get some long awaited answers.

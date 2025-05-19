@@ -1,0 +1,661 @@
+```yaml
+quests:
+  - id : PM_QUEST_01
+    title: Bayou Bio-Hacking 101
+    name: "Help  Doc Thibodeaux Gather Rare Ingredients for Bio-Alchemy"
+    entity_type: Narrative Progression / Skill Gate Quest 
+    primary_authentication_source: Quest Definition YAML (PM_QUEST_01)
+    functional_profile: 
+      core_functional_identity: "Functions as intro quest to key NPC vendor (Doc Thibodeaux) &  bio-alchemy. Requires player exploration, combat, interaction capabilities across multiple challenges. Introduces resource gathering & NPC interaction/ persuasion."
+      key_narrative_functions: ["Introduces key character/vendor", "Unlocks advanced crafting  potential", "Drives exploration into specific sub-regions", "Establishes world flavor (bio-science + hoodoo) "]
+      relation_to_alethic_modality: "Tests player capability within world rules (travel,  combat, item properties). Validates existence/function of rare items & NPC roles."
+      key_functional_tensions:  ["Player effort/risk vs. reward (access to advanced schematics)", "Thibodeaux's reluctance vs.  player need for his expertise."]
+    overall_completion_marker: PM_Q09_S03 # Indicates  where this overarching quest concludes
+    steps:
+      - step_id: PM_Q01_S01
+         title: Getting Started
+        functional_profile:
+          core_function_purpose: "Introduce quest giver (Doc Thibodeaux ) and starting location. Establish initial interaction point."
+          required_player_capabilities: ["Navigation: Fast Travel", "Navigation:  Pathfinding", "Observation", "Dialogue: Initiation"]
+          involved_entities_functional_roles:
+            - entity_ name: "'Gator Boneyard' Dock"
+              functional_role: "Location: Navigation Start Point" 
+            - entity_name: "Doc Thibodeaux's Shack"
+              functional_role: "Location : Destination"
+            - entity_name: '"Doc" Thibodeaux'
+              functional_role: " Entity: Quest Giver, Potential Vendor, Info Source"
+          constraints_vulnerabilities: ["Requires locating specific path and NPC ."]
+      - step_id: PM_Q01_S02
+        title: The Task
+        functional _profile:
+          core_function_purpose: "Deliver core quest objectives; Gate progression behind acquiring specific items &  NPC cooperation. Set up subsequent quest steps."
+          required_player_capabilities: ["Dialogue: Persistence/Negotiation",  "Quest Acceptance/Tracking"]
+          involved_entities_functional_roles:
+            - entity_name: '" Doc" Thibodeaux'
+              functional_role: "Entity: Task Assigner, Info Source"
+            -  entity_name: '"Swamp Lightning" Moonshine'
+              functional_role: "Object: Quest Objective -  Requires Retrieval (See PM_QUEST_04)"
+            - entity_name: '"Catahoula Nightshade"' 
+              functional_role: "Object: Quest Objective - Requires Retrieval (See PM_QUEST_05)"
+             - entity_name: '"Bayou Boss Fontaine"'
+              functional_role: "Entity: NPC - Requires  Interaction/Persuasion for Favor (See PM_QUEST_08)"
+          constraints_vulnerabilities: ["Th ibodeaux's initial reluctance (Social Constraint)", "Requirement to complete three distinct sub-tasks (Complexity Constraint)"]
+
+   - id: PM_QUEST_02
+    title: Flooded Stilt Village & The Kin by Gator  Conundrum
+    name: "Investigate Flooded Village and Follow Clues to Missing Kin"
+    entity _type: Environmental Investigation / Minor Side Quest
+    primary_authentication_source: Quest Definition YAML (PM_QUEST _02)
+    functional_profile:
+      core_functional_identity: "Functions as environmental storytelling quest.  Requires investigation, minor combat, clue following. Introduces location hazard (mutation source) & links narrative via items."
+       key_narrative_functions: ["Provides world-building (decay, tragedy)", "Offers minor combat/looting", "Pot entially links to other local narratives."]
+      relation_to_alethic_modality: "Validates environmental hazards ( mutations), creature behavior (territorial), persistence of info (logs)."
+      key_functional_tensions: [" Risk of exploring hazardous area vs. potential loot & narrative satisfaction."]
+    steps:
+      - step_id: PM_ Q02_S01
+        title: Locating the Village
+        functional_profile:
+          core _function_purpose: "Guide player to primary quest location. Establish atmosphere."
+          required_player_capabilities: ["Navigation : Fast Travel", "Navigation: Pathfinding"]
+          involved_entities_functional_roles:
+            - entity _name: "'Crawdad Creek' Landing"
+              functional_role: "Location: Navigation Start Point"
+             - entity_name: Flooded Stilt Village
+              functional_role: "Location: Primary Quest Area"
+          constraints _vulnerabilities: ["Environmental hazards (decaying structures, potentially hidden threats)"]
+      - step_id: PM_ Q02_S02
+        title: Hazards & Loot
+        functional_profile:
+          core_ function_purpose: "Present combat & environmental interaction challenges; Deliver primary clue item."
+          required_player_capabilities: ["Combat : vs. Mutated Snapping Turtles", "Interaction: Destroy mutation source", "Interaction: Looting", "Reading/ Information Processing"]
+          involved_entities_functional_roles:
+            - entity_name: Mutated Snapping  Turtles
+              functional_role: "Entity: Obstacle - Threat (Level 13 Equiv.)"
+            -  entity_name: Unstable pre-Calamity chemical drum
+              functional_role: "Object: Environmental Hazard , Interactable"
+            - entity_name: '"Waterlogged Logbook"'
+              functional_role: " Object: Clue, Quest Item - Information Source"
+            - entity_name: Flooded Stilt Village Structures
+               functional_role: "Location: Loot Source, Hazard Zone"
+          constraints_vulnerabilities: ["Enemy  threat", "Requirement for specific action on drum", "Unstable environment."]
+        quests_updated:
+          - '"Kin  by Gator"'
+      - step_id: PM_Q02_S03
+        title: Comple ting "Kin by Gator"
+        functional_profile:
+          core_function_purpose: "Resolve narrative thread from  logbook; provide quest completion."
+          required_player_capabilities: ["Navigation: Pathfinding based on clue",  "Combat: vs. Giant Water Moccasins (potential)", "Interaction: Looting specific container"]
+          involved _entities_functional_roles:
+            - entity_name: Wrecked Airboat Freighter
+              functional_ role: "Location: Destination"
+            - entity_name: Giant Water Moccasins
+              functional_role: " Entity: Obstacle - Potential Threat (Level 13 Equiv.)"
+            - entity_name: Marked  Crate/Footlocker
+              functional_role: "Object: Quest Objective Container"
+          constraints_vulner abilities: ["Potential enemy threat", "Requires finding specific container."]
+        quests_completed:
+          - '"Kin  by Gator"' # Assumes this is the concluding step for this minor quest
+
+  - id: PM_QUEST_03
+     title: 'Blueprint: Solar Recharger Mk II'
+    name: "Find Valuable Solar Recharger Blueprint in  Collapsed Workshop Basement"
+    entity_type: Item Retrieval / Minor Dungeon Crawl
+    primary_authentication_ source: Quest Definition YAML (PM_QUEST_03)
+    functional_profile:
+      core_functional _identity: "Straightforward item retrieval quest in small hazardous location. Rewards exploration with valuable schematic."
+      key_narrative _functions: ["Provides desirable crafting blueprint", "Adds minor lore/flavor via notes", "Presents combat challenge ( Phantoms)."]
+      relation_to_alethic_modality: "Validates specific tech (Solar Re charger), supernatural entities (Phantoms), accessibility limits (blocked passage)."
+      key_functional_tensions: ["Eff ort/risk of clearing path & defeating enemies vs. value of blueprint."]
+    steps:
+      - step_ id: PM_Q03_S01
+        title: Location
+        functional_profile:
+           core_function_purpose: "Identify specific location for quest objective."
+          required_player_capabilities: ["Navigation : Returning to known area", "Navigation: Locating specific structure"]
+          involved_entities_functional_roles: 
+            - entity_name: Collapsed Workshop
+              functional_role: "Location: Primary Quest Area"
+           constraints_vulnerabilities: ["Blocked entrance (Physical Obstacle)"]
+      - step_id: PM _Q03_S02
+        title: Acquisition
+        functional_profile:
+          core_function _purpose: "Overcome obstacles (physical & combat) to retrieve quest reward."
+          required_player_capabilities : ["Interaction: Clearing Debris (Requires tool/skill)", "Combat: vs. Lingering Phantoms", "Interaction : Looting", "Observation: Finding items"]
+          involved_entities_functional_roles:
+            - entity _name: Rubble
+              functional_role: "Object: Physical Obstacle - Requires Force/Tool"
+             - entity_name: Lingering Phantoms
+              functional_role: "Entity: Obstacle - Threat ( Level 20 Equiv.)"
+            - entity_name: '"Enforcement Warrant for ''Techno- Heretic Silas''"'
+              functional_role: "Object: Lore Item"
+            - entity_name: '" Tinkerer''s Notes"'
+              functional_role: "Object: Lore Item"
+            - entity_ name: Reinforced Chest
+              functional_role: "Object: Container"
+            - entity_name: '"Blueprint: Solar Re charger Mk II"'
+              functional_role: "Object: Reward Item"
+          constraints_vulnerabilities:  ["Requires specific capability to clear rubble", "Enemy threat", "Phantoms might require specific tactics (lore hint: iron/ salt)"]
+        rewards: # Reward is functionally granted here
+          - item: '"Blueprint: Solar Recharger Mk II "'
+
+  - id: PM_QUEST_04
+    title: The Bayou Still & Swamp Lightning
+    name : "Brew Potent Swamp Lightning Moonshine at Haunted Bayou Still"
+    entity_type: Item Crafting / Location Puzzle  Quest
+    primary_authentication_source: Quest Definition YAML (PM_QUEST_04)
+    functional_ profile:
+      core_functional_identity: "Multi-stage quest: navigation, combat, investigation (instructions), object  interaction (machine puzzle) to produce quest item. Fulfills one objective of PM_QUEST_01."
+       key_narrative_functions: ["Provides required item for parent quest", "Develops world flavor (moonshine, jury -rigged tech)", "Offers combat & puzzle gameplay."]
+      relation_to_alethic_modality:  "Validates specific crafting processes, creature presence, machinery operation rules (lever sequence), location states."
+      key_functional_ tensions: ["Complexity of process vs. necessity of item", "Risk of combat/exploration vs. reward."]
+     steps:
+      - step_id: PM_Q04_S01
+        title: Getting  There
+        functional_profile:
+          core_function_purpose: "Guide player through complex navigation to quest location."
+           required_player_capabilities: ["Navigation: Waterway travel", "Navigation: Pathfinding (Requires specific route)"] 
+          involved_entities_functional_roles:
+            - entity_name: Waterways/Mangroves
+              functional_ role: "Location: Navigation Challenge"
+            - entity_name: Bayou Still Path
+              functional_role:  "Location: Destination Approach"
+          constraints_vulnerabilities: ["Difficult navigation", "Potentially unmarked paths."] 
+      - step_id: PM_Q04_S02
+        title: The Still Exterior
+         functional_profile:
+          core_function_purpose: "Present initial combat challenge; Establish location visually."
+          required _player_capabilities: ["Combat: vs. Feral Hogs", "Observation: Locating signpost", "Interaction : Looting"]
+          involved_entities_functional_roles:
+            - entity_name: Feral H ogs
+              functional_role: "Entity: Obstacle - Threat (Level 23 Equiv.)"
+             - entity_name: Bayou Still Ruins
+              functional_role: "Location: Exploration Area"
+            -  entity_name: '"Abandoned Still" Landmark Signpost'
+              functional_role: "Object: Discoverable Landmark "
+          constraints_vulnerabilities: ["Enemy threat."]
+      - step_id: PM_Q04 _S03
+        title: Inside the Works
+        functional_profile:
+          core_function_purpose : "Present further combat; Provide crucial information for puzzle element."
+          required_player_capabilities: ["Navigation: Crossing bridge ", "Combat: vs. Malfunctioning Loader-Bot", "Interaction: Looting", "Reading/Information Processing"] 
+          involved_entities_functional_roles:
+            - entity_name: Malfunctioning Loader-Bot
+               functional_role: "Entity: Obstacle - Threat (Level 21 Equiv.), 70s Aesthetic Validation"
+             - entity_name: 'Loader-Bot "Nest"'
+              functional_role: "Location: Minor Loot Source"
+             - entity_name: Control Platform / Cots
+              functional_role: "Location: Information Source"
+            - entity _name: '"Distiller''s Final Note"'
+              functional_role: "Object: Lore Item"
+             - entity_name: '"Tattered Logbook"'
+              functional_role: "Object: Quest Item -  Contains Instructions"
+          constraints_vulnerabilities: ["Enemy threat", "Vulnerabilities of Loader-Bot ( joints/power cell)."]
+      - step_id: PM_Q04_S04
+        title : Brewing the 'Shine
+        functional_profile:
+          core_function_purpose: "Execute crafting puzzle using gathered  info; Produce quest objective item."
+          required_player_capabilities: ["Interaction: Gathering ingredient", "Interaction:  Loading machine", "Interaction: Flipping switch", "Interaction: Turning valves (Specific Sequence)", "Observation: Reading gauges/lights ", "Interaction: Looting final product"]
+          involved_entities_functional_roles:
+            - entity_ name: Still Machinery (Vat, Switch, Valves, Barrel)
+              functional_role: "Object: Interact able Puzzle Elements"
+            - entity_name: '"Processed Gator Biomass"'
+              functional_role: " Object: Required Ingredient"
+            - entity_name: '"Swamp Lightning" Moonshine'
+              functional_ role: "Object: Reward Item, Quest Objective (for PM_QUEST_01)"
+            - entity_name: Log book Instructions
+              functional_role: "Information: Constraint - Defines Correct Sequence"
+          constraints_vulnerabilities : ["Requires correct sequence of actions (Puzzle Constraint)", "Potential for failure if sequence wrong (Implied)", "Requires  specific ingredient."]
+        rewards:
+          - description: "For brewing the Swamp Lightning"
+            xp: 8 0
+          - item: '"Swamp Lightning" Moonshine' # Item functionally acquired here
+
+  - id: PM _QUEST_05
+    title: Swamp Herbs and Sticky Situations
+    name: "Retrieve Catahoula Nightshade  and Deal with Bayou Siren Encounter"
+    entity_type: Item Retrieval / Social Encounter Quest with Choice
+    primary_authentication _source: Quest Definition YAML (PM_QUEST_05)
+    functional_profile:
+      core_ functional_identity: "Item retrieval quest complicated by NPC interaction & moral/tactical choice. Involves tracking, combat (potential /actual), dialogue. Fulfills one objective of PM_QUEST_01."
+      key_narrative _functions: ["Provides required item for parent quest", "Introduces potential recurring threat/ally (Siren)", "P resents player choice with consequences", "World-building (local beliefs, creatures)."]
+      relation_to_al ethic_modality: "Validates specific flora (Nightshade), creatures (Panthers, Crawfish, Siren ), tracking methods, possibility of non-hostile encounters."
+      key_functional_tensions: ["Player choice (kill vs . spare) with immediate social & potential long-term effects", "Risk of combat vs. peaceful resolution."]
+    steps:
+       - step_id: PM_Q05_S01
+        title: The Search
+        functional _profile:
+          core_function_purpose: "Guide player to initial objective location; Present minor environmental threats." 
+          required_player_capabilities: ["Navigation: Waterway/Bank travel", "Combat: vs. Swamp Panthers (potential) "]
+          involved_entities_functional_roles:
+            - entity_name: Swamp Panthers
+              functional_ role: "Entity: Obstacle - Potential Threat (Level 15 Equiv.)"
+            - entity_ name: Bioluminescent Fungal Grove Area
+              functional_role: "Location: Destination"
+          constraints_vulnerabilities:  ["Enemy threat."]
+      - step_id: PM_Q05_S02
+        title:  Complication
+        functional_profile:
+          core_function_purpose: "Introduce complication (item harvested) & NPC  providing context & new objective (find Remy)."
+          required_player_capabilities: ["Observation: Using senses/scanner",  "Interaction: Examining patch", "Dialogue: Talking to Trapper"]
+          involved_entities_functional_roles:
+            -  entity_name: '"Catahoula Nightshade" Patch'
+              functional_role: "Object: Interact able Clue"
+            - entity_name: Local Trapper
+              functional_role: "Entity: Information  Source, Secondary Quest Giver"
+            - entity_name: Remy
+              functional_role: "Entity: Mentioned -  Subject of new objective"
+            - entity_name: '"Swamp Siren"'
+              functional_role: " Entity: Mentioned - Context"
+          constraints_vulnerabilities: ["Item unavailability triggers next step."]
+      - step_ id: PM_Q05_S03
+        title: Tracking Remy
+        functional_profile:
+           core_function_purpose: "Require player tracking skills; Present environmental clues & combat."
+          required_player_capabilities:  ["Dialogue: Agreeing to help", "Skill Use: Tracking", "Interaction: Investigating grave", "Combat: vs . Giant Mutated Crawfish"]
+          involved_entities_functional_roles:
+            - entity_name: Tracks (Web bed & Human)
+              functional_role: "Object: Clue - Information Source"
+            - entity_ name: Fresh Grave
+              functional_role: "Object: Clue - Information Source"
+            - entity_ name: Giant Mutated Crawfish
+              functional_role: "Entity: Obstacle - Threat (Level 2 6 Equiv.)"
+          constraints_vulnerabilities: ["Requires tracking capability", "Enemy threat."]
+      - step_ id: PM_Q05_S04
+        title: The Encounter
+        functional_profile:
+           core_function_purpose: "Present social/moral choice regarding Siren; Potential combat."
+          required_player_capabilities:  ["Dialogue: Interaction with Remy & Siren", "Decision Making: Choice Attack vs. Spare", "Combat: vs. Bayou Siren  (conditional)"]
+          involved_entities_functional_roles:
+            - entity_name: Remy
+              functional_ role: "Entity: Advocate for Siren"
+            - entity_name: Bayou Siren
+              functional_role:  "Entity: Subject of Choice, Potential Threat/Ally, Info Source (Level 25 Equiv.)"
+           constraints_vulnerabilities: ["Player choice dictates immediate outcome", "Siren possesses specific combat capabilities (sonic/spores)  if fought."]
+          choices: # Explicitly defining choices here
+            - choice_id: PM_Q05 _C01
+              prompt: "Attack the Siren"
+              functional_outcome: "Initiates combat vs . Siren. Remy becomes hostile/distraught. Trapper approves."
+            - choice_id: PM_Q05 _C02
+              prompt: "Believe the Siren/Remy"
+              functional_outcome: "Avoids combat. Tra pper becomes hostile/leaves. Siren may provide information or depart peacefully."
+      - step_id: PM_Q0 5_S05
+        title: Getting the Goods
+        functional_profile:
+          core_function_ purpose: "Final item retrieval, potentially guided by previous choice."
+          required_player_capabilities: ["Navigation: Following  trail/Siren to cave", "Exploration: Navigating cave", "Interaction: Harvesting Nightshade"]
+          involved_entities _functional_roles:
+            - entity_name: Dank Cave
+              functional_role: "Location: Destination "
+            - entity_name: '"Catahoula Nightshade"'
+              functional_role: "Object : Reward Item, Quest Objective (for PM_QUEST_01)"
+          constraints_vulnerabilities: [" Environmental hazards within cave (pitfalls, critters)."]
+        rewards:
+          - description: "For obtaining the  Catahoula Nightshade"
+            xp: 80
+          - item: '"Catahoula Night shade"' # Item functionally acquired here
+
+  - id: PM_QUEST_06
+    title: Bayou Abduction
+     name: "Help Gator Farmer Rescue Abducted Kin from River Runners"
+    entity_type: Rescue / Combat Quest 
+    primary_authentication_source: Quest Definition YAML (PM_QUEST_06)
+    functional_profile :
+      core_functional_identity: "Emergent combat encounter leading into dedicated rescue quest. Requires immediate combat & sets  up subsequent objective at new location (Sunken Maw)."
+      key_narrative_functions: ["Introduces local conflict ( Farmers vs. Runners)", "Provides motivation for exploring Sunken Maw", "Presents immediate heroic action opportunity."]
+       relation_to_alethic_modality: "Validates factions (Farmers, Runners) & their conflict, confirms abduction  possibility."
+      key_functional_tensions: ["Immediate combat risk vs. reward (XP, starting new quest)", " Emotional appeal of rescue vs. potential danger."]
+    steps:
+      - step_id: PM_Q0 6_S01
+        title: The Encounter
+        functional_profile:
+          core_function_purpose : "Present active combat situation for player intervention."
+          required_player_capabilities: ["Navigation: Reaching location ", "Observation: Witnessing fight"]
+          involved_entities_functional_roles:
+            - entity_name: Secluded  Landing
+              functional_role: "Location: Encounter Site"
+            - entity_name: Gator Farmer
+               functional_role: "Entity: Victim, Potential Quest Giver"
+            - entity_name: River Runners
+              functional_ role: "Entity: Antagonist - Threat (Level 25 Equiv.)"
+          constraints_vulner abilities: ["Active combat in progress upon arrival."]
+      - step_id: PM_Q06_S 02
+        title: Intervention & Quest Start
+        functional_profile:
+          core_function_purpose:  "Require player combat action; Deliver quest info & initiate formal quest."
+          required_player_capabilities: ["Combat: vs . River Runners", "Dialogue: Talking to Farmer", "Quest Acceptance"]
+          involved_entities_functional_roles: 
+            - entity_name: Gator Farmer
+              functional_role: "Entity: Information Source, Quest Giver "
+            - entity_name: Farmer's Airboat
+              functional_role: "Object: Temporary Tool  - Transport"
+            - entity_name: Sunken Maw
+              functional_role: "Location: Mentioned - Destination for  next phase"
+          constraints_vulnerabilities: ["Requires successful combat outcome", "Farmer provides motivation/means ( boat)."]
+        quests_started:
+          - '"Bayou Abduction"'
+        rewards:
+          - description : "For helping the Farmer fend off the River Runners"
+            xp: 50
+
+  - id:  PM_QUEST_07
+    title: The Ballad of the Beaux Barron Boys
+    name: "Team Up with Bounty  Hunter to Eliminate Beaux Barron Boys"
+    entity_type: Bounty Hunting / Dungeon Crawl Combat Quest
+    primary _authentication_source: Quest Definition YAML (PM_QUEST_07)
+    functional_profile:
+       core_functional_identity: "Optional combat quest with allied NPC. Requires dungeon exploration & tactical combat vs. multiple humans. Rewards  loot & unique schematic."
+      key_narrative_functions: ["Provides optional combat content", "Introduces recurring(?)  NPC ally (Cletus)", "World-building (local gangs)", "Offers tangible reward (schematic)."]
+       relation_to_alethic_modality: "Validates bounty hunting activity, confirms specific gang & NPC bounty  hunter, confirms location layout & enemy placement."
+      key_functional_tensions: ["Risk of combat vs.  monetary/item reward", "Potential risk to NPC ally."]
+    steps:
+      - step_id: PM _Q07_S01
+        title: Getting There & Opportunity
+        functional_profile:
+           core_function_purpose: "Introduce quest opportunity via NPC interaction near related location."
+          required_player_capabilities: ["Navigation : Reaching location", "Dialogue: Talking to Cletus", "Dialogue: Accepting Quest"]
+          involved_ entities_functional_roles:
+            - entity_name: "'Sunken Maw' Dock Area"
+              functional_role : "Location: Meeting Point"
+            - entity_name: Cletus
+              functional_role: " Entity: Quest Giver, Temporary Ally"
+            - entity_name: Beaux Barron Boys
+              functional_role : "Entity: Mentioned - Target"
+            - entity_name: Sunken Maw
+              functional_role : "Location: Mentioned - Quest Location"
+          constraints_vulnerabilities: ["Quest availability depends on encountering  Cletus."]
+      - step_id: PM_Q07_S02
+        title:  Inside the Grotto & Confrontation
+        functional_profile:
+          core_function_purpose: "Navigate dungeon environment with ally ; Engage in primary combat."
+          required_player_capabilities: ["Interaction: Using light source", "Navigation: Cave exploration ", "Combat: vs. Beaux Barron Boys (coordinated with ally potentially)", "Skill Use: Applying weapon coating (optional) "]
+          involved_entities_functional_roles:
+            - entity_name: Sunken Maw Grotto
+               functional_role: "Location: Dungeon Environment"
+            - entity_name: Cletus
+              functional _role: "Entity: Combat Ally"
+            - entity_name: Beaux Barron Boys
+              functional_role : "Entity: Antagonist - Threat (x3, Level 26 Equiv.)"
+            - entity_name : "'Gator Grease"
+              functional_role: "Object: Optional Tool - Buff"
+          constraints_ vulnerabilities: ["Darkness (Requires light source)", "Enemy threat (multiple opponents with specific weapons)."]
+      -  step_id: PM_Q07_S03
+        title: Aftermath & Loot
+        functional_profile :
+          core_function_purpose: "Conclude combat; Provide rewards & opportunity for further exploration."
+          required _player_capabilities: ["Dialogue: Post-combat interaction with Cletus (conditional)", "Interaction: Looting  bodies/containers", "Exploration: Searching remainder of area"]
+          involved_entities_functional_roles:
+             - entity_name: Cletus
+              functional_role: "Entity: Reward Giver (conditional on  survival)"
+            - entity_name: Beaux Barron Boys' Camp
+              functional_role: "Location: Loot  Source"
+            - entity_name: Chest near Bedrolls
+              functional_role: "Object: Container - Specific Reward" 
+            - entity_name: '"Schematic: Gator Jaw Gauntlets"'
+              functional_role: " Object: Reward Item"
+            - entity_name: Northern Passage / Slope Chest
+              functional_role: " Location: Bonus Loot"
+          constraints_vulnerabilities: ["Cletus survival affects dialogue/reward interaction", "Specific  schematic in designated container."]
+          quests_potentially_continued: # Functionally links to another possibility
+            - '" Bayou Abduction"'
+        rewards:
+          - description: "For eliminating the Beaux Barron Boys"
+             xp: 25
+            currency: "50 Pre-Calamity Scrip (PCS)"
+          -  item: '"Schematic: Gator Jaw Gauntlets"' # Item functionally acquired here
+
+  - id: PM_ QUEST_08
+    title: Appeasing the Bayou Spirits (or Fixing the Weather Machine)
+    name:  "Help Bayou Boss Fontaine with Spirits or Broken Weather Machine"
+    entity_type: Defense / Escort Quest
+     primary_authentication_source: Quest Definition YAML (PM_QUEST_08)
+    functional_profile: 
+      core_functional_identity: "Defense quest protecting NPC performing task against waves of enemies. Fulfills final  objective for PM_QUEST_01. Presents thematic choice (Supernatural vs. Tech)."
+      key_narrative_functions : ["Provides required NPC favor for parent quest", "Reinforces world themes (supernatural or retro-tech failure)", "Offers  wave-based combat gameplay."]
+      relation_to_alethic_modality: "Validates NPC influence  (Fontaine), confirms specific threats (Spirits/Bunnies or Drones/Mutants), validates ritual/repair  attracting hostility."
+      key_functional_tensions: ["Player defense skill vs. enemy waves", "Protecting NPC is  primary objective constraint."]
+    steps:
+      - step_id: PM_Q08_S01
+         title: Finding Fontaine
+        functional_profile:
+          core_function_purpose: "Guide player to key NPC  needed for parent quest completion."
+          required_player_capabilities: ["Navigation: Fast Travel", "Navigation: Locating structure "]
+          involved_entities_functional_roles:
+            - entity_name: "'Fontaine's Landing '"
+              functional_role: "Location: Navigation Start Point"
+            - entity_name: Fontaine's  Structure
+              functional_role: "Location: Destination"
+            - entity_name: '"Bayou Boss Fontaine "'
+              functional_role: "Entity: Quest Giver, Key NPC for PM_QUEST_01"
+           constraints_vulnerabilities: ["Requires locating correct structure/NPC."]
+      - step_id: PM_Q08_ S02
+        title: The Problem & Choice
+        functional_profile:
+          core_function_purpose : "Present Fontaine's problem, gating his help. Frame task nature (Supernatural vs. Tech)."
+          required_player _capabilities: ["Dialogue: Understanding request", "Dialogue: Agreeing to help", "Decision Making: Implicit or Explicit choice of  scenario A or B"]
+          involved_entities_functional_roles:
+            - entity_name: '"Bay ou Boss Fontaine"'
+              functional_role: "Entity: Task Assigner"
+            - entity_name:  Angry ancestor spirits / Malfunctioning Weather Station
+              functional_role: "Entity/Object: Problem Source"
+             - entity_name: Ancient Shrine / Weather Control Station
+              functional_role: "Location: Destination based on choice "
+          constraints_vulnerabilities: ["Fontaine requires help before providing his", "Choice dictates subsequent location &  enemy types."]
+          choices:
+             - choice_id: PM_Q08_C01
+                prompt: "Agree to help with Spirits (Option A)"
+               functional_outcome: "Sets target_location to Ancient Shrine . Sets enemy type for next step to Supernatural."
+             - choice_id: PM_Q08_C0 2
+               prompt: "Agree to help with Weather Machine (Option B)"
+               functional_outcome: "Sets  target_location to Weather Control Station. Sets enemy type for next step to Technical/Mutant."
+      - step_id:  PM_Q08_S03
+        title: The Defense
+        functional_profile:
+          core _function_purpose: "Execute core gameplay loop: defending point/NPC against enemy waves."
+          required_player_ capabilities: ["Combat: vs. specific enemy waves (A or B)", "Tactical Positioning: Protecting Fontaine"]
+           involved_entities_functional_roles:
+            - entity_name: '"Bayou Boss Fontaine"'
+              functional _role: "Entity: NPC to Protect (Objective Constraint)"
+            - entity_name: Ancient Shrine OR Weather Control Station
+               functional_role: "Location: Defense Point"
+            - entity_name: Enemy Waves (Option A -  Spirits/Bunnies OR Option B - Drones/Mutants)
+              functional_role: "Entity: Antagonist  - Threat (Level 23 Equiv. Waves)"
+          constraints_vulnerabilities: ["Must keep Fontaine alive",  "Enemies attack in waves", "Specific enemy types present unique challenges."]
+      - step_id: PM_Q 08_S04
+        title: Resolution
+        functional_profile:
+          core_function_purpose : "Conclude defense sequence; Confirm Fontaine's success & agreement to help Thibodeaux."
+          required_player _capabilities: ["Dialogue: Post-combat interaction with Fontaine"]
+          involved_entities_functional_roles:
+            - entity _name: '"Bayou Boss Fontaine"'
+              functional_role: "Entity: Confirms success, Agrees to fulfill  favor (for PM_QUEST_01)"
+          constraints_vulnerabilities: ["Dependent on successful defense in  previous step."]
+        rewards:
+          - description: "For helping Fontaine"
+            xp: 80
+           # Fontaine's agreement is the functional reward needed for PM_QUEST_01
+
+  - id: PM_QUEST_ 09
+    title: Completing Bayou Bio-Hacking 101
+    name: "Complete Doc Thibode aux's Tasks and Become His Apprentice"
+    entity_type: Quest Completion / Reward & Vendor Unlock
+     primary_authentication_source: Quest Definition YAML (PM_QUEST_09)
+    functional_profile:
+       core_functional_identity: "Concluding phase for PM_QUEST_01. Validates sub-objective completion,  delivers final rewards, unlocks valuable vendor."
+      key_narrative_functions: ["Resolves main questline",  "Provides narrative closure (apprenticeship)", "Grants access to advanced crafting options."]
+      relation_to_al ethic_modality: "Confirms successful function of Thibodeaux's 'Project Roux', validates ingredient value, establishes  Thibodeaux as master craftsman/vendor."
+      key_functional_tensions: ["Player's accumulated effort  vs. final reward/unlock."]
+    steps:
+      - step_id: PM_Q09_ S01
+        title: Return to Thibodeaux
+        functional_profile:
+          core_function_ purpose: "Trigger final phase by returning to quest giver with prerequisites met."
+          required_player_capabilities: ["Navigation : Fast Travel", "Navigation: Pathfinding", "Dialogue: Reporting success"]
+          involved_entities_functional_roles: 
+            - entity_name: Doc Thibodeaux's Shack
+              functional_role: "Location: Destination "
+            - entity_name: '"Doc" Thibodeaux'
+              functional_role: "Entity:  Quest Receiver"
+            - entity_name: '"Bayou Boss Fontaine"'
+              functional_role: "Entity : Present, confirming his part"
+            - entity_name: '"Swamp Lightning" / "Catahoula Nightshade " / Fontaine Favor'
+              functional_role: "Object/State: Implicitly possessed/secured by player" 
+          constraints_vulnerabilities: ["Requires completion of PM_Q04, PM_Q05, PM _Q08 objectives."]
+      - step_id: PM_Q09_S02
+        title : The "Ritual"
+        functional_profile:
+          core_function_purpose: "Narrative beat  showing item use; Imposes time delay."
+          required_player_capabilities: ["Waiting / Time Skip"]
+           involved_entities_functional_roles:
+            - entity_name: '"Doc" Thibodeaux / Fontaine '
+              functional_role: "Entity: Performing off-screen action"
+            - entity_name: Thib odeaux's Contraptions
+              functional_role: "Object: Implied use"
+          constraints_v ulnerabilities: ["Player excluded", "Requires passage of 24 hours (Time Constraint)."]
+      - step_id:  PM_Q09_S03
+        title: The Reveal & Vendor Unlock
+        functional_profile:
+           core_function_purpose: "Deliver final narrative resolution, rewards, unlock vendor functionality."
+          required_player_capabilities : ["Dialogue: Receiving thanks/offer", "Interaction: Accessing vendor interface"]
+          involved_entities_functional _roles:
+            - entity_name: '"Doc" Thibodeaux'
+              functional_role: " Entity: Reward Giver, Vendor"
+            - entity_name: Stabilized Bio-compounds / Potent Coffee
+               functional_role: "Object: Narrative outcome of 'Project Roux'"
+            - entity_name: Thibodeaux's Vendor  Inventory
+              functional_role: "Object Collection: Accessible Reward/Resource"
+          constraints_vulnerabilities: [" Vendor access gated behind quest completion."]
+        rewards:
+          - description: "For helping Doc Thibodeaux complete  Project Roux"
+            xp: 80
+            items:
+              - name: Refined Sulfur
+                quantity:  5
+              - name: Pure Alcohest
+                quantity: 5
+              - name: Processed  Kudzu Fiber
+                quantity: 5
+              - name: Salty Residue
+                quantity: 5 
+        vendor_unlocked: '"Doc" Thibodeaux (Bio-Alchemy & Schematics Vendor)'
+        quests_completed :
+          - Bayou Bio-Hacking 101 # Functionally marks completion of PM_QUEST_01
+
+   - id: PM_QUEST_10
+    title: Static Cling
+    name: "Harass Silent  Ritualist Silas into Speaking for Rare Reward"
+    entity_type: Humorous / NPC Interaction Puzzle Quest
+    primary_authentication _source: Quest Definition YAML (PM_QUEST_10)
+    functional_profile:
+      core_ functional_identity: "Lighthearted quest requiring observation & specific interactions to provoke NPC reaction. Rewards unique collectible."
+      key_ narrative_functions: ["Provides comic relief", "World-building (ritualist culture)", "Offers unique non- combat puzzle", "Grants collectible reward."]
+      relation_to_alethic_modality: "Validates  specific NPC behaviors (silence/overload), environmental interactions (extinguish, provoke, rattle), value of collectibles."
+       key_functional_tensions: ["Player willingness to perform annoying actions vs. desire for reward", "Humor  relies on predictable NPC reaction."]
+    steps:
+      - step_id: PM_Q10_S 01
+        title: Finding the Quest
+        functional_profile:
+          core_function_purpose: " Introduce quest giver and premise."
+          required_player_capabilities: ["Navigation: Pathfinding to specific grove area", " Observation: Locating NPC"]
+          involved_entities_functional_roles:
+            - entity_name: Sacred  Cypress Grove Area
+              functional_role: "Location: Quest Hub"
+            - entity_name: Eccentric  Ritualist
+              functional_role: "Entity: Quest Giver"
+          constraints_vulnerabilities: [" Requires finding specific NPC in designated area."]
+      - step_id: PM_Q10_S02
+         title: The Plea
+        functional_profile:
+          core_function_purpose: "Explain objective (make Silas  speak) and reward."
+          required_player_capabilities: ["Dialogue: Understanding request", "Dialogue: Accepting quest "]
+          involved_entities_functional_roles:
+            - entity_name: Eccentric Ritualist
+               functional_role: "Entity: Information Source"
+            - entity_name: Silas
+              functional_role:  "Entity: Mentioned - Target NPC"
+            - entity_name: Rare 8-Track Tape / Equivalent
+               functional_role: "Object: Promised Reward"
+          constraints_vulnerabilities: ["Silas's  silence is the core obstacle."]
+      - step_id: PM_Q10_S03
+         title: The Annoyance
+        functional_profile:
+          core_function_purpose: "Execute puzzle element by performing specific  disruptive actions targeting Silas."
+          required_player_capabilities: ["Observation: Finding Silas at different spots", "Interaction:  Extinguishing pot", "Interaction: Overloading bank", "Interaction: Rattling scrap (Requires specific tools/skills)"]
+           involved_entities_functional_roles:
+            - entity_name: Silas
+              functional_role: "Entity : Target of interactions"
+            - entity_name: Smudge Pot / Capacitor Bank / Scrap Metal
+              functional _role: "Object: Interactable Puzzle Elements"
+          constraints_vulnerabilities: ["Requires performing *all three* specific  actions", "Silas moves between locations."]
+      - step_id: PM_Q10_S0 4
+        title: Resolution
+        functional_profile:
+          core_function_purpose: "Trigger success condition  (Silas speaks); Return to quest giver for reward."
+          required_player_capabilities: ["Observation: Witnessing Silas 's outburst", "Dialogue: Talking to Ritualist"]
+          involved_entities_functional_roles:
+            - entity _name: Silas
+              functional_role: "Entity: Provides success confirmation via dialogue"
+            - entity_ name: Eccentric Ritualist
+              functional_role: "Entity: Reward Giver"
+            - entity_ name: Rare Collectible Item
+              functional_role: "Object: Reward Item"
+          constraints_vulner abilities: ["Reward contingent on successfully provoking Silas."]
+        rewards:
+          - description: "For restoring Silas's voice" 
+            xp: 75
+            items:
+              - '"Iorveth 8-Track Tape " / "Burt Reynolds ''Gator Wrestler'' Action Figure" / Equivalent Collectible'
+
+  - id : PM_QUEST_11
+    title: Derelict 'Gator Processing Outpost
+    name:  "Investigate Derelict Outpost and Neutralize the Threat Within"
+    entity_type: Environmental Investigation / Monster Hunt  Quest
+    primary_authentication_source: Quest Definition YAML (PM_QUEST_11)
+    functional_ profile:
+      core_functional_identity: "Investigation quest culminating in combat. Requires exploration, clue gathering, defeating final  threat appropriate to location's history."
+      key_narrative_functions: ["Environmental storytelling (revealing outpost's  fate)", "Provides monster hunt gameplay", "Offers minor loot/XP reward."]
+      relation_to_aleth ic_modality: "Validates outpost existence/function, confirms specific threats (Mutant/Machine/Haunt/Er penthrope), links clues to final encounter."
+      key_functional_tensions: ["Exploration/Investigation effort  vs. final combat challenge & reward."]
+    steps:
+      - step_id: PM_Q11 _S01
+        title: Discovery
+        functional_profile:
+          core_function_purpose: " Guide player to quest location; Trigger quest start."
+          required_player_capabilities: ["Navigation: Pathfinding ( potentially difficult terrain)"]
+          involved_entities_functional_roles:
+            - entity_name: "'Grove  - West Entrance' Signpost"
+              functional_role: "Location: Reference Point"
+            - entity_ name: "Derelict 'Gator Processing Outpost"
+              functional_role: "Location: Primary Quest Area, Quest  Trigger"
+          constraints_vulnerabilities: ["Requires navigating potentially hazardous terrain."]
+        quests_started: #  Quest functionally begins here
+          - "Derelict 'Gator Processing Outpost"
+      - step_id: PM_ Q11_S02
+        title: Investigation
+        functional_profile:
+          core_function_ purpose: "Build suspense & provide context via finding/processing multiple clues."
+          required_player_capabilities: ["Exploration:  Searching buildings", "Interaction: Looting chests", "Interaction: Examining remains", "Reading/Information Processing", "Skill Use : Forcing locked door (Requires tool/skill)"]
+          involved_entities_functional_roles:
+             - entity_name: Outpost Buildings
+              functional_role: "Location: Exploration Area"
+            - entity _name: '"Waterlogged Foreman''s Ledger" / "Scrawled Notes..." / Skeletal Remains / "Final Radio..." '
+              functional_role: "Object: Clue Items"
+            - entity_name: Locked Storage Door
+               functional_role: "Object: Physical Obstacle - Requires Force/Tool"
+          constraints_vulnerabilities : ["Requires finding multiple clues", "Locked door requires specific capability."]
+      - step_id: PM_Q11_ S03
+        title: The Threat & Conclusion
+        functional_profile:
+          core_function_purpose : "Trigger climactic combat based on gathered evidence; Provide quest resolution upon defeating threat."
+          required_player_ capabilities: ["Combat: vs. specific Threat Entity"]
+          involved_entities_functional_roles:
+            -  entity_name: Threat Entity (Mutant/Machine/Haunt/Erpenthrope)
+              functional_ role: "Entity: Antagonist - Threat (Level 24 Equiv.), Determined by Codex/Design"
+             - entity_name: "Derelict 'Gator Processing Outpost"
+              functional_role: "Location: Combat  Arena"
+          constraints_vulnerabilities: ["Enemy threat possesses specific capabilities/vulnerabilities based on type", "Gather ing clues is prerequisite for encounter trigger."]
+        rewards:
+          - description: "For uncovering the fate of the outpost workers "
+            xp: 50 # (plus loot from site/entity)
+        quests_completed:
+           - "Derelict 'Gator Processing Outpost"
+```

@@ -1,0 +1,150 @@
+ 
+game_title: "Primal Mama: Bayou Beginnings & Lickskillet Blues"
+quests:
+  -  quest_id: "tutorial"
+    title: "Tutorial: Gator's Hollow & Swamp Savvy"
+    stages :
+      - stage_id: "guest_room_bayou_shack"
+        title: "Guest  Room Bayou Shack"
+        description: |
+          The game begins with a humid haze – the protagonist, let's  call him "Jax", is trying to cool off in a salvaged porcelain tub filled with murky swamp water, the air thick with the  scent of cypress and strange herbs. The tranquility is shattered by a small, bio-luminescent frog (a minor Cal amity-mutant, harmless but startling) leaping onto his chest, a prank by Mama Gris-Gris, a wizened  Swamp Witch with eyes that have seen too much. She chides him about his upcoming trial run with Cee-Cee , a young spitfire eager to prove herself in the bayou. After some banter, they both don their patched-up,  1970s-aesthetic utility gear, and a typical day in the shadow of Primal Mama begins.
+
+          Or  rather, the game's tutorial begins. Your first task is to find the ignition key for the shack’s flickering neon " HOME SWEET SWAMP" sign, which Mama Gris-Gris insists on keeping lit for "good juju."  Aside from pointlessly fiddling with the chunky dials on a salvaged radio or examining odd trinkets (a petrified vampire  bunny foot, a Burt Reynolds 8-track), there's not much to do. In the north-western corner of the  shack, on a stack of mildewed pre-Calamity magazines on a Formica-topped table near the door, you 'll find the missing key. Of course, you're supposed to be trying out your nifty "Bayou Senses"  [L2]. Hold that button down, and the world shimmers; interactable objects glow with an internal light.  In this case, the key we need. Grab it and flick the switch. Yes, the game even gives you a tutorial  for turning on a sign. Turns out you have to face it and press [X]. Who knew?
+        notes:
+           - "Note: All directions will be given in relation to the mini-map, a chunky, wrist-mounted device with an  orange-and-brown CRT display. It's a pretty nifty tool that'll make both our lives easier." 
+        continuation: |
+          Power up the sign and strut outside, Jax-style. Once in the humid air,  Jax will note that Old Man Croaker, a grizzled Erpenthrope who was supposed to be schooling Cee- Cee in gator-wrangling, has apparently dozed off. Instead of mending solar-nets, C ee-Cee is out on the rickety walkways, trying to lasso a particularly feisty juvenile GE Alligator with  a jury-rigged cattle prod. After some grumbling from Croaker, Jax heads over to check on the aspiring swamp -hand. After chatting with Cee-Cee for a bit, she'll ask if you want to " run the walkways," which is a handy, more in-depth tutorial covering basic mobility.
+
+      - stage_id: "running _the_walkways"
+        title: "Running the Walkways"
+        description: |
+          If  you chose to "run the walkways," start out by heading west and climbing a rusty ladder [X] onto a water tower platform,  then scale two precariously stacked oil drums to the north [Circle] and clamber onto a sagging walkway to the west . Drop off a ledge to the north (where a curious spectral shimmer might be briefly visible), then another to the south before  climbing down another ladder to the east. Head down some creaking stairs to the south and climb down yet another ladder,  then navigate some wooden walkways to the west, going down two more flights of stairs and another ladder. Once all this is done , your goal is to head east into a sunken, algae-choked maintenance pit to find Old Man Croaker,  who is waiting with Lash and Eska, two other Erpenthropes from the Hollow.
+        notes:
+          -  "Note: Gator's Hollow seems to have been built upon the ruins of some pre-Calamity research facility . Very cool touch, showing the 1970s aesthetic even in its foundational decay."
+        continuation : |
+          Croaker will give Cee-Cee the "back in my day" speech before finally moving on to combat  training. Accept the tutorial if you wish to learn more about bayou survival (why wouldn't you?) or pass. 
+
+      - stage_id: "the_fundamentals"
+        title: "The Fundamentals"
+        description:  |
+          Choose to "start with the fundamentals" and Jax will grab his trusty, wood-paneled shotgun. The  game will briefly introduce you to the three basic tools of a Bayou Survivor – firearms, makeshift traps/tools, and swamp lore (her balism/minor rituals). For now, we're focusing on firearms. Press [Left] on the D-pad to  quick-draw your shotgun (useful for scaring off lesser swamp critters and unarmored scavengers). Specialized alligator tranquil izer darts or high-voltage rounds [Right] will come into play later when we're dealing with larger GE Alligators,  who are vulnerable to specific tech.
+
+          Once your shotgun is out, lock onto Croaker by pressing down on the [R 3] button, then perform a series of quick hip-shots [Square], followed by more aimed, impactful shots [Triangle]. Next  up, dodging [Circle]. Croaker gives ample warning before he mock-charges, so you should have no trouble scoring  two dodges that this task requires. Next you'll need to roll out of the way twice [X], which is more  of the same, except Croaker's simulated attacks are even more obvious. What's the difference? Dodges are  shorter and faster, best for evading quick lunges and retaliating. Rolls are good for evading heavy, slower  charges from big gators. Parrying with a sturdy machete is the next order of business – simply hold down [L2 ] to parry all of Croaker’s mock swings. Finally, it's time to practice ripostes. Hit  [L2] as Croaker attacks to block-and-counter him.
+
+          Now it's time to move onto  Swamp Lore and basic Rituals. Press [L1] to open the Quick Menu, from which you can select your equipped  items and basic ritual components. First up is a Protective Ward. Select it (it might be a bundle of herbs and carved g ator teeth), then activate it by pressing [R2]. The Ward briefly shimmers, offering minor protection against negative energies  or scaring off superstitious foes. Cast it and let Croaker give you a light shove – to no effect. Then  switch to the Swamp Gas Lighter (a modified flare gun), which projects a small burst of flame, handy for igniting natural  swamp gas pockets or warding off swarms of vampire bunnies. Next up is basic Intimidation/Persuasion ( Axii equivalent). Jax can use his gruff demeanor or smooth talk to disorient foes or gain an upper hand in tense  negotiations. Last up is a Snare Trap, which places a simple tripwire or net on the ground that slows or briefly  immobilizes smaller creatures or unwary humans.
+
+          Firearms and Swamp Lore are done, which leaves only makeshift tools. First  up are noisemakers or simple stun grenades. Press [L1] again and access the lower half of your radial, which  contains equipped tools (healing poultices, noisemakers, salvaged grenades). Once selected, chuck a Flashbang Can ( a repurposed soda can with flash powder) at Croaker [R1], then head to the selected spot and toss some more  at some training dummies (old tires and rusted barrels), this time holding down [R1] to free-aim. 
+
+          You can now freely train with Croaker, and it's nice to have the gloves off. Practice dodging, countering,  shooting... all that good stuff. The training ends when you holster your weapon. After an unsettling intrusion of distorted reality (a brief , vivid flash of pre-Calamity chaos, perhaps a side effect of the ambient miasma), so does the dream -like tutorial sequence.
+
+  - quest_id: "lickshillet_outskirts"
+    title: "Lick skillet Outskirts"
+    stages:
+      - stage_id: "the_search_begins"
+         title: "The Search Begins"
+        sub_stages:
+          - sub_stage_id: "calamity_ shadow"
+            title: "In the Calamity's Shadow..."
+            description: |
+              Jax  will wake up, and the old Erpenthrope, Croaker, will start chatting with him. Either reveal the  details of your dream-tutorial, or not. Afterwards the two will decide to head out. According to a data-chip Jax found , Mama Gris-Gris was heading to Willoughby Bend, a rendezvous somewhat complicated by the fact that the pre-C alamity town was recently overrun by mutated flora and particularly aggressive Bog Crawlers after a localized bio-flare. The Calamity’ s echoes still ripple through the bayou, and where instability festers, mutated critters follow.
+
+              This fact is  punctuated by the Bog Crawlers (mutated crustaceans/amphibians) that will show up and attack you here . They're not challenging foes – dispatch them by using quick shots with your shotgun, then loot them for any Mut ated Glands or Chitin they might drop. If you get injured, you can "Catch Forty Winks" by touching the [ Touch Pad] and heading to the "Rest" screen. At this point in the game, you've got more  time than disposable healing poultices on your hands.
+            notes:
+              - "Note: Jax naturally regener ates Vitality very slowly. It will take a long time to regenerate from near-death to full health without aid." 
+            continuation: |
+              When you're done picking on Bog Crawlers, return to your airboat, " The Mud Skipper," and from it head north-west, just past a small, overgrown trail, where, with your Bayou Senses  active, you should spot a 1970s-style Data Cassette (Crystal Skull equivalent) lying on the ground.  Jax will guess this odd object belongs to Mama Gris-Gris. Might come in handy.
+            notes_after _continuation: # Added a new key for notes appearing after continuation text
+              - "Note: Using Bayou Senses will cause  interactable (usually lootable) objects to glow with a faint yellow aura. Quest-related interactable objects will glow  red. Aggressive creatures will be shown as murky ripples. Objects that can be affected by specific tools (e.g ., ignitable swamp gas for your Flare Gun) will have a corresponding icon."
+            final_description: |
+               That's enough goofing around for now. Time to head over to The Mud Skipper, hop in, and follow  Croaker. Don't worry, we'll return to explore this area in more detail shortly. Summon The Mud Skipper by double -tapping [L3]. While piloting, hold down [X] to accelerate, double-tap and hold [X ] for a turbo boost (consumes more fuel), press [Circle] to perform a quick turn/evasive  maneuver, and hold [Circle] to disembark. [Square] and [Triangle] fire mounted weapons (if equipped ), but it's not an ideal way to fight.
+
+              There are two larger bayou channels that eventually connect to the  south – you want to follow the eastern of the two. Croaker will comment on the state of the swamp and the increasing  boldness of the meat processor oligarchies as you ride, showing a decidedly cynical view of "progress" (which Jax doesn 't fail to comment on.) When the channel turns from heading south-east to south you'll spot a rusted pre -Calamity water tower east of the channel with three unlucky scavengers strung up from it in various states of decay – a warning  from the oligarchs, perhaps. Follow the channel south-west to find a "Flooded Hamlet." The Calamity,  and subsequent power struggles, hit the independent swamp folk the hardest. Leave the ruins in peace for now and continue to follow Cro aker south, then south-east, eventually passing under a collapsed highway overpass.
+            final_notes: #  Added a new key for final notes
+              - "Note: Salvaged Buoys or old Radio Towers serve as fast-travel  waypoints. To use one, simply approach it and hit the [X] button, then select any other discovered waypoint  to travel there via your airboat's auto-pilot (if fuel allows)."
+
+      - stage_id: "rog ue_gator_juke_joint"
+        title: "The Rogue Gator and the Juke Joint"
+        description : |
+          Some time later, Jax and Croaker will run across a Swamp Trader being harassed by a large, unusually aggressive  GE Alligator (Griffin equivalent). The Erpenthropes will succeed at chasing the beast off (although not in depriving  it of its haul of scrap metal) and Croaker will be superficially wounded in the process. Afterwards, the beleaguered trader will  emerge from under his overturned skiff and offer to pay you for your good deed. If you demand payment, you'll  find yourself 50 Pre-Cal Caps richer. Afterwards, the trader will overhear you talking about Mama Gris-Gris , and refer you to the juke joint in the settlement of Lickskillet.
+        rewards:
+          - objective : "For asking the trader for a reward"
+            reward_value: "50 Pre-Cal Caps"
+        contin uation: |
+          If you bother checking out your map you'll note that you've traveled north-west from where  you were before the cutscene, and you should continue west along the channel from the "Broken Levee" marked on  your map. Croaker and Jax will discuss the GE Alligator's odd aggression. Seems Erpenthropes  will gladly attribute any odd creature behavior to fallout from the Calamity or irresponsible genetic meddling. Keep riding east, cross  "Catfish Creek Bridge" to reach the outskirts of Lickskillet. Follow Croaker to "The Sweaty Gator " juke joint and he and Jax will disembark and head inside.
+
+          Witness some tension in the juke joint (perhaps  between local swampers and enforcers for the meat oligarchy), after which Jax and Croaker will talk to the Inn keeper, a tough-as-nails woman named Shady Sadie. If you didn't shakedown her cousin (the Swamp  Trader) earlier, she'll be thankful and give you four Smoked Gator Legs. Keep talking to her to learn that there 's no official bounty on the rogue GE Alligator yet. The Erpenthropes might speculate on why the g ator has chosen abnormal hunting habits, but the reason why there's no bounty can fully be blamed on the meat oligarchs  wanting to handle "their assets" themselves. Other than that, she sells some potent moonshine and greasy food, and hasn 't seen Mama Gris-Gris... although somebody else in the juke joint may have.
+        notes:
+           - "Note: Merchants have a fixed amount of caps on them at any given time. Fortunately, the entire economy of  the region isn't dependent upon our actions – if you \"Catch Forty Winks\" for a while, eventually the  Merchants will replenish their caps, and some of their wares."
+        rewards_after_notes: # Added a new key  for rewards appearing after notes
+          - objective: "For not taking the merchant's money earlier and talking to Sadie"
+             reward_value: "4 Smoked Gator Legs"
+        final_description: |
+          Start out by talking to  a pair of Swamp Scavengers sitting north of where Croaker roosts. They're a pair of loudmouths,  but if you use your Intimidation [Axii] on one of them, you'll get the information you seek –  Mama Gris-Gris passed through here a few days ago. In quite a hurry, muttering about "whispers from the deep  green."
+        final_rewards: # Added new key for final rewards
+          - objective: "For using Intimidation to  get the Scavenger to talk"
+            reward_value: "25 XP"
+        more_description : |
+          Of course, it's not the most reliable of information, so we might as well keep asking . Ignore the trio playing "Gator Gambits" (a local dice game) east of Sadie, and instead talk to  a quiet, cloaked figure named Silas o' the Murk (Gaunter O'Dim equivalent, perhaps an ancient Er penthrope or a potent Ghost only Jax can clearly perceive) further east. As juke joint patrons go, he' s a rather unsettling chap, if a bit cryptic. Play as polite as the dialogue options will allow and you'll score  some rare Pre-Calamity Coffee Grounds for free, as well as the information you seek. He not only knows Mama  Gris-Gris by her description, but he knows *you*, as well. Seems tales of Jax's... exploits... travel  far on the swamp winds. The Scavengers from before were right, but lacked sufficient information. The local meat oligarchy  representative stationed at the old Processing Plant might know more.
+
+      - stage_id: "game_of_g ator_gambits"
+        title: "A Game of Gator Gambits"
+        description: |
+           Talk to the trio sitting at the table, and one fanatic (perhaps a believer in the "Invisible Women" conspiracy)  will chase the other two off. Ask him about his collection of strange, pre-Calamity celebrity memorabilia (Burt Reynolds photos , Jerry Reed LPs), what he meant when he mentioned the "Coming of Primal Mama", and chat about L ickskillet's future as far as the meat oligarchs are concerned. Once that's done, go to  leave and he'll ask you to play Gator Gambits with him. For more information on Gator Gambits, check out the heading  "Gator Gambits Strategies" (This would be a separate document or in-game tutorial).
+
+          Play your  first match of Gator Gambits with the Collector, and with any luck you should win. He's not too bright , despite his fervor. If you play aggressively and manage your "risk" dice well, he's really got no chance . Just don't go all-in on one round – you rarely get to re-roll all your dice. If  you build up a comfortable lead (five points or more higher) you might just want to pass. This will end the round for  you, and there's a chance he'll spend himself to victory, but if he does this on the first round,  there's a good chance he just won't have any good dice combinations left to compete with on the next two rounds. 
+
+          When you win (best two out of three rounds takes the game) you'll get a "Lucky Alligator Tooth"  die, a unique die that can be added to any set and might offer a re-roll or bonus points. Sweet . You can also buy more standard dice sets from Sadie – she sells five, including another set with a unique local design, three  high-value dice with the "Swamp King" bonus (dice that amplify each other when rolled together) and a "Dec oy Die" (allows you to force an opponent to re-roll one of their dice). In any event, the  Collector will mention a certain "Stjepan the Fixer" you should look up later in your travels in Beetriot. All  this starts the quest "Collect 'Em All (Dice)". Seriously, be sure to buy these dice as soon as you can –  you might not be able to later, and missing out on these unique dice would be a shame.
+        rewards:
+           - objective: "For defeating the Collector at Gator Gambits"
+            reward_value: "Lucky Alligator  Tooth Die"
+
+      - stage_id: "exploring_lickskillet_settlement"
+        title : "Exploring Lickskillet Settlement"
+        sub_stages:
+          - sub_stage_id:  "holo_board"
+            title: "Holo-Board"
+            description: |
+              Leave the  juke joint, whereupon you'll discover that the meat oligarchy thugs who occupied the juke joint earlier are waiting for you outside . Hatred of Erpenthropes (or just independent swamp folk) tends to come paired with the lack of sense  to avoid provoking them. And so it is in this case, as well. A fight ensues regardless of what action you pick in  response to them, but if you use the Intimidation [Axii] Sign you can earn some extra experience and take  one of them out of the fight. Wisely, they choose fisticuffs and crude melee weapons as their tools of persuasion,  so smack them around.
+            rewards:
+              - objective: "For using the Intimidation [Axii] on the  Thug"
+                reward_value: "40 XP"
+              - objective: "For beating up the  Thugs"
+                reward_value: "350 XP"
+            continuation: |
+              It's finally  time to start exploring – the meat oligarchy contact can wait, they're not going anywhere any time soon. We 'll start with the settlement, where one would expect to receive plenty of odd jobs, and then move on to exploring  the surrounding bayou, focusing on points of interest as we go. Whenever possible our area of exploration will be centered around a  nearby Waypoint Buoy (which also double as a fast travel locations), but when that's not concise enough, geographic features ( a derelict processing barge, a haunted cypress grove, a flooded pre-Calamity suburb) or simple directional bias ( the north-eastern stretch of the bog) will be used.
+
+              Anywho, first things first, head down  the rickety boardwalk from the juke joint to the east a bit – there are a few rusted footlockers near  the airboat docks worth looting, but as a general rule every box, crate, and sack won't be pointed  out (unless they have something particularly noteworthy inside, of course) – where you'll find your old pal the Swamp  Trader. You remember him? He was almost GE Alligator chow. Seems he salvaged some of his stock, but air boat repairs take time and are expensive, so he's eager to sell off what goods he has while he waits.  While it's nice to catch up with him, he doesn't really sell much of interest... unless you installed  the "Retro Swamp Gear" DLC, in which case, he'll have a full set of that gear in his inventory (1 970s inspired armored jumpsuit and a custom-painted shotgun). It's the best gear we'll immediately have access to , and if you've got the caps, it's worth buying.
+
+              Turn around and follow the boardwalk west,  looting shacks and grabbing glowing swamp herbs as it pleases you. It's a good way to score some food, components , and perhaps a few Pre-Cal Caps. Posted on a flickering holo-sign south of the boardwalk you'll find the  notice "WANTED: Mutated Frog Legs. Will pay top caps. Large quantities welcome. Tomira, the Herbalist." Good  to know.
+
+              Continue west until the boardwalk forks. At the fork you'll find the Holo-Board –  that staple of retro-futuristic settlements which bestows quests upon us. Even better, just looking at the Holo -Board (even without accepting any of the tasks) will update your map with a variety of "Unverified Signals". These range  from Mutated Creature Lairs, Hidden Stashes, Raider Shacks, and other optional places worth exploring to score loot and experience . The notices worth grabbing are "CONTRACT: THE GHOST OF GATOR CREEK" which starts a quest of the same  name, and "CREW MATE MISSIN'" which starts "Missing in the Miasma." If you save and reload your  game, new notices might appear, but since none of them start new quests, there's not much point in bothering .
+
+      - stage_id: "faulty_solar_panel_fiasco"
+        title: " Faulty Solar Panel Fiasco (Twisted Firestarter Equivalent)"
+        description: |
+          From the Holo-Board head  south to find a very angry Dwarf Tech-Scrapper (or just a regular, grumpy human scrapper if Dwarves aren't  in Primal Mama) named Willis Cogsworth cursing as he works at his jury-rigged electronics bench. Talk to the  poor guy and, as one would expect, he's rather snippy. Keep cool and he'll tell you  that somebody sabotaged his main solar array – an act of vandalism he feels was brought on by tensions that arose when the meat  oligarchs started strong-arming local businesses. Offer to help him for a price and he'll agree to give you whatever spare  parts he has left to find the cause of his misfortune. This begins the quest "Faulty Solar Panel Fiasco".
+
+           First, note the Grindstone (or maybe a "Magnetic Sharpener" with 70s aesthetics) to the  north-east. Using it is free, and will temporarily enhance your melee weapon's damage for 15 minutes.  Score. Head behind the scrapper's shack and search to the south-east using your Bayou Senses to spot some discarded  tools and wiring on the ground. Investigate them and Jax will deduce the saboteur's actions. Further south-east Jax  will find footprints, which seem to belong to a large man with a limp. Follow them more or less east to a patch of oddly  disturbed glowing moss, where Jax will detect the smell of cheap moonshine and burnt circuitry – a common combination. Keep following the tracks east  to reach a waterway, then north-east until they terminate near a half-sunken skiff. As drunk as our  saboteur was, he was at least wise enough to try and cover his trail by taking to the water. Loot a submerged  chest to the north and pass under a rickety bridge to find where the tracks continue, north of the bridge. Signs of a struggle  are noted – apparently our saboteur was attacked by Bog Crawlers and lost his insulated boots in the scuffle. The  trail continues to the west and onto the boardwalk that runs through Lickskillet. Follow the wounded saboteur's  trail to a shack just south of the juke joint.
+
+          Head inside and Jax will comment that we'll be  able to spot our saboteur by the wounds he bears. Search the eastern room to find Napp, who is obviously drunk and injured , reeking of ozone. Talk to him and he'll confirm the scrapper's suspicions – a combination of anti -oligarch sentiment and a misguided attempt to "send a message" led the saboteur to fry the scrapper's array  (mistaking him for an oligarch collaborator). Knowing that he's in trouble, however, he'll offer to  give you some valuable salvage (like a rare vacuum tube) to let him go. If you accept, the scrapper will  be upset you couldn't find the saboteur, but he'll still offer his services to you... which is really the  point of all this.
+        conditional_rewards:
+          - condition: "If player accepts saboteur's offer to  let him go"
+            outcomes:
+              - objective: "For talking to the saboteur"
+                reward_value : "25 XP"
+              - objective: "For letting the saboteur go"
+                reward_value : "25 XP"
+              - objective: "For telling the scrapper about your failure"
+                reward _value: "50 XP + Willis offers services"
+          - condition: "If player apprehends saboteur "
+            alternative_description: |
+              Alternatively, you can attempt to apprehend him. Doing so will provoke him  to attempt to fist fight you. You can indulge him and pummel him into submission, or you can use the Int imidation [Axii] to subdue him and get him to come along peacefully. In the former case, you'll appear  back near the scrapper, in the latter case, you'll have to escort Napp to him. Either way, the  outcome is the same – Willis calls some meat oligarchy enforcers over, who decide Napp's sabotage was  an act of terrorism against "vital infrastructure" (their infrastructure, that is), and set out to "re-educate"  him (which likely means a grim fate in their processing plants). Once they're gone, Willis decides the oligarchs aren't  so bad after all if they deal with his problems, and will offer to work his forge/bench for you.
+             outcomes:
+              - objective: "For using Intimidation [Axii] on Napp"
+                 reward_value: "25 XP"
+              - objective: "For bringing Napp back to Willis"
+                 reward_value: "25 XP + Willis offers services, Napp doomed"
+        final_description: |
+           One way or another, we have a Tech-Scrapper at our disposal, which allows us to repair our gear (especially  the 1970s aesthetic items), craft new items from schematics (like ammo, simple traps, or  basic gear mods), break down old junk for components, and of course, peruse his wares. Dismantling salvaged junk, broken  tools, and inferior firearms is a good idea, as it's a fine way to score components at little cost.  You also are able to turn more refined components into more generic ones (e.g., Intact Circuit Boards into Copper  Wiring and Plastic), but at this point in time, there's little need to do so. Consider dismantling all your  Junk, while leaving Crafting Components and Alchemy/Herbalism Ingredients alone. For more information on crafting, see the section " Crafting & Salvage Information."
+
+          Of particular interest in his inventory are the Expanded Ammo Bandoliers, which  will increase your maximum ammo capacity by 30%, a welcome boost. They cost nearly 200 Pre- Cal Caps, however. Also, you might have – or nearly have – the components required to upgrade your basic jumpsuit to the  Reinforced Bayou Jumpsuit, depending on how diligently you looted the shacks in Lickskillet. All of this costs  caps however, and right now the best way to earn caps is by selling the glowing swamp herbs we pick or uncommon Cal amity-critter parts. They're plentiful, they grow everywhere, and each one is worth a cap or  two. Hunting lesser mutated animals works, too, especially if you use your Flare Gun to save wear and tear on your primary  weaponry. Or... we could start exploring. That's an option, too. There's nothing stopping you from hunting game,  killing mutants, and picking herbs while we explore, either. In fact, it's recommended! Yeah... let's do that .

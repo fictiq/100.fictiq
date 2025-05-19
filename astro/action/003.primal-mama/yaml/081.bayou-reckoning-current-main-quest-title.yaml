@@ -1,0 +1,373 @@
+```yaml
+world: ' Primal Mama'
+codex_version: '0.2 - Quest Functional Analysis'
+last_updated:  '[Current Date]'
+lead_architects: '[Your Name/Studio Name]'
+primary_authentication_source_ document: 'Primal Mama Quest YAML (derived from "Gator Bait''s Revenge" and "Sawtooth Butte  Showdown" quest outlines)'
+
+quest_line_analysis:
+  name: 'Bayou Reckoning'
+   introduction: |
+    This document analyzes the "Bayou Reckoning" quest line ("Gator Bait's Revenge," " Sawtooth Butte Showdown") by applying the Entity Functional Profile Protocol. Each significant entity's actions, interactions, and  the rules governing them within these quests serve to **authenticate** their functional properties. This breakdown illuminates how entity functions drive the  narrative, create conflict, and offer resolution paths within the Primal Mama heterocosm.
+
+  entities:
+    # ---  Player Character Profile ---
+    - entity_id: 'CHAR_PLAYER_01'
+      entity_name: 'The  Bayou Drifter (Player Character)'
+      entity_type: 'Person (Erpenthrope or Human with specialized  skills/tech)'
+      authentication_sources:
+        - 'Quest Outline: Gator Bait''s Revenge / Sawtooth Butte  Showdown (Player Actions & Choices)'
+      functional_properties_bundle:
+        core_function:
+          primary_role : 'Navigate the socio-political and environmental challenges of Primal Mama; Act as a catalyst for Clem''s development ; Seek retribution and resolution for the Gator Farm ambush.'
+          secondary_roles:
+            - 'Investigator' 
+            - 'Combatant'
+            - 'Negotiator'
+            - 'Moral Compass (via choices)' 
+          authentication: 'Overall Quest Narrative; Specific Quest Interactions'
+        capabilities:
+          - id: 'FUNC-PLAYER -DIALOGUE'
+            name: 'Persuasion/Intimidation/Inquiry'
+            description: ' Can engage in complex dialogue, make timed decisions, and influence NPC behavior/quest progression through speech.'
+            authentication: 'Numerous  dialogue choices with Clem, Mama Mambo, Mayor Beauregard, Granny Fang, Stregomir, etc.'
+            limits _nuances: 'Timed decisions impose pressure; outcomes vary based on choices; some NPCs may be unyielding.'
+          - id : 'FUNC-PLAYER-COMBAT_MELEE'
+            name: 'Melee Combat Proficiency'
+             description: 'Capable of engaging in physical combat, likely with improvised or crafted weapons, or Erpenthrope natural weaponry.'
+             authentication: 'Implied ability to "wrestle" (Papa T-Bone), engage Brutus Clamp.'
+             limits_nuances: 'Effectiveness varies against different enemy types/armor.'
+          - id: 'FUNC -PLAYER-COMBAT_RANGED'
+            name: 'Ranged Combat Proficiency (Spear Gun,  Grenade Launcher)'
+            description: 'Can effectively use ranged weaponry like spear guns and 70s-style grenade launchers .'
+            authentication: 'Shooting Mutated Catfish; Using grenade launcher against Brutus Clamp.'
+            limits_nu ances: 'Ammunition constraints (implied); effectiveness of specific ammo types ("Swamp Gas" canisters, "Rust  Mite" grenades).'
+          - id: 'FUNC-PLAYER-NAVIGATION_AIRBOAT'
+            name:  'Airboat Piloting'
+            description: 'Can operate an airboat for travel across bayou terrain.'
+             authentication: 'Travel to Sawtooth Butte and Lickskillet.'
+          - id: 'FUNC-PLAYER-SENS ORY_ENHANCEMENT'
+            name: 'Enhanced Perception (Erpenthrope Senses / 7 0s Sonar Goggles)'
+            description: 'Can activate specialized senses or technology to detect hidden objects or information .'
+            authentication: 'Snatching "Ancestor''s Tooth" in underwater cavern.'
+            limits_nuances: 'May  have limited duration or energy cost (not specified, but typical).'
+          - id: 'FUNC-PLAYER-INTER ACT_ENVIRONMENT'
+            name: 'Environmental Interaction & Traversal'
+            description: 'Can dive, swim, scale  ledges, climb stairs, cross bridges, loot containers/bodies, touch Resonance Points.'
+            authentication: "Granny Fang' s Trial; Navigating Sawtooth Butte; Looting Brutus Clamp."
+          - id: 'FUNC-PLAYER -CHOICE_IMPACT'
+            name: 'Influence Outcomes'
+            description: "Player choices directly affect Clem 's emotional state, quest paths (Beetriot vs. direct to Butte), item acquisition, and NPC disposition." 
+            authentication: "Clem's confidence choices; Beetriot decision; Solar-Charged Geode decision."
+        skills :
+          - id: 'SKL-PLAYER-SURVIVAL'
+            name: 'Bayou Survival  Skills'
+            proficiency_level: 'Competent to Expert (implied by navigating threats).'
+            authentication: 'Successfully  completing trials, combat, navigating hostile environments.'
+          - id: 'SKL-PLAYER-TECH_USE_ 70S'
+            name: 'Operation of 70s Retro-Tech'
+            proficiency_level : 'Competent.'
+            authentication: 'Using sonar goggles, grenade launcher, implied understanding of solar-charge packs.'
+         inabilities:
+          - id: 'INAB-PLAYER-UNILATERAL_ACCESS'
+             description: 'Cannot initially access certain areas (e.g., Sawtooth Butte summit) or information without NPC permission or completing prerequisites .'
+            authentication: "Need for Granny Fang's trial; Needing Old Man Croaker for info."
+             narrative_function: 'Drives interaction and quest completion.'
+          - id: 'INAB-PLAYER-OMNIS CIENCE'
+            description: 'Lacks full knowledge of future consequences of choices at the time of decision.'
+             authentication: 'Implicit in choice-based narratives.'
+            narrative_function: 'Creates stakes for player choices.'
+         vulnerabilities:
+          - id: 'VULN-PLAYER-TIMED_DECISION'
+            description : 'Subject to pressure in timed dialogue/action sequences, potentially leading to suboptimal outcomes if not acted upon quickly.'
+            authentication : 'Multiple timed decisions mentioned.'
+            narrative_function: 'Increases tension during key moments.'
+           - id: 'VULN-PLAYER-COMBAT_DAMAGE'
+            description: 'Susceptible to damage  from enemy attacks (Mutated Catfish, Bull Gator Alpha, Papa T-Bone, Brutus Clamp, Bile Sisters  if engaged).'
+            authentication: 'Implied by combat scenarios requiring healing poultices.'
+            narrative_function: ' Creates physical risk and resource drain.'
+        costs_dependencies_constraints:
+          - id: 'COST-PLAYER-AM MO'
+            applies_to: 'FUNC-PLAYER-COMBAT_RANGED'
+            description : 'Use of ranged weapons is likely constrained by ammunition availability (spear gun bolts, grenade types).'
+            authentication: ' Mention of specific grenade types implies finite resources.'
+            narrative_function: 'Introduces resource management element to combat.'
+           - id: 'DEPEND-PLAYER-NPC_ASSISTANCE'
+            applies_to: 'Quest Progression'
+            description : "Many objectives require interaction with or assistance from NPCs (Mama Mambo's proposal, Granny Fang's access , Marica's guidance, Old Man Croaker's information)."
+            authentication: 'Quest structure relying on NPC interactions .'
+            narrative_function: 'Emphasizes interdependence and world interaction.'
+          - id: 'COST -PLAYER-CONSUMABLES'
+            applies_to: 'Sustained Combat/Survival'
+            description : 'Requires healing poultices for recovery; "Sight-Beyond-Swampwater" brew has effects (and implies  consumption).'
+            authentication: "Mention of needing potions/poulitces; Granny Fang's brew."
+            narr ative_function: 'Adds cost and preparation element to challenges.'
+
+    # --- Clem Profile ---
+    - entity_id : 'CHAR_CLEM_01'
+      entity_name: 'Clem'
+      entity_type: ' Person (Emerging Erpenthrope)'
+      authentication_sources:
+        - 'Quest Outline: Gator Bait''s Revenge  / Sawtooth Butte Showdown (Clem''s Actions, Dialogue, Player Interactions with/about her)'
+      functional_ properties_bundle:
+        core_function:
+          primary_role: 'Companion character; Embodiment of potential  and internal conflict (Primal Spirit vs. Swamp Fright); Avenger for Gator Farm.'
+          secondary_roles:
+             - 'Combat support'
+            - 'Driver of specific plot threads (revenge plan)'
+          authentication: ' Quest Narrative; Sawtooth Butte Showdown'
+        capabilities:
+          - id: 'FUNC-CLEM- DEMAND_AGENCY'
+            name: 'Assert Personal Agency'
+            description: 'Can express desire for  self-determination and influence in planning.'
+            authentication: '"demanding a say in her destiny before ultimately taking off in a  huff"'
+            limits_nuances: 'Can be impulsive; reactions influenced by player choices.'
+          -  id: 'FUNC-CLEM-PLAN_INITIATION'
+            name: 'Formulate Revenge Plan' 
+            description: 'Can devise bold (if impulsive) plans for direct action.'
+            authentication: '"proposing a bold  plan to get even with Brutus Clamp"'
+            limits_nuances: 'Plan may overlook complexities.'
+          - id : 'FUNC-CLEM-COMBAT_ERPE_EMERGING'
+            name: 'Emerging  Erpenthrope Combat Abilities'
+            description: 'Possesses enhanced speed, agility ("Erpenthrope agility"), regenerative  vitality, fast claw strikes, tail whips, and a powerful "Alligator Death Roll" attack.'
+            authentication: 'Combat  description vs. Bile Sisters.'
+            limits_nuances: '"Alligator Death Roll" requires Primal Fury meter and  charge time; regeneration active when not taking hits.'
+          - id: 'FUNC-CLEM-AIRBOAT_ USE'
+            name: 'Operate Custom Airboat'
+            description: 'Can pilot her own airboat .'
+            authentication: '"taking off in a huff in her custom airboat"'
+          - id: 'FUNC-CLE M-LEAP_CHASM'
+            name: 'Erpenthrope Leap'
+            description: ' Capable of leaping significant chasms due to burgeoning Erpenthrope agility.'
+            authentication: 'Leaping chasm  to reach Bile Sisters.'
+        skills:
+          - id: 'SKL-CLEM-ERPE_ COMBAT_BASIC'
+            name: 'Basic Erpenthrope Combat'
+            proficiency_level: ' Emerging but effective.'
+            authentication: 'Performance against Bile Sisters.'
+        inabilities:
+          - id: 'IN AB-CLEM-EMOTIONAL_REGULATION_EARLY'
+            description: 'Initially struggles with emotional  regulation, prone to frustration or doubt based on external stimuli.'
+            authentication: '"taking off in a huff"; " infected with cynical doubt"'
+            narrative_function: 'Reflects her youth and development arc.'
+        v ulnerabilities:
+          - id: 'VULN-CLEM-CONFIDENCE'
+            description: ' Self-confidence and emotional state ("Primal Spirit" vs "Swamp Fright") are highly susceptible to player dialogue  choices and actions.'
+            authentication: 'Detailed outcomes of "Gator Tail Tussle" and "Beetriot Politics " choices.'
+            narrative_function: 'Makes player choices regarding Clem impactful.'
+          - id: 'V ULN-CLEM-CYNICISM_INFLUENCE'
+            description: 'Can be influenced towards cynicism by perceived  negative actions (e.g., Player taking money pragmatically).'
+            authentication: 'Outcome of Player taking Old Bucks from Mayor Bea uregard.'
+            narrative_function: 'Adds consequence to player''s potentially pragmatic choices.'
+        costs_dependencies_ constraints:
+          - id: 'DEPEND-CLEM-PLAYER_CHOICE_PATH'
+            applies_to : "Clem's quest path and development."
+            description: 'Her exposure to certain experiences (e. g., Beetriot politics) is dependent on player decisions.'
+            authentication: 'Choice to go to Beetriot or  directly to Sawtooth Butte.'
+            narrative_function: 'Highlights player influence on companion development.'
+          - id: ' COST-CLEM-PRIMAL_FURY'
+            applies_to: 'FUNC-CLEM- COMBAT_ERPE_EMERGING ("Alligator Death Roll")'
+            description: 'Special Erpenthrope attacks  require a "Primal Fury meter" to be full.'
+            authentication: 'Combat description vs. Bile Sisters.'
+             narrative_function: 'Adds tactical resource management to Clem''s combat.'
+
+    # --- Mama Mambo Profile  ---
+    - entity_id: 'CHAR_MAMAMAMBO_01'
+      entity_ name: 'Mama Mambo'
+      entity_type: 'Person (Swamp Witch)'
+      authentication_ sources:
+        - 'Quest Outline: Gator Bait''s Revenge (Mama Mambo''s proposal)'
+       functional_properties_bundle:
+        core_function:
+          primary_role: 'Offer strategic alternatives; Provide access to esoteric  knowledge/alliances.'
+          authentication: 'Her proposal.'
+        capabilities:
+          - id: 'FUNC-MAM BO-PROPOSE_ALLIES'
+            name: 'Propose Unconventional Alliances'
+            description: 'Can suggest  alliances with unsettling factions (rogue Erpenthropes, isolated witch covens).'
+            authentication: 'Quest  description of her proposal.'
+            limits_nuances: 'Allies are described as "unsettling," implying potential risks or  costs.'
+          - id: 'FUNC-MAMBO-BARGAIN_SCHEMATICS'
+            name: ' Leverage Esoteric Knowledge (Schematics)'
+            description: 'Possesses or knows the location of valuable pre-Calamity  schematics (advanced solar collectors) usable as a bargaining chip.'
+            authentication: 'Her "bargaining chip" for enticing  new allies.'
+            limits_nuances: 'Access to schematics may be conditional or difficult.'
+
+    #  --- Granny Fang Profile ---
+    - entity_id: 'CHAR_GRANNYFANG_01'
+       entity_name: 'Granny Fang'
+      entity_type: 'Person (Swamp Witch Elder)' 
+      authentication_sources:
+        - 'Quest Outline: Sawtooth Butte Showdown (Granny Fang''s Trial)'
+       functional_properties_bundle:
+        core_function:
+          primary_role: 'Gatekeeper to Saw tooth Butte summit; Tester of worthiness.'
+          authentication: 'Her role in the quest.'
+        capabilities:
+          -  id: 'FUNC-GRANNY-GRANT_ACCESS_CONDITIONAL'
+            name: 'Grant/Den y Access (Conditional)'
+            description: 'Controls access to higher paths of Sawtooth Butte, granting it only upon completion of  a trial.'
+            authentication: 'Player needing to complete her trial.'
+          - id: 'FUNC-GR ANNY-ADMINISTER_TRIAL'
+            name: 'Administer Trial of Worthiness'
+            description : 'Can devise and oversee a challenge ("Granny Fang''s Trial") involving specific tasks and consumption of a special  brew.'
+            authentication: 'Details of the trial: "Sight-Beyond-Swampwater" brew, leap  of faith, retrieving "Ancestor''s Tooth".'
+          - id: 'FUNC-GRANNY-BREW_ CONCOCTION'
+            name: '"Brew Sight-Beyond-Swampwater"'
+            description: 'Can create a  psychoactive brew that alters perception and likely has disorienting side effects.'
+            authentication: 'Player consuming it for  the trial.'
+            limits_nuances: 'Side effects noted ("making your head spin").'
+        costs _dependencies_constraints:
+          - id: 'OPCON-GRANNY-TRIAL_SUCCESS'
+            app lies_to: 'FUNC-GRANNY-GRANT_ACCESS_CONDITIONAL'
+            description: 'Grant ing access is dependent on the Player successfully completing her trial and presenting the "Ancestor''s Tooth".'
+            authentication : 'Quest progression logic.'
+            narrative_function: 'Establishes clear condition for progression.'
+
+    #  --- Brutus Clamp Profile ---
+    - entity_id: 'CHAR_BRUTUSCLAMP_01' 
+      entity_name: 'Brutus "The Bruiser" Clamp'
+      entity_type: 'Person  (Erpenthrope in Scavenged Industrial Armor)'
+      authentication_sources:
+        - 'Quest Outline: Sawtooth  Butte Showdown (Player vs. Brutus Clamp)'
+      functional_properties_bundle:
+        core_function :
+          primary_role: 'Primary antagonist for the "Sawtooth Butte Showdown"; Represents oppressive force.'
+           authentication: 'Quest narrative.'
+        capabilities:
+          - id: 'FUNC-BRUTUS-COMBAT _PHASE1'
+            name: 'Melee Combat (Pylon Hammer - One-Handed)'
+             description: 'Wields a humongous, jury-rigged hydraulic pylon hammer one-handed, with  slow but powerful swings. Uses a reinforced manhole cover as a shield.'
+            authentication: 'Combat description, Phase  1.'
+          - id: 'FUNC-BRUTUS-COMBAT_PHASE2'
+             name: 'Enhanced Melee Combat (Pylon Hammer - Two-Handed, Thruster Pack)'
+            description : 'Drops shield, wields pylon hammer two-handed for faster attacks. Uses a salvaged, back-mounted thruster pack  for erratic dashes and repositioning.'
+            authentication: 'Combat description, Phase 2 (after half health).'
+          - id : 'FUNC-BRUTUS-INTIMIDATE_THREATEN'
+            name: 'Issue Guttural Threats '
+            description: 'Can attempt to intimidate through vocalizations.'
+            authentication: '"Mostly guttural threats from Brutus"' 
+        inabilities:
+          - id: 'INAB-BRUTUS-THRUSTER_SUSTAIN'
+             description: 'Cannot maintain continuous thruster pack operation; it sputters or overheats, creating openings.'
+            authentication : 'Combat description: "his thruster will overheat," "tires himself out".'
+            narrative_function: ' Creates tactical openings in combat.'
+        vulnerabilities:
+          - id: 'VULN-BRUTUS -ARMOR_JOINTS'
+            name: 'Exposed Armor Joints'
+            description: 'His scavenged industrial armor  plating has exposed joints that are vulnerable to attack.'
+            authentication: 'Player advised to hit "exposed joints."'
+            narrative _function: 'Provides specific target for player.'
+          - id: 'VULN-BRUTUS-HAM MER_SPEED_PH1'
+            name: 'Slow Attack Speed (Phase 1)'
+            description:  'His one-handed pylon hammer swings are too slow to reliably hit a nimble opponent.'
+            authentication: '" just too slow to hit a seasoned swamp fighter."'
+            narrative_function: 'Defines initial combat dynamic.' 
+          - id: 'VULN-BRUTUS-THRUSTER_OVERHEAT'
+            name: 'Thruster  Pack Overheating/Fatigue'
+            description: 'His thruster pack is unreliable and prone to sputtering or causing  him to tire, creating attack opportunities.'
+            authentication: 'Combat description during Phase 2.'
+            narrative _function: 'Defines Phase 2 combat dynamic and weakness.'
+
+    # --- Bile Sisters Profile ---
+    -  entity_id: 'CREATURE_BILESISTERS_01' # Group ID
+      entity_name: 'The  Bile Sisters'
+      entity_type: 'Creature/Person (Corrupted Swamp Witches)'
+      authentication _sources:
+        - 'Quest Outline: Sawtooth Butte Showdown (Clem vs. Bile Sisters)'
+       functional_properties_bundle:
+        core_function:
+          primary_role: 'Secondary antagonists; Guardians for Br utus Clamp; Practitioners of vile rituals.'
+          authentication: 'Their role in Clem''s path.'
+        capabilities :
+          - id: 'FUNC-BILE-SHAPESHIFT_ALLURE'
+            name: 'Illusory  Allure / Monstrous Form'
+            description: 'Can shift appearance from alluringly retro (70s swamp disco)  to monstrous.'
+            authentication: 'Appearance change when Clem makes presence known.'
+          - id: 'FUNC-BILE -WEEPINGWISP_ATTACKS'
+            name: 'Weeping Wisp''s Attacks (Corrosive Gas , Teleport)'
+            description: 'One Sister (Weeping Wisp) can dissolve into oily puddles, re -emerge, and fling corrosive swamp gas bombs. Can teleport in a puff of fetid smoke.'
+            authentication: 'Combat  description.'
+            limits_nuances: 'Telegraphs puddle attack.'
+          - id: 'FUNC-BILE- BLOATEDBREWESS_ATTACKS'
+            name: 'Bloated Brewess''s Attacks (Area C urses, Shivs)'
+            description: 'The other Sister (Bloated Brewess) relies on area-of-effect curses  and counter-attacks with enchanted shivs.'
+            authentication: 'Implied by being "slower and relying on area -of-effect curses," and "counter-attacks with enchanted shivs."'
+        vulnerabilities:
+           - id: 'VULN-BILE-WISP_TELEGRAPH'
+            name: 'We eping Wisp Attack Telegraph'
+            description: 'The Weeping Wisp telegraphs its puddle-to-gas bomb attack,  making it avoidable.'
+            authentication: '"Fortunately, she telegraphs this"'
+            narrative_function: ' Provides counter-play opportunity.'
+          - id: 'VULN-BILE-BREWESS_SPEED '
+            name: 'Bloated Brewess Slow Speed'
+            description: 'The Bloated Brewess is slower, making  her an easier initial target.'
+            authentication: '"Bloated Brewess, being slower... makes her an easy first target"'
+             narrative_function: 'Suggests tactical approach for player/Clem.'
+
+    # --- Ancestor's Tooth  Profile ---
+    - entity_id: 'OBJ_ANCESTORTOOTH_01'
+      entity_ name: 'Ancestor''s Tooth'
+      entity_type: 'Object (Amulet / Key Item)'
+       authentication_sources:
+        - 'Quest Outline: Sawtooth Butte Showdown (Granny Fang''s Trial)' 
+      functional_properties_bundle:
+        core_function:
+          primary_role: 'Key item required  to pass Granny Fang''s trial; Symbol of recognition/worthiness.'
+          authentication: 'Quest mechanics.'
+         capabilities:
+          - id: 'FUNC-ATOOTH-UNLOCK_PROGRESSION'
+            name: 'Grant  Trial Completion Status'
+            description: 'Possession and presentation of this item signifies successful completion of a specific part of Granny Fang ''s trial.'
+            authentication: 'Player presents it to Granny Fang to gain access.'
+          - id:  'FUNC-ATOOTH-EVOKE_RECOGNITION'
+            name: 'Evoke Recognition (Papa T-Bone )'
+            description: 'Recognized by certain entities (Papa T-Bone) as significant.'
+            authentication:  'Papa T-Bone "will comment on the Ancestor''s Tooth (recognizing its significance)"'
+
+    # --- Solar -Charged Geode Profile ---
+    - entity_id: 'OBJ_SOLARGEODE_01' 
+      entity_name: 'Solar-Charged Geode'
+      entity_type: 'Object (Consum able / Quest Item)'
+      authentication_sources:
+        - 'Quest Outline: Sawtooth Butte Showdown ( Post-Brutus Clamp choice)'
+      functional_properties_bundle:
+        core_function:
+          primary _role: 'Player reward with a moral/functional choice; Potential power source for NPCs or Player.'
+          authentication: ' Post-battle dilemma.'
+        capabilities:
+          - id: 'FUNC-SGEODE-POWER_DEVICE '
+            name: 'Power Water Purifier'
+            description: "Can function as a power source for community  technology (villagers' water purifier)."
+            authentication: "Stregomir's dilemma and player option to give it ."
+          - id: 'FUNC-SGEODE-GRANT_ABILITY_POINTS'
+            name: ' Grant Primal Essence (Ability Points)'
+            description: 'If consumed by the Player (crushing and inhaling energized  dust), grants two Primal Essence points.'
+            authentication: 'Player option to keep and consume it.'
+        costs_dependencies _constraints:
+          - id: 'OPCON-SGEODE-CHOICE_EXCLUSIVE'
+            app lies_to:
+              - 'FUNC-SGEODE-POWER_DEVICE'
+              - 'FUNC- SGEODE-GRANT_ABILITY_POINTS'
+            description: 'The geode can only be used for one  function; giving it to villagers means the Player cannot consume it for points, and vice-versa.'
+            authentication: 'The nature  of the dilemma presented.'
+            narrative_function: 'Forces a meaningful choice between altruism and self-empowerment.' 
+
+  quest_line_summary:
+    core_functional_identity: |
+      These quests function as a  narrative mechanism to:
+      1. **Authenticate Player Agency:** Through critical choices impacting character development (Clem), resource acquisition,  and moral standing.
+      2. **Authenticate Combat System:** By presenting varied enemy types (humanoid, Erpenthrope,  witch, creature) with distinct capabilities and vulnerabilities, requiring the Player to utilize their own diverse functional combat properties.
+      3 . **Authenticate World Modalities:** Demonstrating Alethic (Erpenthrope powers), Deontic (trial rules),  Axiological (value choices), and Epistemic (gaining access) rules in action.
+      4. **Authenticate  Resource Management:** Through implied costs (ammo, healing) and explicit choices (Solar Geode).
+    key_narrative _functions: |
+      - **Conflict Generation:** Enemy capabilities vs. Player/Clem capabilities; Player choices creating internal/ external conflict.
+      - **Progression Mechanics:** NPC functions as gatekeepers/informants; Item functions as keys. 
+      - **Character Development:** Clem's functional evolution; Testing Player's functional alignment (moral/prag matic).
+    key_functional_tensions:
+      - "Clem's emerging power vs. her  emotional vulnerability."
+      - "Player's desire for resources/power vs. potentially altruistic or principled choices."
+       - "The utility of unconventional alliances (Mama Mambo) vs. their potential social/moral cost."
+      - " The need for direct action/vengeance vs. strategic/political approaches (Beetriot visit)."
+
+```

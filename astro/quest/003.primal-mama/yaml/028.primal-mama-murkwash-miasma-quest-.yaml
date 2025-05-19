@@ -1,0 +1,162 @@
+
+world : Primal Mama
+codex_version: '0.2 - Quest Profile'
+last_updated: '[ Current Date]'
+lead_architects: '[Your Name/Studio Name]'
+
+introduction_title: 'Introduction: Defining Dynamic Potential  Through Authentication'
+introduction_text: |
+  This protocol guides the definition of the **functional properties** of entities  within the Primal Mama heterocosm. Following Doležel, these properties define an entity's potential for action,  interaction, and influence within the world's established rules (modalities). They encompass **capabilities (abilities, skills,  powers)** as well as crucial **limitations (weaknesses, costs, constraints, inabilities)**.
+
+  Focus on **authent icating** these functions clearly and consistently. Define not just *what* an entity can do, but *how*, under  *what conditions*, at *what cost*, and crucially, *what it cannot do*. These properties are essential for narrative  mechanics, conflict generation, character agency, and world coherence.
+
+entity_functional_profile:
+  entity_id : QUEST_PM_MurkWashMiasma_01
+  entity_name: The MurkWash Mod ulator Miasma
+  entity_type: Quest
+  primary_authentication_sources:
+    - 'Codex Pr imalMama v0.1 (Coherence Protocol)'
+    - This Codex Entry
+    - 'Narrative Outline Doc v0 .3'
+
+  authenticated_functional_properties_bundle:
+    core_function_purpose:
+      title : 'Core Function / Purpose'
+      purpose_text: 'Purpose: Define the primary intended or actualized function within the world  system.'
+      primary_role:
+        description: 'Player investigates the disruption of GE Alligator behavior in the MurkWash  Delta at the behest of Mama Manchet, a local Swamp Witch, who needs a pristine Solar-Charged Gator Gizzard  for a potent ritual. The quest explores the interaction of advanced GE, retro-tech, and supernatural elements.'
+         auth: 'Codex PrimalMama v0.1 (Swamp Witches, GE Alligators, 19 70s Aesthetic, Solar Dominance)'
+      secondary_roles:
+        description: 'Introduces the player  to the unique ecology and hazards of the MurkWash Delta. Potentially uncovers a relic of forgotten technology or evidence  of covert oligarchy activity. Offers choices affecting local swamp denizens and potentially Mama Manchet''s standing.'
+        auth: ' Codex PrimalMama v0.1 (Technological Aesthetic Constraint, Meat Processor Oligarchy friction)'
+
+    key_capabilities_ powers:
+      title: 'Key Capabilities & Powers (Authenticated Strengths of the Quest Structure)'
+      purpose_text: ' Purpose: Define what the quest *enables* the player to actively do or experience.'
+      capabilities:
+         - capability_id: FUNC-QMMM-01
+          name: 'Investigation & Clue Discovery'
+          description : 'Player utilizes their senses (and potentially basic 1970s-style scanning equipment provided or found)  to uncover clues about the gators'' distress: unusual energy readings, physical symptoms on gators (e.g.,  malfunctioning solar chromatophores, erratic behavior), environmental anomalies (e.g., strange hum, localized energy fields, odd plant  growth).'
+          authentication: 'World''s allowance for investigation; 1970s tech aesthetic implies analog  readouts/scanners.'
+          limits_nuances: 'Clues may be subtle or require specific conditions ( e.g., time of day for energy readings, specific gator behaviors). Scanners might be unreliable or have limited  range/functionality due to the 1970s aesthetic constraint.'
+        - capability_id: FUNC -QMMM-02
+          name: 'NPC Interaction & Information Gathering'
+          description: 'Player interacts  with Mama Manchet (quest giver), potentially other swamp dwellers (e.g., reclusive trappers, other minor  witches), or even Erpenthropes if they are drawn to the "truth" of the disturbance. Dialogue choices can yield more  or less information, or alter NPC disposition.'
+          authentication: 'Authenticated existence of Swamp Witches, Erpenthropes , and general populace.'
+          limits_nuances: 'NPCs may be distrustful, cryptic, or have their own  agendas. Swamp Witch lore might be esoteric and hard to decipher. Erpenthropes might only reveal certain truths.' 
+        - capability_id: FUNC-QMMM-03
+          name: 'Problem Solving (Technological /Supernatural Interface)'
+          description: 'Player must identify the source of the gator disruption – an old, malfunctioning  "Aetheric Wave Modulator" (conforming to 1970s aesthetic: wood paneling, chunky  dials, Nixie tube displays) – and determine how to neutralize or repair it. This might involve understanding its retro-tech interface  or using ritualistic means to counter its esoteric energy leakage if it''s become "haunted" or strangely energized.'
+          authentication : 'Technological Aesthetic Constraint, Spectral Interaction possibility, Solar Dominance (implying advanced energy tech that could go wrong).'
+           limits_nuances: 'Repairing the Modulator might require rare 1970s-era components or  specific technical knowledge. Ritualistic neutralization might require ingredients gathered from the swamp or knowledge from Mama Manchet/ghosts.'
+         - capability_id: FUNC-QMMM-04
+          name: 'Combat & Hazard Navigation'
+           description: 'Player may face glitched/aggressive GE Alligators, other mutated swamp creatures affected by the Modulator''s mi asma, or even automated defenses if the Modulator is an oligarchy experiment. The MurkWash Delta itself presents environmental  hazards (e.g., toxic zones from the miasma, treacherous terrain).'
+          authentication: 'GE Alligators'' capabilities , potential for unknown biological effects from the calamity/rogue tech.'
+          limits_nuances: 'Glitched g ators might have unpredictable attack patterns or resistances. The miasma might require protective gear (improvised 1970s style ) or have debilitating effects.'
+        - capability_id: FUNC-QMMM-05
+          name:  'Ethical/Factional Choice Point'
+          description: 'Player decides what to do with the Modulator once  found: Destroy it? Repair it for Mama Manchet (if she has a use for its controlled output)? Report its  existence to the Erpenthropes (truth-seekers) or a rival Meat Oligarchy faction? Each choice has consequences .'
+          authentication: 'Authenticated values of Erpenthropes (truth), potential for oligarchy machinations.' 
+          limits_nuances: 'Destroying it might anger someone. Repairing it could be dangerous. Reporting it could trigger wider  conflict.'
+
+    acquired_skills_expertise:
+      title: 'Acquired Skills & Expertise (Authenticated Player Prof iciencies Tested/Required)'
+      purpose_text: 'Purpose: Define learned or practiced functional competencies the player will need.'
+       skills:
+        - skill_id: SKL-PM-TRACK01
+          name: 'Swamp Tracking &  Anomaly Detection'
+          proficiency_level: 'Competent; Player needs to follow subtle environmental cues and interpret scanner data.'
+           authentication: 'Implied by investigative nature of the quest in a hazardous environment.'
+        - skill_id: SKL- PM-TECHFIX01
+          name: 'Retro-Tech Tinkering (1970s Aesthetic)' 
+          proficiency_level: 'Basic to Competent; Player might need to understand simple circuits or mechanical interactions based on  1970s design principles to interact with/repair the Modulator.'
+          authentication: 'Technological Aesthetic Constraint implies  repair methodologies fit this era.'
+        - skill_id: SKL-PM-ALLICOMBAT01 
+          name: 'GE Alligator Combat Proficiency'
+          proficiency_level: 'Competent; Player must be  able to handle standard GE Alligators and adapt to potentially glitched behaviors.'
+          authentication: 'Alligator Biogenesis  rules.'
+        - skill_id: SKL-PM-RITUALS01 # Optional
+          name:  'Basic Ritual Understanding (Ghost Interaction)'
+          proficiency_level: 'Novice; If ghostly whispers or visions are  clues, player may need to perform a simple ritual taught by Mama Manchet or found in a note.'
+          authentication : 'Spectral Interaction modality.'
+
+    inabilities_lack_of_function:
+      title: 'Inabilities & Lack of  Function (Authenticated Quest Constraints)'
+      purpose_text: 'Purpose: Define what the quest explicitly *prevents*  or what cannot be done easily.'
+      inabilities:
+        - inability_id: INAB-QMMM -01
+          description: 'The Aetheric Wave Modulator cannot be fully understood or controlled with modern ( post-1970s aesthetic) digital logic; its interface is purely analog and possibly esoteric.'
+          authentication : 'Technological Aesthetic Constraint.'
+          narrative_function: 'Forces player to engage with the world''s  specific tech rules, prevents easy hacking solutions.'
+        - inability_id: INAB-QMMM-02
+          description : 'Mama Manchet will not accept a gizzard from a heavily mutated or "soulless" (mechanically dead , not just killed) gator; it must be from a gator that, while perhaps affected, still retains some " primal spark" suitable for her ritual.'
+          authentication: 'Swamp Witch lore implies specific needs for ritual components; axi ological value of specific states.'
+          narrative_function: 'Adds a qualitative requirement to a fetch-quest component, making it  more challenging.'
+        - inability_id: INAB-QMMM-03
+          description: 'Simply  shooting all gators in the area will not solve the underlying problem or satisfy Mama Manchet.'
+          authentication: ' Quest requires investigation, not just extermination.'
+          narrative_function: 'Reinforces the investigative nature of the quest.'
+
+     vulnerabilities_weaknesses:
+      title: 'Vulnerabilities & Weaknesses (Authenticated Points of Quest  Failure/Complication)'
+      purpose_text: 'Purpose: Define specific ways the quest can go wrong or become  harder.'
+      vulnerabilities:
+        - vulnerability_id: VULN-QMMM-01 
+          description: 'Misinterpreting scanner readings or environmental clues could lead the player on a wild goose chase or to  overlook the true source of the miasma initially.'
+          authentication: 'Complexity of the problem, unreliability of retro -tech.'
+          narrative_function: 'Adds challenge to investigation; rewards careful observation.'
+        - vulnerability_ id: VULN-QMMM-02
+          description: 'Aggressive actions towards neutral/informative swamp  dwellers or Erpenthropes could cut off vital information sources.'
+          authentication: 'Social dynamics of the Pr imal Mama world.'
+          narrative_function: 'Rewards diplomatic or cautious approaches in certain situations.'
+        -  vulnerability_id: VULN-QMMM-03
+          description: 'Accidentally overloading or catastrophically destroying  the Aetheric Wave Modulator before understanding its function or safely neutralizing it could have unforeseen negative consequences for the MurkWash Delta'' s ecosystem or attract unwanted attention.'
+          authentication: 'Alethic possibility of complex tech having dangerous failure states.'
+          narr ative_function: 'Introduces stakes to interacting with the central problem device.'
+
+    costs_dependencies_operational_constraints :
+      title: 'Costs, Dependencies & Operational Constraints (Authenticated Limits on Quest Function/Progression)'
+       purpose_text: 'Purpose: Define the necessary inputs, expenditures, or procedural rules for functions.'
+      constraints:
+         - constraint_id: COST-QMMM-01
+          applies_to: Quest Initiation
+          description: 'Player  must speak to Mama Manchet and agree to help her to formally start the quest and receive initial clues/tools (e.g.,  a basic 1970s-style "Miasma Meter").'
+          authentication: 'Standard quest-giving mechanic .'
+          narrative_function: 'Establishes the inciting incident and initial resources.'
+        - constraint_id:  DEPEND-QMMM-01
+          applies_to: Modulator Interaction
+          description: 'Interacting with the A etheric Wave Modulator may require finding a user manual (in 1970s-style print, possibly  water-damaged), specific spare parts (vacuum tubes, chunky capacitors), or ritual components if it''s supernaturally  influenced.'
+          authentication: 'Technological Aesthetic Constraint; Spectral Interaction modality.'
+          narrative_function: ' Creates sub-objectives and encourages exploration/scavenging.'
+        - constraint_id: OPCON-Q MMM-01
+          applies_to: MurkWash Delta Navigation
+          description: 'The Delta is a hazardous zone . The miasma from the Modulator might cause progressive negative status effects (e.g., disorientation, solar energy drain for player /gators) in close proximity to its source, requiring quick action or protective measures.'
+          authentication: 'Environmental  hazards are common in bayou settings; the Modulator is defined as disruptive.'
+          narrative_function: 'Adds  a time pressure or resource management element to exploration near the quest''s climax.'
+        - constraint_id: RESOURCE -QMMM-01
+          applies_to: Gator Gizzard Retrieval
+          description: 'Player must successfully  hunt and harvest a GE Alligator that is relatively "clean" despite the miasma, or find one recently deceased from non-cat astrophic causes, to obtain a pristine Solar-Charged Gator Gizzard.'
+          authentication: 'Alligator Biogenesis , specific needs of Mama Manchet.'
+          narrative_function: 'Ensures player engages with the GE Alligator system and  hunting mechanics under specific constraints.'
+
+  functional_profile_summary_narrative_role:
+    title: ' Functional Profile Summary & Narrative Role'
+    purpose_text: 'Purpose: Synthesize the entity''s dynamic potential and  its function within the narrative system.'
+    core_functional_identity: 'The MurkWash Modulator Mias ma functions as an investigative mystery steeped in Primal Mama''s unique bio-punk Southern Gothic. It challenges the player to diagnose and  resolve a technological/supernatural ailment affecting GE Alligators, using observation, interaction with eccentric NPCs, retro-tech problem -solving, and combat, all while navigating a hazardous bayou environment.'
+    key_narrative_functions_ served:
+      - 'Introduces and fleshes out a key Swamp Witch character (Mama Manchet) and their needs/abilities .'
+      - 'Explores the vulnerabilities and ecological impact of the world''s core GE Alligator technology.'
+      -  'Reinforces the 1970s Technological Aesthetic Constraint through direct interaction with a problem-device.'
+      - ' Provides opportunities for environmental storytelling and discovery of pre-calamity or oligarchy secrets.'
+      - 'Offers player choice with tangible  consequences for the local swamp ecosystem and involved NPCs/factions.'
+      - 'Allows for potential interaction with Erpenthropes  or ghosts, deepening the spiritual miasma of the world.'
+    relationship_to_alethic_modality : 'Tests the established rules of GE Alligator solar power (how it can be disrupted). Explores the possibility of forgotten /misused technology (Aetheric Wave Modulator) still having potent, dangerous effects in the post-calam ity world. Demonstrates the permeability of the veil if ghosts are involved in discovering the Modulator''s history or solution . Highlights the constraints and unique problem-solving approaches dictated by the 1970s tech aesthetic (no easy digital  fixes).'
+    key_functional_tensions_trade_offs:
+      - 'Helping Mama Manchet'' s immediate need vs. uncovering and dealing with the larger, potentially dangerous truth behind the Modulator.'
+      - ' Choosing a ''quick fix'' for the Modulator vs. a more thorough but potentially riskier or more complex solution.'
+      -  'Deciding who to trust with information about the Modulator (Mama Manchet, Erpenthropes, other  factions, or no one).'
+      - 'Risking combat with glitched alligators/other hazards vs. stealth y investigation.'
+      - 'The material benefit from Mama Manchet vs. the potential ethical implications of the chosen solution for the Mod ulator.'
+
+end_of_profile_note: 'End of Entity Functional Profile: QUEST_PM_MurkW ashMiasma_01'

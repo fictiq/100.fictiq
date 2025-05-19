@@ -1,0 +1,100 @@
+
+World : Primal Mama
+CodexVersion: "0.2 - Character Constitution (Remi Dubois)"
+LastUpdated: "[Current  Date]"
+LeadArchitects: "[Your Name / Studio Name]"
+
+CharacterProfile:
+  EntityID: "CHAR_Rem iDubois_01"
+  CharacterName: "Remi Dubois (derisively nicknamed \"Coch on\" post-accusation)"
+  EntityType: Person
+  Archetype: "Wrongfully Accused, Scapegoat" 
+  PrimaryAuthenticationSources: "This Codex Entry, Primal Mama Coherence Protocol v0.1"
+  CanonTier:  "Tier 2 (Significant supporting character or victim)"
+  AuthenticationStatus: Authenticated_Canonical_Active
+
+   AuthenticatedPropertyBundle:
+    PhysicalProperties:
+      Purpose: "Define the character's tangible presence."
+       Details:
+        Appearance_General: "Human male, early 30s, with distinct West African facial features  (e.g., broader nose, fuller lips). Formerly of strong, wiry build from physical labor, now ga unt and visibly weakened by imprisonment and mistreatment." # Auth: [Visual Concept / Narrative Desc.]
+        Appearance_Specific_Features : "Deep-set, expressive dark eyes, currently clouded with fear and exhaustion. Skin tone is a rich dark brown . Short, tightly coiled black hair, matted." # Auth: [Visual Concept / Narrative Desc.]
+        Appearance _Distinctive_Marks: "Multiple fresh bruises and older contusions on face and arms, consistent with rough handling.  A brand mark of a stylized cattle skull on his left forearm, signifying his 'crime'." # Auth: [Primal  Mama Deontic Law Enforcement Detail / Narrative Desc.]
+        Typical_Attire: "Tattered, once- dyed-ochre prisoner's smock and trousers, standard issue in Beetriot's holding pens for ' Cattle Sinners'. Barefoot." # Auth: [Primal Mama Setting Detail - Beetriot Penal System]
+         Voice_Speech_Pattern: "Formerly a warm baritone with a Lickskillet bayou drawl;  now often a hoarse whisper, speech broken by trauma and fear. Struggles to articulate." # Auth: [Dialogue Direction  / Narrative Desc.]
+        Gait_Mannerisms: "Shuffles, often hunched. Flinches  at loud noises or sudden movements. Avoids direct eye contact, particularly with authority figures. Hands often tremble." # Auth : [Action Description / Psychological Impact]
+        Associated_Scent: "Stale sweat, fear, unwashed body, faint  metallic tang of dried blood, antiseptic prison cleaner." # Auth: [Sensory Palette - Prison Environment]
+      Und ersaturation: "Exact height/weight pre-captivity, specific tribal/regional facial indicators beyond 'West African', previous  personal style choices."
+
+    FunctionalProperties:
+      Purpose: "Define what the character can and cannot do."
+      Details: 
+        Skill_Alligator_Skinner: "Formerly Proficient Alligator Skinner & Small-Scale Processor (L ickskillet trade)" # Auth: [Backstory Detail]
+        Skill_Swamp_Navigation: "Formerly  Knowledgeable in Swamp Navigation (by pirogue, local Lickskillet area)" # Auth: [Backstory  Detail]
+        Skill_Literacy: "Basic literacy (enough to read simple signs and warnings)" # Auth:  [World Detail - Lickskillet Education Level]
+        Limitation_Physical: "Severely weakened by malnutrition  and abuse. Incapable of strenuous activity or self-defense in current state." # Auth: [Narrative Dep iction]
+        Limitation_Knowledge: "No understanding of Beetriot's complex legal system or elite politics. Unaware  of who truly framed him or why, beyond the immediate accusation." # Auth: [Character Background / Plot Point]
+         Limitation_Social: "Completely stripped of social standing; branded a pariah. No allies within the prison  system. Family in Lickskillet likely terrified to associate or offer aid due to the \"death by burger\" severity ." # Auth: [Primal Mama Deontic Modality - Cattle Consumption Prohibition]
+        Limitation_Resource : "Possesses nothing. Utterly dependent on captors for basic survival." # Auth: [Narrative Depiction]
+       Undersaturation: "Specific gator processing techniques; ability to use firearms (common outside Beetriot, but his status is  unknown); any artistic or intellectual talents beyond basic literacy."
+
+    PsychologicalProperties:
+      Purpose: "Define the  character's textually constituted inner life."
+      Details:
+        Core_Trait_Fear: "Overwhelming  Fear / Terror (of execution, of further torture)" # Auth: [Mannerisms, Internal Monologue Fragments]
+         Core_Trait_Injustice: "Deep-Seated Sense of Injustice / Bewilderment (at being falsely  accused of the ultimate taboo)" # Auth: [Dialogue Attempts, Internal Monologue]
+        Core_Trait_Res ignation: "Resignation (increasingly, as hope dwindles)" # Auth: [Actions, Lack of Resistance] 
+        Dominant_Emotion: "Abject Terror, punctuated by waves of Despair and Confusion." # Auth: [Narrator  Descriptions, Expressed Behavior]
+        Key_Motivator: "Moment-to-moment survival; a flickering , desperate hope for someone to believe his innocence (though he dare not voice it often)." # Auth: [Internal Mon ologue, Plot Driver if an intervention occurs]
+        Key_Belief: "Believed in fairness/community justice  in Lickskillet (pre-arrest); Now believes the powerful in Beetriot can destroy anyone, and that the cattle taboo is  absolute and terrifyingly enforced." # Auth: [Internal Monologue, Reactions to World Events]
+        Internal_Conflict : "Lingering disbelief at his situation vs. the brutal reality of his imprisonment; Instinct to survive vs. crushing despair; Fear  of speaking truth vs. yearning to be understood." # Auth: [Internal Monologue, Hesitant Actions]
+         Subjective_Memory_Content: "Vivid, traumatic memories of his arrest, the planting of 'evidence' ( e.g., cattle blood on his knife, a hidden piece of cooked beef in his shack), the public shaming , and the brutal efficiency of Beetriot Enforcers. Clear memories of his normal life in Lickskillet abruptly  ending." # Auth: [Narrative Depiction, Flashbacks]
+      Undersaturation: "Deeper philosophical views,  specific religious beliefs (beyond general Primal Mama spirituality), detailed nature of his family relationships beyond their current fear."
+
+    SocialRelational CategoricalProperties:
+      Purpose: "Define the character's place within the world's networks."
+       Details:
+        Official_Role: "Condemned Prisoner, accused of violating Alethic/Deontic  rule: `Cattle Consumption Prohibition`." # Auth: [Primal Mama Coherence Protocol I.A & I .B]
+        Social_Status: "Absolute Pariah / \"Unperson\". Lowest possible status due to the nature of  the transgression." # Auth: [Primal Mama Axiological Modality - Cattle Flesh as Ultimate Taboo]
+         Primary_Affiliation: "None (Stripped of Lickskillet community ties by accusation and imprisonment by Beetriot  authorities)." # Auth: [Narrative Detail]
+        Secondary_Affiliations: "None."
+        Key_ Relationship_1_Beetriot_Enforcers: "To Beetriot Enforcers/Justice System: Victim /Oppressor. Source of terror and pain." # Auth: [Narrative events]
+        Key_Relationship_ 2_Family_Community: "Lost connection, source of past comfort and current despair. They are likely too afraid to  help due to the severity of the `Cattle Consumption Prohibition`." # Auth: [Implied by Primal Mama Deontic  Rules]
+        Key_Relationship_3_Fellow_Prisoners: "Shared suffering, potential for mistrust or fleeting  moments of shared humanity, but unlikely to be strong alliances." # Auth: [Prison Environment Logic]
+        Species_ Type: "Human (Lickskillet Strain - implies typical bayou dweller physiology pre-captivity)" # Auth : [Default/Description]
+      Undersaturation: "Specific names of family members or friends; reputation in Lickskillet  *before* the accusation (e.g., was he respected, liked, disliked for other reasons?)."
+
+     ModalProperties:
+      Purpose: "Define any inherent unique relationship to world laws."
+      Details:
+        Property_ID:  "MODAL-REMID-NONE"
+        Property_Name: "None. Operates entirely under the standard  alethic, deontic, and epistemic laws of Primal Mama for ordinary citizens."
+        Property_Description : "His victimhood is potent *because* he has no special protection or exemption from the world's harshest rules."
+         Property_Limits: "N/A"
+        Property_Authentication: "Consistent depiction as a normal human subjected  to Primal Mama's established societal laws and consequences." # Auth: Applies to overall modal property
+
+    AxiologicalProperties: 
+      Purpose: "Define the character's value status within Primal Mama."
+      Details:
+        Reputation _Beetriot_Authorities: "Authenticated as 'Cattle-Fiend', 'Taboo-Breaker',  'Deserving of Death/Punishment'. His nickname \"Cochon\" (Pig/Swine) reflects this utter contempt,  especially ironic given pigs are a viable, if less prestigious, food source compared to alligators." # Auth: [Pr imal Mama Axiological Values - Cattle Flesh as Taboo; Dialogue/Public Reaction]
+        Reputation_Dissent ers: "Potentially seen as a 'tragic victim' or 'example of systemic cruelty,' if such individuals exist  and learn of his specific circumstances." # Auth: [Hypothetical based on world's potential for hidden counter- narratives]
+        Moral_Alignment_Narrative: "Authenticated as 'Innocent Victim,' 'Wrongfully  Condemned,' used to highlight the brutality or potential for error/corruption in Primal Mama's justice system,  especially concerning the ultimate taboo." # Auth: [Narrator tone, focus on his suffering and internal state of innocence] 
+      Undersaturation: "How the Meat Oligarchy views his case (e.g., useful example, irrelevant, or did  they have a hand in his framing?); specific views of Erpenthropes or Swamp Witches if they were  to encounter him."
+
+    HistoricalProperties:
+      Purpose: "Define the character's known origins and connections to past events." 
+      Details:
+        Origin: "Authenticated as born and raised in Lickskillet, from a family of  modest means involved in local alligator processing/swamp foraging." # Auth: [Backstory Snippets]
+        Key _Past_Event_Direct: "The 'Cattle Crime Incident' – a fabricated event where he was discovered with  'evidence' of cattle slaughter/consumption. This event is the pivotal point of his recent history and current status." #  Auth: [Narrative Core of his Victimhood]
+        Key_Past_Event_Societal: "Vict im of the post-Calamity societal restructuring that made cattle consumption the ultimate crime, and the subsequent rigid enforcement of  this law." # Auth: [Primal Mama Coherence Protocol - Foundational Modalities & History]
+        Inher ited_Items: "None relevant to current situation; any personal belongings would have been confiscated or lost during arrest." #  Auth: [Narrative Logic]
+      Undersaturation: "Specifics of his family lineage; details of his  life achievements or failures prior to the accusation; any involvement in Lickskillet community events beyond general participation."
+
+   CharacterConstitutionSummaryAndNarrativeFunction:
+    Purpose: "Synthesize the core identity, internal conflicts, and narrative  role emerging from the authenticated property bundle."
+    CoreEssence: "Remi \"Cochon\" Dubois is  constituted as an ordinary Lickskillet resident tragically ensnared by Primal Mama's most severe taboo: the  prohibition of cattle consumption. His identity is defined by his wrongful accusation, the subsequent physical and psychological trauma, and his utter  powerlessness against the overwhelming force of Beetriot's justice system. He embodies the brutal consequences of the world's  foundational laws when misapplied or exploited, transforming from a functional member of his society into a reviled pariah. His African features are  an incidental descriptor of his person, while his suffering is a direct result of Primal Mama's unique societal structure and  values."
+    PrimaryNarrativeFunction: "To serve as a stark illustration of the human cost of Primal Mama's  core tenets and the potential for injustice within its system. He can act as a catalyst for another character's actions ( e.g., an investigator, a moral dissenter, an Erpenthrope truth-seeker). His plight can expose the cruelty  underlying the retro-futuristic, bio-punk veneer, particularly the chasm between the elite (Beetriot) and  the common folk (Lickskillet) when faced with the ultimate transgression."
+    KeyInternalConflicts: "Hope  for truth/vindication vs. crushing despair and resignation; terror of death/torture vs. remembered pride/d ignity; confusion at the injustice vs. the undeniable reality of his condemnation."
+    PotentialForDevelopment: "While his situation is  dire, potential developments could include: being rescued or given a chance to tell his story by an outside party; a desperate  escape attempt (likely futile); further psychological deterioration; or becoming a symbol (martyr) if his innocence is posthumously  suspected or revealed. Any positive development hinges on external intervention, given his authenticated limitations."
+
+EndOfFictionalPersonProfile: "CHAR _RemiDubois_01"

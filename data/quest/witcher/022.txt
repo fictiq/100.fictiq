@@ -1,0 +1,45 @@
+Fencing Rosa and Gwenting Roche
+We could go hunting Dandelion down-and if that's what you want to do, skip ahead to "Get Junior." There are a few quests we can check out, first, though, and plenty of optional exploration south-east of Novigrad. First up, we have a fencing lesson to teach...
+
+Fencing Lessons (level 12)
+Head up to the var Attre estate and talk to the guard outside to find out that Rosa is waiting for you elsewhere-near the bridge in the nonhuman district that connects to the Seven Cat's Inn, in fact.
+
+Objective	Reward
+For talking to the guard at the var Attre estate	10 XP
+Talk to Rosa when you find her, and she'll shortly send her guard away, then ask you to follow her. It seems she wants a more scenic locale for her fencing lesson than a dank cellar-and she wants a more realistic fight. Defeat her once again (it should be much quicker now that you're using a real sword) and she'll yield. Geralt will then fall for a trick, and Rosa will run off.
+
+Objective	Reward
+For fencing with Rosa	25 XP
+Activate your Witcher Senses to find Rosa's footprints. Seems she scampered off down the road to the south-east-towards the Seven Cat's Inn. Head over to the aforementioned tavern to find that Rosa's found herself some typical Nordling hospitality. Approach the group and either pick a fight, bribe the pests, or use the Axii Sign to get them to back down. If you pick a fight, put down Lucas and Kobe (both level nine), if not, not. Either way, talk to Rosa afterwards and chastise her to varying degrees depending upon your response. Either way, the lesson is over and Rosa is sent home.
+
+Objective	Reward
+For using the Axii Sign on the drunks	40 XP
+For rescuing Rosa	25 XP
+Well, since we're out here, we might as well start out exploration form the Seven Cats Inn. Head east from the inn and cross a bridge, then, when on the eastern side, turn north to find some marshlands, where Drowners (level nine) prowl. Kill them, and loot some corpses-particularly a soldier near a flag. Once done, head back south and follow the road east.
+
+Death or Novigrad
+When you reach a fork, stick to the northern path and keep heading east. When you reach another fork, take the southern fork to find some soldiers hassling some peasants. You can either wash your hands of the situation, pick a fight with the Novigrad Soldiers (level thirteen), bribe the guards (100 Crowns) or use the Axii Sign on them. The last option is by far the most lucrative. After helping the peasants one will tell you about some lucrative tomb near Downwarren-he's referring to Dragonslayer's Grotto, which we've already looted.
+
+Objective	Reward
+For using Axii on the guard	40 XP
+For helping the peasants	25 XP
+Paranoid Travelers
+From this encounter follow the road south until you spot a small gathering west of the road. Accept the hospitality, give your name, and chat your new friends up. Eventually one of them-Manfred-will be a little too specific with his information, raising suspicions of the nearby guard. Once these suspicions are raised, the guard will attempt to arrest the "spy", whether you help (as requested) or not. You can either sit the confrontation out, help the soldier, or tell defend the merchant. If you don't give your name, then when prodded, you try to leave, you'll provoke both Manfred and the guard, who accuse you of being a spy. Seems the war has made everybody suspicious.
+
+Objective	Reward
+For helping the guard subdue the "spy"	25 XP
+For helping the merchant fend off the guard	25 XP
+For fighting off your accusers	25 XP
+The Temerian Resistance
+From the site of the paranoid confrontation follow the road south until the road forks, at which point head east. Cross a small wooden bridge, then take the first road south you see and continue south along this road to find the "Gustfield's Farm" signpost. Along the way you can find some caravans alongside the road, with some loot scattered near them-just don't expect anything exceptional. When you reach the signpost head along another road to the north-east through some fields until you find the "Temerian Partisan Hideout" signpost. Seems kind of silly for such a group to have a signpost, but... whatever.
+
+Approach the cave entrance and a guard will attempt to see you off. Either pick a fight, or stick to the top options until you get the opportunity to use Axii on the guard. After the influence of a Sign or some good old fashioned thumping, you'll be able to pass.
+
+Objective	Reward
+For using Axii on the Temerian partisan	25 XP
+Inside the cave you'll meet your old friends Vernon Roche and Ves. Patriotism dies hard, it seems. Ask Vernon about what he's been through since you last met-and also learn about the fall of Temeria in the process. When you're done chatting about politics old and new, challenge him to a game of Gwent. He's got a fairly powerful Northern Kingdoms deck, including cards like "Villentretenmerth", "Ciri" and plenty of siege units, which he likes to exploit with his "Foltest, the Siegemaster" card. He's not above using the odd "Commander's Horn", but he has little in the way of "Spy" cards-although he will use "Decoy" on your own Spy cards, if he has them handy. When you beat him you'll add the "Saesenthessis" Card to your Scoia'tael deck.
+
+Objective	Reward
+For defeating Vernon Roche at Gwent	25 XP
+Saesenthessis Card
+After winning, Vernon will mention another player who might be a challenge for us-none other than our fellow Witcher, Lambert. To play him we'll have to advance his quest "Following the Thread," which requires us to travel to Skellige... so we'll be putting that off for a while. Time to get back to rescuing Dandelion.

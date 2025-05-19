@@ -1,0 +1,389 @@
+
+quests:
+  - id: PM_QUEST_01 
+    title: Bayou Bio-Hacking 101
+    level_equivalent: 24
+     codex_integration_note: "Having likely navigated the treacherous waterways and perhaps dealt with some local \"friction\" from  the meat processor oligarchs, the PC might hear whispers of a powerful, reclusive figure known for unique bio-alchemy  and perhaps insights into the world's stranger elements."
+    steps:
+      - step_id: PM_ Q01_S01
+        title: Getting Started
+        description: 'Fast-travel via airboat to the  "''Gator Boneyard'' Dock". Follow a nearly overgrown path south-west through cypress knees and stagnant pools  until you find a strangely well-maintained shack built into the roots of a colossal, petrified tree. Outside, puttering with  strange, bubbling contraptions housed in 70s-style casings, is "Doc" Thibodeaux, a master bio -tinkerer spoken of in hushed tones.'
+        location: "'Gator Boneyard' Dock -> Doc  Thibodeaux's Shack"
+        character_introduced: '"Doc" Thibodeaux'
+      - step _id: PM_Q01_S02
+        title: The Task
+        description: "Approach  Doc Thibodeaux. He's initially dismissive, wary of outsiders interrupting his work (which blends advanced bio- science with what looks suspiciously like folk hoodoo). If the PC persists, expressing genuine interest in his craft (or perhaps  offering rare components), Thibodeaux might offer tutelage... but only if the PC retrieves three rare items essential for his current \" Project Roux\":\n1. A sealed jug of authentic \"Swamp Lightning\" Moonshine from a notoriously haunted still .\n2. A sample of living \"Catahoula Nightshade\", a bioluminescent fungus that only grows in  deep, creature-infested caves.\n3. Convince \"Bayou Boss Fontaine\", a respected (and feared)  community leader downstream, to perform a specific appeasement ritual – Fontaine owes Thibodeaux a favor, but is notoriously stubborn.\ nAgreeing kicks off a new round of swamp exploration, delving deeper into the bayou's secrets and dangers."
+        dialog ue_prompts:
+          - "Interact with Doc Thibodeaux"
+          - "Persist/Offer  components"
+          - "Agree to tasks"
+        items_involved:
+          - '"Swamp Lightning"  Moonshine (Objective)'
+          - '"Catahoula Nightshade" (Objective)'
+          - '"Bayou Boss Fontaine " Favor (Objective)'
+
+  - id: PM_QUEST_02
+    title: Flooded Stilt Village & The  Kin by Gator Conundrum
+    level_equivalent: 13 # Based on enemy levels mentioned
+    cod ex_integration_note: "(This can be encountered while exploring or searching for leads related to Fontaine)."
+    steps: 
+      - step_id: PM_Q02_S01
+        title: Locating the Village 
+        description: 'Fast-travel to the "''Crawdad Creek'' Landing". Follow a decaying boardwalk south- east into the Flooded Stilt Village – marked on most salvaged maps. The place is eerily quiet, save for the buzzing of  giant insects and the ripples of unseen things in the murky water.'
+        location: "'Crawdad Creek' Landing -> Flooded  Stilt Village"
+      - step_id: PM_Q02_S02
+        title:  Hazards & Loot
+        description: "Near the village marker, a nest of Mutated Snapping Turtles (Level  13 Equiv.) guards a contaminated breeding pool. Dispatch them and destroy the source of the mutation (perhaps an unstable pre -Calamity chemical drum – requires careful handling or a well-placed explosive charge). Search the partially submerged shacks.  West of the main dock, find a shack with a chest containing a \"Waterlogged Logbook\". Loot the remaining structures (care fully, floors are unstable). Reading the logbook reveals entries about family members heading towards a specific wrecked vessel, updating the  side-quest \"Kin by Gator\"."
+        location: Flooded Stilt Village
+        enemies:
+          - " Mutated Snapping Turtles (Level 13 Equiv.)"
+        items_involved:
+          - " Unstable pre-Calamity chemical drum (Interactable)"
+          - '"Waterlogged Logbook" (Quest  Item)'
+        quests_updated:
+          - '"Kin by Gator"'
+      - step_id: PM _Q02_S03
+        title: Completing "Kin by Gator"
+        description: "Head south- west towards the edge of the flooded zone. A large, wrecked Airboat Freighter lists in the shallows, likely guarded by territorial  Giant Water Moccasins (Level 13 Equiv.). Find a specific, marked crate or footlocker on the eastern , relatively dry side of the wreck to find evidence of the logbook writer's kin (perhaps remains, or another note  indicating they moved on), completing the \"Kin by Gator\" objective."
+        location: Wrecked Airboat Freighter  (SW of Flooded Stilt Village)
+        enemies:
+          - "Giant Water Moccasins (Level 1 3 Equiv.)"
+        items_involved:
+          - "Marked Crate/Footlocker (Quest  Objective)"
+        quests_completed:
+          - '"Kin by Gator"' # Assuming this small part completes the referenced  questlet
+
+  - id: PM_QUEST_03
+    title: 'Blueprint: Solar Recharger Mk II' 
+    level_equivalent: 20 # Based on enemy levels mentioned
+    steps:
+      - step_id:  PM_Q03_S01
+        title: Location
+        description: "Return to the Flooded  Stilt Village. North of the main dock is a collapsed structure that looked like a workshop. The northern end is blocked  by heavy debris."
+        location: Collapsed Workshop (North of Flooded Stilt Village Dock)
+      -  step_id: PM_Q03_S02
+        title: Acquisition
+        description: "Use  a prybar or a controlled shotgun blast (careful of collateral damage!) to clear the rubble blocking stairs leading down into a flooded  basement. Inside, flickering emergency lights reveal two Lingering Phantoms (Level 20 Equiv.) – victims of the  village's demise, perhaps. Dispatch them (Iron shrapnel or salt-rounds might be effective, check local lore). On  the southern wall, pinned by a rusted machete, is an \"Enforcement Warrant for 'Techno-Heretic Silas '\". Through a corroded doorway to the east is a reinforced chest containing \"Tinkerer's Notes\" and  the valuable Blueprint: Solar Recharger Mk II (essential for maintaining GE Gator efficiency or powering high-drain 70s tech )."
+        location: Workshop Basement
+        enemies:
+          - "Lingering Phantoms (Level 20  Equiv.)"
+        items_involved:
+          - Prybar / Explosive (Required for access)
+           - '"Enforcement Warrant for ''Techno-Heretic Silas''" (Lore Item)'
+          - '"Tink erer''s Notes" (Lore Item)'
+          - '"Blueprint: Solar Recharger Mk II" (Reward Item )'
+
+  - id: PM_QUEST_04
+    title: The Bayou Still & Swamp Lightning
+    level _equivalent: 23 # Based on enemy levels mentioned
+    steps:
+      - step_id: PM _Q04_S01
+        title: Getting There
+        description: "Head north from the Flo oded Stilt Village, navigating narrow, winding waterways. The target location, the old Bayou Still, is technically east but requires a  northern approach around impassable mangroves. Follow the current north until you find a tributary cutting east, deeper into the swamp' s interior. Eventually, you'll find a hidden landing leading up a muddy embankment. Follow the treacherous path upwards."
+        location : Waterways North/East of Flooded Stilt Village -> Bayou Still Path
+      - step_id: PM _Q04_S02
+        title: The Still Exterior
+        description: "The location is marked by rusted  corrugated iron and the skeletal remains of old machinery, now overrun by aggressive Feral Hogs (Level 23 Equiv.).  Clear them out. Loot the northern ruins. Descend some rickety stairs south-east, then south-west to find  the \"Abandoned Still\" Landmark Signpost."
+        location: Bayou Still Exterior
+        enemies:
+          - "F eral Hogs (Level 23 Equiv.)"
+        items_involved:
+          - '"Abandoned Still"  Landmark Signpost (Discoverable)'
+      - step_id: PM_Q04_S03
+         title: Inside the Works
+        description: 'Cross a swaying bridge and turn north into a large cavernous structure housing  the still itself. A hulking Malfunctioning Loader-Bot (70s aesthetic, Level 21 Equiv.) activates , mistaking you for scrap. Disable it (aim for hydraulic joints or the flickering power cell). Search its "nest" (a  pile of junk) for minor loot. Head up to a dilapidated control platform in the south-east corner. Search the  grimy sleeping bags/cots for a "Distiller''s Final Note" and a "Tattered Logbook".' 
+        location: Bayou Still Interior - Main Chamber & Control Platform
+        enemies:
+          - "Malfunctioning Loader-Bot ( Level 21 Equiv.)"
+        items_involved:
+          - '"Distiller''s Final Note"  (Lore Item)'
+          - '"Tattered Logbook" (Quest Item - Contains Instructions)'
+      - step_id:  PM_Q04_S04
+        title: 'Brewing the ''Shine'
+        description:  "The logbook contains crucial operating instructions, hastily scribbled:\n1. `Dump Processed Gator Biomass into the Primary  Vat.`\n2. `Flip the IGNITION switch for the Pilot Light.`\n3. `Cool the Condenser  Coils: Turn the RIGHT-side valve FIRST, then the LEFT valve. NOT the other way around, dammit !`\nHead to the northern end of the main floor, climb a ladder, and grab a container of Processed Gator Biomass  (smells awful). Return to the ground floor, find the large Primary Vat to the east, and load the biomass.  When prompted by the machinery's sputtering console (or your own intuition), find the IGNITION switch (big, chunky, red ) and flip it. Wait for the pressure gauges (analog, naturally) to spike, then find the Condenser Valves  further east. Turn the RIGHT (eastern) valve, then the LEFT (western) valve. A successful sequence results in a gurg ling sound and a light indicating process completion. Loot the collection barrel nearby to claim the potent \"Swamp Lightning\" Moonshine for Doc  Thibodeaux."
+        location: Bayou Still Interior - Still Machinery Area
+        items_involved:
+          - '" Processed Gator Biomass" (Interactable Item)'
+          - Primary Vat (Interactable Machine)
+          - IGN ITION Switch (Interactable Machine)
+          - Condenser Valves (Right & Left - Interactable Machine)
+          - Collection  Barrel (Interactable - Contains Reward)
+          - '"Swamp Lightning" Moonshine (Reward Item - Quest Objective)'
+         rewards:
+          - description: "For brewing the Swamp Lightning"
+            xp: 80
+
+  - id : PM_QUEST_05
+    title: Swamp Herbs and Sticky Situations
+    level_equivalent: 26 #  Based on enemy/encounter levels
+    steps:
+      - step_id: PM_Q05_S01 
+        title: The Search
+        description: "Leave the Still area, carefully navigating back down. Follow the main waterway  generally north-west. Where it intersects a wider channel running east-west, follow this new channel east. Beware of Swamp  Panthers (Level 15 Equiv.) that stalk these banks. Your destination (marked by Thibodeaux) is  north of this channel, a specific Bioluminescent Fungal Grove."
+        location: Waterways NW then E of Bayou  Still -> Bioluminescent Fungal Grove Area
+        enemies:
+          - "Swamp Panthers (Level 15  Equiv.)"
+      - step_id: PM_Q05_S02
+        title:  Complication
+        description: 'Activate relevant senses/scanner tech. You''ll find the patch of Catahoula Nightshade , but it''s already been disturbed/partially harvested. Examine the signs, and a nervous Local Trapper approaches, explaining  that Doc Thibodeaux isn''t the only one seeking rare ingredients, and mentioning another local, Remy, who recently came  searching for the same fungus, ranting about appeasing a "Swamp Siren."'
+        location: Bioluminescent Fungal Grove 
+        items_involved:
+          - '"Catahoula Nightshade" Patch (Interactable)'
+         character_introduced: "Local Trapper"
+        dialogue_prompts:
+          - "Examine Night shade patch"
+          - "Talk to Local Trapper"
+      - step_id: PM_Q0 5_S03
+        title: Tracking Remy
+        description: "Agree to help the Trapper find the  potentially endangered Remy. Follow strange tracks south – webbed, bipedal? They lead to a main path where you find disturbed  earth, possibly a fresh grave. Investigate; the Trapper identifies it as belonging to another local who went missing.  Nearby, dispatch an ambushing Giant Mutated Crawfish (Level 26 Equiv.). Continue south along the path , finding more webbed tracks now joined by normal human boot prints."
+        location: Path South of Fungal Grove
+         enemies:
+          - "Giant Mutated Crawfish (Level 26 Equiv.)"
+        dialogue_prompts :
+          - "Agree to help Trapper"
+        actions:
+          - "Follow tracks"
+          - "Invest igate grave"
+      - step_id: PM_Q05_S04
+        title: The  Encounter
+        description: "You find Remy with a strangely alluring creature – a Bayou Siren (Level 25 Equiv .), humanoid but with unsettling aquatic features, humming a disorienting tune. Remy insists she's harmless, misunderstood. The Siren  pleads her case, blaming recent disappearances on \"territorial gators.\""
+        location: Remy & Siren Encounter Location
+         character_introduced:
+          - Remy
+          - "Bayou Siren (Level 25 Equiv.)" 
+        enemies: # Conditional enemy
+          - "Bayou Siren (Level 25 Equiv.)"
+        dialog ue_prompts:
+          - "Talk to Remy and Siren"
+        choices:
+          - choice_id : PM_Q05_C01
+            prompt: "Attack the Siren"
+            outcome: "Fight  the Bayou Siren (uses sonic attacks, blinding spores). Remy is distraught."
+          - choice_id: PM_Q05 _C02
+            prompt: "Believe the Siren/Remy"
+            outcome: "Trapper gets angry and leaves . Siren might offer cryptic clue/warning."
+      - step_id: PM_Q05_S05
+         title: Getting the Goods
+        description: "Follow a scent trail (or the Siren, if spared) east to  a Dank Cave hidden behind a waterfall. Navigate to the southern end of the cave system (watch out for pitfalls and glowing critters ) and harvest the required sample of Catahoula Nightshade."
+        location: Dank Cave (East of Encounter)
+        items _involved:
+          - '"Catahoula Nightshade" (Reward Item - Quest Objective)'
+        rewards :
+          - description: "For obtaining the Catahoula Nightshade"
+            xp: 80
+
+  -  id: PM_QUEST_06
+    title: Bayou Abduction
+    level_equivalent: 25 
+    steps:
+      - step_id: PM_Q06_S01
+        title:  The Encounter
+        description: "Head north from the Fungal Grove, sliding down slick embankments to reach the main southern waterways . Head east along the shore, then take an airboat (or swim cautiously) south. You'll find a secluded  landing with a ramshackle dock. As you approach, you hear shouting. A desperate Gator Farmer is fighting off several armed  River Runners (Level 25 Equiv.)."
+        location: Secluded Landing (South of Fungal Grove Area) 
+        character_introduced: "Gator Farmer"
+        enemies:
+          - "River Runners (Level 25  Equiv.)"
+      - step_id: PM_Q06_S02
+        title:  Intervention & Quest Start
+        description: "Help the Farmer fend off the attackers. Afterwards, he frantically explains they abducted his son/ daughter, likely heading for their base in the Sunken Maw grotto further south. He begs for your help, offering his sturdy  (if aging) airboat. Agreeing starts the quest \"Bayou Abduction\"."
+        dialogue_prom pts:
+          - "Talk to Gator Farmer after fight"
+          - "Agree to help"
+        items _involved:
+          - "Farmer's Airboat (Temporary Transport)"
+        quests_started:
+          - '"Bay ou Abduction"'
+        rewards:
+          - description: "For helping the Farmer fend off the River Runners"
+             xp: 50
+
+  - id: PM_QUEST_07
+    title: The Ballad of  the Beaux Barron Boys
+    level_equivalent: 26
+    steps:
+      - step_id:  PM_Q07_S01
+        title: Getting There & Opportunity
+        description: 'Take the Farmer ''s airboat south along the coast until you spot the signpost for the "''Sunken Maw'' Dock". ( Note: The actual grotto entrance is nearby). Before committing to the abduction quest, you might spot a familiar rugged figure near the dock  – Cletus, a grizzled ex-Enforcer turned bounty hunter. Cletus recognizes you (or your  reputation) and asks if you''re still interested in helping him take down the notorious Beaux Barron Boys, who are holed up  *inside* the Sunken Maw. Confirm you''re game.'
+        location: "'Sunken Maw' Dock Area "
+        character_introduced: Cletus
+        dialogue_prompts:
+          - "Talk to  Cletus"
+          - "Agree to hunt Beaux Barron Boys"
+      - step_id: PM_ Q07_S02
+        title: Inside the Grotto & Confrontation
+        description: "Pop  a Chemlight or activate night-vision gear – it's dark. Loot a submerged crate in the main cavern . Climb onto rocks to the north-east. Head north into a tunnel where Cletus confirms the plan. Follow him south -west into a larger chamber where the three Beaux Barron Boys (Level 26 Equiv.) are dividing loot. Apply ' Gator Grease (anti-personnel weapon coating) if you have it. Take them down quickly (they use shotguns , machetes, and maybe jury-rigged explosives)."
+        location: Sunken Maw Grotto - Main Ca vern & North-East Passage & Boys' Chamber
+        items_involved:
+          - Chemlight / Night -Vision
+          - "'Gator Grease (Optional Coating)"
+        enemies:
+          - "Beaux Barron  Boys (x3, Level 26 Equiv.)"
+      - step_id: PM_Q07_S 03
+        title: Aftermath & Loot
+        description: "If Cletus survives, he thanks you, pays  a share, and mentions he works alone mostly. Loot their camp, paying special attention to a chest near their bedrolls containing  the Schematic: Gator Jaw Gauntlets. Explore the rest of the northern passage for more containers, especially a lucrative chest up  a slope in the north-west corner. (Optional): Proceed deeper into the Sunken Maw to pursue the \"Bayou Ab duction\" questline if active."
+        location: Sunken Maw Grotto - Boys' Chamber & Northern Passage
+        items _involved:
+          - '"Schematic: Gator Jaw Gauntlets" (Reward Item)'
+        rewards: 
+          - description: "For eliminating the Beaux Barron Boys"
+            xp: 25
+            currency: " 50 Pre-Calamity Scrip (PCS)"
+        quests_potentially_continued:
+          - '"Bay ou Abduction"'
+
+  - id: PM_QUEST_08
+    title: Appeasing the Bayou Spirits  (or Fixing the Weather Machine)
+    level_equivalent: 23 # Based on enemy waves
+    steps: 
+      - step_id: PM_Q08_S01
+        title: Finding Fontaine
+         description: 'Leave the Sunken Maw and fast-travel (via airboat) to "''Fontaine''s Landing'' ". Head to the largest, most central structure, where Bayou Boss Fontaine holds court.'
+        location: "'Fontaine 's Landing' -> Fontaine's Structure"
+        character_introduced: '"Bayou Boss Fontaine"'
+      -  step_id: PM_Q08_S02
+        title: The Problem & Choice
+        description : "Fontaine agrees to help Doc Thibodeaux, but only after you help *him*. Depending on your Codex  interpretation:\n*   Option A (Supernatural): Angry ancestor spirits (Ghosts) are causing a localized toxic miasma/unn aturally violent storms. Fontaine needs you to protect him at a nearby Ancient Shrine while he performs a lengthy appeasement ritual .\n*   Option B (Retro-Tech): A nearby pre-Calamity Weather Control Station (70s design,  naturally) is malfunctioning, causing the storms/miasma. Fontaine needs you to escort him there and defend him while he  attempts repairs using risky bypass procedures."
+        dialogue_prompts:
+          - "Talk to Fontaine"
+         choices: # Implicit choice based on world setup, or could be explicit player choice
+          - choice_id: PM_Q0 8_C01
+            prompt: "Agree to help with Spirits (Option A)"
+            outcome: "Proceed  to Ancient Shrine location."
+            target_location: Ancient Shrine
+          - choice_id: PM_Q08_C 02
+            prompt: "Agree to help with Weather Machine (Option B)"
+            outcome: "Proceed to  Weather Control Station location."
+            target_location: Weather Control Station
+      - step_id: PM_Q 08_S03
+        title: The Defense
+        description: "Agree and follow Fontaine. At the Shrine/ Station, the ritual/repair process begins, attracting unwanted attention. Fend off several waves of attackers:\n*   Option  A Attackers: Swarms of Vampire Bunnies drawn by the spiritual energy, and aggressive Poltergeists (Level 2 3 Equiv.).\n*   Option B Attackers: Malfunctioning Security Drones and perhaps mutated creatures attracted by the energy  surges (Level 23 Equiv.)."
+        location: Ancient Shrine OR Weather Control Station
+        enemies_ option_a:
+          - "Vampire Bunnies (Swarm)"
+          - "Poltergeists (Level  23 Equiv.)"
+        enemies_option_b:
+          - "Malfunctioning Security Drones "
+          - "Mutated Creatures (Level 23 Equiv.)" # Placeholder for specific creature types
+      -  step_id: PM_Q08_S04
+        title: Resolution
+        description: 'Survive the onslaught . Fontaine completes the ritual/repair, the weather calms/miasma recedes. He thanks you, comments on the nature  of the threat ("Spirits get ornery," or "Old tech bites back"), and agrees to uphold his end of  the bargain with Doc Thibodeaux.'
+        dialogue_prompts:
+          - "Talk to Fontaine after  defense"
+        rewards:
+          - description: "For helping Fontaine"
+            xp: 80
+
+   - id: PM_QUEST_09
+    title: Completing Bayou Bio-Hacking 101 
+    level_equivalent: 24 # Matches starting quest level
+    steps:
+      - step_id: PM _Q09_S01
+        title: Return to Thibodeaux
+        description: 'Fast-travel back to  the "\'Gator Boneyard\' Dock" and return to Doc Thibodeaux''s shack. Fontaine is likely already  there (or arrives shortly after). Inform Thibodeaux you have the Swamp Lightning and the Nightshade.'
+        location: "'G ator Boneyard' Dock -> Doc Thibodeaux's Shack"
+        dialogue_prompts:
+           - "Talk to Doc Thibodeaux"
+      - step_id: PM_Q09_S 02
+        title: The "Ritual"
+        description: "Thibodeaux kicks you out while  he, with Fontaine's assistance (ritual chanting or technical help), combines the ingredients in a complex, bubbling, sparking  process within his 70s-tech contraptions. Rest/wait for 24 hours."
+        actions :
+          - "Wait / Rest for 24 hours"
+      - step_id: PM_Q 09_S03
+        title: The Reveal & Vendor Unlock
+        description: 'Return to the shack.  The "Project Roux" appears to have resulted in... incredibly potent coffee and possibly some stabilized bio-compounds. Thib odeaux invites you to share a cup and declares your apprenticeship begun. This quest ends. Talk to Doc Thibodeaux again. He  now offers to sell rare formulae and schematics – unique bio-mods, potent tonics, specialized ammo blueprints, maybe  even salvaged pre-Calamity tech manuals relevant to the 70s aesthetic. Essential stop for advanced crafting.' 
+        location: Doc Thibodeaux's Shack
+        dialogue_prompts:
+          - "Talk  to Thibodeaux after waiting"
+          - "Talk to Thibodeaux again (unlocks vendor)"
+        rewards:
+           - description: "For helping Doc Thibodeaux complete Project Roux"
+            xp: 80
+             items:
+              - name: Refined Sulfur
+                quantity: 5
+              - name: Pure Alcohest
+                 quantity: 5
+              - name: Processed Kudzu Fiber
+                quantity: 5
+              -  name: Salty Residue
+                quantity: 5
+        vendor_unlocked: '"Doc" Thibode aux (Bio-Alchemy & Schematics Vendor)'
+        quests_completed:
+          - Bayou Bio-Hacking  101
+
+  - id: PM_QUEST_10
+    title: Static Cling
+     level_equivalent: 24
+    steps:
+      - step_id: PM_Q10_ S01
+        title: Finding the Quest
+        description: 'Buy what you need from Thibodeaux. Leave  his shack and head south-east along a trail until it forks. Follow a faint trail uphill south-west to the  "''Sacred Cypress Grove'' Signpost" (the Eastern one). From there, head west towards the massive, ancient cypress tree  at the heart of the grove. North of this tree, near a cave entrance shrouded in Spanish moss, sits an Eccentric Ritualist , fidgeting nervously.'
+        location: Path SE of Thibodeaux's -> "'Sacred Cypress Grove' Signpost ( East)" -> Near Grove Heart / Cave
+        character_introduced: "Eccentric Ritualist"
+      - step_id:  PM_Q10_S02
+        title: The Plea
+        description: 'Talk to him.  He explains his colleague, Silas, undertook a ritual vow of silence (or perhaps suffered severe sensory overload messing with old tech)  and hasn''t spoken in weeks. The Ritualist needs Silas''s input on a critical matter but can''t  break his silence directly. He promises a "collector''s dream" reward – a rare, mint-condition 8-Track Tape  (perhaps a legendary Gram Parsons recording).'
+        character_introduced: Silas (Mentioned)
+        dialogue_prom pts:
+          - "Talk to Eccentric Ritualist"
+          - "Agree to help"
+        items_involved :
+          - "Rare 8-Track Tape (Promised Reward)"
+      - step_id: PM_ Q10_S03
+        title: The Annoyance
+        description: "Agree to help.  Find Silas nearby (he moves between a few spots):\n1.  Meditating by a Smudge Pot: Use bellows /fan or water to extinguish the pot he's using for focus.\n2.  Examining a Buzzing  Capacitor Bank: Find a way to safely overload it (maybe toss scrap metal to cause a short) creating loud static bursts  and sparks near him.\n3.  Sleeping near a Pile of Scrap Metal: Use a sonic emitter tool, or just bang  loudly on the scrap metal with a pipe."
+        location: Various spots near Sacred Cypress Grove heart
+        character_inter acted_with: Silas
+        actions:
+          - "Disturb Silas at Smudge Pot"
+          - " Disturb Silas at Capacitor Bank"
+          - "Disturb Silas near Scrap Metal"
+      - step_id: PM_ Q10_S04
+        title: Resolution
+        description: 'After the third disturbance, Silas finally snaps , launching into a tirade against you and the Ritualist. His voice restored (angrily), return to the quest  giver. He winces at Silas''s shouting but happily hands over the promised Iorveth 8-Track Tape  (or equivalent rare collectible, like a "Burt Reynolds ''Gator Wrestler'' Action Figure").'
+         location: Return to Eccentric Ritualist
+        dialogue_prompts:
+          - "Listen to Silas's  outburst"
+          - "Talk to Eccentric Ritualist for reward"
+        rewards:
+          - description: " For restoring Silas's voice"
+            xp: 75
+            items:
+              - '"Iorveth  8-Track Tape" / "Burt Reynolds ''Gator Wrestler'' Action Figure" / Equivalent Collectible'
+
+   - id: PM_QUEST_11
+    title: Derelict 'Gator Processing Outpost
+     level_equivalent: 24
+    steps:
+      - step_id: PM_Q11_ S01
+        title: Discovery
+        description: 'West of the main Sacred Cypress Grove signpost is another , older one: "''Grove - West Entrance''". From this western signpost, head south-west, carefully sliding down slick , muddy hills into a deeper section of the bayou. You''ll find the "''Derelict ''Gator Processing  Outpost''" – signpost, location marker, and quest trigger.'
+        location: "'Grove - West Entrance' Sign post -> SW Down Hills -> Derelict 'Gator Processing Outpost"
+        quests_started:
+          - "Der elict 'Gator Processing Outpost"
+      - step_id: PM_Q11_S0 2
+        title: Investigation
+        description: "The place reeks of decay and something else... unnatural. Search the rusted -out buildings from east to west.\n*   Eastern Shed: Find a chest with a \"Waterlogged Foreman's Ledger \". Read it.\n*   Main Processing Floor: Discover \"Scrawled Notes on Strange Sightings\" left on a control panel  (70s buttons and dials).\n*   Office Shack: Find gnawed Skeletal Remains (human, possibly gator -chewed) near an overturned desk.\n*   Locked Storage: Use a Shotgun/Crowbar to force the  door. Inside, find a chest containing a \"Final Radio Transmission Log\" (fragmented, mentions something large breaking containment)."
+         location: Derelict 'Gator Processing Outpost - Various Buildings
+        items_involved:
+          - '"Waterlogged  Foreman''s Ledger" (Lore Item)'
+          - '"Scrawled Notes on Strange Sightings" (Lore Item)'
+           - Skeletal Remains (Interactable Clue)
+          - Shotgun / Crowbar (Required for access)
+           - '"Final Radio Transmission Log" (Clue Item)'
+      - step_id: PM_Q11_ S03
+        title: The Threat & Conclusion
+        description: "Once enough evidence is gathered suggesting a non -standard cause for the outpost's demise, the culprit reveals itself. It could be:\n*   A massive, Territorial  Apex 'Gator Mutant (Level 24 Equiv.).\n*   A dangerous Malfunctioning Security/Processing Unit gone  haywire.\n*   A lingering Toxic Haunt formed from the workers' demise.\n*   (Codex Dependent ): A feral Erpenthrope driven mad by isolation or the events here.\nDefeat the entity responsible for the  outpost's state. The immediate threat neutralized, the quest concludes."
+        location: Derelict 'Gator Processing Outpost 
+        enemies: # Specific enemy depends on final world detail / random factor
+          - "Territorial Apex 'Gator Mutant ( Level 24 Equiv.)"
+          - OR "Malfunctioning Security/Processing Unit (Level 24 Equ iv.)"
+          - OR "Toxic Haunt (Level 24 Equiv.)"
+          - OR  "Feral Erpenthrope (Level 24 Equiv.)"
+        rewards:
+          - description : "For uncovering the fate of the outpost workers"
+            xp: 50 # (plus loot from site /entity)
+        quests_completed:
+          - "Derelict 'Gator Processing Outpost"
+
+ 

@@ -1,0 +1,172 @@
+
+CharacterProfile:
+  EntityID: " CHAR_BuckLandry_01"
+  CharacterName: "Buck \"Swampfoot\" Landry"
+   EntityType: "Person (Human Citizen)"
+  Archetype: "Grizzled Independent Gator Processor"
+  PrimaryAuthentication Sources:
+    - "This Codex Entry"
+    - "Primal Mama Coherence Protocol v0.1 "
+  CanonTier: "Tier 2 (Representative Citizen of Lickskillet)"
+  AuthenticationStatus:  "Authenticated_Canonical_Active"
+
+  AuthenticatedPropertyBundle:
+    PhysicalProperties:
+      Purpose: "Define  the character's tangible presence."
+      Appearance_General:
+        Value: "Human male, late 5 0s, wiry and tough from years of physical labor. Skin deeply tanned and weathered like old leather from sun and swamp exposure." 
+        AuthenticationSource: "[Primal Mama Coherence Protocol - Implied Environment]"
+      Appearance_SpecificFeatures:
+         Value: "Sharp, observant eyes that squint habitually. A prominent, stubborn jaw often working on a piece of synth-jerky . Thinning grey-brown hair usually tucked under a cap."
+        AuthenticationSource: "[Character Conception]"
+       Appearance_DistinctiveMarks:
+        Value: "A few faded scars on his arms from close calls with gators  or processing machinery. Tip of his left index finger is missing (a common \"processor's mark\")."
+         AuthenticationSource: "[Character Conception - Implied Hazards]"
+      TypicalAttire:
+        Value: "Faded, patched -up denim overalls over a plaid, long-sleeved work shirt (often with a 1970s  color palette like avocado green or harvest gold). Heavy-duty, waterproof swamp boots. A worn baseball cap with a faded \"Smok ey and the Bandit Trans Am\" logo or similar period-appropriate motif."
+        AuthenticationSource: "[Primal Mama Co herence Protocol - Tech Aesthetic Constraint; Deified Celebrities]"
+      VoiceSpeechPattern:
+        Value: "Slow, deliberate Southern  drawl, laced with local Lickskillet idioms. Voice is gravelly. Tends to be laconic unless  riled up about \"Beetriot regulations\" or \"oligarch price-gouging.\""
+        AuthenticationSource: "[Character  Conception - Regional Flavor]"
+      GaitMannerisms:
+        Value: "Economical movements, no wasted effort. Often  wipes hands on his overalls. Has a habit of expectorating synth-jerky juice. Squints at anything new or official- looking."
+        AuthenticationSource: "[Character Conception]"
+      AssociatedScent:
+        Value: "Faint  but persistent aroma of processed alligator, swamp water, diesel from his airboat, and cheap, 1970 s-style synthetic pipe tobacco."
+        AuthenticationSource: "[Primal Mama Coherence Protocol - Environment, Tech Aesthetic ]"
+      UndersaturationNote: "Exact height/weight, specific brand of synth-jerky, favorite color of plaid  shirt (though likely muted/earthy)."
+
+    FunctionalProperties:
+      Purpose: "Define what the character * can* and *cannot* do."
+      Skills:
+        - Value: "Expert Alligator Butchering &  Small-Scale Processing (Proficient with both wild-caught and GE gator anatomy differences)."
+          AuthenticationSource:  "[Character Conception - Core Profession]"
+        - Value: "Proficient Airboat Operation & Basic Maintenance (within  1970s tech aesthetic limitations – knows his chunky engine block well)."
+          AuthenticationSource: "[Primal  Mama Coherence Protocol - Watercraft Transport, Tech Aesthetic]"
+        - Value: "Competent Shotgun Use (for pest  control – vampire bunnies, oversized swamp rats – and personal defense, as is custom outside Beetriot)."
+          AuthenticationSource:  "[Primal Mama Coherence Protocol - Gun Ownership]"
+        - Value: "Basic Bartering and Negotiation (Lick skillet-style, relies on reputation and established relationships)."
+          AuthenticationSource: "[Character Conception - Mom-and-Pop  Economy]"
+      Limitations:
+        - Type: "Physical"
+          Value: "Not as young as he used to  be; stamina for heavy lifting is good but finite. Occasional back twinges."
+          AuthenticationSource: "[ Character Conception - Age]"
+        - Type: "Knowledge"
+          Value: "Poor understanding of advanced genetic engineering principles (\" They just work, mostly\") or complex economics beyond local supply/demand. Deeply suspicious and ignorant of Automaton/ LLM functionalities, viewing users with disdain."
+          AuthenticationSource: "[Primal Mama Coherence Protocol - Automaton Stigma,  Tech Aesthetic/Epistemic implications]"
+        - Type: "Social"
+          Value: "Little influence beyond  his immediate community. Struggles to navigate Beetriot bureaucracy or legal challenges from meat oligarchies without help."
+          AuthenticationSource: "[Pr imal Mama Coherence Protocol - Oligarchy Friction]"
+        - Type: "Financial"
+          Value: "Operates on tight  margins; vulnerable to price manipulation by larger players in the alligator meat market."
+          AuthenticationSource: "[Primal Mama  Coherence Protocol - Oligarchy Friction]"
+      UndersaturationNote: "Ability to perform advanced ritual magic (highly unlikely), detailed  knowledge of pre-calamity history, piloting larger vessels."
+
+    PsychologicalProperties:
+      Purpose: " Define the character's textually constituted inner life."
+      CoreTraits:
+        - Value: "Fier cely Independent / Self-Reliant."
+          AuthenticationSource: "[Primal Mama Coherence Protocol - Gun Ownership & Pride,  Mom-and-Pop vs. Oligarchy]"
+        - Value: "Deeply Skeptical / Distrust ful (of outsiders, Beetriot officials, newfangled ideas not rooted in proven 1970s-style practicality )."
+          AuthenticationSource: "[Primal Mama Coherence Protocol - Automaton Stigma, Conspiracy Beliefs]"
+        - Value : "Nostalgic (for a perceived 'better' or 'simpler' version of current life, often  invoking the virtues of his deified celebrities)."
+          AuthenticationSource: "[Primal Mama Coherence Protocol - Deified  Celebrities]"
+      DominantEmotion:
+        Value: "Grumbling Resignation / Stoic Pragmatism ( knows the world is tough, but you gotta keep going)."
+        AuthenticationSource: "[Character Conception]"
+       KeyMotivator:
+        Value: "Maintaining his small, independent operation (\"Swampfoot's Select Gator Cuts \"); providing for his (unseen but implied) family/dependents; upholding his personal sense of dignity against the  \"big guys.\""
+        AuthenticationSource: "[Character Conception]"
+      KeyBeliefs:
+        -  Value: "\"A man's work is his worth.\" Believes in tangible results and honest labor. Cattle are weird art  for rich folk; gator is honest food."
+          AuthenticationSource: "[Primal Mama Coherence Protocol - Cattle  as Artifacts, Alligator Meat Primary Protein]"
+        - Value: "Reveres Burt Reynolds, Jerry Reed, and Gram  Parsons as embodying ideals of rugged individualism, anti-authoritarian charm, and authentic (Southern) soul, respectively. Might  have a faded poster or two in his processing shed."
+          AuthenticationSource: "[Primal Mama Coherence Protocol - Deified Celebr ities, Axiological Values]"
+      InternalConflict:
+        Value: "Desire for independence vs. crushing economic pressure from meat  oligarchies. Adherence to traditional (post-calamity traditional) methods vs. the need to stay competitive.  Pride vs. occasional necessity to deal with 'unsavory' elements for survival."
+        AuthenticationSource: "[Primal  Mama Coherence Protocol - Oligarchy Friction]"
+      SubjectiveMemoryContent:
+        Value: "Vivid memories of L ickskillet life stretching back decades. Stories heard about the \"Big Spoil\" (local term for the Biological Calamity ) are more legend than precise history. Believes the \"invisible women\" conspiracy might have *some* truth to it,  \"stands to reason someone's pulling strings.\""
+        AuthenticationSource: "[Primal Mama Coherence Protocol - Conspiracy  Beliefs, Epistemic Modalities]"
+      UndersaturationNote: "Specific details of his relationship with ( implied) family, detailed theological understanding of the celebrity deities (more lived reverence than doctrine), specific fears beyond economic ruin or g ator attack."
+
+    SocialRelationalCategoricalProperties:
+      Purpose: "Define the character's place within  the world's networks."
+      OfficialRole:
+        Value: "Owner-Operator, \"Swampfoot 's Select Gator\" (unincorporated small business in Lickskillet)."
+        AuthenticationSource: "[Character Conception ]"
+      SocialStatus:
+        Value: "Respected within his immediate Lickskillet peer group for his skill and stubborn ness; insignificant to Beetriot elite or meat oligarchy executives."
+        AuthenticationSource: "[Character Conception, World Structure]" 
+      PrimaryAffiliation:
+        Value: "Lickskillet community (informal, based on shared livelihood and culture)." 
+        AuthenticationSource: "[Character Conception]"
+      SecondaryAffiliations:
+        Value: "Occasional, wary  dealings with local Swamp Witch for \"pest solutions\" (e.g., too many vampire bunnies near his pens) or rare  ingredients. Knows *of* Erpenthropes, treats them with distant, fearful respect if encountered."
+         AuthenticationSource: "[Primal Mama Coherence Protocol - Swamp Witches, Erpenthropes]"
+      Key Relationships:
+        - RelationshipTo: "The Consolidated Gator Conglomerate (Meat Oligarchy)"
+          Nature: "Ad versarial – they set prices, control distribution, and generally make his life harder through \"friction.\""
+          AuthenticationSource:  "[Primal Mama Coherence Protocol - Deontic/Axiological Friction]"
+        - RelationshipTo: " Jedediah \"Gator-Tooth\" Grimshaw (Neighboring small processor)"
+          Nature: "Competitive camaraderie ; they might complain together about the Conglomerate but also vie for the best catchments in the Saurian Sanctuary when the  gates open."
+          AuthenticationSource: "[Character Conception, Saurian Sanctuary Access]"
+        - RelationshipTo: " The memory/icons of Burt Reynolds/Jerry Reed"
+          Nature: "Reverential; sees them as spiritual guides for navigating  a tough world with grit and a bit of style."
+          AuthenticationSource: "[Primal Mama Coherence Protocol - De ified Celebrities]"
+      SpeciesType:
+        Value: "Human (Standard Post-Calamity Bayou Strain)."
+         AuthenticationSource: "[World Setting]"
+      UndersaturationNote: "Specific names of family members, number of close  friends, any formal religious affiliation beyond cultural reverence for the celebrity trio."
+
+    ModalProperties:
+      Purpose: "Define any  inherent unique relationship to world laws."
+      PropertyID:
+        Value: "N/A"
+      Property: 
+        Value: "None explicitly authenticated."
+      Description:
+        Value: "Operates entirely within the established  alethic, deontic, and epistemic modalities of a typical Primal Mama human citizen of Lickskillet . Possesses no known supernatural abilities (e.g., Erpenthropic transformation, ritual magic proficiency)."
+       Limits:
+        Value: "Subject to all standard biological needs, societal laws (including the cattle consumption taboo, which he upholds  without question as \"just how things are, and for good reason too, I reckon\")."
+      Authentication:
+         Value: "Absence of any textual evidence to the contrary; consistency with \"human citizen\" role."
+
+    A xiologicalProperties:
+      Purpose: "Define the character's value status *within* Primal Mama."
+       Reputation_LickskilletLocals:
+        Value: "Authenticated as \"a tough old coot,\" \"know s his gators,\" \"honest in his dealings (mostly),\" \"hates them Beetriot pencil-pushers.\"  Generally respected for his resilience and skill."
+        AuthenticationSource: "[Implied community perception]"
+      Reputation_MeatOlig archyReps:
+        Value: "Authenticated as \"minor independent operator,\" \"potential source of local unrest if pushed  too hard but ultimately insignificant,\" \"resistant to modernization (i.e., buyout).\" "
+        AuthenticationSource: "[Impl ied antagonist perception]"
+      MoralAlignment_NarrativeFraming:
+        Value: "Authenticated through his actions and internal thoughts  as fundamentally decent, hardworking, and loyal to his own code, which values self-reliance, community (Licksk illet-style), and a healthy disrespect for overreaching authority. Embodies the \"common folk\" struggling against larger forces."
+         AuthenticationSource: "[Character Conception & Thematic Role]"
+      Value_Cultural:
+        Value: "Possesses high value  for his practical skills within Lickskillet's economy. His adherence to the 1970s aesthetic in tools  and taste is unremarkable, as it's the cultural norm."
+        AuthenticationSource: "[Primal Mama Coherence  Protocol - Axiological Values, Tech Aesthetic]"
+      UndersaturationNote: "His reputation among Swamp Witches or Er penthropes (likely minimal unless specific interaction occurs). His standing with any formal \"church\" of the celebrity deities ( likely informal, personal reverence)."
+
+    HistoricalProperties:
+      Purpose: "Define the character's known origins and  connections to past events."
+      Origin:
+        Value: "Born and raised in the Lickskillet region , several decades post-Biological Calamity. His parents and grandparents were also swamp dwellers, adapting to the changing world."
+         AuthenticationSource: "[Character Conception - Generational Swamper]"
+      KeyPastEventConnections:
+        - Value: " Witnessed the rise of the GE Alligators as the dominant protein source and the subsequent consolidation of power by the meat oligarchies.  Remembers a time when \"mom-and-pop\" operations had more autonomy."
+          AuthenticationSource: "[Implied personal  history within world timeline]"
+        - Value: "Has participated in regulated harvests within the Saurian Sanctuary since he was  a young man; recalls variations in access rules over the years."
+          AuthenticationSource: "[Primal Mama Coherence  Protocol - Saurian Sanctuary Access]"
+      InheritedItems:
+        - Value: "Authenticated to possess his grandfather's lucky  (1970s-era analog display) fish-finder, a collection of slightly warped 8-track  tapes (heavy on Jerry Reed and outlaw country), and the deed to his small plot and processing shed, written on surprisingly  durable, synth-treated parchment with a dot-matrix printer font."
+          AuthenticationSource: "[Character Conception, Primal Mama Tech  Aesthetic]"
+      UndersaturationNote: "Specific details of his childhood beyond \"grew up in the swamp.\" Any  direct personal experience with the more esoteric aspects of the world (e.g., ghost interactions) unless a narrative necessitates it."
+
+   CharacterConstitutionSummaryNarrativeFunction:
+    Purpose: "Synthesize the core identity, internal conflicts, and narrative role  emerging from the authenticated property bundle."
+    CoreEssence: "Buck \"Swampfoot\" Landry is constituted as  a quintessential Lickskillet survivor: a pragmatic, fiercely independent alligator processor whose life is dictated by the rhythms of the  swamp, the demands of the GE gator economy, and the pervasive 1970s retro-future aesthetic. His  identity is forged in opposition to the impersonal power of the meat oligarchies and the distant, alien culture of Beetriot. He finds  solace and moral guidance in the deified figures of Reynolds, Reed, and Parsons, who represent an idealized form of the  rugged individualism he strives for. He is a man of simple tastes, deep-seated skepticism, and a profound, if grumbling,  resilience."
+    PrimaryNarrativeFunction: "To serve as a viewpoint character illustrating the daily realities, struggles, and cultural norms of  the common citizen in Primal Mama's Lickskillet region. He can provide exposition on local customs, voice  common grievances against the ruling powers (oligarchies, Beetriot), and react to the world's more bizarre elements  (Erpenthropes, Swamp Witches, vampire bunnies) with a grounded, relatable skepticism or folk wisdom. He embodies  the \"mom-and-pop\" spirit clashing with corporate control."
+    KeyInternalConflicts: "The drive for self -sufficiency vs. the economic stranglehold of the meat oligarchies. Loyalty to traditional (post-calamity) ways vs . the pragmatic need to adapt to new regulations or pressures. Personal pride and gun-toting independence vs. the awareness  of his own smallness in the face of larger forces. A deep-seated suspicion of \"progress\" as defined by Beetriot vs . a reliance on the established GE gator/solar tech."
+    PotentialForDevelopment: "Buck could be pushed  to the breaking point by the oligarchy, forcing him into reluctant activism or alliances with other marginalized groups (even Swamp Witches or,  in extreme cases, Erpenthropes if their \"truth-seeking\" aligns). His faith in his celebrity deities  could be tested or provide unexpected inspiration. He might be forced to confront aspects of the world he prefers to ignore (e .g., the true nature of the calamity, the reasons behind the Automaton stigma) if they directly impact his livelihood  or community."
+

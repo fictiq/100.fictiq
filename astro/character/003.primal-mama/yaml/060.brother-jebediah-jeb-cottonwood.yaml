@@ -1,0 +1,171 @@
+
+World : 'Primal Mama'
+CodexVersion: '0.2 - Character Constitution'
+LastUpdated: '[Current  Date]'
+LeadArchitects: '[Your Name/Studio Name]'
+
+CharacterProfile:
+  EntityID: ' CHAR_JebCottonwood_01'
+  CharacterName: 'Brother Jebediah "Jeb"  Cottonwood, sometimes "Ol'' Jeb the Seeker"'
+  EntityType: 'Person (Human)'
+  Archetype: ' Wandering Mystic / Hermit Preacher / Seeker of Lost Faith'
+  PrimaryAuthenticationSources: '[This Codex  Entry, Primal Mama Coherence Protocol v0.1]'
+  CanonTier: 'Tier 2 (Significant  Supporting Character)'
+  AuthenticationStatus: 'Authenticated_Canonical_Active'
+
+AuthenticatedPropertyBundle:
+  '1. Physical Properties ':
+    _Purpose: "Define the character's tangible presence."
+    Appearance_General:
+      value: '[Human  male, appears late 50s to early 60s, lean and wiry from a life of austerity  and movement. Skin deeply tanned and weathered from sun and swamp exposure.]'
+      auth: '[This Codex]'
+     Appearance_Specific_Features:
+      value: '[Kind, though often sorrowful, pale blue eyes that seem to  look through rather than at. A sparse, grey-white beard, usually neatly trimmed with a simple blade. Long,  thinning hair often tied back with a strip of alligator leather.]'
+      auth: '[This Codex]'
+    Appearance _Distinctive_Marks:
+      value: '[A faded, intricate tattoo of an unknown, non-celebrity  religious symbol partially visible on his left forearm, often obscured by his sleeve – possibly pre-calamity or a self -inked design based on found texts.]'
+      auth: '[This Codex]'
+    Typical_Attire :
+      value: '[Wears simple, durable clothes patched multiple times, often made of rough-spun plant fibers or repurposed canvas , dyed with natural pigments (muted greens, browns). Always carries a worn satchel made of GE alligator hide (a  gift, or scavenged). His few metal items (buckle, knife hilt) are dull, unpolished,  reflecting the 1970s practical aesthetic rather than shine.]'
+      auth: '[This Codex / PM  Coherence Protocol - Tech Aesthetic]'
+    Voice_Speech_Pattern:
+      value: '[Soft-spoken,  with a gentle Southern drawl. Speech is deliberate, often quoting from fragmented, seemingly pre-calamity texts he  carries. Voice can rise with surprising passion when speaking of "The Unnamable Light" or "The True Word."  Avoids common curses, substituting them with phrases like "Oh, the sorrow of it!" or "By the Lost Stars !"]'
+      auth: '[This Codex]'
+    Gait_Mannerisms:
+      value:  '[Slow, methodical gait, using a sturdy cypress staff for balance in rough terrain. Often pauses to observe nature or listen  intently, as if expecting a sign. A habit of tracing patterns in the dirt with his staff while speaking.]'
+      auth:  '[This Codex]'
+    Associated_Scent_If_Any:
+      value: '[Faint scent of  damp earth, woodsmoke, old paper/papyrus, and occasionally a faint whiff of whatever herbal poultice he ''s currently using.]'
+      auth: '[This Codex]'
+    Physical_Undersaturation: '[Exact  height/weight, specific details of his pre-calamity symbol tattoo, origins of all scars beyond general wear.] '
+
+  '2. Functional Properties':
+    _Purpose: "Define what the character *can* and * cannot* do."
+    Skill_Exceptional_Swamp_Navigation: # Changed key for clarity
+      value: '[ Exceptional Swamp Navigation & Survival (Foraging, finding potable water, basic shelter construction).]'
+      auth: '[ Narrative descriptions of his lifestyle]'
+    Skill_Basic_Herbalism:
+      value: '[Basic Herbal ism (Swamp flora for medicinal/sustenance purposes, non-magical).]'
+      auth: '[Narr ative descriptions]'
+    Skill_Recitation_Interpretation_Texts:
+      value: '[Recitation & Interpretation of  Fragmented Pre-Calamity "Holy" Texts (Possesses a collection of water-damaged pages, tries to piece together a  coherent theology).]'
+      auth: '[Narrative focus]'
+    Skill_Basic_Repair_Tools:
+      value : '[Basic repair of simple, non-electrical 1970s-era tools (e.g.:  hand-cranked lanterns, water filters, sharpening tools) using salvaged parts.]'
+      auth: '[PM  Coherence Protocol - Tech Aesthetic]'
+    Ability_Unique_Empathy:
+      value: '[Possesses an unusual degree of  empathy and intuitive insight into the emotional/spiritual state of others and places; not supernatural power, but a heightened sensitivity honed by  his contemplative life and focus on the "spiritual miasma" of Primal Mama.]'
+      auth: '[Narr ative depiction of his interactions]'
+    Limitation_Physical:
+      value: '[Not physically strong; avoids confrontation.  Suffers from occasional swamp fevers or ailments due to exposure.]'
+      auth: '[This Codex]'
+    Limitation _Knowledge:
+      value: '[Largely ignorant of advanced GE technology specifics, Beetriot high society, and the intricacies of  the meat oligarchy''s politics. His knowledge of "God" is based on incomplete, possibly misinterpreted, texts.] '
+      auth: '[This Codex / PM Coherence Protocol - Epistemic]'
+    Limitation_Social :
+      value: '[Possesses no formal authority or resources. Often viewed as an eccentric or harmless fool by those  devoted to the celebrity deities or focused solely on survival/commerce.]'
+      auth: '[This Codex / PM Coherence Protocol  - Axiological]'
+    Functional_Undersaturation: '[Ability to perform complex rituals for ghost interaction (he seeks  a different kind of spirit); proficiency with firearms (abhors violence).]'
+
+  '3. Psychological Properties':
+    _Purpose : "Define the character's textually constituted inner life."
+    Core_Trait_Deep_Faith:
+       value: '[Deep, Abiding Faith (in a singular, benevolent, yet mysterious "Unnamable Light" or "Creator ," distinct from the deified celebrities).]'
+      auth: '[Dialogue, Internal Monologue if applicable]'
+     Core_Trait_Compassion_Empathy:
+      value: '[Compassion / Empathy (Feels the suffering of others and  the land acutely).]'
+      auth: '[Actions, Interactions]'
+    Core_Trait_Resilience_Hope :
+      value: '[Resilience / Stubborn Hope (Continues his quest despite loneliness, hardship, and lack of widespread acceptance ).]'
+      auth: '[Actions, Perseverance]'
+    Dominant_Emotion:
+      value: '[A blend  of Serene Melancholy (for the lost world and the spiritual confusion of the present) and Earnest Hope (for finding  and sharing deeper truth).]'
+      auth: '[Narrative Tone, Dialogue]'
+    Key_Motivator:
+       value: '[To understand and connect with the "True Divine." To find and share authentic spiritual solace in a world of  artifice and hardship. To bear witness to a different path.]'
+      auth: '[Explicit statements, Narrative focus]'
+     Key_Belief:
+      value: '[Believes that the deified celebrities are, at best, distractions or misinterpretations  of a deeper, singular spiritual reality. Believes fragments of true wisdom survived the Calamity and can guide humanity if  properly understood.]'
+      auth: '[Dialogue, Preaching]'
+    Internal_Conflict:
+      value:  '[His unwavering faith vs. the overwhelming evidence of a bizarre, often cruel world. The pull of solitude for contemplation vs. the compassionate  urge to minister to others. The difficulty of conveying his abstract spiritual concepts to people focused on tangible deities and survival.]'
+       auth: '[Internal Monologue, Difficult Choices]'
+    Subjective_Memory_Content:
+      value: '[ Faint, dreamlike memories of stories told by an elder (perhaps a grandparent) about "The One God" before  the Calamity. The core of his "scriptures" are pages he found or was given, their origin uncertain.]' 
+      auth: '[Backstory elements]'
+    Psychological_Undersaturation: '[Specifics of his conversion  experience (if any), detailed opinions on the "Invisible Women" conspiracy (likely sees it as another distraction from true spiritual matters), his  views on Erpenthropes (might see them as fellow seekers of a kind, or as beings touched by a different aspect of  the world''s strangeness).]'
+
+  '4. Social / Relational / Categorical Properties':
+     _Purpose: "Define the character's place within the world's networks."
+    Official_Role:
+       value: '[None. Self-styled "Seeker of the Lost Word," itinerant preacher/hermit.]' 
+      auth: '[This Codex]'
+    Social_Status:
+      value: '[Outsider. Toler ated in some remote swamp communities (e.g.: Lickskillet outskirts) as a harmless eccentric who sometimes offers  comfort or wisdom. Largely ignored or dismissed in more "civilized" or devout celebrity-worshipping areas.] '
+      auth: '[PM Coherence Protocol - Deontic/Axiological]'
+    Primary_Affiliation: 
+      value: '[None formal. Loosely connected to a handful of other isolated individuals or families who find solace  in his words.]'
+      auth: '[This Codex]'
+    Secondary_Affiliations:
+      value:  '[None. May have cautious, occasional interactions with Swamp Witches if seeking truly ancient lore (though he''d be  wary of their methods), or with Erpenthropes if he senses a shared "truth-seeking" albeit different in  nature.]'
+      auth: '[Speculative based on PM lore]'
+    Key_Relationship_1_Elder_ Memory:
+      value: '[To the memory of his "Elder" (Grandparent? Mentor?): A guiding  spiritual presence, source of his initial faith.]'
+      auth: '[Internal Monologue, Backstory]'
+     Key_Relationship_2_Congregation:
+      value: '[To his "Congregation" (a few scattered individuals in  the swamps): People he offers spiritual guidance and solace to, forming a fragile community of belief.]'
+      auth: '[Narr ative interaction]'
+    Key_Relationship_3_Celebrity_Worship_Practitioners:
+      value: '[ To Practitioners of Celebrity Worship: Often a source of gentle theological debate or outright dismissal, representing the dominant spiritual paradigm he contrasts with.] '
+      auth: '[Narrative interaction]'
+    Species_Type:
+      value: '[Human (Baseline Primal Mama  Strain)]'
+      auth: '[Default/Description]'
+    Social_Undersaturation: '[Specific family ties (if  any living); exact nature of interactions with Erpenthropes or Swamp Witches; any history with Beetriot.]'
+
+   '5. Modal Properties':
+    _Purpose: "Define any inherent unique relationship to world laws."
+     properties:
+      - PropertyID: 'MODAL-JBC-01'
+        Property: '[Height ened Spiritual Sensitivity (Epistemic/Axiological Exception)]'
+        Description: '[Authenticated as possessing an unusually  profound intuitive connection to the underlying "spiritual miasma" of Primal Mama. Can sense strong emotional or spiritual "residues" in  places or people, and has a deep, non-analytical conviction about the presence of a singular divine force. This is  not ghost-seeing (which requires ritual) or Erpenthropic transformation.]'
+        Limits: '[Purely intuitive and passive ; cannot be controlled or directed to find specific information. Can be emotionally overwhelming. Offers no physical protection or conventional power. Susceptible  to misinterpretation based on his existing textual framework.]'
+        Authentication: '[This Codex, Future Narratives]'
+     note: 'Most characters likely have NO unique modal properties, operating fully under general world rules.'
+
+  '6 . Axiological Properties':
+    _Purpose: "Define the character's value status *within* Primal Mama."
+     Reputation_Swamp_Dwellers:
+      value: '[Authenticated as viewed as ''odd but harmless'',  ''the God-talker'', ''sometimes wise'', ''a comfort in dark times for some''. His self-sufficiency  and swamp knowledge earn grudging respect.]'
+      auth: '[Character interactions]'
+    Reputation_Celebrity_Cultists _Beetriot:
+      value: '[Authenticated as likely viewed as ''blasphemous'', ''delusional'', '' irrelevant'', or ''dangerously misguided'' if he gains any traction. His rejection of the deified celebrities would be  a direct challenge to their value system.]'
+      auth: '[PM Coherence Protocol - Axiological (Celebrity Deities)] '
+    Moral_Alignment_Narrative_Framing:
+      value: '[Authenticated via narrative focus as fundamentally good, sincere , and compassionate, seeking a deeper spiritual truth in a world that has largely forgotten or replaced it. His "service to  find God" is genuine.]'
+      auth: '[Narrator tone, actions]'
+    Axiological_ Undersaturation: '[Reputation among Erpenthropes (might see him as a curious anomaly or a fellow  seeker of a different kind of truth); Meat Oligarchy''s view (likely irrelevant unless he interferes with labor/resources ).]`'
+
+  '7. Historical Properties':
+    _Purpose: "Define the character's known origins and connections  to past events."
+    Origin:
+      value: '[Authenticated as originating from a forgotten, isolated swamp community that held onto  fragmented pre-Calamity religious beliefs. These beliefs were passed down orally and through scant surviving texts.]'
+       auth: '[Backstory sketch]'
+    Key_Past_Event_Connection_Subjective:
+      value: '[ A profound personal experience (e.g.: surviving a great storm, a moment of intense clarity in the deep swamp, the death  of his Elder) that solidified his calling to seek and spread the "True Word."]'
+      auth: '[Back story element]'
+    Inherited_Items:
+      value: '[Authenticated to possess a worn leather satchel containing  scraps of pre-Calamity paper and parchment (his "scriptures"), a simple wooden carving of his faith'' s symbol, and his Elder''s walking staff.]'
+      auth: '[Narrative inventory]'
+    Historical _Undersaturation: '[The exact teachings of his Elder; the precise content and origin of all his scriptural fragments; any direct  knowledge of the Biological Calamity''s cause (likely interprets it through a spiritual lens).]`'
+
+CharacterConstitutionSummary AndNarrativeFunction:
+  _Purpose: "Synthesize the core identity, internal conflicts, and narrative role emerging from  the authenticated property bundle."
+  CoreEssence: |
+    Brother Jebediah Cottonwood is constituted as a conduit for a  lost, or perhaps nascent, spirituality in Primal Mama. He is a man whose entire being is dedicated to seeking a singular , benevolent Divine in a world dominated by retro-futuristic pragmatism, celebrity deification, and bizarre biological realities.  His Functional skills are those of survival and gentle ministry, his Psychological makeup is one of unwavering faith tempered by compassionate sorrow. His  Social position is that of an outsider, a voice in the wilderness. His unique Modal property (Spiritual Sensitivity) isn' t a power, but a lens through which he experiences Primal Mama's "spiritual miasma," reinforcing his quest for a God  beyond the superficial. He embodies the tension between ancient faith and a radically altered present, all filtered through the ubiquitous 1 970s aesthetic in his simple tools and worldview.
+  PrimaryNarrativeFunction: |
+    To represent an alternative spiritual  path and offer a critique of the world's dominant belief systems. To be a source of potentially forgotten wisdom or a  different kind of "truth" than that sought by Erpenthropes. To provide comfort and moral counterpoint.  His quest for "God" can drive plots involving lost knowledge, hidden sanctuaries, or encounters with other beings who perceive the world's  deeper strangeness.
+  KeyInternalConflicts_FromBundle: |
+    The challenge of maintaining faith in an absurd and  often hostile world. The loneliness of his unique calling vs. his desire to connect and minister. Reconciling his fragmented  ancient texts with the bizarre reality of Primal Mama (e.g.: how do solar-powered alligators or vampire  bunnies fit into his theology?). The temptation of despair vs. his core of stubborn hope.
+  PotentialForDevelopment_BasedOn Bundle: |
+    Discovering more complete or clarifying pre-Calamity texts. Encountering others who share his specific faith  or forming a more organized spiritual community. His faith being severely tested by a direct confrontation with the world's harshness or the  seemingly divine power of an Erpenthrope/Swamp Witch. Finding unexpected common ground with a "truth-seeking " Erpenthrope. His interpretations of "God" evolving as he learns more about the world.

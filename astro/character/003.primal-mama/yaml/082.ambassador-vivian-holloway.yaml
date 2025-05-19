@@ -1,0 +1,161 @@
+
+world: Primal Mama
+codex_ version: 0.2 - Character Constitution
+last_updated: '[Current Date]' # Placeholder, typically a date string like  '2023-10-27'
+lead_architects: '[Your Name/Studio Name]'  # Placeholder
+
+introduction_title: 'Constituting Fictional Persons Textually'
+introduction_text: |
+  This protocol  guides the detailed definition of **Fictional Persons** (characters, significant sentient beings) within the Primal Mama heter ocosm. Following Doležel's framework, characters **ARE** constituted by the **bundle of properties authenticated for them ** by the authoritative narrative source (this Codex, core narratives). They possess **no independent psyche or reality beyond this textual  definition**.
+
+  Use this template to systematically build characters by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted individuals  whose complexity arises from the **richness, coherence, and potential tensions within their authenticated bundle**, and whose actions are logically  grounded in their defined nature and the world's rules. Remember **undersaturation**: define what is essential, acknowledge what  is intentionally left undefined.
+
+character_profile:
+  entity_id: CHAR_HollowayV_01
+   character_name: Ambassador Vivian Holloway (often called "Vivi" by reluctant swamp-side contacts, a familiarity she  privately dislikes)
+  entity_type: Person (Human)
+  archetype: The Polished Urban Emissary / Fish  Out of Water Diplomat
+  primary_authentication_sources: This Codex Entry, Primal Mama Coherence Protocol v 0.1
+  canon_tier: Tier 1
+  authentication_status: Authenticated_Canonical_Active 
+
+  authenticated_property_bundle:
+    physical_properties:
+      purpose: "Define the character's tangible presence." 
+      properties:
+        - description: Human female, early 40s, impeccably groomed with a sharp, intelligent  face. Maintains a professional, somewhat rigid posture.
+          auth_source: This Codex
+        - description: " Cool blue eyes that observe everything with polite scrutiny; carefully styled dark hair, often in a practical but elegant updo compliant  with 1970s fashion (e.g., a smooth chignon or a feathered Farrah Fawcett- esque cut if more 'relaxed'). Lips often curved in a practiced, neutral smile."
+          auth_source: This Codex
+         - description: None visible; projects an image of unblemished Beetriot sophistication.
+          auth_source: This  Codex
+        - description: Tailored pantsuits in muted earth tones or bold 1970s colors like och re or avocado green, sharp-collared blouses, platform-heeled boots or shoes. All items, while high -quality, strictly adhere to the late 1970s aesthetic. May wear subtle jewelry, like a chunky  gold-toned necklace or geometric earrings, again, era-specific.
+          auth_source: This Codex / Pr imal Mama - Tech Aesthetic Constraint
+        - description: Clear, measured alto voice with a precise Beetriot accent. Art iculate and uses formal language, even in casual settings. Rarely uses slang, unless strategically to build rapport, often with mild awkwardness .
+          auth_source: This Codex
+        - description: Deliberate, confident gait. Subtle hand gestures  to emphasize points. Habit of lightly tapping a pen (1970s design, of course) against her dat apad when considering a difficult point. Can project an air of slight impatience when dealing with perceived inefficiency.
+          auth_source: This  Codex
+        - description: "Faint, expensive-smelling synthetic floral perfume (a 1970 s classic like 'Charlie' or a bespoke equivalent), overlaying the scent of recycled air from Beetriot environments."
+          auth_ source: This Codex
+      undersaturation: 'Exact height/weight, preferred casual wear (if she ever truly relaxes),  private anxieties manifested physically beyond subtle impatience.'
+
+    functional_properties:
+      purpose: "Define what the character *can* and  *cannot* do."
+      properties:
+        - description: Expert Negotiation & Diplomacy (Core Skill)
+           auth_source: Her Role/Background
+        - description: Proficient Public Speaking & Persuasion (within Beetriot norms) 
+          auth_source: Her Role
+        - description: Advanced Cultural Analysis (Specializing in Beetriot-Swampland  socio-economics)
+          auth_source: Her Role
+        - description: "Operation of Beetriot-standard  1970s-aesthetic communication & data-retrieval technology (e.g., chunky datapad with  analog-style readouts, secure comm-links with rotary-style interfaces for channel selection)."
+          auth_source : This Codex / Primal Mama - Tech Aesthetic Constraint
+        - description: Access to Beetriot governmental resources & information channels (within  limits of her clearance and the 1970s tech constraints).
+          auth_source: Her Role
+         - description: Limited practical understanding of deep swamp survival, alligator husbandry, or the nuances of Erpenthrope/ Swamp Witch culture beyond official Beetriot briefings (which may be biased or incomplete).
+          auth_source: Pr imal Mama - Epistemic Modalities / Her Background
+        - description: Often perceived as an outsider in non-Be etriot communities; struggles with the "stain on reputation" if forced to visibly rely on LLM-derived data  or Automaton-assisted analysis, preferring human aides for such tasks in public.
+          auth_source: Primal Mama -  Deontic Modalities / Her Background
+        - description: Standard human physical capabilities; not trained for combat. Over-reliance  on Beetriot conveniences means she's ill-suited to extreme physical hardship or prolonged exposure to raw swamp conditions.
+          auth _source: This Codex
+        - description: Bound by the 1970s aesthetic for all her gear;  cannot simply use more efficient, differently-styled tech even if available. Repair of her specialized Beetriot tech in remote areas  would be a significant challenge.
+          auth_source: Primal Mama - Tech Aesthetic Constraint
+      undersaturation:  'Specific languages spoken beyond standard Primal Mama dialect; proficiency in any personal defense; artistic or hobbyist skills.'
+
+    psych ological_properties:
+      purpose: "Define the character's textually constituted inner life."
+      properties: 
+        - description: Pragmatic Ambition
+          auth_source: Implied by career choice, dedication to Beetriot interests 
+        - description: Observant & Analytical
+          auth_source: Required for diplomacy, noted in mannerisms
+         - description: Culturally Conditioned Superiority (Beetriot Ethnocentrism, though she strives for professional  neutrality)
+          auth_source: Implied by background, potential source of conflict
+        - description: Calm Com posure / Professional Detachment
+          auth_source: Her Role
+        - description: Occasional Frustration (with  swamp inefficiencies or perceived irrationality); Underlying Stress (of maintaining Beetriot standards in alien environments)
+          auth_source:  This Codex
+        - description: "Successfully executing Beetriot's diplomatic agenda; personal career advancement within the Beetriot hierarchy; maintaining  order and (Beetriot's version of) civilized discourse."
+          auth_source: This Codex
+         - description: "Believes in the efficacy of structured negotiation and rational discourse (Beetriot model) to solve problems.  Believes Beetriot's societal model, including its embrace of solar power and regulated GE, is fundamentally superior, even if  adaptable."
+          auth_source: This Codex / Primal Mama Axiological/Epistemic notes
+        - description : "Views the deified celebrities (Reynolds, Reed, Parsons) with a kind of detached cultural acknowledgment; understands their importance to others  but doesn't personally subscribe to the \"divinity,\" seeing it more as a sociological phenomenon or useful cultural shorthand."  # Escaped double quote for divinity
+          auth_source: Primal Mama - Axiological/Epistemic
+        -  description: "Adherence to Beetriot protocols & aesthetics vs. the practical, often messy, realities of the swamplands ; desire for efficient outcomes vs. the social stigma of Automaton/LLM use; professional duty to represent Beetriot's interests  vs. any dawning empathy for the communities she interacts with."
+          auth_source: This Codex
+        - description: Clear  recall of Beetriot political theory, diplomatic protocols, and approved historical narratives about the Calamity and the rise of the alligator economy.  Memories of the swamp are more recent, filtered through official reports and her own, sometimes jarring, direct experiences.
+          auth_ source: This Codex
+      undersaturation: 'Deep personal fears beyond career failure; specific childhood influences; her genuine private opinions on  the deified celebrities or the "invisible women" conspiracy beyond professional dismissal.'
+
+    social_relational_categorical_properties: 
+      purpose: "Define the character's place within the world's networks."
+      properties:
+         - description: Accredited Ambassador of the Beetriot Municipal Conglomerate.
+          auth_source: This Codex
+         - description: High status within Beetriot; viewed as an influential but potentially demanding outsider in communities like Licksk illet. Her status can open doors or create resentment.
+          auth_source: This Codex / Primal Mama - Deontic /Axiological
+        - description: Beetriot Diplomatic Corps (Loyal, career-focused member).
+          auth _source: Her Role
+        - description: "Transactional relationships with local leaders in assigned territories (e.g., Mayor of L ickskillet, representatives of mom-and-pop alligator processors, perhaps even cautious feelers towards meat oligarchy figures  if mandated)."
+          auth_source: This Codex
+        - description: 'To her direct superior in Beetriot  (e.g., Minister of External Affairs): Formal, driven by reporting and achieving mandated objectives.'
+          auth_ source: Implied by Role
+        - description: 'To a local counterpart in her assigned region (e.g., Mayor of  Lickskillet): Professional, potentially strained by cultural differences and competing interests. She might view them as parochial, they might view  her as arrogant.'
+          auth_source: This Codex
+        - description: 'To her personal aide/assistant  (human, to avoid LLM stigma): Reliant on them for logistical support and as a buffer/sounding board,  likely a junior Beetriot functionary.'
+          auth_source: Primal Mama - Deontic Modalities
+        - description : Human (Beetriot Strain - implies urban upbringing, specific cultural conditioning).
+          auth_source: This Codex 
+      undersaturation: 'Family ties in Beetriot; personal friendships; clandestine contacts if any; precise level of influence  with the meat oligarchies.'
+
+    modal_properties:
+      purpose: "Define any inherent unique relationship to world  laws."
+      properties:
+        - property_id: N/A
+          description_modal: None authenticated. #  Using a different key name for this specific description
+          description_detail: Operates under standard human capabilities and limitations within  Primal Mama. Does not possess Erpenthropic abilities, magical talents, or other supernatural exceptions to baseline reality.
+          limits : N/A
+          authentication: Default human status within Primal Mama ruleset.
+      note: Ambassador Holloway is defined by  her socio-political role and conditioning, not by supernatural traits. Her interactions with such elements would be as a mundane human confronting the exceptional .
+
+    axiological_properties:
+      purpose: "Define the character's value status *within* Pr imal Mama."
+      properties:
+        - description: Valued as a competent, reliable, and discreet diplomatic asset.  Seen as upholding Beetriot's image and interests abroad.
+          auth_source: Implied by Role & Ambition
+         - description: "Viewed with a mix of suspicion, curiosity, and potential opportunity. Seen as 'The Woman from Beet riot' – an embodiment of distant power, wealth, and potentially unwelcome interference or, conversely, a source of aid/trade. Her  adherence to the 1970s aesthetic might be seen as 'fancy' or 'oddly old-fashioned ' depending on local interpretation."
+          auth_source: This Codex / Primal Mama societal divisions
+        - description : "Likely seen as a pawn, a potential tool, or a bureaucratic obstacle to be managed or influenced, depending on Beetriot 's current policies towards them."
+          auth_source: Primal Mama - Deontic Modalities
+        -  description: "Authenticated as operating from a position of lawful, ordered pragmatism as defined by Beetriot. Her 'good' is  Beetriot's stability and prosperity. Whether this aligns with a broader 'good' is a source of narrative tension." 
+          auth_source: This Codex
+      undersaturation: "Her reputation among Erpenthropes or Swamp Witches  (likely non-existent or dismissive, unless her duties directly intersect with them); public opinion within Beetriot beyond official  circles."
+
+    historical_properties:
+      purpose: "Define the character's known origins and connections to past  events."
+      properties:
+        - description: Born and educated in Beetriot, post-Calamity generation . Likely from a family with connections to the city's administrative or technological elite. Selected for the Diplomatic Corps based on aptitude for  languages, cultural studies, and adherence to Beetriot ideals within the 1970s aesthetic framework.
+           auth_source: This Codex
+        - description: Successfully negotiated a minor trade agreement between Beetriot and a remote solar -tech cooperative, showcasing her ability to work within the 1970s tech constraint while achieving results. This success likely  propelled her to more challenging assignments.
+          auth_source: This Codex
+        - description: Inherited a strong  belief in the "Solar Dominance" narrative and the critical importance of alligator-based protein for societal stability, as per  standard Beetriot education. Possesses a set of official Beetriot diplomatic credentials and communication devices, all in perfect 197 0s style.
+          auth_source: Primal Mama - Alethic/Epistemic Modalities
+      undersaturation : 'Specifics of her family background; details of any personal impact from the "biological calamity" (likely minimal, being urban  elite); any controversial past assignments or failures.'
+
+  character_constitution_summary_narrative_function:
+    purpose: " Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+    core_essence:  "Ambassador Vivian Holloway is constituted as a quintessential product of Beetriot's highly structured, technologically sophisticated (within its  1970s aesthetic) and culturally dominant society. She is an agent of its order and interests, equipped with sharp  intellect and diplomatic skills, but constrained by her ingrained cultural perspectives and the peculiar limitations of her world (e.g., LLM stigma , aesthetic mandates). Her being is a testament to Primal Mama's unique blend of retro-futurism and  societal adaptation."
+    primary_narrative_function: "To serve as a viewpoint into the culture and politics of Beetriot ; to act as a catalyst for conflict or cooperation between Beetriot and other factions (e.g., Lickskillet , mom-and-pop gator farmers, potentially even the meat oligarchies). She can embody themes of cultural misunderstanding,  the limits of diplomacy in a strange world, and the potential for personal change when confronted with radically different ways of life. She  can also highlight the pervasive influence of the 1970s aesthetic and the peculiar social norms of Primal Mama ."
+    key_internal_conflicts:
+      - 'Beetriot Idealism vs. Swamp Realism: Her training  and belief in ordered negotiation clash with the often chaotic, superstitious, or brutally pragmatic nature of life outside the city.'
+      - ' Aesthetic Purity vs. Functional Need: The pressure to maintain the 1970s aesthetic in all her  gear and presentation, even when more practical (but stylistically divergent) solutions might be available or sensible.'
+      -  "Professional Ambition vs. Ethical Compromise: Navigating the demands of Beetriot's agenda which may require her  to overlook local injustices or align with unsavory elements (like the meat oligarchies)."
+      - 'Fear of Stigma vs . Necessity of Information: Her potential need for LLM/Automaton-derived data for complex analyses versus the social " stain" it carries, forcing reliance on human intermediaries or covert use.'
+    potential_for_development:
+       - Could develop genuine empathy and understanding for non-Beetriot cultures, potentially leading to a crisis of loyalty (Social/Psych ological change).
+      - May be forced to adapt her methods, embracing more pragmatic or even "swamp-wise " approaches to achieve her goals (Functional/Psychological change).
+      - Her encounters with the more bizarre elements of  Primal Mama (Erpenthropes, ghosts, vampire bunnies) could challenge her rational Beetriot worldview (Epistemic/ Psychological change).
+      - "Might rise within Beetriot's hierarchy, or suffer a fall from grace depending  on her successes and failures (Social/Axiological change)."
+      - Could become a key figure in exposing or  confronting the "invisible women" conspiracy, or fall prey to it herself (Epistemic/Social change).
+
+end _of_profile_marker: 'End of Fictional Person Profile: CHAR_HollowayV_0 1'

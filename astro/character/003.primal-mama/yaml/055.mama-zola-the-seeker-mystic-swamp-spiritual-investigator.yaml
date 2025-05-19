@@ -1,0 +1,166 @@
+
+World: "Primal Mama"
+Codex_Version: "0.2 - Character  Constitution"
+Last_Updated: "[Current Date]"
+Lead_Architects: "[Your Name / Studio Name]" 
+
+Character_Profile:
+  Entity_ID: "CHAR_MamaZola_01"
+  Character_Name : "Mama Zola (often referred to respectfully as \"The Seeker\" by those who know of her quest)" 
+  Entity_Type: "Person"
+  Archetype: "Mystic Hermit / Spiritual Investigator / Folk Scientist"
+   Primary_Authentication_Sources:
+    - "This Codex Entry"
+    - "Primal Mama Coherence & Internal Logic  Protocol v0.1"
+  Canon_Tier: "Tier 2 (Locally known, potential for wider  narrative significance)"
+  Authentication_Status: "Authenticated_Canonical_Active"
+
+  Authenticated_Property_Bundle:
+     Physical_Properties:
+      Appearance_General:
+        description: "Elderly woman, appearing to be in her late 6 0s or early 70s, with rich, dark brown skin that holds the intricate map of her years. She possesses distinct  West African facial features – high cheekbones, a broad, kind nose, and full lips. Her bearing is upright and  dignified, despite her age."
+        authentication_source: "[This Codex Entry]"
+      Appearance_Specific_Features :
+        description: "Her eyes are a startlingly bright, intelligent hazel, often narrowed in deep thought or wide with  observant curiosity. Her hair is a crown of tight, silver-white coils, sometimes adorned with small, hand-carved  wooden beads or polished alligator teeth – sourced respectfully."
+        authentication_source: "[This Codex Entry]"
+      Appearance_Distinctive _Marks:
+        description: "Faint, intricate scarification patterns on her temples and forearms, barely visible now , suggesting adherence to traditions that may pre-date or diverge from mainstream post-calamity culture. A prominent mole above her  right eyebrow."
+        authentication_source: "[This Codex Entry]"
+      Typical_Attire:
+        description : "Wears practical, layered clothing suitable for the swamp environment, made from durable, natural-fiber fabrics (dyed with plant -based pigments in earthy tones of ochre, deep green, and muddy brown) combined with repurposed textiles that vaguely echo  the 1970s aesthetic in their patterns or weave, but not in their manufacture. Often wears a wide- brimmed hat woven from swamp reeds. Her boots are sturdy and waterproof, often patched."
+        authentication_source: "[ This Codex Entry / PM Coherence (1970s aesthetic constraint adaptation)]"
+      Voice_Speech_Pattern:
+         description: "A low, resonant voice that carries a melodic, rhythmic cadence. Speaks slowly and deliberately, choosing her words with care . Her accent is unique, hinting at a linguistic heritage not commonly found in Lickskillet or Beetriot, possibly  an older Creole or a preserved ancestral language blended with the common Primal Mama tongue."
+        authentication_source: "[This Codex Entry ]"
+      Gait_Mannerisms:
+        description: "Moves with a surprising agility for her age, her  steps sure and quiet in the swamp. Has a habit of pausing to listen intently to her surroundings, or gently touching plants  and strange fungi. Often seen sketching in a weathered, hand-bound journal with charcoal."
+        authentication_source: "[ This Codex Entry]"
+      Associated_Scent:
+        description: "Faint aroma of damp earth, sweet grass, woodsmoke, and a subtle, unidentifiable herbal concoction she uses."
+        authentication_source:  "[This Codex Entry]"
+      Physical_Undersaturation: "Exact height and weight, specific tribal or ancestral group her  features derive from beyond \"West African,\" the precise meaning of her scarification."
+
+    Functional_Properties:
+       Skills:
+        - name: "Expert Knowledge of Swamp Ecology (Flora, Fauna, Fungi – both mundane and post- calamity unique, including behaviors of vampire bunnies and some understanding of GE alligator needs/limits from observation)"
+           authentication_source: "[This Codex Entry / PM Coherence (Vampire Bunnies, GE Alligators)]"
+         - name: "Proficient in Folk Rituals & Spirit Communication (Can perform rituals, often involving natural components and  resonant frequencies from handmade instruments, to perceive and sometimes interact with ghosts, per the world's rules. Her methods are  distinct from more \"mainstream\" Swamp Witch practices)"
+          authentication_source: "[This Codex Entry / PM Co herence (Spectral Interaction)]"
+        - name: "Basic Herbalism & Toxin Identification (Can identify many edible, medicinal,  and poisonous swamp plants; creates her own poultices and infusions. Understands the \"death by burger\" effect as a  profound biological/spiritual incompatibility)"
+          authentication_source: "[This Codex Entry / PM Coherence (Biological Calamity  Aftermath)]"
+        - name: "Observational \"Science\" (Conducts meticulous, long-term observations  of natural and supernatural phenomena in her pursuit of understanding \"God\"/Primal Source; her \"experiments\" involve creating  specific environmental conditions, offerings, or soundscapes to observe reactions from the spiritual fabric of the world)"
+          authentication_source: "[ This Codex Entry]"
+      Abilities:
+        - name: "Heightened Sensitivity to Environmental/Spiritual Shifts  (Can often sense impending strange weather, unusual spiritual activity, or areas where the \"veil\" is thin, not unlike  a folk version of Erpenthrope senses but without transformation)"
+          authentication_source: "[This Codex Entry]" 
+      Limitations:
+        - type: "Physical"
+          description: "Age-related stamina limitations; not a  physical combatant. Relies on knowledge and avoidance."
+          authentication_source: "[This Codex Entry]"
+         - type: "Knowledge"
+          description: "Lacks formal knowledge of advanced genetic engineering or solar tech beyond observation  of its effects (e.g., GE gators). Her understanding of the \"Biological Calamity\" is through  a lens of spiritual imbalance rather than pure science. Unfamiliar with Beetriot elite culture."
+          authentication_source: "[This  Codex Entry / PM Coherence (Solar Dominance, Tech Aesthetic Constraint)]"
+        - type: "Social" 
+          description: "Operates outside established power structures (Meat Oligarchy, Beetriot elite); her influence is localized and  based on respect/fear, not authority. Views Automaton/LLM users with deep suspicion, seeing them as further detaching  from lived truth."
+          authentication_source: "[This Codex Entry / PM Coherence (Automaton/LLM User St igma)]"
+      Functional_Undersaturation: "Specifics of all rituals; full catalog of known plants/spirits;  whether her sensitivity could be trained further."
+
+    Psychological_Properties:
+      Core_Traits:
+        - trait : "Deeply Inquisitive / Philosophical"
+          authentication_source: "[This Codex Entry, Narrative Function]"
+        -  trait: "Patient / Observant"
+          authentication_source: "[Mannerisms, Functional Skills]"
+         - trait: "Spiritually Skeptical (of established deities like Reynolds, Reed, Parsons, seeing them as constructs or powerful  spirits, but not the Ultimate Source)"
+          authentication_source: "[This Codex Entry / PM Coherence (De ified Celebrities)]"
+      Dominant_Emotion:
+        description: "A calm, profound Serenity mixed with an  unyielding Curiosity"
+        authentication_source: "[Voice, Mannerisms]"
+      Key_Motivator:
+        description : "To understand the fundamental nature of existence/divinity in Primal Mama; to find the \"True God\" or  \"Primal Source\" she believes underpins the world's strange spiritual miasma and the Calamity itself."
+        authentication _source: "[This Codex Entry, Narrative Function]"
+      Key_Belief:
+        description: "Bel ieves the current \"gods\" are distractions or powerful manifestations, not the origin. Believes direct, respectful interaction with the natural /supernatural world can reveal deeper truths. Believes the Calamity was a spiritual wound as much as a biological one." 
+        authentication_source: "[This Codex Entry / PM Coherence (Epistemic Modality)]"
+       Internal_Conflict:
+        description: "The isolation of her unique quest vs. a quiet desire for shared understanding; frustration  with the superficiality of common beliefs vs. her gentle nature; the personal risks her \"experiments\" might entail."
+         authentication_source: "[This Codex Entry]"
+      Subjective_Memory_Content:
+        description: "Rich  repository of oral traditions, folk tales, and personal observations of the swamp's changes since her youth. No direct memory of pre -calamity, but her traditions might contain echoes."
+        authentication_source: "[This Codex Entry]"
+      Psych ological_Undersaturation: "Specifics of her childhood, her exact definition of \"God,\" detailed opinions on mundane politics  beyond a general detachment."
+
+    Social_Relational_Categorical_Properties:
+      Official_Role:
+         description: "None. Unofficial spiritual advisor/herbalist to a small, isolated swamp community or individuals who seek her  out."
+        authentication_source: "[This Codex Entry]"
+      Social_Status:
+        description: " Outsider mystic; respected by a few, viewed as eccentric or even unsettling by many in Lickskillet. Unknown in  Beetriot."
+        authentication_source: "[This Codex Entry]"
+      Primary_Affiliation:
+        description : "To her quest for truth and the specific patch of swamp she considers her \"laboratory\" and home."
+         authentication_source: "[This Codex Entry]"
+      Secondary_Affiliations:
+        description: "Loose, wary , but sometimes mutually beneficial contact with certain independent alligator harvesters (trading herbs for information or rare items). Distant and suspicious of  organized Swamp Witches, seeing their magic as often transactional or lacking depth, though she acknowledges their power with vampire bunnies."
+         authentication_source: "[This Codex Entry / PM Coherence (Vampire Bunny Propagation)]"
+      Key_ Relationships:
+        - relationship_to: "The Swamp Itself"
+          description: 'Views it as a living , communicative entity, her primary source of study and spiritual connection.' # Quoted due to colon in original unquoted description  (not present here, but good practice)
+          authentication_source: "[This Codex Entry]"
+        - relationship_to:  "Local Spirits/Ghosts"
+          description: "Engages with them as sources of information or subjects of her \"experiments,\" always  with respect but also with a scientific detachment."
+          authentication_source: "[This Codex Entry / PM Coherence (Spectral Interaction )]"
+        - relationship_to: "Erpenthropes (if encountered)"
+          description: "Would be fascinated  by them, seeing them as closer to the \"Primal Source\" or as key to understanding it. Might seek them out  cautiously, believing they are \"truth seekers\" too."
+          authentication_source: "[This Codex Entry / PM Coherence ( Erpenthropic Transformation, Erpenthrope Knowledge)]"
+      Species_Type:
+        description: "Human (Pr imal Mama strain, with distinct ancestral heritage)"
+        authentication_source: "[This Codex Entry]"
+      Social_ Undersaturation: "Specific names of community members who consult her; any living family; precise nature of any past dealings with Swamp W itches."
+
+    Modal_Properties:
+      # Note: Her "exception" is an extreme development of potential available within Pr imal Mama's rules
+      # (permeable veil, spiritual presence) rather than a complete break from them. 
+      - Property_ID: "MODAL-MZOLA-01"
+        Property_Name: "Att uned Environmental/Spiritual Perception (Epistemic/Alethic Exception)"
+        Description: "Through disciplined practice, unique  heritage, and focused \"experiments,\" Mama Zola possesses a capacity to perceive and interpret subtle spiritual and environmental energies/disturbances  beyond baseline human norms in Primal Mama, approaching but not equalling innate Erpenthrope senses. This is learned and cultivated,  not an inherent biological trait like Erpenthropy."
+        Limits: "Perception is passive/interpretive, not  controlled manipulation of these energies. Requires focus and specific conditions (e.g., rituals, quiet environment). Can be taxing."
+         Authentication: "[Narrative descriptions of her successful interpretations of subtle signs, interaction with ghosts beyond typical casual perception, and anticipation  of anomalous events as a result of her methods.]"
+
+    Axiological_Properties:
+      Reputation_ Local_Swamp_Dwellers:
+        description: "Authenticated as viewed variably: 'wise woman,' 'har mless eccentric,' 'powerful (and slightly dangerous) spirit-talker,' 'keeper of old ways.' Source of unique  remedies and sometimes unsettling insights." # Quoted due to colons
+        authentication_source: "[This Codex Entry]"
+       Reputation_Lickskillet_Mainstream:
+        description: "If known at all, likely dismissed as  'swamp hermit' or part of the general 'strange miasma' of the bayou. Her rejection of celebrity  deities would be seen as deeply odd."
+        authentication_source: "[This Codex Entry / PM Coherence (A xiological Values - Deified Celebrities)]"
+      Reputation_Swamp_Witches:
+        description : "Potentially viewed with suspicion or curiosity; her methods are unorthodox compared to their established practices. They might see her as either naive  or tapping into something they've overlooked/avoided."
+        authentication_source: "[This Codex Entry]"
+       Moral_Alignment_Narrative_Framing:
+        description: "Authenticated via her motivations and actions as genuinely seeking profound  truth and understanding, operating from a place of respect for life and spirit, even if her methods are unconventional and her conclusions challenge established norms ."
+        authentication_source: "[This Codex Entry]"
+      Axiological_Undersaturation: "How an  Erpenthrope might perceive her; perception by Meat Oligarchy agents if they became aware of her specific activities."
+
+     Historical_Properties:
+      Origin:
+        description: "Authenticated as born in a remote swamp community several decades post -calamity. Her lineage is suggested to have preserved unique pre-calamity or divergent post-calam ity spiritual traditions from an African heritage, adapted to the Primal Mama environment."
+        authentication_source: "[This  Codex Entry]"
+      Key_Past_Event_Connection_Subjective:
+        description: "Her \"experiments\" are partly  an attempt to understand the spiritual dimension of the Biological Calamity, believing it fundamentally altered the world's spiritual fabric and  that understanding this is key to finding \"God\" or balance."
+        authentication_source: "[This Codex Entry / PM Coherence  (The Calamity's Nature)]"
+      Inherited_Items:
+        description: "Authenticated to possess a few  hand-carved ritual tools and a collection of oral histories/songs passed down through her maternal line, forming the basis of her unique  spiritual framework and initial \"experimental\" hypotheses."
+        authentication_source: "[This Codex Entry]"
+      Historical_Unders aturation: "Specifics of her ancestral traditions; direct lineage details; verifiable pre-calamity links of her traditions."
+
+   Character_Constitution_Summary_Narrative_Function:
+    Core_Essence: |
+      Mama Zola is constituted  as a figure of profound spiritual inquiry existing on the fringes of Primal Mama's dominant culture. Her identity is rooted  in a unique blend of ancestral wisdom (African-derived, adapted to the swamp) and a relentless, almost scientific,  personal quest to "experimentally" verify the true nature of divinity and the spiritual laws of her bizarre world. She rejects  the superficiality of the celebrity gods and the perceived limitations of mainstream Swamp Witchery, seeking a deeper, more fundamental "Primal Source ." Her Physical presence is one of aged dignity and attunement to nature; her Functional abilities lie in deep ecological knowledge  and unorthodox ritualism; her Psychological drive is an unwavering, patient search for ultimate truth. Socially, she is an outsider, yet  her wisdom provides a unique Axiological value to those who seek her.
+    Primary_Narrative_Function: | 
+      To embody an alternative spiritual path within Primal Mama; to act as a source of deep, unconventional wisdom and lore ; to potentially guide protagonists towards understanding less obvious truths about the world, the Calamity, or the nature of entities  like Erpenthropes or ghosts; to demonstrate that "finding God" in Primal Mama is a deeply personal and  potentially perilous experiment.
+    Key_Internal_Conflicts_From_Bundle: |
+      The drive for solitary, profound  truth vs. the subtle need for connection/sharing knowledge; the limitations of her mortal lifespan against the vastness of her  quest; interpreting the often ambiguous or dangerous "results" of her spiritual experiments; navigating the fine line between seeker and " crazy swamp lady" in the eyes of others.
+    Potential_for_Development_Based_on_Bundle: | 
+      Uncovering a significant piece of hidden lore about the Calamity or the "Primal Source" through her  experiments (Epistemic/Historical change); forming an unexpected alliance with an Erpenthrope or a character seeking similar  truths (Social/Relational change); her knowledge becoming crucial to resolving a larger crisis; facing a direct challenge from established  spiritual powers (Swamp Witches, devout followers of celebrity gods) or those who misunderstand/fear her work.
+ 

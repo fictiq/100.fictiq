@@ -1,0 +1,286 @@
+```yaml
+quest_functional_breakdown:
+  title: "Bayou Morning Blues  - Functional Breakdown"
+  world: "Primal Mama"
+  protocol_applied: "Entity Functional Profile Protocol"
+   codex_version_reference: "0.1 (Implied Functional Definitions based on Primal Mama Coherence Codex)" 
+  last_updated: "[Current Date]" # Placeholder, as in the original
+  lead_architects:  "[Your Name/Studio Name]" # Placeholder
+
+  introduction:
+    purpose: "This document analyzes the 'Bayou Morning Blues ' quest sequence by applying the Entity Functional Profile Protocol."
+    methodology: "Each event is interpreted as a demonstration of authenticated  functional properties (capabilities, limitations, costs, vulnerabilities, etc.) of the entities involved, as implicitly defined by the Primal Mama world 's coherence rules."
+
+  segments:
+    - segment_title: "Segment 1: Awakening and Initial Interaction" 
+      functional_demonstrations:
+        - entity_id: "CHAR_Jacques_01"
+           entity_name: "Gator Jacques"
+          action_or_state_observed: "Soaking in  a reclaimed, rust-stained porcelain tub."
+          demonstrated_functional_properties:
+            - property_type : "Core Function/Purpose (Demonstrated)"
+              description: "Protagonist, experiencing world events."
+             - property_type: "Functional Property (Implied)"
+              property_name_or_id: "BIOLOGICAL_NEED _Hygiene/Comfort"
+              description: "Basic need for cleansing or comfort."
+          related_object_interactions :
+            - object_id: "OBJ_Bathtub_01"
+              function: "WaterContain ment"
+            - object_id: "OBJ_SolarWaterHeater_01"
+              function:  "WaterHeating"
+              constraint: "SolarReliant"
+          authentication_source: "Basic character sentience, Primal  Mama setting details."
+
+        - entity_id: "CREATURE_VampBunny_01"
+           entity_name: "Vampire Bunny (Instance - Mama Delphine's)"
+          action_or _state_observed: "Leaps from shadow, nips Jacques's toe, skitters away."
+          demonstrated _functional_properties:
+            - property_type: "Core Function/Purpose (Demonstrated)"
+              description : "Minor environmental hazard, agent of minor disruption."
+            - property_type: "Capability Demonstrated"
+               property_name_or_id: "FUNC-VBUN-01: SurpriseAgility"
+              description : "Rapid, unexpected movement."
+            - property_type: "Capability Demonstrated"
+              property_name_ or_id: "FUNC-VBUN-02: MinorNipAttack"
+              description: "Ability  to deliver a small bite."
+            - property_type: "Limitation (Implied)"
+              description: " Low damage output, primarily startling."
+          authentication_source: "Authenticated existence and behavior of Vampire Bunnies (Pr imal Mama Codex - Alethic)."
+
+        - entity_id: "CHAR_Jacques_01"
+           entity_name: "Gator Jacques"
+          action_or_state_observed: "Reacts to  nip ('Dammit, Delphine!')."
+          demonstrated_functional_properties:
+            - property_ type: "Vulnerability Exploited"
+              property_name_or_id: "VULN-JAC- 01: ExposedSkinSurface"
+              description: "Unprotected skin susceptible to minor attack."
+            - property_type:  "Capability Demonstrated"
+              property_name_or_id: "FUNC-JAC-01: Verbal Communication (Exclamatory)"
+              description: "Ability to vocalize a sudden reaction."
+          authentication_source:  "Character sentience, established relationship dynamics."
+
+        - entity_id: "CHAR_Delphine_01"
+           entity_name: "Mama Delphine"
+          action_or_state_observed: "Lounging , stirring coffee, smirking, bantering."
+          demonstrated_functional_properties:
+            - property_ type: "Core Function/Purpose (Demonstrated)"
+              description: "NPC interaction, purveyor of local lore /items, minor antagonist/ally."
+            - property_type: "Capability Demonstrated"
+              property_name _or_id: "FUNC-DELPH-01: VerbalCommunication (SarcasticBanter)"
+               description: "Ability to engage in witty, teasing dialogue."
+            - property_type: "Capability Demonstrated"
+              property _name_or_id: "FUNC-DELPH-02: EnvironmentalObservation"
+              description: " Awareness of Li'l Fang's activities."
+          related_object_interactions:
+            - object_id:  "OBJ_NaugahydeRecliner_01"
+            - object_id: "OBJ_ GatorToothStirrer_01"
+            - object_id: "OBJ_BurtReynoldsPrayer Candle_01"
+              function: "AxiologicalDisplay"
+          authentication_source: "Character  role, Primal Mama cultural values."
+
+        - entity_id: "CHAR_Jacques_01"
+           entity_name: "Gator Jacques"
+          action_or_state_observed: "Decides to  get dressed."
+          demonstrated_functional_properties:
+            - property_type: "Capability Demonstrated"
+               property_name_or_id: "FUNC-JAC-02: SelfCare (Dressing)"
+              description : "Ability to don clothing."
+            - property_type: "Implied Goal State"
+              description: "STATE _PreparedForExternalActivity"
+          authentication_source: "Basic character agency."
+
+    - segment_title:  "Segment 2: The Locked Door Tutorial (Key Retrieval)"
+      functional_demonstrations:
+        -  entity_id: "CHAR_Jacques_01" # Also represents Player
+          entity_name: "Gator Jacques /  Player"
+          initial_state: "STATE_ShackInterior"
+          objective: "OBJECTIVE_ExitSh ack"
+          encountered_obstacle:
+            object_id: "OBJ_MainShackDoor_01"
+             state: "STATE_Locked"
+          demonstrated_functional_properties:
+            - property_type: "In ability (Gator Jacques)"
+              property_name_or_id: "INAB-JAC-0 1: CannotOpenLockedDoorWithoutKey"
+              description: "Door requires specific item to operate."
+            -  property_type: "Object Functional Property (Door)"
+              property_name_or_id: "PROP-DOOR -01: RequiresKeyToUnlock"
+              description: "Door's functional requirement for operation."
+          authentication _source: "Standard game logic, Primal Mama world consistency."
+
+        - entity_id: "PLAYER_ENTITY " # Representing player exploration
+          entity_name: "Player"
+          action_or_state_observed:  "Optional exploration: Interacting with environmental objects."
+          demonstrated_functional_properties:
+            - property_ type: "Capability Used"
+              property_name_or_id: "FUNC-PLAYER-01: Environmental Examination"
+              description: "Player's ability to inspect surroundings."
+          system_feedback: "FEEDBACK_G eraltDelphineCommentary" # Typo from original, should be Jacques/Delphine
+
+        - entity_id : "OBJ_WaywardKey_01"
+          entity_name: "Wayward Key"
+          location _context: "Located on OBJ_MagazineStack_01"
+          demonstrated_functional_properties:
+            - property _type: "Object Property"
+              property_name_or_id: "PROP-KEY-01 : CanUnlockSpecificDoor (OBJ_MainShackDoor_01)"
+              description: "Key is matched  to a specific lock."
+          authentication_source: "Quest design."
+
+        - entity_id: "SYSTEM _TutorialMechanic_GatorSense"
+          entity_name: "Tutorial Mechanic: Gator Sense"
+          trigger _entity_id: "CHAR_Jacques_01"
+          demonstrated_functional_properties:
+            - property _type: "Entity Capability (Gator Jacques)"
+              property_name_or_id: "FUNC- JAC-03: GatorSenseActivation"
+              description: "Jacques's ability to use Gator Sense."
+             - property_type: "Operational Constraint"
+              property_name_or_id: "OPCON-GS ENSE-01: RequiresPlayerInput [L2]"
+              description: "Input needed to activate."
+            - property_ type: "Functional Effect"
+              property_name_or_id: "EFFECT-GSENSE-01 : HighlightInteractableObjects (e.g., OBJ_WaywardKey_01)"
+              description: "Visual  aid for key objects."
+            - property_type: "Functional Effect"
+              property_name_or_id: " EFFECT-GSENSE-02: MinorSpectralTraceDisplay"
+              description: "Thematic visual effect."
+            -  property_type: "Purpose"
+              property_name_or_id: "PURP-GSENSE- 01: AidObjectDetection"
+              description: "Primary gameplay function."
+            - property_type: "Purpose" 
+              property_name_or_id: "PURP-GSENSE-02: ReinforceWorldThe matics (PermeableVeil)"
+              description: "Narrative/thematic function."
+          authentication_ source: "Authenticated Erpenthrope ability (Primal Mama Codex - Alethic)."
+
+        - entity_id : "CHAR_Jacques_01"
+          entity_name: "Gator Jacques"
+          action_ or_state_observed: "Grabs Key."
+          demonstrated_functional_properties:
+            - property_type : "Capability Used"
+              property_name_or_id: "FUNC-JAC-04:  ObjectInteraction (Take)"
+              description: "Ability to pick up items."
+          result: "OBJ_WaywardKey _01 added to INV_Jacques_Player"
+          authentication_source: "Standard game interaction logic."
+
+         - entity_id: "SYSTEM_TutorialMechanic_OpenDoor"
+          entity_name: "Tutorial Mechanic:  Opening Doors"
+          trigger_entity_id: "CHAR_Jacques_01"
+          action_or _state_observed: "Unlocks and Opens Door."
+          demonstrated_functional_properties:
+            - property_ type: "Capability Used (Gator Jacques)"
+              property_name_or_id: "FUNC-J AC-05: ObjectInteraction (UseItem_Key)"
+              description: "Using key on door."
+            -  property_type: "Capability Used (Gator Jacques)"
+              property_name_or_id: "FUNC -JAC-06: ObjectInteraction (OpenDoor)"
+              description: "Physically opening door."
+            -  property_type: "Operational Constraint"
+              property_name_or_id: "OPCON-DOOR -01: RequiresFacingDoor"
+              description: "Positional requirement."
+            - property_type: "Operational  Constraint"
+              property_name_or_id: "OPCON-DOOR-02: RequiresPlayer Input [X]"
+              description: "Input requirement."
+          authentication_source: "Basic game interaction tutorial."
+
+         - entity_id: "UI_MiniMap_01"
+          entity_name: "Mini-Map "
+          demonstrated_functional_properties:
+            - property_type: "Core Function/Purpose"
+               description: "Player orientation, navigation aid."
+            - property_type: "Authenticated Property"
+              property _name_or_id: "PROP-MINIMAP-01: DisplaysLocalArea"
+              description: "Shows  nearby geography."
+            - property_type: "Authenticated Property"
+              property_name_or_id: "PROP -MINIMAP-02: SolarCharged"
+              description: "Aesthetic/lore detail regarding power source."
+           authentication_source: "Game UI design, Primal Mama tech aesthetic."
+
+    - segment_title: "Segment 3 : Outside and Next Objective"
+      functional_demonstrations:
+        - entity_id: "CHAR_Jacques_ 01"
+          entity_name: "Gator Jacques"
+          action_or_state_observed:  "Exits shack onto walkway."
+          state_transition: "STATE_ShackInterior -> STATE_LickskilletOut skirts_Walkway"
+          environmental_interaction: "Experiencing ENV_LickskilletAir (Properties: Humid,  AlligatorProcessingScent, SwampGasScent)"
+          authentication_source: "World setting."
+
+        - entity_id : "CHAR_Jacques_01"
+          entity_name: "Gator Jacques"
+          action_ or_state_observed: "Observation & New Objective Trigger."
+          demonstrated_functional_properties:
+             - property_type: "Capability Used"
+              property_name_or_id: "FUNC-JAC -07: EnvironmentalAwareness/Observation"
+              description: "Noticing elements in the environment."
+          observed_entities :
+            - entity_id: "CHAR_Reche_01"
+              entity_name: " Old Man Rèche"
+              failed_function: "EXPECTED_FUNC-RECHE-01: Super viseMentee (LiLFang)"
+              current_state: "STATE_Sleeping"
+              authentication_source: " NPC behavior, quest narrative."
+            - entity_id: "CHAR_LiLFang_01"
+               entity_name: "Li'l Fang"
+              current_action: "Practicing machete swings." 
+              demonstrated_functional_properties:
+                - property_type: "Capability Demonstrated"
+                  property_name_or _id: "FUNC-LFANG-01: BasicWeaponPractice (Machete)"
+                  description:  "Practicing with a weapon."
+              interacted_object_id: "OBJ_TrainingDummies_01" 
+              interacted_object_function: "PROP-DUMMY-01: TargetForPractice"
+              authentication_ source: "NPC behavior, quest narrative."
+
+        - entity_id: "CHAR_Jacques_01" 
+          entity_name: "Gator Jacques"
+          action_or_state_observed: "Interaction with Old Man R èche."
+          demonstrated_functional_properties:
+            - property_type: "Capability Used"
+               property_name_or_id: "FUNC-JAC-01: VerbalCommunication (SharpWords)"
+               description: "Speaking sternly."
+          related_entity_response:
+            entity_id: "CHAR_Reche _01"
+            demonstrated_functional_properties:
+              - property_type: "Capability Used"
+                 property_name_or_id: "FUNC-RECHE-02: VerbalCommunication (Excuses)"
+                 description: "Making excuses."
+          authentication_source: "Character interaction script."
+
+        - entity_id : "CHAR_Jacques_01"
+          entity_name: "Gator Jacques"
+          action_ or_state_observed: "Interaction with Li'l Fang."
+          demonstrated_functional_properties:
+             - property_type: "Capability Used"
+              property_name_or_id: "FUNC-J AC-01: VerbalCommunication (Chastise/Converse)"
+              description: "Speaking with Li'l Fang ."
+            - property_type: "Capability Used (Optional)"
+              property_name_or_id:  "FUNC-JAC-04: ObjectInteraction (ConfiscateScrapMetal)"
+              description: " Taking an item from Li'l Fang."
+          related_entity_response:
+            entity_id: "CHAR _LiLFang_01"
+            demonstrated_functional_properties:
+              - property_type:  "Capability Used"
+                property_name_or_id: "FUNC-LFANG-02: Verbal Communication (Challenge)"
+                description: "Issuing a challenge."
+              - property_type: "Capability Used "
+                property_name_or_id: "FUNC-LFANG-03: InitiateTutorialSequence (' RunTheGantries')"
+                description: "Triggering the next tutorial."
+          authentication_source: "Character  interaction script leading to next tutorial."
+
+        - entity_id: "SYSTEM_TutorialMechanic_RunTheGantries "
+          entity_name: "Tutorial Mechanic: Run the Gantries"
+          demonstrated_functional_properties:
+             - property_type: "Core Function/Purpose"
+              description: "Advanced mobility tutorial."
+          entities_involved: 
+            - "CHAR_Jacques_01"
+            - "CHAR_LiLFang_01" 
+          environment_utilized: "LOC_LickskilletProcessingOutskirts_Gantries (Properties: Prec ariousWalkways, HalfSubmergedPlatforms, RustedStructures)"
+          capabilities_to_be_trained_or _used:
+            - "FUNC-JAC-08: AdvancedMobility (Jumping, Climbing,  Balancing)"
+            - "FUNC-LFANG-04: AdvancedMobility"
+          authentication_source:  "Game tutorial design."
+
+  functional_profile_summary_quest_context:
+    - entity_type: "Prot agonist (Gator Jacques)"
+      summary: "Functions as the primary interactive agent, utilizing sensory capabilities (GatorSense), basic  object interaction skills (TakeKey, UseDoor), and communication functions. His progression is gated by limitations (LockedDoor) overcome through  defined abilities and player action."
+    - entity_type: "Environmental Objects"
+      summary: "Function with simple , authenticated properties (RequiresKey, CanBeSwitched), acting as direct triggers or obstacles for player progression."
+    -  entity_type: "NPCs"
+      summary: "Function as dialogue agents, information providers, and triggers for subsequent quest  objectives or tutorial segments, each operating within their established character roles and capabilities."
+    - entity_type: "World Systems ( Tutorials, Abilities)"
+      summary: "Function as mechanisms to guide the player and introduce core gameplay functionalities, authenticated by the  game's design and the world's internal logic (e.g., Erpenthrope abilities)."
+``` 

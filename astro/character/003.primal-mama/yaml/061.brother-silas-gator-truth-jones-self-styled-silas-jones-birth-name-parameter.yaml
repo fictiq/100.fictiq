@@ -1,0 +1,159 @@
+
+# Story World Codex: Fictional Person Constitution Protocol (YAML Export)
+# Based  on Doležel's Heterocosmica III.B.II.C (Character as Property Bundle)
+
+World: Primal Mama 
+CodexVersion: "0.2 - Character Constitution (Brother Silas)" # YAML might quote this due to space  and dot, but not strictly required by colon rule
+LastUpdated: "[Current Date]" # Assuming current date doesn't have  a colon
+LeadArchitects: "[Your Name/Studio Name]" # Assuming no colon
+
+CharacterProfile:
+  Entity ID: CHAR_SilasGTJones_01
+  CharacterName: Brother Silas "Gator-Truth" Jones  (self-styled); Silas Jones (birth name)
+  EntityType: Person (Human)
+  Archetype:  Wandering Mystic / Folk Preacher / Hermit Sage
+  PrimaryAuthenticationSources: This Codex Entry, Primal Mama World  Coherence Protocol v0.1, Narrative Outline "Bayou Beatitudes"
+  CanonTier: Tier 2 
+  AuthenticationStatus: Authenticated_Canonical_Active
+
+AuthenticatedPropertyBundle:
+  PhysicalProperties:
+    Appearance _General:
+      value: Lean, weathered human male, indeterminate age between 40s-60s  due to sun/swamp exposure; wiry build.
+      auth: '[Narrative Description "Bayou Beatitudes "]'
+    Appearance_Specific_Features:
+      value: Deep-set, startlingly blue eyes that seem  to absorb the swamp light; leathery, tanned skin; a tangled, sun-bleached beard often adorned with small, polished  alligator teeth or vertebrae.
+      auth: '[Visual Concept Art Ref# PM_Silas_001]'
+     Appearance_Distinctive_Marks:
+      value: A faded, stylized alligator tattoo coiling around his left forearm,  done in a crude, almost tribal style. A prominent scar on his right cheek, shaped like a crescent moon – "a kiss  from Mama Gator," he claims.
+      auth: '[Narrative Description "Bayou Beatitudes"]'
+     Typical_Attire:
+      value: Patched-up overalls made from durable, swamp-resistant fabric (likely synthetic,  but with a natural fiber look), often shirtless underneath or with a faded, wide-collared 1970 s-style shirt. Wears a wide-brimmed, woven swamp grass hat adorned with ethically sourced (shed ) alligator scutes. Carries a repurposed 1970s amplifier casing as a satchel, powered by a small solar  panel, occasionally playing garbled hymns to Burt, Jerry, or Gram.
+      auth: '[Visual Concept Art Ref # PM_Silas_001, Prop Design Doc PM_Tech_078]'
+    Voice_Speech _Pattern:
+      value: A resonant, surprisingly gentle baritone with a thick, bayou drawl. Speaks  slowly, often in parables drawn from alligator behavior, solar cycles, and imagined dialogues between the Deified Trio. Pr one to sudden, fervent exclamations of "Praise the Sun-Snout!" or "By Burt's  Blessed 'Stache!"
+      auth: '[Dialogue Snippets "Bayou Beatitudes"]'
+    Gait _Mannerisms:
+      value: Moves with a slow, deliberate pace, equally comfortable on treacherous swamp ground or a  flatboat. Has a habit of staring intently at the sun or the water for long periods, humming softly. Often wh ittles small alligator figures from driftwood.
+      auth: '[Action Description "Bayou Beatitudes"]'
+     Associated_Scent:
+      value: Swamp mud, sun-baked algae, a faint hint of alligator musk, and ozone  from his jury-rigged solar tech.
+      auth: '[Sensory Palette Doc - Primal Mama]'
+    undersaturation : Exact height/weight, dental records, specific origins of all patches on clothing.
+
+  FunctionalProperties:
+    Skills: 
+      - value: Expert Swamp Navigator (by foot, flatboat, or recognizing gator trails)
+        auth: '[ Demonstrated Actions "Bayou Beatitudes" Ch. 2]'
+      - value: Advanced Alligator Lore ( behavior, ecology, non-lethal interaction, interpreting their "signs" – not GE specifics, but their 'spirit ')
+        auth: "[Dialogue, Narrative Descriptions]"
+      - value: Rudimentary Solar Tech Scavenging & Repair  (enough to keep his 1970s-aesthetic gear functional, e.g., his "holy amp-sat chel")
+        auth: "[Narrative Description of him tinkering]"
+      - value: Charismatic/Persuasive Oratory  (can captivate small groups of swamp folk with his unique interpretations of "God's Plan" via the Deified Trio and g ator-symbolism)
+        auth: '[Dialogue "Bayou Beatitudes" Ch. 3]'
+      - value:  Foraging and basic swamp survival skills (finding edible grubs, water, shelter)
+        auth: "[Demonstrated Actions ]"
+    Limitations:
+      - value: Not a combatant; relies on wits, reverence, or flight.  Average strength for his build.
+        auth: "[Narrative Choices]"
+      - value: Largely ignorant of  Beetriot politics, advanced GE science (beyond awe at its results), and the intricacies of the meat oligarchy's  operations. His knowledge of the Deified Trio is filtered through apocryphal swamp tales and personal revelation, not " official" doctrine (if any exists). Distrusts/disdains Automatons and LLMs.
+        auth : "[Dialogue, Internal Monologue hints]"
+    undersaturation: Ability to swim long distances; literacy level (likely basic);  knowledge of specific ghost rituals (likely none, relies on intuition/awe).
+
+  PsychologicalProperties:
+    Core_Traits :
+      - value: Deeply Sincere / Genuinely Devout (to his unique interpretation of Primal Mama' s divinity)
+        auth: '[Consistent Actions, Internal Monologue "Bayou Beatitudes"]'
+      - value: Nature -Focused / Pantheistic (sees the divine in the sun, the swamp, the gators, and the " spirit" of the Deified Trio embodied within)
+        auth: "[Sermons, Dialogue]"
+      - value: Res ilient / Stoic (endures hardship with faith that it's part of "The Great Gator's Plan") 
+        auth: "[Reactions to adversity]"
+    Dominant_Emotion:
+      value: Awed Reverence /  Earnest Seeking
+      auth: "[Narrator Descriptions, Expressed Dialogue]"
+    Key_Motivator:
+      value : To understand and share the "Truth of the Sun-Snout Cycle" – his syncretic belief system that  connects solar power, alligator life-cycles, and the virtues of Reynolds, Reed, and Parsons. To "Find God " by finding the purest expression of this cycle.
+      auth: '[Explicit Statements "Bayou Beatitudes" Ch.  1]'
+    Key_Belief:
+      value: The Deified Trio were prophets of a simpler, more authentic way  of life, whose wisdom is now reflected in the resilience of the solar-powered alligators and the enduring spirit of the swamp.  Believes cattle are "false idols" representing a decadent, forbidden past.
+      auth: "[Sermons,  Dialogue]"
+    Internal_Conflict:
+      value: His intuitive faith vs. the indifference or hostility of the world; the  beauty he sees vs. the brutality of the swamp and human greed; reconciling the "good ol' boy" charm of  his deities with the profound spiritual truths he ascribes to them.
+      auth: "[Internal Monologue, Reactions to  challenges]"
+    Subjective_Memory_Content:
+      value: Vivid "visions" he interprets as messages from  the Deities or the "Primal Gator Spirit," often involving sunlight, water, and the imagined "sacred geometry" of  alligator scales.
+      auth: "[Narrative Depiction of his \"trances\"]"
+    undersaturation: Specific  childhood experiences leading to his faith; opinions on vampire bunnies (likely sees them as another strange facet of Mama's will); detailed  understanding of the "invisible women" conspiracy (likely dismisses it as a distraction from true spiritual concerns).
+
+  SocialRelational CategoricalProperties:
+    Official_Role:
+      value: None. Self-proclaimed "Servant of the Sun -Snout" or "Brother of the Bayou Deities."
+      auth: "[Self-description]"
+    Social_Status :
+      value: Outsider mystic. Tolerated by some remote swamp communities for his perceived harmlessness or occasional wisdom; ignored  or mocked in more "civilized" areas like Lickskillet.
+      auth: "[Interaction scenes]"
+     Primary_Affiliation:
+      value: None formal. Considers himself affiliated with "All Creation under the Solar  Trinity."
+      auth: "[Self-description]"
+    Secondary_Affiliations:
+      value: May have fleeting, respectful  interactions with isolated Erpenthropes, seeing them as fellow (though perhaps misguided) seekers of a deeper truth.  Wary of Swamp Witches, whose magic feels "too earthy, not enough sun."
+      auth: "[Potential  Narrative Beats]"
+    Key_Relationships:
+      - value: "To the \"Spirit of the Swamp/Alligators \": A reverent, one-way communion. He \"listens\" to them."
+        auth: "[Internal  Monologue, Actions]"
+      - value: "To the Deified Trio (Reynolds, Reed, Parsons): As  divine figures whose essence he seeks to understand and emulate in a Primal Mama context."
+        auth: "[His \"prayers\"  and sermons]"
+      - value: "To 'Believers' (potential small, scattered following): A teacher/guide, offering  a different path to spiritual understanding."
+        auth: "[Narrative potential]"
+    Species_Type:
+      value: Human  (Baseline Primal Mama Strain)
+      auth: "[Default/Description]"
+    undersaturation: Any family ties (likely  estranged or non-existent); specific enemies (beyond those who inherently distrust his ways).
+
+  ModalProperties:
+     Entries: # Assuming a list in case a character could have more. For Silas, one entry showing 'none'.
+       - Property_ID: MODAL-SILAS-00
+        Modal_Property_Itself:
+          value: None  authenticated as supernatural. His "visions" and "connections" are textually presented as intense psychological experiences or heightened intuition, not  confirmed paranormal abilities altering alethic, deontic, or epistemic modalities for him.
+        Description:
+          value : Operates fully under general world rules. His perceived spiritual insights are a product of his unique psychological makeup and deep immersion in his belief  system.
+        Limits:
+          value: Cannot command alligators, see actual ghosts (beyond common perception if any ), or perform magic.
+        Authentication_Overall: # For the whole modal property block as per template structure
+          value:  Consistent portrayal as devoutly believing but not supernaturally empowered, per Primal Mama Coherence Protocol stating ghosts require ritual  magic he doesn't possess.
+    Note: His power is persuasive and spiritual, not modal-exceptional.
+
+   AxiologicalProperties:
+    Reputations:
+      - context: Swamp Dwellers
+        value: " Authenticated as viewed variously: 'touched by the sun,' 'wise in his own way,' 'harmless,' ' speaks some truth ''bout the gators.' Some offer him food/shelter."
+        auth: '[Dialogue/Interactions  "Bayou Beatitudes"]'
+      - context: Lickskillet Populace
+        value: Generally dismissed as a ' swamp crazy,' 'gator-botherer,' or 'religious nut.' May be a source of amusement or  mild annoyance.
+        auth: "[Implied through setting descriptions]"
+      - context: Meat Oligarchy/Beetriot Elite  if encountered
+        value: Would be viewed as utterly irrelevant, possibly a dangerous subversive if his anti-cattle rhetoric gained  traction (unlikely).
+        auth: "[Logical extension of world's power dynamics]"
+    Moral_Alignment _Narrative_Framing:
+      value: Authenticated via narrative focus as fundamentally sincere, well-intentioned, and  seeking a form of purity/truth, even if his path is eccentric. His reverence for life (gator-centric)  contrasts with exploitative forces.
+      auth: "[Narrator tone, thematic emphasis]"
+    undersaturation: Reputation  among Erpenthropes (curiosity? disdain?); specific Swamp Witch opinions.
+
+  HistoricalProperties:
+     Origin:
+      value: Authenticated as originating from a now-defunct, isolated fishing camp deep in the  Atchafalaya Basin remnant. Likely had a profound 'spiritual awakening' or psychological break after a traumatic event (e .g., gator attack, prolonged starvation/isolation) several years prior to narrative present.
+      auth: '[ Backstory Hints "Bayou Beatitudes"]'
+    Key_Past_Event_Connection_Subjective:
+      value:  Claims his "Calling" came during a "Great Solar Flare over the Saurian Sanctuary," where he "conversed with  Burt's laughter on the sunbeams and Jerry's wisdom in the gator's growl." This is  a personal, uncorroborated mystical experience.
+      auth: "[His own testimony]"
+    Inherited_Items: 
+      value: His grandfather's cracked aviator sunglasses (1970s style), which he treats as a holy  relic, believing they "filter out the false world, show the God-Light."
+      auth: "[Narrative  inventory]"
+    undersaturation: Details of his life before his "Calling"; specific family members; precise nature of the traumatic  event that spurred his transformation.
+
+CharacterConstitutionSummaryAndNarrativeFunction:
+  Core_Essence: Brother Silas is constituted as  a sincere, albeit eccentric, spiritual seeker in Primal Mama, attempting to synthesize a coherent faith from the disparate elements of his  world - the deified celebrity trinity, the life-giving power of the sun and GE alligators, and the raw, often  brutal, beauty of the swamp. He is a man whose Psychological properties (deep faith, reverence for nature) drive his Functional  actions (preaching, swamp wandering) and define his Social position (outsider mystic). His value system (Axiological) is  a direct rejection of the cattle-artifact taboo and the urban elite, finding divinity in the very things that sustain the common folk, framed  by the 1970s aesthetic he views as inherently more "authentic" or "blessed."
+  Primary _Narrative_Function: To act as a voice of alternative spirituality and a living embodiment of the world's unique cultural  miasma. He can serve as a moral compass (however skewed), a source of unexpected wisdom or local knowledge, a foil  to more cynical or materialistic characters, or a catalyst for exploring the world's deeper themes of faith, adaptation, and the  search for meaning in a bizarre reality. He represents one way individuals "find God" in Primal Mama.
+   Key_Internal_Conflicts_From_Bundle: The tension between his profound, personal faith and the skepticism/indifference of others . The challenge of reconciling the often-violent "natural law" of the swamp (and its gators) with his perception of  a benevolent divine plan. His desire for a "purer" spiritual connection versus the materialistic interpretations of the Deified Trio that might exist  elsewhere.
+  Potential_for_Development_Based_on_Bundle: Could gain a small, genuine following, forcing  him into a leadership role. Might encounter an Erpenthrope or Swamp Witch who challenges or expands his understanding of "truth"  and the supernatural. His quest for "God" could lead him to uncover fragments of pre-calamity history or  forgotten lore that recontextualize his faith. He might be forced to confront the "death by burger" rule or  the oligarchy in a way that tests his pacifist nature.
+

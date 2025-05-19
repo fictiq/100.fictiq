@@ -1,0 +1,177 @@
+
+world: Primal Mama
+codexVersion:  0.1 - Character Constitution
+lastUpdated: '[Current Date]'
+leadArchitects: '[Your Name/Studio Name]'
+
+ characterProfile:
+  entityID: CHAR_RaylanBeauregard_01
+  characterName: Ambassador  Raylan "Ray" Beauregard
+  entityType: Person (Human)
+  archetype: Pragmatic Diplomat /  Reluctant Elitist
+  primaryAuthenticationSources:
+    - This Codex Entry
+    - Primal Mama  Coherence Protocol v0.1
+  canonTier: Tier 1
+  authenticationStatus: Authenticated_Canonical _Active
+
+  authenticatedPropertyBundle:
+    physicalProperties:
+      appearance_General:
+        description: Human male, early  40s, well-maintained but not overtly ostentatious. Keeps his dark hair shorter than the prevailing Beet riot elite styles, hinting at practicality.
+        auth: '[Primal Mama Coherence Protocol (PMC) - Beet riot Elite context]'
+      appearance_Specific_Features:
+        description: Sharp, intelligent eyes that often betray a  hint of weariness. A calculated, polite smile that rarely reaches his eyes unless genuinely amused or in private.
+        auth: '[ PMC - Implied social navigation]'
+      appearance_Distinctive_Marks:
+        description: A faint, almost invisible  scar along his jawline from a "misunderstanding" during an early diplomatic mission to a remote swamp settlement. Prefers high collars  that often obscure it.
+        auth: '[Character Backstory Snippet]'
+      typicalAttire:
+        description: Im peccably tailored suits adhering to the late 1970s aesthetic – think textured fabrics, slightly wider lap els, muted earth tones or deep blues. Always carries a polished, wood-paneled attache case with chunky brass  latches, containing data-slates and negotiation aids.
+        auth: '[PMC - Technological Aesthetic Constraint, Beet riot Status]'
+      voice_Speech_Pattern:
+        description: Cultivated Beetriot accent, smooth and articulate. Can  modulate to a more direct, less formal tone when dealing with Lickskillet locals, though it sometimes sounds forced.  Uses carefully chosen, diplomatic language.
+        auth: '[PMC - Beetriot/Lickskillet contrast]'
+      gait _Mannerisms:
+        description: Composed and deliberate. A habit of subtly adjusting his tie or cufflinks when under pressure . When observing, he has a stillness that can be unnerving.
+        auth: '[Character Observation]'
+       associatedScent:
+        description: A subtle, expensive synthetic sandalwood cologne, often overlaid with the faint, unavoidable mi asma of processed alligator and swamp dampness after visits to Lickskillet or the Saurian Sanctuary periphery.
+         auth: '[PMC - Environmental Details]'
+      physicalUndersaturation: Exact height/weight, specific brand of his suits,  details of his private residence in Beetriot.
+
+    functionalProperties:
+      skills:
+        - name: Expert  Negotiation & Diplomacy (Core Skill)
+          detail: particularly in navigating Beetriot oligarchy interests and Lickskillet  practicalities.
+          auth: '[PMC - Implied Role Function]'
+        - name: Proficient in Beetriot  Legalese and Trade Customs
+          detail: regarding alligator processing and byproduct distribution.
+          auth: '[PMC - Economic  Structure]'
+        - name: Working knowledge of major Swamp Dialects and Customs
+          detail: sufficient for basic communication  and avoiding egregious offense, learned out of necessity.
+          auth: '[PMC - Beetriot/Lickskillet divide]' 
+      abilities:
+        - type: Social
+          description: Can leverage Beetriot connections to access resources or information,  though this often comes with obligations.
+          auth: '[PMC - Beetriot Elite status]'
+      limitations:
+         - type: Physical
+          description: Not a combatant; relies on Beetriot security details when in potentially hostile territory . Average physical fitness for a desk-bound official.
+          auth: '[Character Role]'
+        - type: Knowledge 
+          description: Limited understanding of deep swamp esoterica (Swamp Witch magic, Erpenthrope lore beyond  official briefings). Finds the deification of celebrities like Burt Reynolds baffling but politically necessary to acknowledge.
+          auth: '[PMC - Ep istemic divides, Axiological values]'
+        - type: Social
+          description: Deeply distrusted by many  in Lickskillet and mom-and-pop operations due to his Beetriot affiliation. Must constantly fight against the  "Automaton/LLM User Stigma" if employing such tools, even indirectly via his staff, preferring human aides for sensitive  tasks.
+          auth: '[PMC - Deontic Rules, Social Stigma]'
+        - type: Technological 
+          description: Bound by the 1970s aesthetic for all official equipment; privately frustrated by the inefficiency this imposes  on data processing and communication compared to what *could* be, but adheres to the norm.
+          auth: '[PMC  - Technological Aesthetic Constraint]'
+      functionalUndersaturation: Specific languages known beyond dialects; proficiency with any personal defense tools ; his personal stance on firearm ownership.
+
+    psychologicalProperties:
+      coreTraits:
+        - description: Prag matism / Realism (often bordering on cynicism)
+          auth: '[Implied by negotiations, internal thoughts]'
+         - description: Ambition (to maintain/improve his standing within Beetriot's power structure, believes a stable system benefits  all, including himself)
+          auth: '[Character Motivation]'
+        - description: Professional Integrity (believes in upholding agreements he  makes, even if the terms are hard-won)
+          auth: '[Observed Actions]'
+      dominantEmotion:
+         description: Controlled Stress / Weariness (from constantly balancing conflicting demands and navigating cultural minefields)
+        auth: '[ Physical tells, internal monologue hints]'
+      keyMotivator:
+        description: Maintaining stability and predictable trade between  Beetriot and the alligator-producing regions; avoiding large-scale social unrest that could disrupt the flow of resources (and  his career).
+        auth: '[PMC - World Economy, Role]'
+      keyBelief:
+        description: Believes  that order, even an imperfect one, is preferable to chaos. Secretly believes the "invisible women" conspiracy is a dangerous  distraction from tangible economic and resource problems.
+        auth: '[PMC - Conspiracy Theories, Character Logic]'
+      internal ConflictEntries:
+        - description: Loyalty to Beetriot's oligarchical interests vs. a grudging respect for  the resilience/resourcefulness of Lickskillet's people
+          auth: '[PMC - World Tensions]' 
+        - description: the necessity of the 1970s tech aesthetic vs. a desire for genuine efficiency
+           auth: '[PMC - World Tensions]'
+        - description: personal discomfort with the overt deification of celebrities vs. the need  to pay public lip service.
+          auth: '[PMC - World Tensions]'
+      subjectiveMemoryContent:
+         description: Clear recollections of Beetriot's official history of the Calamity; remembers the gradual tightening of the " death by burger" laws. Vague, uneasy feelings about the true extent of the meat oligarchy's power. 
+        auth: '[PMC - Historical/Epistemic Rules]'
+      psychologicalUndersaturation: Deep personal fears beyond career  failure; specific views on art/music beyond the deified celebrities; personal relationships outside his professional sphere.
+
+    socialRelational CategoricalProperties:
+      officialRole:
+        description: Ambassador Plenipotentiary for the Beetriot City- State Council, primary liaison to Lickskillet and designated swamp territories.
+        auth: '[Character Concept]'
+       socialStatus:
+        description: Upper-echelon Beetriot official, respected within the city's power structures but  viewed as an arm of the oligarchy by many outsiders.
+        auth: '[PMC - Social Dynamics]'
+       primaryAffiliation:
+        name: Beetriot City-State Council (Formal)
+        auth: '[Role]'
+      secondary Affiliations:
+        - description: Has carefully cultivated, transactional relationships with certain "mom-and-pop" operation leaders  in Lickskillet to gain alternative perspectives, unknown to most in Beetriot.
+          auth: '[Narrative Potential, PMC  - Erpenthropes as truth-seekers]'
+        - description: Has a cautious, information-only contact within the  Erpenthrope community, met through extraordinary circumstances.
+          auth: '[Narrative Potential, PMC - Erpenthropes  as truth-seekers]' # Note: Original MD auth covered both, replicated here.
+      keyRelationships:
+        -  to: Mayor Thibodeaux of Lickskillet (NPC)
+          nature: A relationship of strained necessity, built on mutual  (if grudging) pragmatism and shared interest in preventing total breakdown of trade. Constant negotiation and testing of boundaries.
+           auth: '[Implied Role Dynamic]'
+        - to: The Meat Oligarchs (Faction)
+          nature : Owes his position partly to their backing but is also wary of their overreach; tries to mediate their demands with achievable  realities on the ground.
+          auth: '[PMC - Deontic Rules, Economic Friction]'
+        - to : 'Silas' (Erpenthrope Contact - NPC)
+          nature: A clandestine, purely informational source. Raylan  provides filtered Beetriot intel in exchange for warnings about deep swamp instabilities or unusual Erpenthrope activity that might affect Beetriot.  Both parties are deeply suspicious of the other.
+          auth: '[PMC - Erpenthrope characteristics]'
+       species_Type:
+        description: Human (Beetriot Strain - implying certain societal conditionings)
+        auth : '[PMC - Default]'
+      socialUndersaturation: Specific family ties within Beetriot; mentors or rivals within the Beet riot Council; full extent of his network in Lickskillet.
+
+    modalProperties:
+      - propertyID : N/A
+        property: None Authenticated.
+        description: Operates fully under the established aleth ic, deontic, axiological, and epistemic modalities of Primal Mama for a baseline human of his standing. 
+        limits: N/A
+        authentication: PMC - General World Rules.
+      note: Raylan Beauregard  possesses no inherent supernatural or exceptional modal qualities. His influence stems from his social position and skills.
+
+    axiologicalProperties:
+       reputations:
+        - group: Beetriot Elite
+          view: Authenticated as viewed as 'competent', ' a necessary realist', 'effective negotiator', though some harder-line oligarchs see him as 'too accommodating' to swamp interests.
+           auth: '[PMC - Social Dynamics]'
+        - group: Lickskillet Populace
+          view:  Authenticated as 'the official face of Beetriot oppression' by many, but a smaller, more pragmatic segment sees him  as 'predictable' and 'someone you can at least talk to, unlike some others from the city'. Known for  honoring the letter of agreements.
+          auth: '[PMC - Social Dynamics]'
+        - group: Erpenthropes  with knowledge of him
+          view: Viewed as a potentially useful, if unreliable, source of information on Beetriot's intentions;  a typical "surface-dweller" preoccupied with temporary power structures.
+          auth: '[PMC - Erpenthrope Values]' 
+      moralAlignment_NarrativeFraming:
+        description: Authenticated as a pragmatic neutral, striving for functional order within  a flawed system. His actions are driven by perceived necessity and enlightened self-interest, rather than altruism or malice. 
+        auth: '[Character Actions, Internal Conflict]'
+      axiologicalUndersaturation: Reputation among Swamp Witches (likely  dismissive or irrelevant); perception by those who actively worship the deified celebrities.
+
+    historicalProperties:
+      origin:
+         description: Authenticated as born in Beetriot approximately 15 years post-Calamity, to a family that successfully navigated the  societal shifts by investing early in sanctioned GE alligator byproduct refinement technologies.
+        auth: '[PMC - Calamity After math, Economic Shifts]'
+      keyPastEventConnection:
+        description: Spearheaded the "Lickskillet  Accord negotiations" five years prior, a tense but ultimately successful (for Beetriot) agreement that standardized alligator meat grading and  taxation, further fueling oligarchy friction but preventing open revolt at the time.
+        auth: '[Character Backstory Element]' 
+      inheritedItems_Status:
+        description: Inherited his family's knack for navigating bureaucracy and a significant, though not  top-tier, social standing in Beetriot. His attache case, a 1970s-style  heirloom, was modified with secure internal data-slate readers.
+        auth: '[Character Backstory, PMC - Tech  Aesthetic]'
+      historicalUndersaturation: Details of his education; specific mentors or patrons in his rise; personal experiences during major historical  events post-Calamity like the full criminalization of cattle consumption.
+
+  characterConstitutionSummaryAndNarrativeFunction :
+    coreEssence: "Ambassador Raylan Beauregard is constituted as a high-functioning cog in  Beetriot's complex machinery, a man defined by his role as an intermediary between the polished, technologically advanced (within  70s aesthetic constraints) urban center and the volatile, resource-rich swamplands. His pragmatism is  born from navigating the inherent contradictions of Primal Mama: the reliance on GE solar alligators while adhering to retro tech, the deification  of pop culture icons, and the absolute taboo of cattle flesh juxtaposed with its artifact status. He is a product of Beetriot 's stratified society, skilled in its games, yet forced to confront the raw, often spiritual, realities of the world  beyond its concrete walls."
+    primaryNarrativeFunction: To act as a viewpoint character into the political and economic mach inations between Beetriot and the wider Primal Mama world. He can drive plots involving trade disputes, resource allocation, cultural  misunderstandings, and the friction caused by the meat oligarchy. He can also be a conduit for revealing the complexities and  hypocrisies of Beetriot society and its relationship with the supernatural elements it officially ignores or marginalizes.
+    key InternalConflicts:
+      - Beetriot loyalty vs. swamp realities
+      - professional ambition vs. personal weariness
+      - upholding  the 1970s aesthetic/social stigmas (Automaton use) vs. the desire for practical efficiency
+       - managing oligarchy demands vs. preventing swamp-dweller revolt
+      - navigating the official dismissal of supernatural occurrences (Er penthropes, ghosts, witches) while potentially encountering irrefutable evidence of them.
+    potentialForDevelopment: Could  be forced to make a stand against the oligarchy or fully commit to its agenda. Might develop a deeper, more empathetic  understanding of swamp culture or Erpenthrope perspectives, potentially challenging his Beetriot conditioning. Could uncover dangerous truths about the Cal amity, the "invisible women" conspiracy, or the true nature of the deified celebrities, forcing him to confront  the epistemic foundations of his society. May be pushed to secretly violate the Automaton/LLM user stigma for a  critical advantage.

@@ -1,0 +1,58 @@
+Working for Madman Lugos
+Well... we didn't make it very far in our quest to sail around the north of Skellige. In fact, we're now in the dungeon of Kaer Muire, stronghold of Jarl "Madman" Lugos." We're farther away than when we started! But we did get a few things done, and scored a bit of loot, so it wasn't all a loss.
+
+Stranger in a Strange Land (level 12)
+Head to the gate to talk to the guard. Geralt naively asks when his trial date is, and the guard gives us a time-table that's just... unacceptable. Nothing you say can persuade the guard, but fortunately, a Witcher has other means... either use Axii on the guard, or end the conversation and talk to a man at the opposite end of the cave called Simun Brambling, who will promise that you'll get out of here today, one way or another. He'll tell you what you need to say to get the guard to let you have your trial today-but you'll owe him a favor later.
+
+Either way, you'll be taken to your trial, where Leif-the father of the thugs you killed-is advocating for your demise. Say what you will-the trial is a sham. The Jarl will sentence you, then offer a way out, then provide the way out for you... in exchange for a favor. Another Skelliger extorting us into help him, and another Jarl whose idiot kid has run off and now needs rescuing. The quest "Stranger in a Strange Land" ends, and the quest "The Cave of Dreams" begins.
+
+Objective	Reward
+For surviving Skellige politics	XP Varies
+Kaer Muire/Holmstein's Port
+Well, while we're here, we might as well explore the place, right? On the grounds of Kaer Muire you'll find a Smith an an Armorer, who both play Gwent, as well as offering typical merchant services. Leave Kaer Muire and follow the winding road to the west until you come across a notice board. Near here you'll find Mathios. Might as well hand him "Holger Blackhand's Horn" while we're here. He'll lament the death of the thieves, but will pay up, nonetheless. If you follow the winding road west you'll find "Holmstein's Port," where there's precious little to see. There's a Merchant north of the signpost that will play Gwent and do business, but aside from that, there's little to recommend this place.
+
+Objective	Reward
+For returning the horn to Mathios	XP Varies
+20 Crowns
+Might as well help out the Jarl's son since we're down here (been an awful lot of "might as wells" in this part of the guide, hasn't there?) Oh well. The Jarl's idiot son is to the south-east. If you go by land you'll have to fight or avoid an Armored Arachas (level twenty-six) and some Endrega Drones (level twenty), which shouldn't be too much trouble. There also might be some White Wolves (level fifteen) along the way. A simple enough journal... on the other hand, the location is coastal, and there's far more to see and loot if we sail there (and go a bit out of the way while doing so.) Who knows? Maybe we'll have better luck sailing to our destination this time than last time?
+
+Smuggler's Cache(s) (levels 13 and 16)
+Sail north-west from Holmstein's Port to find a Smuggler's Cargo event. Another similar event can be found south and slightly west. Both are guarded by Sirines (level thirteen), but there are only two chests in the southern of the two. Sacrilige! Anyways, a third Smuggler's Cache event can be found to the south-east, complete with Ekhidna (level sixteen) defenders. A fourth such event is north of an island to the south-west, where you'll find more Sirines (level thirteen). Unlike the previous two events, though, there are three chests here. Hooray...
+
+Spoils of War
+For an ever-so-slight change of pace sail south-east to the southern side of an island, where you'll find a "Spoils of War" event. At the location, dive off your boat and swim underwater to find a chest near a small sunken ship.
+
+Smuggler's Cache/Hidden Treasure (level 13)
+Sail east to find another Smuggler's Cache event along the western side of an island, then sail to the southern side of the island to find a "Hidden Treasure" event. Deal with some Sirines (level thirteen), then dive near a capsized ship, near (south of) which you'll find several corpses, crates, and, most importantly, a chest.
+
+Smuggler's Cache (level 13)
+Return to your boat and pilot it north-east to find an abandoned longboat floating aimlessly. When you approach you'll discover another "Smuggler's Cache" event, and you'll notice that the boat isn't entirely abandoned-it now houses a number of Sirine Nests. Sadly, these can't be destroyed, but it's just as well-this boat won't float forever. Kill the Sirines flying around (level thirteen) and loot the chests floating around.
+
+Cave of Dreams (level 14)
+That's enough looting for now-sail to shore or walk there, if you skipped the sailing and approach some Skelligers sitting on the shore near a boat. An uppity one rudely questions Geralt. Either use Axii to convince him to let you past (for bonus experience) or just pick one of the other two dialogue options to get past. Board the boat and talk to Blueboy Lugos, who is no more friendly than his crewmates were. Convince him to take you into the Cave of Dreams with you and say you're ready to go and you-and Lugos's best warriors-will head into the cave... after some proper introductions, of course, and a description of why the place is called the "Cave of Dreams."
+
+Objective	Reward
+For using Axii on Lugos's crewmate	40 XP
+Venture into the cave with your hardy Skellige pals and drop down a ledge, where four Nekker Wariors (level fourteen) lurk. Kill them, then Geralt and the Skelligers will examine a totem and talk about the next phase of their plan. concede, and after the effects of the concoction kick in, you'll be ready to face your "dreams."
+
+Objective	Reward
+For going on a ride	XP Varies
+Once you're good and hallucinating venture north to witness a shared vision, then continue up either passage to the north-east or north-west, they both lead to the same place. In an out-of-place court you'll find some specters. When you approach, Uve's nightmare will play out, and the specters (level fourteen) attack. Despite being ghosts, they fight like humans... and spectral shields are just as good as real ones. Cut them down and some rocks will move out of your way to the south-west.
+
+Objective	Reward
+For surviving Uve Jabberjaw's dream	XP Varies
+Continue south-west until you find another silly apparition in the tunnel to the south-west. If you keep going that direction, you'll find another Skelliger's dream, this time being beset by a pair of spectral Sirines (level thirteen). You should be well-versed in killing these beasties by now, and, if you did any of the optional exploration along the way, you've certainly fought off more than a pair of them before.
+
+Objective	Reward
+For surviving the Sirine dream	XP Varies
+Go north-west and some rocks will lower out of your way. Continue in that direction to find another totem, just after Geralt voices his concerns. Approach it and Lugos will meet his nightmare-a rather mundane one, but something many can probably relate to. Defeat the spirit that haunts him (it's on fire, and will pass that status on to you, but it does paltry damage compared to the Ifrit we fought earlier) and continue uphill to the north-west.
+
+Objective	Reward
+For surviving Blueboy Lugos's dream	XP Varies
+Drop down a ledge to reach the snowy site of Geralt's nightmare, which is predictable enough. Defeat two Hounds of the Wild Hunt (level thirteen), then attack their master. After a bit of fighting Geralt will collapse, only to be woken up later by Lugos. If you asked for money he'll be rude to you (even though you were extorted into this in the first place)... or at least, he'll say he will, but he doesn't actually pay you. Now who doesn't have any honor? Oh well. This ends "Cave of Dreams."
+
+Objective	Reward
+For surviving your own dream	XP Varies
+Note: All this wandering around might have seemed frivolous, but it did have a purpose... honest. Okay, maybe we did a bit more than we needed to, but if you completed either "Possession" or "The Lord of Undvik" before this quest, it would have complicated matters. Best that we deal with it now.
+
+Even though Blueboy Lugos might have stiffed us, there's still treasure to be gained. Loot some skeletons in the chamber you wake up in, then head north-west to find two chests, a sack, and a skeleton to loot. Two more corpses lie in the eastern tunnel, but they're not nearly as lucrative. When done, head up a ramp to the south and leave the cave. Hmm... seems a bit smaller when you're not intoxicated...

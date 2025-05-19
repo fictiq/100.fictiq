@@ -1,0 +1,43 @@
+Through Time and Space
+Follow Avallac'h through Novigrad to arrive at the house Sarah haunted (and perhaps still haunts). Make your into the cellar and continue east, through the hole in the wall you (should have) blasted with Aard back when we first came here. If not, do so now and head through the portal.
+
+Desert World
+When you arrive in another world, follow Avallac'h through the desolate landscape as he gives you an environmentalist lecture. When you reach a portal he'll tell you that it'll take a few moments for it to open, which... we all know what that means. Kill the Sandcrabs (level twenty-five) that assail you and, when the portal opens, head on through to escape the endless waves of crustaceans.
+
+Plant World
+You're now in a new world, and separated from Avallac'h. Head south-west down a broken ledge, then turn south to spot the next portal. Continue around the pillar upon which you arrived, climb a ledge to the east, drop down another, then head down a ramp to the south, where suffocating gas awaits. Make your south to another ledge quickly, where the high ground will allow you to get some fresh air. Continue the process again-head south through choking fog and onto another ledge, then loot a skull on the wall. Now head west and drop down a ledge to escape the fog, breaking the whole "high ground = fresh air" rule.
+
+Place of Power
+Continue west down a ramp, then turn south, scale a ledge, then continue south to find a Place of Power. Claim your ability point, then return back north and look out over the sea of red plants. To the north-west you should see an island of high-ground amidst the sea of poisonous plants. Drop down a ledge and climb onto the high ground to the north-west to spot another island. Be wary, as the poison here drains your breath bar far faster than it did earlier. Chugging some Killer Whale might help you out here.
+
+Next head to the southern end of the island to see a long run ahead of you-past a sea of red to the south the next pair of ledges can be found. Get a running start and spring over there. Climb two ledges, then turn south-east and climb a third. Look over to the south to find... more poison to cross. Wonderful. You should also spot a ledge in the distance beyond. When you're ready, drop down and run through the rib cage of a long-dead giant beast and scale a ledge to the south-fortunately the poison is weaker here than it was earlier, so you should have plenty of time. Turn east and head over to a small ledge over-looking more poison to spot the portal. One more run to the east should get us out of this wretched place.
+
+Water World
+You'll now appear underwater, the portal being south of where you appear. There are a few things to loot down here, and you can surface for air, so take your time, loot around, then swim leisurely to the next portal.
+
+Ice World
+We've been to desert world, poison world, water world, now it's time for... ice world! Head north down a ledge and turn west to enter an icy tunnel. Follow the tunnel until you find a sheet of ice blocking you way-hit it with Igni to melt a passage through. The next part is fun. Fun here is being used as a sarcastic synonym for "annoying". When you're exposed to the weather, your health will deplete. Rapidly. You'll have to find shelter along the way as you look for the next portal. Unlike the poisonous plant world, you're looking for sheltered alcoves from which you can escape the weather, instead of ledges to climb, and there's no grace period-the longer you're exposed, the more damage you'll take, but you will take damage. Save when you reach shelter, and wait for your health to regenerate (which should happen quickly once your out of the blizzard).
+
+Your first shelter is to the north-west, just follow the wall to find a cubby not entirely covered by snow and protected from the wind. An "X" is marked onto a rock nearby. Follow the rocks to the north to find your second shelter-a brave, stand-along rock which will protect you from the wind. Turn east to see your next destination-some stairs with rocks sheltering them. Sprint east to reach the relative safety of the walls and make your way to the eastern edge of said structure. Pan your camera to the north to see more walls to the north you can hide behind. Head north-east and huddle behind the walls, then look east to find a slope running north.
+
+Slide down the slope to the north and you'll get to watch a scene where Geralt comments on the signs of life he spots. Turn south-west from where you appear after the cutscene and enter a house. Head upstairs and light a campfire, which will quickly heal Geralt. Search a sack by some corpses to find some "Travler's Notes" which detail life in the blizzard.
+
+Leave the house and run down a slop to the north Continue until you find protection deep in the shelter formed by a "U"-shaped building. To the west is a doorway with another "X" marked next to it. Must be on the right track. Head into the house and drop down to the lower level, where you'll have to fight off two Hounds of the Wild Hunt (level twenty-seven). Do so, then light a fire to the south. When you're ready, head to the doorway and prepare for another desperate sprint.
+
+Our goal is to make it north, but it's far to far too make it in one go. Run north but keep your camera turned west to find a house you can duck into and recover. When you're ready leave the shelter and head north again, keeping your eye to the west where you'll see a house with a projecting, triangular roof buried in the snow. Run over to it and go through a windwo to escape the weather. Loot, head downstairs, light a fire, and loot some more to find "Anna's Notes" on the ground near some skeletons.
+
+Head north and go through a doorway, and back into the blizzard. You'll find a house you can shelter in directy to the north (you can see the doorway from the door of the previous house). There's also a house across (south-west of) from the northern house you run to, but the porch railings might slow you down, so don't bother with it...
+
+Continue north one more time and keep going until you reach a wall with some stairs leading north-east. Once you approach these walls you'll be protected from the blizzard, so don't bother looking for shelter along the way. Head up the stairs and into the tower nearby. Pick up "Ervyl's Diary" near the doorway to the north-east, then continue out in the wall beyond. Look out a breach in the wall to the north-east, where you should see a tower with a doorway built into a structure under it. That, finally, is our destination.
+
+You can either spring right to the tower by heading north-east across the snowy fields, or you can head due north to find a clearing where a number of braziers are. If they're lit, you'll recover health near them, and be safe from the effects of the blizzard. Some Hounds of the Wild Hunt (level twenty-seven) will show up to complicate matters. Kill them, and continue up some stairs to the east to reach the tower.
+
+Once you're in the shelter provided by the doorway under the tower, head down some stairs to reunite with Avallac'h. Catch up with him and discuss Ge'els, then head off through another portal.
+
+Objective	Reward
+For reuniting with Avallac'h	XP Varies
+Follow Avallac'h north through a palace and into a garden where you'll find Ge'els occupied by a bit of leisure. None of the parties involved are terrible polite with each other, but it doesn't prevent business from carrying on. Return home and make use of Corinne's services again to reveal the truth to Ge'els, who will then offer his aid against Eredin. This completes the quests "Final Preparations" and "Through Time and Space" and begins the quest "Battle Preparations". Guess the "final" preparations weren't so final, after all.
+
+Objective	Reward
+For meeting with Ge'els	XP Varies
+For securing support against Eredin	XP Varies

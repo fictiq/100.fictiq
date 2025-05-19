@@ -1,0 +1,79 @@
+A Favor for Triss
+Novigrad is a dangerous place for mages these days, especially if they were part of Lodge of Sorceresses. Triss might just need our help, and we need her services for a few things, so let's go pay our dear friend Triss a visit? Fast-travel to Hierarch Square and, while you're here head north-west of the signpost to find a table littered with papers from which you can take "An Invitation to the Memorial Derby." Read it to start the quest "Race: The Great Erasmus Vegelbud Memorial Derby." Just another one to add to the pile...
+
+Triss is living north-east of Hierarch Square, so leave via the eastern road along the southern end of the square. Along the way you'll spot a Preacher saying mean things about Witchers. Talk to him and Geralt will challenge him to say that to his face, which, to his credit, the Preacher does. Pick the top option to politely point out the good Witchers do, and the Preacher will lose his congregation, will plenty of egg on his face (figuratively). Threatening him or refusing to continuing with him achieves the same results, but somehow feels somewhat less satisfying.
+
+Objective	Reward
+For putting the Preacher in his place	10 XP
+If you think this is the end of this matter, then you've got a lot to learn. Sometime later on while wandering Novigrad you'll be pestered by two Guards (level ten), who ask for your weapons. If you surrender them you'll be informed that the priest you insulted ordered this hit on you. If you kept your weapons, this will be a normal armed melee. If not, you'll need to make do without weapons-you can, however, use Signs, Bombs, and your crossbow).
+
+Objective	Reward
+For fighting off the Priest's goons	25 XP
+From the Preacher head north-east under an arch and follow a road to the north, taking the second road east to find Triss's house. Knock on the door and the landlords will-after some complaining-let you in. Head upstairs and talk to Triss. Poor Triss and her lop-sided house... Anyways, ask her what's on her mind and she'll tell you she got an vague letter promising cash and the possible salvation of some mages, two strong motivators for Triss. Smart girl that she is, though, she's suspicious, especially after the last few close encounters. Offer to help her like the great guy you are and she'll discuss some of the silly details with you.
+
+Tales Statuettes Tell
+Talk to her again and tell her about the two Jade Figurines you've found and she'll reveal their true natures. Pick which one you want to deal with first, then you'll automatically follow Triss to a site where she can safely work her magic. Each of the two statuettes will take their true forms and tell you a story about how they came to find themselves transformed. You'll get a reward and these quests will end.
+
+Objective	Reward
+For freeing the Nobleman	XP Varies
+30 Crowns
+Lesser Glyph of Axii
+For freeing the Soldier	XP Varies
+If you completed "Redania's Most Wanted" and kept the gem from Phillipa's megascope, you can also have Triss take a look at it. You'll witness some sorceress politics involving Phillipa and another mage named Margarita, after which you can give the crystal to Triss, or you can double-down on your desire to give it to Radovid, despite the possible consequences.
+
+A Matter of Life and Death (level 12)
+Head to the fishmarket, which is south-west of Hierarch Square, just north of one of the bridges connecting the docks district to the central district. Once you reach the search area activate your Witcher Senses to find a man just south of the center of the search area-there are plenty of people wearing blue, but the keys will highlight red under your Witcher Senses. After a brief chat you'll have to follow the man. Kill some Bandits (level nine) along the way, then reach your destination, where Triss will join you. The servant will tell you about Vegelbud's problem, and the solution proposed is... well, extravagent.
+
+After the conversation, it's time to get ready. Head over to Elihal's shop in the nonhuman district and buy "Triss' Fox Mask," a mask for yourself, and perhaps some new clothes (tunic, breeches, and shoes) if you wish to appease Triss. Once done return to the Triss, then you'll head to the masquerade together.
+
+From the entrance head south-east along the main walkway where you'll shortly be accosted by a drunk, who mistakes Triss for a prostitute from happier days. Either get into a fight-fight, or keep your impulses under control and just walk off. Continue up some some stairs to reach a gate, near which an actual past acquaintance of Triss's-a man named Moritz-awaits. He'll decline Triss's attempts to recruit him, and what you say during this conversation doesn't really matter.
+
+Objective	Reward
+For telling off the drunk	XP Varies
+Continue through the wooden gate and turn south to find a Croupier, who oversees a little Gwent tournament. You'll have to defeat three Gwent players in order to win all their cards. They're not the best players we've yet encounter, but they're not slouches, either. The cards you win, however, are worth the trouble. For winning the first round you'll win the "Milva" Card, a 10 Strength card with the "Morale Boost" ability that will serve any Scoia'tael deck well. The second round grants you the "Vampire: Bruxa" card which is a 4 Strength card with the "Muster" ability-always welcome in any Monster deck. "Dandelion" is the card you win for defeating all comers-a 2 Strength card that has the unique property of doubling the Strength of all other Close Combat Unit cards in the row... like a "Commander's Horn" card. Sadly, the two don't stack.
+
+Objective	Reward
+For winning the Gwent Tournament	XP Varies
+If you wander around you'll run into your old pal Morvran Voorhis, who will exchange pleasantries with you. Dijkstra can also be found lurking around, appropriately wearing a pig mask. Chat him up and he'll reference some of the unfortunate incidents that seem to go hand-in-hand with him meeting Geralt at parties. Be sure to loot the tables for various foods and alcohol, if you've a mind to.
+
+More importantly, however, you'll find Ingrid Vegelbud to the north. Approach her to start a conversation. Triss will vouch for you and Ingrid will talk about her nitwit son and his father, and give some details on how this rescue will take place. When you're done talking to her you'll get three search areas. Head to the southern-most one, overlooking the lawn to the south, where you'll find a group of party-goers, including your target. Your Witcher Senses won't help you spot him out, but he can be spotted by noting his dark blue shirt, blonde hair, and, of course, his panther mask. It doesn't hurt that he's also babbling about alchemy.
+
+Talk to the idiot and you'll find out that, yes, he really is an idiot. He'll also give you a more definite time table and plan for when and where to sneak him out of the party. Once the plans are made, head back through the gate to the first area (where we were accosted by the drunk and met Moritz) then head south to a secluded spot, where Triss will ask to take a break and chat. Sit on the bench and, if you wish, you can flirt with Triss for a bit. As Triss talks it'll become clear that she found a way to get herself drunk at some point. Wonderful. Follow her south into the hedge maze (looting a chest near the middle while you're in there) then proceed to the western end of the maze to find Triss. When you catch up with her, make a timed decision to kiss her or not, after which Albert shows up.
+
+Geralt and Albert will switch masks and, after letting Triss and Albert leave first, Geralt will follow. When you're back in control, leave the hedge. Along the way the woman in the bird mask will pester Geralt-as-Albert, but she'll run off quickly enough when some Witch Hunters show up. Geralt isn't about to blow his cover, nor is he keen on getting captured, so naturally fisticuffs ensues. This isn't a prize-fight, though, don't be afraid to use Signs to help you out. When they're dead, exit the hedge maze and head north across the estate to reach the stables. After a scene the quest "A Matter of Life and Death" will end, and "Now or Never" begins.
+
+Objective	Reward
+For fighting off the Witch Hunters	XP Varies
+Now or Never (level 14)
+Head back to Novigrad and go visit Triss in her apartment. Near the house you'll notice that some guards are outside, which Geralt recognizes as a bad sign. Inside the house Triss is arguing with her landlords-make a timed decision to stand by, or interfere on Triss' behalf. Afterwards Triss will tell you her problems. Decide whether you should try to save Berthold and Anisse or not, then follow Triss outside and kill the three Guards (level fourteen) outside the house.
+
+If you decided to help Berthold and Anisse, you'll need to follow Triss and she'll (after dodging a patrol of Witch Hunters) lead you to Berthold and Arnisse's house. Kill two Witch Hunters (level ten) inside, then talk to the two and convince Berthold to leave with the Axii Sign. As you leave, loot the house to find the Steel Sword "Gwestog," then follow Triss to the Kingfisher. If, on the other hand, you decided to abandon Berthold and Anisse you'll head right to the Kingfisher.
+
+Objective	Reward
+For using the Axii Sign on Berthold	40 XP
+For rescuing Berthold and Anisse	XP Varies
+Once at the Kingfisher you'll find Olivier, the Innkeep and apparent collaborator-at least, you'll find him if you abandoned Berthold and Anisse. If not, you'll discover that Witch Hunters have reached before us and have killed Olivier. Kill the Witch Hunters (levels thirteen and fourteen) if they're here and Triss will either talk to Olivier, or complain about his demise. Either way head through a door to the east to find the hiding mages. Chat with Dijkstra, who is playing the role of the altruist for now, and Triss will give a speech, after which we'll need to head into the sewers and clear the way for the fleeing mages. You'll also notice that, regardless of whether you saved them or not, Berthold and Anisse are both down here.
+
+Objective	Reward
+For reaching the Kingfisher	XP Varies
+Head past Triss in the north-eastern corner of the cellar and go down several flights of stairs to reach the sewers. Once in the sewers continue south, then west, where you'll encounter some Drowners (level fifteen). Kill them (Triss will offer magical support) then loot a chest along the southern wall, an top of a wooden structure. Continue north and kill another Drowner or two as necessary. Turn to face the eastern wall, which you'll find is susceptible to Aard. Blast the weak bricks aside and loot a chest in the chamber beyond.
+
+Continue west into a chamber and loot the parcels and barrels along the western wall, then head down a passage to the south, where Triss will whine. Isn't scouting something she should have done before luring all the mages here? Backtrack to the north and continue on in that direction into a new room where you can blast the wall to the west with Aard to reach a hidden library. Loot the books-you can always sell them later-and continue to the west to find another Aardable wall to the south. Blast the wall and head through the hole, then turn east to find a chest, then continue west and kill three Drowners (level fifteen) and loot some crates.
+
+Go through a gate to the west and down some stairs where Triss will comment on rats being nearby. Unlike Keira, Triss is more than eager to toast the buggers. Head down some wooden stairs and dispatch the rats, then loot some corpses and crates before continuing to the south. Loot a "Crumpled Note" from a corpse along the eastern wall and read it to confirm that these are, indeed, Cleaver's dumping grounds, then head up some wooden stairs, go through a gate, then up some stone stairs.
+
+Reach a chamber to find that the path splits. If you continue up some stairs to the east you can kill a trio of Drowners (level fifteen) and loot the room for... mostly mundane junk. Go down some stairs to the south and loot the room you find yourself in for much better loot. Activate your Witcher Senses and investigate a corpse, then head down some stairs to the west into another room, where more loot and another pair of corpses await.
+
+Continue west, then follow the tunnel north and investigate the western wall to identify some claw marks. Loot the room to the north, then continue through a gate to the west, stopping to search a small room to the south where more corpses await, which will allow Geralt to identify the beast lurking these parts of the sewers. Loot the chamber to the west, then head down a tunnel to the north and through a gate to reach a chamber occupied by a Katakan (level fourteen). It fights much like our Ekimarra did earlier, except it can also phase around. Luckily, Triss helps out with her magic, keeping the beastie off guard. When it falls, loot it, and the room, then head through a gate and up some stairs to the east.
+
+Objective	Reward
+For killing the Katakan	XP Varies
+Follow the linear tunnels beyond, looting as you go to reach the harbor, where you'll reunite with Dijkstra, who is pessimistic about the ship. Afterwards Djikstra will tease you about Triss before being interrupted by some Witch Hunters (level thirteen). Make quick work of them with Djikstra, his goons, and Triss, afterwards Triss'll go to say farewell to Geralt. If you've got a thing for Triss, try to convince her to stay. If you pull out the heavy artillery and use the "l-word" and if you kissed her during the masquerade... well... Djikstra will try to cheer you up with a story about his own ill-fated attempt to love a sorceress.
+
+Objective	Reward
+For reaching the harbor	XP Varies
+After parting ways with Triss, Dijkstra will speak to you again and tell you about a more permanent plan to deal with the scourge that plagues the mages of the north. Listen to Dijkstra rant about Radovid. Geralt proclaims his fabled Witcher neutrality, and Dijkstra leaves the offer on the table, starting the quest "A Deadly Plot."
+
+Objective	Reward
+For rekindling your romance with Triss	300 XP
+Note: After this quest, the next time you attempt to go through one of the gates to Novigrad's central district you'll be accosted by guards, who are now checking for yet another pass to prove you're not some scandalous magey-type. One of Dijkstra's agents will arrive to give you an "Eternal Fire Letter of Safe Conduct."

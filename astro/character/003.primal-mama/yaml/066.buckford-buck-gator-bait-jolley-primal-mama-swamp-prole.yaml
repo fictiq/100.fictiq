@@ -1,0 +1,175 @@
+
+---
+world: ' Primal Mama'
+codex_version: '0.2 - Character Constitution (Buck Jolley)'
+last _updated: '[Current Date]'
+lead_architects: '[Your Name/Studio Name]'
+
+character_profile:
+   entity_id: 'CHAR_BuckJolley_01'
+  character_name: "Buck ford \"Buck\" 'Gator-Bait' Jolley"
+  entity_type: 'Person (Human  Citizen of Lickskillet)'
+  archetype: 'Grizzled Swamp Prole, Independent Small-Time  Gator Processor'
+  primary_authentication_sources:
+    - 'Primal Mama Codex 0.1 ( World Coherence)'
+    - 'This Codex Entry'
+  canon_tier: 'Tier 2 (Represents a common  citizen archetype within Lickskillet)'
+  authentication_status: 'Authenticated_Canonical_Active'
+
+  authenticated _property_bundle:
+    physical_properties:
+      purpose: 'Define the character''s tangible presence.' 
+      appearance_general:
+        description: '[Human male, appears late 40s/early 5 0s, stocky build, weathered skin from sun and swamp exposure.]'
+        auth: '[Primal Mama  Codex 0.1 - Environmental Context, This Entry]'
+      appearance_specific_features:
+        description:  '[Squint lines around dark, watchful eyes; jaw often working on a quid of ''gator jerky''; receding  hairline under a perpetually worn, faded cap (often with a local brand like "Lickskillet Lures" or "Swamp  Cat Skiffs").]'
+        auth: '[This Entry]'
+      appearance_distinctive_marks:
+         description: "[Missing the top two knuckles of his left ring finger (lost to a 'gator snap' years ago); various  faded scars on arms from hooks and processing tools.]"
+        auth: '[This Entry, reflecting occupational hazards]'
+       typical_attire:
+        description: '[Faded denim or canvas work pants, flannel shirt (sleeves often  rolled up) or a grease-stained t-shirt with a 70s-style graphic (e.g ., airbrushed alligator); heavy-duty rubber boots. Might sport a large, chunky belt buckle, perhaps depicting Burt  Reynolds as "The Bandit" or a stylized alligator.]'
+        auth: '[Primal Mama Codex 0. 1 - 1970s Aesthetic, Axiological Celebrity Worship, This Entry]'
+      voice_speech_pattern:
+         description: "[Gruff, pronounced Southern bayou drawl; speaks plainly and directly, prone to colorful local idioms  and curses. Often ends sentences with \"y''hear?\".]"
+        auth: '[This Entry, reflecting regional archetype]' 
+      gait_mannerisms:
+        description: "[Sure-footed but slightly bow-legged; often spits 'g ator jerky juice; gestures emphatically with his hands when agitated; can expertly maneuver a flat-bottom skiff through tight swamp channels.]" 
+        auth: '[This Entry]'
+      associated_scent:
+        description: '[Swamp water, alligator  blood/musk, cheap synthetic whiskey, and the faint, metallic tang of his 1970s- era processing machinery.]'
+        auth: '[This Entry, reflecting environment and occupation]'
+      undersaturation: '[ Exact height/weight, specific brand of his cap, full tattoo details (if any beyond minor work-related ones).]'
+
+     functional_properties:
+      purpose: 'Define what the character *can* and *cannot* do.'
+       skills:
+        - name: 'Expert Alligator Hunting & Trapping'
+          details: '(Traditional, non-GE  specific methods for wild harvest within Saurian Sanctuary rules)'
+          auth: '[Primal Mama Codex 0.1 - Saurian  Sanctuary Access, This Entry]'
+        - name: 'Proficient Alligator Butchering & Processing'
+          details : '(using his own 1970s-aesthetic analog machinery)'
+          auth: '[Primal Mama  Codex 0.1 - Alligator Meat Economy, Tech Aesthetic, This Entry]'
+        - name: 'Skilled Skiff  Operation & Basic Maintenance'
+          details: '(watercraft is primary transport)'
+          auth: '[Primal Mama Codex 0 .1 - Swamp Environment, This Entry]'
+        - name: 'Competent Lever-Action Rifle Use'
+           details: '(for defense/hunting, reflecting gun ownership norms outside Beetriot)'
+          auth: '[Primal Mama Codex  0.1 - Gun Ownership, This Entry]'
+        - name: 'Basic Repair of Analog/Mechanical 1 970s-Style Technology'
+          details: '(essential for maintaining his equipment)'
+          auth: '[Primal Mama  Codex 0.1 - Tech Aesthetic, This Entry]'
+      limitations:
+        - type: 'Knowledge '
+          description: '[Limited understanding of advanced GE technology (beyond knowing GE gators exist and are solar); struggles with complex legal /bureaucratic maneuvering favored by meat oligarchies.]'
+          auth: '[This Entry, reflecting "mom-and- pop" status]'
+        - type: 'Social'
+          description: '[Lacks significant capital or political influence  to challenge the meat oligarchy directly; operates on a small scale.]'
+          auth: '[Primal Mama Codex  0.1 - Deontic Oligarchy Friction, This Entry]'
+        - type: 'Technology'
+           description: '[Deeply distrusts and refuses to use Automatons/LLMs, impacting his ability to scale or " modernize" even if he wanted to.]'
+          auth: '[Primal Mama Codex 0.1 -  Automaton Stigma, This Entry]'
+      undersaturation: '[Ability to perform advanced electronics repair; knowledge of ritual magic;  proficiency with Beetriot-level tech.]'
+
+    psychological_properties:
+      purpose: "Define the character' s textually constituted inner life."
+      core_traits:
+        - trait: 'Stubborn Independence / Self- Reliance'
+          auth: '[Primal Mama Codex 0.1 - Axiological values outside Beetriot, This  Entry]'
+        - trait: 'Deep-Seated Distrust of Authority/Outsiders'
+          details:  '(especially "Beetriot suits" and meat oligarchy representatives)'
+          auth: '[Primal Mama Codex 0. 1 - Oligarchy Friction, This Entry]'
+        - trait: 'Pragmatism / No-Nonsense Attitude'
+           auth: '[This Entry, reflecting survival in a tough environment]'
+      dominant_emotion:
+        description:  '[Chronic Frustration (with oligarchy, regulations, bad luck) / Resigned Stoicism]'
+        auth: '[This Entry ]'
+      key_motivator:
+        description: '[Maintaining his livelihood and small measure of autonomy; upholding family  tradition (if applicable); providing for any dependents.]'
+        auth: '[This Entry]'
+      key_beliefs:
+         - belief: '[Firmly believes cattle flesh is "unnatural" and "poisonous" as per societal conditioning/law.]' 
+          auth: '[Primal Mama Codex 0.1 - Alethic/Deontic Cattle Rules]'
+        -  belief: '[Reveres figures like Burt Reynolds and Jerry Reed as embodying a kind of "ideal toughness" or "stick -it-to-the-man" spirit, as per cultural deification.]'
+          auth: '[Primal Mama Codex  0.1 - Axiological Celebrity Deities]'
+        - belief: "[Believes in an honest day's  work for an honest day's pay (though feels the oligarchy prevents this).]"
+          auth: '[This  Entry]'
+      internal_conflict:
+        description: '[Desire to provide and be successful vs. Refusal to k owtow to the oligarchy or adopt "soul-stealing" Automaton tech.]'
+        auth: '[ This Entry, drawing on world conflicts]'
+      subjective_memory_content:
+        description: "[Rich memories of swamp life , gator behavior, past run-ins with oligarchy agents, local Lickskillet history/gossip. Remembers  \"better days\" before the oligarchy got so strong.]"
+        auth: '[This Entry]'
+      undersaturation : "[Specific childhood traumas (beyond general hardship); nuanced views on Erpenthropes or Swamp Witches (likely dismiss es them as \"swamp tales\" unless directly encountered); detailed personal fears beyond losing his business.]"
+
+    social _relational_categorical_properties:
+      purpose: "Define the character's place within the world's  networks."
+      official_role:
+        description: "Owner-Operator, \"Jolley's Genuine Gator\"  (a small, independent alligator processing operation in Lickskillet)."
+        auth: '[This Entry]'
+       social_status:
+        description: '[Working-class Lickskillet local; respected for his skills by peers, ignored  or seen as a nuisance by larger economic players.]'
+        auth: '[This Entry]'
+      primary_affiliation :
+        description: '[Lickskillet community; informal network of other small-time gator hunters/processors .]'
+        auth: '[This Entry]'
+      secondary_affiliations:
+        description: '[None formal . Might grudgingly attend local council meetings if something directly affects his business.]'
+        auth: '[This Entry]'
+       key_relationships:
+        - to: '"GatorCorp" (fictional meat oligarchy member)'
+          nature : "[Antagonistic; views them as price-gouging, regulation-manipulating bullies.]" # Value contains col ons
+          auth: '[Primal Mama Codex 0.1 - Deontic Oligarchy Friction, This Entry]'
+         - to: 'other Lickskillet "mom-and-pop" operators'
+          nature: '[Mix  of camaraderie, rivalry, and shared grievance against the oligarchy.]'
+          auth: '[This Entry]'
+        - to:  'local Lickskillet bar owner (e.g., "Mama Grizelda" at "The Snapping  Turtle")'
+          nature: '[Confidante, source of local news and cheap synth-whiskey.]' 
+          auth: '[This Entry]'
+      species_type:
+        description: '[Human (Baseline Primal  Mama Strain, adapted to swamp environment)]'
+        auth: '[Primal Mama Codex 0.1]'
+      unders aturation: "[Specific family members (wife, kids?); detailed history of friendships or feuds within Lickskillet; any  contacts in Beetriot.]"
+
+    modal_properties:
+      purpose: 'Define any inherent unique relationship to world  laws.'
+      property_id: 'None'
+      property_description: 'N/A' # Changed  from 'N/A' to 'property_description' for consistency
+      details: 'Operates fully under general Primal Mama  world rules for human citizens.'
+      limits: 'N/A'
+      authentication: 'Primal Mama Codex 0. 1 (by omission of special properties for this character type)'
+      note: 'Buck Jolley possesses NO unique modal properties, reflecting  his status as an ordinary (albeit skilled) citizen.'
+
+    axiological_properties:
+      purpose: "Define the character' s value status *within* Primal Mama."
+      reputation_lickskillet_peers:
+        description : "[Authenticated as viewed as 'tough', 'honest (if ornery)', 'knows his gators', 'a bit  too loud about his problems with GatorCorp'.]"
+        auth: '[Implied by social role and traits]'
+       reputation_meat_oligarchy_gatorcorp:
+        description: "[Authenticated as 'minor irritant ', 'small-scale operator', 'expendable', 'potential candidate for buyout or squeeze-out'.]"
+         auth: "[Primal Mama Codex 0.1 - Oligarchy Friction, This Entry]"
+      moral_alignment _narrative_framing:
+        description: "[Authenticated via his struggle against larger, exploitative forces as a 'working -class hero' type, embodying values of self-reliance and fair dealing within his community.]"
+        auth:  '[Implied by archetype and conflict]'
+      undersaturation: "[Reputation among Swamp Witches or Erpenthropes ( likely unknown or irrelevant to them); wider reputation beyond Lickskillet.]"
+
+    historical_properties:
+      purpose: " Define the character's known origins and connections to past events."
+      origin:
+        description: '[Authenticated as born and  raised in Lickskillet, likely third or fourth generation post-Calamity. Family has been in the alligator trade since it  became the primary protein source.]'
+        auth: '[Implied by deep local ties, Primal Mama History]' 
+      key_past_event_connection_personal:
+        description: '[Witnessed the gradual consolidation of power by  the meat oligarchies and the squeezing out of many independent operators. Remembers a specific instance where GatorCorp undercut prices or bought out  a friend, solidifying his distrust.]'
+        auth: '[This Entry, supporting psychological traits]'
+      inherited _items:
+        description: "[Authenticated to possess his grandpappy's 'lucky' skinning knife (with a  worn wood-panel handle, 1970s style) and the original, patched-up deed to his  small processing plot.]"
+        auth: '[Primal Mama Codex 0.1 - Tech Aesthetic, This Entry ]'
+      undersaturation: "[Details of his ancestors' specific roles during/after the Calamity; precise timeline of his business  establishment; specific major life events beyond the occupational.]"
+
+  character_constitution_summary:
+    purpose: ' Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle.'
+    core_essence: " Buck 'Gator-Bait' Jolley is constituted as the quintessential Primal Mama swamp-lander: a fiercely  independent, technologically traditional (1970s aesthetic adherent), and deeply pragmatic alligator processor. His identity is forged by the bay ou environment, the economic realities of the gator trade, and the cultural reverence for figures like Burt Reynolds. He is  defined by his struggle against the encroaching meat oligarchy, his adherence to the \"old ways\" of doing things ( including his rejection of Automatons), and his unwavering belief in the toxicity of cattle meat, a foundational rule of his world." #  Value contains colons
+    primary_narrative_function: "To serve as a ground-level perspective on life in Lick skillet, showcasing the everyday impact of Primal Mama's unique societal rules (cattle taboo, gator economy, tech  aesthetic, celebrity worship, Automaton stigma) and the central conflict between \"mom-and-pop\" operations and the  powerful meat oligarchy. He can act as a source of local lore, a reluctant ally, or a protagonist in stories focusing  on the socio-economic struggles within the swamp."
+    key_internal_conflicts: "The need to survive  and provide vs. his stubborn refusal to compromise his independence or values (e.g., by working for/with Gator Corp, or using \"soul-stealing\" LLMs). Pride in his craft vs. the economic obsolescence threatened by larger , more ruthless players. Loyalty to community vs. individual risk when speaking out."
+    potential_for_development: "Could be  pushed to the brink by oligarchy pressure, forcing him to either break, make a desperate alliance (perhaps even with distrusted elements  like an Erpenthrope or seeking aid from a Swamp Witch if truly desperate), or find a novel way to resist  within the world's constraints. Exposure to undeniable supernatural events could challenge his pragmatic worldview. He might be forced to learn more about the  GE gators or solar tech if his traditional methods fail."

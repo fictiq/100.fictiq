@@ -1,0 +1,248 @@
+```yaml
+analysis_metadata:
+   world: Primal Mama
+  analysis_title: "Primal Mama Scenario Analysis: Lickskillet Hust le (v0.1)"
+  analysis_basis: "Scenario Log 0.1 - Licksk illet Hustle (YAML quest data)"
+  framework: "Entity Functional Profile Protocol (Codex v0.1 - Functional Definitions )"
+  primary_entity_analyzed: "Runner (Player Character) ENTITY_PERSON_RUNNER_ PC_01"
+
+scenario_analysis:
+  introduction: |
+    This document analyzes the "Lickskillet Hust le" scenario sequence through the lens of Entity Functional Profiles. It examines how the Runner's authenticated functional properties are applied  to interact with, overcome, or utilize the functional properties of other entities and environmental constraints within the Primal Mama heteroc osm. Each quest step is viewed as an instance of functional interaction, governed by the world's established modalities.
+
+   phases:
+    - phase_title: "I. Bayou Sector - The Mirelands: Initial Exploration & Resource  Acquisition"
+      steps:
+        - step_id: "resonant_node_interaction"
+          step_description:  "Interact with the Resonant Node on the island."
+          runner_functions_applied:
+            - "FUNC -RUNNER-NAVIGATION-SKIFF: Operate watercraft"
+            - "FUNC-RUNNER-PERCEPTION -SCANNER: Detect energy signatures"
+            - "FUNC-RUNNER-INTERACTION-INTERFACE: Interact with  node"
+          target_entity:
+            id: ENTITY_OBJECT_RESONANT_NODE
+             core_function: "Residual energy conduit"
+            key_capability: "FUNC-NODE-PROVIDE_ATT UNEMENT: Grant Neural Attunement Point"
+          constraints_costs:
+            - id: CONSTRAINT-NODE-INTERFACE _RISK
+              description: "Vulnerability to bio-feedback shock"
+              potential_cost: "Health  damage"
+          functional_outcome: "Runner potentially gains PROPERTY-RUNNER-ATTUNEMENT_POINTS +1.  Location ENTITY_PLACE_SOLAR_TOWER identified with CONSTRAINT-TOWER-ACCESS_DENIED."
+
+        - step _id: "submerged_access"
+          step_description: "Dive into tunnel, navigate hazards, access  Rustwater Spire."
+          runner_functions_applied:
+            - "FUNC-RUNNER-MOBILITY -DIVE: Underwater movement"
+            - "FUNC-RUNNER-COMBAT-MELEE/RANG ED (Harpoon/Prod): Engage threats"
+            - "FUNC-RUNNER-MOBILITY-CLIM B: Scale surfaces"
+            - "FUNC-RUNNER-INTERACTION-LOOT: Acquire items"
+           environmental_constraints:
+            - id: CONSTRAINT-ENVIRONMENT-SUBMERGED
+              mitigation: "Requires  EQUIP_HAZARD_SUIT (Dependency) or SKILL-RUNNER-BREATH_HOLDING (Capability /Limitation)"
+            - id: CONSTRAINT-ENVIRONMENT-LOW_VISIBILITY
+              effect: "Affects  perception"
+          antagonist_entity:
+            id: "ENTITY_CREATURE_BIOFILTER (Level  10)"
+            core_function: "Water purification (Malfunctioning)"
+            key_capability: "FUNC-BIOFILTER -ATTACK-GRASP: Impede/damage Runner"
+            vulnerability: "Susceptible to Harpoon /Electro-Prod"
+          functional_outcome: "Runner overcomes constraints/threats, accesses ENTITY_PLACE _RUSTWATER_SPIRE, acquires ITEM_SALVAGED_COMPONENTS(Superior)."
+
+        -  step_id: "rustwater_spire"
+          step_description: "Ascend Spire, operate winch , optionally loot Skyscale nest."
+          runner_functions_applied:
+            - "FUNC-RUNNER- MOBILITY-CLIMB: Navigate stairs/ladders"
+            - "FUNC-RUNNER-INTER ACTION-LOOT: Acquire items"
+            - "FUNC-RUNNER-INTERACTION-OPERATE: Use  winch"
+            - "FUNC-RUNNER-SKILL-MECHANICS / FUNC-RUNNER-ITEM_ USE-PRYBAR: Open locked container"
+            - "FUNC-RUNNER-MOBILITY-SPRINT/FALL:  Evade threat"
+          object_entities:
+            - id: ENTITY_OBJECT_WINCH
+              function: " FUNC-WINCH-LOWER_RAMP"
+            - id: ENTITY_OBJECT_WAYFINDER _POST
+              function: "FUNC-WAYFINDER-ENABLE_FAST_TRAVEL"
+            - id:  ENTITY_OBJECT_GRINDSTONE
+              function: "FUNC-GRINDSTONE-MAINTAIN_WE APON"
+            - id: ENTITY_OBJECT_MAINTENANCE_LOCKER
+              property: " PROPERTY-LOCKER-LOCKED"
+              requirement: "Functional input (Skill/Item)"
+          antagonist_entity: 
+            id: "ENTITY_CREATURE_SKYSCALE (Level 14)"
+            core_function:  "Apex aerial predator/territorial guardian"
+            key_capability: "FUNC-SKYSCALE-ATTACK- AERIAL/MELEE: High damage"
+            property: "PROPERTY-SKYSCALE-TERRITORIAL:  Proximity trigger"
+          constraints_costs:
+            - id: CONSTRAINT-ENVIRONMENT-STRUCTURAL_INSTABILITY
+               description: "Potential hazard"
+            - id: CONSTRAINT-LOCKER-SKILL_CHECK
+              description:  "Requires specific Runner function/level"
+            - id: CONSTRAINT-ACTION-THREAT_AVOIDANCE
+               description: "Skyscale limits time/actions"
+            - potential_cost: "Fall damage during evasion" 
+          functional_outcome: "Wayfinder activated. Potential acquisition of ITEM_SCHEMATIC_ELECTROPROD_MK II at risk. Optional loot ITEM_DATASLATE_DOBROMIR_LOG available at increased risk. Note: World state  change might alter functional challenge."
+
+        - step_id: "shrieker_feeding_ground_optional" 
+          step_description: "Clear Shrieker flock for minor resources. (Optional)"
+          runner_functions_applied :
+            - "FUNC-RUNNER-COMBAT-RANGED/ANTI-AIR: Engage threat type "
+            - "FUNC-RUNNER-INTERACTION-LOOT: Acquire items"
+          antagonist_ entity:
+            id: "ENTITY_CREATURE_SHRIEKER_FLOCK (Level 7)"
+             key_capability: "FUNC-SHRIEKER-ATTACK-SWARM: Overwhelm targets"
+           functional_outcome: "Minor resource gain (ITEM_SUPPLIES) at cost of ammunition/time. Tests Runner capability against  airborne swarm threats."
+
+        - step_id: "preparation_note_analysis"
+          step_description:  "Analysis of the preparation note from the scenario."
+          implied_runner_function: "FUNC-RUNNER -ASSESSMENT-THREAT_LEVEL: Evaluating readiness"
+          acknowledged_constraint: "CONSTRAINT-RUNNER-GEAR /LEVEL_REQUIREMENT: Need for improved functional capacity (Level 7+, Electro-Prod MkII)"
+           identified_improvement_activities: "ACTIVITY_GRINDING: Using FUNC-RUNNER-COMBAT against lower-level entities ( ENTITY_CREATURE_SWAMP_RAT, ENTITY_CREATURE_GATOR_PUP) to gain  PROPERTY-RUNNER-EXPERIENCE."
+
+    - phase_title: "II. Whispers in the Miasma:  Following Hendrik's Trail"
+      steps:
+        - step_id: "mudlark_crossing_functional" 
+          step_description: "Interact with Mudlark Crossing notice board."
+          runner_functions_applied: 
+            - "FUNC-RUNNER-INTERACTION-READ: Access info"
+            - "FUNC-RUNNER-SOCIAL -ACCEPT_QUEST: Initiate objectives"
+          object_entity:
+            id: ENTITY_OBJECT_NOTICE_BOARD
+             core_function: "Info dissemination, quest hook provision"
+          functional_outcome: "QUEST_SWAMP_HEART  added to Runner's active objectives."
+
+        - step_id: "corpse_disposal_detail_ functional"
+          step_description: "Complete deacon's task, uncover deception, make choice."
+          runner _functions_applied:
+            - "FUNC-RUNNER-SOCIAL-DIALOGUE: Interact with Deacon"
+             - "FUNC-RUNNER-COMBAT-MELEE/RANGED: Defeat creatures"
+             - "FUNC-RUNNER-ITEM_USE-BIO_AGENT/IGNITER: Perform task"
+            -  "FUNC-RUNNER-SOCIAL-CONFRONT/BRIBE_RESPONSE: Handle final encounter"
+            - "FUNC- RUNNER-DECISION: Choose combat/reward vs bribe/peace"
+          npc_entities:
+            - id:  ENTITY_PERSON_DEACON
+              functions: ["FUNC-DEACON-GIVE_QUEST(Deceptive )", "FUNC-DEACON-COMMAND_GUARDS", "FUNC-DEACON-OFFER_BRIBE"] 
+              vulnerability: "Lies exposed by ENTITY_PERSON_TITUS"
+            - id: ENTITY_PERSON _TITUS
+              function: "FUNC-TITUS-PROVIDE_INFO(Truthful)"
+              v ulnerability: "Initially under attack"
+            - id: ENTITY_PERSON_DEACON_GUARDS
+               function: "FUNC-GUARD-COMBAT_SUPPORT"
+              vulnerability: "Standard human combat limits"
+           antagonist_creatures: ["ENTITY_CREATURE_SCAVENGER_PACK", "ENTITY_CRE ATURE_CORPSE_CRAWLER", "ENTITY_CREATURE_FERAL_HOUNDS", "ENTITY _CREATURE_MIRE_GHOULS"] # simplified list
+          functional_outcome: "Task completed. De ception revealed. Runner chooses approach affecting Reputation/Creds. Tests moral alignment function."
+
+        - step_id: " deserter_dilemma_functional"
+          step_description: "Rescue John Verdun from Mire Ghouls."
+           runner_functions_applied:
+            - "FUNC-RUNNER-PERCEPTION-HEARING: Detect calls "
+            - "FUNC-RUNNER-COMBAT-MELEE/RANGED: Defeat creatures" 
+            - "FUNC-RUNNER-INTERACTION-UNTIE: Free NPC"
+          npc_entity: 
+            id: ENTITY_PERSON_JOHN_VERDUN
+            functions: ["FUNC-VERDUN-CALL _FOR_HELP", "FUNC-VERDUN-PROVIDE_BACKSTORY"]
+            constraint: "Initially  helpless/bound"
+          antagonist_creatures: ["ENTITY_CREATURE_MIRE_GHOULS  (Level 4)"]
+          functional_outcome: "NPC rescued. Runner gains Reputation. Reinforces 'resc uer' function."
+
+        - step_id: "soggy_bottom_bar_functional"
+           step_description: "Gather info at bar, interact with Barkeep, handle Enforcers."
+          runner_functions _applied:
+            - "FUNC-RUNNER-SOCIAL-GATHER_INFO"
+            - "FUNC -RUNNER-SOCIAL-INQUIRY"
+            - "FUNC-RUNNER-SOCIAL-DIALOGUE( TIMED)"
+            - "FUNC-RUNNER-COMBAT-MELEE/RANGED (Optional)" 
+            - "FUNC-RUNNER-DECISION"
+            - "FUNC-RUNNER-INTERACTION- TRADE"
+            - "FUNC-RUNNER-SKILL-GAME(Bayou_Blitz)"
+          npc _entities:
+            - id: ENTITY_PERSON_BARKEEP
+              functions: ["FUNC-BARKEEP -PROVIDE_INFO(Conditional)", "FUNC-BARKEEP-TRADE", "FUNC-BARKEEP-PLAY_GAME"]
+               vulnerability: "Values establishment over Runner"
+            - id: "ENTITY_PERSON_OLIGARCHY_ENFOR CER (x3, Level 4/5)"
+              functions: ["FUNC-ENFORCER-INTIM IDATION", "FUNC-ENFORCER-COMBAT"]
+              vulnerability: "Overconfidence, standard combat  limits"
+            - id: ENTITY_PERSON_PATRONS
+              function: "FUNC-PATRON -PROVIDE_AMBIENT_INFO"
+          object_entities: ["ENTITY_OBJECT_NOTICE_BOARD",  "ENTITY_OBJECT_GWENT_CARDS(Bayou_Blitz)"]
+          functional_outcome: " Info on Hendrik/Hushwater obtained. Optional combat. Potential card acquisition (ITEM_CARD_JERRY_REED _DEITY). Reputation potentially affected."
+
+        - step_id: "optional_detours_functional"
+           step_description: "Analysis of Swamp Rat Camp and Mutant's Misery detours."
+          runner_functions _applied: ["FUNC-RUNNER-COMBAT", "FUNC-RUNNER-INTERACTION-LOOT",  "FUNC-RUNNER-PERCEPTION"]
+          entities_encountered: ["ENTITY_CREATURE_SWAMP_RAT",  "ENTITY_CREATURE_GROGGY_MUTANT", "ENTITY_CREATURE_SCAVENGER_ PACK"]
+          functional_outcome: "Minor resource/XP/Rep gain. Demonstrates engagement with ambient world."
+
+         - step_id: "hushwater_hamlet_investigation_functional"
+          step_description:  "Investigate frozen Hushwater, find clues, get main leads."
+          runner_functions_applied:
+            - "FUNC -RUNNER-PERCEPTION-SENSORY: Notice anomalies"
+            - "FUNC-RUNNER-COMB AT: Defeat Feral Hounds"
+            - "FUNC-RUNNER-SOCIAL-CALM/PERS UADE: Stabilize Survivor"
+            - "FUNC-RUNNER-INVESTIGATION-SEARCH: Locate items"
+             - "FUNC-RUNNER-PERCEPTION-SWAMP_SENSE: Highlight clues"
+            - "FUNC -RUNNER-ITEM_USE-KEYCARD: Unlock hatch"
+            - "FUNC-RUNNER-INTER ACTION-READ: Access ledger"
+          environmental_constraint: "CONSTRAINT-ENVIRONMENT-ANOMALY(Mist/ Cold): Atmosphere/potential hazard"
+          npc_entity:
+            id: ENTITY_PERSON_SURV IVOR
+            function: "FUNC-SURVIVOR-PROVIDE_INFO(Fragmented)"
+             constraint: "Initially panicked"
+          antagonist_creatures: ["ENTITY_CREATURE_FERAL_H OUNDS (Level 2)"]
+          key_objects: ["ENTITY_OBJECT_HENDRIK_BODY ", "ENTITY_OBJECT_KEYCARD", "ENTITY_OBJECT_HATCH", "ENTITY_OBJECT_LEDGER "]
+          functional_outcome: "Critical info acquired (QUEST_BOSS_CROKER, QUEST_HUNTING _WITCH started). Clue (POSTER-CROKER_DAUGHTER) registered. Demonstrates core investigative loop ."
+
+        - step_id: "enroute_crokers_roost_detours_functional"
+           step_description: "Analysis of detours towards Croker's Roost."
+          sub_steps: 
+            - description: "Swamp Rat Camp (Level 7)"
+              runner_function: "FUNC- RUNNER-COMBAT"
+              target: "ENTITY_CREATURE_SWAMP_RAT"
+              outcome : "Loot/XP"
+            - description: "Defender of the Faith"
+              runner_functions: ["FUNC- RUNNER-SOCIAL-DIALOGUE", "FUNC-RUNNER-SKILL-REPAIR / FUNC-RUNNER -STRENGTH"]
+              npc: "ENTITY_PERSON_OLD_WOMAN"
+              object: "ENTITY_OBJECT _SHRINE (PROPERTY-SHRINE-VANDALIZED)"
+              outcome: "Minor Rep gain , optional objective added."
+            - description: "Blackwillow Bend"
+              runner_functions: ["FUNC-RUNNER -SKILL-GAME(Bayou_Blitz)", "FUNC-RUNNER-INTERACTION-TRADE", "FUNC -RUNNER-INTERACTION-READ", "FUNC-RUNNER-SOCIAL-INQUIRY"]
+              npcs : ["ENTITY_PERSON_MERCHANT", "ENTITY_PERSON_MECHANIC", "ENTITY_PERSON_NIELL EN", "ENTITY_PERSON_MARGRIT"]
+              objects: ["ENTITY_OBJECT_DATAPAD_ FELINE_GEAR"]
+              outcome: "Optional rewards, Scavenger Hunts initiated, QUEST_SWAMP _HEART progressed."
+
+        - step_id: "swamp_heart_quest_functional"
+           step_description: "Resolve Hanna's disappearance, track Erpenthrope, decide fates."
+          runner_functions_applied :
+            - "FUNC-RUNNER-SOCIAL-INQUIRY"
+            - "FUNC-RUNNER -INVESTIGATION-TRACKING"
+            - "FUNC-RUNNER-PERCEPTION-SWAMP_SENSE "
+            - "FUNC-RUNNER-COMBAT"
+            - "FUNC-RUNNER-SOCIAL- DIALOGUE"
+            - "FUNC-RUNNER-DECISION"
+          npc_entities:
+            -  id: ENTITY_PERSON_MARGRIT
+              functions: ["FUNC-MARGRIT-MISLEAD ", "FUNC-MARGRIT-OFFER_BRIBE", "FUNC-MARGRIT-REVEAL _TRUTH(Partial/Coerced)"]
+              vulnerability: "Motives suspect, survival depends on  Runner choice"
+            - id: "ENTITY_PERSON_NIELLEN / ENTITY_CREATURE_ERP ENTHROPE (Level 7-8)"
+              functions: ["FUNC-ERPENTHROPE-TRANSFORMATION",  "FUNC-ERPENTHROPE-COMBAT", "FUNC-ERPENTHROPE-RAGE"] 
+              constraint: "Struggling with curse"
+              vulnerability: "Standard combat weaknesses, emotional state" 
+          creatures: ["ENTITY_CREATURE_FERAL_HOUND_PACK (Level 6)"]
+          key _objects: ["ENTITY_OBJECT_CORPSE(Hanna)", "ENTITY_OBJECT_CLUES(Tracks,  Fur, Clothes)", "ENTITY_OBJECT_LOG_ENTRIES", "ENTITY_OBJECT_KEY(Niellen)",  "ENTITY_OBJECT_CHEST(Locked)"]
+          functional_outcome: "Mystery solved. Significant moral/functional choice made . Potential rare component (ITEM_ERPENTHROPE_TISSUE), key, and schematic (ITEM_SCHEMATIC _BAYOU_STALKER_JACKET) acquired. Demonstrates complex interaction loop."
+
+        - step_id:  "optional_exploration_functional"
+          step_description: "Analysis of Filter Tower and Monster Nest exploration."
+          runner _functions_applied: ["FUNC-RUNNER-MOBILITY-CLIMB", "FUNC-RUNNER- INTERACTION-LOOT", "FUNC-RUNNER-COMBAT", "FUNC-RUNNER-ITEM_USE -EXPLOSIVE"]
+          entities_encountered: ["ENTITY_PLACE_FILTER_TOWER", "ENTITY_ CREATURE_MIRE_GHOULS (Level 9)", "ENTITY_OBJECT_MONSTER_NEST"] 
+          functional_outcome: "Loot acquisition, hazard removal (Rep gain), XP gain. Demonstrates engagement with environmental puzzles /hazards."
+
+        - step_id: "approach_crokers_roost_functional"
+           step_description: "Runner approaches Croker's Roost, updating main quest."
+          runner_functions_applied: [" FUNC-RUNNER-NAVIGATION"]
+          functional_outcome: "Main quest objective (QUEST_BOSS_CROKER)  updated. Scenario transitions to next phase at ENTITY_PLACE_CROKERS_ROOST."
+
+  summary:
+    title : "III. Functional Profile Summary of Scenario"
+    text: |
+      The "Lickskillet Hust le" scenario effectively tests and utilizes a broad range of the Runner's core functional properties. Key capabilities demonstrated include:  Mobility (Swimming, Climbing, Skiff Operation), Combat (Melee, Ranged, vs various types), Investigation (Per ception, Tracking, Analysis), Social Interaction (Dialogue, Negotiation), Technical Interaction (Scanning, Interfacing), and Decision Making .
+      The scenario highlights Constraints (hazards, locks, skill checks) and Dependencies (gear). The interplay between  Runner functions and entity/environment functions/constraints drives progression and challenge. Successfully navigating this scenario requires a versatile functional profile. 
+```

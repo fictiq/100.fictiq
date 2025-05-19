@@ -1,0 +1,114 @@
+Decoctions
+Decoctions are like Potions-you drink them and you gain some passive effect. Unlike Potions, however, Decoctions tend to last quite a long time (even over an hour with some upgrades) and have much more toxicity. Their effects tend to be less potent, as well. You won't really be able to make full use of them unless you increase your max Toxicity, but if you do, you can pop one for a long-lasting buff.
+
+Decoctions	Required Components
+Alghoul Decoction	Buckthorn x1
+Dwarven Spirit x1
+Alghoul Mutagen x5
+Alghoul Bone Marrow x1
+Ancient Leshen Decoction	Ginatia Petals x1
+Dwarven Spirit x1
+Honeysuckle x1
+Ancient Leshen Mutagen x1
+Mandrake Root x1
+Arachas Decoction	Dwarven Spirit x1
+Arachas Mutagen x1
+White Myrtle Petals x1
+Basilisk Decoction	Fool's Parsley Leaves x1
+Dwarven Spirit x1
+Beggartick Blossoms x1
+Basilisk Mutagen x1
+Blowball x1
+Chort Decoction	Cortinarius x1
+Dwarven Spirit x1
+Chort Mutagen x1
+Puffball x1
+Cockatrice Decoction	Dwarven Spirit x1
+Cockatrice Mutagen x1
+Crow's Eye x1
+Doppler Mutagen	Longrube x1
+Dwarven Spirit x1
+Doppler Mutagen x1
+Han Fiber x1
+Earth Elemental Decoction	Pringrape x1
+Dwarven Spirit x1
+Earth Elemental Mutagen x1
+Balisse Fruit x1
+Ekhidna Decoction	Berbercane Fruit x1
+Dwarven Spirit x1
+Ekhidna Decoction x1
+Ribleaf x1
+Ekimmara Decoction	Mandrake Root x1
+Dwarven Spirit x1
+Ekimmars Decoction x1
+White Myrtle Petals x1
+Fiend Decoction	Fool's Parsley Leaves x1
+Dwarven Spirit x1
+Arenaria x1
+Fiend Decoction x1
+Hellebore Petals
+Foglet Decoction	Blowball x1
+Dwarven Spirit x1
+Foglet Decoction x1
+Fool's Parsley Leaves x1
+Forktail Decoction	Bryonia x1
+Dwarven Spirit x1
+Forktail Decoction x1
+Moleyarrow x1
+Grave Hag Decoction	Cortinarius x1
+Dwarven Spirit x1
+Grave Hag Decoction x1
+Longrube x1
+Griffin Decoction	Bryonia x1
+Dwarven Spirit x1
+Wolf's Liver x1
+Griffin Mutagen x1
+Oil x1
+Katakan Decoction	Arenaria x1
+Dwarven Spirit x1
+Katakan Decoction x1
+Verbena x1
+Leshen Decoction	Pringrape x1
+Dwarven Spirit x1
+Leshen Mutagen x1
+Moleyarrow x1
+Nekker Warrior Decoction	Ranogrin x1
+Dwarven Spirit x1
+Nekker Warrior Mutagen x1
+Fool's Parsley Leaves x1
+Nightwraith Decoction	Sewant Mushrooms x1
+Dwarven Spirit x1
+Nightwraith Mutagen x1
+Mistletoe x1
+Noonwraith Decoction	Ergot Seeds x1
+Dwarven Spirit x1
+Noonwraith Mutagen x1
+Ginatia Petals x1
+Reliever's Decoction	Lesser Blue Mutagen x4
+Dwarven Spirit x1
+Essence of Wraith x1
+Lesser Red Mutagen x4
+Lesser Green Mutagen x4
+Succubus Decoction	Allspice x1
+Dwarven Spirit x1
+Succubus Mutagen x1
+Green Mold x1
+Troll Decoction	Honeysuckle x1
+Dwarven Spirit x1
+Troll Mutagen x1
+Crow's Eye x1
+Water Hag Decoction	Dwarven Spirit x1
+Water Hag Mutagen x1
+Berbercane Fruit x1
+Werewolf Decoction	Hop Umbels x1
+Dwarven Spirit x1
+Werewolf Mutagen x1
+Beggartick Blossoms x1
+Wraith Decoction	Noxtrix x2
+Dwarven Spirit x1
+Wraith Mutagen x1
+Blowball x1
+Wyvern Decoction	Celandine x1
+Dwarven Spirit x1
+Wyvern Mutagen x1
+Moleyarrow x1

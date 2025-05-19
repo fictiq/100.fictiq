@@ -1,0 +1,173 @@
+
+# Document Metadata
+World: Pr imal Mama
+CodexVersion: "0.2 - Character Constitution"
+LastUpdated: "[Current Date]" #  To be filled by user
+LeadArchitects: "[Your Name/Studio Name]" # To be filled by user
+
+ # Character Profile
+CharacterProfile:
+  EntityID: CHAR_Jengo_Mabayo_01
+   CharacterName: "Jengo Mabayo (often called \"Jen\" by workmates)"
+  EntityType: Person
+   Archetype: "The Exploited Laborer, The Dispossessed Traditionalist"
+  PrimaryAuthenticationSources:
+     - "This Codex Entry"
+    - "Primal Mama Coherence & Internal Logic Protocol v0.1 "
+  CanonTier: "Tier 2 (Significant NPC with potential for plot involvement)"
+  AuthenticationStatus:  Authenticated_Canonical_Active
+
+  AuthenticatedPropertyBundle:
+    PhysicalProperties:
+      Purpose: "Define the  character's tangible presence."
+      Appearance_General:
+        Value: "[e.g., Human male,  late 40s, with strong, weathered West African features – broad nose, high cheekbones, dark, deep -set eyes. Lean but wiry build from years of physical labor in the swamps and processing plants.]"
+         Auth: "[Primal Mama Visual Palette Concept Art]"
+      Appearance_Specific_Features:
+        Value: "[e .g., Skin the color of rich river mud, often flecked with dried scale or grime. A few faded  ritual scars on his forearms, remnants of a nearly forgotten ancestral tradition.]"
+        Auth: "[Narrative Description Draft ]"
+      Appearance_Distinctive_Marks:
+        Value: "[e.g., A deep, puckered  burn scar on his left shoulder from a rendering vat accident at a Lickskillet processing plant. Missing the tip of  his right pinky finger – lost to a young, non-GE gator in his youth.]"
+        Auth:  "[Backstory Detail]"
+      Typical_Attire:
+        Value: "[e.g., Faded,  patched-up, synthetic-blend (1970s style) Lickskillet Tannery Co. cover alls, often stained with grease and chemicals. Worn, waterproof swamp boots. Occasionally a hand-woven reed hat for sun protection,  a skill passed down in his family.]"
+        Auth: "[Primal Mama Wardrobe Guide, Lickskillet  Setting]"
+      Voice_Speech_Pattern:
+        Value: "[e.g., Quiet, measured baritone with  a slight, musical lilt common to his ancestral community. Speaks concisely, often with a resigned or weary tone, but  can become passionate when discussing lost traditions or injustices. Uses some unique colloquialisms from his community.]"
+        Auth: "[ Dialogue Snippets Draft]"
+      Gait_Mannerisms:
+        Value: "[e.g., Econom ical, practiced movements born from a lifetime in skiffs and on slippery docks. A slight stoop from years of heavy lifting . Tends to observe more than speak in mixed company.]"
+        Auth: "[Action Description Notes]"
+      Associated _Scent:
+        Value: "[e.g., Lingering smell of alligator musk, tanning chemicals, swamp  water, and cheap, state-issue soap.]"
+        Auth: "[Sensory Palette - Lickskillet ]"
+      Physical_Undersaturation: "[e.g., Exact height/weight, specific hairstyle beyond 'short, practical',  non-work attire (likely simple, worn).]"
+
+    FunctionalProperties:
+      Purpose: "Define what the  character *can* and *cannot* do."
+      Skill_Wild_Alligator_Knowledge:
+        Value : "[e.g., Expert knowledge of wild (non-GE) alligator behavior, trapping, and traditional butchering  methods – skills now largely devalued by the GE gator industry.]"
+        Auth: "[Backstory, Dialogue  reflecting this knowledge]"
+      Skill_Skiff_Pilot:
+        Value: "[e.g., Proficient  skiff pilot, navigating treacherous backwater channels by instinct and memory.]"
+        Auth: "[Demonstrated in Narrative Outline ]"
+      Skill_Processing_Machinery_Operator:
+        Value: "[e.g., Tolerable operator  of outdated (1970s aesthetic) alligator processing machinery in Lickskillet plants (flensers,  grinders, rendering vats) despite minimal training.]"
+        Auth: "[Character Role in Lickskillet]"
+      Ability _Environmental_Sensitivity: # Unique Ability
+        Value: "[e.g., Can identify subtle changes in swamp water/environment indicative  of pollution or unusual creature activity, a skill learned from elders.]"
+        Auth: "[Narrative Instance]"
+       Limitation_Physical_Ailments:
+        Value: "[e.g., Chronic back pain and respiratory issues from years  of harsh labor and exposure to processing chemicals. Not as strong as he once was.]"
+        Auth: "[Vict im Profile, Consequences of Labor]"
+      Limitation_Knowledge_Gaps:
+        Value: "[e.g., L acks understanding of advanced GE alligator biology, solar tech that powers them, or the complex financial workings of the meat oligarchies. Ill iterate in official script, though can read some traditional symbols of his community.]"
+        Auth: "[Social Status, Primal Mama  Tech Levels]"
+      Limitation_Social_Powerlessness:
+        Value: "[e.g., No political power or influence . Deeply distrusted by Beetriot Bayou Butchery (BBB) foremen due to his quiet defiance and past as  an independent. Stigma of using a (very basic, employer-issued) data-slate for work tallies, despite  his personal discomfort with Automatons/LLMs.]"
+        Auth: "[Primal Mama Social Dynamics]"
+      Functional _Undersaturation: "[e.g., Ability to use firearms (likely, given swamp life, but not confirmed as  a primary skill); specific artistic talents beyond hat weaving.]"
+
+    PsychologicalProperties:
+      Purpose: "Define the character' s textually constituted inner life."
+      Core_Trait_Resentment:
+        Value: "[e.g.,  Deep-seated Resentment (towards the meat oligarchies and the loss of his community's way of life).]" 
+        Auth: "[Internal Monologue Drafts, Dialogue]"
+      Core_Trait_Stoic_Endurance :
+        Value: "[e.g., Stoic Endurance (a learned necessity for survival).]"
+        Auth : "[Actions, Demeanor]"
+      Core_Trait_Latent_Pride:
+        Value: "[e.g ., Latent Pride (in his heritage, skills, and the memory of independence).]"
+        Auth: "[Occ asional defiant remarks, care taken with traditional crafts]"
+      Dominant_Emotion:
+        Value: "[e.g ., Weariness / Suppressed Anger.]"
+        Auth: "[Narrator Descriptions, Subtext in Dialogue]"
+      Key _Motivator:
+        Value: "[e.g., Providing for his remaining family (a granddaughter); preserving what  little he can of his ancestral knowledge against the overwhelming tide of \"progress\".]"
+        Auth: "[Plot Hooks, Character Goals ]"
+      Key_Belief:
+        Value: "[e.g., Believes the current system is unsustainable and morally  bankrupt, built on the destruction of the natural balance and human dignity. Believes the \"old ways\" held a wisdom the new  world scorns.]"
+        Auth: "[Dialogue, Internal Monologue]"
+      Internal_Conflict:
+        Value: "[ e.g., Desire for justice/retribution vs. Fear of repercussions for himself and his granddaughter; The need to work  within the hated system to survive vs. The urge to sabotage or escape it.]"
+        Auth: "[Narrative  Tension Points]"
+      Subjective_Memory_Content:
+        Value: "[e.g., Vivid, cherished memories of  a time before the full dominance of GE gators and the oligarchies, when his community thrived on traditional swamp knowledge.  Haunting memories of the forced buyouts, the pollution, and friends lost to accidents or despair.]"
+        Auth: "[ Backstory Flashbacks]"
+      Psychological_Undersaturation: "[e.g., Specific views on the de ified celebrities (likely indifference or a belief in older, local spirits); detailed opinions on Beetriot culture beyond general resentment; specific  fears beyond the obvious.]"
+
+    SocialRelationalCategoricalProperties:
+      Purpose: "Define the character' s place within the world's networks."
+      Official_Role:
+        Value: "[e.g.,  Grade 3 Processor, Offal Disposal Unit, Lickskillet Tannery Co. (subsidiary of Beet riot Bayou Butchery).]"
+        Auth: "[Work ID Prop Concept]"
+      Social_Status:
+        Value: "[ e.g., Marginalized laborer, member of a dwindling, historically swamp-dwelling community (\"River People of the Whispering Re eds\") now largely absorbed or displaced by Lickskillet's expansion.]"
+        Auth: "[World Dem ographics Draft, Primal Mama Social Hierarchy]"
+      Primary_Affiliation:
+        Value: "[e.g ., Lickskillet Tannery Co. (by economic necessity, not loyalty).]"
+        Auth: "[Role ]"
+      Secondary_Affiliations:
+        Value: "[e.g., Loose network of other \"River People \" elders and families; acquaintances among other disgruntled Lickskillet workers.]"
+        Auth: "[Community Notes]"
+       Key_Relationship_1_Amara:
+        Value: "[e.g., To Amara (Granddaughter,  8 y.o.): Protective, his primary reason for enduring. He tries to teach her old songs and stories in secret .]"
+        Auth: "[Character Motivation]"
+      Key_Relationship_2_Foreman_Grubb: 
+        Value: "[e.g., To Foreman Grubb (Lickskillet Tannery): Antagonistic . Grubb is a petty tyrant who enjoys asserting power over workers like Jengo.]"
+        Auth: "[Workplace Conflict Driver ]"
+      Key_Relationship_3_Memory_Esme:
+        Value: "[e.g., To  memory of Esme (Deceased Wife): Source of sorrow and motivation to uphold some of their shared values.]"
+         Auth: "[Backstory Element]"
+      Species_Type:
+        Value: "[e.g., Human (Primal  Mama baseline, specific ethnic heritage from \"River People\").]"
+        Auth: "[Default/Description]"
+      Social_ Undersaturation: "[e.g., Specific friends outside his community; any distant relatives in Beetriot or other settlements ; views on Erpenthropes or Swamp Witches (likely wary respect/fear, part of old swamp lore). ]"
+
+    ModalProperties:
+      Purpose: "Define any inherent unique relationship to world laws."
+      Property_ID: N /A
+      Property_Value: # Changed "Property" to "Property_Value" to avoid clash with potential YAML  keyword
+        Value: "[None authenticated. Jengo operates fully under the general physical, biological, and social laws of  Primal Mama. His suffering is a result of these laws being exploited by others.]"
+        Auth: "[Abs ence of any textual evidence for exceptional modal status.]"
+      Note: "Jengo is defined by his commonality and  vulnerability within the system, not by unique exceptions to it."
+
+    AxiologicalProperties:
+      Purpose: "Define the character 's value status *within* Primal Mama."
+      Reputation_Oligarchy_Foremen:
+         Value: "[e.g., Authenticated as viewed as 'expendable labor', 'potentially troublesome due to past independence ', 'stuck in old ways', 'useful for dirty jobs'.]"
+        Auth: "[Dialogue from Grubb, BBB  Memos]"
+      Reputation_River_People_Community:
+        Value: "[e.g., Authent icated as 'respected elder (though not the oldest)', 'keeper of fading traditions', 'symbol of their shared loss and resilience '.]"
+        Auth: "[Interactions with community members]"
+      Reputation_General_Lickskillet _Workers:
+        Value: "[e.g., Known as 'quiet', 'keeps to himself', 'works hard', ' sometimes mutters about \"the way things were\"'. Some may pity him, others avoid him as a 'malcontent '.]"
+        Auth: "[Atmosphere Notes - Lickskillet]"
+      Moral_Alignment_Narrative_Framing :
+        Value: "[e.g., Authenticated via narrative sympathy as a victim of systemic injustice, fundamentally decent,  whose resentment is justified by his experiences.]"
+        Auth: "[Narrator Tone, Plot Framing]"
+      Axiological _Undersaturation: "[Wider public perception in Beetriot (likely non-existent); reputation among Swamp Witches or Er penthropes (unlikely to have direct dealings, but they might recognize his kind as \"old swamp\"). ]"
+
+    HistoricalProperties:
+      Purpose: "Define the character's known origins and connections to past events." 
+      Origin:
+        Value: "[e.g., Authenticated as born into the \"River People of the Whispering  Reeds\" community in the deep bayous, decades before Lickskillet's current industrial scale. His family were respected  trappers and fishers.]"
+        Auth: "[Character Backstory Document]"
+      Key_Past_Event _Connection:
+        Value: "[e.g., Witnessed and directly impacted by the \"Great Bayou Consolidation\" –  the period when meat oligarchies like BBB aggressively bought out, intimidated, or ruined independent trappers and small local processing co-ops , often using predatory loans tied to 1970s-aesthetic tech upgrades that independents couldn't maintain. Lost  his family's ancestral trapping grounds and skiff business.]"
+        Auth: "[Primal Mama Historical Timeline - Economic  History]"
+      Inherited_Items:
+        Value: "[e.g., Authenticated to possess a carved  wooden bird amulet (ancestral protection symbol) and a carefully preserved, hand-drawn map of old trapping routes now mostly  submerged or polluted, sketched on tanned gator hide.]"
+        Auth: "[Character Props List]"
+      Historical_Unders aturation: "[Specific details of his parents' lives; exact timeline of his community's decline; any involvement in early , failed resistances to oligarchy encroachment.]"
+
+  CharacterConstitutionSummaryAndNarrativeFunction:
+    Purpose: " Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+    CoreEssence: | 
+      [Jengo Mabayo is constituted as a living testament to the human cost of Primal Mama's retro-futuristic  bio-industrial complex. His identity is forged in the tension between his deep-rooted ancestral connection to the swamp (Physical , Functional, Psychological, Historical properties) and the brutal, impersonal efficiency of the GE alligator meat oligarchy that has dis possessed him (Social, Functional limitations, Axiological devaluation). He is a repository of lost knowledge and suppressed grief, forced  to participate in the very system that destroyed his way of life. His African features and cultural heritage mark him as part of a specific,  historically marginalized community within the broader Primal Mama society, highlighting themes of cultural erasure alongside economic exploitation.]
+    PrimaryNarrativeFunction : |
+      [To embody the plight of the common worker and traditional communities crushed by the oligarchy; to provide a ground- level perspective on life in Lickskillet and the consequences of the world's core economic system; to serve as a potential  moral compass, reluctant informant, or catalyst for a protagonist interacting with the injustices of Primal Mama. His victimhood is  a direct result of the world's established Deontic (oligarchy power) and Alethic (GE gator dominance ) modalities.]
+    KeyInternalConflicts: |
+      [The daily struggle to maintain dignity and provide for his granddaughter  versus the soul-crushing nature of his labor and the constant reminders of what has been lost; The desire for justice  or even revenge against the faceless oligarchy versus the practical impotence of his position and fear of reprisal; The internal  battle to preserve ancestral memory and identity in a world that actively devalues and erases it.]
+    PotentialForDevelopment:  |
+      [Could be radicalized by a specific event or charismatic figure; might find an unexpected way to use his  "obsolete" traditional knowledge against the oligarchy or to help others survive; could be pushed to a breaking point leading to  open defiance or a desperate act; might form an unlikely alliance (e.g., with an Erpenthrope also  wary of the oligarchies, or a sympathetic outsider). His knowledge of old swamp ways could become crucial if the GE-systems falter .]

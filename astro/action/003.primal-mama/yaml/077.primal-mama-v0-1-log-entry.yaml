@@ -1,0 +1,315 @@
+Okay, this is an interesting meta-step. We're taking the Markdown  document *that was already structured according to the Entity Functional Profile Protocol* (and which analyzed the Primal Mama quest log),  and now we're converting *that Markdown document* into a YAML representation.
+
+The YAML will mirror the structure of  the Entity Functional Profiles from the Markdown.
+
+```yaml
+# Story World Codex: Entity Functional Profiles (YAML Representation)
+# Derived  from Markdown Analysis of PM-EventLog-003
+
+# World: Primal Mama
+# Codex Version: 0 .1 - Functional Definitions (Derived from Markdown)
+# Last Updated: [Current Date]
+# Lead Architect( s): [Your Name / Studio Name]
+# Source Document for this YAML: Markdown file "Entity Functional Profiles ( Derived from PM-EventLog-003)"
+# Original Data Source for Markdown: PM-EventLog-00 3.yaml (Lickskillet Outskirts Salvage & Local Disputes)
+
+# --- Introduction ---
+# This  YAML document represents the Entity Functional Profiles
+# as defined in the corresponding Markdown document. It structures
+# the capabilities, limitations, and  narrative roles of key entities
+# encountered or used during the events of PM-EventLog-003.
+
+entity_ profiles:
+  - entity_id: OBJ_BioResDamp_01
+    entity_name: "Bio -Resonant Dampener (Schematic Recovered)"
+    entity_type: "Object (Schematic implies potential craftable Object )"
+    primary_authentication_sources: "PM-EventLog-003.yaml (section_id: bay ou_salvage_run)"
+    authenticated_functional_properties_bundle:
+      core_function_ purpose:
+        - role_type: "Primary Role (Schematic)"
+          description: "Information Carrier; Contains instructions for  constructing the Dampener device."
+          authentication: "PM-EventLog-003.yaml (Objective)"
+        -  role_type: "Primary Role (Potential Device)"
+          description: "Sensory Disruption; Rumored/ intended to interfere with the sensory organs of specific swamp fauna (potentially including Erpenthropes)."
+          authentication: "PM- EventLog-003.yaml (Procedure Text)"
+      key_capabilities_powers:
+        - capability _id: FUNC-BRD-SCHEM-01
+          name: Knowledge Transfer
+          description: | 
+            Enables a user with appropriate crafting skills/facilities (e.g., Lickskillet Tech-Scavenger ) to potentially fabricate the Bio-Resonant Dampener.
+          authentication: "Implied by nature of schematics &  world note on crafting."
+          limits_nuances: "Requires crafting resources and expertise, not explicitly detailed in this log ."
+        - capability_id: "FUNC-BRD-DEV-01 (Potential)"
+          name : Sensory Interference Field
+          description: |
+            (Speculative based on log text) Emits a field or wave  disrupting biological sensory input (e.g., electroreception, heightened smell/hearing) in targeted fauna.
+           authentication: "PM-EventLog-003.yaml (Procedure Text Rumor); Further functional validation needed via crafting/ testing."
+          limits_nuances: "Effectiveness, range, power cost, target specificity are undefined in this log.  May be ineffective against certain targets or have unintended side effects."
+      acquired_skills_expertise: null # N/A  for Object/Schematic
+      inabilities_lack_of_function:
+        - inability_id: IN AB-BRD-SCHEM-01
+          description: "Schematic itself possesses no active disruptive function." 
+          authentication: "Nature of schematics."
+          narrative_function: "Acts as a goal/reward, enabling potential  future capability."
+      vulnerabilities_weaknesses:
+        - vulnerability_id: VULN-BR D-SCHEM-01
+          description: "Physical schematic likely vulnerable to damage (water, wear, tear)." 
+          authentication: "Implied material nature."
+      costs_dependencies_operational_constraints:
+        - constraint _id: "COST-BRD-DEV-01 (Potential)"
+          applies_to: " OBJ_BioResDamp_01 (Crafted Device)"
+          description: |
+            Requires successful crafting using  schematic; will likely require power source and potentially consumable components or recharge time.
+          authentication: "Implied by tech  nature; Specifics not in PM-EventLog-003."
+          narrative_function: "Limits usage  of the potential tool."
+    functional_profile_summary_narrative_role:
+      core_functional_identity: | 
+        The Schematic functions as a key to unlock potential capability. The implied Device functions as a specialized tool for non-lethal interaction /defense against specific biological threats within the swamp environment.
+      key_narrative_functions_served: |
+        Serv es as an initial objective, driving exploration. Hints at deeper world mechanics (fauna senses, potential Erpenthrope  interaction).
+      relationship_to_alethic_modality: |
+        Operates within standard technological possibility ( crafting from plans). The device's *effectiveness* tests the limits of local bio-engineering knowledge versus natural/mutated  defenses.
+      key_functional_tensions_trade_offs: |
+        Acquisition (finding schematic) vs . Realization (cost/difficulty of crafting). Potential utility vs. unknown limitations/effectiveness.
+
+  - entity_id : CREATURE_SolGator_Hatchling_01
+    entity_name: Solar Gator Hatchling
+     entity_type: Creature
+    primary_authentication_sources: "PM-EventLog-003. yaml (section_id: journey_south, task_id: snatchers_snack)"
+    authenticated_ functional_properties_bundle:
+      core_function_purpose:
+        - role_type: "Primary Role "
+          description: "Quest Object; Item to be recovered and returned."
+          authentication: "PM-Event Log-003.yaml (Task Objective)"
+        - role_type: "Secondary Role(s)" 
+          description: "Value Indicator; Represents the economic/personal value placed on GE Solar Gators. Embodiment of local  bio-technology."
+          authentication: "Implied by Hermit's distress & GE Gator premise."
+      key_capabilities _powers:
+        - capability_id: FUNC-SGH-01
+          name: Bio-Electric Signature Emission 
+          description: |
+            Emits a unique bio-electric trace detectable by specialized equipment (Bio-Scanner).
+           authentication: "PM-EventLog-003.yaml (Task Procedure - finding tracks)."
+          limits_nuances : "Signature appears faint, potentially requiring proximity or sensitive scanner."
+        - capability_id: FUNC-SGH-02 
+          name: Thermal Emission
+          description: |
+            Generates noticeable warmth ("emits a faint warmth"). 
+          authentication: "PM-EventLog-003.yaml (Task Procedure - recovery description)."
+           limits_nuances: "Implies active metabolism, possibly linked to solar energy storage/processing even at small size."
+       acquired_skills_expertise: null # N/A (Hatchling)
+      inabilities_lack_of _function:
+        - inability_id: INAB-SGH-01
+          description: "Unable to effectively  defend itself or escape capture by determined actors (Swamp Recluses)."
+          authentication: "PM-EventLog-00 3.yaml (Context of being stolen)."
+          narrative_function: "Creates the need for player intervention." 
+        - inability_id: INAB-SGH-02
+          description: "Cannot independently return to owner."
+           authentication: "Implied by need to transport it back."
+      vulnerabilities_weaknesses:
+         - vulnerability_id: VULN-SGH-01
+          description: "Highly vulnerable due to small  size and lack of developed defenses."
+          authentication: "Implied by hatchling status."
+      costs_dependencies _operational_constraints:
+        - constraint_id: DEPEND-SGH-01
+          applies_ to: CREATURE_SolGator_Hatchling_01
+          description: |
+            Requires care/protection  to survive (implied by Hermit's enclosure). Likely dependent on solar exposure for long-term energy (impl ied by name, though not directly tested in log).
+          authentication: "Implied by context."
+    functional_profile_ summary_narrative_role:
+      core_functional_identity: |
+        Functions primarily as a valuable, vulnerable  objective requiring recovery. Its detectable signatures serve as a gameplay mechanic for tracking. Represents the nascent stage of the world's  core bio-tech.
+      key_narrative_functions_served: |
+        Drives the "Sn atcher's Snack" task. Provides a concrete example of GE Gator value. Enables use of the Bio-Scanner tool. 
+      relationship_to_alethic_modality: |
+        Its existence confirms the possibility of GE Solar Gators . Its vulnerability highlights the constraints of its developmental stage.
+      key_functional_tensions_trade_offs: |
+         Value vs. Vulnerability. Technological potential vs. practical fragility.
+
+  - entity_id: FACTION_Sw ampRecluses_Encounter01
+    entity_name: "Swamp Recluses (Unnamed Group)"
+     entity_type: "Organization / NPC Group"
+    primary_authentication_sources: "PM-EventLog- 003.yaml (task_id: snatchers_snack)"
+    authenticated_functional_properties_ bundle:
+      core_function_purpose:
+        - role_type: "Primary Role"
+          description : "Obstacle; Antagonistic force preventing immediate recovery of the quest objective."
+          authentication: "PM- EventLog-003.yaml (Task Conflict)"
+        - role_type: "Secondary Role(s)"
+           description: "Resource Holders (temporary); Possess the Solar Gator Hatchling."
+          authentication: "PM-Event Log-003.yaml (Task Context)"
+      key_capabilities_powers:
+        - capability_ id: FUNC-SR-01
+          name: "Verbal Interaction & Threat Assessment"
+          description: | 
+            Able to communicate demands/threats ("warns you off"). Assess player's approach/intent.
+           authentication: "PM-EventLog-003.yaml (Dialogue Options)."
+        - capability_id: FUNC-SR -02
+          name: "Apply Force / Combat Capability"
+          description: |
+            Willing and presumably  equipped to use violence ("threaten violence", fight option implies capability).
+          authentication: "PM-EventLog- 003.yaml (Dialogue Options, Fight Possibility)."
+          limits_nuances: "Specific combat strength/tact ics not detailed in this log."
+        - capability_id: FUNC-SR-03
+          name: "Negotiation  (Limited)"
+          description: |
+            May accept payment (Gator Scrip) in exchange for the objective under certain conditions .
+          authentication: "PM-EventLog-003.yaml (Pay Option)."
+      acquired_skills_expertise :
+        - skill_id: SKL-SR-01
+          name: "Swamp Stealth/Amb ush"
+          description: "Implied capability to establish a hidden camp and potentially ambush or snatch targets (the hatchling)."
+           authentication: "Implied by context of hidden camp & stolen hatchling."
+          proficiency_level: Undetermined # Not specified  in source, adding for completeness
+      inabilities_lack_of_function: [] # None explicitly demonstrated in this limited  interaction
+      vulnerabilities_weaknesses:
+        - vulnerability_id: VULN-SR-01 
+          description: "Susceptible to player combat capabilities (can be defeated)."
+          authentication: "PM-Event Log-003.yaml (Fight Option, Reward for Killing)."
+        - vulnerability_id: VUL N-SR-02
+          description: "Potentially susceptible to intimidation or negotiation (payment)."
+          authentication : "PM-EventLog-003.yaml (Dialogue Options)."
+        - vulnerability_id: V ULN-SR-03
+          description: 'React aggressively without negotiation if approached improperly ("airboat engine roaring"). '
+          authentication: "PM-EventLog-003.yaml (World Note)."
+      costs_dependencies_ operational_constraints: [] # None explicitly detailed beyond potentially needing resources prompting theft
+    functional_profile_summary_narrative_ role:
+      core_functional_identity: |
+        Functions as a localized antagonistic group capable of theft, threat , combat, and limited negotiation. They act as gatekeepers to the quest objective.
+      key_narrative_functions _served: |
+        Provide the central conflict for the "Snatcher's Snack" task. Offer player choice through multiple  interaction methods (fight, pay, talk). Represent a faction of the swamp's desperate or territorial inhabitants.
+       relationship_to_alethic_modality: |
+        Demonstrate the possibility of organized groups operating outside formal structures, using  force or negotiation based on circumstance.
+      key_functional_tensions_trade_offs: |
+        Player choice between  violence, expenditure (Scrip), or potentially skill-based interaction (Intimidation) to overcome the obstacle. Risk vs . Reward of different approaches.
+
+  - entity_id: "OBJ_BioScanner_01 / OBJ_SonicScanner _01" # Combined as per Markdown
+    entity_name: "Bio-Scanner / Sonic Scanner (Player Tools)"
+     entity_type: "Object (Tool)"
+    primary_authentication_sources: "PM-EventLog-003 .yaml (Various procedure sections)"
+    authenticated_functional_properties_bundle:
+      core_function_purpose :
+        - role_type: "Primary Role (Bio-Scanner)"
+          description: "Detection; Identifies specific biological  energy signatures or traces."
+          authentication: "PM-EventLog-003.yaml (Snatcher's  Snack Procedure)"
+        - role_type: "Primary Role (Sonic Scanner)"
+          description: "Analysis/ Detection; Identifies structural weaknesses or specific resonant frequencies in materials."
+          authentication: "PM-EventLog-0 03.yaml (Bio-Genesis Blues Procedure - Wall, Pylons)"
+      key_capabilities_powers :
+        - capability_id: FUNC-BIOSCAN-01
+          name: Bio-Signature Tracking
+           description: |
+            Detects and allows following of unique bio-electric traces left by certain creatures (Solar Gators).
+           authentication: "PM-EventLog-003.yaml (Snatcher's Snack)."
+          limits_ nuances: "May require relative proximity; effectiveness on other creature types unknown from this log."
+        - capability_id:  FUNC-SONSCAN-01
+          name: Structural Weakpoint Identification
+          description: |
+            Identifies  compromised sections of physical structures (rock walls).
+          authentication: "PM-EventLog-003.yaml (Bio- Genesis Blues - Lab Wall)."
+        - capability_id: FUNC-SONSCAN-02
+          name:  Resonant Frequency Detection
+          description: |
+            Identifies specific resonant frequencies associated with objects (Energy Pylons). 
+          authentication: "PM-EventLog-003.yaml (Bio-Genesis Blues - Test Chamber)." 
+          limits_nuances: "Implies ability to differentiate frequencies; may require calibration or specific modes not detailed."
+      acquired _skills_expertise: null # N/A (Tools require player skill to use effectively)
+      inabilities_lack_ of_function:
+        - inability_id: INAB-SCANNER-01
+          description: " Cannot directly affect the environment (e.g., cannot break walls or disable pylons)."
+          authentication: "Nature of scanning  tools; requires other actions/tools."
+        - inability_id: INAB-SCANNER-02
+           description: "Bio-Scanner does not detect non-biological targets; Sonic Scanner does not detect bio-signatures (Impl ied specialization)."
+          authentication: "Implied by distinct usage contexts."
+      vulnerabilities_weaknesses:  [] # Standard tech vulnerabilities - damage, power loss - implied but not tested in log
+      costs_dependencies_operational_constraints: 
+        - constraint_id: COST-SCANNER-01
+          applies_to: "OBJ_BioScanner_ 01 / OBJ_SonicScanner_01"
+          description: |
+            Requires activation by the user.  Likely requires a power source (implied, not explicitly managed in log). Conforms to 1970s tech aesthetic (" bulky 70s tricorder" look for Bio-Scanner).
+          authentication: "Implied usage; PM- EventLog-003.yaml (Bio-Scanner description)."
+    functional_profile_summary_narrative _role:
+      core_functional_identity: |
+        Function as essential player sensory extension tools, enabling detection  and analysis beyond normal human capability, crucial for navigation, tracking, and puzzle-solving within the Primal Mama tech level.
+       key_narrative_functions_served: |
+        Enable tracking objective (Bio-Scanner). Enable puzzle-solving and  obstacle bypass (Sonic Scanner identifying weak points and resonant frequencies). Reinforce the world's specific technological flavor.
+      relationship _to_alethic_modality: |
+        Represent the established technological possibilities for information gathering in the world. Their  limitations define what *cannot* be easily known or detected.
+      key_functional_tensions_trade_offs: |
+         Utility vs. potential power limits or environmental interference (not shown in log). Specialization means needing the right tool for the job. 
+
+  - entity_id: LOC_AurelianLabs_01
+    entity_name: "A urelian Labs (Derelict Bio-Research Outpost)"
+    entity_type: "Place (with active  functions/hazards)"
+    primary_authentication_sources: "PM-EventLog-003.yaml  (section_id: north_to_ruins, quest_id: bio_genesis_blues)"
+     authenticated_functional_properties_bundle:
+      core_function_purpose:
+        - role_type: " Primary Role"
+          description: "Dungeon/Challenge Area; Contains objectives, obstacles, hazards, enemies, and rewards." 
+          authentication: "PM-EventLog-003.yaml (Structure of Bio-Genesis Blues)."
+        - role _type: "Secondary Role(s)"
+          description: "Lore Source; Contains environmental storytelling elements (logs, item placement ) about its former purpose (bio-genesis research)."
+          authentication: "PM-EventLog-003.yaml ( Lab descriptions, Log Tape)."
+      key_capabilities_powers:
+        - capability_id: FUNC-AL AB-01
+          name: Spatial Distortion Generation
+          description: |
+            Possesses technology capable of generating localized  portals (Spatial Distortions) when correctly powered and keyed (Security Dongles, Bio-Samples).
+          authentication: "PM -EventLog-003.yaml (Bio-Genesis Blues - Entry/Exit)."
+        - capability_ id: FUNC-ALAB-02
+          name: "Environmental Hazard Deployment (Spores)"
+          description: |
+             Features automated systems releasing toxic spore clouds in specific areas (Spore Vents).
+          authentication: "PM-Event Log-003.yaml (Bio-Genesis Blues - Spore Vents stage)."
+          limits_nu ances: "Operates on cycles, potentially allowing timed passage."
+        - capability_id: FUNC-ALAB-03 
+          name: Containment Field Generation
+          description: |
+            Can generate energy barriers (Test Chamber containment field)  controllable via linked pylons.
+          authentication: "PM-EventLog-003.yaml (Bio-Genesis Blues -  Test Chamber stage)."
+        - capability_id: FUNC-ALAB-04
+          name: Hosting Environment
+          description : |
+            Supports specific hostile fauna (Miasma Lurker) adapted to or drawn to its environment/energy sources. 
+          authentication: "PM-EventLog-003.yaml (Bio-Genesis Blues - Lab Encounter)."
+      acquired _skills_expertise: null # N/A (Location)
+      inabilities_lack_of_function: 
+        - inability_id: INAB-ALAB-01
+          description: "Much of the facility  is derelict and non-functional."
+          authentication: "PM-EventLog-003.yaml ( General descriptions of ruin)."
+        - inability_id: INAB-ALAB-02
+          description:  "Security systems (barriers, portals) can be bypassed or deactivated with correct tools/knowledge (Sonic Scanner, Dongles , Pylon interaction)."
+          authentication: "PM-EventLog-003.yaml (Quest progression actions )."
+      vulnerabilities_weaknesses:
+        - vulnerability_id: VULN-ALAB- 01
+          description: "Structural elements are compromised (breakable walls)."
+          authentication: "PM-EventLog -003.yaml (Bio-Genesis Blues - Lab Wall)."
+        - vulnerability_id: VUL N-ALAB-02
+          description: "Control systems (pylons) are vulnerable to specific energy  types (torch/electrical discharge)."
+          authentication: "PM-EventLog-003.yaml (Bio-Genesis Blues  - Test Chamber)."
+      costs_dependencies_operational_constraints:
+        - constraint_id: DEPEND-ALAB- 01
+          applies_to: "LOC_AurelianLabs_01 (Portal/Security Functions )"
+          description: |
+            Active systems require power (auxiliary input) and specific key items (Dongles, Bio- Samples) for activation/passage.
+          authentication: "PM-EventLog-003.yaml (Bio -Genesis Blues - Portal Activation)."
+        - constraint_id: OPCON-ALAB-01
+           applies_to: "LOC_AurelianLabs_01 (Navigation)"
+          description: |
+             Layout includes environmental obstacles requiring specific traversal methods (swimming, climbing, jumping gaps, timed movement through hazards).
+          authentication : "PM-EventLog-003.yaml (Bio-Genesis Blues stage descriptions)."
+    functional_profile_ summary_narrative_role:
+      core_functional_identity: |
+        Functions as a complex environmental puzzle box and combat  arena, utilizing hazards, locked progression, and unique technological interactions (portals, energy fields) consistent with a derelict high- tech research facility in the Primal Mama setting.
+      key_narrative_functions_served: |
+         Provides setting for the "Bio-Genesis Blues" quest. Delivers objectives (Schematic, Static Slapper). Presents  varied challenges (hazard navigation, combat, puzzle-solving). Offers lore through environment and items.
+      relationship_to _alethic_modality: |
+        Demonstrates the realized possibilities of advanced (but decaying) pre- or  post-Calamity technology (portals, energy fields, bio-hazards). Its decay and bypassable security show the  limitations and vulnerabilities inherent in complex systems over time.
+      key_functional_tensions_trade_offs: | 
+        Exploration potential vs. Hazards/Obstacles. Reward acquisition vs. Resource expenditure / Risk. Technological sophistication vs. State  of decay.
+
+# --- Conclusion ---
+# This YAML file structures the functional properties of entities from PM-EventLog -003,
+# as analyzed through the Entity Functional Profile Protocol.
+# It serves as a data- centric representation of the Markdown analysis.
+```

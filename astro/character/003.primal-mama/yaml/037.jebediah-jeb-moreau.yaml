@@ -1,0 +1,151 @@
+
+World: Primal Mama
+CodexVersion: "0. 2 - Character Constitution (Jebediah Moreau)"
+LastUpdated: "[Current Date]" # Placeholder, replace with actual date 
+LeadArchitects: "[Your Name/Studio Name]" # Placeholder, replace as needed
+
+CharacterProfile:
+  Entity ID: "CHAR_JebMoreau_01"
+  CharacterName: "Jebediah \" Jeb\" Moreau"
+  EntityType: Person
+  Archetype: "The Squeezed Small Businessman, The salt- of-the-earth Victim"
+  PrimaryAuthenticationSources: "This Codex Entry, Primal Mama Coherence Protocol v0 .1"
+  CanonTier: "Tier 2 (Represents a significant social dynamic/victim class)"
+   AuthenticationStatus: "Authenticated_Canonical_Active"
+
+AuthenticatedPropertyBundle:
+  PhysicalProperties:
+    Appearance _General:
+      Description: "Middle-aged male with African features, perhaps early 50s, skin  weathered by years of swamp sun and labor. Lean but strong frame, showing signs of recent stress and fatigue."
+       Authentication: "This Codex Entry"
+    Appearance_Specific_Features:
+      Description: "Deep-set,  kind eyes that currently hold a persistent shadow of worry. Lines etched around his mouth and brow from both laughter in better times  and recent hardship. Broad nose."
+      Authentication: "This Codex Entry"
+    Appearance_Distinctive_Marks :
+      Description: "A long, faded scar along his left forearm from an old gator bite – a mark once worn  with pride, now a reminder of a more independent past. Calloused, capable hands."
+      Authentication: "This  Codex Entry"
+    Typical_Attire:
+      Description: "Worn, patched denim overalls over a faded , sweat-stained chambray work shirt. Heavy-duty, mud-caked rubber boots. Occasionally a battered,  wide-brimmed straw hat against the sun. Clothing is clean but perpetually looks 'lived-in,' consistent with  1970s practical workwear aesthetic."
+      Authentication: "This Codex Entry / Primal Mama Aesthetic  Guidelines"
+    Voice_Speech_Pattern:
+      Description: "Warm, resonant baritone with a distinct L ickskillet bayou drawl. Speech is usually measured and thoughtful, but can become strained or clipped when discussing his  troubles. Prone to sighs of resignation."
+      Authentication: "This Codex Entry"
+    Gait_M annerisms:
+      Description: "Slightly stooped posture from years of physical work and current burdens. Moves  with a practiced economy of motion typical of a lifelong laborer. Wrings his hands or rubs the back of his neck when anxious or  discussing Oligarchy pressures."
+      Authentication: "This Codex Entry"
+    Associated_Scent:
+      Description: " Faint lingering scent of swamp water, alligator musk, and perhaps cheap, sweet pipe tobacco (a small, increasingly unaff ordable comfort)."
+      Authentication: "This Codex Entry"
+    Physical_Undersaturation: "Exact height and weight, specific  brand of pipe tobacco, hairstyle (likely short, practical)."
+
+  FunctionalProperties:
+    Skills:
+      - Name: " Expert Alligator Trapping (Wild Catch – traditional methods passed down through generations in Lickskillet)"
+        Authentication : "Backstory Implication, Community Role"
+      - Name: "Proficient Alligator Butchering & Basic Processing (Mom -and-pop scale, using older, well-maintained 1970s-style equipment)"
+         Authentication: "His Livelihood"
+      - Name: "Operation and field repair of aging airboats and  other swamp-based transport/tools (constrained by 1970s tech aesthetic)"
+        Authentication: " Necessity of his environment/profession"
+      - Name: "Knowledge of local swamp ecosystems, gator behavior,  and safe navigation routes (pre-Saurian Sanctuary mass farming era knowledge)"
+        Authentication: "Generational Knowledge "
+    Limitations:
+      - Type: "Economic"
+        Description: "Severe financial hardship due to predatory  pricing, restricted market access, and subtle sabotage by the Meat Processor Oligarchy. Likely in debt."
+        Authentication:  "Primal Mama Deontic/Axiological notes on 'friction'"
+      - Type: "Technological "
+        Description: "Cannot afford or access advanced GE alligator strains or sophisticated solar-power systems for his own operations ; reliant on wild catch or less efficient, 'natural' gator stock which puts him at a disadvantage."
+         Authentication: "Primal Mama Alethic Modalities on GE Gators & Solar Dominance"
+      - Type:  "Influence"
+        Description: "Possesses no significant leverage or political capital to challenge the Oligarchy's practices . Local Lickskillet officials may be sympathetic but are powerless or bought-off."
+        Authentication: "Implied Power  Dynamics of Primal Mama"
+      - Type: "Legal"
+        Description: "Operates within a tightening  net of regulations subtly designed by the Oligarchy to favor large-scale, GE-focused operations over traditional ones."
+         Authentication: "Extrapolation from 'friction'"
+    Functional_Undersaturation: "Firearms proficiency (likely  owns a gun as per regional norms, but not a primary skill), specific knowledge of advanced GE processes (he wouldn't have it )."
+
+  PsychologicalProperties:
+    CoreTraits:
+      - Trait: "Resilient / Stoic  (Culturally ingrained response to hardship in Lickskillet)"
+        Authentication: "Implied from enduring his situation "
+      - Trait: "Deeply Principled / Fair-minded (Finds the Oligarchy's  tactics inherently unjust)"
+        Authentication: "Basis for his victimhood being felt as injustice"
+      - Trait : "Proud (Of his heritage, his skills, his former independence, making his current situation more galling)"
+         Authentication: "Reaction to loss of autonomy"
+    DominantEmotion:
+      Description: "Weariness /  Suppressed Anger / Growing Despair (A result of the relentless pressure)"
+      Authentication: "Consequence of victimization "
+    KeyMotivator:
+      Description: "Providing for his family (e.g., a wife, a  child/grandchild); Preserving his dignity and what's left of his livelihood."
+      Authentication: "Common  human motivator, heightened by victim status"
+    KeyBelief:
+      Description: "Belief in an honest  day's work for an honest day's pay (a value system being eroded by the Oligarchy). Believes  the \"old ways\" had value."
+      Authentication: "Contrast with Oligarchy"
+    InternalConflict:
+      Description:  "Desire to resist the Oligarchy vs. Fear of severe repercussions for his family and himself; Pride in his traditional  methods vs. The crushing \"efficiency\" of GE gator operations he can't compete with; Hope for a turnaround vs.  The encroaching reality of failure."
+      Authentication: "Natural conflicts for his situation"
+    SubjectiveMemoryContent :
+      Description: "Clear, perhaps bittersweet, memories of a time when independent gator men in Lickskillet thrived ; Specific instances of Oligarchy agents manipulating prices, 'losing' shipments, or imposing impossible new 'standards'."
+       Authentication: "Personal history of victimization"
+    Psychological_Undersaturation: "Specific views on deified celebrities (likely  a quiet, traditional reverence without deep theological engagement), detailed opinions on Beetriot (seen as distant, powerful, and disconnected from swamp  reality), stance on \"invisible women\" conspiracy (might be a background hum of accepted local paranoia but not his primary concern )."
+
+  SocialRelationalCategoricalProperties:
+    OfficialRole:
+      Description: "Independent Alligator Tra pper & Small-Scale Processor (Struggling, Marginalized)"
+      Authentication: "His Profession"
+     SocialStatus:
+      Description: "Respected elder/figure within his immediate Lickskillet community for his skills and fairness , but seen as economically insignificant and 'obsolete' by Oligarchy representatives."
+      Authentication: "Community vs.  External Perception"
+    PrimaryAffiliation:
+      Description: "Lickskillet community (deeply rooted,  informal ties). Perhaps a member of a dwindling local trappers' co-op."
+      Authentication: "Local Roots"
+     KeyRelationships:
+      - RelationshipTo: "His family (e.g., Spouse: Elodie Moreau, a pragmatic and supportive  but worried partner. Child: Young Thomas, whose future Jeb frets over)." # Quoted due to colons
+        Nature : "Provides emotional core and stakes."
+        Authentication: "This Codex Entry"
+      - RelationshipTo: " Local Oligarchy contact/enforcer (e.g., \"Mr. Shanklin\" – a cold, officious  Beetriot man who handles Lickskillet accounts)" # Quoted due to colons
+        Nature: "Ant agonistic, source of immense pressure and unfair demands."
+        Authentication: "The Face of his Victimization"
+       - RelationshipTo: "Other struggling Lickskillet old-timers/processors"
+        Nature: "B onds of shared hardship, quiet commiseration, perhaps futile attempts at collective bargaining."
+        Authentication: "Shared Experience"
+     SpeciesType:
+      Description: "Human (Baseline Primal Mama Strain)"
+      Authentication: "Default Human" 
+    Social_Undersaturation: "Specific friends outside his professional circle, precise relationship with local law enforcement (likely sympathetic  but ineffective), any ties to Swamp Witches (probably avoids them as bad luck/dangerous)."
+
+  ModalProperties: 
+    Status: "None Authenticated. Jeb operates entirely within the standard physical, biological, and societal rules of Primal Mama . His victimhood stems from the application of these rules by more powerful entities, not from any unique property of his own." 
+    Note: "His 'ordinariness' in this regard is key to his role as a relatable victim of  systemic pressure."
+
+  AxiologicalProperties:
+    Reputation_LickskilletCommunity:
+      Description : "Authenticated as 'honest,' 'hard-working,' 'knows the swamp like his own skin,' 'a  good man dealt a bad hand,' 'someone to be quietly helped if possible but also a cautionary tale.'"
+      Authentication : "Inferred from community dynamics"
+    Reputation_MeatProcessorOligarchy:
+      Description: " Authenticated as 'marginal,' 'inefficient,' 'expendable,' 'a relic of the past,' 'easily squeezed out or bought  cheap.'"
+      Authentication: "Implied by Oligarchy's actions/goals"
+    MoralAlignment_Narr ativeFraming:
+      Description: "Authenticated via narrative focus as a fundamentally decent, sympathetic individual being unjustly crushed by an am oral or immoral system/entity (the Oligarchy)."
+      Authentication: "Thematic purpose of his character"
+     Axiological_Undersaturation: "Reputation among Erpenthropes (likely unknown to them), Beet riot elite (irrelevant to them)."
+
+  HistoricalProperties:
+    Origin:
+      Description: "Authenticated as  born and raised in Lickskillet. His family has been working the swamps and dealing in alligators for at least  three generations, predating the Biological Calamity and the subsequent rise of GE Alligators."
+      Authentication: " Provides depth and connection to pre-GE era"
+    KeyPastEventConnection:
+      Description: "Actively experienced the economic  shift in Lickskillet from a decentralized network of independent trappers/processors to a system dominated by the Meat Processor  Oligarchy and their GE alligator products. Remembers the \"good old days\" before the squeeze."
+      Authentication:  "Living history of the conflict"
+    InheritedItemsBurdens:
+      Descriptions:
+        - " Authenticated to possess his grandfather's rusted but still sharp skinning knife (symbol of heritage)"
+        - "The  family's small, heavily mortgaged swamp-side processing shed with its aging 1970s-style  equipment"
+        - "A deep-seated knowledge of traditional swamp ways now devalued"
+      Authentication: " Tangible links to past and current struggles"
+    Historical_Undersaturation: "Specific details of his ancestors' lives, direct  personal experiences during the Biological Calamity itself (he would have been younger, it would have shaped his world but not  necessarily involved him directly in its core events)."
+
+CharacterConstitutionSummary:
+  CoreEssence: "Jebediah Moreau  is constituted as a man of integrity and traditional skill, deeply connected to the Primal Mama swamp heritage, who is being systematically victimized  and economically strangled by the impersonal, technologically advantaged, and morally flexible Meat Processor Oligarchy. His Physical weathering reflects his Functional  and Psychological burdens. His Social standing is strong locally but nonexistent where it matters for power. He embodies the struggle of the  'little man' against a modernizing, retro-futuristic capitalist force within the unique constraints and aesthetics of Primal  Mama."
+  PrimaryNarrativeFunction: "To serve as a primary example and human face of the socio-economic  oppression exerted by the Meat Processor Oligarchy in Lickskillet. To provide a relatable, sympathetic character through whose eyes the audience  can understand the harsh realities for 'mom-and-pop' operations. His plight can be a catalyst for other characters' actions ( e.g., investigation, rebellion, pity) or a tragic illustration of the world's harshness."
+   KeyInternalConflicts_FromBundle: "The fight to maintain dignity and provide for family vs. the overwhelming economic and social pressure  from the Oligarchy. Loyalty to traditional, sustainable methods vs. the imposed \"efficiency\" of the new GE-dominated market . The urge to resist injustice vs. the pragmatic fear of retaliation and complete ruin."
+  PotentialForDevelopment_BasedOnBundle:  "Jeb could be pushed to a breaking point: either succumbing to despair and losing everything (tragic outcome), making  a desperate and dangerous choice (e.g., dealing with shady elements, attempting sabotage, seeking help from unconventional sources like  Swamp Witches or even Erpenthropes if truly desperate), or becoming a figurehead for a localized, likely  doomed, resistance. He could also find an unexpected ally or a small, temporary reprieve that offers a glimmer of hope."  # Quoted due to colons

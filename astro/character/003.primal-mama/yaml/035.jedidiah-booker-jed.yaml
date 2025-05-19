@@ -1,0 +1,100 @@
+
+world: Primal Mama
+codex_version: "0.2 - Character Constitution"
+last_updated : "[Current Date]"
+lead_architects: "[Your Name/Studio Name]"
+
+introduction: |
+  This protocol  guides the detailed definition of **Fictional Persons** (characters, significant sentient beings) within the Primal Mama heter ocosm. Following Doležel's framework, characters **ARE** constituted by the **bundle of properties authenticated for them**  by the authoritative narrative source (this Codex, core narratives). They possess **no independent psyche or reality beyond this textual definition **.
+
+  Use this template to systematically build characters by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted individuals  whose complexity arises from the **richness, coherence, and potential tensions within their authenticated bundle**, and whose actions are logically  grounded in their defined nature and the world's rules. Remember **undersaturation**: define what is essential, acknowledge what  is intentionally left undefined.
+
+character_profile:
+  entity_id: CHAR_JedBooker_01 
+  character_name: 'Jedidiah Booker (prefers "Jed")'
+  entity_type: "Person ( Human)"
+  archetype: "The Wronged Man / Dispossessed Craftsman"
+  primary_authentication_ sources: "This Codex Entry, Primal Mama Coherence Protocol v0.1"
+  canon_tier: "Tier  2 (Significant Supporting Character / Potential POV)"
+  authentication_status: Authenticated_Canonical_Active
+
+  authenticated _property_bundle:
+    physical_properties:
+      purpose: "Define the character's tangible presence." 
+      appearance_general: "Male, early 50s, with distinct West African facial features – broad nose , strong jawline. Wiry, strong frame from years of physical labor, now carrying an air of weariness. Skin is a  deep, weathered brown. # Auth: [This Codex Entry]"
+      appearance_specific_features: "Intelligent, deep- set brown eyes that are often narrowed, assessing his surroundings with suspicion. A network of fine lines around his eyes and mouth . Short, tightly coiled grey-black hair, receding slightly at the temples. # Auth: [This Codex Entry]" 
+      appearance_distinctive_marks: "A faded, jagged scar running from his left temple down his cheek, partially hidden by  a short beard – relic of a \"dispute\" over processing contracts. Calloused hands, one knuckle permanently swollen.  # Auth: [This Codex Entry / Backstory Implication]"
+      typical_attire: "Worn,  patched canvas overalls (color faded to a muddy green-brown) over a simple, dark thermal undershirt – practical  for swamp work, even if he has little left. Heavy-duty, oft-repaired rubber boots. Sometimes a  wide-brimmed, battered hat made of gator hide scraps. # Auth: [This Codex Entry / Pr imal Mama Aesthetic]"
+      voice_speech_pattern: "Deep baritone, speaks slowly and deliberately with a Lickskillet  regional drawl. His words often carry a weight of bitterness or resignation, but can flare with carefully controlled anger when discussing  his past or the oligarchs. # Auth: [This Codex Entry]"
+      gait_mannerisms: " Moves with a cautious economy, betraying a life spent navigating treacherous swamp terrain and avoiding trouble. Often keeps his hands loosely clasped or  tucked into overall pockets. Has a habit of rubbing the old scar on his cheek when stressed or thinking hard. # Auth : [This Codex Entry]"
+      associated_scent_if_any: "Faint, lingering aroma of  swamp mud, alligator musk, and the metallic tang of old machinery or rust. Maybe a hint of cheap, strong chic ory coffee. # Auth: [Primal Mama Sensory Palette]"
+      physical_undersaturation: "Exact height/weight; specific  details of clothing beyond functional workwear; non-essential mannerisms."
+
+    functional_properties:
+      purpose:  "Define what the character *can* and *cannot* do."
+      skill_processing: "Expert Alligator  Processing (Small-scale, artisanal quality; formerly renowned for his \"Bayou Booker's Best\" jerky and smoked cuts) #  Auth: [Backstory / Implied by Victimization]"
+      skill_trapping_navigation: "Proficient  Alligator Trapping & Swamp Navigation (knows the backwaters around Lickskillet intimately) # Auth: [ Implied necessity for former business]"
+      skill_repair: "Maintenance and Repair of 1970s -aesthetic Analog Processing Equipment (e.g., smokers, grinders, primitive refrigeration units powered by solar banks) # Auth : [Backstory / Primal Mama Tech Constraint]"
+      skill_firearms: "Competent use of common firearms (shot gun, rifle) for hunting/self-defense, as per Lickskillet norms # Auth: [Primal  Mama Deontic Rules]"
+      limitation_economic: "Effectively bankrupted by the Meat Processor Oligarchy; possesses minimal  material assets, no current legal business operation. # Auth: [Core Victim Premise]"
+      limitation_social: "Black listed by larger distributors and suppliers due to oligarchy pressure; viewed with suspicion by local officials beholden to oligarchs. # Auth:  [Core Victim Premise / Primal Mama Deontic Rules]"
+      limitation_technological: "His  expertise is in older, smaller-scale analog tech; lacks resources/knowledge to compete with the oligarchy's larger, more \" efficient\" (though still 70s-aesthetic) processing plants. # Auth: [Primal Mama Tech Constraint  & Oligarchy Dynamic]"
+      limitation_psychological: "Deep-seated mistrust, bordering on paranoia, towards authority figures and  anyone associated with the big meat processing corporations. # Auth: [Psychological Property Link]"
+      functional_undersaturation : "Advanced combat skills; knowledge of GE gator intricacies beyond basic anatomy for processing; ability to pilot larger watercraft."
+
+     psychological_properties:
+      purpose: "Define the character's textually constituted inner life."
+      core_trait_ resentful_bitter: "Resentful / Bitter (towards the oligarchy and his misfortune) # Auth:  [Dialogue, Internal Monologue if POV]"
+      core_trait_proud_self_reliant: "Proud /  Self-Reliant (deeply values his former independence and skill) # Auth: [Actions, Resistance to Handouts]"
+       core_trait_suspicious_wary: "Suspicious / Wary (of strangers, authority, and promises ) # Auth: [Interactions, Body Language]"
+      dominant_emotion: "A simmering, righteous anger mixed  with profound disappointment and a sense of loss. # Auth: [Narrative Tone, Dialogue]"
+      key_motiv ator: "Survival on his own terms; a desperate desire to see the powerful meat oligarchs face some form of justice or consequence for  their actions; protecting any remaining vestige of his dignity. # Auth: [Plot Potential, Character Arc]"
+       key_belief_knowledge: "\"They can take your business, your name, but they can't take what you  *know*... unless they kill you.\" Believes the system is rigged for the wealthy and powerful. # Auth:  [Dialogue Snippets, Worldview]"
+      key_belief_celebrities: "Skepticism towards the  deified celebrities, seeing them as distractions or irrelevant to the real struggles of common folk. \"Burt Reynolds ain't gonna pay  my bills or run GatorCorp outta town.\" # Auth: [Primal Mama Axiological Values - Counterpoint]"
+       internal_conflict: "Pride vs. Necessity (e.g., needing to scavenge or take charity); Desire for Retribution  vs. Fear of Oligarchy's Power; Lingering hope for justice vs. encroaching despair. # Auth: [Narrative  Tension]"
+      subjective_memory_content: "Vivid, painful memories of his thriving business, the specific  individuals who orchestrated his downfall (e.g., a smirking middle-manager from \"AlliCo Processing\"), the feeling  of helplessness as his equipment was seized or his contracts dried up. # Auth: [Backstory Details]"
+      psych ological_undersaturation: "Specific opinions on art unrelated to his craft; broader philosophical views beyond his immediate situation; detailed childhood memories not  directly informing his current state."
+
+    social_relational_categorical_properties:
+      purpose: "Define the character's  place within the world's networks."
+      official_role: "None. Formerly: Owner/Operator, \"Booker' s Bayou Bites\" (small, independent alligator processor in Lickskillet outskirts) # Auth: [Backstory]" 
+      social_status: "Marginalized / Dispossessed. Lives on the fringes of Lickskillet society, possibly in  a squatter community or a hidden shack deeper in the swamp. # Auth: [Consequence of Victimization]"
+       primary_affiliation: "None formal. Loosely connected to other individuals harmed by the meat oligarchy, if such  a network exists. # Auth: [Plot Potential]"
+      key_relationship_1_oligarchy: "To the Meat Processor  Oligarchy (e.g., \"AlliCo Processing,\" \"MegaGator Meats\"): Antagonistic. They  are the direct source of his ruin. He may know specific individuals within these companies who were instrumental in his downfall. # Auth:  [Core Conflict]"
+      key_relationship_2_authorities: "To Lickskillet Authorities (e .g., local sheriff, gatekeepers of Saurian Sanctuary): Deep distrust. Views them as complicit with, or  powerless against, the oligarchy. # Auth: [Primal Mama Deontic/Social Structure]"
+      key _relationship_3_others: "To other small-time operators/swamp dwellers: Wary sympathy. He  understands their plight but is reluctant to endanger them or be betrayed. # Auth: [Social Dynamics]"
+      species_type: " Human (Lickskillet native) # Auth: [This Codex Entry]"
+      social_undersaturation: "Specific family members  (unless plot-relevant); casual acquaintances not tied to his core conflict; precise details of his former customer base."
+
+     modal_properties:
+      purpose: "Define any inherent unique relationship to world laws."
+      property_id: "N /A"
+      property: "[None authenticated. Jed operates entirely within the established alethic, deontic,  and epistemic rules governing ordinary humans in Primal Mama.]"
+      description: "N/A"
+       limits: "N/A"
+      authentication: "[Absence of evidence for exceptional status; his victimhood is a result  of social/economic power dynamics, not supernatural ones.]"
+      note: "Jed's significance comes from his  typicality within a specific oppressed demographic, not from being an exception to world rules."
+
+    axiological_properties: 
+      purpose: "Define the character's value status *within* Primal Mama."
+      reputation_ oligarchy_allies: "Authenticated as 'a has-been,' 'minor nuisance,' 'example of inefficiency,'  possibly 'disgruntled and potentially troublesome.' His business was likely officially discredited (e.g., health code violations, tax evasion  – fabricated or exaggerated). # Auth: [Implied by Oligarchy tactics]"
+      reputation_dispossessed_fringe:  "Authenticated as 'a survivor,' 'knows the score,' 'someone who got screwed by the big guys,' 'bitter but  knowledgeable.' Might be respected for his past skills or stubbornness. # Auth: [Social Dynamics]"
+      moral_alignment_narr ative_framing: "Authenticated as a victim of corporate greed and systemic injustice; his anger and bitterness are justified by his experience . Represents the human cost of the oligarchy's dominance. # Auth: [Narrative Intent]"
+      ax iological_undersaturation: "Wider public perception in Lickskillet beyond those directly involved; his standing among those who don' t know his story."
+
+    historical_properties:
+      purpose: "Define the character's known origins and  connections to past events."
+      origin: "Authenticated as born and raised in the Lickskillet region, likely from a family  with a history of swamp-based livelihoods even before the mass shift to alligator processing. # Auth: [This Codex Entry ]"
+      key_past_event_connection: "The \"Consolidation\" or \"The Squeeze\"  – a period (perhaps a few years ago) where the larger meat processing oligarchies aggressively bought out, bankrupted,  or otherwise eliminated smaller independent operators like him. His business, \"Booker's Bayou Bites,\" was a casualty of this period.  # Auth: [Core Backstory]"
+      inherited_items: "Authenticated to possess a few well-maintained but old hand tools  from his former trade (e.g., a specific skinning knife, a sharpening stone), a battered copy of \"The Bandit' s Guide to Swamp Cookery\" (a fictional homage to Jerry Reed), and an old, reliable pump-action shotgun  with a stock carved with alligator motifs. # Auth: [This Codex Entry, Primal Mama Aesthetics & Values]"
+       historical_undersaturation: "Detailed family history beyond general Lickskillet roots; specific interactions pre-calam ity unless directly relevant to his skills/knowledge."
+
+  character_constitution_summary_narrative_function:
+    purpose:  "Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+    core_ essence: |
+      Jedidiah Booker is constituted as a man defined by loss and injustice within the Primal Mama  heterocosm. His identity is inextricably linked to his mastery of small-scale, 1970s- aesthetic alligator processing – a skill rendered economically unviable by the predatory actions of the Meat Processor Oligarchy. His African features ground him visually , while his Primal Mama upbringing in Lickskillet informs his knowledge, skills, and resentments. He embodies  the struggle of the common person against unchecked corporate power in a world where survival itself is a commodity. His bitterness is a direct result  of his values (pride in craftsmanship, self-reliance) clashing with the world's harsh realities. His skepticism  towards the dominant cultural deities highlights his grounded, cynical perspective shaped by hardship.
+    primary_narrative_function: "To  serve as a living testament to the \"friction\" caused by the meat processor oligarchies; to provide a ground-level perspective on life  in Lickskillet for those outside the power structures; potentially a reluctant ally, mentor, or source of critical information/ skills for protagonists opposing the oligarchy; a source of conflict if his bitterness leads him to make desperate choices."
+     key_internal_conflicts: "The desire for justice/revenge vs. the pragmatic need for survival and the overwhelming power  of his enemies. Pride in his lost craft vs. the shame of his current dispossession. The instinct to trust ( perhaps in fellow victims or potential allies) vs. deep-seated suspicion born from betrayal."
+    potential_for_ development: "Could be galvanized into action, moving from bitter resignation to active resistance. Could find a new purpose in teaching  his skills or helping others survive. Might reclaim some aspect of his former life or find a measure of peace/justice.  Conversely, could descend further into bitterness and isolation, becoming a more dangerous or tragic figure."
+
+end_of_profile _marker: "End of Fictional Person Profile: CHAR_JedBooker_01"

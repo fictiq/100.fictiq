@@ -1,0 +1,176 @@
+
+Entity_ID: 'CHAR_PBea uregard_01'
+Character_Name: 'Mayor Phineas "Pappy" Beauregard'
+ Entity_Type: 'Person (Human)'
+Archetype: 'Corrupt Southern Politician / Folksy Tyrant '
+Primary_Authentication_Source_s:
+  - 'This Codex Entry'
+  - 'Primal  Mama Coherence Protocol v0.1'
+Canon_Tier: 'Tier 1 (Major Regional Antagonist)'
+Authentication_ Status: 'Authenticated_Canonical_Active'
+
+Authenticated_Property_Bundle:
+  Physical_Properties:
+    Properties :
+      - Property: Appearance_General
+        Value: 'Portly human male, late 50s-early  60s, with a flushed complexion from rich food and perhaps local moonshine. Sweat often glistens on his brow under the  swamp humidity.'
+        Auth: 'Primal Mama Visual Palette'
+      - Property: Appearance_Specific_Features 
+        Value: 'Expansive gut straining against his belt. A broad, usually beaming smile that doesn''t quite  reach his small, shrewd eyes. Jowls. Thinning, slicked-back hair the color of swamp water.'
+        Auth : 'Character Concept Art Sketch-01'
+      - Property: Appearance_Distinctive_Marks
+        Value : 'A prominent gold-capped tooth (alligator-shaped, naturally). Wears several chunky gold rings, one  featuring a miniaturized Burt Reynolds visage.'
+        Auth: 'Character Detail Sheet'
+      - Property: Typical_Attire
+         Value: 'Slightly-too-tight, garishly patterned polyester leisure suits (think late 70 s Southern car salesman chic – oranges, browns, avocado greens). Wide, knotted ties. Platform shoes with gator-skin accents . Always has a (cosmetic) chunky, non-functional "communicator" on his belt with blinking lights, adhering to  the 1970s tech aesthetic.'
+        Auth: 'Coherence Protocol - Tech Aesthetic; Narrative Desc . Ch. Lickskillet-Intro'
+      - Property: Voice_Speech_Pattern
+        Value:  'Booming, folksy, full of folksy aphorisms and "bless your hearts," but can drop to a chilling , quiet menace when crossed. Pronounced, almost exaggerated Southern drawl. Fond of quoting "scripture" from the  Deified Celebrities, often out of context.'
+        Auth: 'Dialogue Samples - Pappy'
+      - Property : Gait_Mannerisms
+        Value: 'A swaggering, expansive gait. Loves to back-slap and  glad-hand. Constantly dabs his forehead with a silk handkerchief. Eyes are always scanning, assessing.'
+        Auth:  'Animation Guide - Pappy_WalkCycle'
+      - Property: Associated_Scent
+        Value: ' Expensive (but slightly stale) cologne, fried alligator meat, and a faint metallic tang of old machinery or recycled air from his heavily  fortified office.'
+        Auth: 'Sensory Palette - Lickskillet Mayor''s Office'
+    Physical_Und ersaturation: 'Exact height/weight; presence of any hidden ailments beneath the bluster.'
+
+  Functional_Properties :
+    Properties:
+      - Property: Skill_Oratory
+        Value: 'Masterful Orator and Manipulator  (Charisma used for control)'
+        Auth: 'Public Rally Scene Description'
+      - Property: Skill_ Political_Scheming
+        Value: 'Ruthless Political Schemer (Maintains power through bribery, intimidation, and  exploiting legal loopholes in alligator processing regulations)'
+        Auth: 'Narrative of Lickskillet Power Dynamics'
+       - Property: Skill_Alligator_Meat_Economics
+        Value: 'Excellent understanding of Alligator Meat Economics ( knows how to squeeze mom-and-pop operations and funnel profits)'
+        Auth: 'Interaction with Meat Oligarchy Reps '
+      - Property: Skill_Firearm_Use
+        Value: 'Proficient (for show) with  a pearl-handled, 1970s-style magnum revolver (wears it openly in Lickskillet , aligning with gun pride culture)'
+        Auth: 'Coherence Protocol - Gun Ownership; Town Festival Scene'
+       - Property: Ability_Unique
+        Value: 'N/A – His power is mundane, derived from social  and economic control, not supernatural.'
+        Auth: '' # N/A has no specific auth source in original
+       - Property: Limitation_Physical
+        Value: 'Not a physical combatant; relies on his "Gator Guard " enforcers. Poor stamina.'
+        Auth: 'Failed Chase Scene'
+      - Property: Limitation_Knowledge
+         Value: 'Genuine understanding of advanced GE or solar tech is minimal, despite benefiting from it; he only cares that  it *works* and *looks* 1970s. Deeply suspicious of true esoteric knowledge (Sw amp Witches, Erpenthropes).'
+        Auth: 'Dialogue with Technician; Coherence Protocol - Tech Aesthetic '
+      - Property: Limitation_Social
+        Value: 'Actual respect from Beetriot elites is minimal; they see  him as a useful, if crude, regional manager. His power is largely confined to Lickskillet and its immediate  sphere of influence.'
+        Auth: 'Interaction with Beetriot Emissary'
+      - Property: Limitation_ Behavioral
+        Value: 'Cannot tolerate disrespect or challenges to his authority. Prone to theatrical outbursts of temper when his  image is threatened.'
+        Auth: 'Council Meeting Meltdown Scene'
+    Functional_Undersaturation: ' His specific network of spies; precise details of his financial corruption beyond "extensive".'
+
+  Psychological_Properties: 
+    Properties:
+      - Property: Core_Trait_Narcissism
+        Value: 'Narcissism  / Megalomania (believes Lickskillet *is* him)'
+        Auth: 'Internal Monologue  snippets (if any), public speeches'
+      - Property: Core_Trait_Greed
+        Value: ' Greed (insatiable desire for wealth and the trappings of power, e.g., owning (hypothetically)  a non-consumable prize cow)'
+        Auth: 'Actions, opulent (but tacky) lifestyle'
+      -  Property: Core_Trait_Paranoia
+        Value: 'Paranoia (sees threats everywhere, especially from "mom-and- pops," "outside agitators," and the "invisible women" he blames for any problems)'
+        Auth: 'Security  measures, rants about conspiracies'
+      - Property: Dominant_Emotion
+        Value: 'Publicly: Jov ial Bonhomie. Privately: Viciousness, Anxiety (about losing control).'
+        Auth: 'Contrast between public /private scenes'
+      - Property: Key_Motivator
+        Value: 'Maintaining and expanding his absolute  power and wealth in Lickskillet; ensuring his "legacy" (as defined by him).'
+        Auth:  'Plot actions, stated goals'
+      - Property: Key_Belief
+        Value: 'Believes he is ordained  (perhaps by the spirit of Burt Reynolds himself) to rule. Believes the 1970s aesthetic is  peak civilization. Believes strict control is necessary for "order." Passionately believes in the "invisible women" conspiracy as a scape goat.'
+        Auth: 'Coherence Protocol - Epistemic/Axiological; Pappy''s rhetoric '
+      - Property: Internal_Conflict
+        Value: 'Desire for adulation vs. Ruthless methods used to  secure power; Fear of being exposed as a fraud vs. Need to project absolute confidence; Distrust of advanced tech users (LL Ms/Automatons) vs. a secret desire for their efficiency if he could control it without "stain."'
+        Auth:  'Contradictory actions/statements'
+      - Property: Subjective_Memory_Content
+        Value:  'Remembers his "struggle" to bring "order" to Lickskillet (a heavily romanticized and self -serving narrative). Vividly recalls perceived slights and treacheries.'
+        Auth: 'Reminiscences in dialogue '
+    Psychological_Undersaturation: 'Any genuine altruism (highly unlikely); specific childhood traumas that shaped  him (world focuses on current authentication).'
+
+  Social_Relational_Categorical_Properties:
+    Properties:
+      -  Property: Official_Role
+        Value: 'Mayor of Lickskillet; Head of Lickskillet All igator Processing Board (self-appointed)'
+        Auth: 'Town Charter Prop'
+      - Property: Social_ Status
+        Value: 'Apex predator in Lickskillet; Tolerated underling by the true Meat Oligarchs in Beet riot.'
+        Auth: 'World Structure Doc - Primal Mama'
+      - Property: Primary_Affiliation 
+        Value: 'Himself, primarily. His "Gator Guard" (personal militia/enforcers).  Tentative, exploitative alliance with elements of the Meat Oligarchy.'
+        Auth: 'Observed interactions'
+      - Property : Secondary_Affiliations
+        Value: 'Publicly, to the "Church of the Holy Trinity" (Reynolds , Reed, Parsons), using it for populist appeal.'
+        Auth: 'Festival Speeches'
+      - Property : Key_Relationship_Lickskillet_Populace
+        Value: 'To Lickskillet Populace: Master /Oppressed. He provides (controlled) livelihood, demands absolute loyalty.'
+        Auth: 'Crowd scenes, testimonials  (coerced)'
+      - Property: Key_Relationship_Mom_Pop_Farmers
+        Value: 'To Mom- and-Pop Gator Farmers: Exploiter. Systematically undermines them to benefit his own operations or those of his oligarch cron ies.'
+        Auth: 'Coherence Protocol - Deontic Friction; Plotline Alpha'
+      - Property:  Key_Relationship_Swamp_Witches
+        Value: 'To Swamp Witches: Fear/Hostility.  He cannot control them and their Cthulhu-goth ways are an affront to his 1970s " order." Views their vampire bunnies as pests at best.'
+        Auth: 'Mayoral Decree Prop - "Vermin  Eradication"'
+      - Property: Key_Relationship_Erpenthropes
+        Value: 'To  Erpenthropes (if encountered): Extreme distrust and fear. Their truth-seeking nature is a direct threat to his power  built on lies and control.'
+        Auth: 'Coherence Protocol - Erpenthrope values'
+      -  Property: Species_Type
+        Value: 'Human (Standard Post-Calamity Strain)'
+        Auth:  'Default'
+    Social_Undersaturation: 'Specific family members (if any, and if they matter);  individual relationships within the Gator Guard.'
+
+  Modal_Properties:
+    Property_ID: 'N/A' 
+    Property_Description: 'None directly affecting his person. His "exceptional status" is purely socio-political within L ickskillet, enforced by mundane means.'
+    World_Law_Interaction: 'He operates fully under the established ale thic, deontic, and epistemic laws of Primal Mama, but actively manipulates the deontic (legal /social rules) and epistemic (information/belief) modalities to his advantage within his domain.'
+    Limits:  'His power is geographically and socially constrained.'
+    Authentication: 'Consistent portrayal as a non-supernatural human relying on conventional  (albeit corrupt) power structures.'
+    Note: 'Pappy''s power comes from exploiting the existing world rules , not breaking them with personal exceptions.'
+
+  Axiological_Properties:
+    Properties:
+      - Property: Reputation_ Lickskillet_Public_Facade
+        Value: 'Authenticated as "Pappy," the benevolent, strong leader ; "Our Guiding Star," "The Man Who Made Lickskillet Great" (propaganda).'
+        Auth: ' Town banners, coerced testimonials'
+      - Property: Reputation_Lickskillet_Private_Reality
+        Value : 'Authenticated as feared, oppressive, corrupt; "The Bloated Gator," "Pappy Grab-All."'
+        Auth:  'Whispered conversations, rebel graffiti'
+      - Property: Reputation_Meat_Oligarchy_Beetriot
+         Value: 'Authenticated as a ''useful, manageable brute,'' ''effective regional enforcer,'' ''a necessary vulgarity.''' 
+        Auth: 'Intercepted communique prop'
+      - Property: Reputation_Swamp_Dwellers_W itches
+        Value: 'Authenticated as ''The Pavement King,'' ''He Who Stinks of False Smiles and St ale Oil,'' ''a blight.'''
+        Auth: 'Swamp Witch dialogue snippet'
+      - Property: Moral_Alignment_ Narrative_Framing
+        Value: 'Authenticated as a primary antagonist; embodiment of corruption, greed, and the  oppressive misuse of the 1970s aesthetic and cultural values.'
+        Auth: 'Narrative perspective,  actions driving conflict'
+    Axiological_Undersaturation: 'His reputation among the deified celebrities (were they actually sentient  entities).'
+
+  Historical_Properties:
+    Properties:
+      - Property: Origin
+        Value: 'Authenticated  as a minor local official in Lickskillet who ruthlessly exploited the post-Calamity chaos and the shift  to alligator meat, consolidating power through control of processing permits and intimidation over two decades.'
+        Auth: 'Lick skillet Historical Society Archives (Redacted Version)'
+      - Property: Key_Past_Event_Connection
+        Value: ' Instrumental in crushing early independent gator farmer cooperatives; masterminded the "Great Lickskillet Fire of ''78 (Post -Calamity)" that conveniently destroyed rivals'' facilities. Promoted the "official" narrative of the Calamity  that benefits his regime.'
+        Auth: 'Buried investigation files; Erpenthrope recovered memory'
+       - Property: Inherited_Items_Positions
+        Value: 'Manipulated his way into the Mayorship after the mysterious "dis appearance" of his predecessor. His main office is built atop the old town hall, now a 1970 s-style fortress.'
+        Auth: 'Narrative Backstory'
+    Historical_Undersaturation: ' Specific details of his early life before his political rise; the exact fate of his predecessor.'
+
+Character_Constitution_Summary _Narrative_Function:
+  Core_Essence: 'Mayor "Pappy" Beauregard is constituted  as a grotesque embodiment of Primal Mama''s socio-political corruption. He is a tyrant whose power is cemented by monopolizing  the alligator meat economy of Lickskillet, enforcing a stifling version of the 1970s aesthetic as  a tool of conformity, and cynically manipulating the world''s unique spiritual (Celebrity Deities) and epistemic ( Conspiracy Theories) landscape. His folksy, benevolent facade (Physical, Social) barely conceals a core of narcissistic greed and  paranoia (Psychological), making him a master of political maneuvering and intimidation (Functional) within his swampy fiefdom. He is a  product and perverter of Primal Mama''s specific post-Calamity conditions.'
+  Primary_Narrative_Function:  'Serves as a primary regional antagonist, representing the oppressive forces against which protagonists (e.g., struggling mom- and-pop gator farmers, truth-seeking Erpenthropes, rebellious Swamp Witches) might struggle.  He embodies the "friction" from the meat oligarchy mentioned in the Coherence Protocol. He is a source of conflict , injustice, and thematic exploration of power, corruption, and manipulated belief in Primal Mama.'
+  Key_Internal _Conflicts_From_Bundle:
+    - 'Public Benevolence vs. Private Tyranny'
+    - 'Des ire for Legitimacy (even from Beetriot/Deities) vs. Methods that Ensure Illegitimacy'
+    - ' Fear of the Unknown/Uncontrollable (Erpenthropes, Magic, True Calamity Details) vs. Projection  of Absolute Control'
+    - 'Adherence to 1970s Tech Stigma (LLMs) vs.  Secret Envy of Efficiency.'
+  Potential_for_Development_Based_on_Bundle: 'His downfall through  exposure or rebellion. Increasing paranoia leading to more erratic and brutal actions. A desperate attempt to co-opt or destroy supernatural  elements that threaten him. Perhaps a late, self-serving attempt to "redeem" his legacy when faced with an  existential threat to Lickskillet itself. His reaction if the "invisible women" conspiracy was proven false, or worse , true in a way he didn''t expect.'

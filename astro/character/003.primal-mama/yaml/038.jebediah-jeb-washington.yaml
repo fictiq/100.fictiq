@@ -1,0 +1,114 @@
+
+world: Primal Mama
+codex_version: '0.2  - Character Constitution (Jebediah Washington)'
+last_updated: '[Current Date]' # Assuming this will be filled  in
+lead_architects: '[Your Name/Studio Name]' # Assuming this will be filled in
+
+character_profile: 
+  entity_id: CHAR_JebWashington_01
+  character_name: 'Jebediah  "Jeb" Washington'
+  entity_type: Person (Human)
+  archetype: The Ruined Homeste ader / Dispossessed Farmer
+  primary_authentication_sources:
+    - This Codex Entry (PM-CP- 0.2)
+    - Primal Mama Coherence Protocol (PM-CLIP-0.1)
+   canon_tier: Tier 2 (Significant Supporting Character)
+  authentication_status: Authenticated_Canonical_Active 
+
+  authenticated_property_bundle:
+    physical_properties:
+      purpose: Define the character's tangible presence.
+       appearance_general: 'Mid-50s, male, with distinct African features – dark skin, broad nose, tightly  curled grey-black hair thinning at the crown. Lean, almost gaunt frame, weathered by sun, swamp, and hardship.'  # Auth: [This Codex Entry]
+      appearance_specific_features: 'Deep-set, weary brown eyes that hold  a lingering spark of defiance or sorrow. Prominent cheekbones. Skin deeply lined, especially around eyes and mouth.' # Auth: [ This Codex Entry]
+      appearance_distinctive_marks: 'A long, faded scar along his right forearm from a g ator bite in his youth. Calloused hands, permanently stained with swamp muck and faint machinery oil despite current lack of work . Missing the tip of his left pinky finger – lost to a malfunctioning processing unit (1970s aesthetic  tech failure).' # Auth: [This Codex Entry, PM-CLIP-0.1 Aesthetic Constraint]
+      typical_attire : 'Worn, patched-up denim overalls over a faded, once-plaid synth-cotton shirt (colors like avocado  green and harvest gold, fitting 1970s palette). Heavy, cracked swamp boots. Often wears a battered , wide-brimmed straw hat against the sun.' # Auth: [This Codex Entry, PM-CLIP-0.1  Aesthetic Constraint]
+      voice_speech_pattern: 'Slow, deliberate Louisiana-esque drawl, voice raspy from dis use and cheap synth-liquor. Prone to quiet sighs. When agitated, speech can quicken, revealing a  sharp mind beneath the weariness. Uses local Lickskillet slang.' # Auth: [This Codex Entry, PM-CLIP -0.1 Regional Culture]
+      gait_mannerisms: 'Moves with a shuffling, energy-conserv ing gait, a slight stoop in his shoulders. Habit of rubbing his scarred forearm when stressed. Often stares off into  the middle distance, lost in memory.' # Auth: [This Codex Entry]
+      associated_scent: ' Faint smell of swamp water, stale sweat, alligator musk (deeply ingrained from past profession), and sometimes the sour  tang of cheap fermented cane juice.' # Auth: [This Codex Entry]
+      physical_undersaturation: 'Exact  height/weight, specific dental condition, preferred brand of (hypothetical) cigarettes if he smoked.'
+
+    functional_properties: 
+      purpose: Define what the character can and cannot do.
+      skills:
+        - 'Expert Alligator  Husbandry & Butchery (Past proficiency; skills are rusty but ingrained)' # Auth: [Historical Property, PM- CLIP-0.1 Alligator Meat Economy]
+        - 'Proficient Swamp Navigation (on foot and by small  pirogue)' # Auth: [This Codex Entry, PM-CLIP-0.1 Swamp Environment]
+         - 'Basic Repair of 1970s-style mechanical/analog equipment (especially related to small-scale alligator processing or  solar chargers – now mostly theoretical due to lack of tools/parts)' # Auth: [This Codex Entry, PM- CLIP-0.1 Tech Aesthetic/Solar Dominance]
+      abilities_situational: # Changed from Ability (Situational) 
+        - 'Deep knowledge of local swamp flora/fauna, including some edible/medicinal plants (though not  on par with a Swamp Witch).' # Auth: [This Codex Entry]
+      limitations_physical: # Changed from Limitation  (Physical)
+        - 'Diminished strength and stamina due to age, poor nutrition, and hardship. Suff ers from chronic swamp cough.' # Auth: [This Codex Entry]
+      limitations_knowledge: # Changed from  Limitation (Knowledge)
+        - 'Limited understanding of Beetriot''s high society, advanced GE science beyond practical application, or the  deep machinations of the meat oligarchy''s finances. Likely views Erpenthropes and Swamp Witches with  superstitious fear/awe rather than understanding.' # Auth: [This Codex Entry, PM-CLIP-0.1  Epistemic Divides]
+      limitations_social_economic: # Changed from Limitation (Social/Economic) 
+        - 'Completely dispossessed; owns no land, no significant tools, no capital. Lacks official standing or influence . Subject to Automaton/LLM User Stigma if he were ever desperate enough to use widely available public access terminals  for aid requests, further isolating him.' # Auth: [Historical Property, PM-CLIP-0.1 Deont ic Rules on Automatons]
+      functional_undersaturation: 'Firearms proficiency (likely owned one, common outside Beetriot,  but probably lost it), ability to read complex schematics, artistic talents.'
+
+    psychological_properties:
+      purpose:  Define the character's textually constituted inner life.
+      core_traits: # Changed from Core Trait
+         - 'Deep-seated Resentment (towards the meat oligarchy that ruined him)' # Auth: [Key Motivator, Dialogue ]
+        - 'Stubborn Pride (in his past self-sufficiency and skill, making his current state more painful )' # Auth: [Reactions to charity, Internal Monologue]
+        - 'Pervasive Grief ( for his lost livelihood, family (if applicable), and way of life)' # Auth: [Dominant Emotion, Flash backs]
+      dominant_emotion: 'A weary blend of Resignation and simmering Anger, punctuated by moments of profound Sadness .' # Auth: [Behavioral Patterns, Expressed Sentiments]
+      key_motivator: "Day-to- day survival; a desperate, fading hope for some form of restitution or justice against 'GatorShack Holdings' ( a major meat oligarchy player); protecting any surviving legacy or loved one (if introduced)." # Auth: [Dialogue, Actions] 
+      key_belief: 'The "system" is rigged by the wealthy and powerful (like GatorShack) against  the common folk. Believes in hard work but has seen it count for nothing. May hold onto some folk beliefs/ superstitions of the swamp for comfort or explanation.' # Auth: [Dialogue, Worldview, PM-CLIP- 0.1 Epistemic/Axiological rules]
+      internal_conflict: 'Pride vs. crushing need;  Desire for retribution vs. paralyzing fear of the oligarchy''s power; Memory of independence vs. reality of dependence/ irrelevance.' # Auth: [Behavioral Choices, Internal Monologue]
+      subjective_memory_content:  "Vivid, often painful memories of his prosperous farm, the taste of his own smoked gator sausage, the day GatorShack  enforcers (backed by local, bought-off law) seized his land and equipment under dubious \"debt claims\" or \" sanitary violations.\" Remembers the 1970s-style logo of GatorShack with visceral hatred." # Auth : [Narrative Depiction, PM-CLIP-0.1 Deontic Rules (friction from oligarchy)]
+      psych ological_undersaturation: 'Specific views on the deified celebrities (likely sees them as irrelevant to his plight or symbols of  a bygone, fairer era), detailed religious convictions beyond folk beliefs, opinions on contemporary music/art.'
+
+    social_relational_ categorical_properties:
+      purpose: Define the character's place within the world's networks.
+      official _role: "None. Formerly: 'Independent Alligator Farmer/Processor'. Currently: 'Dispossessed', 'Marg inalized Lickskillet Resident'." # Auth: [Historical Property]
+      social_status: 'Outcast /Fringe dweller in Lickskillet. Viewed with pity by some, contempt or fear (as a bad  omen) by others.' # Auth: [Interactions, Axiological Property]
+      primary_affiliation: 'None. Deeply  distrustful of organized groups after his ruin.' # Auth: [Psychological Property]
+      secondary_affiliations_informal : 'Loose, wary association with other down-on-their-luck individuals in Lickskillet''s shant ytown area. May occasionally trade scavenged items or information.' # Auth: [This Codex Entry]
+      key_relationship_ 1_gatorshack: 'To ''GatorShack Holdings'' (Meat Oligarchy Member): Antagonistic ( Jeb is victim, GatorShack is victimizer). They are the source of his ruin and ongoing despair.' #  Auth: [Historical, Psychological Properties, PM-CLIP-0.1 Deontic Rules]
+      key_relationship_2 _potential_protagonist: 'To a sympathetic younger character/protagonist: Could become a reluctant informant, a cautionary  tale, or someone needing aid, potentially sparking a quest for justice.' # Auth: [Narrative Potential]
+      key_relationship _3_historical_family: 'To his family (wife? children? – likely lost or estranged due to the economic  ruin, adding to his grief). Details undersaturated but potent motivator/source of pain.' # Auth: [Psychological Property  (Grief)]
+      species_type: Human (Native Primal Mama swamp-dweller lineage) # Auth:  [Appearance_General]
+      social_undersaturation: 'Specific names of former friends who abandoned him; any distant relatives in Beet riot or other settlements; precise relationship with local law enforcement post-ruin (likely ignored or harassed).'
+
+    modal _properties:
+      purpose: Define any inherent unique relationship to world laws.
+      property_id: None Authenticated
+       property: N/A
+      description: 'Jebediah operates entirely under the established physical, social, and economic laws of  Primal Mama. His victimhood is a direct result of these laws (or their cynical manipulation by powerful entities like Gator Shack Holdings), not any supernatural exception.'
+      limits: N/A
+      authentication: 'PM-CLIP -0.1 (Deontic, Alethic rules apply universally to non-exceptional humans)'
+
+    ax iological_properties:
+      purpose: "Define the character's value status *within* Primal Mama."
+       reputation_gatorshack: "Authenticated as 'resolved asset', 'example made', 'non-entity'. His  ruination serves as a warning." # Auth: [Implied by Oligarchy's actions/power, PM-CLIP-0 .1 Deontic (friction)]
+      reputation_lickskillet_populace: "Authenticated as 'caution ary tale', 'unlucky', 'broken man'. Some older residents who remember his farm might feel quiet sympathy but are too  afraid to help openly. Younger generation might barely know his story." # Auth: [Social Status, PM-CLIP- 0.1 Axiological (Autonomy vs. Automation/Oligarchy)]
+      moral_alignment_narrative_framing : "Authenticated via narrative circumstance as a 'wronged individual', evoking pathos. His potential actions (e.g., seeking  revenge) might be morally complex but understandable given his victimization." # Auth: [This Codex Entry Framing]
+      axiological_unders aturation: "Reputation among Erpenthropes or Swamp Witches (likely zero, unless his despair draws negative  supernatural attention); how the deified celebrities would be 'interpreted' through his suffering if he were devout."
+
+    historical_properties: 
+      purpose: "Define the character's known origins and connections to past events."
+      origin: "Authenticated  as born and raised in the greater Lickskillet swamp region. His family had farmed/processed alligators on a small , independent scale for at least two generations before him, adapting to the post-Calamity reliance on gator meat." # Auth : [This Codex Entry, PM-CLIP-0.1 History/Alligator Meat Economy]
+      key_past_event _connection_personal_catastrophe: "Authenticated as having his multi-generational family farm and processing operation (~5 years prior to  present narrative) forcibly bankrupted and seized by 'GatorShack Holdings' through a combination of predatory lending practices disguised  with 1970s-style paperwork, trumped-up health code violations leveraging their influence, and intimidation . This event is the defining trauma of his recent life and directly ties into the \"friction\" caused by meat processor oligarch ies." # Auth: [This Codex Entry, PM-CLIP-0.1 Deontic (Oligarchy friction)] 
+      inherited_items: "Authenticated to possess only a small, carved wooden alligator his daughter made (if daughter is part of backstory ) or a particularly well-balanced skinning knife (blade chipped, handle wrapped in faded electrical tape – 1970 s aesthetic) from his grandfather, kept hidden. His old firearms were confiscated." # Auth: [This Codex Entry, PM-CLIP -0.1 Deontic (Gun Ownership outside Beetriot, but vulnerable to confiscation by powerful entities)]
+       historical_undersaturation: "Specifics of his parents' lives; details of his wife/children if they existed ( names, fates); exact timeline of GatorShack's rise in his specific region."
+
+  character_constitution_ summary_narrative_function:
+    purpose: Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated  property bundle.
+    core_essence: >-
+      Jebediah Washington is constituted as a living embodiment of the  human cost of Primal Mama's unchecked oligarchical power, specifically the meat processors like GatorShack Holdings.
+       His identity is forged in the crucible of loss: lost livelihood (Functional/Historical), lost status (Social/Axiological ), and lost hope (Psychological).
+      His deep connection to the swamp and the traditional, independent way of alligator farming ( now obsolete for small players) contrasts sharply with the retro-futuristic yet predatory capitalism that destroyed him.
+      He  is a relic of a more autonomous past, struggling to exist in a present dominated by forces far beyond his control, all  within the distinctive 1970s-infused technological and cultural miasma.
+    primary_narrative_ function: >-
+      To serve as a potent illustration of the injustices within Primal Mama's society; a source  of crucial, localized information about the swamp and the oligarchy's methods for a protagonist;
+      a potential catalyst  for rebellion or a quest for justice; a character who can evoke strong empathy and highlight themes of exploitation, resilience, and broken  heritage.
+    key_internal_conflicts_from_bundle: >-
+      The will to survive vs . the soul-crushing weight of despair; lingering pride in his skills and past vs. the shame of his current begg ary;
+      a deep-seated desire for justice/revenge vs. the rational fear of GatorShack's  immense power and ruthlessness;
+      bitterness towards a world that deifies distant celebrities while men like him starve .
+    potential_for_development_based_on_bundle: >-
+      Could be re-ign ited by an external catalyst (e.g., a protagonist's intervention, a chance for revenge), leading him to reclaim some agency  or share vital knowledge.
+      Could succumb entirely to despair and become a tragic footnote.
+      Could find a new, small  purpose (e.g., mentoring someone in swamp survival, becoming a minor spiritual figure if he leans into folk beliefs).
+      His  deep knowledge of old alligator processing techniques (using 1970s style tech) might, ironically, become valuable  again in a niche situation.
+
+end_of_profile_id: CHAR_JebWashington_01
+ 

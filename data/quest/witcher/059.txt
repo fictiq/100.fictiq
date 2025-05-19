@@ -1,0 +1,48 @@
+Blindingly Obvious
+We might as well start by helping Triss... not just because she's everybody's favorite sorceress, but because she's in the tavern. Head upstairs to the second level where you'll find Triss in the first room to the left. She'll scold you, you'll have to make a timed decision that doesn't matter, then get down to business.
+
+You'll be told the bad news about the sorceresses-and you'll get a scene about Keira Metz, whatever happened to her. If you let her go to Radovid, the quest "A Final Kindness" will begin. Learn what you can about Phillipa to learn that the sorceress was under our noses the whole time (their words), but Zoltan's bad gambling habit cost him-and us. Triss will explain a means by which we might locate Phillipa, after which you'll get the opportunity to go deal with the blind Sorceress now, or meet up with her later. Additionally, there's a third option; "Let's get Keira first." if you didn't either kill Keira or send her to Kaer Morhen earlier, which you should do immediately to get it out of the way. If you sent her to Kaer Morhen or killed her, skip to "The Angry Owl", instead.
+
+A Final Kindness
+Head to Hierarch square, where Triss will make a perfectly reasonable suggestion. Head over to where Keira is to see that she suffered just like Geralt predicted she would if she went to Radovid. A few bug bites was probably tolerable by comparison. Talk to the guards nearby and use Axii on them, or pick one of the other options to start a fight. Kill the guards (level twenty-eight) and Triss will take her fallen comrade's body.
+
+Objective	Reward
+For performing a final kindness	160 XP
+The Angry Owl
+Travel to the Passiflora-either on your own after helping Keira Metz, or with Triss, if "A Final Kindness" didn't pop up. Triss will do her magic and you'll see an image showing us Phillipa's location. If you're romancing her, you'll see more, then you'll get to question Triss about your future together. Respond how you will (don't you dare crush that poor girl's dreams!) then head to Dijkstra's bathhouse.
+
+Head inside the bathhouse, where Phillipa is causing a scene, to put it mildly. C'mon, Dijkstra! You knew who Phillipa was, and you knew the owl was Phillipa-no other reason to con Zoltan, and Dimeritium is only good for suppressing magical powers. Oh well, his blunder, our mess to clean up. Triss will remain behind, leaving Geralt to deal with Phillipa on his own. Head north-east through the bathhouse and kill Dijkstra's possessed henchmen (level twenty-six), then climb down a ladder in one of the baths to reach the cellar.
+
+Venture south-west and kill two more of Dijkstra's goons (level twenty-six) which Phillipa has possessed, then go through a gate and into the sewers to meet Bart, who was also manipulated by Phillipa. Fortunately, his stupidity proves to be a boon to us, as he can be tricked into letting us pass by saying "I want to help her."... or you can just kill him (level twenty-seven).
+
+Go east through the sewers, following the route you took while searching for evidence during the quest "Count Reuven's Treasure". When you come to an open chamber you'll find Phillipa above you, and she doesn't intend to go down without a fight. She'll summon a Fire Elemental (level twenty-six)-remember to blast it with Aard to remove its fire aura, then cut it down. Once done, you'll need to head up some stairs, leap a gap and head west towards Phillipa. Move quickly, as she's going to try to blast you with spells as you go.
+
+Reach Phillipa and you'll end up talking to Dijkstra shortly. Pick the dialogue options "I need her.", "Tell you what the emperor's after if you let us go.", "Heard it from Emhyr himself." and "Let her talk." to get the two talking about Dijkstra's aborted conspiracy. If you completed the quests "An Eye for an Eye", "Redania's Most Wanted" and "A Deadly Plot" this should start the quest "Reason of State". We'll get to that quest in a bit... but first, loot the Fire Elemental Phillipa summoned, if you care to score its loot. This completes "Blindingly Obvious."
+
+Objective	Reward
+For finding Phillipa	500 XP
+Payback
+Before we deal with Dijkstra's scheme, let's help out Ciri. Why Ciri? Because she's better than Yennefer, of course. Head to Gildorf square (in case you forgot, it's south-east of the Passiflora) to find Ciri along the southern end of the square. She'll ask you for some help to set matters right. Agree and you'll find out that your first target is Whoreson Junior.
+
+Whoreson Junior
+If you let him live, you'll find him in The Bits, drunk and in such a state that even children torment him. He's still got some bark left in him, but there's no bite left. Seems letting him live was no mercy. Good.
+
+Alternatively, if you killed Whoreson Junior, Ciri will take you to the Temple District, where you'll find some of his goons. Either pick a fight them (level twenty-five) or use the Axii Sign to get past. Either way, head into the house and go to the top floor to find Whoreson Junior. Talk to him to sort things out, for a somewhat surprising turn of event.
+
+Objective	Reward
+For using Axii on Whoreson's guards	40 XP
+For finding out what happened to Whoreson Junior	200 XP
+Bea
+Next follow Ciri to the Golden Sturgeon to find some men harassing Ciri's friend. Pick the dialogue option "Leave on your own..." to scare them off, or pick "Or I'll throw you out." to pick a fight with them (level twenty-six). Once they're gone Bea and Ciri will catch up and Bea shows more than a passing interest in Geralt, to Ciri's chagrin.
+
+Objective	Reward
+For bantering with Bea	200 XP
+Valdo
+Travel with Ciri to the outskirts to meet her next friend, Valdo. After a bit of dissent, Ciri and Valdo will be caught in an impasse, which they decide to settle with a horse race. Agree to race or not (it's a short enough-it can be completed in one stamina bar) and you'll be invited to stay for a party, during which Ciri and Geralt will chat some more.
+
+After a while, Aeger will show up and complain about his failed errand. If you refuse to help them, you'll end up in a fist-fight with Aeger, and afterwards, you'll be ejected from the party. If you agree to help, however, you'll make your way to the western side of the central district, near the docks.
+
+Head north reunite with Aeger and Ciri, then continue to the stable. Climb onto a wooden platform along the building's south-western side, then onto the roof. Head south-east onto another wooden platform and go through a doorway. Drop down to the bottom floor and fisticuffs a guard (level twenty-eight) then grab the "Stable Key" off a table in the north-western corner of the stable. Open the door for your friends, then hit all the horses with the Axii Sign to calm them down, after which the three of you will make good your escape. Everybody parts on happy terms, and all is good... except, perhaps, for the merchant we robbed. Oh well.
+
+Objective	Reward
+For visiting Valdo	300 XP

@@ -1,0 +1,278 @@
+
+World: 'Primal Mama'
+Quest_ Name: "The Ballad of Ol' Chompers and the Static Shriek"
+Codex_Version: '0.1 '
+Last_Updated: '[Current Date]'
+Lead_Architects: '[Your Name/Studio Name]'
+
+Introduction : |
+  This document outlines the quest "The Ballad of Ol' Chompers and the Static Shriek" for the  Primal Mama heterocosm. It aims to be consistent with the established **Coherence & Internal Logic Protocol (v 0.1)** and will define key entities using the **Entity Functional Profile Protocol** format.
+
+  The quest involves  investigating strange occurrences around a prized, aging GE Alligator, blending elements of technological malfunction (within the 197 0s aesthetic), local folklore, potential oligarchy interference, and the unique spiritual miasma of the Primal Mama world .
+
+Quest_Outline:
+  Title: "The Ballad of Ol' Chompers and the Static Shriek"
+   Quest_Giver_&_Hook:
+    NPC: '"Mama" Thibodeaux, a respected elder and  owner of a small, independent alligator processing and jerky shack in the Lickskillet outskirts.'
+    Hook: | 
+      Mama Thibodeaux approaches the Player Character (PC), deeply concerned. Her prize GE Alligator, "Ol' Chompers " – a venerable, 20-foot specimen known for his unusually placid temperament and predictable solar charging cycles – has become erratic . He’s refusing to bask, making strange, clicking vocalizations, and a weird, intermittent "static shriek " seems to emanate from his vicinity, scaring off customers and smaller swamp critters. Locals are whispering it's a "sw amp spirit" or a curse from a rival. Mama Thibodeaux suspects something more tangible, perhaps related to his aging  bio-circuitry, but she can't afford the oligarchy-approved technicians. She offers a handsome sum in alligator scrip  and a lifetime supply of her famous "Swampfire Jerky."
+  Investigation_-_Stage_1_Gathering_Local _Lore_&_Initial_Observations:
+    Objective: "Talk to locals in Lickskillet about Ol' Chompers  and the \"static shriek.\" Examine Ol' Chompers and his enclosure."
+    Actions_&_Potential_Discoveries: 
+      Locals_offer_various_theories:
+        - "A jilted lover's ghost ( Spectral Interaction)."
+        - 'Swamp Witch meddling (Vampire Bunny Propagation, Cthulhu-goth- Southern magic).'
+        - 'Punishment from Burt Reynolds for not offering enough jerky sacrifices (Deified Celebrities).'
+        -  'Sabotage by the "invisible women" (Conspiracy).'
+      PC_observes_Ol_Chompers: 
+        - 'Alligator appears agitated, chromatophores dull.'
+        - 'The "static shriek" is  a high-frequency electronic noise, not organic.'
+        - "Close examination (perhaps with Witcher Senses equivalent) reveals an  unusual, almost imperceptible vibration from a panel on Ol' Chompers' flank – a maintenance hatch with chunky, 197 0s-style latches (Technological Aesthetic Constraint)."
+        - 'Solar energy absorption seems inefficient.'
+       PC_checks_enclosure: "No obvious signs of tampering, but perhaps some unusual metallic shavings near Chompers' usual basking  spot."
+  Investigation_-_Stage_2_The_Retro-Tech_Heartache:
+    Objective: "Access  Ol' Chompers' internal systems and diagnose the problem."
+    Actions_&_Potential_Discoveries:
+      - " Opening the maintenance hatch might require a specific tool (a large, chunky flathead screwdriver or a specialized analog key) or a  simple strength/dexterity check."
+      - "Inside: A mess of wires, vacuum tubes (for aesthetic/ specific functions?), and circuit boards, all conforming to the 1970s aesthetic. Wood-grain paneling  even on internal components."
+      - 'The source of the shriek is a malfunctioning "Vocalizer Modulator Unit"  (VMU) – a device intended to give GE Alligators distinct, manageable calls for herding/identification, now haywire.' 
+      - 'The VMU is also interfering with his primary solar absorption regulator, causing the basking issues.'
+       - 'A diagnostic panel (analog dials, flickering lights, perhaps a punch-card reader for error codes) indicates a specific  component failure: the "Harmonic Dampener Crystal."'
+      - "Geralt might note this tech is old, even by  post-calamity 1970s standards."
+  Investigation_-_Stage_3_Finding_Patch _Adams_or_a_Replacement_Part:
+    Objective: 'Locate a replacement Harmonic Dampener Crystal or  someone who can repair/recalibrate the old one.'
+    Actions_&_Potential_Discoveries:
+      -  "Mama Thibodeaux might know of \"Patch\" Adams, a reclusive, eccentric technician who lives deeper in the swamp . He's known for tinkering with old tech but is distrusted because he \"talks to his machines\" (rum ored Automaton/LLM User Stigma)."
+      - 'Alternatively, a manifest or service log found inside Ol '' Chompers might list "Beetriot Advanced Bio-Components Inc." (a subsidiary of the meat oligarchy) as the  original manufacturer. Getting a part from them would be expensive and involve red tape, or they might outright refuse to help a small operator .'
+      Path_A_Patch_Adams:
+        - 'Finding Patch involves navigating a dangerous section of swamp  (Vampire Bunnies as minor nuisance, mutated swamp critters).'
+        - "Patch's shack is a  marvel of jury-rigged 1970s tech. He is indeed using a heavily disguised Automaton ( looks like a hi-fi system with extra knobs) for complex diagnostics."
+        - 'Patch is initially hostile/suspicious.  PC might need to:'
+        - '  Persuade/Intimidate.'
+        - '  Offer a rare  1970s tech component in trade.'
+        - '  (If PC has Axii equivalent) Use  it subtly.'
+        - "Patch might have a spare crystal, or be able to recalibrate the old one using  his specialized (but still 70s-aesthetic) gear. He explains the crystal is finicky and prone to  resonate with certain ambient frequencies if not perfectly shielded – something the oligarchy's newer, cheaper models fixed, but Ol ' Chompers is an older, more \"artisanal\" GE model."
+      Path_B_Oligarchy: 
+        - 'Traveling to a Beetriot sub-office or a fortified supply depot.'
+        - 'Dealing with  officious, dismissive bureaucrats in 1970s-style polyester suits.'
+        - 'High cost , potential for them to "inspect" Ol'' Chompers (and perhaps sabotage him further or declare him obsolete).'
+        - ' This path highlights the "friction" from the meat oligarchy.'
+  Resolution_-_Stage_4_Fixing_Ol _Chompers:
+    Objective: 'Install/repair the Harmonic Dampener Crystal and stop the static shriek .'
+    Actions_&_Potential_Discoveries:
+      - "Returning to Ol' Chompers."
+       - 'Installing the new/recalibrated crystal might involve a mini-game:'
+      - '  Aligning it  based on blinking light patterns on the diagnostic panel.'
+      - '  Turning chunky dials to match frequencies shown on an analog  oscilloscope-style readout.'
+      - '  Soldering with a comically oversized 1970s soldering iron.'
+       - "Success: The static shriek stops. Ol' Chompers lets out a contented, low rumble. His chromat ophores brighten. He begins basking."
+      - "Failure (e.g., wrong alignment): A burst of static,  Ol' Chompers thrashes, minor damage to PC, try again."
+    Optional_Twist: "As  the PC finishes, a low-level operative from the meat oligarchy (perhaps dressed as a \"concerned citizen\") might appear, \" inquiring\" about the disturbance, hinting they were aware of the issue and perhaps even caused it to pressure Mama Thibodeaux.  PC can confront, ignore, or report them."
+  Conclusion_&_Rewards:
+    - "Mama Thib odeaux is overjoyed. Ol' Chompers is back to his old self."
+    Rewards:
+      - 'Alligator  Scrip.'
+      - '"Swampfire Jerky" (unique consumable, powerful buff).'
+      - 'Rep utation increase in Lickskillet.'
+      - 'If Patch was helped and treated well, he might become a  future contact for rare tech parts or info.'
+      - 'If the oligarchy was confronted, perhaps a new enemy or a clue  to their wider machinations.'
+    - "The folk legend of \"Swamp Gas Sally\" might persist, or  be humorously debunked by the PC, or even subtly shift to incorporate the PC's actions."
+
+Key_Entity _Functional_Profiles_for_Quest:
+  - Entity_ID: 'CREATURE_GEGATOR_Ol Chompers_01'
+    Entity_Name: "Ol' Chompers"
+    Entity_Type: ' Creature (Genetically Engineered Alligator)'
+    Primary_Authentication_Sources:
+      - "Quest: The  Ballad of Ol' Chompers and the Static Shriek"
+      - 'Primal Mama Coherence Protocol v0 .1 (Alligator Biogenesis)'
+    Authenticated_Functional_Properties_Bundle:
+      Core_Function_Purpose:
+         - Primary_Role: "Mama Thibodeaux's prize alligator; historically a reliable source of processed meat (pre -quest)."
+          Auth: 'Quest Premise'
+        - Secondary_Roles: "Local Lickskillet landmark ; source of community concern (during quest)."
+          Auth: 'Quest Narrative'
+      Key_Capabilities_Powers_ Authenticated_Strengths:
+        - Capability_ID: 'FUNC-GATOR-SOLAR'
+          Name : 'Advanced Solar Energy Absorption'
+          Description: 'Can sustain self primarily through solar energy via specialized chromatophores/internal bio -batteries (when systems are optimal).'
+          Authentication: 'Primal Mama Coherence Protocol (Alligator Biogenesis)' 
+          Limits_Nuances: 'Efficiency dependent on internal regulator functionality and external solar conditions.'
+        - Capability_ ID: 'FUNC-GATOR-REGEN'
+          Name: 'Tail Regeneration'
+          Description: ' Can regenerate lost tail with remarkable efficiency (not directly relevant to this quest but an authenticated property).'
+          Authentication: ' Primal Mama Coherence Protocol (Alligator Biogenesis)'
+        - Capability_ID: 'FUNC-GATOR -SIZE'
+          Name: 'Engineered Gigantism'
+          Description: 'Genetically engineered to reach approximately  20-24 feet.'
+          Authentication: 'Primal Mama Coherence Protocol (Alligator Biogenesis)' 
+      Acquired_Skills_Expertise_Authenticated_Proficiency:
+        - Skill_ID: 'N/A ( Creature, not skill-based in this context)'
+      Inabilities_Lack_of_Function_Authenticated_Weaknesses :
+        - Inability_ID: 'INAB-GATOR-SELFREPAIR'
+          Description:  'Cannot self-repair complex internal bio-mechanical/electronic components (e.g., Vocalizer Modulator Unit, Harmonic Dampener  Crystal).'
+          Authentication: 'Quest Narrative (requires PC intervention).'
+          Narrative_Function: 'Creates the  core problem requiring player action.'
+        - Inability_ID: 'INAB-GATOR-DIAGNOSE'
+           Description: 'Cannot communicate the precise nature of internal malfunctions beyond behavioral changes.'
+          Authentication: 'Quest Narrative.'
+           Narrative_Function: 'necessitates investigation by PC.'
+      Vulnerabilities_Weaknesses_Authenticated_Points_of_ Failure:
+        - Vulnerability_ID: 'VULN-GATOR-VMU_MALF'
+          Description : "Vocalizer Modulator Unit prone to malfunction, causing debilitating high-frequency shrieks and interference with other systems (e .g., solar absorption). Susceptible to degradation of Harmonic Dampener Crystal."
+          Authentication: 'Quest Narrative (core problem ).'
+          Narrative_Function: 'Primary quest driver.'
+        - Vulnerability_ID: 'VULN -GATOR-TECH_OBSOLETE'
+          Description: "Based on older GE Alligator design; parts may be scarce  or require specialized knowledge to repair/replace, especially within the 1970s aesthetic constraints."
+          Authentication : "Quest Narrative (Patch Adams' expertise, difficulty finding parts)."
+          Narrative_Function: 'Introduces complications  in finding a solution.'
+      Costs_Dependencies_Operational_Constraints_Authenticated_Limits_on_Function:
+         - Constraint_ID: 'COST-GATOR-SOLAR_REG'
+          Applies_To:  "Ol' Chompers (FUNC-GATOR-SOLAR)"
+          Description: 'Optimal solar energy absorption requires a functioning  Solar Absorption Regulator, which can be disrupted by other system malfunctions (e.g., VMU).'
+          Authentication: 'Quest  Narrative.'
+          Narrative_Function: 'Explains behavioral changes (refusal to bask).'
+        - Constraint_ID : 'OPCON-GATOR-PANEL_ACCESS'
+          Applies_To: 'Internal Systems Maintenance '
+          Description: 'Access to internal systems is via a maintenance hatch conforming to 1970s aesthetic  (chunky latches), potentially requiring specific tools or methods to open.'
+          Authentication: 'Primal Mama Coherence Protocol ( Technological Aesthetic Constraint), Quest Narrative.'
+          Narrative_Function: 'Minor obstacle, reinforces world aesthetic.'
+     Functional_Profile_Summary_&_Narrative_Role:
+      Core_Functional_Identity: "Ol ' Chompers is a valuable, aging piece of bio-technology, representing both the promise and potential pitfalls of Primal Mama's  GE advancements. His core functions (solar sustenance, size) are hampered by a critical system malfunction rooted in his retro-tech design." 
+      Key_Narrative_Functions_Served: "Serves as the central 'damsel in distress' ( or 'gator in distress') for the quest. His malfunction drives the plot, introduces the PC to unique world elements  (aging 1970s biotech, reclusive technicians), and highlights the struggles of independent operators."
+      Relationship _to_Alethic_Modality: "His existence validates the possibility of large, solar-powered GE all igators. His malfunction demonstrates the possibility of complex tech failure within this framework. The 1970s aesthetic constraint  is physically manifested in his design."
+      Key_Functional_Tensions_Trade-offs: "Utility (as a prize  alligator) vs. Maintenance Needs (aging tech). Advanced Biology vs. Retro-Tech Components. Placid Nature vs. Agitation ( due to malfunction)."
+    End_of_Entity_Functional_Profile: 'CREATURE_GEGATOR_OlCh ompers_01'
+
+  - Entity_ID: 'NPC_Technician_PatchAdams_01 '
+    Entity_Name: '"Patch" Adams'
+    Entity_Type: 'Person (Reclusive Technician)'
+     Primary_Authentication_Sources:
+      - "Quest: The Ballad of Ol' Chompers and the Static  Shriek"
+      - 'Primal Mama Coherence Protocol v0.1 (Automaton/LLM User  Stigma, Technological Aesthetic Constraint)'
+    Authenticated_Functional_Properties_Bundle:
+      Core_Function_Purpose :
+        - Primary_Role: "Specialized technician for older, pre-stigma era 197 0s-aesthetic technology."
+          Auth: 'Quest Narrative'
+        - Secondary_Roles: 'Potential information  source for rare tech; represents a subculture dealing with Automaton/LLM stigma.'
+          Auth: 'Quest  Narrative'
+      Key_Capabilities_Powers_Authenticated_Strengths:
+        - Capability_ID: 'FUNC-PATCH- REPAIR_OLDTECH'
+          Name: 'Obsolete Tech Repair'
+          Description: 'Possesses deep knowledge and  practical skills to diagnose, repair, and recalibrate aging 1970s-aesthetic technology, including specialized GE  Alligator components like the Harmonic Dampener Crystal.'
+          Authentication: "Quest Narrative (can fix Ol' Chompers' issue)." 
+          Limits_Nuances: 'May lack access to widely manufactured new parts; relies on scavenging or custom fabrication.'
+         - Capability_ID: 'FUNC-PATCH-AUTOMATON_ASSIST'
+          Name: 'Automaton-Assisted  Diagnostics (Covert)'
+          Description: 'Secretly utilizes a disguised Automaton (e.g., styled as a complex  hi-fi system) for advanced calculations, data retrieval, or diagnostics beyond human capability with purely analog tools.'
+          Authentication: ' Quest Narrative (PC discovery).'
+          Limits_Nuances: 'Extreme caution in its use due to social stigma;  if discovered, could lead to severe repercussions for Patch.'
+      Acquired_Skills_Expertise_Authenticated_Proficiency: 
+        - Skill_ID: 'SKL-PATCH-ANALOG_ELECTRONICS'
+          Name: 'Analog  Electronics Mastery'
+          Proficiency_Level: 'Expert (within 1970s tech paradigm).'
+           Authentication: "Demonstrated by ability to diagnose/fix Ol' Chompers VMU."
+        - Skill_ID: ' SKL-PATCH-JURYRIG'
+          Name: 'Jury-Rigging & Improvisation' 
+          Proficiency_Level: 'Masterful.'
+          Authentication: "Evident in his shack's setup and  ability to work with obsolete parts."
+        - Skill_ID: 'SKL-PATCH-CAMOUFLAGE_TECH' 
+          Name: 'Technology Camouflage'
+          Proficiency_Level: 'Competent.'
+          Authentication:  'His disguised Automaton.'
+      Inabilities_Lack_of_Function_Authenticated_Weaknesses:
+        -  Inability_ID: 'INAB-PATCH-SOCIAL_INTEGRATION'
+          Description: 'Unable to  function openly in Lickskillet society due to his reliance on (and rumored use of) stigmatized Automaton/ LLM technology.'
+          Authentication: "Quest Narrative (reclusive nature, Mama Thibodeaux's comments)." 
+          Narrative_Function: 'Makes him difficult to find/approach; adds layer to his character.'
+        - Inability _ID: 'INAB-PATCH-OLIGARCHY_ACCESS'
+          Description: 'Likely cannot easily  or safely acquire official parts or support from oligarchy-controlled suppliers due to his outcast status and preference for "unsupported " old tech.'
+          Authentication: 'Implied by quest circumstances.'
+          Narrative_Function: 'Rein forces his reliance on scavenging/custom work.'
+      Vulnerabilities_Weaknesses_Authenticated_Points_of_ Failure:
+        - Vulnerability_ID: 'VULN-PATCH-STIGMA_EXPOSURE '
+          Description: 'Discovery of his Automaton use could lead to severe social ostracization, loss of what little livelihood  he has, or even direct reprisal depending on local enforcement of the Automaton/LLM taboo.'
+          Authentication: 'Pr imal Mama Coherence Protocol (Automaton/LLM User Stigma).'
+          Narrative_Function: "Creates tension if  PC discovers his secret; influences his distrustful demeanor."
+        - Vulnerability_ID: 'VULN- PATCH-RESOURCE_SCARCITY'
+          Description: 'Reliant on finding or scavenging rare components for the old technology he  services.'
+          Authentication: 'Quest Narrative.'
+          Narrative_Function: "Can be a point of leverage for  the PC (e.g., trading a part for his help)."
+      Costs_Dependencies_Operational_Constraints_ Authenticated_Limits_on_Function:
+        - Constraint_ID: 'DEPEND-PATCH-AUTOMATON' 
+          Applies_To: 'FUNC-PATCH-AUTOMATON_ASSIST'
+          Description: ' His most advanced diagnostic/problem-solving capabilities are dependent on his hidden Automaton. Without it, he is limited to his  (still considerable) personal expertise.'
+          Authentication: 'Quest Narrative.'
+          Narrative_Function: 'Expl ains his ability to solve complex problems with old tech; source of his social vulnerability.'
+        - Constraint_ID: ' OPCON-PATCH-SECRECY'
+          Applies_To: 'All interactions, especially concerning his Automaton.' 
+          Description: 'Operates under a high degree of secrecy and distrust of outsiders to protect himself from social repercussions.'
+           Authentication: 'Quest Narrative.'
+          Narrative_Function: 'Initial barrier to PC interaction.'
+    Functional_Profile_Summary _&_Narrative_Role:
+      Core_Functional_Identity: "Patch Adams is a brilliant but marginalized  technician, a living repository of knowledge for Primal Mama's aging 1970s-aesthetic technology. His skills  are invaluable, but his reliance on forbidden Automaton assistance forces him into a reclusive, precarious existence."
+      Key_Narrative _Functions_Served: "Serves as a \"key\" to solving the technical problem (Ol' Chompers).  Embodies the social consequences of the Automaton/LLM stigma. Represents a hidden depth of technical understanding contrasting with the often superficial application  of the 1970s aesthetic. Potential source of rare items or future aid if treated well."
+      Relationship_to _Alethic_Modality: "His skills demonstrate that complex repair and understanding of the world's unique tech IS possible,  even if specialized. His hidden Automaton pushes the boundary of \"acceptable\" knowledge/tools within the social norms."
+       Key_Functional_Tensions_Trade-offs: "Skill/Knowledge vs. Social Stigma. Need for Secrecy  vs. Need for Resources/Interaction. Utility of Automaton vs. Risk of Exposure."
+    End_of_Entity_ Functional_Profile: 'NPC_Technician_PatchAdams_01'
+
+  - Entity_ID: ' DEVICE_VMU_OlChompers_01'
+    Entity_Name: "Vocalizer Mod ulator Unit (Ol' Chompers' VMU)"
+    Entity_Type: 'Object (Internal Alligator Component)'
+     Primary_Authentication_Sources:
+      - "Quest: The Ballad of Ol' Chompers and the Static Shriek"
+       - 'Primal Mama Coherence Protocol v0.1 (Technological Aesthetic Constraint)'
+    Authenticated_Functional_Properties _Bundle:
+      Core_Function_Purpose:
+        - Primary_Role: "Regulate and produce distinct  vocalizations for GE Alligator Ol' Chompers for identification/herding."
+          Auth: 'Quest Narrative' 
+        - Secondary_Roles: '(When malfunctioning) Interfere with other critical alligator systems like solar absorption; cause  distressing auditory phenomena.'
+          Auth: 'Quest Narrative'
+      Key_Capabilities_Powers_Authenticated_Strengths:
+         - Capability_ID: 'FUNC-VMU-VOCALIZE'
+          Name: 'Controlled Vocalization '
+          Description: 'Generates specific, modulated bio-acoustic signals, allowing for differentiated alligator calls (when functioning correctly).'
+           Authentication: 'Implied by its purpose.'
+          Limits_Nuances: "Range and complexity of vocalizations limited by  1970s-era tech design."
+        - Capability_ID: 'FUNC-VMU-DIAG NOSTIC_OUTPUT'
+          Name: 'Analog Diagnostic Feedback'
+          Description: 'Provides error codes/status via an attached  1970s-style diagnostic panel (blinking lights, analog dials, potential punch-card output).' 
+          Authentication: 'Quest Narrative.'
+          Limits_Nuances: 'Requires interpretation; may not pinpoint exact component failure  without further testing.'
+      Acquired_Skills_Expertise_Authenticated_Proficiency:
+        - Skill_ID: ' N/A (Object)'
+      Inabilities_Lack_of_Function_Authenticated_Weaknesses:
+         - Inability_ID: 'INAB-VMU-SELF_REPAIR'
+          Description: 'Cannot autonomously repair internal  component failures, such as a degraded Harmonic Dampener Crystal.'
+          Authentication: 'Quest Narrative (requires PC/Patch  intervention).'
+          Narrative_Function: 'Core of the technical problem.'
+        - Inability_ID: 'INAB -VMU-MODERN_INTERFACE'
+          Description: 'Lacks any modern digital interface; all diagnostics and  adjustments must be made via its physical 1970s-style controls.'
+          Authentication: 'Primal Mama Coherence  Protocol (Technological Aesthetic Constraint).'
+          Narrative_Function: 'Defines the method of repair, reinforces world  aesthetic.'
+      Vulnerabilities_Weaknesses_Authenticated_Points_of_Failure:
+        - Vulnerability _ID: 'VULN-VMU-CRYSTAL_DEGRADE'
+          Name: 'Harm onic Dampener Crystal Degradation'
+          Description: 'The internal Harmonic Dampener Crystal is prone to wear, damage, or  frequency misalignment over time, leading to uncontrolled oscillations and the "static shriek."'
+          Authentication: "Quest Narrative (Patch 's diagnosis)."
+          Narrative_Function: 'Specific point of failure PC must address.'
+        - Vulnerability_ID : 'VULN-VMU-POWER_FLUCTUATION'
+          Description: "Sensitive to irregular power supply, which  can be exacerbated if the alligator's main solar absorption system is also compromised."
+          Authentication: 'Implied by its electronic  nature and interaction with solar regulator.'
+          Narrative_Function: 'Explains linkage between shriek and basking issues.'
+       Costs_Dependencies_Operational_Constraints_Authenticated_Limits_on_Function:
+        - Constraint_ID: 'DEPEND-VM U-DAMPENER'
+          Applies_To: 'FUNC-VMU-VOCALIZE'
+          Description:  'Stable and correct vocalization is dependent on a functioning Harmonic Dampener Crystal.'
+          Authentication: 'Quest Narrative.'
+          Narr ative_Function: "The failure of this dependency causes the quest's central problem."
+        - Constraint_ID: 'OP CON-VMU-CALIBRATION'
+          Applies_To: 'FUNC-VMU-VOCALI ZE'
+          Description: "Requires precise calibration via its analog interface to function correctly and avoid interference with other systems. Calibration  involves specific 1970s-style procedures (e.g., dial turning, light pattern matching)."
+          Authentication : 'Quest Narrative (repair mini-game).'
+          Narrative_Function: 'Adds challenge to the repair process .'
+    Functional_Profile_Summary_&_Narrative_Role:
+      Core_Functional_Identity:  "The VMU is a piece of specialized, aging 1970s-aesthetic bio-technology. Designed  for utility, its obsolescence and component fragility make it a point of failure that can cascade through the GE Alligator' s systems."
+      Key_Narrative_Functions_Served: "The direct source of Ol' Chompers'  distress and the \"static shriek.\" Its repair is the main technical challenge of the quest. Its 197 0s design provides unique gameplay opportunities for diagnosis and repair."
+      Relationship_to_Alethic_Modality: " Its existence and function are possible under Primal Mama's rules of advanced biotech constrained by a retro aesthetic. Its malfunction  is a possible (and in this case, actualized) outcome of such a system."
+      Key_Functional_Tensions_ Trade-offs: "Intended Utility vs. Malfunctioning Detriment. Sophisticated Purpose vs. Obsolete/Fragile  Components. Analog Control vs. Complex Bio-Acoustic Output."
+    End_of_Entity_Functional_Profile:  'DEVICE_VMU_OlChompers_01'

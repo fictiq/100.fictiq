@@ -1,0 +1,175 @@
+
+world: " Primal Mama"
+codex_version: "0.2 - Character Constitution (Jebediah Washington)" 
+last_updated: "[Current Date]"
+lead_architects: "[Your Name/Studio Name]"
+
+character _profile:
+  entity_id: "CHAR_JebWashington_01"
+  character_name : "Jebediah \"Jeb\" Washington"
+  entity_type: "Person"
+  archetype: " The Downtrodden Everyman, Victim of Corporate Predation"
+  primary_authentication_sources:
+    -  "This Codex Entry"
+    - "Primal Mama Coherence Protocol v0.1"
+  canon_tier: " Tier 2 (Significant Supporting Character)"
+  authentication_status: "Authenticated_Canonical_Active"
+
+  authenticated _property_bundle:
+    physical_properties:
+      appearance_general:
+        value: "Male with  African features, appears late 40s but hardship has aged him prematurely, making him look closer to late 50s.  Lean, almost gaunt frame, a result of poor nutrition and stress."
+        auth: "This Codex"
+       appearance_specific_features:
+        value: "Deep-set, tired brown eyes that have seen too much ; skin weathered by swamp sun and worry; prominent cheekbones. A few silver threads in his tightly curled black hair." 
+        auth: "This Codex"
+      appearance_distinctive_marks:
+        value: "A puckered scar along  his right forearm from a faulty piece of 1970s-era processing equipment. Calloused hands, now often trembling slightly ."
+        auth: "This Codex, Primal Mama Coherence - Tech Aesthetic"
+      typical_attire: 
+        value: "Worn, faded denim work shirt (often with patched elbows), grease-stained canvas trousers, and  scuffed, water-damaged boots. All clothing reflects the prevalent late 1970s utilitarian style of L ickskillet."
+        auth: "This Codex, Primal Mama Coherence - Tech Aesthetic Constraint"
+      voice_speech _pattern:
+        value: "Low, weary voice with a distinct Lickskillet bayou drawl.  Speaks slowly, often pausing as if weighing the cost of words. Prone to sighing."
+        auth: " This Codex"
+      gait_mannerisms:
+        value: "Slight stoop, shuffles more than walks . Wrings his hands when agitated. Avoids direct eye contact with those he perceives as powerful."
+        auth: " This Codex"
+      associated_scent:
+        value: "Faint odor of swamp mud, stale sweat, and the  lingering metallic tang of old alligator blood that never quite washed out of his older clothes."
+        auth: "This Codex, Primal  Mama Coherence - Alligator Meat"
+      physical_undersaturation: "Exact height/weight, specific brand of  his boots, childhood illnesses."
+
+    functional_properties:
+      skills:
+        - name: "Small-Scale Alligator  Butchering & Processing"
+          value: "Formerly expert in small-scale alligator butchering and processing, adhering to  Lickskillet standards."
+          auth: "Backstory, Primal Mama Coherence - Alligator Meat" 
+        - name: "1970s-Style Machine Operation & Maintenance"
+          value: "Proficient in  operating and performing basic maintenance on 1970s-style alligator processing machinery (e.g., \\\" Gator-Grind 7700\\\" series)."
+          auth: "Backstory, Primal  Mama Coherence - Tech Aesthetic Constraint"
+        - name: "Basic Skiff Piloting & Bayou Navigation"
+           value: "Basic skiff piloting and navigation within the local Lickskillet bayou network."
+          auth:  "Backstory, Primal Mama Coherence - Watercraft Transport"
+        - name: "Edible Swamp Plant Identification "
+          value: "Can identify common edible swamp plants (a necessity for survival now)."
+          auth: "Current  Circumstances"
+      limitations:
+        - name: "Economic Destitution"
+          value: "Utterly  destitute. No capital, no resources, no tools beyond what he can scavenge."
+          auth: "Backstory  - Oligarchy Victimization"
+        - name: "Social Powerlessness"
+          value: "Effectively powerless  against the meat oligarchy; little to no social standing in Lickskillet post-ruin."
+          auth : "Backstory, Primal Mama Coherence - Deontic (Oligarchy Friction)"
+        - name : "Physical Weakness"
+          value: "Weakened by malnutrition and stress; not physically capable of heavy labor for extended periods  anymore. Suffers from a persistent cough."
+          auth: "This Codex"
+        - name: "Knowledge ( Literacy & Complex Information)"
+          value: "Semi-literate; understands spoken contracts and local regulations but struggles with complex  written documents – a factor in his downfall. Unaware of higher-level machinations beyond local rumors."
+          auth: "This  Codex"
+      functional_undersaturation: "Ability to swim, skill with firearms (likely minimal if any, given poverty), knowledge  of advanced GE processes."
+
+    psychological_properties:
+      core_traits:
+        - name: " Resentment"
+          value: "Resentment (towards the oligarchy)"
+          auth: "Dialogue , Internal Monologue cues"
+        - name: "Wary / Distrustful"
+          value: "Wary /  Distrustful (of anyone with power or offering help too easily)"
+          auth: "Behavior, Interactions"
+         - name: "Lingering Pride"
+          value: "Lingering Pride (in his former skills and independence, now a  source of pain)"
+          auth: "Internal Monologue cues, Reactions to Pity"
+      dominant_emotion: 
+        value: "Hopelessness, tinged with a simmering, impotent anger."
+        auth: " Narrative Descriptions, Demeanor"
+      key_motivator:
+        value: "Day-to-day survival.  A faint, almost extinguished hope of seeing justice or reclaiming a fraction of his lost dignity. Fear for his missing daughter, Sarah."
+         auth: "Actions, Stated Concerns"
+      key_belief:
+        value: "\"The big fish always  eat the little fish. It's the law of the swamp, and the law of business.\" Believes powerful,  unseen forces (like the \\\"invisible women\\\" conspiracy) pull the strings."
+        auth: "Dialogue, Primal  Mama Coherence - Epistemic (Conspiracy)"
+      internal_conflict:
+        value: "Desire  for retribution vs. overwhelming fear of the oligarchy's power; Stubborn pride vs. the humiliating necessity of begging  or scavenging; Hope for his daughter vs. despair she's lost forever."
+        auth: "This Codex"
+      subject ive_memory_content:
+        value: "Vivid, painful memories of his thriving small processing business, the predatory  tactics of \\\"GatorArch Consolidated\\\" agents (the local face of the meat oligarchy), the day his equipment  was seized, and the last time he saw his daughter, Sarah, before she \\\"disappeared\\\" after his  ruin (believes GatorArch took her or forced her into indentured servitude somewhere in Beetriot)."
+        auth:  "Backstory elements"
+      psychological_undersaturation: "Specific religious beliefs (beyond general reverence for celebrity deities, which he  may now view cynically), opinions on art or music, specific childhood memories unrelated to his trade."
+
+    social_relational_ categorical_properties:
+      official_role:
+        value: "None. Formerly \"Owner-Operator, Jeb's Quality  Cuts\"."
+        auth: "Backstory"
+      social_status:
+        value: "Outcast / Marginalized . Lives on the fringes of Lickskillet society."
+        auth: "Current Circumstances"
+      primary_affiliation :
+        value: "None. Distrusts formal groups."
+        auth: "Psychological Properties"
+      secondary _affiliations:
+        value: "Informal, loose network of other Lickskillet destitute; shares rumors and occasionally  scavenged food."
+        auth: "This Codex"
+      key_relationships:
+        - target: "FA CTION_GatorArchConsolidated (Meat Oligarchy)"
+          nature: "Victim. Deep-seated fear and hatred." 
+          auth: "Backstory, Primal Mama Coherence - Deontic (Oligarchy Friction)"
+         - target: "CHAR_SarahWashington_MIA (Missing Daughter)"
+          nature: "Object of profound  grief, worry, and a motivator for any remaining flicker of hope/action."
+          auth: "This Codex" 
+        - target: "Other Lickskillet Poor"
+          nature: "Shared suffering, guarded camaraderie. Potential  source of local, whispered information."
+          auth: "This Codex"
+      species_type:
+        value : "Human (Lickskillet Native Strain)"
+        auth: "Default/Description"
+      social_unders aturation: "Any surviving extended family (likely none or equally destitute); specific friends from before his ruin."
+
+    modal _properties:
+      property_id: "None"
+      status: "N/A"
+      description: "J eb operates entirely under the general alethic, deontic, axiological, and epistemic rules of Primal Mama  as they apply to a common citizen of Lickskillet."
+      authentication: "Default state; no textual evidence of unique  modal status."
+
+    axiological_properties:
+      reputations:
+        - group: "Gator Arch Consolidated"
+          assessment: "'resolved liability', 'example to others', 'irrelevant'."
+          auth: " Implied by their actions and power"
+        - group: "Lickskillet Marginalized"
+          assessment: "'fellow  sufferer', 'a good man dealt a bad hand', 'a walking warning'."
+          auth: "Interactions with similar characters "
+        - group: "General Lickskillet Populace"
+          assessment: "Likely pitied , avoided, or forgotten; a reminder of precariousness."
+          auth: "Societal dynamics"
+      moral _alignment_narrative_framing:
+        value: "Authenticated as a sympathetic victim, embodying the human cost of unchecked greed  and systemic inequality within Primal Mama."
+        auth: "Narrative focus on his plight"
+      axiological_undersaturation : "Reputation among Beetriot elite (non-existent); view from Swamp Witches or Erpenthropes  (likely indifferent unless he crosses their path)."
+
+    historical_properties:
+      origin:
+        value: "Authenticated  as born and raised in Lickskillet. His father ran a very small, one-man alligator trapping and skinning operation,  which Jeb tried to modernize into a small processing business."
+        auth: "Backstory"
+      key_past _event_connections:
+        - event: "Victim of GatorArch Expansion"
+          description: "Direct  victim of GatorArch Consolidated's aggressive expansion tactics in Lickskillet, occurring approx. 2-3 years  prior to current narrative timeline. This involved predatory loans with 1970s-style opaque contracts, engineered supply  disruptions, and ultimately, hostile asset seizure."
+          auth: "Backstory, Primal Mama Coherence - De ontic (Oligarchy Friction)"
+        - event: "Disappearance of Daughter Sarah"
+          description: "Disappearance  of his teenage daughter, Sarah, shortly after his business was destroyed. He believes she was taken by GatorArch agents as collateral or to  silence him, possibly forced into labor in Beetriot or a remote GatorArch facility."
+          auth: "Backstory , Psychological Properties"
+      inherited_items:
+        - item: "A single, faded, 1970s -style instant photo of Sarah"
+          auth: "Narrative inventory"
+        - item: "A rusty  but symbolic skinning knife that belonged to his father (kept hidden)."
+          auth: "Narrative inventory"
+      historical _undersaturation: "Details of his mother, his wife (if any, presumably deceased or left before his ruin), specific details  of his father's life beyond being a trapper."
+
+  character_constitution_summary:
+    core_ essence: "Jebediah Washington is constituted as a man systematically dismantled by the socio-economic machinery of Primal Mama,  specifically the predatory meat oligarchy (GatorArch Consolidated). His Physical deterioration, Functional limitations, and Psychological despair are direct consequences  of his Historical victimization. He embodies the lived reality of Lickskillet's underclass, a stark contrast to  the opulence of Beetriot or the mythic power of Erpenthropes and Swamp Witches. His belief  in conspiracies like the \\\"invisible women\\\" is an Epistemically limited attempt to make sense of his crushing power lessness. His Social isolation is nearly complete, his primary remaining tie being the agonizing memory and faint hope for his lost daughter, Sarah." 
+    primary_narrative_function: "To serve as a poignant illustration of the human cost of Primal Mama's  unique societal structure and power imbalances. He can act as an information source (revealing the ground-level tactics of the oligarchy),  a moral compass point (eliciting empathy and potentially motivating protagonists), or a catalyst for conflict if others attempt to intervene on his behalf or  investigate his claims about GatorArch and his daughter."
+    key_internal_conflicts:
+      - "The crushing  weight of Hopelessness vs. the father's lingering, desperate Hope for Sarah"
+      - "Resentment and  desire for Justice vs. debilitating Fear of GatorArch"
+      - "Residual Pride in his past self vs. the humiliating  Present of his destitution."
+    potential_for_development: "His trajectory is largely downward without external intervention.  However, contact with protagonists could: reignite a spark of defiance (Psychological change), lead to him sharing crucial information ( Functional shift – becoming an asset), or, if given resources/protection, even attempting a small act of resistance or search for  Sarah (Social/Functional change). Alternatively, further pressure could see him break entirely or make a fatal, desperate move." 

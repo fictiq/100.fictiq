@@ -1,0 +1,24 @@
+Novigrad (Continued)
+Herbalist's Hut
+We could just fast-travel somewhat closer to our destination, but let's use this time to cover new ground. Head south and slightly east from the Temerian Partisan Hideout to find the "Herbalist's Hut"-the location and the signpost. Inside you'll find a well-stocked Herbalist who plays Gwent. Beat him, take his card, then ask him about "master formulae" to start the quest "Practicum in Advanced Alchemy," which requires us to travel to Skellige. Once done, continue south to find a bridge leading to a small island east of Oxenfurt. Cross this bridge to reach said island, where Vernon awaits.
+
+Crowns and Complications
+Agree to meet Vernon's friend, then follow him to the meeting place, where Vernon astutely notices that something is amiss. Inside you'll find a person... most well-suited to speak of matters concerning Redania. Indulge the ramblings of your new acquaintance and he'll practically hand Whoreson to over to you on a silver platter. As you leave Roche will ask you for a favor, starting the quest "An Eye for an Eye."
+
+Objective	Reward
+For talking to Radovid	150 XP
+Raiding Junior's Estate
+Head north-west along a road from the house Radovid was in to find a bridge leading into Oxenfurt, marked by the "Novigrad Gate" signpost. Cross it, then head to a house just north of the "Western Gate" signpost, easily spotted as some of Whoreson's goons are out front in their typical mask-and-paint getups. Greet them, first with words, then with swords and loot their bodies for a "Key to Whoreson Junior's Estate."
+
+Use the key to open the gate, where you'll find that Whoresone didn't come to Oxenfurt alone-and he doesn't intend on going down without a fight. Or at least, without making his henchmen right. Head east, killing as you go, to reach his estate. Enter the house and kill a few more henchmen, then go through a doorway to the north-east and up some stairs to discover that Radovid was understating when he claimed that Whoreson hasn't been kind to the women who were being sent to him. Investigate a dead woman at the end of the hallway to the south, then go through a door to the east to find Whoreson. Geralt will give him the beating he deserves (well, as much of one as possible while still allowing him to breathe) then he'll ask about Ciri.
+
+Ciri's Story: Visiting Junior (level 9)
+Respond to Dandelion however you wish, then climb a nearby ladder and scale a number of ledges to reach the roof. Continue across the roof to the south-east until you're over-looking a balcony. Drop down onto the balcony and go through a window to the north to find Junior picking on Dudu. Defeat Whoreson (level sixteen) in a fight. He hits pretty hard and has a poisoned weapon, but just block his attacks and counter him with Strong Attacks until he falls and you should be fine. Afterwards you'll have to fight your way through the building, killing henchmen on each level-the recollection ends when you walk out the front door.
+
+Objective	Reward
+For killing Whoreson Junior	XP Varies
+A Favor for Radovid (level 9)
+After the recollection Geralt will get to choose whether to kill Whoreson or not. Either way, the quest "Get Junior" is over, and the quest "The Play's the Thing" begins. Grab and read "Balton Dubis' Notes" from the bookshelf near the door, then leave the estate. As you go you'll be accosted by some Redanian soldiers who take you to meet Radovid again. Radovid makes a request of you (and a request from a king is a demand in reality), which starts the quest "Redania's Most Wanted." Everything from leaving Junior's estate to talking to Radovid-which included very little autonomous gameplay-encompassed the quest "A Favor for Radovid."
+
+Objective	Reward
+For meeting Radovid... again	XP Varies

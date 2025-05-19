@@ -1,0 +1,83 @@
+Alchemy Formulae
+Below you'll find lists of the various Alchemy Substances, Alcohol, Bombs, Oils, and Potions you can create.
+
+Alchemy Substances
+Alchemy Substances consist of two types of items-Mutagens, and Alchemy Ingredients. Mutagens can be combined with one another to great more powerful versions, while Alchemy Ingredients are required to create the most powerful Potions and Oils.
+
+Alchemy Substances	Required Components	Stats
+Aether	Han Fiber x1
+White Gull x1
+Puffball x1
+Longrube x1
+Verbena x1
+Ergot Seeds x1	N/A
+Albedo	Mistletoe x1
+White Gull x1
+Beggartick Blossoms x1
+Pringrape x1
+Crow's Eye x1
+Allspice x1	N/A
+Blue Mutagen	Lesser Blue Mutagen x3	Sign Intensity: 7%
+Greater Blue Mutagen	Blue Mutagen x3	Sign Intensity: 10%
+Greater Green Mutagen	Green Mutagen x3	Vitality: 150
+Greater Red Mutagen	Red Mutagen x3	Attack Power: 10%
+Green Mutagen	Lesser Green Mutagen x3	Vitality: 100
+Hydragenum	Ranogrin x1
+White Gull x1
+Green Mold x1
+Nostrix x1
+Verbena x1
+Ergot Seeds x1	N/A
+Nigredo	Hellebore Petals x1
+White Gull x1
+Hornwort x1
+Balisse Fruit x1
+Crow's Eye x1
+Han Fiber x1	N/A
+Quebrith	Longrube x1
+White Gull x1
+Nostrix x1
+Pringrape x1
+Verbena x1
+Puffball x1	N/A
+Rebis	Allspice x1
+White Gull x1
+Mistletoe x1
+Ranogrin x1
+Verbena x1
+Ergot Seeds x1	N/A
+Red Mutagen	Lesser Red Mutagen x3	Attack Power: 7%
+Rubedo	Mistletoe x1
+White Gull x1
+Puffball x1
+Green Mold x1
+Crow's Eye x1
+Han Fiber x1	N/A
+Vermillion	Han Fiber x1
+White Gull x1
+Beggartick Blossoms x1
+Bryonia x1
+Verbena x1
+Ergot Seeds x1	N/A
+Vitriol	Ranogrin x1
+White Gull x1
+Hellebore Petals x1
+Hornwort x1
+Bloodmoss x1
+Allspice x1	N/A
+Alcohol
+A pretty small and useless category, you'll find plenty of Alcohest and Dwarven Spirit all over the place. They're useful for replenishing expended Potions, Bombs, and Decoctions, but you never need to craft them. White Gull, on the other hand, is needed to make many of the more uncommon Alchemy Ingredients, which in turn are needed to upgrade more powerful Potions and Oils. The two rare components in White Gull-Cherry Cordial and Mandrake Cordial-can be purchased from various Innkeeps. Otherwise, don't expect to find too many in your exploration.
+
+Alcohol	Required Components
+Alcohest	Balisse Fruit x1
+Empty Bottle x1
+Cherry Cordial x1
+Nilfgaardian Lemon x1
+Dwarven Spirit	Empty Bottle x1
+Mahakaman Spirit x2
+White Myrtle Petals x1
+White Gull	Mandrake Cordial x1
+Empty Bottle x1
+Arenaria x1
+Redanians Herbal x1
+Cherry Cordial x1

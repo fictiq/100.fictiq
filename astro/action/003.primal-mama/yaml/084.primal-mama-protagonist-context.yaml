@@ -1,0 +1,187 @@
+Okay, this is an interesting transformation! We are taking the *Markdown output* from the previous step (where  quests were profiled as entities) and converting *that specific structure* into a YAML document. Each quest's functional profile,  as detailed in that Markdown, will become a structured YAML object.
+
+Here's the YAML representation of the Markdown file  you provided:
+
+```yaml
+# Story World Codex: Quest Entity Functional Profile Protocol (Primal Mama) - YAML Export 
+# Based on Doležel's Heterocosmica III.B.II.B (Functional Properties)
+
+world: Primal  Mama
+codex_version: '0.2 - Quest Functional Definitions (YAML Export)'
+last_updated: '[ Current Date]' # Placeholder
+lead_architect_s: '[Your Name / Studio Name]' # Placeholder
+
+introduction_ functional_definitions: |
+  This protocol guides the definition of the functional properties of Quest Entities within the Primal Mama heter ocosm.
+  Following Doležel, these properties define a quest's potential for player action, interaction, world impact,
+   and narrative progression, all within the world's established rules (modalities). They encompass capabilities
+  (objectives  achievable by the player, information revealed, world states changed) as well as crucial limitations
+  (prerequisites, failure  conditions, required player skills/resources).
+  Focus on authenticating these functions clearly. Define not just what a quest achieves, but  how it unfolds,
+  under what conditions, at what cost (player effort/risk), and what it requires or enables. These  properties
+  are essential for narrative mechanics, player agency, and world coherence.
+
+quest_entity_profiles:
+  -  entity_id: QUEST_PM_001
+    entity_name: 'Gatorback Isle Bound: Retrieve Skiff , Fend Off Scrabblers'
+    entity_type: 'Quest Entity / Narrative Progression Event'
+     primary_authentication_sources:
+      - 'Primal Mama YAML Quest Log v0.1 (Gatorback  Isle Bound entry)'
+    functional_properties_bundle:
+      core_function_purpose:
+        - type : Primary Role
+          description: 'Facilitate player transportation to a new major zone (Gatorback Isle); Enable  resource acquisition (working skiff).'
+          auth: 'Quest Design Document'
+        - type: Secondary Role( s)
+          description_points:
+            - 'Introduce common environmental threat (Swamp Scrabblers)'
+            - ' Reinforce boat-based travel mechanics'
+            - 'Set tone for island exploration'
+          auth: 'Quest  Design Document'
+      key_capabilities_powers: # Authenticated Outcomes / Player Enablement
+        - capability_id: FUNC -Q001-NAV
+          name: Zone Transition Enablement
+          description: 'Quest structure guides player  to pilot existing airboat to the Gator Boneyard, a staging point for further travel.'
+          authentication: 'Quest objective  sequence.'
+          limits_nuances: 'Assumes player has access to a functional airboat.'
+        -  capability_id: FUNC-Q001-COMBAT-ENCOUNTER
+          name: 'Threat Engagement (Swamp  Scrabblers)'
+          description: 'Quest script triggers spawn/presence of Swamp Scrabblers, requiring player combat engagement .'
+          authentication: 'Quest objective; Enemy encounter design.'
+          limits_nuances: 'Scrabblers possess '' level eighteen toughness'' as per world''s alethic rules for creature stats.'
+        - capability_id: FUNC- Q001-RESOURCE-ACQ
+          name: Skiff Commandeering
+          description: 'Successful  completion of prior objectives allows player to locate and commandeer a functional skiff.'
+          authentication: 'Quest reward/progression  logic.'
+          limits_nuances: 'Implies skiff is present and becomes usable post-combat.'
+        -  capability_id: FUNC-Q001-DESTINATION-REACH
+          name: Arrival at Gatorback  Isle
+          description: 'Quest culminates in the player successfully navigating the acquired skiff to Gatorback Isle.'
+          authentication:  'Primary quest goal.'
+      acquired_skills_expertise: # Authenticated Player Competencies Required/Tested
+         - skill_id: SKL-PLAYER-PILOT-AIRBOAT
+          name: Basic Airboat Piloting 
+          proficiency_level: 'Assumed Competent (Player Character Core Skill).'
+          authentication: 'Player control scheme; Pr erequisite for quest initiation.'
+        - skill_id: SKL-PLAYER-COMBAT-BASIC
+          name : Basic Combat Proficiency
+          proficiency_level: 'Sufficient to overcome ''level eighteen toughness'' threats.'
+          authentication : 'Player character capabilities; World difficulty scaling.'
+        - skill_id: SKL-PLAYER-PILOT-SKIFF 
+          name: Basic Skiff Piloting
+          proficiency_level: 'Assumed Competent (Player Character Core  Skill).'
+          authentication: 'Player control scheme.'
+      inabilities_lack_of_function: # Authent icated Quest Failure Conditions / Player Inabilities Impacting Quest
+        - inability_id: INAB-Q001-NO -AIRBOAT
+          description: 'Quest cannot be initiated or progressed if player lacks a functional airboat to reach Gator  Boneyard.'
+          authentication: 'Implicit quest dependency.'
+          narrative_function: 'Gates progression based on player  resources.'
+        - inability_id: INAB-Q001-COMBAT-FAILURE
+          description : 'Persistent failure to defeat Swamp Scrabblers prevents access to the skiff.'
+          authentication: 'Combat encounter  design.'
+          narrative_function: 'Acts as a skill/gear check.'
+      vulnerabilities_ weaknesses: # Authenticated Points of Player/Quest Interruption
+        - vulnerability_id: VULN- Q001-SKIFF-UNAVAILABLE
+          description: 'If, due to a world state error or  unforeseen player action, no skiff is present/functional at the Boneyard, the quest cannot complete as designed.' 
+          authentication: 'Dependency on world object state.'
+          narrative_function: 'Potential edge case for quest  logic.'
+      costs_dependencies_operational_constraints: # Authenticated Player Effort / Quest Prerequisites
+        - constraint_id : COST-Q001-COMBAT-RISK
+          applies_to: Player Character
+           description: 'Engaging Swamp Scrabblers involves risk to player resources (health, ammo, etc.).'
+           authentication: 'Combat system mechanics.'
+          narrative_function: 'Standard risk/reward for encounters.'
+         - constraint_id: DEPEND-Q001-WORLD-NAVIGATION
+          applies_to: Quest Progression
+          description : 'Player must successfully navigate the game world to specified locations.'
+          authentication: 'Open world design.'
+          narrative_ function: 'Core gameplay loop.'
+    functional_profile_summary_narrative_role:
+      core_functional_identity : 'QUEST_PM_001 functions as a logistical and introductory narrative event. It propels the player to a new key  region by providing a necessary transport resource, gated by a minor combat challenge.'
+      key_narrative_functions_ served:
+        - 'Drives geographical exploration'
+        - 'Introduces regional fauna'
+        - ' Establishes initial objectives on Gatorback Isle (implied)'
+      relationship_to_alethic_mod ality: 'Confirms the possibility of commandeering existing (non-Automaton) transport; Authenticates the existence and threat level of  Swamp Scrabblers.'
+      key_functional_tensions_trade_offs: 'Risk of combat vs.  reward of new transport and zone access.'
+
+  - entity_id: QUEST_PM_002
+     entity_name: 'Lost to Mire Pt2: Barge Search, Gator Fight, Notes'
+    entity_type: 'Quest  Entity / Investigative Event'
+    primary_authentication_sources:
+      - 'Primal Mama YAML Quest Log v0.1  (Lost to the Mire - Part 2 entry)'
+    functional_properties_bundle:
+      core_function _purpose:
+        - type: Primary Role
+          description: 'Provide a crucial information artifact ("Scrawled Notes of  a Bayou Scavenger") to advance the "Lost to the Mire" overarching questline.'
+          auth: ' Quest Design Document'
+        - type: Secondary Role(s)
+          description_points:
+            - ' Present a challenging localized combat encounter (Armored Snapper)'
+            - 'Offer environmental storytelling through scene details'
+           auth: 'Quest Design Document'
+      key_capabilities_powers: # Authenticated Outcomes / Player Enablement
+        - capability _id: FUNC-Q002-LOCATE-SITE
+          name: Specific Site Discovery
+          description: 'Quest  directs player to navigate to a specific islet and locate a derelict barge.'
+          authentication: 'Quest objective sequence, map markers /clues.'
+          limits_nuances: 'Requires skiff obtained in QUEST_PM_001 or similar .'
+        - capability_id: FUNC-Q002-COMBAT-ENCOUNTER-ELITE
+           name: 'Elite Threat Engagement (Armored Snapper)'
+          description: 'Quest triggers encounter with an Arm ored Snapper, a ''level nineteen challenge'' GE gator variant.'
+          authentication: 'Enemy encounter design; Aleth ic rules for GE Alligator capabilities.'
+          limits_nuances: 'Higher difficulty encounter, potentially requiring specific tactics  or gear.'
+        - capability_id: FUNC-Q002-INFO-RETRIEVAL
+           name: Critical Information Acquisition
+          description: 'Player searches the barge post-combat to find a datapad containing "Sc rawled Notes of a Bayou Scavenger".'
+          authentication: 'Quest reward/progression logic; Item  definition.'
+          limits_nuances: 'Datapad has 1970s aesthetic, consistent with world''s Technological  Aesthetic Constraint.'
+        - capability_id: FUNC-Q002-ENV-STORYTELLING
+           name: Environmental Clue Discovery
+          description: 'Quest directs player to observe secondary site (campsite with  medical supplies) for contextual information.'
+          authentication: 'Level design; Narrative design.'
+      acquired_skills_ expertise: # Authenticated Player Competencies Required/Tested
+        - skill_id: SKL-PLAYER-NAVIGATION-WATER
+           name: Skiff Navigation in Complex Terrain
+          proficiency_level: 'Competent for navigating archipelagos.'
+          authentication : 'Player control scheme; Map layout.'
+        - skill_id: SKL-PLAYER-COMBAT- ADVANCED
+          name: Advanced Combat Tactics
+          proficiency_level: 'Sufficient for ''level nineteen challenge''  creatures.'
+          authentication: 'Player character progression; Armored Snapper''s authenticated capabilities.'
+        - skill _id: SKL-PLAYER-INVESTIGATION-SEARCH
+          name: 'Object Interaction and Search'
+           proficiency_level: 'Basic (ability to find and interact with lootable objects).'
+          authentication: 'Player interaction  system.'
+      inabilities_lack_of_function: # Authenticated Quest Failure Conditions / Player Inabilities Impact ing Quest
+        - inability_id: INAB-Q002-COMBAT-FAILURE-SNAPPER
+          description : 'Inability to defeat the Armored Snapper prevents access to the barge''s interior and the critical datapad .'
+          authentication: 'Encounter design as a gate.'
+          narrative_function: 'Significant skill/gear  check for this questline.'
+      vulnerabilities_weaknesses: # Authenticated Points of Player/Quest Inter ruption
+        - vulnerability_id: VULN-ARMOREDSNAPPER-EXPLOIT # This references  an implied external document
+          description: 'The Armored Snapper may possess specific, authenticated vulnerabilities (e.g ., to certain damage types, weak points in its 70s tech augmentation) that skilled players can exploit.'
+          authentication : 'Creature Functional Profile (Implied)'
+          narrative_function: 'Rewards player knowledge and tactical thinking .'
+      costs_dependencies_operational_constraints: # Authenticated Player Effort / Quest Prerequisites
+        - constraint_ id: COST-Q002-COMBAT-RISK-ELITE
+          applies_to:  Player Character
+          description: 'Engaging the Armored Snapper poses significant risk and resource expenditure.'
+          authentication: 'Combat  system mechanics; Enemy difficulty.'
+          narrative_function: 'Heightens stakes for information retrieval.'
+        - constraint_id : DEPEND-Q002-PRIOR-QUEST-TRANSPORT
+          applies_to: Quest Accessibility
+          description : 'Requires access to a skiff, typically provided by QUEST_PM_001.'
+          authentication: 'World  layout and travel mechanics.'
+    functional_profile_summary_narrative_role:
+      core_functional_ identity: 'QUEST_PM_002 functions as a critical information-gathering event, gated by a significant combat challenge.  It directly propels a specific storyline ("Lost to the Mire").'
+      key_narrative_functions_served: 
+        - 'Delivers key plot item'
+        - 'Provides a memorable combat encounter'
+        - ' Deepens world lore through environmental details and enemy design (GE gators, 1970s tech integration)'
+      relationship _to_alethic_modality: 'Authenticates capabilities of advanced GE Alligators (Armored Snapper);  Confirms existence of scavengers and their use of 1970s-style datapads; Reinforces the Technological  Aesthetic Constraint.'
+      key_functional_tensions_trade_offs: 'High combat risk/resource cost vs.  reward of critical plot progression.'
+
+# Note: This YAML structure directly mirrors the Markdown "Entity Functional Profile" sections. 
+# Further quest profiles from the original Markdown would follow the same pattern.
+```

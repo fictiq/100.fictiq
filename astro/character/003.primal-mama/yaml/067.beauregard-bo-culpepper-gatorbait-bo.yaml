@@ -1,0 +1,187 @@
+
+world: Primal Mama
+codex_version: '0.2  - Character Constitution'
+last_updated: '[Current Date]' # Assuming placeholder, replace with actual date
+lead_architect_ s: '[Your Name/Studio Name]' # Assuming placeholder
+
+introduction: |
+  This protocol guides the detailed definition  of Fictional Persons (characters, significant sentient beings) within the Primal Mama heterocosm. Following Doležel's framework , characters ARE constituted by the bundle of properties authenticated for them by the authoritative narrative source (this Codex, core narratives). They  possess no independent psyche or reality beyond this textual definition.
+  Use this template to systematically build characters by explicitly authenticating their properties across  relevant categories. Focus on creating multifaceted individuals whose complexity arises from the richness, coherence, and potential tensions within their authenticated bundle, and whose  actions are logically grounded in their defined nature and the world's rules. Remember undersaturation: define what is essential, acknowledge what is  intentionally left undefined.
+
+character_profile:
+  entity_id: 'CHAR_BoCulpepper_01 '
+  character_name: 'Beauregard "Bo" Culpepper (Often called "Gatorbait Bo" behind  his back, a nickname he begrudgingly tolerates after a near-fatal encounter in his youth)'
+  entity _type: 'Person (Human Citizen)'
+  archetype: 'Grizzled Bayou Entrepreneur / Self-Reliant Local '
+  primary_authentication_sources:
+    - 'This Codex Entry'
+    - 'Primal Mama  Coherence & Internal Logic Protocol v0.1'
+  canon_tier: 'Tier 2 (Significant Local Resident , Potential Supporting Character)'
+  authentication_status: 'Authenticated_Canonical_Active'
+
+  authenticated_property_bundle:
+     physical_properties:
+      purpose: "Define the character's tangible presence."
+      appearance_general:
+         description: 'Human male, late 40s/early 50s, sun-weathered skin, wir y build from years of physical labor in the swamps.'
+        authentication: 'Primal Mama Coherence Doc - Im plied lifestyle for Lickskillet'
+      appearance_specific_features:
+        description: 'Squint lines around hazel  eyes, perpetual five-o''clock shadow, prominent Adam''s apple. Jaw often clenched.' # Note: five -o'clock escaped
+        authentication: 'Derived from archetype & environment'
+      appearance_distinctive_marks: 
+        description: 'Three missing fingers on left hand (lost to a young alligator – source of nickname); faded alligator  tooth-marks on right forearm.'
+        authentication: 'Narrative backstory element'
+      typical_attire: 
+        description: 'Faded denim or canvas work shirt (often sleeveless, 1970s cut), patched-up  waterproof overalls, sturdy swamp boots. Maybe a mesh-backed cap with a defunct pre-calamity brand logo.' 
+        authentication: 'Primal Mama Coherence Doc - I.A. Tech Aesthetic; I.D. Axiological ( Firearms/Independence implies practical attire)'
+      voice_speech_pattern:
+        description: 'Gruff, pronounced  Lickskillet drawl; speaks plainly and directly, often with colorful local idioms. Prone to muttering under his breath about  "them Beetriot bastards" or the "damned oligarchy."'
+        authentication: 'Derived from regional setting & social status '
+      gait_mannerisms:
+        description: 'Economical, slightly bow-legged gait from years on unstable  boat decks. Habit of spitting tobacco juice (a local affectation). Constantly wiping sweat from brow with back of his hand.' 
+        authentication: 'Derived from archetype & environment'
+      associated_scent:
+        description: 'All igator musk, swamp water, cheap tobacco, and the faint, metallic tang of his jury-rigged solar-powered processing equipment.' 
+        authentication: 'Sensory detail derived from occupation'
+      undersaturation: 'Exact height/weight, specific  brand of tobacco, full details of non-work attire (if any).'
+
+    functional_properties:
+      purpose: " Define what the character *can* and *cannot* do."
+      skills:
+        - name: 'Expert All igator Skinner & Butcher (Small-scale, "artisan" compared to oligarchy factories)'
+          authentication: ' Implied by role as mom-and-pop operator; Primal Mama Coherence Doc - II.C. Entity  Actions (mom-and-pop alligator farmer)'
+        - name: 'Proficient Airboat Pilot & Mechanic (Ke eps his aging, 1970s-aesthetic airboat running with scavenged parts and ingenuity)'
+          authentication : 'Primal Mama Coherence Doc - III.B. Entity Actions (water craft dependency)'
+        - name: 'Compet ent Marksmanship (Owns and maintains several firearms, as is common outside Beetriot)'
+          authentication: 'Pr imal Mama Coherence Doc - I.B. Deontic (Gun Ownership)'
+        - name: 'Basic Solar Tech  Maintenance (Can troubleshoot and perform minor repairs on his small-scale solar arrays that power his operation, using analog diagnostic tools)'
+           authentication: 'Primal Mama Coherence Doc - I.A. Alethic (Solar Dominance, Tech  Aesthetic)'
+      limitations:
+        - type: 'Knowledge'
+          description: 'Limited understanding of advanced genetic engineering behind  GE alligators or complex solar science; relies on practical, passed-down knowledge. Illiterate in complex legal/financial documents , making him vulnerable to oligarchy tactics.'
+          authentication: 'Derived from social status & focus on practical skills' 
+        - type: 'Resources'
+          description: 'Chronically short on capital; struggles to compete with the meat processing  oligarchy''s scale and influence.' # Note: oligarchy's escaped
+          authentication: 'Primal Mama  Coherence Doc - I.B. Assessment Notes (friction from oligarchy)'
+        - type: 'Social' 
+          description: 'No influence in Beetriot; views officials and oligarchy members with deep suspicion, limiting potential for formal  aid or alliances.'
+          authentication: 'Derived from Axiological values & Deontic rules'
+      undersaturation : 'Ability to navigate complex legal loopholes, advanced first aid beyond patching himself up, understanding of Swamp Witch rituals.'
+
+     psychological_properties:
+      purpose: "Define the character's textually constituted inner life."
+      core_ traits:
+        - description: 'Stubborn Self-Reliance / Fierce Independence'
+          authentication: 'Primal Mama  Coherence Doc - I.C. Axiological (Firearms, Autonomy)'
+        - description: 'Deep -Seated Suspicion (of outsiders, Beetriot elite, meat oligarchy, and most forms of authority)'
+          authentication : 'Derived from "friction with oligarchy" and Lickskillet vs. Beetriot dynamic'
+        -  description: 'Pragmatic Resignation (Accepts many of the world''s hardships and oddities as ''just the way things  are'' but will fight for his small corner)' # Note: world's and things are escaped
+          authentication: 'In ferred from survival in Primal Mama'
+      dominant_emotion:
+        description: 'Frustration (at the olig archy, failing equipment, bad luck) mixed with a resilient, grumbling determination.'
+        authentication: 'Derived from circumstances '
+      key_motivator:
+        description: 'Maintaining his small business ("Culpepper''s Critter Cuts ") and his autonomy; providing for himself (and any dependents, currently undersaturated). Proving he can survive without bowing  to the oligarchy.' # Note: Culpepper's escaped
+        authentication: 'Logical character goal in context'
+       key_beliefs:
+        - description: 'Believes the "Invisible Women" conspiracy is at least partly true, blaming  them for large-scale societal problems and the oligarchy''s power.' # Note: oligarchy's escaped
+           authentication: 'Primal Mama Coherence Doc - I.D. Epistemic (Conspiracy)'
+        -  description: 'Reverence for Burt Reynolds, Jerry Reed, and Gram Parsons as folk heroes embodying defiance, Southern charm, and a  ''better time'' (even if that time is vaguely understood). Might have a sun-faded picture of Burt on his  airboat''s dashboard.' # Note: airboat's escaped
+          authentication: 'Primal Mama Coherence  Doc - I.C. Axiological (Deified Celebrities)'
+        - description: 'Absolute conviction that eating  cattle flesh leads to a horrible death, whether by law, biology, or divine/celebrity retribution. Would never,  ever consider it.'
+          authentication: 'Primal Mama Coherence Doc - I.A. Alethic /  I.B. Deontic (Cattle Consumption)'
+      internal_conflicts:
+        - description:  'Desire to expand his business vs. fear of attracting more negative attention from the oligarchy'
+          authentication: 'Derived  from character setup and world pressures'
+        - description: 'Pride in his traditional methods vs. the need to adopt  slightly more efficient (but still 1970s aesthetic) tech to survive.'
+          authentication: 'Derived  from character setup and world pressures'
+      subjective_memory_content:
+        description: 'Clear memories of L ickskillet life for decades; vividly remembers the ''official'' story of the biological calamity from his childhood; knows local tales  of Erpenthropes and Swamp Witches but has no firsthand authenticated interaction.'
+        authentication: 'Implied by age  and setting'
+      undersaturation: 'Specific religious beliefs beyond celebrity reverence, detailed opinions on Erpenthropes  or ghosts (likely sees them as ''more swamp weirdness'' unless directly encountered), romantic history.'
+
+    social_relational _categorical_properties:
+      purpose: "Define the character's place within the world's networks."
+      official _role:
+        description: 'Owner/Operator of "Culpepper''s Critter Cuts," a registered (barely)  small-scale alligator processing business in Lickskillet.' # Note: Culpepper's escaped
+        authentication:  'Narrative role'
+      social_status:
+        description: 'Working-class Lickskillet resident ; respected by some locals for his tenacity, seen as a stubborn old fool by others aligned with bigger operations.'
+         authentication: 'Derived from occupation and setting'
+      primary_affiliation:
+        description: 'Lickskillet community ( informal, identity-based). Loose, wary network of other independent gator hunters/processors.'
+        authentication: 'Logical social  ties'
+      key_relationships:
+        - to: 'Meat Processing Oligarchy (e.g., "GatorCorp " reps)'
+          nature: 'Antagonistic, characterized by pressure, veiled threats, and unfair competition from their  side; resentment and defiance from Bo''s.' # Note: Bo's escaped
+          authentication: 'Primal Mama Co herence Doc - I.B. Deontic (friction)'
+        - to: 'Local Alligator Hunters ( Saurian Sanctuary accessors)'
+          nature: 'Transactional but generally fair; relies on them for supply when Sanctuary  gates are open.'
+          authentication: 'Primal Mama Coherence Doc - I.B. Deontic ( Saurian Sanctuary)'
+        - to: 'Beetriot Authorities/Citizens'
+          nature: 'Distrust ful and distant. Views Beetriot as a place of decadent cattle-artifact owners and corrupt officials.'
+          authentication: 'Pr imal Mama Coherence Doc - I.B. Deontic (Cattle as Artifacts, regional gun norms)'
+       stance_on_automatons_llms:
+        description: 'Considers them "unnatural shortcuts" and  would distrust anyone who openly uses them, associating it with a "stain on their reputation" and possibly Beetriot trickery.' 
+        authentication: 'Primal Mama Coherence Doc - I.B. Deontic (Automaton/LL M Stigma)'
+      species_type:
+        description: 'Human (Baseline Post-Calamity Strain)'
+         authentication: 'Default for Primal Mama citizens'
+      undersaturation: 'Specific family members (wife, children,  siblings), close friends, detailed interactions with Swamp Witches (likely avoidance and superstition).'
+
+    modal_properties:
+       purpose: "Define any inherent unique relationship to world laws."
+      properties:
+        - property_id:  'N/A'
+          description: 'None Authenticated. Bo Culpepper operates under the general physical, biological, and societal  laws of Primal Mama. He possesses no known supernatural abilities or unique immunities/vulnerabilities beyond the human baseline in  this world.'
+          limits: 'N/A'
+          authentication: '[Primal Mama Coherence Doc -  Character is defined as a ''human citizen'' without exceptional traits.]' # Retained brackets as per original markdown example for this  one.
+      note: 'As a typical human citizen, Bo has no unique modal properties.'
+
+    axiological_properties :
+      purpose: "Define the character's value status *within* Primal Mama."
+      reput ations:
+        - group: 'Lickskillet Locals'
+          description: '''tough old coot'', '' honest in his dealings (if grumpy)'', ''a survivor'', ''one of us''.' # Note: quotes within  string for clarity
+          authentication: 'Derived from social role'
+        - group: 'Meat Oligarchy'
+           description: '''minor nuisance'', ''resistant to buy-out'', ''expendable'', ''symbol of outdated practices''.'
+           authentication: 'Derived from antagonistic relationship'
+        - group: 'Beetriot Perspective (if known)'
+          description:  'Likely ''ignorant swamp-dweller'', ''clinging to the past'', ''irrelevant''.'
+           authentication: 'Inferred cultural clash'
+      adherence_to_1970s_aesthetic:
+        description : 'High. His equipment, boat, and any personal tech authentically reflect this aesthetic, not out of artistic choice but because  it''s the available and understood technological paradigm. He''d find deviation ''strange'' or ''unreliable''.' #  Note: it's and He'd escaped
+        authentication: 'Primal Mama Coherence Doc - I.A. Ale thic (Tech Aesthetic Constraint)'
+      undersaturation: 'Reputation among Swamp Witches or Erpenthrop es (likely unknown or non-existent).'
+
+    historical_properties:
+      purpose: "Define the character's  known origins and connections to past events."
+      origin:
+        description: 'Authenticated as born and raised in Licksk illet, approximately one generation after the Biological Calamity. His parents were among the early adaptors to the alligator-based economy .'
+        authentication: 'Implied by age and world history'
+      key_past_event_connection:
+        description : 'The "Gatorbait" incident: A well-known local story where, as a reckless youth, he  nearly lost his life (and did lose fingers) trying to wrestle a juvenile GE alligator, before their solar-power and  regeneration were fully understood by locals. This event cemented his respect for the creatures and the dangers of the swamp.'
+        authentication:  'Character-specific backstory element reflecting world rules'
+      inherited_items:
+        - item: 'His father''s old  (but still functional, 1970s design) hunting rifle' # Note: father's escaped
+           authentication: 'Narrative detail'
+        - item: 'The original, patched-up sign for "Cul pepper''s Critter Cuts"' # Note: Culpepper's escaped
+          authentication: 'Narrative detail'
+      unders aturation: 'Detailed family history beyond ''parents were early settlers''; specific involvement of family in post-Calamity events like establishment  of cattle taboo.'
+
+  character_constitution_summary_narrative_function:
+    purpose: "Synthesize the core identity , internal conflicts, and narrative role emerging from the authenticated property bundle."
+    core_essence: |
+      Bo " Gatorbait" Culpepper is constituted as a quintessential Lickskillet survivor, embodying the gritty resilience, ingrained suspicion, and  fierce independence of those living on the fringes of Primal Mama's strange society. His existence is a constant struggle against  the encroaching meat oligarchy, powered by jury-rigged 1970s solar tech and a deep-seated  belief in self-reliance, local traditions (including celebrity reverence and conspiracy theories), and the absolute taboo of cattle consumption. He is  a man defined by his environment: the swamp, the GE alligators he processes, and the socio-economic pressures of a world rebuilt  on bizarre foundations.
+    primary_narrative_function: |
+      To serve as a viewpoint character for life in Lick skillet, illustrating the daily realities and struggles of independent operators. He can act as a source of local knowledge, a  reluctant ally or obstacle for protagonists, and a tangible representation of the "friction" caused by the meat oligarchy. His  adherence to the 1970s aesthetic and local beliefs grounds these world elements in a lived experience.
+     key_internal_conflicts:
+      - 'Stubborn Pride vs. Practical Need for Survival (e.g., dealing  with oligarchy)'
+      - 'Traditional Methods vs. Pressure to Modernize (within 1970s  tech limits)'
+      - 'Suspicion of Outsiders vs. Potential Need for Help'
+      - 'Folk Belief s/Conspiracies vs. Harsh Realities.'
+    potential_for_development: |
+      Bo could  be pushed to the brink by the oligarchy, forcing him to either make a desperate stand (perhaps rallying other small operators), seek  unconventional allies (even those he distrusts, like someone with 'stigma' tech or even contact with fringe elements like Witches /Erpenthropes if desperate enough), or be forced to sell out/adapt in a way that compromises his core  values. Discovery of information that challenges his conspiracy beliefs or offers a true path to resistance could also drive change.
+
+end _of_fictional_person_profile: 'CHAR_BoCulpepper_01'

@@ -1,0 +1,171 @@
+
+world: Primal Mama 
+codex_version: '0.2 - Character Constitution (Deacon Broussard)'
+last_updated : '[Current Date]'
+lead_architects: '[Your Name / Studio Name]'
+
+character_profile:
+   entity_id: CHAR_DeaconB_01
+  character_name: 'Deacon "B ones" Broussard'
+  entity_type: Person
+  archetype: 'Dispossessed Artisan / Ru ined Homesteader'
+  primary_authentication_sources:
+    - This Codex Entry
+    - 'Pr imal Mama Coherence Protocol v0.1'
+  canon_tier: 'Tier 2 (Significant Supporting Character )'
+  authentication_status: Authenticated_Canonical_Active
+
+  authenticated_property_bundle:
+    physical _properties:
+      purpose: "Define the character's tangible presence."
+      attributes:
+        - name : Appearance_General
+          value: 'Male, late 40s, with distinct African features: dark skin , broad nose, tightly coiled black hair greying at the temples. Lean, almost gaunt, frame suggesting past hardships  and current scarcity.'
+          auth: This Codex Entry
+        - name: Appearance_Specific_Features
+          value : 'Deep-set, weary eyes that still hold a spark of old pride; prominent cheekbones. Skin is weathered from  sun, swamp air, and physical labor.'
+          auth: This Codex Entry
+        - name: Appearance_Distinct ive_Marks
+          value: 'Old, faded burn scars on forearms from rendering vats; missing the tip of his left  index finger (an old processing accident). A slight, persistent tremor in his hands when idle.'
+          auth: This  Codex Entry
+        - name: Typical_Attire
+          value: 'Worn, patched-up canvas trousers  and a threadbare, faded plaid flannel shirt (70s style) over a stained thermal undershirt. Heavy , cracked swamp boots. Often carries a repurposed burlap sack.'
+          auth: 'This Codex Entry / Primal Mama  Aesthetic Constraint'
+        - name: Voice_Speech_Pattern
+          value: 'Deep, resonant voice, but usually  speaks softly, with a characteristic Lickskillet bayou drawl. His words are often tinged with a quiet  bitterness or resignation, but can rise with indignation when discussing past injustices.'
+          auth: This Codex Entry
+        -  name: Gait_Mannerisms
+          value: 'Moves with an economy of motion born from years of hard work  and current necessity. A slight stoop, as if carrying an invisible weight. Habit of rubbing his scarred forearms when troubled.' 
+          auth: This Codex Entry
+        - name: Associated_Scent_If_Any # Changed from Associated  Scent (If Any)
+          value: 'Faint smell of swamp mud, old alligator grease, and cheap,  harsh pipe tobacco (when he can get it).'
+          auth: This Codex Entry
+      undersaturation: '[Exact height/weight ; specific details of his pre-ruin physique; full wardrobe beyond his typical attire.]' # No colon
+
+     functional_properties:
+      purpose: "Define what the character *can* and *cannot* do."
+       skills:
+        - skill: 'Expert Alligator Skinner & Butcher (Formerly renowned in Lickskillet)' #  No colon
+          auth: 'Historical Properties / Narrative Backstory'
+        - skill: 'Proficient in Swamp  Navigation (on foot and basic skiff operation)' # No colon
+          auth: 'Narrative Backstory - Lickskillet  Resident'
+        - skill: "Resourceful Scavenger (knows how to find discarded but useful items in  Lickskillet's refuse)" # No colon
+          auth: Current Social Role
+        - skill: 'Basic  Repair of Simple 1970s-era Mechanical Tools (e.g.: grinders, small engines – out of necessity )' # Has 'e.g.:' colon
+          auth: 'Primal Mama Technological Aesthetic Constraint / Narrative Backstory' 
+      limitations:
+        - limitation: 'Economic: Extremely poor, lacks capital, tools, or a place of business.  Lives hand-to-mouth.' # Has colon
+          auth: 'Social Properties / Narrative Backstory'
+         - limitation: "Social: Effectively blacklisted by the Meat Oligarchy; seen as a failure or a warning by many  in Lickskillet's mainstream." # Has colon
+          auth: 'Social Properties / Axiological Properties' 
+        - limitation: 'Physical: Strength diminished by poor nutrition and age; not suited for heavy combat but still possesses  wiry toughness.' # Has colon
+          auth: Physical Properties
+        - limitation: "Knowledge: Lacks understanding  of Beetriot's high society, advanced GE tech beyond its practical output (gators), or the deeper machinations of the  Oligarchy's finances/politics." # Has colon
+          auth: 'Social Properties, Narrative Intent'
+       undersaturation: '[Ability to use firearms (likely, given Lickskillet culture, but not explicitly stated as a  primary skill for him); literacy level; any hidden talents unrelated to his former trade.]' # No colon
+
+    psych ological_properties:
+      purpose: "Define the character's textually constituted inner life."
+      core_ traits:
+        - trait: 'Deep-seated Resentment (towards the Meat Oligarchy)' # No colon
+           auth: 'Dialogue, Internal Monologue (if shown)'
+        - trait: 'Lingering Pride (in  his lost craft and former independence)' # No colon
+          auth: 'Dialogue, Actions defending his past reputation'
+         - trait: 'Weary Resilience (has endured much and continues to survive)' # No colon
+          auth:  Current existence despite hardship
+      dominant_emotion:
+        value: 'A quiet, simmering anger mixed with profound disappointment and fatigue.'  # No colon
+        auth: 'Voice/Mannerisms, Narrative Description'
+      key_motivators: 
+        - motivator: 'Day-to-day survival; a suppressed desire for recognition of the injustice he suffered; protecting  what little dignity he has left.' # No colon
+          auth: 'Actions, Dialogue'
+      key_beliefs :
+        - belief: "Believes the Meat Oligarchy stole his livelihood and the soul of Lickskillet 's independent processors through unfair, possibly illegal, means." # No colon
+          auth: "Dialogue, World's  Deontic Rules (friction from Oligarchy)"
+        - belief: 'Believes in the value of honest labor and craftsmanship , now devalued.' # No colon
+          auth: 'Axiological Values of Primal Mama implied contrast'
+       internal_conflict:
+        value: 'The urge to speak out or act against the Oligarchy vs. the crushing fear of further  retribution and the practical need to survive; Pride in his past vs. the shame of his current state.' # No colon
+        auth : Narrative Potential
+      subjective_memory_content:
+        value: "Vivid, often painful, memories of his  thriving family business, the quality of his work, specific interactions with Oligarchy representatives during \"The Squeeze,\" and the day he  lost everything. Nostalgia for a \"better time\" in Lickskillet before the Oligarchy's full dominance." #  No colon
+        auth: Narrative Backstory
+      undersaturation: '[Specific religious beliefs (beyond general Primal Mama  deities); views on Erpenthropes or Swamp Witches (likely common Lickskillet superstitions/acceptance);  detailed hopes for the future (if any beyond survival).]' # No colon
+
+    social_relational_categorical_properties:  # Key name simplified from markdown
+      purpose: "Define the character's place within the world's networks."
+       official_role:
+        value: 'None. Formerly: Owner/Operator, "Broussard''s  Bayou Best Meats." Currently: Unofficial scavenger, fringe dweller.' # Has colon
+        auth: 'Historical Properties, This  Codex Entry'
+      social_status:
+        value: 'Outcast / Extremely Low. Resides on the margins of  Lickskillet society.' # No colon
+        auth: 'Narrative Backstory, Victim Status'
+      primary_affiliation :
+        value: 'None. Isolated.' # No colon
+        auth: This Codex Entry
+      secondary_ affiliations:
+        value: 'Loose, informal ties with other impoverished Lickskillet residents or those similarly disenfranchised by the  Oligarchy. These are relationships of shared hardship, not organized groups.' # No colon
+        auth: Narrative Potential
+      key_ relationships:
+        - relationship_to: 'The Meat Oligarchy (as an institution, and perhaps specific local enforcers like  "Smiling" Jack Salton from Consolidated Gator Corp)' # No colon
+          nature: 'Antagonistic (victim /oppressor). Salton was the one who delivered the final blow to his business.' # No colon
+          auth_ source: 'Narrative Backstory, Psychological Properties'
+        - relationship_to: "Lickskillet' s \"Mom-and-Pop\" Community (Memory)" # No colon
+          nature: 'A sense of lost belonging and  shared identity with those who resisted or were crushed.' # No colon
+          auth_source: Psychological Properties
+        - relationship_to : "Younger Lickskillet residents who only know the Oligarchy's dominance" # No colon
+          nature:  'Potential role as a cautionary tale or a keeper of "lost history."' # No colon
+          auth_source:  Narrative Potential
+      species_type:
+        value: 'Human (Baseline Primal Mama Strain)' # No colon 
+        auth: Physical Properties
+      undersaturation: '[Any surviving family members and their status; specific friends from his past ; his exact living situation (e.g.: abandoned shack, public shelter).]' # Has 'e.g.: ' colon
+
+    modal_properties:
+      purpose: "Define any inherent unique relationship to world laws."
+       property_id: 'None Authenticated' # No colon
+      details: # Changed from 'property_details'
+         description: "Operates entirely under the general physical, social, and economic laws of Primal Mama. His victimhood is a  result of these laws being exploited by powerful entities, not due to any unique personal susceptibility beyond his socio-economic position."  # No colon
+        limits: N/A
+        authentication: 'Primal Mama Coherence Protocol (Aleth ic, Deontic rules apply universally unless specified).' # No colon
+      note: 'Deacon Broussard is intentionally  constituted without unique modal properties to emphasize his vulnerability to the systemic forces of Primal Mama.' # No colon
+
+    ax iological_properties:
+      purpose: "Define the character's value status *within* Primal Mama."
+       reputations:
+        - group: Meat Oligarchy
+          view: "'Resolved debt', 'irrelevant,' ' a closed chapter,' 'a useful example of what happens to those who don''t consolidate.' His past resistance is forgotten  or dismissed." # No colon
+          auth_source: "Narrative Intent, Oligarchy's Deontic Power" 
+        - group: Lickskillet General Populace
+          view: "'Poor Ol'' Bones' (pity ), 'Heard he used to be somebody' (faded memory), 'Best not to get involved with him' (fear  of Oligarchy association), 'Proof you can''t fight City Hall... or Beetriot Capital' (cautionary tale).  Some older residents might recall the quality of his past work with respect." # No colon
+          auth_source: Narrative  Intent
+      moral_alignment_narrative_framing:
+        value: "Authenticated via narrative context as a 'Wrong ed Man,' a victim of systemic greed and power imbalance. His bitterness is portrayed as justified." # No colon
+         auth: This Codex Entry
+      undersaturation: "[Reputation among fringe elements (e.g.: Swamp Witches, if he  ever interacts); specific views held by individual members of the deified celebrity cults towards someone like him.]" # Has  'e.g.:' colon
+
+    historical_properties:
+      purpose: "Define the character's known  origins and connections to past events."
+      origin:
+        value: 'Authenticated as born and raised in Lickskillet.  His family were among the early independent alligator processors after the Calamity and the shift away from cattle.' # No colon
+         auth: Narrative Backstory
+      key_past_event_connection:
+        value: 'Direct victim of the  "Oligarchic Consolidation" period in Lickskillet, where larger corporations, backed by Beetriot capital , systematically squeezed out or bought out smaller mom-and-pop alligator processing businesses. "Broussard''s  Bayou Best Meats" was a prominent holdout that was aggressively targeted and eventually bankrupted/seized.' # No colon
+         auth: 'Narrative Backstraction from Primal Mama Coherence - Deontic "friction"'
+      inherited_items:
+         value: 'Authenticated to possess a single, exceptionally well-made (but now nicked and worn) skinning  knife of pre-Oligarchy Lickskillet steel, a family heirloom; a faded, dog-eared photo of his younger  self and a woman (presumably his wife/partner) standing proudly in front of his bustling shop.' # No colon
+         auth: This Codex Entry
+      undersaturation: "[The specific tactics used by the Oligarchy against him (beyond  general \"friction\" – e.g.: price manipulation, supply cutoffs, trumped-up code violations enforced by  bought officials); what happened to his wife/partner; his life before taking over the family business.]" # Has ' e.g.:' colon
+
+  character_constitution_summary_and_narrative_function: # Key name simplified
+     core_essence: "Deacon \"Bones\" Broussard is constituted as the embodiment of Lickskillet 's dying independent spirit, a skilled artisan crushed by the inexorable advance of the Meat Oligarchy. His African features place him visibly  within the diverse tapestry of Primal Mama's swamp communities. His identity is defined by what he has *lost* – his business , his status, his livelihood – and the resilient, if bitter, spirit that endures. He is a living testament to the  \"friction\" mentioned in the Primal Mama Coherence Protocol, a direct casualty of the deontic power wielded by the elite.  His adherence to the 1970s aesthetic is not a choice but the ingrained reality of his environment and former  trade." # No colon
+    primary_narrative_function: "To serve as a potent symbol of the socio-economic oppression  within Primal Mama; to provide a voice for the disenfranchised of Lickskillet; to act as a potential  source of crucial information or reluctant assistance to protagonists opposing the Oligarchy; to ground the more fantastical elements of Primal Mama in harsh , human-level reality." # No colon
+    key_internal_conflicts_from_bundle:
+       - 'Pride in his heritage/craft vs. the shame of his current poverty' # No colon
+      - 'The  desire for justice/retribution vs. the overwhelming power of the Oligarchy and the instinct for self-preservation'  # No colon
+      - 'Nostalgia for a romanticized past vs. the bitter reality of the present'  # No colon
+    potential_for_development_based_on_bundle:
+      - 'Could be galvanized into action  by a new threat or opportunity' # No colon
+      - 'Might find a way to pass on his lost skills /knowledge' # No colon
+      - 'Could become a reluctant leader or figurehead for a struggling community' #  No colon
+      - "Or could succumb entirely to despair. His interaction with characters who possess more agency (e.g.:  Erpenthropes, determined investigators) could be transformative." # Has 'e.g.:' colon

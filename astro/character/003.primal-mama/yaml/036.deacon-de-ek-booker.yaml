@@ -1,0 +1,205 @@
+
+Entity _ID: CHAR_DeaconBooker_01
+Character_Name: 'Deacon "Deek"  Booker'
+Entity_Type: Person
+Archetype: 'The Dispossessed Homesteader, The Ruined Crafts man'
+Primary_Authentication_Sources:
+  - This Codex Entry (Character Constitution)
+  - 'Primal Mama  Coherence Protocol v0.1'
+Canon_Tier: 'Tier 2 (Significant Supporting Character / Voice of the Opp ressed)'
+Authentication_Status: Authenticated_Canonical_Active
+
+Authenticated_Property_Bundle:
+  Physical_Properties:
+     Description: "Define the character''s tangible presence."
+    Properties:
+      - Property_Name: Appearance _General
+        Details: 'Male, late 50s, with dark, weathered skin that speaks of years  under the swamp sun and in humid processing sheds. Appears older than his years due to hardship. Lean, almost ga unt frame, though hints of former wiry strength remain.'
+        Authentication: This Entry
+      - Property_Name : Appearance_Specific_Features
+        Details: 'Tightly coiled black hair, heavily salted with grey, especially at  the temples and beard (if he has one, likely kept short and neat, or stubble). Deep-set,  weary brown eyes that still hold a spark of defiance. Prominent cheekbones and a strong jawline, now softened by  worry lines.'
+        Authentication: This Entry
+      - Property_Name: Appearance_Distinctive_Marks
+         Details: 'A long, faded scar along his left forearm from an old gator processing accident. Hands are calloused  and knotted from years of physical labor.'
+        Authentication: This Entry
+      - Property_Name: Typical_Att ire
+        Details: 'Worn but clean work clothes adhering to the 1970s aesthetic – perhaps faded denim overalls  over a plaid flannel shirt (sleeves often rolled up), or durable canvas trousers and a simple, once-colorful button -up shirt. Sturdy, mud-caked work boots. Maybe an old, wide-brimmed straw or canvas hat  for sun protection, also showing its age.'
+        Authentication: 'This Entry / Primal Mama Coherence Doc ( Aesthetic Constraint)'
+      - Property_Name: Voice_Speech_Pattern
+        Details: 'A deep,  slow Southern drawl, characteristic of the Lickskillet region. Speech is deliberate, sometimes hesitant, laced with weariness but  capable of quiet passion when speaking of injustice or his lost livelihood. Uses local idioms.'
+        Authentication: This Entry
+       - Property_Name: Gait_Mannerisms
+        Details: 'Moves with a deliberate, somewhat tired economy of motion.  A slight stoop in his shoulders. Habit of looking out over the water or towards the horizon, as if searching for  something lost. May nervously rub his calloused hands together when anxious.'
+        Authentication: This Entry
+      - Property _Name: Associated_Scent
+        Details: 'Faint, lingering scent of swamp water, old woodsmoke ( from former gator smoking), and perhaps a touch of cheap, locally-distilled spirits. Possibly the metallic tang of  old machinery.'
+        Authentication: 'This Entry / Primal Mama Coherence Doc (Lickskillet atmosphere)' 
+    Undersaturation_Notes: 'Exact height/weight, specific brand names of clothing, detailed dental status.' 
+
+  Functional_Properties:
+    Description: "Define what the character *can* and *cannot* do." 
+    Properties:
+      - Property_Type: Skill
+        Name: Expert Alligator Processing
+        Details:  '(formerly; skinning, butchering, smoking – now lost access to means)'
+        Authentication: 'This Entry  / Primal Mama Coherence Doc (Alligator Meat Economy)'
+      - Property_Type: Skill
+        Name : Proficient Small Watercraft Operation
+        Details: '(airboats, skiffs – essential for swamp life)'
+        Authentication : 'This Entry / Primal Mama Coherence Doc (Transportation)'
+      - Property_Type: Skill
+         Name: Basic Solar Tech Maintenance
+        Details: '(for small-scale, 1970s-style  personal/farm units – now likely defunct)'
+        Authentication: 'This Entry / Primal Mama Coherence Doc ( Solar Dominance, Tech Aesthetic)'
+      - Property_Type: Skill
+        Name: Competent with older model  firearms
+        Details: '(e.g., pump-action shotgun, lever-action rifle – for hunting/defense , reflecting non-Beetriot gun culture)'
+        Authentication: 'This Entry / Primal Mama Coherence Doc  (Gun Ownership)'
+      - Property_Type: Skill
+        Name: Swamp Navigation & Survival
+        Details:  '(intimate knowledge of local bayous and hazards)'
+        Authentication: This Entry
+      - Property_Type:  Limitation
+        Name: Economic
+        Details: 'Financially ruined by meat oligarchy; lacks capital and resources .'
+        Authentication: 'This Entry / Primal Mama Coherence Doc (Deontic: Meat Processor Oligarchy Friction)'
+       - Property_Type: Limitation
+        Name: Influence
+        Details: 'No political or social power to challenge  the oligarchy directly.'
+        Authentication: This Entry
+      - Property_Type: Limitation
+        Name: Technological 
+        Details: 'Distrustful and unskilled with advanced Automatons/LLMs; adheres to traditional methods, reinforcing  his vulnerability.'
+        Authentication: 'This Entry / Primal Mama Coherence Doc (Automaton Stigma)'
+       - Property_Type: Limitation
+        Name: Physical
+        Details: 'No longer in his prime; physical  strength and stamina are diminished by age and hardship.'
+        Authentication: This Entry
+    Undersaturation_Notes:  'Ability to read complex schematics; advanced repair skills beyond simple mechanics; literacy level (assumed functional but not scholarly).'
+
+   Psychological_Properties:
+    Description: "Define the character''s textually constituted inner life."
+     Properties:
+      - Property_Type: Core Trait
+        Name: Resentment
+        Details: '(towards the  meat oligarchy that destroyed his livelihood)'
+        Authentication: 'This Entry, derived from victim status'
+      -  Property_Type: Core Trait
+        Name: Pride
+        Details: '(in his former independence, craftsmanship,  and self-sufficiency)'
+        Authentication: This Entry
+      - Property_Type: Core Trait
+        Name : Weariness_Resignation
+        Details: '(a deep sense of exhaustion from the ongoing struggle and loss)'
+         Authentication: This Entry
+      - Property_Type: Core Trait
+        Name: Latent Defiance
+         Details: '(a spark of unwillingness to be completely broken)'
+        Authentication: This Entry
+      - Property_ Type: Dominant Emotion
+        Name: Simmering Bitterness
+        Details: 'A simmering bitterness,  often masked by exhaustion; moments of profound sadness for what was lost.'
+        Authentication: This Entry
+      - Property _Type: Key Motivator
+        Name: Seeking Justice/Restitution
+        Details: 'Seeking a measure of justice or restitution ; a desire to see the powerful face consequences; survival with dignity.'
+        Authentication: This Entry
+      - Property_ Type: Key Belief
+        Name: 'Value of ''Honest Labor'''
+        Details: '"A man deserves  to profit from his own honest labor." Believes the system is rigged in favor of the wealthy and powerful (like the  meat oligarchy).'
+        Authentication: 'This Entry / Primal Mama Coherence Doc (Axiological: Aut onomy vs. Automation/Oligarchy)'
+      - Property_Type: Key Belief
+        Name: 'Skepticism  towards "Progress"'
+        Details: 'Skepticism towards "progress" as defined by entities like the olig archy, seeing it as destructive to community and individual livelihood.'
+        Authentication: This Entry
+      - Property_Type : Internal Conflict
+        Name: 'Pride vs. Need, Retribution vs. Fear, Hope vs. Despair'
+         Details: 'Pride preventing him from asking for help vs. desperate need; Desire for retribution vs. fear of further  reprisal from the oligarchy; Lingering hope vs. encroaching despair.'
+        Authentication: This Entry
+       - Property_Type: Subjective Memory Content
+        Name: 'Memories of Business and Ruin'
+        Details: ' Vivid, fond memories of his family''s (or his own) thriving alligator processing business – the sights, sounds , smells. Sharp, painful memories of the oligarchy''s representatives and the methods they used to undermine and eventually ruin  him (e.g., predatory pricing, cutting off supply routes for smaller processors, trumped-up regulatory complaints).'
+         Authentication: This Entry
+    Undersaturation_Notes: 'Specific religious beliefs (beyond perhaps a general reverence for Pr imal Mama or the deified celebrities); opinions on art/music not directly tied to his cultural background; complex philosophical views.'
+
+   Social_Relational_Categorical_Properties:
+    Description: "Define the character''s place within the  world''s networks."
+    Properties:
+      - Property_Type: Official Role
+        Value: 'Formerly ''Independent All igator Processor''; Currently ''Dispossessed / Unemployed / Odd Jobs Man'''
+        Authentication: This Entry
+      - Property_ Type: Social Status
+        Value: 'Low, marginalized within Lickskillet community, though perhaps respected by some  for his past and pitied by others.'
+        Authentication: This Entry
+      - Property_Type: Primary Aff iliation
+        Value: 'None (his independence was his affiliation; now isolated).'
+        Authentication: This Entry
+       - Property_Type: Secondary Affiliations_Informal
+        Value: 'Loose network of other struggling small- time swamp dwellers or former processors in Lickskillet; cautious, distrustful connections.'
+        Authentication: This Entry
+       - Property_Type: Key Relationship
+        Target: 'FACTION_MeatOligarchs (e.g.,  "GatorCorp" or "BayouPrime Meats")'
+        Nature: 'Antagonistic; he  is their victim.'
+        Authentication: 'This Entry / Primal Mama Coherence Doc (Deontic)'
+      - Property _Type: Key Relationship
+        Target: COMMUNITY_Lickskillet
+        Nature: 'Ambivalent. Some offer quiet  sympathy, others avoid him as a reminder of their own vulnerability or as bad luck.'
+        Authentication: This Entry
+      -  Property_Type: Key Relationship_Potential
+        Target: 'A younger character (e.g., child, grandchild , apprentice-figure)'
+        Nature: 'For whom he feels responsible or wishes to shield from a similar fate.' 
+        Authentication: 'This Entry - for narrative potential'
+      - Property_Type: Species_Type
+         Value: 'Human (Primal Mama native, Lickskillet region)'
+        Authentication: 'This Entry /  Primal Mama Coherence Doc'
+    Undersaturation_Notes: 'Specific family members'' names/fates  unless plot-relevant; particular friends or enemies beyond the oligarchy.'
+
+  Modal_Properties:
+    Description:  "Define any inherent unique relationship to world laws."
+    Properties:
+      - Property_ID: N/A 
+        Property_Name: None authenticated
+        Details: 'Deek operates fully under the established alethic, deont ic, axiological, and epistemic modalities of Primal Mama for ordinary citizens.'
+        Authentication_Note: ' His victimhood stems from the application of existing world rules and power structures, not from any unique modal exception he possesses.'
+         Authentication_Source: 'Primal Mama Coherence Doc – general rules apply'
+    Undersaturation_Notes: ' Deek''s ordinariness in this regard highlights the systemic nature of his victimization.'
+
+  Axiological_ Properties:
+    Description: "Define the character''s value status *within* Primal Mama."
+    Properties :
+      - Property_Type: Reputation
+        Target_Group: Meat Oligarchy
+        Value: '''insignificant'',  ''a closed case'', ''an example made'', ''no further threat'''
+        Authentication: 'This Entry, inferred from olig archy behavior'
+      - Property_Type: Reputation
+        Target_Group: Lickskillet Peers
+         Value: '''a good man wronged'', ''stubborn'', ''a walking tragedy'', ''proof you can''t fight the big  boys''. Others might see him as ''stuck in the past''.''' # Added extra ' for can't
+         Authentication: This Entry
+      - Property_Type: Moral Alignment_Narrative_Framing
+        Value: 'Authenticated  via narrative sympathy as a victim of systemic injustice; representing honest labor and tradition crushed by corporate greed.'
+        Authentication: This Entry
+       - Property_Type: Personal Values
+        Value: 'Values independence, honest work, community (though his has been fractured),  and the bounty of the swamp (when equitably accessible).'
+        Authentication: 'This Entry / Primal Mama Co herence Doc (Axiological themes)'
+    Undersaturation_Notes: 'His view on the deified celebrities  (likely a casual, cultural acceptance without deep theological investment); his standing with Beetriot elite (non-existent).'
+
+   Historical_Properties:
+    Description: "Define the character''s known origins and connections to past events."
+    Properties :
+      - Property_Type: Origin
+        Details: 'Authenticated as born and raised in the Lickskillet  Parish, Primal Mama. His family may have been in the alligator processing trade for a generation or two before him.' 
+        Authentication: This Entry
+      - Property_Type: Key Past Event Connection
+        Details: 'The systematic dismantling of his  independent alligator processing business by the encroaching Meat Oligarchy within the last 5-10 years. This involved tactics like price  undercutting, restricting access to prime gator stock from the Saurian Sanctuary (perhaps through manipulating gate access or permits), leveraging exclusive  contracts with transport/cold storage (all 1970s aesthetic), or even subtle sabotage/intimidation.' 
+        Authentication: 'This Entry / Primal Mama Coherence Doc (Deontic, Saurian Sanctuary)'
+       - Property_Type: Inherited Items
+        Details: 'Authenticated to possess an old, well-maintained (but rarely used  now) family shotgun (1970s design), a few faded photographs of his former prosperous business/family,  possibly the deed to a now-useless plot of land or a dilapidated processing shed.'
+        Authentication: 'This  Entry / Primal Mama Coherence Doc (Tech Aesthetic, Gun Ownership)'
+    Undersaturation_Notes: 'His  life before the oligarchy''s encroachment unless it serves the plot of his victimization.'
+
+Character_Constitution_Summary_ And_Narrative_Function:
+  Core_Essence: 'Deacon "Deek" Booker is constituted as an  embodiment of Primal Mama''s displaced working class, a man whose identity and livelihood, deeply rooted in the traditional alligator  economy and 1970s-era self-sufficiency of Lickskillet, have been systematically dismantled by the impersonal  forces of the Meat Processor Oligarchy. His Physical weariness mirrors his Psychological state of resentful pride and simmering bitterness. His Functional  skills, once valuable, are now largely obsolete or unusable due to his Social and Economic marginalization. He represents the human  cost of unchecked corporate power within this unique retro-futuristic, bayou-steeped world.'
+  Primary _Narrative_Function: 'To serve as a poignant example of the oligarchy''s oppressive reach; a potential  source of crucial information or reluctant assistance for a protagonist investigating or fighting the oligarchy; to provide grounding and pathos, illustrating the stakes  for the common folk of Primal Mama; potentially a catalyst for localized resistance or a voice for the dispossessed.'
+  Key _Internal_Conflicts_From_Bundle: 'The desire for justice vs. the crushing weight of powerlessness; pride  in past self-sufficiency vs. the humiliation of current dependency/irrelevance; the instinct to fight back vs. the  fear of complete annihilation for himself or loved ones; the struggle to maintain dignity in the face of systemic exploitation.'
+  Potential _for_Development_Based_on_Bundle: 'Could be galvanized into action by a new threat or opportunity; might  find a new, albeit smaller, way to utilize his skills; could become a mentor figure passing on swamp wisdom or tales  of injustice; might succumb further to despair or find a small measure of peace/resistance. His relationship with the deified celebrities or local  spiritual beliefs (ghosts, witches) could become more pronounced if he seeks solace or power from unconventional sources in his desperation.'
+ 

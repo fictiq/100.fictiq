@@ -1,0 +1,169 @@
+ 
+world: Primal Mama
+codex_version: 0.2 - Character Constitution (Mama Zola)
+ last_updated: '[Current Date]'
+lead_architects: '[Your Name / Studio Name]'
+
+character_profile :
+  entity_id: CHAR_MamaZola_01
+  character_name: 'Mama Zola ( Zola Okoro)'
+  entity_type: 'Person (Human)'
+  archetype: 'Community Elder  / Resilient Innovator / People''s Advocate'
+  primary_authentication_sources: 'This Codex Entry, Primal  Mama World Codex v0.1'
+  canon_tier: Tier 1
+  authentication_status: Authenticated_Canonical _Active
+
+authenticated_property_bundle:
+  physical_properties:
+    purpose: 'Define the character'' s tangible presence.'
+    appearance_general:
+      value: '[e.g., Woman in her late 50s  or early 60s, with rich, dark skin. Possesses a strong, upright posture that commands respect despite  her average height. Her face is lined with experience and wisdom, but her eyes are bright and alert.]'
+       auth_source: '[This Codex Entry]'
+    appearance_specific_features:
+      value: '[e. g., High cheekbones, a broad, kind nose, and full lips often set in a thoughtful expression or a warm  smile. Her hair is a crown of tight, silver-streaked coils, often adorned with small, polished alligator teeth  or carved wooden beads in muted 1970s earth tones.]'
+      auth_source: '[This  Codex Entry]'
+    appearance_distinctive_marks:
+      value: '[e.g., A faint,  old burn scar on her left forearm from a soldering iron accident; calloused hands from years of working with tools and machinery .]'
+      auth_source: '[This Codex Entry]'
+    typical_attire:
+      value:  '[e.g., Practical, durable clothing suited to the swamp environment and Lickskillet''s functional aesthetic. Often wears  sturdy, wide-legged trousers made from tough, woven plant fibers dyed in ochre or forest green, a simple,  long-sleeved tunic, and a vest with many pockets, all reflecting the 1970s utilitarian design  language. Items are well-maintained but clearly well-used.]'
+      auth_source: '[This Codex Entry / Pr imal Mama World Codex v0.1 - Tech Aesthetic Constraint]'
+    voice_speech_pattern:
+      value : '[e.g., A warm, contralto voice that can be soothing or firm as needed. Speaks with a  clear, deliberate cadence, often using vivid metaphors drawn from swamp ecology and local folklore. Her laughter is full and infectious.] '
+      auth_source: '[This Codex Entry]'
+    gait_mannerisms:
+      value:  '[e.g., Moves with a purposeful, unhurried grace. Has a habit of tapping her chin when thinking , and her hands are expressive when she speaks, often gesturing to emphasize a point with tools or components if she''s  working.]'
+      auth_source: '[This Codex Entry]'
+    associated_scent_if_any :
+      value: '[e.g., Faint scent of swamp herbs, solder flux, and the slightly metallic  tang of well-oiled 1970s-era machinery.]'
+      auth_source: '[ This Codex Entry]'
+    undersaturation_notes: '[e.g., Exact height/weight, specific details of  childhood appearance, preferred non-functional adornments.]'
+
+  functional_properties:
+    purpose: 'Define what the character  *can* and *cannot* do.'
+    skills:
+      - value: '[e.g., Master ful understanding and repair of 1970s-aesthetic technology, especially solar power systems and alligator processing equipment used  in Lickskillet.]'
+        auth_source: '[Primal Mama World Codex v0.1 -  Solar Dominance, Tech Aesthetic Constraint]'
+      - value: '[e.g., Proficient in bayou navigation  and sustainable resource harvesting (non-Saurian Sanctuary specific, more general swamp lore).]'
+        auth_source : '[Implied by Lickskillet residency and community role]'
+      - value: '[e.g.,  Exceptional community organizer and mediator, able to unite disparate voices in Lickskillet against external pressures like the meat oligarchy .]'
+        auth_source: '[Role as "Champion of the People"]'
+      - value: '[ e.g., Basic knowledge of local ghost lore and simple appeasement rituals – enough to gain minor insights or ensure  spirits aren''t actively hostile, but not a full Swamp Witch practitioner.]'
+        auth_source: '[Primal Mama World  Codex v0.1 - Spectral Interaction]'
+    abilities_unique:
+      - value: '[e.g., An intuitive  ''knack'' for diagnosing and coaxing life back into failing 1970s tech that others deem irreparable, almost  a form of ''machine empathy''.]'
+        auth_source: '[This Codex Entry - flavor for her tech skill]'
+     limitations_physical:
+      - value: '[e.g., Age-appropriate physical limitations; not a brawler  or frontline combatant. Relies on community and wit over force.]'
+        auth_source: '[This Codex  Entry - Age]'
+    limitations_knowledge:
+      - value: '[e.g., Lacks deep  understanding of Erpenthrope biology/society or high-level genetic engineering principles behind GE alligators (knows their function , not their creation specifics). No formal knowledge of Beetriot elite politics beyond its impact on Lickskillet.]' 
+        auth_source: '[This Codex Entry - focus on local, practical knowledge]'
+    limitations_social :
+      - value: '[e.g., Has no official standing or authority within Beetriot''s power structures. Her influence  is grassroots and localized to Lickskillet and surrounding bayou communities.]'
+        auth_source: '[Primal Mama  World Codex v0.1 - Deontic/Social structure]'
+    undersaturation_notes: '[e. g., Firearm proficiency (likely has some given local norms but not a defining skill); ability to pilot larger watercraft; artistic talents  beyond practical craft.]'
+
+  psychological_properties:
+    purpose: 'Define the character''s textually  constituted inner life.'
+    core_traits:
+      - value: '[e.g., Deep-seated sense  of justice and fairness.]'
+        auth_source: '[Role as Champion]'
+      - value: '[e.g ., Pragmatic resilience and ingenuity.]'
+        auth_source: '[Skills, success in harsh environment]'
+       - value: '[e.g., Profound loyalty and protectiveness towards her community (Lickskillet).]'
+         auth_source: '[Role as Champion]'
+    dominant_emotion:
+      value: '[e.g ., Concerned determination, often masked by a calm, reassuring demeanor.]'
+      auth_source: '[This Codex Entry]'
+     key_motivators:
+      - value: '[e.g., Ensuring the survival, dignity, and autonomy of  the common folk in Lickskillet against exploitation by the meat oligarchy and systemic neglect.]'
+        auth_ source: '[Primal Mama World Codex v0.1 - Oligarchy Friction]'
+    key_beliefs:
+       - value: '[e.g., Believes that collective action, shared knowledge, and resourcefulness are the people ''s strongest weapons. Values "human-scale" solutions and tangible effort over impersonal automation.]'
+        auth_source:  '[Primal Mama World Codex v0.1 - Axiological tension Autonomy vs. Automation, LLM Stigma]'
+     internal_conflicts:
+      - value: '[e.g., The burden of leadership and the fear of failing  her community vs. her unwavering resolve to fight for them; The desire for peaceful solutions vs. the growing understanding that the olig archy may only respond to more direct pressure.]'
+        auth_source: '[This Codex Entry]'
+    subjective_memory _content:
+      value: '[e.g., Rich repository of Lickskillet''s oral history,  including stories of the calamity''s aftermath and the town''s adaptation. Remembers the "better days" before the meat olig archy tightened its grip, fueling her resistance.]'
+      auth_source: '[This Codex Entry]'
+    unders aturation_notes: '[e.g., Personal griefs beyond community concerns, specific childhood ambitions, nuanced views on the deified  celebrities (likely sees them as distant cultural artifacts rather than personal guides).]'
+
+  social_relational_categorical_properties: 
+    purpose: 'Define the character''s place within the world''s networks.'
+    official_role: 
+      value: '[e.g., None formally recognized by Beetriot. Unofficial Elder and problem-solver for Licksk illet.]'
+      auth_source: '[This Codex Entry]'
+    social_status:
+      value:  '[e.g., Highly respected within Lickskillet and among independent alligator processors; viewed as a nuisance or agitator  by the meat oligarchy.]'
+      auth_source: '[This Codex Entry]'
+    primary_affiliation: 
+      value: '[e.g., The community of Lickskillet.]'
+      auth_source:  '[This Codex Entry]'
+    secondary_affiliations:
+      - value: '[e.g., Loose network of independent mom -and-pop alligator operators across the bayous; respectful but cautious acquaintance with certain local Swamp Witches (transactional, for specific  knowledge/herbs).]'
+        auth_source: '[Primal Mama World Codex v0.1 - World  Structure]'
+    key_relationships:
+      - relationship_to: 'The Lickskillet Community'
+         description: '[e.g., Seen as a trusted matriarch, guide, and advocate.]'
+        auth _source: '[This Codex Entry]'
+      - relationship_to: 'The Meat Oligarchy (local representatives)' 
+        description: '[e.g., Antagonistic; she actively works to counter their exploitative practices through community  organization and technological circumvention.]'
+        auth_source: '[Primal Mama World Codex v0.1 -  Deontic]'
+      - relationship_to: 'Younger Generations in Lickskillet'
+        description : '[e.g., Mentor figure, passing on technical skills, swamp lore, and the spirit of resistance.]'
+        auth _source: '[This Codex Entry]'
+    species_type:
+      value: '[e.g., Human  (Post-Calamity Bayou Dweller Strain)]'
+      auth_source: '[Default/Description]'
+    unders aturation_notes: '[e.g., Specific named allies among Swamp Witches or Erpenthropes (if any);  direct family ties currently active; relationships with individuals in Beetriot.]'
+
+  modal_properties:
+    purpose:  'Define any inherent unique relationship to world laws.'
+    entries:
+      - id: MODAL-MZOLA -NONE
+        property_description: '[e.g., None explicitly authenticated. Operates within established human parameters and  world rules.]'
+        nature_and_derivation: '[Mama Zola''s strengths are derived from acquired  skill, knowledge, wisdom, and social influence, not inherent supernatural abilities beyond the norm for spiritually attuned individuals in Primal Mama (e .g., basic ghost lore).]'
+        operational_limits: '[Subject to all standard biological and physical laws of Primal Mama .]'
+        authentication: '[Primal Mama World Codex v0.1 - General human baseline; specific powers like Erpenth ropy or advanced Swamp Witch magic are explicitly NOT attributed.]'
+    section_note: Her "knack" with machines is presented  as exceptional skill and intuition, not a supernatural modal exception.
+
+  axiological_properties:
+    purpose: 'Define the character ''s value status *within* Primal Mama.'
+    reputation_lickspillet_independents:
+       value: '[e.g., Authenticated as ''The Heart of Lickskillet'', ''Wise Woman'', ''She-Who -Keeps-The-Gears-Turning'', ''Oligarchy''s Thorn''. Highly valued for her skills , leadership, and incorruptibility.]'
+      auth_source: '[This Codex Entry]'
+    reputation _meat_oligarchy:
+      value: '[e.g., Authenticated as ''troublemaker'', '' local agitator'', ''promoter of inefficient traditionalism'', ''minor impediment to progress/profit''. Undervalued and  underestimated by them.]'
+      auth_source: '[Implied by her role and Oligarchy''s nature]' 
+    moral_alignment_narrative_framing:
+      value: '[e.g., Authenticated via  narrative intent as a force for communal good, justice, and self-determination, embodying the positive aspects of autonomy and ingenuity  valued outside Beetriot.]'
+      auth_source: '[Primal Mama World Codex v0.1 - Axi ological]'
+    value_of_cattle:
+      value: '[Views cattle as symbols of distant elite decadence and a dangerous  historical taboo, irrelevant to the practical needs of her people, who rely on alligator meat.]'
+      auth_source : '[Primal Mama World Codex v0.1 - Axiological/Deontic]'
+    value_of _1970s_aesthetic_tech:
+      value: '[Sees it not just as an aesthetic  but as a tangible, repairable, and understandable technology base that empowers local communities, unlike opaque "black box" systems. Likely distrust s Automatons/LLMs for similar reasons of eroding human skill and autonomy.]'
+      auth_source: '[Primal Mama  World Codex v0.1 - Axiological/Deontic]'
+    undersaturation_notes: '[e. g., Her views on the deified celebrities (likely pragmatic, perhaps seeing their stories as useful parables rather than literal  divinity); her specific stance on the "Invisible Women" conspiracy (might see it as misdirection from real oppressors like the  oligarchy).]'
+
+  historical_properties:
+    purpose: 'Define the character''s known origins and connections to past events .'
+    origin:
+      value: '[e.g., Authenticated as born and raised in the Lick skillet region, her family having adapted to the bayou life for at least a generation or two post-Calam ity. Possesses generational knowledge of the area.]'
+      auth_source: '[This Codex Entry]'
+    key_past _event_connection_subjective:
+      value: '[e.g., Witnessed the gradual encroachment and consolidation  of power by the meat oligarchy, which solidified her resolve to protect local independence. Remembers a time of greater autonomy for small  alligator processors.]'
+      auth_source: '[This Codex Entry]'
+    inherited_items:
+      value : '[e.g., Authenticated to possess a collection of well-worn, high-quality 197 0s-era tools passed down from a mentor or parent, and a seed bank of resilient local plants.]'
+       auth_source: '[This Codex Entry]'
+    undersaturation_notes: '[e.g., Specific details  of her ancestors'' survival during the Calamity; her personal experiences during the rise of the celebrity cults; specific  individuals who mentored her.]'
+
+character_constitution_summary_narrative_function:
+  purpose: 'Synthesize the  core identity, internal conflicts, and narrative role emerging from the authenticated property bundle.'
+  core_essence: '[Mama  Zola is constituted as the resilient, wise heart of Lickskillet, a pragmatic champion for the common folk of  Primal Mama''s bayous. Her identity is forged from a deep connection to her community, mastery over the world ''s ubiquitous 1970s technology (especially solar), and an unwavering commitment to justice against the encroachments of the meat  oligarchy. She embodies the virtues of practical ingenuity, communal strength, and the preservation of local autonomy, standing in stark  contrast to the impersonal power of Beetriot and the mystifying abilities of Erpenthropes or high-level Swamp Witches.  Her understanding of the delicate balance of the swamp, including its more spectral elements, is practical rather than mystical.]'
+   primary_narrative_function: '[To serve as a moral compass and a catalyst for resistance in Lickskillet.  She can be a key ally for protagonists, a source of crucial local knowledge and technological aid, and a voice for the  oppressed. She embodies the theme of human resilience and ingenuity in the face of overwhelming systemic and environmental challenges, and represents the  struggle against corporate feudalism within Primal Mama''s unique setting.]'
+  key_internal_conflicts_ from_bundle: '[e.g., The weight of her community''s reliance on her vs. her own aging and limited  resources. The ethical dilemmas of how far to push resistance against a powerful foe (Oligarchy). Balancing the preservation of  tradition and local knowledge with the need for practical innovation to survive. Trusting outsiders vs. protecting her community''s insular ways.] '
+  potential_for_development_based_on_bundle: '[e.g., Could be forced to  make increasingly difficult choices regarding the level of confrontation with the Oligarchy. Might reluctantly engage more deeply with the supernatural aspects of the swamp  (e.g., seeking aid from more powerful Witches or even Erpenthropes if desperate). Could mentor a new generation  of leaders/innovators. Her understanding of the "Invisible Women" conspiracy could evolve, perhaps uncovering a local angle or  debunking it to focus people on tangible threats.]'

@@ -1,0 +1,191 @@
+
+world: Primal Mama
+codex_version: '0.1 (Quest Module)'
+last_updated : '[Current Date]' # Placeholder, replace with actual date
+quest_designer: '[Your Name/Studio Name]'  # Placeholder
+
+quest:
+  name: 'Bayou Bites Back'
+  location: "Lickskillet  Outskirts, Mama Creole's Gator Shack"
+  prerequisites: 'Player has established a neutral or better reputation  in Lickskillet.'
+  suggested_player_level: 'Early to Mid-Game'
+   quest_giver: "Mama Creole, proprietor of a small, independent alligator processing operation."
+
+  introduction:
+    title : 'A Sour Taste in the Swamp'
+    text: |
+      The air in Lickskillet, usually  thick with the savory tang of grilling gator and the hum of solar-powered smokers, has an undercurrent of worry.  Mama Creole, a respected elder in the community known for her "honest catch, honest cook" philosophy, flags you down as you  pass her weathered, wood-paneled processing shack. Her usually jovial face, framed by a practical headscarf adorned  with faded alligator tooth patterns, is etched with concern.
+
+      *"Child,"* she begins, her voice a low rumble like  distant thunder over the bayou, *"somethin's rotten in the swamp, and it ain't just  last week's gator scraps. My prize breeders... they ain't right. And I got a bad feelin'  the big boys at GatorCorp are sniffin' around with more than just business on their minds."*
+
+      She explains her  prize genetically engineered alligators – the backbone of her small operation – have become lethargic. Their advanced solar chromatophores are  flickering erratically, their usually impressive regeneration is sluggish, and they’re refusing even the choicest supplemental nutrient paste. She  suspects foul play from the regional GatorCorp conglomerate, one of the meat oligarchy operations that have been putting the squeeze on mom -and-pop outfits.
+
+  objectives:
+    - 'Investigate Mama Creole''s Sick Alligators : Determine the cause of their ailment.'
+    - 'Consult with "Doc" Sawbones: Seek expert opinion on  the gators'' condition.'
+    - '(Optional) Seek Esoteric Insight: Ask around if anyone''s seen  or heard anything *unusual* in the swamp lately.'
+    - 'Investigate GatorCorp''s Local Out post: Find evidence of their involvement (or rule them out).'
+    - 'Resolve the Situation: Help Mama Creole and decide  how to deal with any culprits.'
+
+  walkthrough:
+    - step: 1
+      title: "Investigate Mama  Creole's Sick Alligators"
+      description: |
+        Mama Creole leads you to her gator pens –  large, muddy enclosures with solar-basking platforms. The GE alligators, normally vibrant and active, are listless.
+       action:
+        trigger: "Use your 'Swamp Sense' [L2/TARGET_FOCUS]"
+        description:  "Primal Mama's equivalent of Witcher Senses, perhaps highlighting biological anomalies, energy fluctuations, or unusual residues." 
+        player_functional_property:
+          capability_id: 'FUNC-PLAYER-SWS01' 
+          name: 'Biological Anomaly Detection'
+          description: 'Highlights unnatural biological states, energy signatures, or  trace elements inconsistent with the local environment.'
+          limits_nuances: 'May require proximity; interpretation needs contextual knowledge .'
+      findings_summary: 'You might notice:'
+      findings:
+        - 'Faint, unusual energy readings around  the solar chromatophores on the gators'' backs.'
+        - 'A strange, almost metallic sheen on some leftover nutrient paste  in a trough.'
+        - "The 1970s-style monitoring equipment (chunky dials,  blinking amber lights) connected to the pens shows erratic power absorption levels for the gators, despite ample sunlight."
+       ge_alligator_functional_property:
+        normal_capability:
+          id: 'FUNC-GEGATOR- SOL01'
+          name: 'Advanced Solar Energy Absorption'
+          description: 'Sustains metabolism,  powers regeneration.'
+        current_limitation_description: 'Impeded function.'
+      monitoring_tech_functional _property:
+        constraint_id: 'OPCON-TECH-70S01'
+        description : 'All readouts are analog or simple digital displays, data logs are on magnetic tape or printouts. No complex  spectral analysis on-site.'
+
+    - step: 2
+      title: 'Consult with "Doc" Sawbones' 
+      description: |
+        Mama Creole suggests visiting "Doc" Sawbones, a reclusive but brilliant bio-her petologist who lives in a stilt-house deeper in the bayou. He's one of the few who  truly understands the intricacies of GE alligator physiology outside of corporate labs, and he sticks to "tried and true" (i.e ., 1970s aesthetic) diagnostic methods.
+        Navigate the bayou (perhaps via fan-boat,  a common mode of transport).
+        Doc Sawbones is a grizzled man with a prosthetic arm made of polished chrome and faux  wood paneling. His lab is a chaotic collection of beakers, humming generators with large toggle switches, and salvaged medical  equipment, all adhering to the 1970s design.
+      doc_sawbones_functional_property :
+        skill_id: 'SKL-SAWBONES-GEV01'
+        name:  'GE Gator Veterinary Science'
+        proficiency_level: 'Masterful proficiency in diagnosing and treating GE gators using  available (retro-aesthetic) technology.'
+        limitation: "Lacks access to GatorCorp's proprietary diagnostic tools or  advanced scanners. May be suspicious of 'newfangled' digital interfaces."
+      doc_conclusion: |
+        After  examining your findings and perhaps a sample Mama Creole provides (a skin scraping or blood sample via a chunky, oversized syringe), Doc Saw bones might conclude: *"This ain't no swamp fever. Feels like... interference. Somethin's messin' with  their solar uptake at a specific frequency. Nasty. And that paste... got traces of something that'd dull their  senses, make 'em less likely to fight off whatever's hitting 'em. Sophisticated sabotage, but crude in  its application."* He might give you a clunky, hand-held device with a single needle-dial designed to detect specific  EM frequencies he suspects.
+      doc_scanner_functional_property:
+        object_name: "Doc's EM  Scanner"
+        capability:
+          id: 'FUNC-SCANNER-EMF01'
+          name: ' Targeted EM Detection'
+          description: "Detects a narrow band of electromagnetic frequencies Doc suspects is harmful to GE g ators."
+        constraint:
+          id: 'OPCON-SCANNER-70S01'
+           description: 'Single-purpose, analog readout, limited range.'
+
+    - step: 3
+      title : '(Optional) Seek Esoteric Insight'
+      description: |
+        Before or after Doc Sawbones, you might ask  around Lickskillet's more superstitious corners or even seek out a known (but perhaps discreet) Erpenthrope  if you know how to find one.
+      options:
+        - type: 'Whispers in Licksk illet'
+          details: 'Some locals might mention seeing strange lights over GatorCorp''s local outpost at night, or a " low hum that makes your teeth ache." This could point towards the source of interference.'
+        - type: 'Er penthrope Contact'
+          condition: 'If player has relevant knowledge/connections'
+          functional_properties:
+            -  capability_id: 'FUNC-ERPEN-TRUTH01'
+              name: 'Lie/Deception Sense '
+              description: 'Innate ability to sense falsehoods or unnatural disturbances.'
+            - capability_id: 'FUNC- ERPEN-ENV01'
+              name: 'Swamp Attunement'
+              description: "Deep connection to the  bayou's natural (and unnatural) state."
+          statement: "\"The song of the sun is muted for Mama 's beasts. A false note jars the harmony, woven by hands that value coin over chorus.\""
+          hint: "They  might hint at a specific direction or a 'tainted human scent' near GatorCorp's area."
+          limitation:
+             id: 'INAB-ERPEN-DIRECT01'
+            name: 'Cryptic Communication'
+             description: 'Often speak in metaphor, may not directly intervene in "human squabbles" unless a deeper truth is at stake .'
+
+    - step: 4
+      title: "Investigate GatorCorp's Local Outpost"
+       description: |
+        GatorCorp maintains a small, fenced-off processing and shipping outpost on the edge of  Lickskillet, bordering the deeper swamp. It's more heavily industrialized than Mama Creole's, with larger solar  arrays (for their own operations, not just gators) and imposing, blocky buildings in the Brutalist 19 70s style.
+      infiltration_methods_summary: 'You''ll need to find a way in –  perhaps by:'
+      infiltration_methods:
+        - 'Scaling a fence at night.'
+        - "Bribing a  disgruntled low-level worker (who might complain about the 'stain on their reputation' for being forced to use a new , clunky Automaton for inventory)."
+        - 'Using the cover of a foggy swamp morning.'
+      inside _outpost:
+        em_scanner_result: "The needle should jump wildly near a specific storage shed or a  relay tower disguised with faux-brick paneling."
+        findings_summary: 'Inside, you might find:'
+         sabotage_device:
+          name: '"PROJECT: SUNSPOT - EXPERIMENTAL"' # Quoted due to colon
+           description: "A metal box with large heat sinks, glowing vacuum tubes, and a hand-lettered warning label:  \"PROJECT: SUNSPOT - EXPERIMENTAL. DO NOT ADJUST CALIBRATION DIALS.\" It's clearly 1970 s tech, perhaps jury-rigged from old broadcast equipment."
+          functional_property:
+            capability:
+              id:  'FUNC-SABDEV-EMIT01'
+              name: 'Disruptive EM Emission'
+               description: 'Generates targeted EM field disrupting GE gator solar absorption.'
+            vulnerabilities:
+               - id: 'VULN-SABDEV-PHYS01'
+                name: 'Physical Destruction'
+                 description: 'Can be smashed or disabled by removing key components (e.g., the primary vacuum tube array).'
+              - id : 'VULN-SABDEV-POW01'
+                name: 'Power Supply Vulnerability'
+                 description: "Relies on GatorCorp's grid; cutting its specific power line would disable it."
+        records :
+          description: "Records (on dot-matrix printouts or a reel-to-reel data tape player ) detailing \"Operation Sunspot,\" showing deliberate targeting of independent operators to drive them out of business. The language might be corporate jargon attempting  to legitimize sabotage."
+        tainted_paste_drums:
+          description: 'Drums of the tainted nutrient paste.' 
+        potential_encounter:
+          description: "A few GatorCorp guards (armed with standard firearms, as is  common outside Beetriot) or a clunky, slow-moving security Automaton with visible wiring and a single, ominous red optical  sensor."
+          automaton_security_functional_property:
+            capability:
+              id: 'FUNC-AUTOSEC- PATROL01'
+              name: 'Programmed Patrol Routes'
+            vulnerabilities:
+              -  id: 'VULN-AUTOSEC-SENS01'
+                name: 'Limited Sensory Array' 
+                description: 'Relies on basic optical/auditory sensors, easily fooled by stealth or environmental conditions.'
+               - id: 'VULN-AUTOSEC-CPU01'
+                name: 'Simple Logic Processor '
+                description: "Cannot adapt well to unexpected tactics. Suffers from the general Automaton/LLM user stigma  if its operator is identified."
+
+    - step: 5
+      title: 'Resolve the Situation'
+       description: 'You have evidence. Choices include:'
+      choices:
+        - option_title: 'Destroy the Device'
+           outcome_description: "Sabotage \"Project Sunspot.\" This will help Mama Creole's gators recover but might  bring GatorCorp's wrath down harder later if they trace it back."
+        - option_title: 'Ste al the Evidence & Expose GatorCorp'
+          outcome_description: "Take the records to Mama Creole. She  might try to rally other independents or appeal to a (likely corrupt or ineffectual) local Lickskillet official. This is  risky and might paint a target on Mama Creole."
+        - option_title: 'Confront the Local GatorCorp Manager' 
+          manager_name: 'Rex "King" Kutter'
+          manager_description: 'He might try to  bribe you, threaten you, or deny everything.'
+          manager_functional_property:
+            capability:
+               id: 'FUNC-KUTTER-INTIM01'
+              name: 'Intimidation/Bri bery'
+              description: 'Uses corporate backing and local influence.'
+            limitation:
+              id: ' INAB-KUTTER-COMBAT01'
+              name: 'Non-Combatant'
+               description: 'Relies on guards, not personal prowess.'
+        - option_title: 'A More Primal Solution'
+           outcome_description: 'Depending on player alignment and capabilities (e.g., if the player is an Erp enthrope), other, more direct actions might be possible against Kutter or the facility.'
+
+  conclusion_rewards:
+     title: 'Conclusion & Rewards'
+    success_outcome:
+      condition: "If Mama Creole is helped and the sabotage  is stopped:"
+      results:
+        - "Her gators begin to recover. She thanks you profusely."
+       rewards:
+        - "A sum of 'Gator-Scrip' (local currency)"
+        - " A unique mod for a 1970s style firearm (e.g., \"Mama's Gator-Grip \" for improved handling)"
+        - "A permanent discount at her shack."
+      reputation_change: ' Increased reputation in Lickskillet as a friend to the small folk.'
+      world_state_change: " GatorCorp's local influence might be slightly diminished, or they might become more overtly hostile."
+    failure_ outcome:
+      condition: 'If the situation is handled poorly or evidence is lost:'
+      results:
+        - ' Mama Creole might be forced out of business.'
+      reputation_change: 'Reputation loss, or GatorCorp  marks you as an enemy.'
+
+  thematic_resonance: |
+    This quest explores the economic tensions within Primal  Mama, the reliance on and vulnerability of its unique technology (solar GE gators), the pervasiveness of the  1970s aesthetic even in nefarious schemes, and the struggle of individuals against larger, oppressive forces, all steeped in the  bayou atmosphere. It also allows for player choice to reflect different values (justice, pragmatism, direct action).

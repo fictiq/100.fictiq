@@ -1,0 +1,50 @@
+Dealing with Dandelion
+The Play's the Thing (level 11)
+Alright, we've cleared plenty of side-quests, time to get back to work on our own matters. Head to the Kingfisher and talk to Priscilla about Dudu, which will end with Geralt agreeing to do another task he's not really suited for. Discuss the direction of this enterprise with Priscilla-the only decision that matters is whether the play is a drama or a comedy, and even then, it only matters so much. After Priscilla writes up the script, we'll be sent off on a task that we're actually somewhat suited for-delivering the script to one "Irina Renarde."
+
+Objective	Reward
+For "helping" Priscilla write a play	XP Varies
+From the Kingfisher head south through Hierarch Square and go through a door-the same door you went through when you were following one of the King of Beggar's thieves way back in the day, in fact. To get inside you'll need to talk to the Ticket Seller out front and pay him 50 Crowns. After you pay the extortionate rate, head inside and talk to Irina, who will tell you about more steps you need to take. Joy. Oh well... if you can't do the creative, at least help with the organization.
+
+The Puffins' Problem
+Head to the closer of the two objectives, first-the jugglers from the Puffins, who are holed up in a house just north of where Triss used to live. Once you enter the building you'll be rudely greeted by the troope, who assume you're another thug looking to take coin they don't have. Seems the cult of the Eternal Fire doesn't have a sense of humor and took offense at one of their performances. Religious folk without a sense of humor? Say it ain't so! Agree to drive off the church's thugs in exchange for their services.
+
+Leave the Puffin's house and head east, where you'll find a group of Bandits loitering about. After they say some nasty things about your heritage, you can either pick a fight with them (kill one of them and the others will leave), pay them to go away (50 Crowns-except they don't leave), or use the Axii Sign on them-except it only works on one of them, and the other two attack you. Yeah, you have to get your sword dirty no matter what. Once you drive the thugs off the Puffins will thank you and promise to live up to their end of the bargain.
+
+Objective	Reward
+For using the Axii Sign on the thugs	40 XP
+For getting rid of the thugs pestering the Puffins	
+XP Varies
+
+Hiring Muscle
+Travel to the western edge of the docks district, where you'll find a group of rowdy seamen. Talk to a muscle-bound ruffian named Sofus the Bull and listen to him talk about his dubious credentials, then either offer to box him or just pay him 70 Crowns for the job. If you do the former, they'll instead decide to box you-if you win against two of them, they do the job for free, if they win, you pay them double. Whatever you do, get their services and head back to Irina.
+
+To Catch a Doppler...
+Iron out the final details of the play-choosing the actors. If you pick Priscilla and Aleblard to be the leads, you'll get the most Crowns afterwards, but otherwise the choice is cosmetic. After the decisions are made the play will begin, where you'll get a number of timed responses-your responses determine, to a degree, how much experience you'll earn at the end of the play... otherwise, it doesn't matter much. The correct dialogue options are, in order "To slay beasts most foul...", "Perhaps 'midst the guests...", "Seems men's hearts...", "But a base heart..." and "No monster is he..." Respond correctly and, if you decided to throw a drama, some unenlightened cultists will decide take offense at the subject matter. Put down the Bandits (levels nine and ten) to resolve the matter. If you put on a comedy, only one of the cultists will get upset, and his buddy will tell him to chill out.
+
+Either way, you recover Dudu, who chats with you once you're safely away from the stage. Ask about Ciri and convince him to help you rescue Dandelion, which he'll agree to do-reluctantly. Afterwards Geralt will talk to Irina, who will praise or critique you according to your performance, and give you monetary (and experience) rewards, presumably based on the play's gate. You'll earn the most money if you picked Aleblard and Priscilla as actors, and you didn't flub any of your lines.
+
+Objective	Reward
+For putting on a play	XP Varies
+50-150 Crowns
+Poet Under Pressure (level 13)
+Everything's been set in place-it's time to rescue Dandelion. Fast travel to a signpost close to the ambush site (the "Wheat Fields" and "Seven Cat's Inn" signposts are both good choices) then head over to meet up with Zoltan Chivay. Answer a concern he has about the whole endeavor, then Priscilla will show up. It doesn't matter what you say-you can't get rid of her. You can, however, play Gwent with her, although you win nothing by doing so. It's one way to pass the time.
+
+After your Gwent game (or after you decline to play) the caravan will show up. When the ambush begins one of the Witch Hunters escorting Dandelion will ride off with him. Your goal is to follow the rider and catch him... but there's no penalty if you stay behind and kill the Witch Hunters, first.
+
+Hunting the Hunter
+Mount Roach and follow the tracks north, past a lake with some Drowners (levels four and eighteen-talk about a level gap) near it, and past the "Honeyfill Meadworks" signpost. They'll follow the road (more or less) north, then north-east. Dismount when you find a camp along the road and ask a smith about the riders-he'll say they went left, but he's mistaken-or misleading. Go right at the fork beyond the camp and, when you spot a purple garment on the ground, dismount and investigate it to pick up a scent trail.
+
+Continue following the road to the north-east, then east, until the scent trail veers of the road to the north-east. Eventually you'll find the Witch Hunter's horse-dead of exhaustion-near the "Isolated Hut" signpost. If you head east to the hut, you'll hear Dandelion trying to reason-unsuccessfully-with his captor. Talk to some nonhumans to the west to get the key to a secret passage that leads to the house, then circle around to the hills east of the house to find the trap door we're looking for.
+
+Open the trap door. climb down a ladder, and head west, looting as you go. Seems likes these nonhumans have a pretty robust "art" business going on down here. Climb another ladder to reach the house, wherein you'll find the Witch Hunter (level thirteen). Cut him down and loot him to score the Steel Sword Witch Slayer, then loot the house. No need to be in a rush to ungag Dandelion-once he starts talking, he's not going to shut up any time soon.
+
+When you run out of options, ungag him, and you two will head outside to talk, where you'll be reunited with Zoltan and Priscilla. Geralt will ask about Ciri which will trigger another Ciri sequence...
+
+Ciri's Story: Breakneck Speed (level 11)
+Kill the initial henchmen (levels eleven and twelve) nearby, then head south to find a road. The intial goons you fight won't respawn, but that's not the rule for this segment in general. Apparently Whoreson had a small army of goons under his command, and it's your goal to run (or teleport) past them all to reach the Temple Isle, in what is by and large the most utterly pointless part of Ciri's Story to date. Why couldn't this be a cutscene? Oh well... when you reach your destination you'll see a scene.
+
+After the scene, Geralt will question Dandelion further, learning a bit about some curse. Ultimately, however, it seems like the trail in Novigrad is cold, leaving only Skellige left to search. Talk to the nonhumans nearby and they'll offer you a painting in exchange for your silence about their little forgery scheme.
+
+Objective	Reward
+For rescuing Dandelion	XP Varies

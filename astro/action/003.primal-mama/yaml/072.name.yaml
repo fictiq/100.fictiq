@@ -1,0 +1,114 @@
+```yaml
+world: Primal Mama
+codex_version:  "0.2 - Quest Functional Definitions"
+last_updated: "[Current Date]"
+lead_architects: "[Your Name  / Studio Name]"
+entity_profile:
+  entity_id: QUEST_BayouRiftsOligarch Truths
+  entity_name: "Bayou Rifts & Oligarch Truths (Short Name: Navigate Bayou  Rifts with Jaco to uncover Oligarch truths.)" # Quotes needed due to colon
+  entity_type: Quest  / Narrative Structure
+  primary_authentication_sources:
+    - "PrimalMama_Quest_BayouR ifts_v1.yaml"
+    - "Primal Mama Coherence & Internal Logic Protocol v0.1 "
+  authenticated_functional_properties:
+    core_function:
+      primary_role:
+        function : "[Function: Guide Player Character]" # Quotes needed due to brackets/colon
+        description: "To direct the Player Character,  facilitated by the NPC `Old Man Jaco`, through a sequence of hazardous, distinct dimensional environments accessed via `Veil Tear` entities , culminating in a confrontation with `Magnate Veridian` to acquire plot-critical information (`ITEM_VeridianData Chip_01`). # Auth: YAML `objective`, `stages` 1-7." # Quotes needed due  to colon and special chars
+      secondary_roles:
+        function: "[Function: World Exposure & Lore Delivery]"  # Quotes needed due to brackets/colon
+        description: "To expose the player to diverse Primal Mama environments ( Lickskillet outskirts, Irradiated Salt Flats, Bio-Luminescent Spore Fields, Sunken Suburb,  Automated Abattoir, Beetriot Sky-Garden); introduce specific enemy types (`CREATURE_RustBot_01`, ` CREATURE_SecBot_70s_01`, `CREATURE_ProcDrone_Feral_0 1`); deliver narrative/lore via dialogue, environmental storytelling, and lootable items (`LORE_*`); demonstrate Erpenthrope abilities  (`ABILITY_GhostCommunion_01`). # Auth: YAML `stages` content, `rewards`, `final _objectives`." # Quotes needed due to special chars
+    key_capabilities:
+      - capability_id: FUNC -QUEST-BRT-01
+        name: Veil Tear Traversal Facilitation
+        description: Enables player  movement between otherwise inaccessible, distinct environmental zones (`LOC_*`) via interaction with authenticated `Veil Tear` entities.
+         authentication: YAML `stages` structure implying portal transitions.
+        limits_nuances: "Requires linear progression through stages ; initial Tears guided by `NPC_Jaco`; some Tears may require stabilization/activation (e.g.: defeating enemies, waiting  period)." # Quotes needed due to colon
+      - capability_id: FUNC-QUEST-BRT-02 
+        name: Hazard Presentation & Mitigation Loop
+        description: "Presents defined environmental hazards with specific rules and consequences (e. g.: Spore Cloud oxygen drain negated by high ground; Abattoir cold/sonic damage negated by shelter). Enables  player mitigation through movement strategies (sprinting, pathfinding) and environmental interaction (activating heaters)." # Quotes needed due to  colons
+        authentication: YAML stages 3, 6 hazard descriptions and required player actions.
+        limits_nuances:  Hazards operate based on consistent world rules; mitigation methods are specific and discoverable.
+      - capability_id: FUNC -QUEST-BRT-03
+        name: Scripted Encounter Triggering
+        description: Spawns  predetermined enemy waves (`CREATURE_*`) at specific locations or upon specific triggers within quest stages.
+        authentication: YAML stages 2 , 6 combat descriptions.
+        limits_nuances: Encounters are location/event-bound; enemy types  and levels are pre-defined for the quest context.
+      - capability_id: FUNC-QUEST-BRT -04
+        name: Narrative & Lore Dissemination
+        description: Delivers plot information, world-building details , and character insights through NPC dialogue (`NPC_Jaco`, `NPC_Veridian`), environmental details (ruins, shrines ), and discoverable text items (`LORE_*`).
+        authentication: YAML stage descriptions, dialogue implications, lootable lore  items.
+        limits_nuances: Information is presented sequentially; lore items require player discovery.
+      - capability_id : FUNC-QUEST-BRT-05
+        name: Objective Completion & Reward Conferral
+        description:  Tracks player progression through defined objectives and grants authenticated rewards (XP, Items, Buffs, Faction Standing changes) upon completion of stages  or the entire quest.
+        authentication: YAML `final_objectives` table, stage reward notes.
+         limits_nuances: Rewards are gated by successful completion of prerequisite tasks/objectives.
+      - capability_id:  FUNC-QUEST-BRT-06
+        name: Unique Interaction Enablement
+        description: "Provides opportunities for specific , quest-related interactions not typically available, such as gaining a buff from `LOC_ParsonsShrine_0 1` or initiating/witnessing the `ABILITY_GhostCommunion_01` ritual."
+        authentication:  YAML stages 4, 7 descriptions.
+        limits_nuances: Interactions are context-specific and may require  player input or prerequisite conditions.
+    player_skills_required:
+      - skill_id: SKL- PLAYER-NAVIGATE-HAZARDOUS
+        name: Hazardous Environment Navigation
+        proficiency_level: " Competent traversal under pressure (timed sprints, pathfinding)."
+        authentication: Required by YAML stages 3,  6 hazard mechanics.
+      - skill_id: SKL-PLAYER-COMBAT-MECHANICAL
+        name : Combat vs. Automatons
+        proficiency_level: Sufficient to defeat mid-to-tough tier mechanical enemies. 
+        authentication: Required by YAML stages 2, 6 combat encounters.
+      - skill_id: SK L-PLAYER-INTERACT-ENVIRONMENT
+        name: Environmental Interaction
+        proficiency_level: Ability to identify and  use interactive elements (switches, lootables, passage clearing).
+        authentication: Required by YAML stages 1,  5, 6 actions.
+    quest_inabilities:
+      - inability_id: INAB- QUEST-BRT-NONLINEAR
+        description: Cannot be completed out of the intended stage sequence; Veil Tear destinations are fixed  per stage.
+        authentication: Implied by linear structure of YAML `stages`.
+        narrative_function:  Ensures controlled narrative progression and environmental reveals.
+      - inability_id: INAB-QUEST-BRT-HAZARDS KIP
+        description: "Cannot bypass core environmental hazards without engaging with their defined mitigation mechanics (e.g.: cannot ignore  spore clouds indefinitely)." # Quotes needed due to colon
+        authentication: Implied by hazard descriptions in YAML stages 3, 6 .
+        narrative_function: Creates challenge, reinforces world rules, encourages specific gameplay.
+      - inability_ id: INAB-QUEST-BRT-JACOBYPASS
+        description: Cannot initiate the quest or achieve  final resolution (Ghost Communion) without the presence and actions of `NPC_Jaco`.
+        authentication: YAML `guide`  definition, stage 7 resolution.
+        narrative_function: Establishes NPC importance, facilitates exposition and specific  plot mechanics.
+    quest_vulnerabilities:
+      - vulnerability_id: VULN-QUEST- PLAYERFAIL
+        description: Player failure (death, inability to overcome obstacle/combat) halts progression until retry/reload.
+         authentication: Standard gameplay convention assumed.
+        narrative_function: Provides challenge and stakes.
+      - vulnerability _id: VULN-QUEST-REQITEMMISSING
+        description: "If progression requires a specific tool /ability not possessed by the player (e.g.: for clearing passage in Stage 1 or 6), progress  may be blocked." # Quotes needed due to colon
+        authentication: Implied by action descriptions needing specific capabilities.
+         narrative_function: Acts as a potential gear/skill check.
+    operational_constraints:
+      -  constraint_id: DEPEND-QUEST-PLAYER
+        applies_to: QUEST_BayouRiftsOlig archTruths
+        description: Requires active Player Character engagement for navigation, combat, interaction, and decision-making.
+         authentication: Implicit requirement for gameplay.
+        narrative_function: Centers player agency.
+      - constraint_id : DEPEND-QUEST-JACO
+        applies_to: QUEST_BayouRiftsOligarchTruth s
+        description: "Requires `NPC_Jaco` for guidance, exposition, and enabling the final resolution mechanic (` ABILITY_GhostCommunion_01`)."
+        authentication: YAML `guide`, stage 7 `resolution`.
+        narr ative_function: Drives plot, provides player support/context.
+      - constraint_id: COST-QUEST- PLAYERRESOURCES
+        applies_to: Player Character Inventory/Stats
+        description: Completion likely consumes player resources (amm unition, healing items, potentially gear durability, temporary buff slots).
+        authentication: Implied by combat and hazard  encounters.
+        narrative_function: Adds resource management layer, reflects effort/difficulty.
+      - constraint_id: OP CON-QUEST-LINEARITY
+        applies_to: QUEST_BayouRiftsOligarchTruths 
+        description: Quest progression is bound by the sequential completion of stages via Veil Tears.
+        authentication: YAML ` stages` structure.
+        narrative_function: Ensures structured storytelling and gradual reveal of environments/plot.
+   functional_summary:
+    core_functional_identity: "`QUEST_BayouRiftsOligarchTruths ` functions as a **guided, multi-stage traversal system** utilizing `Veil Tear` mechanics to propel the player through a  curated sequence of diverse and hazardous Primal Mama environments. Its core capability is **structured environmental challenge presentation** (hazards, enemies)  interwoven with **lore delivery** and culminating in a **narrative resolution** facilitated by a key NPC (`NPC_Jaco`) and  unique ability (`ABILITY_GhostCommunion_01`)."
+    key_narrative_functions_served:  'Drives the main plot forward regarding the "Invisible Women" conspiracy/Calamity origins; showcases the breadth and dangers of the  Primal Mama world beyond typical Bayou settings; demonstrates Erpenthrope capabilities and Oligarch power dynamics; provides significant environmental puzzle-solving  and combat challenges; reinforces world lore through exploration and discovery.' # Quotes needed due to internal quotes
+    relationship_to_ alethic_modality: "The quest explicitly validates several world rules: the *possibility* of interdimensional travel  via Veil Tears, the *necessity* of adhering to environmental hazard rules (spores, cold), the *possibility * of spectral interaction via specific rituals (Ghost Communion), and the *necessity* of overcoming tangible obstacles (enemies, blocked paths )." # Quotes needed due to colons
+    key_functional_tensions_tradeoffs: "Player progression vs. Environmental  Lethality; Need for Jaco's guidance vs. Moments of Player Isolation; Resource expenditure vs. Reward acquisition;  Linear structure vs. Player desire for exploration (within stages)." # Quotes needed due to semicolons
+
+```

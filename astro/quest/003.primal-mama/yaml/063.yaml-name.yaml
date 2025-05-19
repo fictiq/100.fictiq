@@ -1,0 +1,300 @@
+
+description: |
+  These ain' t your fancy pre-Calamity grenades, friend. These are what you cook up
+  in the muck and  mire when something nasty needs persuadin' or a particularly
+  stubborn patch of mutated growth needs clearin'. You 'll get a few when you first
+  learn the recipe, but to make more, you gotta find a safe  spot (like your
+  airboat's makeshift still or a Lickskillet workbench) and use some of  that
+  potent Gator Shine to brew up a fresh batch. The better the recipe, the more
+  you can carry,  and the meaner the punch.
+
+  Throw 'em at mutated critters, aggressive flora, or use 'em to  blast open
+  paths through Contaminated Thickets or Irradiated Fungal Blooms.
+
+swamp_concoctions: 
+  - name: "Swampfire Flask"
+    components:
+      - "Salvaged Aerosol Can  x1"
+      - "Refined Gator Grease x2"
+    stats_effects:
+      - " Incendiary Burst: 100 Fire Damage"
+      - "Burn Duration: 4 Seconds"
+       - "A simple mix that sticks and burns. Smells awful."
+
+  - name: "Toxic Mire Lo af"
+    components:
+      - "Salvaged Aerosol Can x1"
+      - "Mutated  Toadstool Caps x2"
+    stats_effects:
+      - "Noxious Cloud: 10 0 Toxin Damage over time"
+      - "Cloud Duration: 10 Seconds"
+      - "Re leases a cloud of irritating, mildly toxic spores. Good for flushing things out."
+
+  - name: "Null-Field Can ister"
+    components:
+      - "Salvaged Aerosol Can x5"
+      - "Scrap Solar Collector Panels  x2"
+    stats_effects:
+      - "Effect Duration: 15 Seconds"
+      -  "Creates a temporary field that dampens localized Erpenthrope abilities and spooks minor spectral entities. Doesn't hurt  'em, just... irks 'em."
+
+  - name: "Burt's Dyna-Might Stick"
+     components:
+      - "Salvaged Aerosol Can x1"
+      - "Volatile Bio-L uminescent Algae x2"
+    stats_effects:
+      - "Explosive Blast: 30 0 Fire Damage"
+      - "Burn Duration: 15 Seconds"
+      - "A more potent incendi ary. Named in honor of The Bandit's fiery spirit."
+
+  - name: "Shrapnel Can"
+    components :
+      - "Salvaged Aerosol Can x2"
+      - "Rusty Nuts & Bolts x2" 
+    stats_effects:
+      - "Physical Damage: 350"
+      - "Bleed  Damage (vs. organics): Minor over time"
+      - "Spark Damage (vs. crude electronics): 5"
+       - "Packs a punch with whatever scrap is handy."
+
+  - name: "Ghost-Light Flare"
+     components:
+      - "Salvaged Aerosol Can x1"
+      - "Crushed Spectral Residue  x2"
+    stats_effects:
+      - "Effect: Reveals nearby spectral entities and outlines camouflaged creatures  for 10 secs."
+      - "Doesn't hurt ghosts, just makes 'em easier to spot.  Some say it soothes 'em."
+
+  - name: "Jerry's Chill Fogger"
+    components :
+      - "Recycled Coolant Canister x2"
+      - "Saltpeter x1"
+       - "Contaminated Bayou Water x1"
+      - "Crushed River Pearls x1"
+    stats _effects:
+      - "Effect Duration: 4 Seconds (Flash Freeze)"
+      - "A tribute to The  Snowman. Emits a sudden, intense cold snap, slowing or briefly immobilizing targets."
+
+  - name: "Concussion  Popper"
+    components:
+      - "Salvaged Aerosol Can x1"
+      - "Dried Pop -Caps Fungi x2"
+    stats_effects:
+      - "Effect: Stuns and disor ients targets in a small radius for 3 seconds."
+      - "Loud bang, bright flash. Good for a distraction ."
+
+  - name: "Enhanced Swampfire Flask"
+    components:
+      - "Refined Gator Grease  x1"
+      - "70s Chemical Solvent x1"
+      - "Mutated Toadstool Caps  x1"
+      - "Irradiated Moss x1"
+      - "Swampfire Flask x1"
+       - "Volatile Bio-Luminescent Algae x1"
+      - "Corrosive Slime Sample x1"
+     stats_effects:
+      - "Incendiary Burst: 100 Fire Damage"
+      -  "Burn Duration: 7 Seconds"
+      - "Burns hotter and longer. The solvent helps it spread."
+
+  - name : "Enhanced Toxic Mire Loaf"
+    components:
+      - "Mutated Prowler Heart x1 "
+      - "70s Chemical Solvent x1"
+      - "Mutated Toadstool Caps x1 "
+      - "Toxic Mire Loaf x1"
+      - "Scrap Metal Shards x1"
+       - "Vampire Bunny Fur Tufts x1"
+      - "Bioluminescent Fungus x1" 
+    stats_effects:
+      - "Noxious Cloud: 100 Toxin Damage over time "
+      - "Cloud Duration: 20 Seconds"
+      - "More potent toxins stick around longer.  The bunny fur adds a certain... je ne sais quoi."
+
+  - name: "Enhanced Null-Field Canister "
+    components:
+      - "Crushed River Pearls x1"
+      - "70s Chemical  Solvent x1"
+      - "Weathered Circuit Board x1"
+      - "Dried Nightshade Berries x 1"
+      - "Null-Field Canister x1"
+      - "Scrap Solar Collector Panels x 1"
+      - "Alligator Sinew x1"
+    stats_effects:
+      - "Effect  Duration: 30 Seconds"
+      - "Wider field, longer suppression. The circuit board hums with  captured solar energy."
+
+  - name: "Enhanced Burt's Dyna-Might Stick"
+    components:
+      - " Scrap Solar Collector Panels x1"
+      - "70s Chemical Solvent x1"
+      - " Dried Willow Bark x1"
+      - "Recycled Coolant Canister x1"
+      - "Burt' s Dyna-Might Stick x1"
+      - "Volatile Bio-Luminescent Algae x1"
+      -  "Thick Gator Hide Scrap x1"
+    stats_effects:
+      - "Explosive Blast: 4 00 Fire Damage"
+      - "Burn Duration: 30 Seconds"
+      - "Bigger boom, burns  like a tire fire in August. Burt would be proud."
+
+  - name: "Enhanced Shrapnel Can" 
+    components:
+      - "Weathered Circuit Board x1"
+      - "70s Chemical Solvent  x1"
+      - "Jagged Bone Fragments x1"
+      - "Piranha Teeth x2"
+       - "Shrapnel Can x1"
+      - "Rusty Nuts & Bolts x1"
+    stats _effects:
+      - "Physical Damage: 600"
+      - "Bleed Damage (vs . organics): Moderate over time"
+      - "Spark Damage (vs. crude electronics): 10"
+       - "More shrapnel, sharper bits. Meaner."
+
+  - name: "Enhanced Ghost-Light  Flare"
+    components:
+      - "Refined Gator Grease x1"
+      - "70s  Chemical Solvent x1"
+      - "Dried Sun-Bleached Reeds x1"
+      - "Weather ed Circuit Board x1"
+      - "Ghost-Light Flare x1"
+      - "Crushed Spectral  Residue x1"
+      - "Spider Silk Glands x1"
+    stats_effects:
+       - "Effect: Reveals entities for 20 secs, minor chance to pacify agitated spirits."
+      - "Brighter , longer-lasting. The silk helps the dust adhere."
+
+  - name: "Enhanced Jerry's Chill Fog ger"
+    components:
+      - "Crushed River Pearls x1"
+      - "70s  Chemical Solvent x1"
+      - "Moonflower Petals (Nocturnal) x1"
+      - "Witch -Hazel Bark x1"
+      - "Jerry's Chill Fogger x1"
+      - "Cont aminated Bayou Water x2"
+      - "Recycled Coolant Canister x2"
+    stats_effects :
+      - "Effect Duration: 4 Seconds (Wider Flash Freeze)"
+      - "Covers a  larger area with its icy blast. Still a quick burst, though."
+
+  - name: "Enhanced Concussion Popper" 
+    components:
+      - "Mutated Bullfrog Vocal Sac x1"
+      - "70s  Chemical Solvent x1"
+      - "Dried Pop-Caps Fungi x1"
+      - "Weathered Circuit Board  x1"
+      - "Concussion Popper x1"
+      - "Volatile Bio-Luminescent Al gae x1"
+    stats_effects:
+      - "Effect: Stuns and disorients for 6 seconds,  chance of temporary blindness."
+      - "Louder, brighter, nastier. That frog sac really amplifies things." 
+
+  - name: "Superior Swampfire Flask"
+    components:
+      - "Refined Gator Grease x 2"
+      - "Experimental Growth Accelerant x1"
+      - "Mutated Toadstool Caps x2"
+       - "Corrosive Slime Sample x2"
+      - "Enhanced Swampfire Flask x1"
+       - "Volatile Bio-Luminescent Algae x2"
+      - "Witch-Brewed Nap alm Base x1"
+    stats_effects:
+      - "Incendiary Burst: 100  Fire Damage"
+      - "Burn Duration: 10 Seconds (Spreading Flames)"
+      - "This  stuff crawls. A Swamp Witch specialty, if you can get the base."
+
+  - name: "Superior Toxic Mire Loaf" 
+    components:
+      - "Mutated Prowler Heart x2"
+      - "Experimental Growth Acceler ant x1"
+      - "Mutated Toadstool Caps x2"
+      - "Vampire Bunny  Fur Tufts x2"
+      - "Enhanced Toxic Mire Loaf x1"
+      - "Scrap Metal Shards  x1"
+      - "Refined Erpenthrope Musk x1"
+    stats_effects:
+       - "Noxious Cloud: 100 Toxin Damage over time"
+      - "Cloud Duration : 30 Seconds (Potent Neurotoxin)"
+      - "Seriously nasty. The Erpenthrope musk makes  it extra disorienting to non-Erpenthropes."
+
+  - name: "Superior Null-Field  Canister"
+    components:
+      - "Crushed River Pearls x2"
+      - "Experimental Growth  Accelerant x1"
+      - "Intact Pre-Calamity Microchip x2"
+      -  "Alligator Sinew x1"
+      - "Enhanced Null-Field Canister x1"
+      -  "Scrap Solar Collector Panels x2"
+      - "Pure Crystal Resonator x1"
+    stats _effects:
+      - "Effect Duration: 30 Seconds (Strong Suppression, Minor Banishment)"
+       - "Can actually push weaker spectral entities away. The crystal hums with power."
+
+  - name: "Superior Burt 's Dyna-Might Stick"
+    components:
+      - "Scrap Solar Collector Panels x2"
+       - "Experimental Growth Accelerant x1"
+      - "Recycled Coolant Canister x2"
+       - "Thick Gator Hide Scrap x2"
+      - "Enhanced Burt's Dyna-Might Stick x 1"
+      - "Volatile Bio-Luminescent Algae x2"
+      - "Gram Parson 's \"Holy\" Guitar Pick x1 (replica, of course)" # Inner quotes escaped
+    stats_effects:
+       - "Explosive Blast: 300 Fire Damage"
+      - "Burn Duration: 15 Seconds ( Chain Reaction Explosions)"
+      - "They say a prayer to Gram makes this one extra righteous. Sets off secondary  bursts."
+
+  - name: "Superior Shrapnel Can"
+    components:
+      - "Refined  Gator Grease x2"
+      - "Experimental Growth Accelerant x1"
+      - "Piranha Teeth  x4"
+      - "Dried Sun-Bleached Reeds x2"
+      - "Enhanced Shrapnel Can x 1"
+      - "Rusty Nuts & Bolts x2"
+      - "Chunk of Meteoric Iron x1 "
+    stats_effects:
+      - "Physical Damage: 600"
+      - "Ble ed Damage (vs. organics): Severe over time"
+      - "EMP Burst (vs. crude electronics): 10 "
+      - "The meteoric iron fragments can short out unshielded 70s tech."
+
+  - name : "Superior Ghost-Light Flare"
+    components:
+      - "Refined Gator Grease x2"
+       - "Experimental Growth Accelerant x1"
+      - "Dried Sun-Bleached Reeds x2" 
+      - "Weathered Circuit Board x2"
+      - "Enhanced Ghost-Light Flare x1"
+       - "Crushed Spectral Residue x2"
+      - "Erpenthrope Shed Scale x1" 
+    stats_effects:
+      - "Effect: Reveals entities for 30 secs, strong pacification, chance  to glimpse residual memories."
+      - "The Erpenthrope scale resonates with the spirit world."
+
+  - name: " Superior Jerry's Chill Fogger"
+    components:
+      - "Crushed River Pearls x2"
+      -  "Saltpeter x1"
+      - "Witch-Hazel Bark x2"
+      - "Recycled  Coolant Canister x3"
+      - "Enhanced Jerry's Chill Fogger x1"
+      -  "Contaminated Bayou Water x3"
+      - "Concentrated Bayou Miasma x1"
+    stats _effects:
+      - "Effect Duration: 4 Seconds (Area Freeze, Brittle Effect)"
+      -  "Can make some materials temporarily brittle. The miasma amplifies the unnatural cold."
+
+  - name: "Superior Concussion  Popper"
+    components:
+      - "Mutated Bullfrog Vocal Sac x2"
+      - "Experimental  Growth Accelerant x1"
+      - "Dried Pop-Caps Fungi x2"
+      - "Ir radiated Moss x2"
+      - "Enhanced Concussion Popper x1"
+      - "Volatile Bio- Luminescent Algae x2"
+      - "Chunk of \"The Speaker\" (broken amplifier) x1" # Inner  quotes escaped
+    stats_effects:
+      - "Effect: Stuns, disorients, and deafens  for 10 seconds. Possible temporary paralysis."
+      - "So loud it'll shake your fillings out.  That bit of speaker hums with bad vibes."

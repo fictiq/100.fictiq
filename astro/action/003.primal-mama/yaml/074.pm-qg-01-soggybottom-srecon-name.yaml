@@ -1,0 +1,291 @@
+```yaml
+document_info:
+  title: " Story World Codex: Quest Functional Breakdown Protocol Application"
+  world: Primal Mama
+  codex_version:  'PM-QFB-0.1 (Soggy Bottoms Recon)'
+  based_on: "Entity Functional Profile  Protocol (action.md) & Quest YAML (PM_QG_0.1_SoggyBottoms Recon.yaml)"
+  last_updated: "[Current Date]"
+  lead_architect: "[Your Name /Studio Name]"
+
+introduction: |
+  This document breaks down the "Soggy Bottoms Recon: Gaining  Access to Lickskillet Outskirts" quest arc (ID: `PM_QG_0.1_ SoggyBottomsRecon`) using the Entity Functional Profile Protocol. It analyzes the sequence of events not just as  narrative steps, but as a series of interactions governed by the authenticated functional properties of the entities involved: the Player Character (Swamp  Runner), NPCs, Creatures, Objects, Locations, and Environmental Factors. The focus is on **capabilities deployed**, **limitations encountered**,  **vulnerabilities exploited**, **constraints adhered to**, and the **core functions** fulfilled by each stage of the quest.
+
+ quest_arc_profile:
+  quest_arc_id: PM_QG_0.1_S oggyBottomsRecon
+  quest_name: '"Soggy Bottoms Recon: Gaining Access to  Lickskillet Outskirts."'
+  primary_functional_goal: 'FUNC-ARC-GAINACCESS - Overcome environmental and  factional obstacles to enable player entity movement into restricted Lickskillet Outskirts zone.'
+  secondary_goals:  [FUNC-ARC-RESOURCEACQUISITION, FUNC-ARC-GEARUPGRADE]
+  primary_player_entity : 'PLAYER_SwampRunner (Assumed Level 4 initial state)'
+  initial_player_capabilities: 
+    - 'FUNC-PLAYER-COMBAT-MELEE (Gator Prod)'
+    - 'FUNC-PLAYER -COMBAT-RANGED (Shotgun)'
+    - FUNC-PLAYER-MOVEMENT-AIRBOAT
+    - ' FUNC-PLAYER-MOVEMENT-SWIM (`CONSTRAINT: Environmental Hazards`)'
+    - 'FUNC-PLAYER-INFO-SCAN  (Scan-O-Matic 5000™)'
+    - FUNC-PLAYER-INTERACT-NPC
+     - FUNC-PLAYER-INTERACT-OBJECT
+    - Basic 'SKL-PLAYER-PERSUASION/INT IMIDATION potential'
+
+phases:
+  - phase_id: 1
+    phase_title: Arrival  & Initial Assessment (Snaggletooth Point)
+    core_function: 'FUNC-SCENARIO-EST ABLISHCONTEXT - Introduce player entity to the environment, key factions (GatorCorp presence), and escalating threat levels.'
+    entities _involved:
+      - PLAYER_SwampRunner
+      - LOC_SnaggletoothPoint
+      -  ENV_SoggyBottoms
+      - 'FACTION_GatorCorp (implied)'
+      -  OBJ_Scan-O-Matic
+    key_capabilities:
+      - entity: PLAYER
+        function: 'FUNC- PLAYER-INFO-SCAN used to assess threats.'
+      - entity: SCAN-O-MATIC
+        function: 'FUNC -SCANNER-THREATDETECT (Detects CREATURE_SwampHound, CREATURE_VampireBunny, CRE ATURE_SwampGhoul, CREATURE_FeralGator, CREATURE_MutatedTurtle, CREATURE _RogueAutomaton at varying levels/distances).'
+    inabilities_lack_of_function:
+      -  'Player entity initially lacks specific knowledge of safe routes or access methods (`INAB-PLAYER-KNOWLEDGEDEFICIT `).'
+    vulnerabilities_weaknesses:
+      - entity: Player
+        vulnerability: 'V ULN-PLAYER-LOWLEVEL - Susceptible to higher-level threats identified by scanner if engaged unprepared.'
+     costs_dependencies_constraints:
+      - 'CONSTRAINT-ENVIRONMENT-HAZARDOUS - Free movement limited by hostile  fauna and terrain.'
+    functional_profile_summary: Establishes the quest's core challenge navigating a dangerous environment controlled  by an obstructive faction, requiring careful reconnaissance and threat assessment provided by the Scanner entity's function.
+
+  - phase_id : 2
+    phase_title: Crossing the Channel - Access Challenge
+    core_function: 'FUNC-SCENARIO -ACCESSGATE - Present the primary obstacle (Oligarchy checkpoint) preventing progress towards Lickskillet and introduce methods to bypass  it.'
+    entities_involved:
+      - PLAYER_SwampRunner
+      - LOC_ShippingChannel
+       - LOC_OligarchyCheckpoint
+      - NPC_GatorCorpEnforcers
+      - GOAL _LickskilletAccess
+    key_capabilities:
+      - entity: PLAYER
+        functions:
+          - 'Potential  FUNC-PLAYER-MOVEMENT-SWIM (direct bypass attempt)'
+          - 'FUNC-PLAYER-INTERACT-NPC ( negotiation attempts).'
+      - entity: ENFORCERS
+        function: 'FUNC-ENFORCER- DENYACCESS (Requires `OBJ_GatorCorpPermit`).'
+    inabilities_lack_of_function: 
+      - 'INAB-PLAYER-ACCESSDENIED (initial state).'
+      - 'INAB-SW IM-SAFE (Swimming carries high risk due to `CONSTRAINT: Environmental Hazards`).'
+    vulnerabilities_weak nesses:
+      - 'Checkpoint is functionally vulnerable to player obtaining the required `OBJ_GatorCorpPermit` (`V ULN-CHECKPOINT-PERMIT`).'
+      - 'Enforcers potentially vulnerable to `FUNC-PLAYER -PERSUADE/BRIBE`.'
+    costs_dependencies_constraints:
+      - DEPEND-ACCESS-PERMIT
+       - 'Swimming bypass carries `RISK-COMBAT/HAZARD`.'
+      - 'Negotiation/ Quest route requires time/resource investment.'
+    functional_profile_summary: This phase functions as the central gating mechanism. Player must  leverage interaction capabilities or quest system engagement to acquire the key (`OBJ_GatorCorpPermit`) needed to overcome the  Enforcers' `FUNC-ENFORCER-DENYACCESS`.
+    sub_scenarios:
+       - scenario_id: "2.1"
+        title: Ghoul Den Clearing (Optional)
+        core _function: 'FUNC-SCENARIO-COMBATOPTIONAL - Provide optional combat encounter for XP and resource gain (`FUNC -ARC-RESOURCEACQUISITION`).'
+        entities_involved:
+          - PLAYER_SwampRunner
+           - LOC_GhoulDen
+          - CREATURE_LesserSwampGhoul
+          - OBJ_ LootContainers
+          - Potential OBJ_Schematic_ToughHide
+        key_capabilities:
+          - entity:  PLAYER
+            functions: ['FUNC-PLAYER-COMBAT-MELEE/RANGED', 'FUNC-PLAYER -INTERACT-OBJECT (Looting)']
+          - entity: GHOULS
+            functions: [FUNC-GHO UL-SWARM, FUNC-GHOUL-MELEEATTACK]
+        inabilities_lack_of_function: 
+          - 'INAB-GHOUL-HIGHDEFENSE (Ghouls are relatively fragile).'
+        v ulnerabilities_weaknesses:
+          - 'Ghouls likely possess `VULN-GHOUL-AGGRESSION ` (can be baited) and possibly elemental weaknesses (e.g., `VULN-GHOUL-FIRE`  if applicable).'
+          - 'Player has `VULN-PLAYER-SURROUNDED`.'
+        costs_dependencies _constraints:
+          - 'Requires expenditure of ammo/stamina (`COST-COMBAT-RESOURCES`).'
+          -  Potential RISK-PLAYER-DAMAGE
+        functional_profile_summary: Functions as a standard optional combat/loot encounter, testing player  combat capabilities and offering resource rewards.
+
+      - scenario_id: "2.2"
+        title: Scavenger  Camp Raid (Optional)
+        core_function: 'FUNC-SCENARIO-COMBATRESCUE -  Combine combat encounter with an objective (`FUNC-NPC-RESCUE`) leading to potential future benefits (`FUNC-NPC-VENDORACCESS `).'
+        entities_involved:
+          - PLAYER_SwampRunner
+          - LOC_Scavenger Camp
+          - NPC_ScavengerLookouts
+          - NPC_Scavengers
+          - NPC_ ScavengerBoss
+          - OBJ_MagLockOverrideKey
+          - NPC_IndependentMerchant
+          - OBJ_AudioLog 
+          - OBJ_LootContainers
+        key_capabilities:
+          - entity: PLAYER
+            functions:  ['FUNC-PLAYER-COMBAT', 'FUNC-PLAYER-INTERACT-OBJECT (Loot/Use Key)',  'FUNC-PLAYER-INTERACT-NPC (Free Merchant)', 'Potential FUNC-GADGET-SONICSTUN NER']
+          - entity: SCAVENGERS
+            functions: ['FUNC-SCAV-COMBAT -SKIMMER', 'FUNC-SCAV-COMBAT-RANGED/MELEE']
+          - entity : BOSS
+            function: 'FUNC-SCAVBOSS-LEADERSHIP (implied higher stats/gear)'
+           - entity: KEY
+            function: FUNC-KEY-UNLOCKCAGE
+          - entity: MERCHANT
+            function:  'FUNC-NPC-REWARDINFO (Tells player where he''ll set up shop).'
+        vulnerabilities_weak nesses:
+          - 'Lookouts have `VULN-SKIMMER-DISMOUNT`.'
+          -  'Scavengers vulnerable to standard combat tactics (`VULN-SCAV-COMBAT`).'
+          - 'Merchant  has `VULN-NPC-IMPRISONED`.'
+        costs_dependencies_constraints:
+           - 'Requires combat resource expenditure (`COST-COMBAT-RESOURCES`).'
+          - 'Merchant rescue depends on  obtaining key (`DEPEND-RESCUE-KEY`).'
+        functional_profile_summary: Functions as a more  complex optional encounter, linking combat success to freeing an NPC entity who provides a future functional benefit (vendor access).
+
+      -  scenario_id: "2.3"
+        title: Thou Shalt Not Pass (Checkpoint Interaction)
+        core_function : 'FUNC-SCENARIO-NEGOTIATIONGATE - Explicitly present the access denial and player options for overcoming it  via interaction or quest initiation.'
+        entities_involved:
+          - PLAYER_SwampRunner
+          - NPC _GatorCorpEnforcers
+          - LOC_OligarchyCheckpoint
+        key_capabilities:
+           - entity: PLAYER
+            functions: [Potential FUNC-PLAYER-BRIBE, 'FUNC-PLAYER-PERSUADE/BL UFF', FUNC-PLAYER-INQUIRE]
+          - entity: ENFORCERS
+            functions: [ FUNC-ENFORCER-DENYACCESS, 'FUNC-NPC-PROVIDEINFO (Explain permit need/sources)']
+         inabilities_lack_of_function:
+          - 'INAB-PLAYER-FORCEPASSAGE (Direct  combat likely suicidal/unintended).'
+          - 'INAB-ENFORCER-DISCRETION (Cannot let player pass without  valid reason/override).'
+        vulnerabilities_weaknesses:
+          - 'Enforcer denial vulnerable to valid  permit (`VULN-CHECKPOINT-PERMIT`), potentially bribe (`VULN-ENFORCER-CORRUPTION`),  or persuasion (`VULN-ENFORCER-PERSUASION`).'
+        costs_dependencies_constraints:
+           - 'Bribe requires `COST-RESOURCE-CELLS`.'
+          - 'Persuasion requires `SKL-CHAR M/DECEPTION`.'
+          - 'Inquiry triggers `QUEST-PERMITPROCUREMENT`.'
+        functional_profile _summary: The direct functional gate. Player must apply social capabilities or trigger the quest system to proceed.
+
+      -  scenario_id: "2.4"
+        title: Fake Permits (Black Marketeer Interaction)
+        core _function: 'FUNC-SCENARIO-ACQUIREKEYITEM - Provide primary method (purchase or work-for-discount ) to obtain the necessary `OBJ_GatorCorpPermit`.'
+        entities_involved:
+          - PLAYER_ SwampRunner
+          - NPC_BayouBlackMarketeer
+          - 'OBJ_GatorCorpPermit  (Forged)'
+        key_capabilities:
+          - entity: PLAYER
+            functions: [FUNC-PLAYER- INTERACT-NPC, 'FUNC-PLAYER-TRADE (Pay Cells)', 'Potential FUNC-PLAYER-PERSUADE/INT IMIDATE', FUNC-PLAYER-ACCEPTQUEST]
+          - entity: MARKETEER
+            functions: ['FUNC -VENDOR-BLACKMARKET (Offers Permit)', 'FUNC-NPC-OFFERQUEST (`Bitter Harvest`/`Fung us Field Escort`)']
+        inabilities_lack_of_function:
+          - INAB-MARKETEER -GIVEFREELY
+        vulnerabilities_weaknesses:
+          - 'Marketeer''s price vulnerable  to persuasion/intimidation (`VULN-MARKETEER-HAGGLE`).'
+          - 'Marketeer vulnerable  to player completing offered quest (`VULN-MARKETEER-QUESTCOMPLETION`).'
+        costs_dependencies_constraints :
+          - 'Purchase requires `COST-RESOURCE-CELLS`.'
+          - 'Persuasion requires `SKL -PERSUADE/INTIMIDATE`.'
+          - 'Quest acceptance requires `COMMITMENT-PLAYER- TIMEEFFORT`.'
+          - 'Permit acquisition depends on payment or quest success (`DEPEND-PERMIT -PAYMENT/QUEST`).'
+        functional_profile_summary: The core interaction for obtaining the key item via economic  or quest-based functional paths.
+
+      - scenario_id: "2.5"
+        title: Fung us Field Escort (Quest)
+        core_function: 'FUNC-SCENARIO-PROTECTIONQUEST - F ulfill Marketeer''s condition for discounted permit via successful application of combat/protection capabilities.'
+        entities_involved: 
+          - PLAYER_SwampRunner
+          - LOC_CalamityDebrisField
+          - NPC_ Albin
+          - NPC_AlbinCrew
+          - CREATURE_FeralGator
+          - CRE ATURE_SwampGhoul
+          - CREATURE_BloatSacGhoul
+        key_capabilities:
+           - entity: PLAYER
+            functions: [FUNC-PLAYER-COMBAT, 'FUNC-PLAYER-PROTECTION (Prior itize defending NPCs)', 'Potential FUNC-GADGET-AOE']
+          - entity: CREATURES
+             functions: [FUNC-GATOR-ATTACK, FUNC-GHOUL-ATTACK, FUNC-BLOATSAC -EXPLODE, 'FUNC-AI-TARGETPRIORITY (likely target vulnerable NPCs)']
+          - entity: AL BIN
+            function: 'FUNC-NPC-REWARDVARIABLE (Reward scales with crew survival).'
+        inabilities _lack_of_function:
+          - 'INAB-ALBIN-SELFDEFENSE (Albin/crew are  functionally weak).'
+        vulnerabilities_weaknesses:
+          - 'Albin/crew have `VUL N-NPC-COMBAT`.'
+          - 'Creatures have standard combat vulnerabilities (`VULN-GATOR-COMB AT`, `VULN-GHOUL-COMBAT`).'
+          - 'Bloat-Sac Gh oul has `VULN-BLOATSAC-RANGE` (Explosion avoided by distance).'
+        costs_ dependencies_constraints:
+          - 'Requires combat resource expenditure (`COST-COMBAT-RESOURCES`).'
+           - 'Success depends on Albin''s survival (`DEPEND-QUESTSUCCESS-ALBINSURVIVAL`).'
+           - 'Reward amount depends on crew survival (`DEPEND-REWARD-CREWSURVIVAL`).'
+         functional_profile_summary: A standard escort quest testing player's ability to manage multiple threats and protect vulnerable NPC entities. Success directly  impacts the cost constraint of acquiring the permit.
+
+      - scenario_id: "2.6"
+        title: "' Contract: Bayou Raider' (Alternate Quest Path)"
+        core_function: 'FUNC-SCENARIO-INVESTIGATION ELIMINATION - Provide alternate route to `OBJ_GatorCorpPermit` via investigation, combat, and reporting , potentially involving moral choice.'
+        entities_involved:
+          - PLAYER_SwampRunner
+          - OBJ _BountyBoard
+          - NPC_OligarchyForeman
+          - LOC_SupplyBargeWreck 
+          - 'CLUE_Tracks/Casings'
+          - NPC_BayouFreefolk
+          -  NPC_Vernossiel
+        key_capabilities:
+          - entity: PLAYER
+            functions: ['FUNC- PLAYER-INTERACT-OBJECT (Read Board)', 'FUNC-PLAYER-INTERACT-NPC (Accept Quest, Report )', 'FUNC-PLAYER-INVESTIGATE (Scan, Follow Tracks)', FUNC-PLAYER-COMBAT, 'Potential  FUNC-PLAYER-PERSUADE/DECEIVE (Parley/Lie)']
+          - entity: FOREMAN
+             functions: [FUNC-NPC-QUESTGIVER, FUNC-NPC-REWARDPERMIT]
+          - entity : FREEFOLK
+            functions: [FUNC-FREEFOLK-COMBAT, FUNC-FREEFOLK- NEGOTIATE, FUNC-FREEFOLK-REWARDDISCRETION]
+        inabilities_lack_of_ function:
+          - 'INAB-FOREMAN-VERIFYREPORT (Foreman relies on player''s account  if Freefolk are not directly implicated).'
+          - 'INAB-FREEFOLK-TRUSTOUTSIDER (Initial state ).'
+        vulnerabilities_weaknesses:
+          - 'Freefolk vulnerable to combat (`VULN- FREEFOLK-COMBAT`) or persuasion/agreement (`VULN-FREEFOLK-NEGOTIATION`).' 
+          - 'Foreman''s reward vulnerable to player report (`VULN-FOREMAN-REPORT`).'
+        costs _dependencies_constraints:
+          - 'Requires investigation time (`COST-TIME-INVESTIGATION`).'
+          - 'Combat path  requires combat resources (`COST-COMBAT-RESOURCES`).'
+          - 'Peaceful path requires negotiation skill (`SKL -PERSUADE`).'
+          - 'Reporting truthfully vs. lying presents moral constraint (`CONSTRAINT-MORALCHO ICE`).'
+          - 'Permit depends on Foreman receiving a satisfactory report (`DEPEND-PERMIT-REPORT`).'
+         functional_profile_summary: Offers a multi-stage alternate path involving investigation, potential combat or negotiation, and a  reporting phase with consequences based on player choice, ultimately fulfilling the `FUNC-ARC-GAINACCESS` goal.
+
+  - phase _id: 3
+    phase_title: Access Granted & Initial Exploration
+    core_function: 'FUNC-SC ENARIO-GATEPASSED - Player utilizes acquired `OBJ_GatorCorpPermit` to overcome checkpoint obstacle.  Enables exploration of new area.'
+    entities_involved:
+      - PLAYER_SwampRunner
+      - OBJ _GatorCorpPermit
+      - NPC_GatorCorpEnforcers
+      - LOC_Lick skilletOutskirts
+    key_capabilities:
+      - entity: PLAYER
+        function: 'FUNC-PLAYER-PRESENTITEM  (Show Permit)'
+      - entity: PERMIT
+        function: FUNC-PERMIT-GRANTACCESS
+      - entity : ENFORCERS
+        functions: [FUNC-ENFORCER-ACKNOWLEDGEPERMIT, FUNC-ENFORCER -ALLOWPASSAGE]
+    functional_profile_summary: The successful application of the key item function to overcome the gatekeeper  function, opening up new areas for player entity functions (`FUNC-PLAYER-EXPLORE`, `FUNC-PLAYER-INTER ACT-NEWNPCS/OBJECTS`).
+
+  - phase_id: 4
+    phase_title: Gear  Scavenging (Optional Objectives)
+    core_function: 'FUNC-ARC-GEARUPGRADE - Series of optional encounters  allowing player to acquire specific gear schematics and resources.'
+    sub_scenarios:
+      - scenario_id: "4 .1"
+        title: Death by Fire
+        summary: 'FUNC-SCENARIO-RESCUECOMBAT . Player uses combat vs Thugs, object interaction (break door) vs burning house (fire/suffocation constraints).  Rescues NPC (rewards info), acquires Relic Boots (gear upgrade).'
+      - scenario_id: "4. 2"
+        title: Feral Gator Nest (L6)
+        summary: 'FUNC-SCENARIO -NESTDESTRUCTION. Player uses combat vs juvenile Gators, destroy object (nest), acquires loot.'
+      - scenario _id: "4.3"
+        title: Abandoned Watchtower
+        summary: 'FUNC-SC ENARIO-LOCATIONCLEARLOOT. Player uses combat vs Mist Lurkers, Feral Gators (incl. Alpha), Mut ated Vultures. Destroys Vulture nest. Investigates (notes/skeleton). Acquires key schematic (Gator Prod),  triggers scavenger quest, acquires lore logs.'
+      - scenario_id: "4.4"
+        title: " Hidden Stash: Pre-Calamity Payday"
+        summary: 'FUNC-SCENARIO-TRE ASUREHUNT. Player uses combat vs Ghouls, investigates (Smuggler), acquires keycard/cassette  (triggers quest). Interacts with environment (douse fire). Unlocks container, acquires valuable loot.'
+      - scenario_id : "4.5"
+        title: Rot-Fly Nest
+        summary: 'FUNC-SCENARIO -NESTDESTRUCTIONHAZARD. Player uses combat (ranged preferred for Queen) vs Rot-Flies (explosion  hazard) and Queen (gas cloud hazard). Destroys nest. Acquires loot.'
+      - scenario_id : "4.6"
+        title: Calamity Cache
+        summary: 'FUNC-SCENARIO -UNDERWATERLOOT. Player uses swim/dive (breath constraint), underwater combat vs Eels. Loots crates . Avoids Apex Gator deterrent.'
+    functional_profile_summary: Provides optional objectives primarily focused on testing combat capabilities  against diverse threats and environments, rewarding the player with resources and specific gear upgrades (`FUNC-GEAR-UPGRADE`) to enhance future  functional effectiveness.
+
+quest_arc_conclusion: |
+  The "Soggy Bottoms Recon" quest arc primarily functions as  an **access gating mechanism** (`FUNC-ARC-GAINACCESS`) combined with **environmental familiarization** and optional **resource/gear  acquisition loops** (`FUNC-ARC-RESOURCEACQUISITION`, `FUNC-ARC-GEARUPGRADE`). It  introduces the player entity to the core functional conflict (Independents vs. GatorCorp Oligarchy), environmental hazards (`CONSTRAINT -ENVIRONMENT-HAZARDOUS`), and the necessity of utilizing investigation, combat, and interaction capabilities (`FUNC-PLAYER-INVEST IGATE`, `FUNC-PLAYER-COMBAT`, `FUNC-PLAYER-INTERACT-NPC`) to overcome obstacles  defined by NPC (`FUNC-ENFORCER-DENYACCESS`), environmental (`LOC_ShippingChannel`), and quest system (`DEPEND -ACCESS-PERMIT`) constraints. Successful completion enhances the player entity's functional potential through acquired gear and access to  new operational zones.
+
+```

@@ -1,0 +1,176 @@
+
+World: Primal Mama 
+Codex_Version: '0.2 - Character Constitution'
+Last_Updated: '[Current Date]'
+ Lead_Architects: '[Your Name / Studio Name]'
+
+Introduction: |
+  This protocol guides the detailed definition of F ictional Persons (characters, significant sentient beings) within the Primal Mama heterocosm. Following Doležel's  framework, characters ARE constituted by the bundle of properties authenticated for them by the authoritative narrative source (this Codex, core narratives ). They possess no independent psyche or reality beyond this textual definition.
+  Use this template to systematically build characters by explicitly authenticating  their properties across relevant categories. Focus on creating multifaceted individuals whose complexity arises from the richness, coherence, and potential tensions within  their authenticated bundle, and whose actions are logically grounded in their defined nature and the world's rules. Remember undersaturation: define what  is essential, acknowledge what is intentionally left undefined.
+
+Character_Profile:
+  Entity_ID: CHAR_De aconMoreau_01
+  Character_Name: 'Deacon Moreau (often called "Dee")'
+   Entity_Type: 'Person (Human)'
+  Archetype: 'The Dispossessed Homesteader / The Broken  Craftsman'
+  Primary_Authentication_Sources:
+    - This Codex Entry
+    - Primal Mama Coherence  Protocol v0.1
+  Canon_Tier: 'Tier 2 (Significant supporting character embodying world pressures)'
+   Authentication_Status: Authenticated_Canonical_Active
+
+  Authenticated_Property_Bundle:
+    Physical_Properties:
+       purpose: "Define the character's tangible presence."
+      Appearance_General:
+        value: 'Male , late 40s, with prominent African features: dark mahogany skin, broad nose, full lips. Once powerfully built from physical  labor, now lean to the point of gauntness, with weariness etched into his face.'
+        authentication_ source: 'Visual Description'
+      Appearance_Specific_Features:
+        value: 'Deep-set, intelligent  brown eyes that often hold a haunted or distrustful look. Short, tightly coiled black hair, flecked with grey , especially at the temples. A network of fine lines around his eyes and mouth speak of sun, worry, and lost smiles.'
+         authentication_source: 'Visual Description'
+      Appearance_Distinctive_Marks:
+        value: 'A  long, faded scar runs diagonally across his left forearm, a memento from a slip while dressing a large bull gator in his youth . His hands are calloused and strong, though often idle now.'
+        authentication_source: 'Visual Description,  Backstory Link'
+      Typical_Attire:
+        value: 'Worn, patched-up canvas trousers and a thread bare, once-brightly colored (now faded orange) work shirt, common in Lickskillet. Often barefoot  or in crudely repaired gator-hide boots. May possess a battered, wide-brimmed hat made of woven reeds for  sun protection.'
+        authentication_source: 'World Aesthetic - Lickskillet, Socio-Economic Status'
+      Voice _Speech_Pattern:
+        value: 'A deep baritone, once resonant with laughter and confidence, now often  quiet, tinged with a lingering bitterness or resignation. Speaks with a distinct Lickskillet bayou patois. Prone to  long silences.'
+        authentication_source: 'Dialogue Direction / Regional Dialect'
+      Gait_M annerisms:
+        value: 'Moves with a slow, deliberate economy, a habit from years of hard work,  now also reflecting his subdued spirit. Sometimes observed staring blankly at the murky waters of the bayou or towards the distant , indifferent glow of Beetriot.'
+        authentication_source: 'Action Description, Psychological Link'
+      Associated_Scent_ If_Any:
+        value: 'Faint smell of swamp mud, old woodsmoke, and the metallic tang  of stale alligator blood that never quite washes out of Lickskillet air, even if he''s no longer directly  processing.'
+        authentication_source: 'Sensory Palette - Lickskillet'
+      Physical_Unders aturation: 'Exact height/weight, specific non-work clothing preferences (likely has none of significance).'
+
+    Functional _Properties:
+      purpose: "Define what the character can and cannot do."
+      Skills:
+        - type : 'Expert Alligator Butcher & Processor'
+          description: '(Formerly). Knew traditional and modern 1970 s-aesthetic processing techniques for maximizing meat yield and hide quality.'
+          authentication_source: 'Backstory, Historical  Property'
+        - type: 'Proficient Swamp Navigator'
+          description: '(on foot and by small pi rogue). Intimate knowledge of local Lickskillet bayou channels and gator behavior.'
+          authentication_ source: 'Implied by Lickskillet upbringing/profession'
+        - type: 'Basic Repair of  1970s-style mechanical equipment'
+          description: '(e.g., smokers, small engines for  pirogues, analog processors), a common necessity in Lickskillet.'
+          authentication_source: 'World Tech Aesthetic,  Practical Necessity'
+      Limitations:
+        - type: 'Economic'
+          description: 'Impoverished.  Lacks capital, resources, or license to operate any business after being squeezed out by the meat oligarchy.'
+           authentication_source: 'Victim Status, Social Property'
+        - type: 'Social'
+          description:  'Effectively blacklisted by larger meat processing operations controlled by the oligarchy. Limited prospects for legitimate, skilled employment in his  field.'
+          authentication_source: 'Deontic influence of Oligarchy, Social Property'
+        - type : 'Psychological'
+          description: 'Deep mistrust of authority and large organizations, bordering on paranoia, stemming from his experiences.  Suffers from bouts of despondency.'
+          authentication_source: 'Psychological Property, Reaction to Victimization '
+        - type: 'Technological'
+          description: 'Cannot afford or access the high-end,  oligarchy-approved 1970s-aesthetic processing machinery now likely required by stricter (and biased) regulations. His older , perfectly functional but non-compliant gear was effectively devalued.'
+          authentication_source: 'World Tech Aesthetic + Olig archy Friction'
+      Functional_Undersaturation: 'Firearm proficiency (likely has one, common outside Beetriot , but skill level undefined); specific knowledge of GE gator weak points beyond general hunting.'
+
+    Psychological_Properties :
+      purpose: "Define the character's textually constituted inner life."
+      Core_Traits:
+        -  type: 'Resentment'
+          description: '(towards the meat oligarchy and the perceived injustice of his situation )'
+          authentication_source: 'Dialogue, Internal Monologue if available'
+        - type: 'Lingering  Pride'
+          description: '(in his former craft and family legacy, now wounded)'
+          authentication_source:  'Actions, Defensive reactions if his past is slighted'
+        - type: 'Deep-Seated Weariness  / Resignation'
+          description: '(a result of prolonged struggle and loss)'
+          authentication_source: ' Physical demeanor, Tone'
+      Dominant_Emotion:
+        value: 'A simmering bitterness, often masked by a quiet,  watchful exterior.'
+        authentication_source: 'Narrator Descriptions, Subtext in Dialogue'
+      Key_Motivator: 
+        value: 'Survival for himself and any remaining dependents (if any). A suppressed desire for acknowledgment of the wrong  done to him, even if not outright revenge.'
+        authentication_source: 'Actions, Implied Goals'
+       Key_Belief:
+        value: 'Believes the "game is rigged" by the powerful (olig archy, perhaps even Beetriot elites indirectly). Believes that traditional skills and honest labor are no longer valued or protected.' 
+        authentication_source: 'Expressed opinions, Worldview'
+      Internal_Conflict:
+        value:  'The memory of his former prosperous life and self-worth vs. the harsh reality of his current dispossession. The desire to fight  back or speak out vs. the practical fear of further retaliation from the oligarchy.'
+        authentication_source: ' Behavioral inconsistencies, Hesitations'
+      Subjective_Memory_Content:
+        value: 'Vivid,  painful memories of his family''s thriving alligator processing business, the specific individuals from the oligarchy who orchestrated its downfall ( e.g., through predatory pricing, manipulation of supply from Saurian Sanctuary, or trumped-up regulation violations regarding  1970s tech compliance). Nostalgic memories of community and a sense of purpose.'
+        authentication _source: 'Backstory elements'
+      Psychological_Undersaturation: 'Specific views on deified celebrities (likely seen  as distant, irrelevant to his suffering), detailed opinions on Erpenthropes or Swamp Witches (likely regarded with general  swamp-dweller caution/respect but not central to his personal crisis). Full spectrum of his coping mechanisms beyond weariness/resentment .'
+
+    Social_Relational_Categorical_Properties:
+      purpose: "Define the character's place  within the world's networks."
+      Official_Role:
+        value: 'None. Formerly "Owner-Operator, Moreau  & Sons Fine Alligator Products". Currently, "Unemployed" or "Casual Laborer" if he can find it .'
+        authentication_source: 'Backstory, Current Status'
+      Social_Status:
+        value:  'Low. Dispossessed. Marginalized within Lickskillet''s economy, though perhaps respected by a few old-timers  who remember his family''s business.'
+        authentication_source: 'Economic Limitation, Narrative Description'
+      Primary _Affiliation:
+        value: 'None formal. Loosely connected to other small-time operators or individuals  similarly struggling in Lickskillet.'
+        authentication_source: 'Implied by shared circumstance'
+      Key _Relationships:
+        - target: 'THE_MEAT_OLIGARCHY (e.g., Gator Corp Consolidated)'
+          nature: 'Antagonistic (Victim/Perpetrator). They are the source of his ruin .'
+          authentication_source: 'Core of his victimhood'
+        - target: 'Other Licksk illet Residents'
+          nature: 'Variable. Some pity, some fear association due to oligarchy''s reach, some share his  resentment.'
+          authentication_source: 'Implied social dynamics of Lickskillet'
+        - target:  'Any character investigating or opposing the Meat Oligarchy (Potential)'
+          nature: 'Potential ally, source of information, or symbol  of injustice.'
+          authentication_source: 'Narrative Potential'
+      Species_Type:
+        value: 'Human ( Primal Mama Strain, Lickskillet Native)'
+        authentication_source: 'Default/Description'
+       Social_Undersaturation: 'Specific family members (wife, children – are they present, lost, estranged due to hardship?),  exact names of friends or enemies within the oligarchy.'
+
+    Modal_Properties:
+      purpose: 'Define any  inherent unique relationship to world laws.'
+      Property_ID: 'N/A'
+      Property_Status:  'None authenticated.'
+      Modal_Nature_Description: 'Deacon Moreau operates fully under the general alethic, deontic , axiological, and epistemic rules of Primal Mama. His suffering is a direct result of the application of those rules and power  dynamics by others, not due to any unique modal status he possesses.'
+      Limits: 'N/A'
+       Authentication: 'Absence of evidence for any exceptional modal status.'
+      Narrative_Note: 'Deacon ''s victimhood is powerfully illustrative because he is an ordinary person subject to the world''s established, harsh realities,  particularly its Deontic (oligarchy power, biased regulations) and Axiological (devaluation of small craft by big business) dimensions .'
+
+    Axiological_Properties:
+      purpose: "Define the character's value status within Primal Mama."
+       Reputation_Meat_Oligarchy:
+        value: 'Authenticated as "Insignificant," "Dealt With," " A minor loose end not worth further thought unless he causes trouble." Seen as an example to others who might resist their expansion.'
+         authentication_source: 'Implied by Oligarchy''s actions/nature'
+      Reputation_Lickskillet_ General_Populace:
+        value: 'Varies. "Tragic figure," "Victim of GatorCorp," "A  good man beaten down," or for some, "Proof you can''t fight city hall (Beetriot influence/Oligarchy  power)."'
+        authentication_source: 'Social dynamics of a small, oppressed community'
+      Moral_Alignment_Narr ative_Framing:
+        value: 'Authenticated via narrative context as a "Good Man Wronged," a symbol of the human  cost of unchecked corporate power and societal disparity in Primal Mama. His potential bitterness is framed as justified by circumstance.'
+        authentication_ source: 'Narrator tone, sympathetic portrayal of his plight'
+      Axiological_Undersaturation: ' Reputation among Beetriot elites (utterly unknown/irrelevant); views from Swamp Witches or Erpenthropes (likely  non-existent unless he directly interacts with them).'
+
+    Historical_Properties:
+      purpose: "Define the character 's known origins and connections to past events."
+      Origin:
+        value: 'Authenticated as born and raised  in Lickskillet. His family, the Moreaus, had a respected, multi-generational small alligator processing business , known for quality and fair dealings.'
+        authentication_source: 'Backstory'
+      Key_Past_ Event_Connection:
+        value: 'The "Hostile Takeover/Economic Sabotage" of his family business  by the expanding Meat Oligarchy (circa 5-10 years prior to "present day"). This involved predatory pricing , leveraging control over Saurian Sanctuary access to choke his supply of wild gators, and potentially new "safety/tech standard " regulations (tied to the 1970s aesthetic) that favored large, capitalized operations and made his established  methods "obsolete" or "illegal".'
+        authentication_source: 'Core of his character''s trauma,  links to Deontic/Axiological rules of Primal Mama'
+      Inherited_Items:
+         value: 'Authenticated to possess a few well-maintained but now idle traditional alligator processing tools (e.g., a  prized skinning knife with a hand-carved bone handle, his grandfather''s smoking recipes committed to memory). These are now more  mementos than tools of a trade.'
+        authentication_source: 'Narrative inventory, Symbolic Link to Past '
+      Historical_Undersaturation: 'Specific details of his ancestors beyond "ran the family business"; his life before the  oligarchy''s aggression became acute; any personal involvement with the deified celebrities'' cults or major historical events pred ating his business''s collapse.'
+
+  Character_Constitution_Summary_And_Narrative_Function:
+     purpose: 'Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle.'
+    Core _Essence: |
+      Deacon Moreau is constituted as a living testament to the socio-economic brutalities of Primal Mama , specifically the "friction" caused by the meat oligarchy. His identity is forged in the loss of his family' s legacy, his craft, and his economic independence, all sacrificed to the relentless expansion of centralized power. His Functional skills (alligator  processing, swamp knowledge) are now largely negated by his Economic and Social limitations imposed by the oligarchy. His Psychological state (resent ment, weariness, wounded pride) is a direct consequence of this victimization. He represents the human face of Lickskillet' s struggle against the faceless power of entities that likely have ties to Beetriot's elite, all within the constraints of a world  that demands adherence to a specific 1970s technological aesthetic, potentially weaponized by the powerful to consolidate control .
+    Primary_Narrative_Function: |
+      To serve as a poignant example of the injustices prevalent in Primal  Mama; to be a potential catalyst or source of information for protagonists seeking to understand or challenge the meat oligarchy; to  ground the world's economic and power dynamics in tangible human suffering; to highlight the vulnerability of "mom-and- pop" operations and traditional ways of life against systemic exploitation.
+    Key_Internal_Conflicts_From_Bundle: | 
+      Wounded Pride vs. Crushing Resignation; Desire for Justice/Recognition vs. Fear of Retaliation ; Loyalty to Lost Traditions/Craft vs. The Impossibility of Practicing Them; The Memory of Prosperity vs. The Daily  Grind of Poverty.
+    Potential_for_Development_Based_on_Bundle: |
+      Could be galvanized into action  by a new hope or opportunity (Social/Relational change). Might share his vital knowledge (Functional/Epistemic  change) with those who could use it against the oligarchy. Could find a new, albeit smaller, purpose (Psychological change).  Or, could sink further into despair, serving as a tragic warning (Psychological/Social decline). His story could involve reclaiming some small  measure of dignity or agency, even if full restoration is impossible.
+
+End_of_Fictional_Person_Profile:  CHAR_DeaconMoreau_01

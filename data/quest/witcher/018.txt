@@ -1,0 +1,105 @@
+Exploring Around Oreton
+If you haven't already, read the book "The Ladies of the Wood" that Keira gave you during "Wandering in the Dark" to update this quest. When you do, you'll find you destination-some shrine a ways south-east of Lindenvale, or, if you are following along well enough and already got the Griffin armor, just south-west of Downwarren. We can fast travel fairly close by, or take a boat and sail east to get fairly close to the landing spot... or we could use this as a tenuous excuse to explore around Oreton. Yeah... why not do that? If you're not much of a completionist and you just want to get on with things, skip to the "Ladies of the Wood" section.
+
+A Greedy God (level 7)
+Make your way to Oreton search the notice board, where you can find the notice "Contract: Missing Soldiers" which starts "Contract: The Mystery of the Byways Murders." It's far above our level right now, but it's good to have for later. Play Gwent with the Trader (who has a rather powerful Northern Kingdoms deck) then head south-west along the coast to return to Graham's house. From this now-vacant house head north-west along a trail to eventually reach some ruins, where two peasants are arguing. Talk to them to discover that their meager offerings have angered the Allgod. Agree to intervene on their behalf to start the quest "A Greedy God."
+
+Talk to the nearby wooden effigy, then, after getting a response that raises Geralt's suspicions, activate your Witchers Senses. Investigate the wine bottles nearby to get a scent trail, which leads to a pile of rocks nearby. Or rather, the illusions of rocks. With the Eye of Neheleri you can dispel the rocks and find some stairs leading down to a cellar below-a well stocked cellar, with a rather corpulent monster inside. Talk to the beast to find out that it's an unrepetent parasite who has no inclination of giving up its feast.
+
+You have three options-kill the beast (it can breathe and throw fire at you, but otherwise it's not too difficult to just chop him down in melee combat), convince the beast (under pain of death) to accept the smaller offerings, or agree to tell the peasants that the Allgod won't be pleased with what they can safely spare. In the former case, the peasants aren't too happy that you killed their god. In the latter two cases you can then inform the peasants about some "fascinating architecture" in the crypt below. The middle course is the most immediately lucrative.
+
+Objective	Reward
+For talking to the Allgod	25 XP
+For telling the peasants about your encounter with the Allgod	50 XP
+For convincing the Allgod to accept smaller offerings	50 XP
+100 Crowns
+From the ruins head north along a road until you find the "Wastrel Manor" signpost. Continue north, staying course through a crossroads, until you reach a raised bridge. If you swim across the channel to the north you'll find that the bridge is guarded by a handful of Bandits (level three), who have decided this is now a toll bridge, and they're entitle to collect. You can either pay them to cross (50 Crowns), use Axii on them (requires an upgraded Axii) or introduce them to your Steel Sword. Either way, activate a wheel near the raised bridge to lower it, and make the world an easier to travel place for everyone.
+
+Objective	Reward
+For using Axii on the bridge bandits	40 XP
+Monster Nest/Abandoned Site (level 9)
+Cross the bridge south and return to the crossroads, at which point you should follow the eastern road. Follow this road until you reach a small village, which, if you explore, you'll discover the "Claywich" signpost. Not much to see here, but having the signpost is still nice. If you continue east from Claywich you'll find another, even more unimpressive village. Further east lies the "Boatmaker's Hut" signpost.
+
+More interesting than the last two places (almost anything would be) this village is now an Abandoned Site, due to the nearby Monster Nest. Kill the Ghouls (level nine) near their nest, then destroy it. When the Necrophage menace has been removed, peasants will move back in, including a merchant. Making the world a better place, one monster nest at a time...
+
+Objective	Reward
+For destroying the monster nest	20 XP
+For liberating the Abandoned Site	120 XP
+50 Crowns
+Leave the newly liberated town by taking a road to the east, which will eventually wrap around south-east and lead to a bridge. At the bridge you'll find some ne'er-do-wells practicing the time-honored tradition of forcing travelers to pay an arbitrary bridge toll. You can either flash your Witcher medallion, which convinces the bandits to leave the bridge, or you can tempt them into attempting to rob you, which convinces them to leave this life. Either way, once done use your Witcher Senses to spot some footprints that lead from a campfire to the east of the bridge, to a treasure chest along the shore west of the bridge.
+
+Head north along the shoreline until you encounter some Drowners (level nine). Across a the water (to the east) from where these Drowners lurk you should find a small island that shows signs of recent human settlement, now abandoned. There are a few containers to loot and possibly some more Drowners to slay over here, but nothing to get excited over.
+
+Guarded Treasure (level 14)
+Continue along the shore to the north until you find a "Guarded Treasure" event. The guardian in this case is a Forktail (level fourteen) which could be trouble if you're too low of a level. Really, though, if you killed the Shrieker earlier, you should be more than strong enough to battle this beast. Kill it and loot the corpse of a soldier lying near his equally dead mount.
+
+Bandit Camp/Person(s) in Distress (level 6)
+Backtrack south along the coast until you return to the bridge where the Bandits once prowled. Cross it to the south-east, then continue south-east along a road until you reach a Bandit Camp... even has a "Bandits' Camp" signpost. There's also a "Person(s) in Distress" event here. You know the drill-kill the Bandits (level five) and their leader (level six) who will drop a "Bandits' Key". Take the key and free a Merchant, who will tell you to meet him in Claywich, then loot the camp.
+
+From the Bandit Camp head south-west to find a small dock and the ruins of a house near the shore. Search the ruins and it'll yield a chest for you to loot, then swim across the channel to the south-west. Near the shore here you'll find a road running south. Follow it to reach a lovely village named Drudge. Or, well, an abandoned village named Drudge, anyways. The most interesting thing here is the signpost, which you can use to fast-travel to either Lindenvale, which is north-west of our next destination, or you can take a boat and sail to the western edge of the swamps we'll be imminently exploring.
+
+Note: Be sure to visit the merchant you rescue in Claywich, as he'll ----- sell you the following Gwent cards: "Etolian Auxiliary Archers," "Black Infantry Archer," "Crinfrid Reavers Dragon Hunter," "Puttkammer" and "Sweers." The "Black Infantry Archer" and "Crinfrid Reavers Dragon Hunter" cards are both very potent cards, indeed. You can also play Gwent with him and win another card.
+
+Ladies of the Wood
+Forefather's Eve - Part 2 (level 7)
+Head over to the edge of the swamp where the search area for this quest is, then turn on your Witcher Senses and look around. Near the center of the search area you'll find a corpse to investigate, guarded by a trio of Rotfiends (level seven). Kill the critters, then examine the corpse. Once done, hit it with Igni to incinerate it. Now for some pain in the ass back-tracking. Head back to the pellar's hut north of Blackbough. Hear the pellar's side of the story, then collect a reward for your good deed.
+
+Objective	Reward
+For getting rid of the ghost haunting the pellar	50 XP
+50 Crowns
+The Trail of Treats
+Travel to the shrine where the Trail of Treats begins (again, this is south-west of Downwarren, far to the south-east of Lindenvale). Once there, examine the shrine. It's caled the Trail of Treats for good reason, and if it's simple enough for children to follow, it should be cake for a Witcher. Activate your Witcher Senses and follow the trail along the path to the east, then south, following the trail until you reach a small village in the middle of the swamp.
+
+When you reach the village you'll discover a pack of children... doing what children do. Ask them some questions and endure their silly (although perhaps humorous) responses until Gran shows up to break up the fun. Neither of them are helpful, but at least the kids were amusing. When they depart follow Gran and the more talkative boy into a hut to the south. Gran proves she's going to continue to be a pest, so we'll need to find a way to distract her...
+
+Head outside and talk to one of the other kids to find out that this mysterious Johnny is only friends with the boy Gran is protecting. Whoever-or whatever-this Johnny is, we'll need to talk to him, and that means talking to the boy. Ask the kids to help you and they'll make a counter demand of you. Sadly, they don't know who they're playing with.
+
+Activate your Witcher Sense and head near the house to the east, in front of which you'll find some footsteps running to the north, then up onto the roof. Climb onto the roof, then down the other side, where you'll find signs that the child slid down the roof and into a hay pile on the ground. Talk to the child adn they'll come out of the hay. Now continue clockwise around the house to find more tracks near the southern edge of the house that lead behind a nearby bush, where another child hides. More tracks can be found leading into the northern house, inside of which another child fails at hiding by some barrels (he gets the Darwin award for hiding skills). Finally, you'll spot more footprints leading into the southern house. You can follow them into the house, but they lead out a back window, so circle around to the southern side of the house and follow the tracks north-west along the house to find the kid hiding in some bushes.
+
+The kids will come through and Geralt will take the opportunity to talk to the kid. The kid will tell you about Johnny, and more importantly, he'll confirm that Johnny has seen Ciri. Leave the village and head east to find a search area. Dispatch a Water Hag (level five) and some Drowners (level six) then activate your Witcher Senses to find Johnny's trail near the northern part of the search area. Examine them, then follow the trail west, then north, fending off another group of Drowners (level six) as you go. Eventually you'll reach Johnny's den, to the north-east of the "The Orphans of Crookback Bog" village, and south of Downwarren.
+
+Call for Johnny and the gross little godling will emerge from its burrow. Geralt will try to question it, and will get pantomimed responses in return. Looks like you're going to have to help it out to learn about Ciri.
+
+Objective	Reward
+For locating Johnny	150 XP
+Follow Johnny and kill some Drowners (level six) along the way until you leads you to a ledge you'll need to climb in order to find Johnny's voice. If you look up, you should spot a circling beast in the sky, so dispel any thoughts that this might be a bloodless task... unless you already killed the Harpies (level six) and Wyvern (level nine) during our run to Dragonslayer's Grotto, in which case, you merely have to pick your wap up the cliff. Once there, kill whatever needs to be killed and loot a nest near the cliff edge to recover a "Sealed Bottle" and a "Raven's Feather." The former object is what Johnny needs, while the latter is something we may be able to make use of shortly. Grab both.
+
+Carefully climb down the cliff and the godling will open the flask and, unfortunately, get its voice back, which it wastes no time in using. Get it to tell you about Ciri, which he'll do, as well as implicate some Crones who seem to govern everything in the swamp. At length you can ask him to help you learn what Gran knows. Follow him south to the swamp village-killing another Water Hag (level five) and another pair of Drowners (level six) along the way.
+
+Again, Johnny will keep his word and help you convince Gran to take you to the Ladies. Under Johnny's guilt trip, she'll relent, and lead you to the Ladies, who, of course, have their own demand to make of you. Once the Ladies are done talking to you, you'll be furnished with the "Crones' Dagger," which you'll need to convince the Ealdorman of Downwarren that you're working for the Ladies. Loot the shrine, then make your way north and slightly east to Downwarren... or fast-travel there using "The Orphans of Crookback Bog" signpost.
+
+Objective	Reward
+For meeting with the Ladies	150 XP
+Along the way, there's some additional loot you can score (if you don't fast travel, that is). By following the breadcrumb trail you'll eventually reach a road south of Downwarren that leads to the edge of the swamp, where some buildings are busy collapsing into the bog. At this spot there's a group of Bandits (level five). Kill them, then search around a house to the west to find a chest submerged in the swamp water, under the remains of a thatched roof.
+
+Talk to the Ealdorman and flash your pretty dagger to get him to open up more, at which he'll attribute all manner of inconsequential happenstances as signs of the benevolance-or wrath-of the Ladies. Get him to tell you about the village's problems and he will-with great detail. Seems we need to check out some Whispering Hillock. Before you go, however, be sure to play Gwent with the Merchant here if you haven't already, and grab the notice "Contract: Monster from the Swamp" from the notice board to start the quest "Swamp Thing" which we might as well do while we're down here and all...
+
+Swamp Thing (level 12)
+Head south-west from Downwarren where, at the edge of the swamp (west of the "Orphans of Crookback Bog") you'll find Leslav making an attempt at building a house. Listen to his story, haggle for a few more Crowns, then head south-east further into the swamp to find a search area. Turn on your handy-dandy Witcher Senses and you'll find a body near the center of the search area. Investigate it and the nearby rocks, and with the Eye of Neheleri you'll be able to dispel the rocks and study the monster tracks underneath.
+
+Follow the tracks to a camp, where you'll discover some of the mystery fog. It's not quite as toxic as the swamp gas we've seen before-it won't poison you, it'll just suffocate you. Wonderful. Search along the northern end of the shelter here to find a body. Once investigate Geralt will identify his prey.
+
+Objective	Reward
+For discovering the identity of the swamp monster	25 XP
+Head south-west from the shelter with your Witcher Senses active to find a rock face-another illusion, this one conceals a cavern (there are no fewer than three entrances to this cave). Dispel it and head inside the cave, where the smothering fog will no longer affect us. Continue south into the cavern until you reach a small, foggy chamber, where our Foglet-Ingis Fatuus-awaits.
+
+He fights like a common Foglet, turning into fog and making fog clones (two of them) regularly, and trying two attack us from the relative safety of the fog. Not hard tactics to counter. He also hits like a truck, which makes Quen your friend here. When he falls, loot his corpse for the Steel Sword "Carabella" and a Foglet Trophy. In the eastern-most of this cavern's three chambers you can find-in the south-eastern corner-a corpse propped up against a chest, with a sack nearby. All of them can be looted. The chest, in particular, contains the "Diagram: Superior Ursine Silver Sword." We'll be finding another Silver Sword Diagram shortly, closer to our level, but this is still a welcome find.
+Return to Leslav and collect your reward.
+
+Objective	Reward
+For slaying the Foglet	240 XP
+136 Crowns
+For the sake of simplicity, return to Downwarren, then leave Downwarren via the road to the south, and when the road splits the first time head south-east. Continue south-east until you spot a wagon wagon stuck in the swamp with a barrel and several sacks to loot. Search them, then explore some abandoned houses to the north-east, where an Alghoul (level fourteen) prowls. No single Alghoul is much of a threat, regardless of its level. Kill it and loot the houses that you can access for some meager loot.
+
+Guarded Treasure (level 8)
+Continue south-east along the road until it turns more south than east. Be wary of the swamp to the east, as a Bilge Hag (level twenty) likes to make her home there, and she's not above harassing travelling Witchers. West of the road you'll find a more modest threat in the form of Drowners (level six). If you're up for a bit of extra exploration and you're confident in your ability to defeat (or avoid) the powerful Water Hag, you can venture east of the road into the swamp to find a "Guarded Treasure" event. Here a less impressive Water Hag (level eight) guards a chest full of worthwhile loot. Why isn't the more powerful hag guarding the loot? Who cares. Take it and return to the road.
+
+Ruined Tower
+From where you encountered the Bilge Hag near the road turn south-west and continue off in that direction until you find the "Ruined Tower"-the signpost and the object. Search the eastern-most corner of these ruins to find a chest containing the Diagram: Superior Ursine Steel Sword. Score. When you're done oogling diagrams you can't make use of yet, return east to the road.
+
+The Whispering Hillock (level 5)
+Continue along the road until you come to another fork, stick to the south-west, which will lead you to the Whispering Hillock. When you cross the threshold of the rather large search area you'll head a disembodied voice, which starts the quest "The Whispering Hillock." The worst you'll have to face here are Wolves (level five) and a Warg (level eight). Explore south-east of the center of the search area to find the "Ancient Oak" signpost, then head west of the large tree in the center of the search area to find a Place of Power guarded by a Werewolf (level eight). Use Igni to soften the beast up, then Quen to protect yourself. That, and some fast attacks with your silver sword should be all you need. From the Place of Power turn north-east and climb a ledge to find a cave.
+
+Head inside the cave and dive into some water to the south. Swim further south to reach a small chamber dominated by a natural stone column. Search behind it to find a chest filled with valuable loot, then swim down a tunnel to the north-east and loot another chest to your left as you go for more quality loot. Surface when the tunnel to the north ends, then climb out of the water.
+
+Travel north into a chamber, where you'll find what's behind the voice that gives this area its name. This accursed being seems to have a different take on the Crones, but it should be taken with a grain of salt, seeing as they were former rivals. More likely, however, is that both sides are wrong, perhaps in different degrees or just in different ways. It will also claim the children from the swamp orphanage are in danger-you can either help this trapped spirit, or you can turn it down. Go along with it for now (you can change your mind later) as there's a few things we can do while working with the spirit, even if you don't want to side with it in the end. If you don't care about finding a sweet Silver Sword upgrade, though, skip to "Fighting the Ghost in the Tree," otherwise, everybody should continue with "Freeing the Ghost in the Tree."

@@ -1,0 +1,135 @@
+```yaml
+# Pr imal Mama Quest Functional Profile Data: QUEST_BayouBreakout
+# Converted from Markdown profile using Entity Functional Profile  Protocol structure.
+
+entity_id: QUEST_BayouBreakout
+entity_name: "Bayou Breakout"
+ concise_name: "Infiltrate Oligarchy Bio-Lab, Rescue Researcher, Expose Cattle Crimes."
+ entity_type: Quest
+primary_authentication_sources:
+  - Codex_Quest_BayouBreakout_v1. yaml
+  - Codex_PrimalMama_v0.1
+
+functional_properties_bundle:
+  core _function_purpose:
+    primary_role: |
+      Provide narrative progression by uncovering Coastal Meat Baron illicit activities (Cattle  Artifact experimentation); Facilitate player engagement with core world conflicts (Oligarchy vs. Locals, Truth vs. Deception ); Guide player through specific locations (Lickskillet Docks, Oligarchy Sub-Level). # Auth: YAML  Overall Structure
+    secondary_roles: |
+      Introduce key NPCs (Silas, Flicker, Dr. Thorne);  Showcase specific world elements (Erpenthrope abilities, 70s tech aesthetic, Vampire Bunnies, Fungal Zombies, Autom aton stigma); Offer optional player choices with minor consequences (Diversion tactics); Provide combat and exploration gameplay loops. # Auth: YAML Steps  1, 3, 4, 6, 7, 13
+
+  key_capabilities_ powers: # (Authenticated Player Functions Enabled by Quest)
+    - capability_id: FUNC-QBB-0 1
+      name: "NPC Interaction & Information Gathering"
+      description: "Enables player to initiate dialogue with  specific NPCs (Silas, Flicker, Beau, Thorne) to receive objectives, lore, and make requests."
+       authentication: "YAML Steps 1, 3, 4, 8, 11, 12 "
+      limits_nuances: "Dialogue outcomes may be influenced by player reputation (Automaton stigma); specific information  gated behind successful interrogation/rescue."
+    - capability_id: FUNC-QBB-02
+      name: "Environmental  Navigation & Exploration (Linear & Branching)"
+      description: "Enables player traversal through distinct environments: Lick skillet docks (chase sequence), Sub-Level Tunnels (water/dry sections), Oligarchy Bio-Processing  Floor (catwalks/labs). Includes looting opportunities."
+      authentication: "YAML Steps 2, 5,  6, 7, 9, 10, 12"
+      limits_nuances: " Chase sequence is largely linear pathfinding; Sub-Level requires specific obstacle clearing; Facility navigation requires keycards."
+    - capability_ id: FUNC-QBB-03
+      name: "Combat Engagement Functionality"
+      description: " Enables player combat against specific Primal Mama entities: Feral Vampire Bunnies, Bio-luminescent Fungal Zombies, Olig archy Security Troopers, Automatons, Chief of Security (Boss)."
+      authentication: "YAML Steps 6, 7 , 9, 10, 12"
+      limits_nuances: "Enemy types are location-specific;  Boss has defined mechanics (reinforcements)."
+    - capability_id: FUNC-QBB-04
+      name:  "Problem-Solving Functionality (Obstacles/Puzzles)"
+      description: "Enables player to overcome environmental /mechanical obstacles: Operating Sluice Gate (requires finding Control Rod), Breaching Weakened Wall (requires specific tool/item),  Bypassing Security (requires keycards/hacking/scrambler)."
+      authentication: "YAML Steps 6, 7 , 11"
+      limits_nuances: "Solutions are specific and required for progression; relies on finding/ using designated items/tools."
+    - capability_id: FUNC-QBB-05
+      name:  "Quest Item Utilization"
+      description: "Enables player to acquire and use quest-specific items: Bio-Signature Sc rambler, Control Rod, Security Access Card, Master Access Keycard."
+      authentication: "YAML Steps 5, 6 , 7, 11"
+      limits_nuances: "Items have specific functions tied to quest progression;  Scrambler utility is limited."
+    - capability_id: FUNC-QBB-06
+      name : "Optional Choice & Consequence (Minor)"
+      description: "Enables player to pursue optional diversion tactics with  potential minor benefits (easier infiltration) or consequences (Beau's refusal based on stigma). Enables choice regarding follow- up action post-quest."
+      authentication: "YAML Steps 4, 13"
+      limits_nuances:  "Diversion choice impacts immediate gameplay difficulty slightly; Post-quest choice determines narrative direction."
+
+  acquired_skills_expertise : # (Authenticated Player Proficiency Tested/Required)
+    - skill_id: SKL-GATOR-COMBAT
+       name: "Basic Combat Proficiency"
+      proficiency_level_required: "Competent (handling multiple enemies,  boss mechanics)."
+      authentication: "Required by mechanics in YAML Steps 6, 7, 9,  10, 12."
+    - skill_id: SKL-GATOR-NAV
+      name : "Environmental Navigation & Platforming"
+      proficiency_level_required: "Basic (following paths, climbing,  swimming, minor chase mechanics)."
+      authentication: "Required by mechanics in YAML Steps 2, 6,  7, 10, 12."
+    - skill_id: SKL-GATOR-EXPL ORE
+      name: "Exploration & Observation"
+      proficiency_level_required: "Attentive (finding loot, locating  key items like Control Rod, identifying weak walls)."
+      authentication: "Required by mechanics in YAML Steps 6,  7, 9, 10, 11."
+    - skill_id: SKL-G ATOR-INTERACT
+      name: "Dialogue & Objective Comprehension"
+      proficiency_level_required: " Functional (understanding instructions, choosing dialogue options)."
+      authentication: "Required by mechanics in YAML Steps 1,  3, 4, 8, 11, 12."
+
+  inabilities_lack_of_function:  # (Authenticated Quest/Player Limitations)
+    - inability_id: INAB-QBB-01
+       description: "Cannot bypass core progression obstacles (Sluice Gate, Weak Wall, Locked Doors) without fulfilling specific mechanical requirements ( finding item, using tool/keycard)."
+      authentication: "Implied by quest structure in YAML Steps 6 , 7, 11."
+      narrative_function: "Ensures engagement with intended challenges and environments ."
+    - inability_id: INAB-QBB-02
+      description: "Cannot resolve the core conflict with  the Coastal Meat Barons *within* this quest; only gathers evidence/rescues witness."
+      authentication: " Quest scope defined by YAML Step 13."
+      narrative_function: "Sets up potential future quests/ player actions."
+    - inability_id: INAB-QBB-03
+      description: "Cannot  freely explore the Oligarchy facility outside designated quest paths and accessible areas defined by keycards/progress."
+      authentication: "Implied  by level design constraints typical for such quests."
+      narrative_function: "Maintains focus, controls pacing."
+
+   vulnerabilities_weaknesses: # (Authenticated Points of Failure for Player)
+    - vulnerability_id: VULN -QBB-01
+      description: "Player death during combat encounters or environmental hazards."
+      authentication:  "Standard gameplay mechanic assumed."
+      narrative_function: "Provides challenge and consequence for mistakes."
+    -  vulnerability_id: VULN-QBB-02
+      description: "Failure to secure optional diversion (Step 4 ) may lead to increased difficulty/enemy awareness during infiltration (implied)."
+      authentication: "Implied by branching  logic in YAML Step 4."
+      narrative_function: "Rewards player choice and engagement with optional content." 
+    - vulnerability_id: VULN-QBB-03
+      description: "Potential failure state  if essential NPCs (e.g., Dr. Thorne during escape) are not protected (if designed with such fail states )."
+      authentication: "Potential design implementation, not explicit in YAML."
+      narrative_function: "Adds  escort-style tension if implemented."
+
+  costs_dependencies_operational_constraints: # (Authenticated Limits on Function)
+     - constraint_id: COST-QBB-01
+      applies_to: "Player Character ( Gator)"
+      description: "Requires expenditure of player time and effort to complete all steps."
+      authentication:  "Implicit nature of quests."
+      narrative_function: "Core gameplay loop investment."
+    - constraint_ id: COST-QBB-02
+      applies_to: "Player Character (Gator)"
+       description: "Requires consumption of in-game resources (ammunition, healing items, potentially charges for Sonic Pul ser/Demo Charges)."
+      authentication: "Implied by combat and obstacle mechanics in YAML Steps 6,  7, 9, 10, 12."
+      narrative_function: "Resource management challenge ."
+    - constraint_id: DEPEND-QBB-01
+      applies_to: "Quest  Progression"
+      description: "Requires sequential completion of core steps (e.g., cannot enter facility without reaching drain, cannot open  labs without access card, cannot rescue Thorne without Master Key)."
+      authentication: "Logical flow of YAML steps."
+      narr ative_function: "Structures the narrative and gameplay flow."
+    - constraint_id: DEPEND-QBB- 02
+      applies_to: "Specific Actions"
+      description: "Requires acquisition and use of specific Key Items ( Control Rod, Access Cards, Scrambler) for designated obstacles/interactions."
+      authentication: "Mechanics in  YAML Steps 6, 7, 11."
+      narrative_function: "Gates progression, provides mini -objectives."
+    - constraint_id: OPCON-QBB-01
+      applies_ to: "Optional Diversion (Step 4)"
+      description: "Success/failure of securing diversion contingent on player's  reputation/stigma state regarding Automaton/LLM usage."
+      authentication: "Branching logic in YAML Step 4." 
+      narrative_function: "Integrates world's social rules into gameplay."
+
+functional_profile_summary :
+  core_functional_identity: |
+    QUEST_BayouBreakout functions as a multi-stage  narrative delivery mechanism, guiding the player through investigation, chase, infiltration, combat, and puzzle-solving loops. It leverages  core Primal Mama mechanics and lore (Erpenthropes, Oligarchy, Cattle Taboo, 70s Tech , specific creatures) to create a cohesive gameplay experience focused on uncovering inconvenient truths and challenging established power structures.
+  key_narr ative_functions_served: |
+    Drives the central plot against the Coastal Meat Barons; Establishes Silas as  a key ally/quest giver; Introduces the threat/nature of Oligarchy operations; Provides concrete evidence of illegal Cattle  Artifact experimentation; Creates narrative choices with immediate (diversion) and long-term (follow-up quest) consequences;  Reinforces world themes of decay, corruption, hidden truths, and retro-futuristic dissonance.
+  relationship_to_al ethic_modality: |
+    The quest operates firmly within Primal Mama's established rules: necessitates dealing  with authenticated creatures (Vampire Bunnies, Fungal Zombies), utilizes world-specific technology (Scrambler,  Solar Skiff, 70s aesthetic Automatons), hinges on the absolute prohibition of Cattle consumption/experimentation, and involves entities  with defined supernatural capabilities (Silas the Erpenthrope).
+  key_functional_tensions_tradeoffs: |
+     Stealth vs. Direct Combat approaches in infiltration sections; Optional objective (Diversion) risk/reward vs. direct progression; Resource  expenditure (ammo/health) vs. efficient completion; Following linear path vs. minor exploration for loot/lore.
+
+ ```

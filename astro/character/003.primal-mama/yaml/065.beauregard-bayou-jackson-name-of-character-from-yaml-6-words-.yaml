@@ -1,0 +1,100 @@
+
+World: Primal Mama 
+Codex_Version: '0.2 - Character Constitution (Beauregard)'
+Last_Updated: '[ Current Date]'
+Lead_Architects: '[Your Name/Studio Name]'
+
+Character_Profile:
+  Entity_ID : CHAR_BeauregardJ_01
+  Character_Name: 'Beauregard "Bayou" Jackson' 
+  Entity_Type: 'Person (Human Citizen)'
+  Archetype: 'Resourceful Swamp Tinkerer /  Skeptical Local'
+  Primary_Authentication_Sources: 'This Codex Entry, Primal Mama Coherence Protocol v0 .1'
+  Canon_Tier: 'Tier 2 (Significant Local)'
+  Authentication_Status: Authent icated_Canonical_Active
+
+Authenticated_Property_Bundle:
+  Physical_Properties:
+    Purpose: "Define  the character's tangible presence."
+    Appearance_General: "[Human male, appears late 40s,  wiry build from physical work, sun-weathered skin common to Lickskillet denizens.] # Auth:  [Primal Mama Visual Palette - Lickskillet]"
+    Appearance_Specific_Features: "[Deep-set  hazel eyes, often squinting against glare or in thought; prominent nose that's been broken at least once; lines  etched around mouth and eyes from sun and expressive cynicism.] # Auth: [Character Concept Art Ref]"
+    Appearance_ Distinctive_Marks: "[Old alligator bite scar on his left forearm (a common 'Lickskillet handshake'); grease  permanently under fingernails; often has a small piece of cattail reed he chews on.] # Auth: [Narrative Description  - Minor Event]"
+    Typical_Attire: "[Worn denim overalls (patched with various 70s- esque fabric scraps) over a faded, usually dark-colored t-shirt (perhaps with a faded band logo from a non-de ified 70s band); heavy-duty, waterproof work boots. Occasionally a wide-brimmed, battered  fishing hat.] # Auth: [Primal Mama Aesthetics Guide - Working Class]"
+    Voice_Speech_Pattern: "[Slow , deliberate Southern drawl, infused with Lickskillet vernacular; prone to folksy aphorisms and dry, sarcastic humor.  Voice can carry over the thrum of an airboat engine.] # Auth: [Dialogue Snippets - Local Flavor]"
+    G ait_Mannerisms: "[Economical movements, no wasted effort; often leans against things when talking; habit of wiping  hands on his overalls, even if they're clean; can expertly navigate uneven swamp terrain and unsteady boat decks.] # Auth: [ Action Descriptions - Environmental Interaction]"
+    Associated_Scent_If_Any: "[Swamp water, metallic tang of old  machinery, faint whiff of solar battery electrolyte, and often, fried alligator.] # Auth: [Sensory Palette - Lick skillet Environment]"
+    Physical_Undersaturation: "[Exact height/weight, specific non-work attire (if  any), childhood appearance.]"
+
+  Functional_Properties:
+    Purpose: "Define what the character *can*  and *cannot* do."
+    Skill_Mechanic: "[Expert Mechanic (Specializing in 1970s -aesthetic airboat engines, solar power converters for local use, and basic alligator processing machinery – within the 19 70s tech constraint)] # Auth: [Demonstrated Actions - Repair Scenarios]"
+    Skill_Airboat_Pilot:  "[Proficient Airboat Pilot (Navigating complex bayou routes)] # Auth: [Narrative Travel Sequences]"
+    Skill _Barterer: "[Competent Barterer (Essential for acquiring parts and supplies in Lickskillet's economy )] # Auth: [Dialogue Interactions - Trade]"
+    Skill_Shotgun_User: "[Decent Shotgun User  (Common for personal protection and nuisance animal control outside Beetriot, adhering to gun ownership norms)] # Auth: [Primal Mama  Deontic Rules - Gun Ownership]"
+    Knowledge_Local: "[Extensive local knowledge of Lickskillet bay ou geography, common flora/fauna (including awareness of Vampire Bunny presence, though not their creation), and local folklore /superstitions.] # Auth: [Narrative Exposition - Local Guide]"
+    Limitation_Physical: "[Average  human strength, susceptible to swamp diseases if careless; reliant on his tools for complex tasks.] # Auth: [Baseline Human  Stats - Primal Mama]"
+    Limitation_Knowledge: "[No understanding of advanced genetic engineering (beyond knowing the  gators are GE). Little formal education; knowledge is practical, not theoretical. Unaware of Erpenthrope true  nature (might just see them as exceptionally tough/weird individuals if encountered untransformed). Limited knowledge of Beetriot politics  or the Meat Oligarchy's inner workings beyond local impacts.] # Auth: [Dialogue indicating lack of specialized knowledge]"
+    Lim itation_Social: "[No official power; operates a small, independent repair/salvage business ('Bayou'' s Repurposed Parts & Solar Serf-ice'). Socially avoids known Automaton/LLM users due to  stigma, hindering access to potentially useful (but forbidden) diagnostic tools.] # Auth: [Primal Mama Deontic Rules - Autom aton Stigma]" # Value contains 'Serf-ice:' and 'Auth:'
+    Functional_Undersaturation : "[Ability to perform ritual magic (explicitly lacks this); proficiency with computers beyond basic 1970s -style interfaces; artistic talents.]"
+
+  Psychological_Properties:
+    Purpose: "Define the character's  textually constituted inner life."
+    Core_Trait_Pragmatism_Resourcefulness: "[Pragmatism /  Resourcefulness] # Auth: [Problem-solving actions]"
+    Core_Trait_Cynicism_Suspicion: "[C ynicism / Suspicion of Authority (especially Beetriot elites and Meat Oligarchy representatives)] # Auth: [Dialogue, internal  grumblings if POV]"
+    Core_Trait_Independence_Self_Reliance: "[Stubborn Independence / Self-Reliance]  # Auth: [Resistance to being controlled by Oligarchy; pride in his small business]"
+    Dominant_Emotion : "[Weary Resignation (towards the status quo) / Irritation (at inefficiencies and injustice)] # Auth: [ Narrator Descriptions, Tone of Dialogue]"
+    Key_Motivator: "[Maintaining his livelihood and small measure of autonomy ; providing reliable service to his community; quiet resentment of the Meat Oligarchy's encroachment.] # Auth: [St ated Goals, Reactions to Oligarchy's actions]"
+    Key_Belief_Fair_Work_Conspiracy: "[ Believes in 'a fair day''s work for a fair day''s pay.' Believes the 'Invisible Women' conspiracy  is likely true, blaming them for the power of the Meat Oligarchy and the difficulty for small operators to thrive. Accepts  the cattle consumption taboo as an undeniable fact of life post-Calamity.] # Auth: [Dialogue, casual references  to the conspiracy]" # Value contains 'Auth:'
+    Key_Belief_Jerry_Reed_Reverence: "[ Reveres Jerry Reed as a symbol of roguish charm, anti-authoritarian wit, and musical skill; may  hum his tunes or quote lines from 'Smokey and the Bandit' as expressions of defiance or good humor.] # Auth : [Primal Mama Axiological Rules - Deified Celebrities]" # Value contains 'Auth:'
+    Internal_Conflict: "[ Desire for a simpler, fairer life vs. the complex and often corrupt reality of Primal Mama. Loyalty to his  community vs. his own safety when dealing with oligarchy pressures. Practical skepticism vs. ingrained local superstitions (e.g.,  about ghosts or Swamp Witch powers – he'll avoid a known witch''s territory but scoff at some of the wilder  tales).] # Auth: [Difficult Choices, Hesitations Depicted]" # Value contains 'Auth:'
+    Subjective_Memory_ Content: "[Clear memories of growing up in Lickskillet post-Calamity, the gradual tightening of the Meat  Oligarchy's grip. Remembers his father teaching him mechanics on old, salvaged pre-Calamity (but still 7 0s-ish) schematics. No direct memory of the Calamity itself, only stories.] # Auth: [Back story Snippets]" # Value contains 'Auth:'
+    Psychological_Undersaturation: "[Deep romantic attachments, specific childhood  fears (beyond general swamp dangers), detailed philosophical views on Erpenthrope existence (likely views them as just another weird swamp  thing if he's even aware).]"
+
+  Social_Relational_Categorical_Properties:
+    Purpose : "Define the character's place within the world's networks."
+    Official_Role: "[Owner/Operator of  'Bayou''s Repurposed Parts & Solar Serf-ice' (a small, independent business in L ickskillet)] # Auth: [Narrative Introduction]" # Value contains 'Serf-ice:' and 'Auth :'
+    Social_Status: "[Respected local craftsman in Lickskillet; working class; viewed with indifference  or as a minor obstacle by Meat Oligarchy agents.] # Auth: [Interactions with other characters]" # Value contains 'Auth :'
+    Primary_Affiliation: "[Lickskillet Community (Informal)] # Auth: [Residency, Business  Clientele]" # Value contains 'Auth:'
+    Secondary_Affiliations: "[Loose network of other small-time  alligator-industry support businesses (e.g., bait suppliers, small-scale processors he repairs gear for)] # Auth: [ Business Interactions]" # Value contains 'Auth:'
+    Key_Relationship_1_Farmers: "[To various Mom-and- Pop Alligator Farmers: Valued customers, source of income and local news; feels a sense of solidarity with them against  the Oligarchy.] # Auth: [Dialogue/Service Scenes]" # Value contains 'Farmers:' and 'Auth:'
+     Key_Relationship_2_Oligarchy: "[To Meat Oligarchy Middle-Management/Enforcers ( e.g., for parts supply chains or 'compliance checks'): Tense, distrustful, transactional, often involving veiled threats or  bureaucratic obstruction from their side.] # Auth: [Conflict Scenes]" # Value contains 'Enforcers:' and 'Auth:' 
+    Key_Relationship_3_Mama_Gumbo: "[To 'Mama Gumbo' (elderly L ickskillet woman, local lore-keeper, rumored to have minor dealings with Swamp Witches for ingredients): Respectful, sometimes  seeks her advice on local matters or hard-to-find 'natural' remedies/materials, keeps a polite distance from her  more esoteric connections.] # Auth: [Dialogue, local interactions]" # Value contains 'ingredients):' and 'Auth:'
+    Species _Type: "[Human (Baseline Primal Mama Strain)] # Auth: [Default/Description]" # Value contains ' Auth:'
+    Social_Undersaturation: "[Specific family members (wife, children implied but not detailed); close personal friendships beyond  professional camaraderie; enemies beyond the Oligarchy.]"
+
+  Modal_Properties:
+    Purpose: "Define any inherent unique  relationship to world laws."
+    Entries:
+      - Property_ID: N/A
+        Property: " None Authenticated."
+        Description: "Operates fully under the general Alethic, Deontic, Axi ological, and Epistemic modalities of Primal Mama for a baseline human citizen of Lickskillet."
+         Limits: N/A
+        Authentication: "Absence of any textual evidence suggesting exceptional status."
+    Note:  "Beauregard is intended as a 'normal' citizen within the Primal Mama context."
+
+  Axiological_Properties :
+    Purpose: "Define the character's value status *within* Primal Mama."
+    Reputation_ Lickskillet_Community: "[Authenticated as viewed as 'reliable', 'fairly priced (if a bit grumpy)', ' knows his stuff with old tech', 'won''t rat you out to the Oligarchy unless his own skin is on the line '.] # Auth: [Community Dialogue about him]" # Value contains 'Auth:'
+    Reputation_Meat_ Oligarchy: "[Authenticated as 'minor independent operator', 'potentially uncooperative but not a major threat', 'useful  for maintaining older local infrastructure the Oligarchy doesn''t want to invest in directly'.] # Auth: [Oligarchy internal  discussion if shown, or their dismissive actions]" # Value contains 'Auth:'
+    Moral_Alignment_Narrative_Fram ing: "[Authenticated via narrative perspective as a fundamentally decent, hardworking individual trying to get by in a flawed system; embodies pragmatic  survival and quiet resistance.] # Auth: [Narrator Tone, Sympathetic Portrayal of his struggles]" # Value  contains 'Auth:'
+    Axiological_Undersaturation: "[Reputation in Beetriot (likely unknown); specific views  of him by Swamp Witches or Erpenthropes (if they are even aware of him distinctly).]"
+
+  Historical _Properties:
+    Purpose: "Define the character's known origins and connections to past events."
+    Origin : "[Authenticated as born and raised in Lickskillet, approximately one generation after the Biological Calamity. Son of a now -deceased airboat mechanic.] # Auth: [Backstory references, dialogue about his father]" # Value contains 'Auth:'
+     Key_Past_Event_Connection: "[Witnessed the economic 'squeeze' by the Meat Oligarchy on Lickskillet  over the last two decades. Remembers tales from elders about the immediate aftermath of the Calamity and the 'miracle' of  the first GE alligators suitable for widespread consumption.] # Auth: [Internal reflections, dialogue]" # Value contains 'Auth:'
+     Inherited_Items: "[Authenticated to possess his father''s well-worn set of 1970s -style analog diagnostic tools (multimeters, oscilloscopes with CRT screens, etc.) and a cherished, slightly scratched 8-track  of Jerry Reed''s 'East Bound and Down'.] # Auth: [Narrative inventory, description of his workshop]" # Value  contains 'Auth:'
+    Historical_Undersaturation: "[Specific details of his mother''s life/fate; precise  timeline of his apprenticeship; any significant personal tragedies beyond the general hardship of Lickskillet life.]"
+
+Character_Constitution_Summary _and_Narrative_Function:
+  Purpose: "Synthesize the core identity, internal conflicts, and narrative  role emerging from the authenticated property bundle."
+  Core_Essence: |
+    Beauregard "Bayou" Jackson  is constituted as a pragmatic and resilient Lickskillet citizen, deeply enmeshed in the 1970 s technological and alligator-based economy of Primal Mama. His identity is forged by his practical skills in maintaining the world 's retro-future tech, his cynical but ultimately communal worldview, and his quiet struggle against the encroaching Meat Olig archy. He embodies the everyday reality of life in the swamps, complete with its ingrained superstitions (ghosts, cautious  respect for witches), adherence to core taboos (cattle), and cultural touchstones (reverence for figures like Jerry Reed , belief in conspiracies like the "Invisible Women").
+  Primary_Narrative_Function: |
+    Serves  as a grounded, relatable viewpoint character for the Lickskillet region, showcasing the daily life, challenges, and socio -economic pressures faced by ordinary citizens. He can act as a source of local information, a reluctant ally, or a  representation of the "common folk" impacted by larger events and powerful entities. His workshop can be a hub for local plot lines.
+  Key_Internal_Conflicts_From_Bundle: |
+    The drive for independence vs. the pragmatic need to  cooperate (or at least not overtly antagonize) the powerful Meat Oligarchy. Skepticism of the supernatural vs.  the undeniable weirdness of Primal Mama (Vampire Bunnies, whispers of Erpenthropes, local  ghost stories). Desire for fairness vs. the cynicism born from experience. Adherence to the 1970s aesthetic in his  work vs. the frustration of its limitations (and the stigma of more advanced (forbidden) tools).
+  Potential_for_ Development_Based_on_Bundle: |
+    Could be pushed into more active resistance against the Oligarchy through personal  loss or community crisis. Might uncover more about local secrets (e.g., the true nature of a local Erp enthrope, the activities of Swamp Witches) forcing him to confront his skepticism. Could be forced to choose between his independence and  the survival of his business/community, potentially having to make morally grey choices. Might reluctantly learn to trust an outsider or  someone with "tainted" knowledge (e.g., a disgraced Automaton user) if desperate.
+
+End_of_F ictional_Person_Profile: CHAR_BeauregardJ_01

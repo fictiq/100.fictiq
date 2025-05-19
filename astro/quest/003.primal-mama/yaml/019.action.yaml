@@ -1,0 +1,149 @@
+
+QuestProfile:
+  Cod exVersion: 0.1
+  LastUpdated: "[Current Date]"
+  LeadArchitect(s): "[ Your Name/Studio Name]"
+  QuestID: PQ_LKSK_003
+  QuestName: Bayou  Binary Blues
+  Location(s): "Lickskillet outskirts, Mama Juneau's Gator Farm, potentially  a rival processing shed."
+  QuestGiver: "Mama Juneau, a weathered but resilient gator farmer." 
+  SuggestedLevel: 5-8
+  EstimatedPlaytime: "45-75 minutes"
+
+   OverviewNarrativeHook:
+    Logline: |
+      Mama Juneau's prize solar-powered GE Alligator,  "Burt Reynolds the Third," is suffering from a mysterious ailment, refusing to bask or charge properly. She suspects sabotage or a rare  swamp sickness and needs an outsider's help to diagnose the problem before her prized breeder wastes away, impacting her livelihood in  the competitive Lickskillet gator-processing scene.
+    NarrativeHook: |
+      The player might overhear  Mama Juneau complaining at the Lickskillet general store, find a notice on a local analog comm-board ( made of cork and blinking LEDs), or be approached directly by her if they have a reputation for fixing things or dealing with  oddities.
+    Themes: |
+      Technological reliance and its vulnerabilities, corporate vs. independent struggles, the  resilience of the common folk, the blend of advanced biotech with retro-futuristic aesthetics.
+
+  Objectives:
+    -  'Speak with Mama Juneau: Understand the symptoms and history of Burt Reynolds the Third''s ailment.'
+    -  'Examine Burt Reynolds the Third: Use Primal Sense (or equivalent investigative skill) to assess the gator'' s physical condition.'
+    - 'Inspect the Solar Charging Station: Check the 1970s-style  charging array for malfunctions or tampering.'
+    - 'Investigate the Gator Pen: Look for environmental clues, foreign objects, or signs  of intrusion.'
+    - '(Optional) Consult a Local Expert: Depending on findings, seek advice from a backwoods tech -shaman (mechanic specializing in retro-biotech interfaces) or even a reclusive Swamp Witch if signs point to unnatural  causes.'
+    - 'Diagnose the Problem: Determine the cause of the gator''s malfunction.'
+    - 'Resolve  the Issue:'
+    - '  If technical: Repair the charging station or remove a foreign technological agent.'
+    -  '  If sabotage: Identify and potentially confront the saboteur.'
+    - '  If "unnatural": Proc ure a remedy or perform a counter-ritual.'
+    - Report back to Mama Juneau.
+
+  Walkthrough:
+     - Step: A
+      Title: "Starting the Quest: \"That Gator Ain't Right\""
+       Details: |
+        The player finds Mama Juneau near her gator farm on the outskirts of Lickskillet.  Her farm is a modest collection of interconnected pens, powered by several large, somewhat rusted solar arrays with distinct 197 0s design (large, clunky panels, exposed conduits with thick insulation).
+      DialogueSnippet:
+        Character: " Mama Juneau"
+        Text: |
+          Glad you stopped by, Wanderer. It's Burt...  Burt Reynolds the Third. My prize stud, solar-scales brighter'n a disco ball usually. Now... he just  lays there. Won't bask, won't charge. Got the shakes somethin' fierce. If he cro aks, ol' Man Weatherby from MegaGator Corp will be sniffin' 'round my lease like a starved  hound. You gotta help me.
+      ActionContextNote: 'Player uses dialogue options to ask about symptoms, timeline , and potential enemies. Mama Juneau''s dialogue establishes her Functional Property as a `Knowledge Source (Local, Gator  Husbandry)` but limited in `Technical Expertise`.'
+
+    - Step: B
+      Title: "The Sickly Star : Examining Burt Reynolds III"
+      Details: |
+        The player approaches Burt Reynolds III's pen. The  gator is indeed listless, its normally vibrant solar-receptive chromatophores are dull and flickering sporadically.
+         [ACTION CONTEXT]: Player activates "Primal Sense."
+            Highlighted: Gator's skin (flickering chromatophores ), labored breathing, a faint, unusual hum emanating from its bio-battery access port (a 70s- style latch panel on its flank).
+            [ENTITY FUNCTIONAL PROFILE - GE ALLIGATOR]:
+                Core Function : Solar Energy Absorption via specialized chromatophores.
+                Current State: Impaired solar absorption, low energy.
+                 Vulnerability: Dependence on solar power; bio-battery integrity.
+
+    - Step: C
+      Title: " Power Problems: Inspecting the Solar Charging Station"
+      Details: |
+        Mama Juneau directs the player to Burt 's dedicated charging station – a large, wood-paneled console with chunky buttons, oversized toggle switches, and analog  dials with flickering amber readouts.
+        [ACTION CONTEXT]: Player interacts [X] with the console. A mini -game could involve flipping switches in a sequence or tuning dials to get a stable reading, adhering to the `Technological Aesthetic Constraint  (Late 1970s)`.
+            Readings are erratic. Main power seems okay, but the "Bio -Sync Modulator" dial is jittery.
+            Using Primal Sense on the console reveals a recently disturbed access  panel at the back, crudely re-fastened. Inside, a small, unfamiliar device with a single blinking red LED  is wired into the modulator. It doesn't match the 70s aesthetic; it's sleeker,  almost... *too modern* in a cheap way.
+            [ENTITY FUNCTIONAL PROFILE - 1970 s TECH]:
+                Core Function: Regulate and transfer solar power to GE Alligator.
+                Vulnerability: Can  be tampered with; analog components can be disrupted by foreign signals.
+                Limitation: Diagnostic capabilities are basic and  require manual interpretation.
+
+    - Step: D
+      Title: "Pen Prowling: Investigating the Gator  Pen"
+      Details: |
+        Searching the pen reveals:
+            Scuff marks near the bio-battery access port  on Burt.
+            Faint traces of an oily, synthetic residue near the charging station's tampered panel. 
+            [ACTION CONTEXT]: Player might need to pass a Perception/Survival check to find these subtle clues.
+            If  the player investigates the oily residue further, Primal Sense might reveal it has a faint, almost imperceptible digital signature, hinting at  Automaton involvement (triggering awareness of the `Automaton/LLM User Stigma` if the player considers who might use such  tech).
+
+    - Step: E
+      Title: "The Diagnosis: Automaton Interference"
+      Details: |
+         The evidence points to a sophisticated, externally-introduced device disrupting the solar charging and potentially the gator's internal bio -battery. The device is an "Automaton Signal Jammer," a piece of black-market tech used to subtly cri pple rivals' GE livestock by interfering with their energy regulation systems. Such tech is implicitly forbidden or at least heavily frowned upon due to the  `Automaton/LLM User Stigma`.
+        [ACTION CONTEXT]: Player might need to pass an Electronics/Tech- Lore check (perhaps aided by the backwoods tech-shaman if consulted) to identify the device. The tech-shaman' s dialogue could reinforce the 70s aesthetic: "Ain't seen one of these since the '82  Bayou Blackout! Nasty little buggers, bypassin' good honest analog for that... *digital* nonsense." 
+            [ENTITY FUNCTIONAL PROFILE - AUTOMATON SIGNAL JAMMER]:
+                Core Function: Disrupt electronic/bio-electric  signals within a short range.
+                Capability: Can override or interfere with 1970s-style analog  control systems due to its targeted frequency.
+                Limitation: Requires close proximity to target system; leaves detectable residue/ EM signature if not carefully deployed.
+
+    - Step: F
+      Title: "Resolution Paths"
+      Paths:
+         - Title: "Path 1: Removing the Jammer & Shielding the System (Technical)"
+          Details : |
+            Player can attempt to remove the jammer. This might involve a mini-game: carefully snipping wires with chunky , insulated pliers, or grounding the device before removal to prevent a power surge that could further harm Burt.
+            Success : Burt's chromatophores stabilize, he begins to bask. Mama Juneau is overjoyed.
+            (Optional)  Follow-up: Player can help Mama Juneau install some "Old Tech" shielding (e.g., a Faraday  cage made of copper mesh and retro diodes) around the charging station to prevent future jamming.
+            [ACTION CONTEXT ]: Crafting/Repair skill check. The 70s aesthetic means the shielding components would look appropriately retro.
+         - Title: "Path 2: Tracing the Saboteur (Investigative/Confrontational)"
+           Details: |
+            The oily residue and the non-standard tech of the jammer could lead to a rival  processing shed known for cutting corners or even having a rumored "Automaton tinkerer" on payroll (a heavily stigmatized individual ).
+            Player can track the saboteur (Stealth/Survival checks) or confront the rival manager.
+                 Confrontation could lead to a fight, a tense negotiation, or the rival feigning ignorance.
+                If the sab oteur is found (perhaps the Automaton user), the player has a choice: turn them over to Lickskillet' s rough justice (likely severe due to Automaton stigma and economic sabotage), extract a payment for Mama Juneau, or let them go  with a warning (perhaps if they were coerced by the oligarchy).
+                [DEONTIC MODALITY]: Consequences  of using forbidden Automaton tech are severe. The oligarchy's pressure creates friction.
+        - Title: "( Less Likely) Path 3: Unnatural Interference (Supernatural)"
+          Details: |
+            If clues were more  ambiguous (e.g., strange symbols, cold spots), consulting a Swamp Witch might be an option. She might identify  the jammer as "bad juju" but ultimately point to its technological origin, or offer a ritual to "cleanse"  Burt and his station if the jammer caused some lingering "techno-spiritual malaise."
+            [ENTITY FUNCTIONAL  PROFILE - SWAMP WITCH]:
+                Capability: Rituals, esoteric knowledge.
+                Cost/Dependency: May require rare  swamp ingredients or a favor.
+
+    - Step: G
+      Title: "Conclusion: A Brighter Burt" 
+      Details: |
+        Regardless of the path, once Burt Reynolds III is recovering, Mama Juneau is grateful .
+      DialogueSnippet:
+        Character: "Mama Juneau"
+        Text: |
+          By Burt Reynolds' own  glorious mustache, you done it, Wanderer! Burt's lookin' chipper already. Lickskillet ain 't much, but folks like us gotta stick together against them MegaGator suits. You take this, and know you always got  a hot plate of gator steak waitin' for ya here.
+
+  Rewards:
+    Standard:
+      -  Experience Points.
+      - Credits/Scrip (local currency).
+      - A generous portion of Prime Alligator Meat.
+       - Increased reputation with Lickskillet independents.
+    BonusPathDependent:
+      - 'If saboteur confronted successfully : Extra Credits/Scrip or a unique piece of salvaged 70s tech (e.g., a "Chromatic Tun er" that slightly boosts solar gator efficiency for a time).'
+      - 'If tech-shaman consulted: A schematic for  a basic anti-interference device (1970s style).'
+      - 'If Swamp Witch consulted: A  minor protective charm or a unique alchemical recipe.'
+
+  QuestIntegrationNotes:
+    CoherenceAndInternalLogicProtocol:
+       Alethic: |
+        The GE Alligator's solar dependency and reaction to interference are central. The 1 970s tech aesthetic dictates how diagnostics and repairs are approached (no simple plug-and-play). The Automaton  Signal Jammer is a 'possible' piece of tech, though its use is illicit.
+      Deontic:  |
+        The potential involvement of MegaGator Corp reflects the "friction" caused by meat processor oligarchies. The use of an  Automaton-derived device carries significant social/legal risk due to the "Automaton/LLM User Stigma."
+      A xiological: |
+        Mama Juneau's valuation of her prize gator drives her need for help. The  player's actions can reflect values of justice, pragmatism, or helping the underdog. The 1970s aesthetic is  the "correct" way for tech to be, making the jammer stand out.
+      Epistemic: | 
+        Knowledge for diagnosing advanced biotech through a 70s interface is specialized (hence the optional tech-shaman ). The "truth" of the sabotage might be obscured by MegaGator Corp's influence.
+      HistoricalTemporal : |
+        The quest occurs in the "Primal Mama present," reflecting the post-calamity reliance on GE g ators and the established tech aesthetic.
+      Synchronic: |
+        The existence of advanced biotech (GE gators, j ammers) alongside the 1970s tech aesthetic is a core tension explored. Lickskillet's culture of independent  gator farming contrasts with Beetriot's elite.
+    EntityFunctionalProfileProtocolImplicitApplication:
+      Player: 'Functions  defined by skills (Investigation via ''Primal Sense,'' Dialogue, Combat, Basic Tech Interaction [repairing 70s tech]).  Limitations might be lack of deep bio-engineering knowledge.'
+      GE_Alligator_Burt_Reynolds_III: 'Functional  properties (solar absorption, regeneration) are key to its value and the problem. Vulnerabilities (energy disruption) are exploited .'
+      Mama_Juneau: 'Functional property as quest giver and information source. Limited by lack of tech skills.' 
+      Solar_Charging_Station_Automaton_Jammer: 'Their functions (power regulation / signal disruption) and  limitations (vulnerability to tampering / detection) drive the plot.'
+      Optional_NPCs_TechShaman_Sw ampWitch_RivalManager: 'Each would have specific functional capabilities (e.g., `Tech Repair (Retro -Bio)`, `Ritual Magic (Swamp)`, `Intimidation/Deception`) and limitations that affect how they can  help or hinder.'

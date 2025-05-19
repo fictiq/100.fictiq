@@ -1,0 +1,194 @@
+ 
+# Story World Codex: Fictional Person Constitution Protocol
+# Based on Doležel's Heterocosmica III .B.II.C (Character as Property Bundle)
+
+World: Primal Mama
+Codex_Version:  '0.2 - Character Constitution'
+Last_Updated: '[Current Date]'
+Lead_Architect_s:  '[Your Name/Studio Name]'
+
+---
+# Introduction: Constituting Fictional Persons Textually
+# This protocol guides  the detailed definition of Fictional Persons (characters, significant sentient beings)
+# within the Primal Mama heteroc osm. Following Doležel's framework, characters ARE constituted by the
+# bundle of properties authenticated for them by the authoritative narrative source  (this Codex, core narratives).
+# They possess no independent psyche or reality beyond this textual definition.
+# Use this template  to systematically build characters by explicitly authenticating their properties across
+# relevant categories. Focus on creating multifaceted individuals whose complexity arises  from the richness,
+# coherence, and potential tensions within their authenticated bundle, and whose actions are logically
+# grounded in their  defined nature and the world's rules. Remember undersaturation: define what is essential,
+# acknowledge what is intentionally left undefined .
+
+Character_Profile_Jebediah_Washington:
+  Entity_ID: CHAR_JebWashington_0 1
+  Character_Name: 'Jebediah "Jeb" Washington'
+  Entity_Type:  'Person (Human)'
+  Archetype: 'Wrongfully Accused Outcast / Broken Man'
+  Primary _Authentication_Sources: 'This Codex Entry, Primal Mama Coherence Protocol v0.1'
+  Canon_Tier : 'Tier 2 (Significant Supporting Character)'
+  Authentication_Status: Authenticated_Canonical_Active
+
+  Authenticated _Property_Bundle:
+    Physical_Properties:
+      Purpose: "Define the character's tangible presence." 
+      Appearance_General:
+        value: '[Male with distinct African features, appears late 50s but likely aged prematurely  by hardship and malnutrition. Frame is gaunt beneath loose, ragged clothing.]'
+        authentication: '[Visual Concept]' 
+      Appearance_Specific_Features:
+        value: '[Dark, deeply weathered skin, intricately lined around the eyes  and mouth. Tightly curled salt-and-pepper hair, mostly pepper, thin on top. Eyes are a deep  brown, once perhaps warm, now often clouded with suspicion or a haunted weariness.]'
+        authentication: '[Visual  Concept]'
+      Appearance_Distinctive_Marks:
+        value: '[A crudely rendered brand of a stylized  eye (symbol associated with "Invisible Women" sympathizers by some persecutors) on his left forearm, often hidden. Numerous scars  from a hard life in the swamp, some older from trapping, some newer from unknown altercations.]'
+        authentication : '[World Lore - Conspiracy Symbols, Narrative Backstory]'
+      Typical_Attire:
+        value: '[Patched,  faded overalls made of rough, swamp-stained canvas over a threadbare undershirt. Worn-out, mud-caked  work boots, possibly scavenged. Carries a tattered sack for meager belongings.]'
+        authentication: '[Visual  Concept, Social Status]'
+      Voice_Speech_Pattern:
+        value: '[Low, raspy voice,  often hesitant, as if expecting interruption or disbelief. Speech can be slow, punctuated by long silences. May exhibit a  regional Lickskillet/deep swamp dialect.]'
+        authentication: '[Dialogue Direction]'
+      Gait_ Mannerisms:
+        value: '[Slow, slightly stooped gait, as if carrying a heavy invisible burden.  Tends to avoid direct eye contact, especially with those perceived as figures of authority or prosperity. Flinches at sudden movements or  loud noises.]'
+        authentication: '[Action Description, Psychological Profile]'
+      Associated_Scent_If_ Any:
+        value: '[Faint, persistent smell of stagnant swamp water, damp earth, and old woodsmoke .]'
+        authentication: '[Sensory Palette - Environment]'
+      Undersaturation_Notes: '[Exact height  and weight, specific dental condition, full extent of minor scars.]'
+
+    Functional_Properties:
+      Purpose:  "Define what the character *can* and *cannot* do."
+      Skills:
+        - category: Past 
+          description: '[Formerly an expert alligator trapper and small-scale processor, with deep knowledge of swamp navigation,  gator behavior, and traditional skinning/butchering techniques.]'
+          authentication: '[Backstory]'
+         - category: Past
+          description: '[Basic repair of small watercraft and trapping equipment using 197 0s aesthetic tools.]'
+          authentication: '[Backstory, World Tech Level]'
+        - category: Present 
+          description: '[Survival in marginalized swamp areas; limited scavenging for edible flora/fauna (not alligators, due to social  stigma/lack of means); adept at evasion and hiding.]'
+          authentication: '[Current Situation]'
+      Limitations:
+         - category: Physical
+          description: '[Significantly weakened by poor nutrition, past trauma, and untreated ailments. L acks the strength for sustained heavy labor he once performed.]'
+          authentication: '[Physical Description, Backstory]'
+         - category: Knowledge
+          description: "[Little understanding of Beetriot's high society, advanced GE alligator technology ( beyond what a small farmer might know), or the intricacies of the meat oligarchy's operations. His knowledge is practical , swamp-based, and increasingly outdated.]"
+          authentication: '[Social Position, Backstory]'
+        - category: Social 
+          description: '[Completely ostracized due to accusations of being involved with or sympathetic to the "Invisible Women."  Lacks resources, allies, or any official standing. Cannot legally operate a gator business.]'
+          authentication: '[Social Status , World Conspiracy Beliefs, Deontic Rules]'
+        - category: Technological
+          description: '[Cannot afford  or access functional Automatons/LLMs; even if he could, the associated stigma would compound his existing pariah status .]'
+          authentication: '[World Deontic Rules, Social Status]'
+      Undersaturation_Notes:  '[Ability to read/write (assume basic literacy unless stated otherwise); specific knowledge of herbal remedies.]'
+
+    Psychological _Properties:
+      Purpose: "Define the character's textually constituted inner life."
+      Core_Traits :
+        - description: '[Deep-seated bitterness and resentment towards his accusers and the community that abandoned him.] '
+          authentication: '[Dialogue, Internal Monologue hints]'
+        - description: '[Pervasive fear and paranoia,  particularly of being recognized or further persecuted. Mistrustful of strangers.]'
+          authentication: '[Mannerisms, Actions]'
+         - description: '[A buried sense of profound injustice; he knows he was wronged.]'
+          authentication: '[Potential for narrative  revelation]'
+      Dominant_Emotion:
+        value: '[Apathy and resignation, punctuated by flashes of simmering  anger or deep, sorrowful grief for his lost life and reputation.]'
+        authentication: '[Narrator Descriptions,  Voice Tone]'
+      Key_Motivators:
+        - category: Present
+          description: '[Day-to-day  survival; avoiding detection and further harm.]'
+          authentication: '[Actions, Current Situation]'
+        - category: Latent
+           description: '[A faint, almost extinguished desire for his name to be cleared, or at least for someone to know the truth of  his innocence.]'
+          authentication: '[Potential Character Arc]'
+      Key_Beliefs:
+        -  description: '[Believes the "Invisible Women" conspiracy is a dangerous lie, a tool used by the fearful or manipulative  to scapegoat and control others, because he became its victim.]'
+          authentication: '[Internal stance, potential dialogue ]'
+        - description: '[Believes that once accused, especially by popular sentiment in the swamp, there is no  true recourse or justice, only survival or destruction.]'
+          authentication: '[Learned Experience]'
+      Internal_Conflict:
+         value: '[The instinct for self-preservation through isolation vs. a desperate, rarely surfacing need for human connection or help . The desire to forget his past vs. the haunting memories of the injustice.]'
+        authentication: '[Potential interactions, narrative tension ]'
+      Subjective_Memory_Content:
+        value: '[Possesses vivid, traumatic, and recurring memories  of his accusation, the public shaming (perhaps a forced "confession" or denouncement), the destruction of his meager  livelihood, and the faces of those who turned against him. Fragments of his former, happier life are painful and increasingly distant.]'
+         authentication: '[Narrative Depiction]'
+      Undersaturation_Notes: "[Specific details of his family life before his  downfall (wife, children – were they lost, did they abandon him?); his views on the deified celebrities ( likely cynicism or indifference now).]"
+
+    Social_Relational_Categorical_Properties:
+      Purpose: "Define  the character's place within the world's networks."
+      Official_Role:
+        value: '[None. Effectively  an "unperson" in the eyes of Lickskillet society and any formal structures. No legal means of participating in  the alligator economy.]'
+        authentication: '[Backstory, Social Status]'
+      Social_Status:
+        value:  '[Outcast; pariah. Viewed as tainted, dangerous, or cursed. Lower than the lowest legitimate worker.]' 
+        authentication: '[World Epistemic/Axiological beliefs about "Invisible Women" sympathizers]'
+      Primary_Aff iliation:
+        value: '[None. Forced into solitude.]'
+        authentication: '[Current Situation]'
+       Secondary_Affiliations_Potential_Past:
+        value: '[May have loose, fearful contact with other fringe dwellers or outcasts , but deep trust is impossible. Formerly a member of a small swamp community near Lickskillet.]'
+        authentication: '[ Narrative Plausibility]'
+      Key_Relationships:
+        - id: 1
+          type: Abstract 
+          to: '"Society"/His Accusers'
+          description: '[Object of their fear/scorn; he embodies  their anxieties about the "Invisible Women." For him, they are the source of his ruin.]'
+          authentication: '[ World Lore, Backstory]'
+        - id: 2
+          type: Potential
+          to: 'a  Protagonist/Outsider'
+          description: '[Extreme suspicion, but potentially a source of vital, firsthand information about  the reality of the "Invisible Women" conspiracy''s impact and the dark underbelly of swamp justice, if trust can be painstakingly  earned.]'
+          authentication: '[Narrative Function]'
+      Species_Type:
+        value: '[Human (Primal  Mama Strain - likely from generations rooted in the swamps)]'
+        authentication: '[Default/Description]'
+      Und ersaturation_Notes: "[Specific names of his accusers; any family members still alive and their current status/relationship to him ; any individuals who might secretly pity him but are too afraid to help.]"
+
+    Modal_Properties:
+      Purpose:  "Define any inherent unique relationship to world laws."
+      Status: 'None Authenticated'
+      Rationale:
+         Description: "[Jeb operates entirely under the general alethic, deontic, axiological, and epistemic  rules of Primal Mama. His victimhood is a result of the *application* of these societal rules and beliefs,  not an exception to them.]"
+        Authentication: "[His story is one of social, not supernatural or uniquely personal, tragedy within  the world's framework.]"
+
+    Axiological_Properties:
+      Purpose: "Define the character's  value status *within* Primal Mama."
+      Reputations:
+        - for_whom: 'Local Swamp  Communities, e.g., Lickskillet'
+          value: "[Authenticated as 'tainted by the Invisible Women,'  'dangerous to associate with,' 'a walking bad omen.' His name is likely a whispered warning.]"
+          authentication : '[World Conspiracy Beliefs, Social Status]'
+        - for_whom: 'Meat Oligarchy/Beetriot Elite' 
+          value: '[Likely unknown or utterly insignificant. If known at all, simply another piece of swamp refuse.] '
+          authentication: '[Social Hierarchy]'
+      Moral_Alignment_Narrative_Framing:
+        value: "[ Authenticated via narrative sympathy as a victim of profound injustice; a fundamentally decent man broken by paranoia, mob mentality, and the perverse  application of a conspiracy theory. His current state is a consequence of inflicted evil, not inherent vice.]"
+        authentication : '[Narrator Tone, Plot Focus]'
+      Undersaturation_Notes: '[Whether any specific Swamp Witches or Er penthropes have any opinion or knowledge of him (unlikely unless their paths crossed directly).]'
+
+    Historical _Properties:
+      Purpose: "Define the character's known origins and connections to past events."
+      Origin :
+        value: '[Authenticated as born and raised in a small, traditional alligator trapping and farming community in the deeper swamps,  possibly supplying to Lickskillet. His family likely worked the swamps for generations.]'
+        authentication: '[Back story, Skills]'
+      Key_Past_Event_Connection:
+        value: "[The \"Invisible Women Scare of 'XX  Year\" (specific year to be determined by narrative timeline) in his local region, during which he was falsely accused,  publicly shamed, possibly tortured or branded, and stripped of all possessions and social standing.]"
+        authentication: "[ Core of his victimhood, links to Epistemic rules about conspiracies]"
+      Inherited_Items_Lost:
+         description: "[Likely lost all family heirlooms, tools of his trade, and his home. The brand is an \"inherited\"  mark of his persecution.]"
+        authentication: "[Backstory]"
+      Inherited_Items_Possessed: 
+        description: "[Perhaps a single, deeply hidden, small, and valueless memento of his previous life,  like a carved alligator tooth given by a now-lost loved one, or a worn religious icon of one of the de ified celebrities that failed to protect him.]"
+        authentication: "[Narrative detail for pathos]"
+      Undersaturation_Notes : "[The specific individuals who led his accusation; the exact details of his \"trial\" or shaming ritual; the fate of any  family he had.]"
+
+  Character_Constitution_Summary_Narrative_Function:
+    Purpose: "Synt hesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+    Core_Essence : |
+      Jebediah Washington is constituted as a living testament to the destructive power of unsubstantiated belief and mob  justice within Primal Mama. His identity is forged in the crucible of false accusation related to the "Invisible Women" conspiracy , stripping him of his livelihood, dignity, and social existence. His Physical deterioration mirrors his Psychological scarring (bitterness, paranoia,  resignation). His Functional limitations are direct consequences of his Social ostracization and the historical trauma he endured. He is a man whose knowledge  of the swamp's truths (practical survival) is rendered useless by the societal "truths" (conspiracy beliefs)  that condemned him. He embodies the tragic intersection of Primal Mama's epistemic frailties (the power of conspiracy ) and its deontic harshness (summary, irreversible social punishment).
+    Primary_Narrative_Function: | 
+      Serves as a potent example of the human cost of Primal Mama's societal fears and superstitions (specifically  the "Invisible Women" conspiracy). He can act as a cautionary figure, a source of grim firsthand information for a protagonist investigating such  phenomena, or a moral challenge (can he be helped? Is redemption/justice possible for him in this world?). His  existence highlights the fragility of truth and status in the face of widespread, weaponized belief.
+    Key_Internal_Conflicts_From _Bundle: |
+      Survival instinct vs. utter despair; Lingering bitterness vs. profound weariness; Fear of others vs.  a deeply buried longing for justice or acknowledgement; The man he was vs. the broken shell he has become.
+    Potential _for_Development_Based_on_Bundle: |
+      His arc could involve: a protagonist slowly earning his trust, leading  him to share his story (Epistemic change for protagonist, psychological release for Jeb); a desperate attempt to help him  (testing Axiological and Deontic limits of the society); him finding a small measure of peace or purpose, even if justice  remains elusive; or, conversely, his final succumbing to despair or further persecution.
+
+# End of Fictional Person Profile:  CHAR_JebWashington_01

@@ -1,0 +1,193 @@
+
+quest_module:
+   id: PM_QUEST_LSK_01
+  title: Bayou Spirit Blues
+  location: " Lickskillet Outskirts, Southern Bayou Sector"
+  related_codex_entries:
+    - Pr imal Mama Coherence Protocol v0.1
+
+  parts:
+    - title: "Part 1: Exploring Licksk illet's Southern Fringe & The Well Wraith"
+      objective: "Investigate the haunted well near the abandoned settlement  south of Lickskillet."
+      steps:
+        - type: preparation
+          description: "Return to  Lickskillet outskirts. Optional: Offload hides, tune skiff, polish gear."
+        - type: initiation 
+          npc_name: Jedediah
+          npc_description: "Grizzled independent gator processor" 
+          location: "Weathered stilt-house off the main mud-track south from Lickskillet proper ."
+          problem_summary: "Jedediah's kin is ill from contaminated bayou water (processing runoff /Calamity effects)."
+          requirement: "Needs pure water from the haunted well for hydration, as advised by Mama  Léonie (local Root Doctor/Swamp Witch apprentice)."
+          well_status: "Haunted, previously avoided,  now essential."
+          description: "Find Jedediah to learn about the haunted well and the sick child."
+         - type: contract
+          npc_name: Jedediah
+          player_role_suggestion: "Suitable for Erpenth rope or well-armed local."
+          ghost_description: "Chilling whispers, moving tools, paralyzing cold near  well, glimpses of 'shimmering woman figure' wailing."
+          base_offer: "40 Gator Scrip" 
+          haggling:
+            max_reasonable_ask: "Approx 60 Scrip (causes annoyance )"
+            suggested_target: "Settle around 50 Scrip."
+            outcome: "Agree  to handle the 'spirit problem'."
+        - type: travel
+          description: "Head south from Jedediah' s place along the main track (watercraft likely needed)."
+          landmarks:
+            - "Pass isolated shacks on cypress  roots."
+            - "Reach fork near cluster of skeletal, Calamity-petrified trees."
+          decision _point: "Take the south-west fork first (neglecting the south-east fork leading to the objective)."
+        -  type: travel_exploration
+          path: South-west track (mix of walkways/shallow channels)
+          signs_of _violence: "Splintered planks, dark stains (ozone/fear scent possible for Erpenthropes),  discarded crude weapons."
+          landmarks:
+            - name: "Rickety Bridge Signpost"
+              description:  "Rusted 70s-era road sign on a piling."
+            - name: Rickety Bridge Crossing
+               description: "Treacherous crossing over deep channel with phosphorescent weeds."
+          path_continuation: "W inds south-east briefly then back south-west into denser swamp."
+        - type: encounter_loot
+          location_name : Scavenger Camp
+          location_description: "West off the main path, deeper into mangroves/cypress knees . Look for fire/listen for voices."
+          encounter_type: Combat/Negotiation (unlikely)
+           enemies: Scavengers
+          loot_location: "Under a tarp lean-to."
+          potential_loot:
+             - Salvaged components
+            - Gator parts
+            - Ammo
+            - "Locked footlocker (70s avocado green  plastic?): potential functional salvage or weapon mod schematic."
+        - type: discovery_powerup
+          location_name : "Place of Power (Whispering Cypress)"
+          location_description: "East past the main track, into an ancient- feeling grove."
+          object: "Colossal, ancient cypress tree draped in Spanish moss, humming with low energy."
+           effect_mundane: "Temporary boost to stamina or focus."
+          effect_erpenthope: "Intense energy perception ; potential for permanent Erpenthrope Ability Point."
+        - type: world_note
+          avoid_location : Abandoned GE Gator Pen
+          reason: "Discovering early might disrupt progression/rewards of a later investigation ( rogue GE strains/oligarch secrets)."
+          instruction: "Avoid for now unless specifically directed."
+
+    -  title: "Part 2: Bayou Spirit Blues"
+      objective: "Investigate the abandoned settlement and deal with  the entity haunting the well."
+      steps:
+        - type: travel
+          description: "Return to the fork  near petrified trees and take the south-eastern path."
+          landmarks:
+            - name: Abandoned Settlement Signpost 
+          location_description: "Remains of a small community swallowed by swamp: rusted airboats, collapsed stilt-houses , eerie silence."
+        - type: investigation
+          location: Abandoned Settlement
+          instruction: "Enter cautiously . Use specialized senses (Erpenthrope Senses / Ritual Awareness)."
+          clues_well_area:
+             - "Patches of strangely blighted ground (no vegetation) OR unnaturally cold spots."
+            - "West of well : Desiccated husk tangled in mutated vines (drained, not burned)."
+          deduction: "Likely a  Sorrowful Shade or Miasma Wraith (formed from grief + toxic swamp energy)."
+        - type: search_loot 
+          area: Remaining Structures
+          locations:
+            - name: Westernmost Shack
+              condition: Mostly junk .
+              action_required: "Use force/Erpenthrope strength to clear collapsed beams."
+              loot : "Waterlogged crate with basic crafting materials (gator sinew, salvageable wiring)."
+            - name:  "Central House (Partially Flooded)"
+              loot: "Two sturdy footlockers (half-submerged ) containing better salvage: Alchemical ingredients (Bioluminescent Algae?), 70s-era components (vacuum  tubes, circuit boards)."
+            - name: Easternmost House
+              exterior_loot: "Concealed chest under  tilted, rusted-out swamp buggy frame."
+              interior_loot_near_door: "Various sacks with minor loot ."
+              interior_loot_main: "Small wooden box on shelf."
+              interior_loot_back_ wall: "Larger metal footlocker."
+              key_item_location: "On a mildewed table near the back  wall footlocker."
+              key_item_name: "Water-Damaged Journal"
+        - type: examine _item
+          item_name: "Water-Damaged Journal"
+          access_method: "Inventory ( e.g., clunky wrist-mounted datapad with amber CRT display)."
+          content_summary: "Hard ship, settlers pushed out (Beetriot/Oligarchy pressure), conflict with agents/enforcers. Last entries  mention tense meeting, possibly involving a cherished personal item, before ending abruptly. Suggests betrayal/violence linked to protecting family /homestead."
+          implication: "Spirit likely bound by unfinished business/emotion tied to a specific object."
+          cross _reference: "Internal Bestiary (if available): Sorrowful Shades/Miasma Wraiths often latch onto objects  with strong emotional resonance."
+        - type: investigation_follow_trail
+          start_location: "Corner opposite where  journal was found."
+          clue_type: "Faint ectoplasmic residue OR splintered flooring suggesting struggle."
+           deduction_start: "Signs consistent with victim dying on the spot."
+          trail_description: "F aint shimmering energy, disturbed mold patterns, OR thin trail of viscous, unnatural slime."
+          trail_leads_to:  The Well
+          clue_at_well: "Examine rusted metal lip and frayed, algae-covered rope on  decrepit pump mechanism."
+          discovery: "Victim ended up *in* the well. Binding object likely inside ."
+        - type: action_explore
+          location: The Well
+          action: "Hop into the well shaft ( water cushions fall)."
+          tools: "Activate underwater lighting (e.g., helmet lamp with 70s halogen  yellow glow)."
+          objective: "Dive [Controller Button] and use senses to search debris-filled bottom."
+          item_ to_find: "Tarnished Silver Locket (half-buried in muck)."
+          action_result: "Retrieve  the Locket."
+        - type: exploration_cave
+          entry_point: "Ledge/opening in well  wall (north side)."
+          path_description: "Narrow, dripping tunnel east into flooded cavern system (sinkholes/h ollow cypress roots)."
+          action_1: "Dive into next pool, swim north-east through submerged passage to  large chamber."
+          loot_1_location: "Western side of large chamber."
+          loot_1_ container: "Submerged, heavy-duty plastic crate (faded DOW chemical branding?)."
+          potential_loot _1:
+            - Useful salvage
+            - "Formula: Swamp Lung Salve OR Miasma Filter"
+          action _2: "Follow bubbles to surface for air."
+          action_3: "Swim down another tunnel east,  surface in small, still pond open to sky."
+          action_4: "Get air. Search near center of pond for another  submerged crate (minor loot)."
+          environmental_cue: "Spectral energy intensifies; Wraith is aware."
+           preparation_advice: "Prepare for fight. Need treated Gator-Tooth Blade (or equivalent) and containment ritual knowledge/ materials."
+        - type: combat
+          location: Abandoned Settlement (return via tunnels or climb out)
+           trigger: "Perform action to draw Wraith out: Place recovered Locket on well's edge and begin ritual chant OR burn  specific mix of swamp herbs/gator fat."
+          enemy_name: Miasma Wraith
+          appearance: "Shimmer ing, humanoid shape from swamp fumes, radiating cold/despair."
+          abilities:
+            - Swift spectral claw  swipes
+            - Disorienting miasma cloud
+            - Periodic fading / illusory duplicates
+          tactic: "L ure into containment sigil (drawn on ground: powdered gator bone + swamp clays?)."
+          vulnerability: "Be comes more tangible/vulnerable within sigil."
+          player_strategy: "Use aggressive strikes with Gator-Tooth Blade within  sigil, dodge spectral reach/miasma bursts."
+        - type: loot_enemy
+          enemy_name: M iasma Wraith (defeated)
+          drops:
+            - Ectoplasmic Residue
+            - Ghostly Essence
+             - Bioluminescent Algae
+            - "Possible: Spectral Mutagen (Vitality/Sense boost?)"
+            -  "Key Item: Wraith Fetish (cleansed Locket, proof of deed). Equippable?: Slight resistance to fear/ spectral energy."
+
+  resolution:
+    rewards_part_1:
+      - objective: "For defeating the M iasma Wraith"
+        reward: "XP 50"
+    steps:
+      - type: return_ npc
+        npc_name: Jedediah
+        location: Jedediah's stilt-house
+        report : "Tell him the well is clear."
+        optional_dialogue: "Ask about the name from the journal ( e.g., 'Clara')."
+        npc_reaction_optional: "Might recognize name, mutter about old fe uds/Oligarchy land grabs (plot seeds)."
+      - type: reward_choice
+        npc_name: Jed ediah
+        npc_dialogue_summary: "Relieved. Offers payment set aside for kid's future ( apprenticeship/tools). Reasons kid needs a future."
+        player_choices:
+          - choice:  1
+            action: "Take the payment."
+            reward: "50 Gator Scrip"
+          -  choice: 2
+            action: "Decline the Scrip (suggesting altruism or covered costs via salvage)."
+             npc_reaction: "Respects gesture, but insists on paying debt per bayou custom."
+            reward: "Piece of functional  Pre-Calamity Salvage (e.g., working analog dive watch, multi-tool, special compass). Pot entially worth more than Scrip."
+    rewards_final:
+      - objective: "For returning to Jededia h after clearing the well"
+        reward: "50 XP"
+      - objective: "Final Payment" 
+        reward: "50 Gator Scrip OR Pre-Calamity Salvage Item"
+
+  lingering_ tasks:
+    - type: exploration_loot
+      description: "Return to Abandoned Settlement. Take track east out  of it. Ignore first small game trail. Take second, established path."
+      destination: "Dilapidated Fishing Shack  OR partially sunken Houseboat on edge of larger lagoon."
+      objective: "Search carefully amongst decay/gator nests." 
+      potential_loot_location: "Protected locker or chest."
+      potential_loot_items:
+        -  "Well-maintained Lever-Action Rifle with custom wood paneling"
+        - "Schematics for useful 70s -tech gadget"
+

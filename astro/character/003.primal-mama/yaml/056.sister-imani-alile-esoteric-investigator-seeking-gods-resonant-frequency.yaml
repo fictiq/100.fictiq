@@ -1,0 +1,180 @@
+
+world_info:
+  world_name:  Primal Mama
+  codex_version: "0.2 - Character Constitution"
+  last_updated:  "[Current Date]"
+  lead_architects: "[Your Name / Studio Name]"
+
+introduction:
+  title: "Con stituting Fictional Persons Textually"
+  text: "This protocol guides the detailed definition of **Fictional  Persons** (characters, significant sentient beings) within the Primal Mama heterocosm. Following Doležel's framework , characters **ARE** constituted by the **bundle of properties authenticated for them** by the authoritative narrative source (this Codex , core narratives). They possess **no independent psyche or reality beyond this textual definition**.\n\nUse this template  to systematically build characters by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted individuals whose complexity arises from the  **richness, coherence, and potential tensions within their authenticated bundle**, and whose actions are logically grounded in their defined nature  and the world's rules. Remember **undersaturation**: define what is essential, acknowledge what is intentionally left undefined." 
+
+character_profile:
+  entity_id: CHAR_Imani_01
+  character_name:  "Sister Imani Alile (often just 'Sister Imani')"
+  entity_type: Person
+  archetype: "Rogue  Theologian / Esoteric Investigator"
+  primary_authentication_sources: "This Codex Entry; Primal Mama Co herence Protocol v0.1"
+  canon_tier: "Tier 1"
+  authentication_status:  Authenticated_Canonical_Active
+
+  authenticated_property_bundle:
+    physical_properties:
+      purpose:  "Define the character's tangible presence."
+      appearance_general:
+        value: "Human female, appears  late 40s, with rich, dark brown skin. Strong, statuesque build, often carries herself with a  serene intensity."
+        auth: This Codex Entry
+      appearance_specific_features:
+        value: "High  cheekbones, full lips, deeply set, perceptive dark eyes that seem to absorb light. Her tightly coiled hair is often  bound in colorful wraps or adorned with small, polished alligator teeth, unusual swamp-plant seeds, and intricately woven copper wire."
+         auth: This Codex Entry
+      appearance_distinctive_marks:
+        value: "A faint, intricate scar  pattern around her left wrist, resembling circuit traces overlaid with older, ritualistic markings. Hands are calloused but nimble,  often stained with plant matter or metallic dust."
+        auth: This Codex Entry
+      typical_attire:
+        value:  "Practical, dark-colored jumpsuits or sturdy canvas separates (1970s utilitarian chic) often modified with extra pockets and  loops for tools. Wears a heavily customized tool belt featuring pouches for samples, small analog diagnostic devices (with flickering read outs and chunky dials), and ritual components. Over this, she sometimes drapes a shawl woven with patterns reminiscent of both  circuit boards and traditional African textile motifs."
+        auth: "This Codex Entry / Primal Mama Coherence Protocol -  1970s Aesthetic Constraint"
+      voice_speech_pattern:
+        value: "A resonant  contralto voice, typically calm and measured, even when discussing profound or unsettling concepts. Her speech is precise, sometimes borrowing  terminology from both spiritual practices and archaic technical manuals. Carries a faint, melodious lilt."
+        auth: This Codex Entry 
+      gait_mannerisms:
+        value: "Deliberate, observant movements. Often pauses mid-sentence to listen  intently, as if to sounds others cannot hear. Has a habit of gently touching her temple or wrist-scar when deep in thought or  sensing something unusual."
+        auth: This Codex Entry
+      associated_scent:
+        value: "A  complex blend of swamp incense (e.g., dried bayou herbs, burnt sage), ozone from her equipment, and  a faint metallic tang."
+        auth: This Codex Entry
+      physical_undersaturation: "Exact height/weight , specific details of non-functional attire preferences, typical diet."
+
+    functional_properties:
+      purpose: " Define what the character *can* and *cannot* do."
+      skill_ritual_magic:
+        value : "Proficient in Ritual Magic (Ghost Interaction): Has studied and adapted known rituals, developing unique variations to try and contact or  perceive entities beyond common ghosts, seeking what she terms 'Primary Echoes' or 'Source Vibrations'."
+        auth: "This  Codex Entry / Primal Mama Coherence Protocol - Spectral Interaction"
+      skill_esoteric_bio_acoustics_ resonance_tuning:
+        value: "Esoteric Bio-Acoustics & Resonance Tuning: Constructs and uses custom- built 1970s-style analog devices (oscilloscopes with amber screens, signal generators with heavy knobs,  geiger-counter-like 'numen-detectors') to try and measure, record, and interact with spiritual  or unusual energy signatures. Believes \"God\" or the \"Primal Source\" has a detectable resonant frequency."
+         auth: "This Codex Entry / Primal Mama Coherence Protocol - Tech Aesthetic Constraint, Solar Dominance implying understanding  of energy"
+      skill_swamp_herbalism_psychotropic_distillation:
+        value: "Sw amp Herbalism & Psychotropic Distillation (Rudimentary): Can identify and prepare certain swamp plants for ritual use or to  create mild psychoactive compounds intended to heighten spiritual sensitivity. Avoids Swamp Witch \"Vampire Bunny\" related materials as \" too chaotically imprinted.\""
+        auth: "This Codex Entry / Primal Mama Coherence Protocol - Swamp Witch  Lore"
+      skill_deep_listening_environmental_attunement:
+        value: "Deep Listening & Environmental Attun ement: Highly developed ability to discern subtle environmental cues, patterns in animal behavior, or anomalous silences, which she interprets  as signs or 'data'."
+        auth: This Codex Entry
+      ability_heightened_sensitivity_numinous_pres ences:
+        value: "Heightened Sensitivity to Numinous Presences: Through her experiments and self-developed techniques, she  can perceive subtle shifts in spiritual ambiance, often experiencing them as auditory hallucinations (faint choirs, static whispers, deep hum s) or visual distortions at the periphery of her vision. This is not as innate or powerful as an Erpenth rope's abilities but is beyond baseline human."
+        auth: This Codex Entry
+      limitation_knowledge:
+        value : "Lacks formal training in advanced genetic engineering or solar energy science (beyond what's publicly known or inferable ). Her \"scientific\" methods for spiritual investigation are highly unorthodox and self-taught, often blending folk magic with repurposed analog tech."
+         auth: "This Codex Entry / Primal Mama Coherence Protocol - Technical Knowledge Specialization"
+      limitation _social:
+        value: "Viewed as an eccentric, potentially heretical figure by followers of the Deified Celebrities . Operates outside established power structures (e.g., meat oligarchy, Beetriot elite) and has limited material  resources."
+        auth: "This Codex Entry / Primal Mama Coherence Protocol - Deified Celebrities, Axi ological Values"
+      limitation_technological:
+        value: "Bound by the 1970 s aesthetic and general tech level; her experimental devices are prone to interference, miscalibration, and subjective interpretation. Cannot access or utilize Automat ons/LLMs without facing severe stigma, further limiting complex data analysis."
+        auth: "This Codex Entry / Primal Mama  Coherence Protocol - Tech Aesthetic, Automaton Stigma"
+      functional_undersaturation: "Combat skills (likely  minimal); ability to pilot watercraft beyond simple skiffs; proficiency in alligator harvesting/processing."
+
+    psychological_properties: 
+      purpose: "Define the character's textually constituted inner life."
+      core_trait_existential_curiosity :
+        value: "Unshakeable Existential Curiosity: A profound, driving need to understand the fundamental nature of  reality, divinity, and the soul within the Primal Mama context."
+        auth: This Codex Entry
+      core _trait_methodical_patient_investigator:
+        value: "Methodical & Patient Investigator (within her own framework):  Despite the esoteric nature of her pursuit, she approaches her \"experiments\" with a self-defined rigor and patience."
+         auth: This Codex Entry
+      core_trait_skepticism_towards_dogma:
+        value : "Skepticism towards Dogma: Questions the literal divinity of Reynolds, Reed, and Parsons, viewing them  as powerful cultural constructs or perhaps lesser spiritual conduits, but not the Ultimate Source."
+        auth: "This Codex Entry / Primal  Mama Coherence Protocol - Deified Celebrities"
+      dominant_emotion:
+        value: "A state of  'Anticipatory Awe' mixed with profound intellectual focus. Can also exhibit frustration when experiments yield ambiguous results."
+        auth:  This Codex Entry
+      key_motivator:
+        value: "To achieve direct, verifiable contact with or understanding of a ' Primal Divine Source' she believes underpins existence, distinct from folk tales, celebrity worship, or even conventional ghostly interactions . She seeks the 'signal behind the noise'."
+        auth: This Codex Entry
+      key_belief:
+         value: "That the spiritual is a fundamental layer of reality, as tangible and measurable as any other, if one  has the correct 'instruments' (both technological and perceptual). Believes the Biological Calamity may have altered or made  more accessible certain spiritual frequencies."
+        auth: "This Codex Entry / Primal Mama Coherence Protocol - Biological Calamity,  Spectral Interaction"
+      internal_conflict:
+        value: "The desire for empirical proof of the divine vs.  the inherently subjective nature of spiritual experience; the loneliness of her unique path vs. a yearning for shared understanding; fear that  the \"Source\" might be terrifyingly alien or simply absent."
+        auth: This Codex Entry
+      subjective_memory_ content:
+        value: "Possesses vivid memories of potent, unexplainable childhood experiences in the deep swamp that  she interpreted as early 'contacts' or 'calls', which set her on her path. No amnesia."
+         auth: This Codex Entry
+      psychological_undersaturation: "Specific opinions on mundane politics (e.g., meat oligarchy  beyond how it affects resources); romantic inclinations; detailed fears beyond her core existential ones."
+
+    social_relational_categorical _properties:
+      purpose: "Define the character's place within the world's networks."
+      official _role:
+        value: "None. Self-styled 'Sister' and investigator of the numinous. Oper ates mostly on the fringes of Lickskillet or in secluded bayou areas."
+        auth: This Codex Entry 
+      social_status:
+        value: "Outsider Mystic. Regarded by some with wary respect for her  perceived wisdom or connection to 'other things', by others with suspicion or pity. Does not actively seek followers but occasionally attracts  curious or desperate individuals."
+        auth: This Codex Entry
+      primary_affiliation:
+        value: "None formal. Cons iders herself affiliated with 'All Seekers of Deeper Truths'."
+        auth: This Codex Entry
+      secondary _affiliations:
+        swamp_witches_contact:
+          value: "Cautious, infrequent contact  with certain Swamp Witches, primarily for trading rare herbs or comparing notes on unusual spectral phenomena (though their methods and goals  differ significantly)."
+          auth: "This Codex Entry / Primal Mama Coherence Protocol - Swamp Witch Lore"
+         erpenthropes_contact:
+          value: "May have sought out Erpenthropes if she  knows of their \"truth-seeking\" nature, though they might find her methods quaint or misguided, or potentially interesting."
+           auth: "This Codex Entry / Primal Mama Coherence Protocol - Erpenthrope Knowledge"
+      key_relationship_1 _old_man_tiber:
+        value: "To 'Old Man Tiber' (Lickskillet Scav enger): A pragmatic, transactional relationship. Tiber brings her odd tech scraps, unusual bones, or news from the swamp, and she  provides him with herbal remedies or occasionally interprets strange occurrences for him. He's skeptical but finds her useful and oddly compelling."
+         auth: This Codex Entry
+      key_relationship_2_the_echoes:
+        value: "To 'The  Echoes': Her term for the various spiritual entities and phenomena she contacts/studies. A relationship of intense, one-sided ( from the Echoes' perspective, perhaps) investigation and attempted communication."
+        auth: This Codex Entry
+      key_relationship_ 3_primal_mama_conceptual:
+        value: "To 'Primal Mama' (Conceptual): She  theorizes the world itself, or a consciousness pervading it, might be the 'Primal Divine Source' she seeks , particularly in its post-calamity, strangely spiritual state."
+        auth: "This Codex Entry / World Name"
+       species_type:
+        value: "Human (Baseline Post-Calamity Strain)"
+        auth:  This Codex Entry
+      social_undersaturation: "Specific family ties (if any living); enemies within the celebrity cults beyond  general disapproval; any apprentices or dedicated followers."
+
+    modal_properties:
+      purpose: "Define any inherent unique relationship  to world laws."
+      property_modal_ima_01:
+        id: MODAL-IMA- 01
+        property_name: "Cultivated Numinous Resonance (Epistemic/Alethic Exception)" 
+        description: "Through sustained, unique ritualistic practices and use of her self-designed analog sensory devices, Imani  has achieved a heightened, albeit unstable, perception of and interaction with subtle spiritual energies and entities beyond standard ghost ritual efficacy. She can  occasionally 'tune into' or provoke responses from phenomena not typically accessible."
+        limits: "Perception is often ambiguous , heavily reliant on her subjective interpretation and the function of her temperamental 1970s-tech equipment. Can  cause mental strain, physical exhaustion, or attract unwanted spectral attention. Does not grant overt supernatural powers like Erpenthrope  transformation or Swamp Witch magic."
+        authentication: "Demonstrated via narrative portrayal of her experiments yielding unusual results distinct from  standard ghost interactions; her unique equipment behaving in ways that suggest detection of non-standard phenomena."
+      note: " This property is cultivated and learned, not innate like an Erpenthrope's, but pushes the boundaries of authenticated  human potential for spiritual interaction in Primal Mama."
+
+    axiological_properties:
+      purpose: "Define the character's  value status *within* Primal Mama."
+      reputation_lickskillet_locals:
+        value:  "Authenticated as viewed as 'the God-Seeker Woman', 'Sister Spooky-Sounds', 'either touched by spirits or plain  touched'. Generally harmless, but best not to get too involved in her 'experiments'. Some seek her out for folk wisdom or dream  interpretation."
+        auth: This Codex Entry
+      reputation_swamp_witches:
+        value:  "Authenticated as viewed as potentially 'a fellow traveler on a different path', 'one who listens to the wrong whispers but listens nonetheless ', or 'dangerously naive in her tinkering'."
+        auth: "This Codex Entry / Primal Mama Coherence Protocol  - Swamp Witch Lore"
+      reputation_celebrity_deity_clergy_devotees:
+         value: "Authenticated as viewed as 'heretical', 'blasphemous for questioning the Divine Trio', ' a purveyor of dangerous spiritual alternatives'."
+        auth: "This Codex Entry / Primal Mama Coherence Protocol -  Deified Celebrities Values"
+      moral_alignment_narrative_framing:
+        value: "Authenticated  via narrative focus as a sincere, if eccentric, seeker of profound truth, driven by a deep spiritual yearning rather than malice or self- aggrandizement. Her methods are unconventional but not inherently evil."
+        auth: This Codex Entry
+      ax iological_undersaturation: "Reputation among Erpenthropes; views of the Beetriot elite (likely unaware or dismissive ); reputation among those who believe in the \"invisible women\" conspiracy."
+
+    historical_properties:
+      purpose:  "Define the character's known origins and connections to past events."
+      origin:
+        value: "Authenticated  as originating from a small, now-vanished deep-bayou community that held onto syncretic spiritual beliefs blending  pre-calamity African diasporic traditions with post-calamity swamp mysticism. Her drive is partly to  understand/validate these inherited beliefs through her own 'scientific-spiritual' lens."
+        auth: This Codex Entry
+       key_past_event_connection_subjective:
+        value: "A childhood event where her isolated community  experienced a powerful, unexplainable 'visitation' or manifestation, which decimated some but left Imani with a profound sense  of questioning and a feeling of being 'marked' or 'called' to understand."
+        auth: This Codex Entry 
+      inherited_items:
+        value: "Authenticated to possess a few heavily weathered, hand-copied notebooks from her community' s elders, containing fragmented rituals, cosmological observations, and herbal lore written in a creolized script. Also, a non- functional but symbolic 'spirit box' – a 1970s transistor radio her grandfather tried to use for divination ."
+        auth: "This Codex Entry / Primal Mama Coherence Protocol - 1970s Tech  Aesthetic"
+      historical_undersaturation: "Precise details of her vanished community; specific nature of the 'visitation'; full  content of the inherited notebooks."
+
+  character_constitution_summary_narrative_function:
+    purpose: " Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+    core_essence : "Sister Imani Alile is constituted as a unique figure in Primal Mama: a spiritual seeker whose African heritage and inherited  swamp mysticism are filtered through a lens of quasi-scientific inquiry, all constrained and flavored by the world's 1 970s technological aesthetic. She is a 'rogue theologian' attempting to empirically validate the existence of a 'Pr imal Divine Source' beyond the deified celebrities, using ritual, self-made analog devices, and deep environmental listening. Her ' experiments' are a testament to human ingenuity and spiritual yearning in a world where the veil is thin and technology serves unusual masters. She  embodies the search for authentic meaning amidst the bizarre, retro-futuristic, and spiritually charged miasma of Primal Mama."
+     primary_narrative_function: "To explore the deeper, more esoteric spiritual dimensions of Primal Mama beyond established norms (celebr ity gods, standard ghost lore). She can act as a source of unique, potentially dangerous knowledge, a guide to hidden  spiritual realities, or a character whose quest uncovers fundamental truths (or unsettling ambiguities) about the world's nature, the Biological  Calamity's spiritual impact, or the 'Primal Mama' entity itself. Her methods offer a distinct flavor  of investigation, blending the archaic with the retro-tech."
+    key_internal_conflicts: "The drive for empirical proof  vs. the subjective nature of faith/spirituality; the tension between her inherited traditions and her innovative (and potentially heret ical) methods; loneliness of her singular pursuit vs. a desire for validation or community; hope for divine connection vs. fear of cosmic  indifference or alien malevolence."
+    potential_for_development: "Actually making a significant breakthrough in contacting/understanding a ' Primal Echo' or the 'Source'; her experiments having unforeseen consequences on the local spiritual ecosystem (e.g., attracting powerful  entities, or briefly thinning the veil further); facing direct opposition from the celebrity cults or other powers; finding unexpected allies (perhaps  an Erpenthrope intrigued by her persistence, or a Swamp Witch seeing a kindred spirit); potentially discovering that the ' God' she seeks is far stranger or more integrated into the Primal Mama world (e.g., the swamp itself , the collective unconscious, or even the nature of the GE alligators) than she imagines."
+

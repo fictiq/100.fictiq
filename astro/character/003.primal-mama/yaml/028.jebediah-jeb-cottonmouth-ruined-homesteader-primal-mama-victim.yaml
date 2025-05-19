@@ -1,0 +1,185 @@
+
+world: Primal Mama
+codex_version:  '0.2 - Character Constitution (Jebediah Cottonmouth)'
+last_updated: '[Current Date]' 
+lead_architects: '[Your Name / Studio Name]'
+
+introduction: |
+  This protocol guides the detailed definition of  **Fictional Persons** (characters, significant sentient beings) within the Primal Mama heterocosm. Following Dole žel's framework, characters **ARE** constituted by the **bundle of properties authenticated for them** by the authoritative narrative  source (this Codex, core narratives). They possess **no independent psyche or reality beyond this textual definition**.
+
+  Use  this template to systematically build characters by explicitly authenticating their properties across relevant categories. Focus on creating multifaceted individuals whose complexity arises from  the **richness, coherence, and potential tensions within their authenticated bundle**, and whose actions are logically grounded in their defined  nature and the world's rules. Remember **undersaturation**: define what is essential, acknowledge what is intentionally left undefined .
+
+character_profile:
+  entity_id: CHAR_JebCottonmouth_01
+  character _name: 'Jebediah "Jeb" Cottonmouth'
+  entity_type: Person
+   archetype: 'Ruined Homesteader, Bitter Survivor'
+  primary_authentication_sources: 'This Codex  Entry; Primal Mama Coherence & Internal Logic Protocol v0.1'
+  canon_tier: 'Tier 2 ( Significant Supporting Character)'
+  authentication_status: Authenticated_Canonical_Active
+
+  authenticated_property_bundle: 
+    physical_properties:
+      purpose: "Define the character's tangible presence."
+      appearance_general :
+        value: '[Male, mid-50s, with deep-set African features, weathered dark skin . Formerly robust, now lean and wiry from hardship.]'
+        authentication: This Codex
+      appearance_specific _features:
+        value: '[Tight, greying coils of hair often tucked under a faded cap. Expressive , almond-shaped eyes that were once quick to smile, now often narrowed in suspicion or weariness. A strong jaw line, usually set grimly.]'
+        authentication: This Codex
+      appearance_distinctive_marks:
+         value: "[A long, pale scar running diagonally across his right forearm from a 'gator processing accident with faulty  1970s-era machinery. Knuckles are calloused and sometimes raw.]"
+        authentication:  'This Codex; Primal Mama Coherence - Tech Aesthetic'
+      typical_attire:
+        value:  '[Worn, patched-up canvas overalls (ochre or faded denim, classic 1970s cut) over a  threadbare thermal shirt. Heavy, mud-caked work boots suitable for swamp terrain. Often seen with a wide-brim med, sweat-stained woven hat.]'
+        authentication: 'This Codex; Primal Mama Coherence - Tech  Aesthetic, Environment'
+      voice_speech_pattern:
+        value: '[Deep, resonant baritone with a Southern swamp draw l. Speech is slow, deliberate, often punctuated by sighs or grunts. Can be surprisingly eloquent when speaking of past  injustices.]'
+        authentication: This Codex
+      gait_mannerisms:
+        value: '[Moves with  a weary deliberateness, a slight stoop in his shoulders. Habit of rubbing his scarred forearm when agitated or recalling bad memories.  Squints frequently, even out of direct sun.]'
+        authentication: This Codex
+      associated_scent: 
+        value: '[Swamp mud, alligator musk, faint smell of old machine oil and woodsmoke.]'
+         authentication: 'This Codex; Primal Mama Coherence - Environment'
+      physical_undersaturation_notes:  '[Exact height/weight, specific tribal/ancestral facial feature nuances beyond "African features," dental condition.]'
+
+     functional_properties:
+      purpose: "Define what the character *can* and *cannot* do."
+      skills: 
+        - name: Expert Alligator Husbandry & Butchering
+          details: (Formerly – knowledge remains)
+          authentication:  Backstory
+        - name: Proficient Small Watercraft Operation
+          details: (Pirogues, small  skiffs)
+          authentication: 'Primal Mama Coherence - Transport'
+        - name: 'Basic Repair of  1970s-style Mechanical & Solar Equipment'
+          details: (though often lacks parts/tools now )
+          authentication: 'Backstory; Primal Mama Coherence - Tech Aesthetic, Solar Dominance'
+        - name:  'Decent Shotgun/Rifle Marksmanship'
+          details: (Common outside Beetriot)
+          authentication:  'Primal Mama Coherence - Gun Ownership'
+        - name: Swamp Survival & Foraging
+          details:  (Learned from necessity)
+          authentication: Current Circumstances
+      limitations:
+        - name: Economic 
+          details: 'Impoverished; Lacks capital, land, and functional processing equipment after being ruined by the  meat oligarchy.'
+          authentication: 'Backstory; Primal Mama Coherence - Deontic (Olig archy Friction)'
+        - name: Social
+          details: 'Isolated; Distrustful of outsiders and authority.  Minimal influence in Lickskillet social/economic circles now.'
+          authentication: 'Psychological Properties; Backstory'
+         - name: Technological
+          details: 'Cannot afford or repair advanced GE/Solar tech beyond basic maintenance; Actively distrusts and  avoids Automatons/LLMs due to cultural stigma and personal suspicion.'
+          authentication: 'Primal Mama Coherence  - Automaton Stigma, Tech Aesthetic'
+      functional_undersaturation_notes: '[Specific knowledge of advanced GE science;  ability to perform complex ritual magic; skill in hand-to-hand combat.]'
+
+    psychological_properties: 
+      purpose: "Define the character's textually constituted inner life."
+      core_traits:
+         - name: 'Resentment / Bitterness'
+          details: '(towards the meat oligarchy and perceived  systemic injustice)'
+          authentication: 'Dialogue, Backstory'
+        - name: 'Deep-seated Pride' 
+          details: '(in his former self-sufficiency and skill)'
+          authentication: 'Internal Monologue snippets,  reactions to pity'
+        - name: 'Suspicion / Distrust'
+          details: '(especially of those  with power or wealth)'
+          authentication: Interactions
+        - name: 'Stubborn Resilience'
+          details: '(ref uses to completely break despite hardship)'
+          authentication: Continued survival
+      dominant_emotion:
+        value: ' Weary Frustration / Simmering Anger'
+        authentication: 'Voice, Mannerisms'
+      key_ motivator:
+        value: 'Survival; A longing for acknowledgment of the wrongs done to him; Protecting the memory of his  lost livelihood.'
+        authentication: 'Actions, Dialogue'
+      key_beliefs:
+        - name: System  Rigged
+          details: 'Believes the "system" is rigged by powerful, unseen forces (ties into "invisible women " conspiracy, though he may interpret it as the oligarchy). Believes hard work *should* be rewarded but often  isn''t.'
+          authentication: 'Dialogue; Primal Mama Coherence - Epistemic (Conspiracy)' 
+        - name: Deified Celebrities as Better Time
+          details: "Deified celebrities like Jerry Reed or Gram Parsons  represent a 'better time' of independence and fairness, offering a sliver of nostalgic comfort."
+          authentication: ' Possession of a small, worn icon; Primal Mama Coherence - Axiological (Deities)'
+      internal _conflict:
+        value: 'Pride in his past self vs. the shame of his current state; Desire for retribution vs.  the pragmatic fear of the oligarchy''s power; Yearning for community vs. ingrained distrust.'
+        authentication:  'Inferred from traits/motivators'
+      subjective_memory_content:
+        value: '[V ivid, cherished memories of his thriving alligator farm, the whir of his (then functional) 1970 s processing equipment, community respect. These contrast sharply with memories of threats, sabotage, and bureaucratic stonewalling leading to  his ruin.]'
+        authentication: 'Backstory, Dialogue hints'
+      psychological_undersaturation_notes : '[Specific childhood experiences beyond general swamp upbringing, nuanced views on spectral interaction or Erpenthropes (likely pragmatic suspicion),  full spectrum of joys or hobbies beyond work.]'
+
+    social_relational_categorical_properties:
+      purpose : "Define the character's place within the world's networks."
+      official_role:
+        value: "None ; Formerly 'Independent Alligator Processor - Lickskillet Region'. Currently, 'Marginalized Swamp Dweller'." 
+        authentication: Backstory
+      social_status:
+        value: 'Low; Ostracized by  some in Lickskillet who fear association, pitied by others. Largely invisible to Beetriot elite or the  wider oligarchy now.'
+        authentication: Backstory
+      primary_affiliation:
+        value: 'None formal . Loosely connected to other struggling swamp denizens on the fringes.'
+        authentication: Current Circumstances
+       key_relationships:
+        - name: 'To Bayou Meats Inc. (Fictional Oligarch Entity)' 
+          details: 'Antagonistic (Victim/Perpetrator). They are the source of his ruin.' 
+          authentication: 'Backstory; Primal Mama Coherence - Deontic (Oligarchy Friction)'
+         - name: 'To the memory of his late wife, Myrna (Optional)'
+          details: 'D ied from illness exacerbated by poverty after their ruin; her memory fuels his bitterness and sense of loss.'
+          authentication:  Potential character depth
+        - name: 'To a specific, wary acquaintance in Lickskillet'
+          details : '(e.g., a sympathetic but cautious general store owner who sometimes gives him credit or news).'
+          authentication : Narrative Potential
+      species_type:
+        value: 'Human (Primal Mama strain)'
+        authentication: Default 
+      social_undersaturation_notes: '[Extended family (if any survived or weren''t driven off); specific friends from his  prosperous days; views on specific Swamp Witches or Erpenthropes he might have encountered fleetingly.]'
+
+    modal _properties:
+      purpose: "Define any inherent unique relationship to world laws."
+      property_id: N /A
+      property_details:
+        value: None authenticated. Jeb operates under the general physical, biological,  and societal laws of Primal Mama.
+      description: 'His victimhood stems from socio-economic and power dynamics, not supernatural  affliction or unique susceptibility beyond normal human vulnerability.'
+      authentication: 'Primal Mama Coherence Doc (General Rules apply ).'
+      note: 'Jeb is an example of a character defined by his mundane struggle within the extraordinary rules of  Primal Mama.'
+
+    axiological_properties:
+      purpose: "Define the character's value status * within* Primal Mama."
+      reputation_lickskillet_general:
+        value: "Authenticated as  'that poor Cottonmouth fella', 'a good man dealt a bad hand', 'best not to get involved with  his troubles with the Big Boys'. A cautionary tale."
+        authentication: 'Implied from backstory and social status' 
+      reputation_meat_oligarchy:
+        value: "Authenticated as 'resolved issue', 'minor competitor removed', ' irrelevant'."
+        authentication: 'Implied from their power and his current state'
+      value_firearms :
+        value: 'Possesses a well-maintained (though old, 1970s design)  shotgun, valued for self-defense and hunting, reflecting regional norms.'
+        authentication: 'Primal Mama Coherence - Axiological /Deontic (Guns)'
+      value_solar_ingenuity_personal:
+        value:  'Formerly valued his solar-powered smokers and freezers (1970s aesthetic); now views their loss as  a symbol of what was stolen.'
+        authentication: 'Primal Mama Coherence - Axiological (Solar), Tech  Aesthetic'
+      axiological_undersaturation_notes: '[Reputation among Swamp Witches or Erpenthrop es (likely unknown or indifferent); his standing with the deified celebrity cults (likely a passive believer, finding solace  in their myths of rugged individualism).]'
+
+    historical_properties:
+      purpose: "Define the character's known origins and  connections to past events."
+      origin:
+        value: 'Authenticated as born and raised in the bayous near  Lickskillet, decades after the Biological Calamity. His family were among the early pioneers of small-scale , independent alligator processing.'
+        authentication: Backstory
+      key_past_event_connection_personal:
+         value: 'The "Systematic Undermining and Ruin of Cottonmouth Gators Processing Concern" by agents/ subsidiaries of Bayou Meats Inc. This involved predatory pricing, sabotage of his 1970s- style solar chillers, and leveraging local regulations against him.'
+        authentication: 'Backstory - Core of his victim hood'
+      inherited_items:
+        value: '[A worn, dog-eared promotional photo of Jerry Reed  (one of the deified celebrities) kept in his overall pocket; The broken nameplate from his old processing shed, reading "Cotton mouth Gators - Quality Meats - Est. [Post-Calamity Year]".]'
+        authentication: 'This  Codex; Primal Mama Coherence - Axiological (Deities)'
+      historical_undersaturation_notes: '[ Detailed genealogy of the Cottonmouth family; specific individuals within Bayou Meats Inc. responsible for his downfall (unless plot- relevant); his experiences during any specific minor historical events of Lickskillet not directly tied to his ruin.]'
+
+   character_constitution_summary_narrative_function:
+    purpose: "Synthesize the core identity, internal  conflicts, and narrative role emerging from the authenticated property bundle."
+    core_essence: |
+      Jebedia h Cottonmouth is constituted as a proud man broken by the systemic greed inherent in Primal Mama's meat oligarchy . His identity, once rooted in the self-sufficient, 1970s-aesthetic-driven enterprise of  alligator processing—a cornerstone of post-Calamity society—has been violently stripped away. He is a living testament  to the "friction" mentioned in the world's deontic rules, embodying the struggle of the common swamp-dweller against powerful , corrupt forces. His bitterness is a direct consequence of his legitimate grievance, and his resilience is a quiet defiance against a  world that has devalued his labor and life. He clings to symbols of a more 'just' past (celebrity  deities, memories of honest work) amidst the strange spiritual miasma and retro-futuristic decay.
+    primary_narrative_ function: "To serve as a clear victim and representation of the injustices perpetrated by the meat oligarchy; a potential catalyst for quests for  justice or exposure; a source of grounded, bitter wisdom about the realities of life in Primal Mama's Lick skillet region; a moral touchstone highlighting the human cost of the world's power dynamics."
+    key_internal_conf licts: 'The burning desire for his past life/status vs. the crushing reality of his present poverty; The need to warn  others or seek justice vs. the paralyzing fear of further retaliation from the oligarchy; The Southern value of hospitality/community vs.  a deep, learned distrust of everyone.'
+    potential_for_development: "Could be galvanized by a protagonist to  share his story or aid in a quest against the oligarchy (Functional/Social change); Might find a new, albeit smaller, purpose  or community (Psychological/Social change); Could pass on his knowledge of alligator processing or swamp survival (Functional change); Might succumb  further to bitterness or paranoia, or find a measure of peace/acceptance (Psychological change). His knowledge of the oligarchy' s past tactics could be crucial."
+
+end_of_profile_marker: CHAR_JebCottonmouth_01 

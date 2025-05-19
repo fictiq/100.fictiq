@@ -1,0 +1,108 @@
+The Beast of White Orchard
+All the optional quests are done for now, so it's finally time to go pay the Nilfgaardians a visit. Fortunately, they're nearby, just swim back west and head to the northern part of the island to find the Nilfgaardian Garrison signpost. From here head up several flights of wooden stairs and you'll be accosted by a pair of soldiers. Geralt and them will exchange banter. When Geralt mentions he's a Witcher, however, their disposition changes, and they tell you to head on it. There's only one reason for this... seems like the Nilfgaardians need a Witcher.
+
+First, however... if you're feeling adventurous turn north-west and head onto a wooden bridge. Run to the end and you'll discover that... well, the bridge is out of commission. Still, a good jump will get you to the far side, where a lootable chest and some other containers await. Just remember, as far as loot around Nilfgaardians is concerned, a "no-touching or we'll murder you" rule prevails. The stuff on the far side of the bridge is safe enough, however.
+
+Head past the guards and into the garrison. There are plenty of Nilfs around, but surprisingly little to do here. You can loot herbs freely, but you need to be careful with anything else. Head to the west to find a Grindstone, with which you can enhance your weapons. Nearby you'll find a Quartermaster (marked on your map as a Blacksmith). If you talk to him, he'll ask for a password, and when Geralt admits to not knowing one, he'll get cheeky. Geralt retorts with a barb of his own, and the Quartermaster decides you're alright. He doesn't sell much that Willis doesn't, but he can craft weapons for you, unlike Willis. If you have some Emerald Dust, it might be worthwhile to craft the Viper Silver Sword. It's a decent upgrade, and well worth the 72 Crowns it costs to craft.
+
+Once you're done with the Quartermaster, head up the nearby stairs and into the tower. Here you'll find the commanding officer negotiating with a peasant. He shows a more compassionate face of Nilfgaard, but one should keep in mind that all those corpses probably didn't end up hanging themselve or impaling themselves on spikes without his knowledge.
+
+When he turns his attention to you, respond to him however you wish. Geralt will ask about Yennefer and the Nilfgaardian's angle becomes clear-in exchange for information about Yennefer, he wants you to kill the Griffin, something he's already tried to do-and failed at. Half-measures haven't work, and he can either keep his garrison around to watch over the Temerians, who are primed to rebel at any moment, or he can send the garrison to hunt the Griffin. Given those options, he decided to do the former, but now that there's a profession monster-slayer in the area... Accept his offer and Geralt will ask some job-related questions. The takeaway from these is that Geralt needs to question one Mislav-the hunter who found the men the Nilfgaardian sent to kill the Griffin earlier, and Tomira, an herbalist.
+
+Note: If you discovered the Griffin's nest on your own, you won't have to bother with Mislav, and if you already acquired Buckthorn you won't need to see the Herbalist. You will, however, need to return to the Griffin's nest and investigate it.
+
+On Death's Bed
+Head out of the garrison and use the "Nilfgaardian Garrison" signpost to fast travel to the "Sawmill" signpost. From here, head east over a hill to find the herbalist's house, which we can now enter. Unsurprisingly, there's a fair amount of herbs to loot outside. Take what you wish, then head inside.
+
+Talk to Tomira and ask about her past to find out that she studied under one Nenneke, until a boy-and a related summer of passion-ruined all that. Next ask her about Claer, and the she will tell the story about what happened there. Not really anything we didn't already know, but to prevent things from ending on a bad note, she gives us some goodies. If you haven't already harvested it, you can also ask Tomira about the Buckthorn you'll need to serve as bait for the Griffin.
+
+Objective	Reward
+For asking Tomira about Claer	10 XP
+Saltpeter x4
+Berbercane Fruit x8
+Hellebore Petals x8
+Corinarius x6
+Ask about the injured woman and she'll confirm that she's another victim of the Griffin. The victim is terminal, and beyond the herbalist's power... but perhaps not beyond a Witcher's potions. The risks are serious, however, as... well, there's a reason the Witchers go through the training they do. Those mutations aren't just to increase their reaction times-it also allows them to withstand their own potions. Offer to help her and the herbalist will point out the obvious-she's dead either way. The choices are between an easy death at the hands of the herbalist, an agonizing death under the influence of a Witcher's potion, or possibly, a full recovery.
+
+Exit the conversation, then prepare a Swallow potion via your Alchemy menu. We should have more than enough ingredients for this by now. Once done, talk to Tomira again and pick the option "Got a potion for Lena." We won't see the outcome, as the potion will take longer to affect a normal human, but the rewards are immediate. Tomira decides she likes us, and decides to give us a reward. For giving a damn. It's a pretty hefty reward, too. Reading the book she gives you will update the bestiary with an entry on Nightwraiths and Plague Maidens. Score.
+
+Objective	Reward
+For giving a damn	350 XP
+50 Crowns
+Venom Extract x2
+Manuscript Page: Cursed Oil
+Of Sweat and Blood
+Finally... as an herbalist, she sells herbs. Amazing, right? She also sells formula for White Gull and Troll Decoction, should you need them. Sadly, she won't give us a good deal on herbs we wish to sell, but she will pay 18 Crowns per Honeycomb. If you were diligent about searching for it, earlier, you could have a couple dozen of them, which will solve our money issues for a while... even if you have to rest a bit to get her to replenish her cash.
+
+Hunting With Mislav
+Now it's time to check in with Mislav, whose house is outside (south-west of) the village of White Orchard, just south of Odolan's house. Knock on the door and Geralt will come to the conclusion that the hunter must be out hunting... which seems perfectly reasonable. Use your Witcher Senses to spot some tracks east of the dooor, then follow the meandering path south to find Mislav, who is crouched over, possibly tracking some beastie?
+
+Interrupt him and, after shushing you, he'll proceed to tell you why Wild Dogs are more dangerous than Wolves, in his silly opinion. Ask him to lead you to where he found the Nilfs and he'll agree... after he kills the Wild Dogs, who might pose a danger to the village. He'll then ask us to join him, and... well, it would be a shame if he were to die hunting dogs, so... agree to help him.
+
+Follow Mislav on his crusade and he'll continue to bad-mouth dogs as you walk. Eventually you'll stumble across a pack of Wild Dogs, who make all dog-kind look bad by preying on a human. Kill the doggies and Mislav will investigate the body, which belongs to a man he once knew. Ask him about his past if you want to know exactly why Mislav lives outside of the village.
+
+Objective	Reward
+For hunting with Mislav	350 XP
+Next stop is the site where the Nilfs died, which Mislav will lead us to. It's a bit of a jog to the south west, on the road south-west of his house. Once we get there Mislav will describe the scene, then wish us luck. Activate your Witcher Senses, then investigate the remains of a campfire, the blood, and some bottles, then continue down the road a bit and examine some tracks-older, deeper tracks. Follow the tracks south-west, past the "Broken Bridge" signpost, then over the broken bridge itself. The tracks will veer off the road to the south, uphill, over a few stone ledges, and across another gap you have to jump. Keep heading uphill to find the Griffin's nest.
+
+Use your Witcher Senses to highlight the dead Griffin and the nest, and search them, examining the dead Griffin's wounds, determine its age, and its type. All the signs point towards humans being the culprits, and the surviving Griffin-a male whose life-mate was murdered-might just be justified in its rampage. You can also examine a dead body and some bones nearby to learn more. Loot the skeletons in the nest, then a corpse sitting up against a tree before returning to Vesemir in the tavern in White Orchard.
+
+Objective	Reward
+For examining the Griffin	500 XP
+Battling the Beast
+Return to the tavern to find that Vesemir has decided to play outside. He also seems to have cleaned up his armor (and presumably mended his wound) while we were out busy doing ALL THE WORK. Ahem. Tell him about the Griffin contract, and he'll show off his perceptivness. Tell him you have both the Buckthorn and the information and, after Vesemir makes fun of you and amateur monster hunters both, he'll say he's ready to go. Pick the dialogue option "Time to set the trap" and Vesemir will tell you about an ambush location he picked out-maybe the old man has been busy after all? He'll give you the formula for the Thunderbolt potion then run off to the ambush location.
+
+Objective	Reward
+For telling Vesemir you're ready to hunt the Griffin	Formula: Thunderbolt
+Now is as fine a time as any to prepare potions, if you think you'll need them. With a level three Witcher and an upgraded Viper Silver Sword, however, we should be fine. Head over to where Vesemir went (north of the island east of White Orchard) and talk to him. Tell him you're ready and Vesemir will apply the Buckthorn bait to a sheep decoy, and the two Witchers will settle down in the brush to chat while they wait.
+
+The Griffin will show up eventually, and the two Witchers will move to attack. Before things get violent, however, Vesemir hands you a crossbow he won in a card game, which might just come in handy. Chastise Vesemir about his gambling and he'll change the subject... after all, we do have a Griffin to kill.
+
+Despite what Vesemir says about the crossbow, it's really not of much use. Keep an eye on the beast when it flies, and if it comes down to attack, simply dodge out of the way. It'll land to melee you once in a while, which is when you'll be able to damage it. Keep the Quen Sign up to deflect hits, and dodge its attacks until it flies off. Summon Roach and chase the critter up to near the mill and finish it off. It's a little more aggressive now that it's been injured, but Quen and a Silver Sword are just too much for it. Once it's dead, Vesemir will lecture you on your swordsmanship. Yeah, yeah... when he leaves, cut yourself off a trophy. The Nilfgaardians should be pleased. From the Griffin's corpse you'll score a Griffin Trophy and a Griffin Mutagen, amongst other things.
+
+Return to the Nilfgaardin Garrison where you'll see the normally flexible commander punish a peasant for delivering the grain he was ordered to bring earlier. Unfortunatley for the peasant, he brought rotten stores. You can give the officer a hard time, for what that's worth. Tell him you've killed the Griffin, and he'll tell you that Yennefer was, in fact, close by the whole time, in the capital city of Vizima-a place Geralt knows well. Geralt will get pissy about not being told how close Yennefer was, and as he turns to leave the commander will call out to him and offer fair payment for his services. Take the money or not, as you wish.
+
+Objective	Reward
+For taking the payment	300 XP
+150 Crowns
+For turning down the reward	500 XP
+We should now be done with White Orchard. You still have time, however, to finish up any quests you wish. When you're ready to leave return to the tavern to collect old man Vesemir. Vesemir smells trouble brewing-drunken patriots nearby just waiting for something to trigger them. That trigger occurs when a patron asks the innkeeper what happened to the lillies. The situation escalates into an argument between the innkeeper and her patron. Vesemir, despite his own advice, interferes when things turn violent, and despite his warnings, a fight breaks out. Slaughter your assailants, then leave the tavern.
+
+Once outside, Geralt and Vesemir will be confronted by Nilfgaardians. Fortunately, they also have Yennefer in tow. Seems like we could have just sat around and waited for her. Oh well. Yennefer promises us an explanation... once we reach Vizima. It's not just Yennefer who wants to talk to you in Vizima, however-Emhyr var Emreis, the Emperor of Nilfgaard himself awaits us. Vesemir and Geralt will say their farwells, and Geralt will head off to Vizima, with Yennefer and an escort of Nilfgaardians.
+
+Objective	Reward
+For reuniting with Yennefer	300 XP
+
+Imperial Audience
+We return to our hero getting another bath. A much-needed one this time, certainly. Geralt will be subjected to other Nilfgaardian scruples on cleanliness, including a shave. A ranking Nilfgaardian named Morvran Voorhis will interrupt, and decide a shave is a fine time to ask about your past... namely the choices you made in the last game. As this might not be familiar to everybody, it's probably best to discuss these questions in a bit of detail. Background on the questions will be provided, but the actual choice will be left up to you.
+
+The fate of Aryan La Valette
+Aryan was the son of Mary Louisa La Valette, a Termeria nobel who rose up against Foltest. He was the half-brother of Foltest's twins with Maria. At the time Geralt was serving Foltest, owing his position of prominence to both Triss' influence as Foltest's advisor, and to thwarting an assassination attempt on Foltest earlier. During the siege of La Valette castle, Geralt encountered the brash young noble, and could have either slain him and his troops, defeated Aryan in single combat, or convinced the youth not to throw his life away. If the latter course was chosen, Aryan and Geralt helped one another escape from the La Valette castle dungeon. Thought to have perished in a fire at the castle, Aryan had actually set out to find his missing siblings, and heirs to the throne of Temeria.
+
+How did you reach Vergen?
+The big choice at the end of chapter one, you could either side with Iorveth, an elven rebel and leader of the Scoia'tael who helped Foltest's murderer or Vernon Roche, leader of Foltest's "blue stripes" special forces, who sought both the Scoia'tael and the kingslayer. If you sided with Iorveth, you ended up on the nonhuman side of a conflict between Aedirn and Kaedwen. If you sided with Vernon you found yourself at the service of King Henselt of Kaedwen.
+
+Did you rescue Triss, or Anais/Saskia?
+Depending on the choice you made earlier, at the summit at Loc Muinne, did you rescue Triss (who was kidnapped by Nilfgaardians) or did you either help Iorveth lift a curse on Saskia (leader of the Aedirnian rebels and high dragon in disguise) or help Vernon rescue Anais (Foltest's surviving daughter and heir). If you saved Triss, Anais died and Temeria was split between Redania and Kaedwen, or Saskia either had to be slain, or was spared, but remained under magical control. Otherwise, you could have rescued Saskia and freed her from magical control, or if you saved Anais, you could choose to give her to Radovid (king of Redania) at which point Temeria became a protectorate of Redania, or given her to the Temerians, which allowed Temeria to remain independent... for all the good that did in the long run.
+
+Sile de Tansarville's Fate?
+Sile de Tansarville was one of the sorceress conspirators that set the events of The Witcher 2 in motion, and Geralt-and all the north-suffered for their schemes. At the summit at Loc Muinne, Letho-the Kingslayer-sabotaged Sile's megascope. Geralt had the option to put old grudges aside and save Sile, or let the sabotage kill her in dramatic fashion.
+
+What happened to Letho?
+Letho, the Kingslayer, murdered Foltest and Demavend, and allowed the murder of the former to be pinned on Geralt. He was ultimately working for Nilfgaard, and Geralt chased him to Loc Muinne, where he could either have let Letho go, or killed him in single combat. Letho's life had once been saved by Geralt, and despite their political animosity, Letho returns the favor later on. His motivation for serving Nilfgaard was the promise of the resources to restore the Viper School of Witchers.
+
+Make your choices, sign on the dotted line, then pick out your choice of outfit... after you loot the area, of course. Plenty of books to be obtained and read at your leisure. Grab an outfit (or all three!) then talk to the chamberlain when you're ready to proceed with the meeting. After some bowing lessons, follow the chamberlain out of the room, as he continues to lecture you on proper etiquette.
+
+Shortly you'll reach your destination. If you were expecting a huge audience chamber, or something elegant... well, that's not the case. Choose to bow when prompted-or refuse. Either way, the emperor will send everyone else away to talk to you one-on-one. His demand of you is simple-his daughter Cirrila, has appeared again, and she's being persued by the Wild Hunt. You are to find her, and bring her back to Emhyr. The story between the parties involved is complicted, but to put it simply-Geralt once saved Emhyr in his youth, while in exile, when he went by the name Duny. The price for Geralt's aid was Ciri, who was brought up to be a Witcher. Geralt, too has been persued recently by the King of the Wild Hunt, and given our incident outside of Vizima, it doesn't appear this pursuit has ended. Finding Ciri might help discover why the Wild Hunt is chasing us... and one doesn't really say "no" to the Emperor of Nilfgaard.
+
+Respond how you wish, as long as it's in the affirmative, then the audience will be ended by Emhyr, who summons his chamberlain to escort you to Yennefer. Follow him through the throne room, where workers are busy destroying the lilies on the floor. You can stop along the way and bother Voorhis to find out if he knew why you were called to
+talk to the Emperor, he seemingly does not know. Then pass through a garden, where the chamberlain will leave you to your own devices. Go through a nearby door and loot the rooms beyond.
+
+Go into a room to the North to find Yennefer, who teases you about your apparel before talking business-in this case, business means Ciri. The Wild Hunt is on to Yennefer, and she can't risk using more magic to track her down. You need to track down Ciri, before the Wild Hunt finds her. There are two places to search-Velen, being the most likely, and Novigrad, where Triss Merigold resides. Yennefer herself will investigate a magical incident she believes is tied to Ciri in the Skellige Isles. With that, Yennefer will advise you to speak to Ambassador var Attre to learn about what's been going on in the world before you leave, then she'll teleport away after an awkward farewell kiss.
+
+Loot Yennefer's room, especially taking time to score a chest in a cubby to the west, then take her up on her advice and talk to the ambassador, who is standing by a fire in the room to the south. Ask him about how the war with Radovid is going, then get caught up on the game's three main areas-Velen, Novigrad, and Skellige. A Bloody Baron in Velen, the Eternal Fire cult causing pogroms against nonhumans and mages in Novigrad, and in Skellige... well, Skellige kind of sucks. Still, the other two seem trouble enough.
+Leave these rooms and return to the garden, where you can talk to the chamberlain to get your gear back, which he had the audacity to freshen up! With one last warning not to keep Emhyr waiting, he'll leave you to your own devices. There's surprisingly little left to do here-there's some more minor loot to be had if you look around, and you can play Gwent with a Nilfgaardian Nobleman, but his cards are so strong you're just throwing away Crowns.
+
+While you are in the garden, use your Witcher Senses to discover a block that you can "Use" across from the door to Yennefer's chambers. Pushing in the block will open a secret room to the left containing: Enhanced saddle and Old Letter. Read the Old Letter for some information about Adda.
+
+Note: Throughout White Orchard, your level and the quest levels remained about the same. For this latter part of the game the world opens up and there is a lot more to do. Quest experience is based on your level. Most of the rewards recorded are for having your level within 5 or so levels of the quest level. If an experience reward is not listed or says "Varies," it means the contributors of this guide were not within that range. Quest levels will be listed from here on out.

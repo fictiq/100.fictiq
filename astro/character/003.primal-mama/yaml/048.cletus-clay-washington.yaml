@@ -1,0 +1,110 @@
+ 
+# Story World Codex: Fictional Person Constitution Protocol (YAML Export)
+# Based on Doležel' s Heterocosmica III.B.II.C (Character as Property Bundle)
+
+world_codex_info:
+   world_name: Primal Mama
+  codex_version: "0.2 - Character Constitution" # Version  includes a colon, so quoted
+  last_updated: "[Current Date]" # Placeholder, will be a date
+   lead_architects: "[Your Name / Studio Name]" # Placeholder
+
+character_profile:
+  entity_ id: CHAR_CletusWashington_01
+  character_name: "Cletus \"Clay\" Washington"
+   entity_type: Person
+  archetype: "The Ruined Man / Scapegoat" # Contains a slash , good to quote
+  primary_authentication_sources:
+    - This Codex Entry
+    - "Primal Mama Co herence & Internal Logic Protocol v0.1" # Version includes colon
+  canon_tier: "Tier 2 ( Significant Supporting Character / Exemplar of Societal Victimhood)"
+  authentication_status: Authenticated_Canonical_Active
+
+   authenticated_property_bundle:
+    physical_properties:
+      appearance_general: "Human male, mid- 40s, with distinct African features. Once powerfully built from hard labor, now carries a gauntness and weariness that ages  him. Skin tone is a deep brown, weathered by swamp sun and hardship." # Auth: This Codex
+      appearance _specific_features: "Broad nose, full lips often set in a grim line. Deep-set, intelligent eyes that hold  a haunted, watchful quality. Close-cropped hair, flecked with premature grey." # Auth: This Codex
+       appearance_distinctive_marks: "A faded network of scars on his forearms from processing alligators – a common  mark in Lickskillet, but his seem to stand out more now that he's thinner. A nervous tic develops  near his left eye when discussing his past or the \"Invisible Women.\"" # Auth: This Codex
+      typical_attire : "Worn, patched overalls of faded denim or canvas, often stained with mud and unidentifiable swamp substances. Heavy -duty, oft-repaired work boots. Carries a battered, wide-brimmed hat made of woven swamp reeds , a common Lickskillet protection against sun and rain." # Auth: Primal Mama World Details - Lick skillet culture
+      voice_speech_pattern: "Once resonant and confident, now often low, hesitant, and ting ed with bitterness. Speaks with a distinct Lickskillet bayou drawl. Prone to muttering, especially when  anxious." # Auth: This Codex
+      gait_mannerisms: "Used to move with the assuredness of  a skilled tradesman; now often shuffles, head down, avoiding eye contact. Hands that were once steady now sometimes  tremble slightly. Wrings his hands or rubs his temples when agitated." # Auth: This Codex
+      associated_scent : "Lingering scent of swamp detritus, metallic tang of old blood (from his past trade, hard to wash out completely ), and the faint, sharp smell of cheap, home-brewed shine he sometimes partakes in." # Auth: Primal  Mama Sensory Palette - Lickskillet
+      physical_undersaturation: "Exact height/weight, specific details of non-work  clothing (if any), favorite brand of cheap shine."
+
+    functional_properties:
+      skills:
+        - " Expert Alligator Butchering & Processing (Formerly his trade, knowledge remains but opportunity lost)" # Auth: Backstory / Primal  Mama Economy
+        - "Proficient 70s-Era Mechanical Repair (Kept his own processing equipment running; can  fix basic swamp skimmers, solar generators)" # Auth: Primal Mama Tech Aesthetic / Backstory
+        - " Swamp Navigation & Survival (Basic, common to Lickskillet residents)" # Auth: Primal Mama Environment
+         - "Basic Firearm Use (Owns a battered, but functional, shotgun for protection/hunting small game,  common outside Beetriot)" # Auth: Primal Mama Deontic Rules - Gun Ownership
+      limitations:
+         - category: Social
+          description: "Heavily Stigmatized & Ostracized (Due to  accusations linking him to \"Invisible Women\" and his subsequent economic ruin)" # Auth: Primal Mama Epistemic Rules  - Conspiracy / Deontic Rules - Social Penalties
+        - category: Economic
+          description: "Impover ished, Lacks Resources (Business destroyed, assets seized or sold off cheaply)" # Auth: Backstory / Primal  Mama Economy - Oligarchy Power
+        - category: Psychological
+          description: "Suffers from paranoia and anxiety,  particularly regarding authority figures and public gatherings. Prone to bouts of despair." # Auth: Psychological Properties / Backstory
+         - category: Influence
+          description: "Possesses no political or social leverage; his word carries no weight, especially against  established narratives or powerful interests." # Auth: Social Status Property
+      functional_undersaturation: "Ability to pilot advanced  watercraft; knowledge of esoteric swamp lore (beyond common knowledge); artistic talents."
+
+    psychological_properties:
+      core_ traits:
+        - "Deep-Seated Resentment (Towards the meat oligarchy and the community that turned on him)"  # Auth: Internal Monologue Hints, Dialogue
+        - "Persistent Fear/Paranoia (Believes he is still  watched, that any small success will bring further retribution)" # Auth: Behavioral Patterns, Dialogue
+        - "Lingering , Crushed Pride (In his former skills and independence, now a source of pain)" # Auth: Flashbacks, Off hand Comments
+      dominant_emotion: "Bitter Resignation, punctuated by flashes of anger or profound sadness." # Auth: Narr ator Descriptions, Character Actions
+      key_motivator: "Day-to-day survival; a desperate, almost hopeless desire  to be believed or for the truth of his innocence to be known, even if only by a few." # Contains colon, quoted . Auth: Actions, Dialogue
+      key_belief: "Believes \"The System\" (oligarchy, prevailing superst itions) is rigged against the common person; believes the \"Invisible Women\" conspiracy is a dangerous lie used by the powerful." #  Contains colon, quoted. Auth: Dialogue, Internal Monologue
+      internal_conflict: "Desire for justice/ vindication vs. crippling fear of further persecution; lingering self-worth vs. internalized shame from ostracization; urge  to warn others vs. instinct for self-preservation." # Contains colons, quoted. Auth: Narrative Tension, Character Choices 
+      subjective_memory_content: "Vivid, painful memories of his thriving business, the whispers starting, the accusations , the public shaming, the forced sale of his assets. Positive memories are now tinged with sorrow." # Auth: Narrative Dep iction
+      psychological_undersaturation: "Specific childhood experiences beyond general Lickskillet upbringing; opinions on the  deified celebrities (likely too preoccupied); nuanced views on Erpenthropes (probably just fear/avoidance)." #  Contains colon, quoted.
+
+    social_relational_categorical_properties:
+      official_role: "Formerly: Independent  Alligator Processor. Currently: Unemployed Outcast / Occasional Odd-Jobber (menial, undesirable tasks)"  # Contains colons, quoted. Auth: Backstory, Current Status
+      social_status: "Pariah in  Lickskillet. Below the notice of Beetriot elite. Marked by the \"Invisible Women\" conspiracy." # Auth : Primal Mama Social Structure / Epistemic Rules
+      primary_affiliation: "None. Deliberately avoids groups or  prolonged association." # Auth: Psychological Profile
+      secondary_affiliations: "Formerly: Respected member of Lickskillet' s independent business community. Now: None." # Contains colons, quoted. Auth: Backstory
+      key_relationships:
+         - to_whom: "The Meat Oligarchy (Unnamed Representatives)"
+          nature: "Unseen tormentors,  architects of his ruin. He fears them implicitly." # Auth: Backstory, Primal Mama Deontic Rules
+        -  to_whom: "Lickskillet Community"
+          nature: "Source of his ostracization. A complex mix of  former friends/neighbors who now shun or pity him from a distance." # Auth: Backstory, Current Interactions
+        - to_ whom: "Potentially to a sympathetic character who sees past the stigma, or a fellow outcast"
+          nature:  "(To Be Developed in Narrative)" # Auth: Narrative Potential
+      species_type: "Human (Baseline Primal Mama Strain)" 
+      social_undersaturation: "Specific family members (if any survived his social fall, or if he had them);  any secret sympathizers too afraid to act openly."
+
+    modal_properties:
+      - id: "N/ A"
+        nature_of_exception: "None authenticated. Cletus operates fully under the general alethic,  deontic, axiological, and epistemic rules of Primal Mama. His victimhood is a result of these rules  being applied or exploited, not him being an exception to them."
+        limits: "N/A"
+         authentication: "Absence of any textual evidence suggesting exceptional modal status." # Auth: [Absence of any textual evidence...]
+
+     axiological_properties:
+      reputation_lickliskillet_populace: "Authenticated as 'tain ted', 'unlucky', 'possibly influenced by/colluding with the Invisible Women' (a lie he can' t disprove), 'a tragic figure', 'someone to be avoided'. His past competence is acknowledged with a \"shame  what happened to him.\"" # Auth: Character dialogue/reactions from community members
+      reputation_meat_oligarchy: " Authenticated as 'a problem neutralized', 'a useful lesson to other independents', 'irrelevant'." # Auth: Implied by their actions  and power
+      moral_alignment_narrative_framing: "Authenticated via narrative focus/potential for audience sympathy  as a victim of systemic injustice and malicious conspiracy, fundamentally decent but broken by overwhelming forces." # Auth: Narrator tone, depiction  of his suffering
+      axiological_undersaturation: "How Beetriot authorities (if they were ever involved) officially classified his  case; specific views of any remaining family."
+
+    historical_properties:
+      origin: "Authenticated as born and  raised in Lickskillet. Family were small-time swampers for generations." # Auth: Implied Backstory  / Lickskillet Culture
+      key_past_event_connection: "His primary defining historical event is \" The Ruining\": a period where his successful independent alligator processing business, which utilized efficient (but normal for 70s tech ) solar-powered smokers and cutters, was targeted. Rumors, fueled by oligarchy agents, spread that his unusual success was  due to 'unnatural help' from the \"Invisible Women.\" Public paranoia, coupled with subtle economic sabotage (e. g., restricted access to prime gator parts, sudden 'safety' inspections), led to his business collapse and social ostr acization." # Contains colons, quoted. Auth: Core Backstory Element / Links to Primal Mama Oligarchy  & Conspiracy themes
+      inherited_items: "Authenticated to possess a few heavily worn, high-quality processing knives from his grandfather  (symbols of lost heritage and skill), and the key to his now-defunct, repossessed processing shed." # Auth : Narrative inventory, symbolic items
+      historical_undersaturation: "Specific details of his parents' lives/fates; the exact  identities of the oligarchy agents who targeted him; precise timeline of \"The Ruining\"." # Contains colons,  quoted.
+
+  character_constitution_summary_and_narrative_function:
+    core_essence: " Cletus \"Clay\" Washington is constituted as a living testament to the devastating intersection of unchecked corporate power (Meat Oligarchy) and  weaponized societal paranoia (the \"Invisible Women\" conspiracy) within Primal Mama. His identity is forged in loss: lost livelihood  (Functional), lost reputation (Axiological), lost social standing (Social), and lost hope (Psychological). He  is a man whose skills and adherence to the world's accepted technological norms (70s aesthetic, solar power) were twisted  into evidence of unnatural influence. His existence demonstrates the fragility of truth and security for the common individual in Lickskillet ." # Contains colons, quoted.
+    primary_narrative_function: "To embody the human cost of Primal  Mama's socio-economic and epistemic dysfunctions. Serves as a cautionary tale, a potential source of information  (if trust can be gained) about the oligarchy's methods and the conspiracy's real-world impact. His plight  can motivate other characters or highlight the stakes of challenging the established order. He could also, if pushed far enough or offered a sli ver of hope, become a catalyst for localized resistance or truth-seeking."
+    key_internal_conflicts:
+       - "The desire for justice/truth vs. the paralyzing fear of further harm."
+      - "The memory of his former , capable self vs. his current broken state."
+      - "The instinct to warn or help others vs. the learned behavior of  isolation for survival."
+      - "The bitterness towards his community vs. a residual longing for acceptance."
+    potential _for_development:
+      - "Finding a trustworthy ally who sees his true character (Social/Relational change )."
+      - "Slowly overcoming his fear to share crucial information (Psychological/Functional change)."
+      - "Discovering  concrete evidence of how he was framed (Epistemic shift)."
+      - "Finding a new, albeit small,  purpose that reclaims a fraction of his dignity (Psychological/Axiological change)."
+      - "Becoming a reluctant symbol  or voice for other victims."
+
+# End of Fictional Person Profile: CHAR_CletusWashington_0 1

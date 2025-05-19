@@ -1,0 +1,152 @@
+Bombs
+Bombs are good for... well, blowing things up, ideally. When created, you'll get a limited number of them to use (they can be replenished by resting, where you'll automatically use alcohol to concoct more)-higher grades of bombs will have more numbers in a stack. Throw them at enemies or use them to blow up Monster Nests. Depending on the bomb, they do everything from causing brute damage, to applying status effects.
+
+Bomb	Required Components	Stats
+Dancing Star	Saltpeter x1
+Sulfur x2	
+Fire Damage: 100
+Effect Duration: 4 Seconds
+
+Devil's Puffball	Saltpeter x1
+Sewant Mushrooms x2	Poison Damage: 100
+Effect Duration: 10 Seconds
+Dimeritium Bomb	Saltpeter x5
+Optima Mater x2	Effect Duration: 15 Seconds
+Dragon's Dream	Saltpeter x1
+Phosphorus x2	Fire Damage: 300
+Effect Duration: 15 Seconds
+Grapeshot	Saltpeter x2
+Calcium Equum x2	Physical Damage: 350
+Silver Damage: 350
+Fire Damage: 5
+Moon Dust	Saltpeter x1
+Quicksilver Solution x2	N/A
+Northern Wind	Allspice x2
+Saltpeter x1
+Ducal Water x1
+Powdered Pearl x1	Effect Duration: 4 Seconds
+Samum	Saltpeter x1
+Celandine x2	N/A
+Enhanced Dancing Star	Sulfur x1
+Stammelford's Dust x1
+Sewant Mushrooms x1
+Hellebore Petals x1
+Dancing Star x1
+Phosphorus x1
+Nostrix 1	Fire Damage: 100
+Effect Duration: 7 Seconds
+Enhanced Devil's Puffball	
+Endrega Heart x1
+Stammelford's Dust x1
+Sewant Mushrooms x1
+Devil's Puffball x1
+Calcium Equum x1
+Ginatia Petals x1
+Green Mold x1
+
+Poison Damage: 100
+Effect Duration: 20 Seconds
+Enhanced Dimeritium Bomb	Powered Pearl x1
+Stammelford's Dust x1
+Blowball x1
+Ginatia Petals x1
+Dimeritium Bomb x1
+Optima Mater x1
+Bloodmoss x1	Effect Duration: 30 Seconds
+Enhanced Dragon's Dream	Optima Mater x1
+Stammelford's Dust x1
+Mistletoe x1
+Allspice x1
+Dragon's Dream x1
+Phosphorus x1
+Bryonia x1	Fire Damage: 400
+Effect Duration: 30 Seconds
+Enhanced Grapeshot	Blowball x1
+Stammelford's Dust x1
+Crow's Eye x1
+Longrube x1
+Grapeshot x1
+Calcium Equum x1	Physical Damage: 600
+Silver Damage: 600
+Fire Damage: 10
+Enhanced Moon Dust	Sulfur x1
+Stammelford's Dust x1
+Hop Umbels x1
+Blowball x1
+Moon Dust x1
+Quicksilver Solution x1
+Honeysuckle x1	N/A
+Enhanced Northern Wind	Powdered Pearl x1
+Stammelford's Dust x1
+Fool's Parsley Leaves x1
+Verbena x1
+Northern Wind x1
+Ducal Water x2
+Allspice x2	Effect Duration: 4 Seconds
+Enhanced Samum	Foglet Teeth x1
+Stammelford's Dust x1
+Celandine x1
+Blowball x1
+Samum x1
+Phosphorus x1	N/A
+Superior Dancing Star	Sulfur x2
+Alchemists' Powder x1
+Sewant Mushrooms x2
+Nostrix x2
+Enhanced Dancing Star x1
+Phosphorus x2
+Nigredo x1	Fire Duration: 100
+Effect Duration: 10 Seconds
+Superior Devil's Puffball	Endrega Heart x2
+Alchemists' Powder x1
+Sewant Mushrooms x2
+Ginatia Petals x2
+Enhanced Devil's Puffball x1
+Calcium Equum x1
+Rebis x1	Poison Damage: 100
+Effect Duration: 30 Seconds
+Superior Dimeritium Bomb	Powered Pearl x2
+Alchemists' Powder x1
+Puffball x2
+Bloodmoss x1
+Enhanced Dimeritium Bomb x1
+Optima Mater x2
+Nigredo x1	Effect Duration: 30 Seconds
+Superior Dragon's Dream	Optima Mater x2
+Alchemists' Powder x1
+Allspice x2
+Bryonia x2
+Enhanced Dragon's Dream x1
+Phosphorus x2
+Aether x1	Fire Damage: 300
+Effect Duration: 15 Seconds
+Superior Grapeshot	Sulfur rx2
+Alchemists' Powder x1
+Longrube x2
+Hop Umbels x2
+Enhanced Grapeshot x1
+Calcium Equum x2
+Nigredo x1	Physical Damage: 600
+Silver Damage: 600
+Fire Damage: 10
+Superior Moon Dust	Sulfur x2
+Alchemists' Powder x1
+Hop Umbels x2
+Blowball x2
+Enhanced Moon Dust x1
+Quicksilver Solution x2
+Nigredo x1	N/A
+Superior Northern Wind	Powdered Pearl x2
+Saltpeter x1
+Verbena x2
+Allspice x3
+Enhanced Northern Wind x1
+Ducal Water x3
+Quebrith x1	Effect Duration: 4 Seconds
+Superior Samum	Foglet Teeth x2
+Alchemists' Powder x1
+Celandine x2
+Hellebore Petals x2
+Enhanced Samum x1
+Phosphorus x2
+Aether x1	N/A

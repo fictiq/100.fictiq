@@ -1,0 +1,319 @@
+
+quest_id: king_kraw_sunken_bayou
+title : "The King Kraw of Sunken Bayou"
+location: "Sunken Bayou, South of Licksk illet"
+suggested_level: "15-20 (Adapt based on specific creature stats)"
+background : |
+  Beau "Gator" Boudreaux, the ambitious but reckless son of Beetriot oligarch Cassian  Boudreaux, has ventured into the treacherous Sunken Bayou to hunt the legendary "King Kraw," a monstrously  large, possibly cybernetically enhanced GE Alligator. Cassian, or perhaps a concerned Lickskillet contact,  wants Beau found, preferably alive. Rumors in Lickskillet's *Gator Pit Bar* suggest Beau 's high-tech expedition met with disaster.
+
+main_objectives:
+  - id: reach_bay ou
+    description: "Reach the Sunken Bayou Entrance"
+    reward: "XP Varies"
+   - id: rescue_fenton
+    description: "Rescue Fenton"
+    reward: "XP Varies;  Fenton becomes a temporary companion."
+  - id: find_beau
+    description: "Find Beau Boudreaux "
+    reward: "XP Varies, Faction Reputation (positive with Cassian Boudreaux/Beet riot Elite, possibly mixed in Lickskillet)."
+  - id: ensure_beau_survives
+     description: "Ensure Beau Boudreaux Survives"
+    reward: "Additional XP/Reputation."
+     type: bonus
+  - id: kill_king_kraw
+    description: "Kill the King K raw"
+    reward: "Significant XP, Mastercrafted Weapon/Armor Schematic (e.g., King Kraw  Hide Jacket), Unique Crafting Component (King Kraw Cyber-Eye)."
+  - id: rescue_fenton _vance
+    description: "Rescue Both Fenton and Vance"
+    reward: "Highest XP reward tier for objectives, possibly  unique dialogue or minor follow-up interaction."
+    type: bonus
+  - id: free_vance #  Specific objective for the optional rescue attempt
+    description: "Free Vance"
+    reward: "XP Varies" 
+    type: bonus
+
+optional_sections:
+  - id: guarded_stash
+    title: "Guarded  Stash"
+    trigger_point: "Near Marlin Inlet Beacon, after finding Boudreaux rifle"
+    description:  |
+      Your Bio-Scanner picks up an anomalous energy signature offshore to the west. It's a floating supply  cache marked by a buoy, guarded by a swarm of Razorwings [Level 13 Equiv.]. Eliminate them, then retrieve  the contents.
+    encounters:
+      - creature: Razorwing
+        level_equiv: 13
+         quantity: Swarm
+    rewards:
+      - "Ammo"
+      - "High-grade alligator jerky"
+       - "Basic schematic (possible)"
+  - id: fetch_cletus_parts
+    title:  "Cranky Cletus's Request"
+    trigger_point: "After meeting Cranky Cletus "
+    description: |
+       Cletus complains about needing "Sealing Rivets and Synth-Twine " to patch his leaky barge hull. Find Rivets in Dorveaux Resort ruins. Synth-Twine found as general loot.  Return to Cletus before killing King Kraw.
+    item_requirements:
+      - item: Sealing Rivets
+         source: "Dorveaux Resort, Synth-Plank Walls"
+      - item: Synth-Twine 
+        source: "General Loot"
+    reward: "XP Varies, Minor Consumables"
+    objective_ id: bring_cletus_parts # Matches the objective text for clarity
+    objective_text: "Bring C letus Sealing Rivets and Synth-Twine"
+  - id: master_bioforge_parts
+     title: "Master Bio-Forge Components"
+    trigger_point: "Near Old Delta Refinery Beacon, before  rescuing Beau"
+    description: |
+      Head north from the 'Old Delta Refinery Beacon' to find a road leading west  into a large drainage tunnel/cave system. Inside lurks an augmented Rock-Skinner Lizard [Level 26  Equiv.]. Defeat it and loot a reinforced chest.
+    encounters:
+      - creature: "Rock-Skinner  Lizard (Augmented)"
+        level_equiv: 26
+        quantity: 1
+    rewards: 
+      - item: "Pristine Bio-Forge Matrix components"
+      - item: "Schematic: Plasma Cutter  Mk II"
+
+walkthrough:
+  - step_id: 01_journey_to_bayou
+     description: |
+      Journey south from Lickskillet via airboat. Encounter and deal with aggressive Razorwings  [Level 13 Equiv.]. Upon reaching the designated coordinates for the Sunken Bayou's edge, the ' reach_bayou' objective completes.
+    encounters:
+      - creature: Razorwing
+        level_ equiv: 13
+        quantity: Multiple
+    completes_objective: reach_bayou
+  -  step_id: 02_marlin_inlet
+    description: |
+      Land at a stable  patch marked by the flickering, rusted "Marlin Inlet Beacon". This is a fast-travel point. Loot dilapidated jetties and sh acks (70s-style containers).
+    signpost: "Marlin Inlet Beacon"
+    loot_ locations:
+      - "Dilapidated jetties"
+      - "Half-submerged shacks"
+   - step_id: 03_initial_tracking
+    description: |
+      Follow the damaged synth-wood boardwalk  north-west. Navigate over murky water. Deal with territorial Mud-Maws [Level 19 Equiv.]. Discover  the wreckage of a high-end, 70s-styled airboat. Use Bio-Scanner near the wreck to find  a discarded, custom "Gator-Gun" Rifle with Boudreaux crest.
+    encounters:
+      - creature : Mud-Maw
+        level_equiv: 19
+        quantity: Multiple
+    key_items :
+      - "Boudreaux's Gator-Gun Rifle (Discarded)"
+    notes: "Gu arded Stash (optional_sections.guarded_stash) becomes available nearby."
+  - step_id:  04_tracking_beau_southwest
+    description: |
+      Return to Marlin Inlet Beacon. Follow another  boardwalk south-west. At fork, descend into south-east ravine. Find corpses, submerged locked chest. Climb north led ges back to path. Follow west. Cross rickety suspension bridge. Loot roadside supplies, identify another dead crew member. Use Bio- Scanner to detect drag marks. Follow path north. Witness King Kraw feeding Mud-Maws from ruined structure.
+     loot_locations:
+      - "Submerged locked chest (ravine)"
+      - "Roadside supplies (near bridge)" 
+    key_event: "Witness King Kraw feeding Mud-Maws"
+  - step_id:  05_meet_cletus
+    description: |
+      After King Kraw leaves, head south, clear  lingering Razorwings [Level 15 Equiv.]. Climb aboard half-sunken research barge. Find "Crank y" Cletus inside. Talk to him for intel on King Kraw and Beau's crew. He mentions needing  "Sealing Rivets and Synth-Twine".
+    encounters:
+      - creature: Razorwing
+         level_equiv: 15
+        quantity: Few
+    npcs:
+      - name: '"Cranky"  Cletus'
+    activates_optional_quest: fetch_cletus_parts
+  - step_id : 06_beaus_camp
+    description: |
+      Leave barge, head south-west. At  fork, follow west path to Beau's abandoned campsite. Use Bio-Scanner: investigate bodies, gear. Identify two track sets : South towards lake, West along another path.
+    investigation_points:
+      - "Bodies"
+       - "Spent energy cells"
+      - "Discarded gear"
+      - "Tracks (South)"
+       - "Tracks (West)"
+  - step_id: 07_southern_trail_optional
+    description:  |
+      [Optional] Follow southern trail to large lake shore. Scan body, investigate damaged skiff. Defeat Bayou  Phantoms [Level 16 Equiv.] that appear. Continue south to find "Gator's Jaw Beacon". Scan  area (more carnage). Backtrack north to camp.
+    signpost: "Gator's Jaw Beacon" 
+    encounters:
+      - creature: Bayou Phantom
+        level_equiv: 16
+        quantity: Multiple
+     investigation_points:
+      - "Body near shore"
+      - "Damaged escape skiff"
+     notes: "Primarily for fast travel point and atmosphere."
+  - step_id: 08_tracking_runaways _west
+    description: |
+      Follow tracks west/north-west from camp. Path shows signs of fight . Find dead Bio-Rats [Level 13 Equiv.] killed by precision shots. Scan more tracks. Follow  north-west to "Skeeter's Rest Beacon" near abandoned stilt-village. Examine flechette-ridd led pillar.
+    encounters:
+      - creature: Bio-Rat (Dead)
+        level_equiv:  13 # For context
+        quantity: Several
+    signpost: "Skeeter's Rest Beacon" 
+    investigation_points:
+      - "Flechette-riddled pillar"
+  - step_ id: 09_trail_to_cave
+    description: |
+      Scan near pillar to pick up trail. Follow  north, noting synth-blood spatters (Bio-Scanner). Find corpse against barrel. Pick up "Emergency Beacon (70 s Model)". Scan mixed footprints (human, large clawed) leading north to "Mire-Lurk Den" cave entrance. 
+    key_items:
+      - "Emergency Beacon (70s Model)"
+    investigation_points:
+       - "Synth-blood spatters"
+      - "Corpse against barrel"
+      - "Mixed footprints"
+    leads _to_optional_section: feral_erpenthrope_den # This implies the next section is optional
+  -  step_id: 10_feral_erpenthrope_den
+    description: |
+      [ Optional Rescue Start] Enter "Mire-Lurk Den". Climb ledge. Follow blood trail north, then north- west at split. Fight Feral Erpenthrope [Level 19 Equiv.]. Continue west, fight another . Backtrack east, go north from split. At next fork: NE leads outside to third Feral Erpenthrope [Level  19 Equiv.] on ledges; NW follows blood trail deeper.
+    encounters:
+      - creature: F eral Erpenthrope
+        level_equiv: 19
+        quantity: 3 # Encountered sequentially usually 
+    notes: "This section leads to Fenton's rescue."
+  - step_id: 11_rescue _fenton
+    description: |
+      [Optional Rescue Finale] Follow NW path from fork. Scale ledge north . Follow passage west, then north into main chamber. Interrupt three Feral Erpenthropes [Level 1 8 Equiv.] cooking Fenton. Choose to fight or negotiate/challenge [Requires specific skills/items - GM decision].  Free Fenton. He joins as companion and directs you to Old Delta Refinery.
+    encounters:
+      - creature : Feral Erpenthrope
+        level_equiv: 18
+        quantity: 3 # Encounter ed together
+    npcs:
+      - name: Fenton
+        status: Captured, potentially rescued companion
+    resolution_options: 
+      - type: combat
+        description: "Fight the three Feral Erpenthropes."
+       - type: "diplomacy/challenge"
+        description: "Attempt communication/challenge [Requires specific skill/item]." 
+        success_condition: "[GM defines based on mechanic chosen]"
+    completes_objective: rescue_f enton
+    provides_info: "Location of Old Delta Refinery"
+  - step_id: 12 _return_and_travel
+    description: |
+       Return south to "Skeeter's Rest Beacon ". Fast-travel to "Gator's Jaw Beacon".
+  - step_id: 13_ sunken_cistern_approach
+    description: |
+       Near Gator's Jaw Beacon, Bio-Scanner finds more  bodies. Follow trail south, then climb south-east uphill to "Sunken Cistern Access" cave entrance.
+     investigation_points:
+      - "More bodies"
+  - step_id: 14_sun ken_cistern_exploration
+    description: |
+       Enter cave. Proceed SW to ledge. Leap into water . Swim SW to dry land. Kill Razorwings [Level 13 Equiv.]. Use NV Goggles/Glow -Moss Paste. Explore: West has lockers, dead-end pool with corpse/strongbox. NE end has crew man/Mud-Maw bodies.
+    encounters:
+      - creature: Razorwing
+        level_equiv:  13
+        quantity: 2
+    loot_locations:
+      - "Rusted lockers"
+      - "Locked  strongbox (dead-end pool)"
+    required_items_for_visibility:
+      - "NV G oggles (70s Style)"
+      - "Glow-Moss Paste" # Cat Potion equivalent
+  - step _id: 15_cistern_ascent
+    description: |
+       Scale NE ledges,  loot containers. Cross corroded catwalk. Examine more bodies (beast/man). Climb south ledges, cross another  catwalk. Follow linear path S, SW, S into large cavern.
+    investigation_points:
+      - " Bodies on catwalks/ledges"
+  - step_id: 16_large_cavern_and_loot 
+    description: |
+       In large cavern: South features mutated cypress tree swarming with Razorwings [Level  13 Equiv.]. Clear them. Return north. Follow west cliff edge to scaffolding leading down. Swim in stalagmite-filled  water to SE end. Behind large rock formation, find submerged high-tech chest containing valuable components or a unique schematic.
+     encounters:
+      - creature: Razorwing
+        level_equiv: 13
+        quantity: Sw arm # Near tree
+    loot_locations:
+      - "Submerged high-tech chest (SE end)"
+   - step_id: 17_cistern_exit_prep
+    description: |
+       Return NW via  water, climb scaffolding back up. Continue NE to more scaffolding. Scan dead Razorwing. Climb ladder into more tunnels.  SE turn leads to chest. NE path has two Alpha Bio-Rats [Level 13 Equiv.]. Kill  them, loot Alpha Bio-Rat Glands.
+    encounters:
+      - creature: Alpha Bio-Rat
+         level_equiv: 13
+        quantity: 2
+    loot_locations:
+      - " Chest (SE turn)"
+    key_items:
+      - "Alpha Bio-Rat Glands"
+   - step_id: 18_final_cave_section
+    description: |
+       At fork: NW first  for loot (chest, sacks). Backtrack, take NE fork. Kill another pair of Alpha Bio-Rats [Level 1 3 Equiv.]. Scan dead Razorwing. At another fork: SW for loot (chest, barrels). Backtrack, head NE towards  daylight.
+    encounters:
+      - creature: Alpha Bio-Rat
+        level_equiv: 1 3
+        quantity: 2
+    loot_locations:
+      - "Chest, sacks (NW fork)"
+       - "Chest, barrels (SW fork)"
+  - step_id: 19_refinery_approach
+     description: |
+       Emerge near "Old Delta Refinery Beacon". [Optional: Complete 'Master Bio-Forge Components' side  quest now by heading North then West into drainage tunnel]. Return to beacon. Circle east around refinery building to find northern reinforced door. 
+    signpost: "Old Delta Refinery Beacon"
+    triggers_optional_section: master_bioforge_ parts
+  - step_id: 20_kraws_larder
+    description: |
+        Enter northern door into King Kraw's larder (gore, half-eaten creatures). Head east, dispatch  scavenging Alpha Bio-Rats [Level 17 Equiv.]. Explore side rooms: North (corpse, commentary ), South (bones, loot).
+    encounters:
+      - creature: Alpha Bio-Rat
+        level _equiv: 17
+        quantity: Multiple
+    loot_locations:
+      - "Containers in bone  room (South)"
+    investigation_points:
+      - "Corpse (North room)"
+  -  step_id: 21_tracking_to_dorveaux
+    description: |
+       Go through hole  in north wall. Use Bio-Scanner on tracks. Follow trail NE to fork: Large tracks (King Kraw) go  NE; Smaller tracks (Beau) go NW. Follow NW tracks along sludge pond edge, then NE towards ruins of "Dorve aux Resort". Arrive to find Beau Boudreaux fighting Razorwings [Level 13 Equiv.].
+     investigation_points:
+      - "Tracks (King Kraw vs Beau)"
+    location: "Dorveaux Resort ( Ruins)"
+  - step_id: 22_rescue_beau
+    description: |
+        Assist Beau against Razorwings. After fight, conversation with Beau (and Fenton if present). Beau remains determined. [Optional: Search  resort ruins for 'Sealing Rivets' for Cletus quest].
+    encounters:
+      - creature:  Razorwing
+        level_equiv: 13
+        quantity: Multiple
+    npcs:
+      - name: Beau B oudreaux
+        status: Found, alive
+    completes_objective: find_beau
+    notes: "Finding  him alive also potentially completes 'ensure_beau_survives'."
+    optional_task_location: fetch_cletus _parts # Rivets found here
+  - step_id: 23_approach_kraws_lair
+     description: |
+       Follow Beau south towards refinery core (King Kraw's lair). Entrance blocked by collapsed machinery . Brief sequence to clear path together.
+    key_event: "Clear path sequence"
+  - step_id:  24_kraws_lair_and_vance
+    description: |
+       Enter lair. Follow tunnels SW , NW, drop down N ledge, follow tunnel W. Spot sleeping King Kraw. Hear captured crewman, Vance . Decide whether to attempt sneak rescue.
+    npcs:
+      - name: Vance
+        status: Captured
+    decision _point: "Attempt to rescue Vance?"
+  - step_id: 25_vance_rescue _attempt
+    description: |
+       [If attempting rescue] Sneak on non-noisy surfaces to control panel near  Kraw. Retrieve "Cage Override Keycard". Sneak back to cage, use keycard. Vance panics, fires weapon,  wakes Kraw.
+    key_items:
+      - "Cage Override Keycard (70s magnetic strip style)"
+     success_condition: "Reach cage and use keycard without waking Kraw (difficult/scripted failure likely)."
+    failure _condition: "Making noise OR Vance's scripted panic."
+    potential_completes_objective: free_vance  # Objective completed if attempt is made, even if Vance dies later
+  - step_id: 26_boss_fight _king_kraw
+    description: |
+      [If rescue failed/skipped OR after failed attempt] Fight King  Kraw. Phase 1: Bites, tail sweeps, bellow. Target cybernetics/underbelly. Use environment? Phase  2 (~75% Health): Kraw grabs debris (turbine blade/catwalk) as weapon, adds sweeping attacks. ( If Vance not freed, Kraw crushes cage now). Defeat King Kraw.
+    boss_encounter:
+       name: King Kraw
+      level_equiv: "20+" # Boss level
+      phase_1_attacks : ["Bite", "Tail Sweep", "Stunning Bellow"]
+      phase_1_weaknesses: ["Ex posed cybernetics", "Soft underbelly"]
+      phase_2_trigger: "~75% Health"
+       phase_2_attacks: ["Phase 1 attacks", "Debris Sweep (Wide Arc)"]
+      notes: " If Vance wasn't freed, scripted death occurs during Phase 2 transition."
+    completes_objective: kill _king_kraw
+  - step_id: 27_aftermath
+    description: |
+       King  Kraw is defeated. Beau approaches. Conversation: Beau thanks/mocks PC, offers title ("Top Gator-Wrangler"  / "Bayou Badass"). Accept/deflect. Decline immediate return escort. Quest concludes based on objectives met. Check  status of optional tasks/exploration.
+    npcs:
+      - Beau Boudreaux
+    final_rewards_ summary: # References completed objectives from main_objectives list
+      - objective_id: kill_king_kraw 
+      - objective_id: find_beau
+      - objective_id: ensure_beau_survives  # Check flag if Beau survived
+      - objective_id: rescue_fenton # Check flag if Fenton rescued
+      - objective _id: free_vance # Check flag if Vance was freed from cage (even if died after)
+      -  objective_id: rescue_fenton_vance # Check flags for both surviving companions
+    title_rewarded: [" Top Gator-Wrangler", "Bayou Badass"] # Player choice or assigned based on actions

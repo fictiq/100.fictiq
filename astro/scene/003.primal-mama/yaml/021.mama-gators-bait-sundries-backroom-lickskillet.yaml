@@ -1,0 +1,110 @@
+
+# Story World Codex: Scene-Painting & Atmospheric Design Protocol (YAML Conversion)
+# World : Primal Mama
+# Scene: SCENE_LickskilletBaitShop_BackroomDeal
+
+document_header: 
+  World: Primal Mama
+  CodexVersion: '0.2 - Scene Design'
+  Last Updated: '[Current Date]'
+  SceneID_Name: 'SCENE_LickskilletBaitShop_Back roomDeal'
+  NarrativeContext: 'Protagonist (e.g., an independent gator hunter or a  truth-seeking Erpenthrope in human guise) needs to acquire a rare, possibly illicit, gator-derived  component or crucial information from a wary local in Lickskillet, potentially about oligarchy movements or unusual swamp phenomena.'
+
+ introduction: |
+  This protocol guides the design and evaluation of individual scenes within Primal Mama, focusing on the art of " Scene-Painting": creating vivid, atmospherically rich, and sensorially engaging localized environments. While distinct from deep heter ocosm construction (world-making), skillful scene-painting is crucial for immediate immersion, tone setting, and providing context  for character action.
+  Use this document to ensure each key scene possesses a strong sense of place and mood, built through  carefully authenticated (for the scene) details. Consider how these details serve the immediate narrative and whether they have implications for broader world  consistency.
+
+section_I_scene_spatio_temporal_authentication:
+  Purpose: 'To establish the clear , immediate physical and temporal boundaries of the scene.'
+  authenticated_location:
+    location_description: 'The  cramped, dimly lit backroom of "Mama Gator''s Bait & Sundries," a mom-and-pop shop on the  outskirts of Lickskillet, near a sluggish bayou tributary.'
+    key_authenticated_spatial_features: 
+      - Walls paneled with cheap, dark faux-wood veneer (classic late 70s style), adorned with yellowed  alligator kill-tags, faded photos of massive gators, and a framed, slightly askew promotional poster of Jerry Reed  (subtly deified).
+      - 'A heavy wooden desk with a laminate top, cluttered with: a chunky, avocado -green rotary phone (functional for local calls only), a spike file overflowing with greasy invoices, several empty ''Swamp King''  beer cans (local brew), and a flickering CRT monitor displaying a simple, looping inventory list in amber text.'
+       - Shelves haphazardly stocked with gator lures, fishing line, preserved gator feet, jars of mysterious "special ty" baits, and a few dusty cans of "Calamity-Ration" beans.
+      - A  single, grimy window overlooking the murky bayou, its glass streaked with algae and insect remains. A battered metal  fan with chunky plastic blades oscillates slowly in one corner.
+      - A heavy, bead-curtain doorway leads to the main  shop.
+  authenticated_time:
+    time_description: 'Late afternoon, the "Gator Shift Change,"  when the main Lickskillet processing plants are either winding down or gearing up for the night crew. The air is thick and  humid.'
+    key_authenticated_temporal_features:
+      - Low, orange sunlight filters weakly through the gr imy window, barely disturbing the gloom.
+      - The distant, rhythmic thrum of Lickskillet's main alligator processing  machinery can be faintly heard/felt.
+      - The peak of mosquito activity for the evening is just beginning.
+   design_check: 'The ''where'' (Lickskillet backroom, 70s aesthetic, g ator-centric) and ''when'' (late afternoon, shift change) are clear. Details align with Primal Mama''s  established environment and tech level.'
+
+section_II_dominant_sensory_atmospheric_authentication:
+  Purpose: 'To define  the primary sensory experiences and overall mood created *within this specific scene*.'
+  visual_palette_lighting:
+    authenticated _details: 'Dominated by murky browns, swamp greens, and the sickly yellow-orange of the single bare incandescent  bulb hanging from a frayed cord. The CRT monitor casts an amber glow on nearby surfaces. Deep shadows pool in corners. The faux  wood paneling and avocado phone reinforce the 70s palette.'
+    intended_visual_mood: 'Conf idential, slightly sordid, worn-down, authentically "swamp-rat" retro.'
+  auditory_landscape: 
+    authenticated_sounds: 'The slow, rhythmic whir and click of the oscillating fan. The incessant, high -pitched whine of mosquitoes outside (and a few inside). The distant, low thrum of industrial machinery. Occasional muffled voices or  the clang of the shop bell from the front. The crackle and pop of the old CRT. A faint, constant dripping  from a leaky pipe somewhere.'
+    intended_auditory_mood: 'Oppressively humid, quietly tense, with  an undercurrent of rough industry and natural swamp life.'
+  olfactory_profile:
+    authenticated_smells: 'A  potent mix of: damp earth and mildew from the nearby bayou, stale beer, strong fishy/musky gator lures,  a hint of gun oil, old paper, and the faint, sweetish-acrid scent of insect repellent (the cheap  kind).'
+    intended_olfactory_mood: 'Earthy, pungent, slightly rank, the smell of a place  deeply enmeshed with the swamp and its creatures.'
+  tactile_sensations_implied_or_directly_experienced :
+    authenticated_sensations: 'Thick, heavy humidity clinging to skin and clothes. Gritty dust on the  desk surface. The slightly sticky feel of the bead curtain. The greasy texture of old invoices. The thrum of the  machinery vibrating subtly through the floorboards.'
+    intended_tactile_mood: 'Clammy, gritty, slightly uncomfortable , a sense of lived-in decay.'
+  overall_authenticated_atmosphere_for_this_scene: ' A pocket of Lickskillet''s underbelly: secretive, wary, and deeply rooted in the alligator trade and the  swamp''s influence. It''s a place where deals are made in hushed tones, away from the oligarchy''s gaze , saturated with the 70s aesthetic and the primal realities of this world.'
+  design_check: ' Sensory details work together to create a strong, consistent atmosphere reflecting Primal Mama''s bayou-infused, retro-fut uristic, and gritty nature. It serves a narrative of seeking hidden information/goods.'
+
+section_III_entity_constitution_ within_scene:
+  Purpose: 'To define properties of entities (persons, objects) *as they are relevant and  authenticated for this specific scene*, acknowledging that this may be a subset of their total heterocosmic definition.'
+  key_entity _1_protagonist:
+    entity_name_placeholder: '[Protagonist - Details to be filled by specific story , e.g., "Jax, an Erpenthrope in human form, looking for signs of unusual gator  mutations."]'
+    authenticated_properties_relevant_to_scene: '[e.g., For Jax: W ears durable, swamp-worn clothing (denim jacket, sturdy boots – fitting general aesthetic). Carries a satchel with sample  jars. Observational skills honed, looking for tells from the proprietor. Underlying tension due to his true nature.]'
+     function_within_scene: '[e.g., To initiate the request, observe, negotiate, and potentially react  to new information or threats.]'
+  key_entity_2_mama_agnes_moreau:
+     entity_name: 'Mama Agnes Moreau (Proprietor of "Mama Gator''s Bait & Sundries")' 
+    authenticated_properties_relevant_to_scene:
+      physical: 'A woman in her late 60s , wiry and tough. Weathered face, sharp eyes that miss little. Wears a faded floral house-dress  (70s pattern) under a stained denim apron. Silver hair pulled back in a tight bun. A pair of old -fashioned, chunky plastic reading glasses perched on her nose. Has a noticeable tremor in one hand, which she often stills  by gripping the desk.'
+      functional: 'Dispenses local wisdom, gator parts, and rumors with equal measure , for the right price or reason. Deeply connected to Lickskillet''s informal network. Distrustful  of outsiders and the Beetriot oligarchy.'
+      psychological: 'Sharp-witted, cynical, fiercely independent , but with a pragmatic approach to survival. Her knowledge is hard-won and not given freely. Likely believes in some  local superstitions and possibly the "invisible women" conspiracy.'
+    function_within_scene: 'Gatekeeper of information/ goods. Represents the "mom-and-pop" resilience. Potential source of conflict or aid. Embodies local L ickskillet knowledge and values.'
+    note_on_undersaturation: 'Her full history, deeper magical affiliations (if  any, beyond folk beliefs), or direct ties to Swamp Witches are not authenticated in this scene, allowing for mystery.' 
+  key_object_1_steel_box:
+    object_name: 'A locked, heavy steel box under the  desk.'
+    authenticated_properties_relevant_to_scene:
+      physical: 'Old, scratched, military -surplus green, with a prominent, chunky combination lock (70s style mechanism). Appears very secure.'
+       functional: 'Contains Mama Agnes''s most valuable or illicit stock/information (e.g., rare gator glands,  banned pre-Calamity maps, a stash of "pure" (non-solar) gator jerky).'
+       relational: 'The object of the protagonist''s potential desire or the source of what they seek.'
+     function_within_scene: 'A physical representation of the hidden secret/valuable item. A point of negotiation or  potential conflict if access is required.'
+    note_on_undersaturation: 'The exact contents are not revealed unless  the narrative progresses to that point in this scene or a subsequent one.'
+  key_object_2_jerry_reed _poster:
+    object_name: 'The Jerry Reed Poster.'
+    authenticated_properties_relevant_to_scene: 
+      physical: 'Faded, slightly water-stained concert or movie promo poster from the pre-Calamity  era. Jerry Reed is depicted with a characteristic grin and guitar.'
+      functional: 'Serves as a minor icon  of reverence, a nod to the deified celebrities. Offers a glimpse into the local axiological system.'
+      rel ational: 'Mama Agnes might occasionally glance at it, or touch the frame, when speaking of "the good old days" or " true grit."'
+    function_within_scene: 'Adds cultural flavor, reinforces the world''s unique value system , provides a subtle character beat for Mama Agnes.'
+  design_check: 'Entities are defined with sufficient detail for their roles . Mama Agnes embodies Lickskillet culture and the 70s aesthetic. The steel box serves as a focal point for the  scene''s transaction/information exchange. Intentional undersaturation maintains mystery where appropriate.'
+
+section_IV_interaction_with_bro ader_world_logic:
+  Purpose: 'To briefly consider how the scene''s localized authentications align with  or rely upon the established global rules of the heterocosm (if defined). This is where scene-painting might begin  to touch upon world-making.'
+  reliance_on_assumed_aw_defaults: 'Basic physics,  human interaction norms (albeit colored by Primal Mama''s specific culture).'
+  alignment_with_established_heter ocosmic_modalities:
+    alethic: 'The 1970s tech (CRT, rotary phone , fan) is core. Gator parts as currency/trade goods is established. The existence of Lickskillet as a processing hub  makes such a shop plausible. The "biological calamity aftermath" is reflected in the presence of "Calamity-Rations."  Solar power''s dominance means non-solar items or old-world items might be rare/valuable.'
+    deontic : 'Mama Agnes''s wariness reflects the "friction" with the meat oligarchy and general Lickskillet independence. The  potential for illicit goods implies a black market operating outside official channels. The "guns outside Beetriot" norm suggests Mama Agnes might have a  shotgun under the counter (unseen but plausible). Stigma against Automatons/LLMs means they are conspicuously absent;  communication is low-tech.'
+    axiological: 'The Jerry Reed poster hints at deified celebrity worship. The value  placed on gator products is central. Independence and distrust of centralized power (oligarchy) are implied values. Truth ( if sought by an Erpenthrope protagonist) is a driving value.'
+    epistemic: 'Mama Agnes is a repository  of local, possibly esoteric, knowledge (folk beliefs, oligarchy movements). The "invisible women" conspiracy might be a belief she holds . Information is a commodity. Ghostly interaction is possible in this world, so she might have folk tales or second- hand knowledge of such things.'
+  potential_for_broader_world_authentication:
+    implication_ 1: 'If the "rare gator-derived component" has specific supernatural or advanced properties (e.g., enhances Er penthrope transformation, fuels a specific ritual, is a byproduct of unique GE), these properties need to be authenticated in  the main codex if they are to be consistently used.'
+    implication_2: 'If Mama Agnes reveals  specific tactics used by the meat oligarchy (e.g., "They''re using new sonic lures to divert g ators from independent trapping grounds"), that tactic becomes an authenticated part of the oligarchy''s modus operandi.'
+    action_item _if_detail_has_broader_implications: 'Define the properties and rarity of any unique gator  component introduced. If oligarchy tactics are revealed, add them to the Deontic/Epistemic section detailing their operations in the  main codex.'
+  design_check: 'The scene feels authentically "Primal Mama." Details like the  70s tech, gator-centric economy, local superstitions, and distrust of authority align with the established world . It provides a grounded look at life outside Beetriot. Any new, specific plot-critical items (like a unique g ator gland) would require further global authentication if their properties are to be significant beyond this scene.'
+
+section_V_narr ative_function_generative_potential_localized:
+  Purpose: 'To assess what this specific scene contributes to the  immediate narrative and whether its painted elements have further (even if limited) generative potential.'
+  immediate_narrative_ purpose_served: 'Provides a setting for the protagonist to acquire vital information, a rare item, or a crucial contact . Establishes the atmosphere and social dynamics of Lickskillet. Introduces a key local character (Mama Agnes) who  can serve as an obstacle, an ally, or an information source. Can be a point of rising tension or a moment of quiet desperation .'
+  atmospheric_contribution: 'Strongly reinforces the gritty, bayou-noir, retro-futuristic themes  of Primal Mama. Showcases the "mom-and-pop" struggle and the pervasiveness of the alligator  economy and 70s aesthetic at ground level.'
+  limited_generative_potential_beyond_this_ scene:
+    potential_1: 'Mama Agnes could become a recurring character – a reluctant informant, a supplier of rare  goods, or someone who needs help later. Her shop could be a recurring location for meetings or further transactions.'
+    potential_2 : 'The specific "rare gator component" or piece of information obtained here could be the catalyst for the next plot  arc or a recurring motif.'
+    potential_3: 'The "Swamp King" beer or "Calamity-R ations" could appear elsewhere as common local brands/items, adding to world flavor.'
+    potential_4: 'The network  Mama Agnes is part of could be explored further in other localized scenes, showing the underground economy of Lickskillet.'
+  design _check: 'This scene effectively serves its narrative purpose of information/item acquisition and world-flavoring. Mama Agnes and her  shop have strong potential for localized recurrence and deepening the texture of Lickskillet without necessarily requiring massive systemic world changes for each  reappearance.'
+
+conclusion: |
+  This protocol emphasizes the creative achievement in "skillful scene-painting": the  art of using "localized, authenticated sensory and descriptive detail" to create vivid, immersive, and atmospherically rich moments  within the Primal Mama heterocosm. While distinct from the systemic construction of the entire world's deep architecture, effective scene -painting is essential for grounding narrative action, establishing tone, and engaging the audience's imagination in the immediate "Now" of  the story.
+  Focus on crafting scenes where the authenticated details work harmoniously to serve the immediate narrative purpose. Regularly  check for consistency with broader world rules if the scene is part of a larger, systematically defined heterocosm. A world  rich in compellingly painted scenes becomes a more tangible and memorable place.

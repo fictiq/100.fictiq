@@ -1,0 +1,186 @@
+
+World : Primal Mama
+Codex_Version: 0.2 - Character Constitution (Tebe)
+Last_Updated: '[ Current Date]'
+Lead_Architects: '[Your Name/Studio Name]'
+
+Character_Profile:
+  Entity_ID : CHAR_TebeMokoena_01
+  Character_Name: 'Tebogo Mokoena (Pref ers "Tebe")'
+  Entity_Type: Person (Human)
+  Archetype: The Salt-of- the-Earth Victim; The Squeezed Small Businessman
+  Primary_Authentication_Sources: This Codex Entry; Primal Mama  World Coherence Protocol v0.1
+  Canon_Tier: Tier 2 (Significant Supporting Character)
+  Authentication_Status : Authenticated_Canonical_Active
+
+Authenticated_Property_Bundle:
+  Physical_Properties:
+    purpose:  "Define the character's tangible presence."
+    items:
+      - name: Appearance_General
+        value: Male , early 40s, of clear African descent. Medium-tall, with a strong, somewhat wiry build  from years of physical labor. Skin is a rich, dark brown, weathered by sun and swamp air.
+        auth _source: '[Primal Mama Visual Concept Doc]'
+      - name: Appearance_Specific Features
+        value:  Broad nose, kind but often worried dark eyes. Full lips, usually set in a determined, if weary, line.  Short, tightly coiled black hair, greying at the temples. Prominent, expressive hands, calloused and capable. 
+        auth_source: '[Primal Mama Visual Concept Doc]'
+      - name: Appearance_Distinctive Marks 
+        value: A faded, jagged scar along his right forearm from an old encounter with a feisty juvenile gator . Small burn mark on his left cheek from a solar panel short-out years ago.
+        auth_source:  '[Backstory Snippet - Minor Incidents]'
+      - name: Typical Attire
+        value: Worn but  clean denim overalls over a faded plaid (often orange/brown/yellow palette) button-up shirt – 19 70s workwear aesthetic. Heavy-duty, waterproof swamp boots. Occasionally a wide-brimmed, woven  swamp-grass hat with a faux-wood grain plastic band.
+        auth_source: '[Primal Mama Wardrobe Guide,  Lickskillet Rural]'
+      - name: Voice/Speech Pattern
+        value: Warm, resonant baritone with a slight  Lickskillet regional drawl. Speaks thoughtfully, sometimes with a hint of weary resignation, but can become passionate when  discussing his livelihood or injustices. Uses local colloquialisms.
+        auth_source: '[Primal Mama Dialogue Style Guide]'
+       - name: Gait/Mannerisms
+        value: Purposeful, efficient movements of someone used to hard work.  Often wipes sweat from his brow with the back of his hand. Fiddles with a piece of gator-tooth  or a loose button when stressed.
+        auth_source: '[Character Animation Notes]'
+      - name: Associated  Scent (If Any)
+        value: 'Earthy smell of swamp mud and decaying vegetation, gator feed ( fishy/meaty undertones), faint ozone from solar chargers, and a hint of cheap, 1970s- style pine-scented soap.'
+        auth_source: '[Primal Mama Sensory Palette - Lickskillet]'
+     undersaturation: 'Exact height/weight, specific traditional African tribal markings (if any from ancestral heritage – currently unauthenticated), full wardrobe  beyond work clothes.'
+
+  Functional_Properties:
+    purpose: 'Define what the character *can* and *cannot* do .'
+    items:
+      - name: 'Skill: Expert Alligator Husbandry'
+        value: ( GE Solar Gators – practical knowledge of breeding, feeding, health, solar charging needs, and safe handling of Primal Mama  specific breeds)
+        auth_source: "[Narrative Depiction - Tebe's Farm]"
+      - name:  'Skill: Proficient Small-Scale Alligator Meat Processing'
+        value: (skinning, butchering,  basic preservation techniques adhering to local Lickskillet standards)
+        auth_source: "[Narrative Depiction - Tebe' s Operation]"
+      - name: 'Skill: Competent Solar Technology Maintenance'
+        value: (repairing and maintaining  1970s-aesthetic solar panels, bio-batteries for gators, and related farm equipment –  practical, not theoretical deep knowledge)
+        auth_source: '[Demonstrated Actions, World Rules - Solar Dominance]'
+       - name: 'Skill: Decent Marksmanship'
+        value: (with a bolt-action rifle – for  vermin control and personal protection, consistent with non-Beetriot gun ownership norms)
+        auth_source:  '[Property - Gun Ownership (Regional)]'
+      - name: 'Skill: Swamp Navigation'
+        value:  (by fanboat and on foot in familiar territories)
+        auth_source: '[Setting Demands - Lickskillet En virons]'
+      - name: Limitation (Economic)
+        value: 'Severely under-capitalized; struggles  to compete with the Meat Oligarchy''s scale and pricing. Highly vulnerable to supply chain manipulation or "engineered" equipment  failures orchestrated by competitors.'
+        auth_source: '[Plot Point - Oligarchy Friction]'
+      - name:  Limitation (Influence)
+        value: 'No political or legal recourse against the Meat Oligarchy; lacks connections in Beetriot or significant  sway even in Lickskillet against powerful interests.'
+        auth_source: '[World Modalities - Deontic (O ligarchy Power)]'
+      - name: Limitation (Technological)
+        value: 'Relies on older , though functional, 1970s-aesthetic technology; may lack access to or understanding of more advanced (but still  aesthetically compliant) methods used by the Oligarchy.'
+        auth_source: '[World Modalities - Alethic  (Tech Constraint)]'
+      - name: Limitation (Social)
+        value: 'Suffers from the general  societal anxiety and paranoia; might be distrustful of outsiders or new ideas due to his precarious situation.'
+        auth_ source: '[World Modalities - Epistemic (Conspiracy Prevalence)]'
+    undersaturation: "Ability to perform complex  genetic engineering (he's a user, not an inventor); advanced combat skills; knowledge of ghost rituals or Erpenthrope lore  beyond local hearsay."
+
+  Psychological_Properties:
+    purpose: "Define the character's textually constituted inner life." 
+    items:
+      - name: Core Trait
+        value: Industrious / Hard-Working
+        auth_ source: '[Actions, Lifestyle]'
+      - name: Core Trait
+        value: 'Proud / Self-Reliant  (deeply values his independence and skill)'
+        auth_source: '[Dialogue, Reactions to Oligarchy Pressure]'
+       - name: Core Trait
+        value: 'Increasingly Despondent / Anxious (due to economic pressures and victim isation)'
+        auth_source: '[Internal Monologue, Dialogue with family/friends]'
+      - name:  Core Trait
+        value: 'Fundamentally Decent / Fair-Minded (believes in an honest  day''s work for an honest day''s pay)'
+        auth_source: '[Interactions, Moral Choices ]'
+      - name: Dominant Emotion
+        value: 'Worry (for his family and livelihood), tinged with  frustration and a dwindling hope.'
+        auth_source: '[Narrative Description]'
+      - name: Key Motiv ator
+        value: 'Provide for his family (authenticated wife, two young children); Preserve his way of life and small  business ("Olu''s Gator Bites," named after his grandmother).'
+        auth_source: '[Explicit Character Goals ]'
+      - name: Key Belief
+        value: 'Believes the "little guy" is being deliberately squeezed  out by powerful, greedy forces from Beetriot. May quietly subscribe to some aspects of the "invisible women" conspiracy as  an explanation for his misfortune, though focuses on the tangible oligarchy.'
+        auth_source: '[Dialogue, Internal  Thoughts]'
+      - name: Internal Conflict
+        value: 'Desire to fight back/resist the Oligarchy vs.  Fear of ruin and repercussions for his family; Pride in his traditional methods vs. the dawning realization they might not be enough to survive .'
+        auth_source: '[Decision Points in Narrative]'
+      - name: Subjective Memory Content
+         value: 'Clear memories of building his farm, his grandfather teaching him about gators (pre-GE era, adapted  knowledge), the slow encroachment of the Oligarchy''s influence. Fond memories of community fish-frys and local music before times  got so hard.'
+        auth_source: '[Flashbacks, Reminiscences]'
+    undersaturation: " Deep-seated phobias (beyond reasonable fear of gators/Swamp Witches); Complex philosophical views on the de ified celebrities (likely has a casual, culturally ingrained respect but isn't devout); Specifics of his belief in the \"invisible  women\" conspiracy beyond a vague sense of unseen manipulation."
+
+  Social_Relational_Categorical_Properties:
+     purpose: "Define the character's place within the world's networks."
+    items:
+      -  name: Official Role
+        value: 'Owner/Operator of "Olu''s Gator Bites," a small, independent alligator  farm and processing unit.'
+        auth_source: '[Narrative Introduction]'
+      - name: Social Status
+         value: 'Respected member of his local Lickskillet community, but economically vulnerable. Seen as a " dying breed" by some.'
+        auth_source: '[Community Interactions, Oligarchy Viewpoint]'
+      - name : Primary Affiliation
+        value: 'His Family (Wife: Ama, Children: Zola & Kayo ); Lickskillet''s informal network of small-scale swamp farmers.'
+        auth_source: '[Narrative Focus ]'
+      - name: Key Relationship 1
+        value: 'To Ama Mokoena (Wife):  Loving, supportive, but increasingly fearful partnership. She manages their meager household finances and community bartering.'
+        auth_source:  '[Dialogue/Actions]'
+      - name: Key Relationship 2
+        value: 'To "Mama" Agnes ( Elderly community figure/former gator farmer): Source of wisdom, historical perspective, and occasional practical help. She remembers "better  times."'
+        auth_source: '[Dialogue/Actions]'
+      - name: Key Relationship 3
+        value:  'To Mr. Thorne (Local representative/enforcer for the Meat Oligarchy): Antagonistic. Thorne applies pressure, delivers  bad news, and facilitates the Oligarchy''s squeeze tactics (e.g., offering insultingly low prices, " inspecting" for new regulations).'
+        auth_source: '[Plot Conflicts]'
+      - name: Species/Type
+         value: Human (Baseline Primal Mama)
+        auth_source: '[Default]'
+      - name: Cultural Heritage Note
+         value: 'Family traditions hint at pre-Calamity African roots, now heavily blended with Primal Mama swamp  culture. This is expressed in names, some food preferences (where possible with gator meat), and perhaps some artistic motifs  on their 1970s-aesthetic belongings, like scrimshaw on a solar array casing.'
+        auth_source : '[Flavor Text, Visual Design Notes]'
+    undersaturation: "Extended family beyond wife/children; Specific friendships outside of  general community ties; Any connection to Erpenthropes or Swamp Witches (likely avoids the latter, views the former  with wary curiosity if encountered)."
+
+  Modal_Properties:
+    purpose: "Define any inherent unique relationship to world  laws."
+    definitions:
+      - property_id: N/A
+        property_name: None Authenticated.
+         description: Tebe operates fully under the general physical, biological, and societal laws of Primal Mama. He possesses  no supernatural abilities or unique exemptions.
+        limits: N/A
+        authentication_method: Consistent portrayal as an  ordinary human within the Primal Mama setting.
+    note: "Tebe's significance comes from his typicality within his  social stratum and his victimization by systemic forces, not from unique modal properties."
+
+  Axiological_Properties:
+     purpose: "Define the character's value status *within* Primal Mama."
+    items:
+       - name: Reputation (Local Lickskillet Community)
+        value: "Authenticated as viewed as 'honest',  'hard-working', 'skilled with gators', 'a good family man', but also 'unlucky' or  'too stubborn to see the writing on the wall' by some more pragmatic neighbors. Generally sympathetic."
+        auth_source:  '[Community Dialogue]'
+      - name: Reputation (Meat Oligarchy / Mr. Thorne)
+        value: " Authenticated as 'small fry', 'a minor nuisance', 'resistant but ultimately insignificant', 'an example to be made of  if necessary to consolidate control'."
+        auth_source: "[Thorne's Dialogue/Attitude]"
+       - name: Moral Alignment (Narrative Framing)
+        value: 'Authenticated via narrative focus/sympathy as a fundamentally good person  trying to survive and protect his family in an unjust system. A victim of circumstance and predatory capitalism (Primal Mama style ).'
+        auth_source: '[Narrator Tone, Plot Development]'
+    undersaturation: 'Reputation in Beet riot (unknown/non-existent); Views of Swamp Witches or Erpenthropes concerning him.'
+
+   Historical_Properties:
+    purpose: "Define the character's known origins and connections to past events."
+     items:
+      - name: Origin
+        value: 'Born and raised in the Lickskillet region. Family has  been involved in swamp-based livelihoods for at least two generations post-Calamity, adapting from traditional fishing/trapping to alligator  farming as GE technology became accessible.'
+        auth_source: '[Character Backstory Document]'
+      - name: Key Past Event  Connection (Personal)
+        value: 'Successfully ran "Olu''s Gator Bites" for 15 years, gradually improving  his solar gator stock and processing methods. The last 3 years have seen a sharp decline due to targeted "friction " from the expanding Meat Oligarchy (e.g., engineered equipment failures, predatory purchasing of essential supplies like solar battery  components, aggressive price undercutting by Oligarchy-backed processors).'
+        auth_source: '[Narrative Exposition, Flashbacks]' 
+      - name: Key Past Event Connection (Victimization)
+        value: 'A specific incident where a  crucial solar-powered refrigeration unit (1970s chunky design, wood paneling) for his processed meat " mysteriously" failed during a critical heatwave, just after he refused a low-ball buyout offer from Mr.  Thorne. Lost an entire month''s worth of product.'
+        auth_source: '[Core Plot Point establishing victim  status]'
+      - name: Inherited Items
+        value: "His grandmother Olu's heavy cast-iron skillet ( used for cooking gator nuggets); his grandfather's hand-carved fanboat tiller (now fitted to his  1970s-style fanboat engine)."
+        auth_source: '[Character Props List]'
+     undersaturation: "Detailed family history pre-Calamity; Specifics of his parents' lives; Any direct personal experience  with major historical events of Primal Mama beyond local Lickskillet happenings."
+
+Character_Constitution_Summary:
+  purpose:  "Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle."
+  Core_ Essence: |
+    Tebe Mokoena is constituted as a proud, skilled, and fundamentally decent man,  an independent alligator farmer embodying the self-reliant spirit of Primal Mama's Lickskillet region. His African heritage is subtly  woven into his identity through names and minor cultural expressions, adapted to the swamp world. He is defined by his practical expertise with  GE solar gators and 1970s-aesthetic technology, and his deep connection to his family and modest business.  Crucially, he is constituted as a primary **victim** of the encroaching Meat Oligarchy, whose economic power and  ruthless tactics are systematically destroying his livelihood and crushing his spirit. His struggle highlights the tension between individual autonomy and corporate-style power within  Primal Mama's unique socio-economic landscape.
+  Primary_Narrative_Function: |
+    To  embody the plight of the "common man" under duress from systemic injustice (the Meat Oligarchy); To serve as  a focal point for exploring themes of economic disparity, resilience, desperation, and the potential for resistance or tragedy in Lick skillet. He can act as a catalyst for a protagonist's involvement, a source of local information, or a  tragic figure whose fate underscores the world's harsh realities.
+  Key_Internal_Conflicts_From_Bundle: |
+     Pride in self-sufficiency vs. the crushing reality of his powerlessness; Hope for the future of his family vs. encroaching despair ; The urge to resist or seek justice vs. the paralyzing fear of complete ruin and Oligarchy retaliation; Loyalty to traditional methods  vs. the need for new, perhaps ethically grey, solutions to survive.
+  Potential_for_Development_Based _on_Bundle: |
+    Tebe could be pushed to make desperate choices: seeking help from unconventional sources ( an Erpenthrope sympathetic to the downtrodden? A reclusive Swamp Witch with an axe to grind against the Olig archy?), attempting a risky act of defiance, falling into deeper despair and paranoia, or being reluctantly forced to abandon his farm and seek  work within the very system destroying him. His victimization could radicalize him or break him.

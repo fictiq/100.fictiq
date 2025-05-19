@@ -1,0 +1,182 @@
+
+world: Primal Mama
+codex_version: "0.1 - Character Constitution" 
+last_updated: "[Current Date]"
+lead_architects: "[Your Name/Studio Name]"
+
+introduction : |
+  This protocol guides the detailed definition of **Fictional Persons** (characters, significant sentient beings) within the  Primal Mama heterocosm. Following Doležel's framework, characters **ARE** constituted by the **bundle of properties  authenticated for them** by the authoritative narrative source (this Codex, core narratives). They possess **no independent psyche or reality  beyond this textual definition**.
+  Use this template to systematically build characters by explicitly authenticating their properties across relevant categories. Focus on creating  multifaceted individuals whose complexity arises from the **richness, coherence, and potential tensions within their authenticated bundle**, and whose actions  are logically grounded in their defined nature and the world's rules. Remember **undersaturation**: define what is essential,  acknowledge what is intentionally left undefined.
+
+character_profile:
+  entity_id: CHAR_RemiDubois_01 
+  character_name: "Remi Dubois (often derisively called 'Gatorbait' by some)"
+  entity _type: "Person (Human)"
+  archetype: "Dispossessed Homesteader / Downtrodden Everyman"
+   primary_authentication_sources:
+    - This Codex Entry
+    - Primal Mama World Coherence Protocol v 0.1
+  canon_tier: "Tier 2 (Significant Supporting Character)"
+  authentication_status:  Authenticated_Canonical_Active
+
+  authenticated_property_bundle:
+    physical_properties:
+      purpose:  "Define the character's tangible presence within the bayou-infused retro-future."
+      items:
+        - type:  Appearance_General
+          detail: "[Human male, mid-40s, with rich dark brown skin and pronounced  African facial features – broad nose, full lips. Wiry but strong build, showing the wear of hard labor and recent hardship.]" 
+          auth: "[Primal Mama Visual Palette]"
+        - type: Appearance_Specific_Features
+          detail : "[Short, tightly coiled black hair greying significantly at the temples. Deep-set, weary brown eyes that often  hold a distant, haunted look. Prominent cheekbones.]"
+          auth: "[Primal Mama Visual Palette]" 
+        - type: Appearance_Distinctive_Marks
+          detail: "[A faded, jagged scar running from his left temple  into his hairline, legacy of a close call with a wild, non-GE gator in his youth. Hands are  calloused and scarred from years of manual labor, particularly with nets and gator poles.]"
+          auth: "[Narrative  Backstory Detail]"
+        - type: Typical_Attire
+          detail: "[Worn, patched canvas trousers ( once a deep swamp green, now faded to mottled brown), a threadbare synth-cotton shirt (often sleeveless, showing  muscular arms), and cracked, perpetually damp swamp boots. Sometimes wears a crudely fashioned necklace of small, polished alligator teeth – a  memento of his former life.]"
+          auth: "[Primal Mama Socio-Economic Context - Licksk illet]"
+        - type: Voice_Speech_Pattern
+          detail: "[A low, rumbling baritone , usually soft-spoken with a noticeable Lickskillet bayou drawl. Speech is often hesitant, tinged with a deep -seated sadness or simmering resentment. Uses colloquialisms common to swamp dwellers.]"
+          auth: "[Primal Mama  Linguistic Palette]"
+        - type: Gait_Mannerisms
+          detail: "[Moves with a deliberate, energy-conserving  slowness common to those accustomed to humid heat and difficult terrain. Often stares out at the swamp, lost in thought. W rings his hands or rubs his temples when stressed.]"
+          auth: "[Narrative Description]"
+        - type : Associated_Scent (If Any)
+          detail: "[Faint smell of swamp water, dried mud, cheap  synth-ale, and the lingering metallic tang of alligator blood that never quite washes out of old work clothes.]"
+           auth: "[Primal Mama Sensory Palette]"
+      physical_undersaturation: "[Exact height/weight, specific brand of synth -ale he favors, dental records.]"
+
+    functional_properties:
+      purpose: "Define what the character  *can* and *cannot* do within Primal Mama's rules."
+      items:
+        - type : Skill
+          detail: "[Expert Alligator Husbandry (Small-scale, traditional, non-GE focus – now  largely obsolete or economically unviable)]"
+          auth: "[Backstory, Primal Mama Economy]"
+        -  type: Skill
+          detail: "[Proficient Swamp Navigation & Survival (Able to live off the land in the deep  swamp if necessary, knowledge of edible/medicinal swamp flora)]"
+          auth: "[Backstory, Primal  Mama Environment]"
+        - type: Skill
+          detail: "[Competent Small Watercraft Operation & Repair (Piro gues, small skiffs – pre-1970s aesthetic simple engines)]"
+          auth: "[ Backstory, Primal Mama Technology]"
+        - type: Skill
+          detail: "[Basic Mechanical Aptitude (Can  fix simple tools, traps, and older tech that fits the 1970s aesthetic, if parts are sc rounged)]"
+          auth: "[Primal Mama Technology]"
+        - type: "Limitation (Economic)" 
+          detail: "[Financially ruined; lacks capital to restart his business or compete with the meat oligarchy.] "
+          auth: "[Primal Mama Deontic/Axiological Rules – Oligarchy Power]"
+        - type:  "Limitation (Social)"
+          detail: "[Socially marginalized in Lickskillet due to his visible failure and bitterness ; seen as a bad omen by some, an object of pity by others. No influence in Beetriot.]"
+           auth: "[Narrative Context]"
+        - type: "Limitation (Knowledge)"
+          detail: "[Limited  formal education; knows little of advanced GE technology, solar power intricacies, or the political machinations of Beetriot. Ill -equipped to understand or navigate the complex legal/economic systems used by the oligarchy.]"
+          auth: "[Pr imal Mama Epistemic Rules]"
+        - type: "Limitation (Psychological)"
+          detail: "[ Prone to bouts of deep melancholy and angry outbursts (usually suppressed) when reminded of his losses.]"
+          auth: "[ Psychological Properties]"
+      functional_undersaturation: "[Ability to use firearms (likely common outside Beetriot, but  his access may be limited by poverty); specific knowledge of ritual magic (unlikely for him).]"
+
+    psychological_properties :
+      purpose: "Define the character's textually constituted inner life in the shadow of Primal Mama's  realities."
+      items:
+        - type: Core_Trait
+          detail: "[Deep-Seated Res entment (towards the meat oligarchy and the perceived injustices of the system)]"
+          auth: "[Dialogue, Internal Mon ologue hints]"
+        - type: Core_Trait
+          detail: "[Wounded Pride (in his former independence and skill as  a gator farmer)]"
+          auth: "[Actions, Reactions to pity/scorn]"
+        - type : Core_Trait
+          detail: "[Pervasive Weariness / Resignation (a creeping sense of hopelessness )]"
+          auth: "[Physical demeanor, Tone]"
+        - type: Dominant_Emotion
+          detail: "[ A simmering blend of Grief (for his lost way of life) and Bitter Anger (at those he blames)]"
+          auth:  "[Narrator Descriptions]"
+        - type: Key_Motivator
+          detail: "[Day-to- day survival for himself and any dependents; a desperate, fading hope of reclaiming some dignity or finding a measure of justice/revenge.] "
+          auth: "[Plot Goals, Reactions]"
+        - type: Key_Belief
+          detail: "[Believes  \"the big fish always eat the little fish\" and that hard work and honesty mean little against unchecked corporate power. Values  the old ways of the swamp.]" # Quoted due to internal quotes
+          auth: "[Dialogue, Worldview]"
+         - type: Internal_Conflict
+          detail: "[The desire to fight back or speak out vs. the paraly zing fear of further reprisal from the oligarchy and the crushing weight of his losses. Pride in his heritage vs. the  shame of his current state.]"
+          auth: "[Narrative Tension]"
+        - type: Subjective_Memory_Content 
+          detail: "[Vivid, painful memories of his thriving gator farm, the faces of the oligarchy's  agents who delivered the news of foreclosure/hostile buyout, the taste of his last home-cooked gator steak.] "
+          auth: "[Narrative Depiction]"
+      psychological_undersaturation: "[Specific religious beliefs (beyond  perhaps a general reverence for Primal Mama as the swamp itself, or a casual nod to the deified celebrities); detailed  opinions on spectral interaction or Erpenthropes (likely views them as 'swamp tales' unless directly encountered). ]"
+
+    social_relational_categorical_properties:
+      purpose: "Define the character's place within  Primal Mama's social strata."
+      items:
+        - type: Official_Role
+          detail: "[None ; formerly 'Independent Alligator Farmer', now 'Unemployed/Dispossessed'.]"
+          auth: "[Narrative Context, Pr imal Mama Economy]"
+        - type: Social_Status
+          detail: "[Low; part of Lickskillet' s impoverished underclass. Viewed with a mix of pity, contempt, and fear (as a reminder of what the oligarchy can do ). Explicitly NOT part of the Beetriot elite.]"
+          auth: "[Primal Mama Social Structure]"
+        - type : Primary_Affiliation
+          detail: "[None. Formerly to the loose community of Lickskillet mom-and- pop gator farmers.]"
+          auth: "[Backstory]"
+        - type: "Key_Relationship 1" 
+          detail: "[To 'Bayou Prime Meats' (Oligarchy Corp): Antagonistic. They are the direct  cause of his ruin through predatory economic practices, exploiting legal loopholes, or outright strong-arming.]" # Quoted due  to colon
+          auth: "[Primal Mama Deontic Rules - Oligarchy Friction]"
+        - type: "Key _Relationship 2"
+          detail: "[To Mama Roux (Local Swamp Witch, if encountered): Potential for cautious , transactional respect if she offers aid or knowledge, or fear if her methods are too alien. He'd be wary  but desperate.]" # Quoted due to colon
+          auth: "[Primal Mama Character Types]"
+        - type : "Key_Relationship 3"
+          detail: "[To fellow dispossessed/struggling Lickskillet residents : A sense of shared suffering, though trust is scarce. Potential for solidarity or further betrayal.]" # Quoted due to  colon
+          auth: "[Narrative Potential]"
+        - type: Species_Type
+          detail: "[Human  (Baseline Post-Calamity Strain)]"
+          auth: "[Primal Mama World Rules]"
+      social _undersaturation: "[Specific family members (wife, children – their fate could be part of his tragedy or motivation);  any friends who haven't abandoned him; his standing with any local enforcers of oligarchy rules.]"
+
+    modal _properties:
+      purpose: "Define any inherent unique relationship to world laws. For Remi, his status is defined by  *being subject to* the world's harsh realities, not exempt from them."
+      items:
+        - property _id: MODAL-REMI-01
+          property: "Victim of Deontic Power Im balance (Alethic consequence of Axiological/Deontic structure)"
+          description: "Authenticated as an individual  whose livelihood and social standing were destroyed by the legal and economic power wielded by the meat oligarchy, demonstrating the \" friction\" and power disparity built into the Primal Mama world state." # Quoted due to internal quotes
+          limits: "His  victimhood provides no special powers, only disadvantages and motivations born of loss."
+          authentication: "His backstory directly reflects the authenticated  power of the meat oligarchy and the precariousness of mom-and-pop operations as described in the Primal Mama  Coherence Protocol."
+      note: "Remi's 'exceptional status' is his complete lack of power against systemic forces , making him a prime example of the world's socio-economic dynamics."
+
+    axiological_properties:
+      purpose:  "Define Remi's value status *within* Primal Mama."
+      items:
+        - type: "Reputation  (Meat Oligarchy / Beetriot Elite)"
+          detail: "[Authenticated as 'Insignificant collateral damage', 'a  failed small-timer', 'proof of our superior efficiency', or simply 'non-existent/forgotten'.]"
+          auth : "[Implied by Oligarchy's actions and values]"
+        - type: "Reputation (Lickskillet  Populace)"
+          detail: "[Authenticated as 'Poor Gatorbait Remi', 'a walking tragedy', 'what happens when  you can't keep up', 'a good man beat by a bad system'. Some might avoid him, fearing association  or bad luck.]"
+          auth: "[Narrative depiction of local interactions]"
+        - type: "Moral  Alignment (Narrative Framing)"
+          detail: "[Authenticated via narrative sympathy as a fundamentally decent, hard-working man  crushed by systemic greed and injustice. A victim deserving of empathy.]"
+          auth: "[Narrator tone, focus on his  suffering]"
+      axiological_undersaturation: "[Reputation among Erpenthropes or ghosts (likely unknown to them or  irrelevant unless his fate intersects with their concerns); how the deified celebrities might be invoked in relation to his plight by others (e. g., \"Not even Burt could save him from the accountants\").]" # Quoted due to e.g.:  (implicitly, if it were there) and internal quotes
+
+    historical_properties:
+      purpose: "Define the character' s known origins and connections to past events in Primal Mama."
+      items:
+        - type: Origin
+          detail:  "[Authenticated as born and raised in the Lickskillet delta region, descended from families who adapted to swamp life and  small-scale alligator farming generations after the Biological Calamity.]"
+          auth: "[Primal Mama Historical Context ]"
+        - type: Key_Past_Event_Connection
+          detail: "[The 'Consolidation Pur ge' (local term) by Bayou Prime Meats approx. 2-3 years prior, where his and several other small g ator farms were systematically bankrupted or bought out under duress. This event is the defining trauma of his recent past and  the source of his current state.]"
+          auth: "[Narrative Backstory, Oligarchy actions]"
+        - type : Inherited_Items_Knowledge
+          detail: "[Authenticated to possess a deep, now mostly impractical, knowledge of pre -GE alligator behavior and traditional swamp farming techniques passed down through his family. His gator-tooth necklace is a relic  of this past.]"
+          auth: "[Skills, Physical Properties]"
+      historical_undersaturation: "[Specific  details of his ancestors' survival post-Calamity; whether his family ever had dealings with, or knowledge of, Swamp  Witches or Erpenthropes in generations past.]"
+
+  character_constitution_summary_narrative_function: 
+    purpose: "Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle." 
+    core_essence: |
+      Remi "Gatorbait" Dubois is constituted as a living testament to the harsh  socio-economic realities of Primal Mama's Lickskillet region. He is a man whose identity and skills, once sources  of pride and sustenance (traditional alligator farming), have been rendered obsolete and worthless by the overwhelming power of the meat oligarchy. His  Physical being reflects his past labor and current despair. His Psychological state is a cauldron of resentment, grief, and wounded pride, fueling  a deep-seated internal conflict between resignation and a desperate, flickering desire for justice or meaning. He embodies the human cost of the " friction" caused by powerful entities in a world striving to maintain a veneer of 1970s-era stability  over a foundation of biotech and disparity.
+    primary_narrative_function: |
+      To serve as a poignant example  of the victims created by the dominant power structures (meat oligarchy) in Primal Mama; to provide a ground-level perspective on  life in Lickskillet; to potentially act as a moral compass or catalyst for a protagonist who might encounter him;  to illustrate the consequences of the world's deontic and axiological imbalances.
+    key_internal_conflicts: | 
+      Resentment vs. Fear of Reprisal; Pride in Lost Heritage vs. Shame of Current Impotence; Desire  for Justice/Revenge vs. Crushing Despair; Loyalty to "Old Ways" vs. Inability to Compete  in the New Order.
+    potential_for_development: |
+      Remi could be galvanized into action (perhaps  rashly) if an opportunity for minor rebellion or symbolic justice arises. He might find a new, albeit lesser, purpose helping  others in similar straits. Conversely, he could slide further into alcoholism or complete despondency. His deep swamp knowledge (Functional Property ) might become unexpectedly valuable in a crisis, offering a path to reclaiming some self-worth.
+
+end_of_profile_ marker: "End of Fictional Person Profile: CHAR_RemiDubois_01"

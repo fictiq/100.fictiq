@@ -1,0 +1,161 @@
+
+World: Primal Mama
+CodexVersion : "0.2 - Character Constitution (Moses Washington)"
+LastUpdated: "[Current Date]" # Placeholder, replace with actual date 
+LeadArchitects: "[Your Name/Studio Name]" # Placeholder
+
+CharacterProfile:
+  EntityID: "CHAR_Mo Washington_01"
+  CharacterName: "Moses \"Mo\" Washington"
+  EntityType: "Person ( Human)"
+  Archetype: "Dispossessed Homesteader / Wrongfully Accused"
+  PrimaryAuthenticationSources :
+    - "This Codex Entry"
+    - "Primal Mama Coherence Protocol v0.1" 
+  CanonTier: "Tier 2 (Significant Supporting Character / Illustrative Case)"
+  AuthenticationStatus: "Authenticated_Canonical _Active"
+
+  AuthenticatedPropertyBundle:
+    PhysicalProperties:
+      Appearance_General:
+        value:  "Male with distinct African features, appears late 40s but aged by hardship. Stocky, once powerful frame now carries  a noticeable weariness. Skin dark, weathered from sun and swamp."
+        auth: "[This Codex Entry]"
+       Appearance_SpecificFeatures:
+        value: "Deep-set, intelligent brown eyes that hold a profound sadness and  a flicker of defiance. Broad nose, full lips often pressed into a grim line. Tightly coiled salt-and- pepper hair, mostly pepper, kept short. A neatly trimmed but graying goatee."
+        auth: "[This Codex Entry]"
+       Appearance_DistinctiveMarks:
+        value: "Numerous faded scars on hands and forearms from alligator handling. A more  prominent, ugly scar puckers the skin on his left shoulder, poorly healed – result of an 'enforcement action'  by meat oligarchy agents. A faint, almost invisible brand-like mark on his right wrist, a relic from a brief,  unjust detainment under suspicion of cattle-related offenses."
+        auth: "[This Codex Entry, Implied by Primal  Mama Coherence Protocol - Deontic (Cattle Consumption Prohibition)]"
+      TypicalAttire:
+        value : "Worn, patched canvas trousers and a faded, threadbare work shirt, colors leached by sun and swamp water  – typical Lickskillet attire. Heavy, often mud-caked boots. Sometimes a battered, wide-brim med fishing hat made of woven reeds, with a 1970s style plastic visor."
+        auth:  "[This Codex Entry, Primal Mama Coherence Protocol - Axiological (1970s Aesthetic)]"
+       VoiceSpeechPattern:
+        value: "Deep baritone, with a gentle Louisiana bayou drawl. Speaks  thoughtfully, often with pauses, words carrying weight of experience. Rarely raises his voice, but when angered, it can take  on a low, resonant growl."
+        auth: "[This Codex Entry]"
+      GaitMannerisms :
+        value: "Deliberate, somewhat stiff gait due to old injuries and lingering aches. Habit of looking over his  shoulder, a lingering paranoia. Hands are calloused and strong, but often held loosely at his sides, as if unsure  what to do with them now that his primary livelihood is gone."
+        auth: "[This Codex Entry]"
+       AssociatedScent:
+        value: "Faint smell of swamp mud, alligator musk (ingrained from years of  work), and sometimes the sharp tang of cheap, home-brewed chicory coffee."
+        auth: "[This Codex Entry,  Implied by Primal Mama Environment]"
+      # Physical Undersaturation: [Exact height and weight, specific details of non- work clothing (if any), precise nature of all minor scars.]
+
+    FunctionalProperties:
+      Skills:
+        - value:  "Expert Alligator Trapper & Skinner (Pre-Dispossession)"
+          auth: "[Historical Properties, Im plied by Primal Mama Economy]"
+        - value: "Proficient Swamp Navigator (by Pirogue/Sh allow Draft Skiff)"
+          auth: "[Historical Properties, Implied by Primal Mama Environment]"
+        -  value: "Resourceful Scavenger (Post-Dispossession Necessity)"
+          auth: "[Current Narrative Role ]"
+        - value: "Basic Maintenance/Repair of 1970s-era Analog Traps,  Skiff Motors, and Solar Rechargers (for small personal gear, not industrial scale)"
+          auth: "[ Primal Mama Coherence Protocol - Tech Aesthetic, Solar Dominance]"
+      Limitations:
+        - category: "Physical"  # Inferred from MD structure
+          value: "Chronic pain in left shoulder and lower back from past injuries, reducing  strength and stamina. Lacks access to advanced medical care."
+          auth: "[Physical Properties]"
+        - category : "Knowledge" # Inferred from MD structure
+          value: "Limited formal education; knowledge is practical, experiential . Unaware of Beetriot's high society intricacies or advanced GE alligator science beyond a user-level understanding. Susceptible  to common Lickskillet conspiracy theories, including the \"invisible women.\""
+          auth: "[This Codex Entry , Primal Mama Coherence Protocol - Epistemic (Conspiracy)]"
+        - category: "Social/ Economic" # Inferred from MD structure
+          value: "Effectively blacklisted by the meat oligarchy. Struggles  to find consistent work. Lacks capital or resources to restart an independent operation. No access to Automaton/LLM  tools, and would likely face stigma if he did, but also lacks the technical literacy."
+          auth: "[Historical  Properties, Primal Mama Coherence Protocol - Deontic (Automaton Stigma)]"
+      # Functional Und ersaturation: [Specific hunting techniques, ability to use firearms (though gun ownership is common outside Beetriot, his specific skill is T BD), literacy level.]
+
+    PsychologicalProperties:
+      CoreTraits:
+        - value: "Deep-Seated  Sense of Injustice"
+          auth: "[Reaction to Historical Properties]"
+        - value: "Resilience / Stoicism  (Learned through hardship)"
+          auth: "[Actions, Demeanor]"
+        - value: "Lingering Pride  (in his former skills and independence)"
+          auth: "[Internal Monologue, Dialogue hints]"
+      DominantEmotion: 
+        value: "Quiet Grief / Suppressed Anger / Weariness"
+        auth: "[Physical Properties, Demeanor]" 
+      KeyMotivators: # Pluralized as there could be more, matching other list structures
+        -  value: "To see some form of justice for what was taken from his family and community by the meat oligarchy; To  survive with dignity."
+          auth: "[Implied by Victim status]"
+      KeyBeliefs: # Pluralized
+         - value: "Believes the powerful (oligarchy, perhaps manipulated by the \"invisible women\") actively conspire to keep  ordinary folk down. Believes in the value of honest work and self-sufficiency, now lost to him."
+          auth:  "[Primal Mama Coherence Protocol - Epistemic (Conspiracy); Dialogue]"
+      InternalConflict: # Singular , as MD showed it as one block
+        value: "Desire for retribution vs. Fear of further harm to himself  or the few people he cares about; Bitterness over loss vs. Innate kindness/community spirit; Pride vs. Necessity  of taking demeaning work/charity."
+        auth: "[Implied by Profile]"
+      SubjectiveMemoryContent: 
+        value: "Vivid, cherished memories of his family's thriving gator farm – the smell of drying  hides, the sound of his children playing, the hum of their 1970s-style solar-powered processing shed.  Contrasted with sharp, painful memories of the oligarchy's enforcers, the forced sale, and the subsequent  struggle."
+        auth: "[This Codex Entry]"
+      # Psychological Undersaturation: [Specific views on the deified  celebrities (likely a background cultural acceptance), detailed opinions on Swamp Witches (probably wary respect/fear), exact nature of his spiritual  beliefs beyond general Primal Mama miasma.]
+
+    SocialRelationalCategoricalProperties:
+      OfficialRole:
+         value: "None. Formerly 'Independent Alligator Farmer'. Currently 'Marginalized Laborer / Scavenger' in Lick skillet."
+        auth: "[Historical Properties, Current State]"
+      SocialStatus:
+        value: " Low. Regarded with pity by some, suspicion by others (as someone who 'crossed' the oligarchy). Respected  by a few elders for his past integrity."
+        auth: "[This Codex Entry]"
+      PrimaryAffiliation:  # Singular as per MD
+        value: "Informal network of Lickskillet's dispossessed and struggling poor."
+         auth: "[This Codex Entry]"
+      SecondaryAffiliations: # Plural as per MD
+        value: "None formal . May have wary, transactional dealings with fringe elements like smugglers or even a desperate approach to a Swamp Witch for aid/information."  # This was not a list in MD, but implied it could cover multiple. Kept as single string.
+         auth: "[This Codex Entry]"
+      KeyRelationships:
+        - value: "To the Memory of his deceased  wife, Elara, and lost children – a source of profound grief and motivation."
+          auth: "[Psychological Properties]"
+         - value: "To a specific local Oligarchy Overseer (e.g., Overseer Brandt) – person ification of his oppressors, object of resentment."
+          auth: "[Placeholder for Narrative]"
+        - value: "To a  younger Lickskillet resident he tries to mentor/protect (e.g., a newly orphaned teenager, [Placeholder Name]) –  representing a hope to prevent others suffering his fate."
+          auth: "[Placeholder for Narrative, Potential for Development]"
+      SpeciesType :
+        value: "Human (Primal Mama native)"
+        auth: "[Primal Mama Coherence Protocol ]"
+      # Social Undersaturation: [Extended family (if any survived 'The Squeeze'); specific friends from his  past; exact nature of his interactions with local authorities in Lickskillet (likely minimal and distrustful).]
+
+    Modal Properties:
+      Entries:
+        - PropertyID: "None Authenticated."
+          Property: "N/A"
+           Description: "Operates fully under the general physical, deontic, and epistemic rules of Primal Mama.  Is subject to its harsh realities without supernatural recourse of his own."
+          Limits: "N/A"
+           Authentication: "Absence of evidence for exceptional status; Primal Mama Coherence Protocol (most individuals are baseline)."
+       Note: "Mo Washington is defined by his commonality and vulnerability within the established rules, not by exception to them ."
+      # Note: Most characters likely have NO unique modal properties, operating fully under general world rules. (This was  from template, Mo's section ended with the line above)
+
+    AxiologicalProperties:
+      Reputation_L ickskilletGeneral: # Made key more specific
+        value: "Authenticated as viewed as a 'good man broken  by the system,' 'a walking warning,' 'someone who knew too much or stood too tall.' Respected for his  past, pitied for his present."
+        auth: "[Implied by Social Status, Dialogue from other Lick skillet residents]"
+      Reputation_MeatOligarchy: # Made key more specific
+        value: "Authenticated as ' a closed file,' 'a minor example made,' 'no longer a threat.' His past resistance is noted but dismissed as insignificant  now."
+        auth: "[Implied by Oligarchy's power and his current state]"
+      MoralAlignment_Narrative Framing: # Made key more specific
+        value: "Authenticated via narrative focus as a fundamentally decent man pushed to the brink by  systemic cruelty and greed. His potential future actions, even if desperate or morally grey, are framed by this victimization."
+        auth : "[This Codex Entry, Narrative Intent]"
+      # Axiological Undersaturation: [How Beetriot elites would view  him (if they were even aware of his existence – likely as indistinguishable swamp-dweller); specific reputation among Er penthropes or Swamp Witches should they encounter him.]
+
+    HistoricalProperties:
+      Origin:
+        value : "Authenticated as born and raised in the cypress swamps around what became Lickskillet. His family were among the  first to successfully farm alligators independently after the Biological Calamity stabilized, before the large oligarchies formed and consolidated power."
+         auth: "[This Codex Entry]"
+      KeyPastEventConnections: # Pluralized
+        - value: " His family farm was forcibly bought out/seized during \"The Great Bayou Consolidation\" (a period of aggressive expansion by the nascent  meat oligarchies, roughly 15-20 years prior to present). Accusations of 'substandard practices ' or 'unsanctioned proximity to potential cattle-remnant zones' (fabricated or exaggerated) were used to justify  the takeover. His vocal resistance led to violent intimidation, injury (the shoulder scar), and the brief detainment (the wrist  brand). His wife, Elara, died from illness exacerbated by stress and poverty shortly after losing the farm; his children  were scattered or lost to the harsh realities of Lickskillet's underbelly."
+          auth: "[This  Codex Entry, linking to Primal Mama Coherence Protocol - Deontic (Cattle laws, Oligarchy friction)] "
+      InheritedItems:
+        - value: "Authenticated to possess a worn, 1970s- style analog solar-powered watch (stopped), a carved wooden alligator figurine his daughter made, and his grandfather's rusty but cherished skin ning knife (too dull for practical use, purely sentimental)."
+          auth: "[This Codex Entry]"
+      # Historical Und ersaturation: [Specific names of the oligarchy agents directly responsible for his family's ruin beyond Overseer Brandt; the  exact fate of his children (potential plot hooks); details of his ancestors pre-Calamity.]
+
+  CharacterConstitutionSummaryNarr ativeFunction:
+    CoreEssence:
+      value: "Moses \"Mo\" Washington is constituted as a living testament to the  human cost of Primal Mama's brutal socio-economic landscape, particularly the unchecked power of the meat oligarchies in  Lickskillet. He is a man stripped of his livelihood, family, and dignity, yet his core of resilience , quiet anger, and lingering pride remains. His belief in local conspiracies (like the \"invisible women\" influencing the oligarch s) is an authenticated psychological coping mechanism for understanding the overwhelming and seemingly impersonal forces that crushed him. His skills, tied  to a past the world has stolen, are now largely vestigial or repurposed for mere survival."
+      # auth : Not specified in MD for this section
+    PrimaryNarrativeFunction:
+      value: "To embody the suffering and  resilience of Primal Mama's underclass; To serve as a tangible example of the meat oligarchy's ruthlessness; To  act as a potential moral compass or catalyst for other characters who encounter him; To provide a ground-level perspective on life  in Lickskillet, contrasting with Beetriot's opulence or the supernatural mystique of Erpenthrop es/Witches."
+      # auth: Not specified in MD
+    KeyInternalConflicts:
+      value: " The burning desire for justice/retribution vs. the pragmatic fear of the Oligarchy's power and the need to  protect what little he has left (or those he cares for); The weight of memory and grief vs. the necessity of daily survival ; The ingrained pride of a self-sufficient man vs. the indignity of his current marginalized state."
+      #  auth: Not specified in MD
+    PotentialForDevelopment:
+      value: "Finding a specific, actionable way to  challenge the oligarchy (perhaps through aiding a protagonist or discovering a weakness); Connecting with other victims to form a nascent resistance; Being  pushed to seek aid from unconventional sources (Swamp Witches, Erpenthropes); Finding a new sense of  purpose in protecting others or preserving some truth about the past; Succumbing further to bitterness or, conversely, finding a measure of  peace/acceptance."
+      # auth: Not specified in MD

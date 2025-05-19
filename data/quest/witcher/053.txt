@@ -1,0 +1,35 @@
+Card Collector
+Uriallia Harbor
+You've successfully played kingmaker (or queenmaker) for Skellige, there's only one thing we really should do before we continue our hunt for Ciri... and it involves Gwent, so how could anybody skip it? First, though, let's collect the other Gwent cards that are still out there. Head east or west to reach one of the "Gedyneith" signposts and fast-travel to Urulla Harbor, which is on an island in the north-eastern corner of Skellige.
+
+When you arrive at Urialla Harbor, some Skelligers will be talking about some mysterious tower, and have a typically Skelliger solution for it. When they spot you, however, they decide to call you over, and one will talk to you. Apparently a tower appeared out of nowhere, and with it, a storm. You'll be told about their ill-fated attempt to greet the tower's owner, after which accept the quest. Just arriving starts the quest "The Tower Outta Nowheres." We'll put it off for now, it being a level thirty quest, it's definitely something we can stand to come back to later.
+
+Now for the almight Gwent haul. There's a Blacksmith and an Armorer who both play Gwent. Defeat them both if you still need the cards, then head to the tavern, which is along the north-eastern edge of town. The Innkeeper not only plays Gwent, but he also sells an "Arachas" Card, a "Werewolf" Card, and an "Elven Skirmisher" Card. Of them, the first is the best, being a 4 Strength Close Combat Unit Card with the "Muster" Ability.
+
+Harviken
+Now that we're obtained what we wanted from Uriallia Harbor, fast-travel to Harviken, which is on an island along the south-eastern edge of the Skellige map. Here you can play Gwent with a Blacksmith. Once done, head to the second building to the east to find the tavern, where you may have to meditate a while to get the lazy Innkeep to show up.
+
+When he does, play Gwent with him, then buy the "Nekker" Card, the "Vampire: Fleder" Card, the "Harpy" Card, and the "Ghoul" Card. The only exceptional card of the bunch is the "Vampire: Fleder" Card, as it's a 4 Strength Close Combat Unit Card with the "Muster" ability... which will conspire to make all the rest of your Vampire Cards more formidable, and hence, your entire Monster deck.
+
+Following the Thread (level 11)
+Time to find Hammond for Lambert. You'll find his goons in a village built along a bay east of Harviken, on the northern shore of the island. When you approach the western gate you'll be stopped by two guards. They'll tell you that Hammond is out on a religious errand at the moment. If you respond by saying "I'll be back." You'll be free to look for Hammond on your own. If you express suspicion at this, you'll have to fight through Hammond's Dagrs (level twelve), who are more of a nuisance than a threat at this point in the game. Some of the guards will drop some "Orders from Hammond."
+
+Either kill Hammonds men or not, then follow a road east of the village (Trottheim) and it'll take you to the shrine Hammond's praying at, which is on a hill along the south-eastern end of the island. In the latter case, you'll have to circumvent Trottheim by heading into the hills to the south, fighting off some Endrega Warriors (level eleven) as you go.
+
+Approach the shrine to speak to Hammond, who, as one might expect, isn't the nicest of guys. Kill Hammond (level eleven) and his Warrior buddies (level eleven) then search Hammond's body for a "Nekker" Card and a "Letter Written on Elegant Stationery." Loot some chests on some broken boats near the shrine, then leave. If you haven't already, return to Trottheim and kill his goons, who will now be hostile to you.
+
+Objective	Reward
+For killing Hammond	XP Varies
+With that done, it's time to return to Novigrad. Using the "Trottheim" signpost is just as good as any other, so reach it and fast-travel to the Oxenfurt Gate along the eastern side of Novigrad. Your destination is the Nowhere Inn, which is a light blue building north-east of Hierarch Square... or just east of some stairs that lead to Gildorf, which is the square that houses the notice board south of the Passiflora.
+
+Head inside and talk to Lambert and the two Witchers will exchange information, after which you can decide to head over to Karadin's house immediately by picking the dialogue option "Let's go see Karadin." If you want to play Gwent with him immediately, however, pick "Meet you outside his house," then talk to him again as he walks away. Challenge him to a game of Gwent, and with your now phenomenal cards, victory should be all but assured over his Scoia'tael deck. Play conservatively, however, as he's got plenty of "Scorch Cards, and he would love to ruin your day with them. Beat him to claim the "Triss Merigold" Card, a 7 Strength Close Combat Unit Hero Card. Winning this card should, if you've followed the guide exactly and defeated enough random merchants, complete the quests "Gwent: Old Pals" and "Collect 'Em All," and complete your Gwent collection.
+
+Objective	Reward
+For defeating Lambert at Gwent	25 XP
+Triss Merigold Card
+Leave the Nowhere Inn, then head west and go up some stairs to reach Gildorf square. Karadin's house is to the south, near which you'll find Lambert. Talk to him and the two Witchers will begin to scheme, only to be interrupted in a most unexpected manner. Talk to Karadin and identify him for what he is-he'll tell you about his change of lifestyle and explain his side of the story concerning Aiden. Lambert, under the guise of "keeping his cool" allows you to do all the talking, which is just the game's lame way of making Geralt call all the shots. At length you'll get the choice to let Karadin go, or to allow Lambert to have his vengeance. After you make your choice you'll have one last chance to talk to Lambert outside of Karadin's estate as he walks away, in case you haven't won his Triss Merigold Card yet.
+
+Objective	Reward
+For confronting Karadin	XP Varies
+Diagram: Eirlithrad
+Lesser Triglav Runestone

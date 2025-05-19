@@ -1,0 +1,252 @@
+
+primal_mama_quest_log:
+  overall_title: 'Pr imal Mama: Bayou Expeditions & Local Troubles'
+  meta_objective: "The quest 'The Patriarch''s Skinner ' requires us to reach the swamps near Mudflat Town. While its location along the murky eastern bayou channels seems to  give us a great excuse to explore our way there on the airboat, the simple fact of the matter is that many  of the salvage markers and rumored hostile zones we'd normally clear along the way involve us dealing with Apex Gators or Olig archy Enforcers who are quite a few power-levels above our current gear. The Bayou Delta, however, is  a sprawling network of waterways, so perhaps it's time to turn our attention to the open water? There are, after all,  plenty of salvage markers that aren't on solid ground, often remnants from before or just after the Calamity." 
+  segments:
+    - id: 'souls_in_a_swamp_snare'
+      title : 'Souls in a Swamp Snare'
+      level_equivalent: 12
+      summary: ' Rescue a Bio-Tinkerer from River Scum.'
+      actions:
+        - 'Fast-travel (or  chug your airboat) back to Gator''s Tooth Landing and commandeer a serviceable airboat (check the solar cells are charged !).'
+        - 'Pilot it along the main channel heading west. Why west? Might as well be thorough, as Burt Reynolds  himself might say, "Go for the Gumbo!"'
+        - 'At some point along a muddy bank,  you''ll find a "Souls in a Swamp Snare" encounter.'
+        - 'Land and deal with the River Sc um (Level 12 thugs, armed with crude pipe guns and machetes).'
+        - 'Loot them  to find a "Cage Latch Key" (chunky, brass, very 1970s).'
+         - 'Use it to free a Bio-Tinkerer, specializing in 1970s aesthetic cyber netics and gator-leather accessories.'
+        - 'He’ll invite you to meet him at his workshop in  Catfish Creek when you wish to do business.'
+        - 'Loot some waterlogged crates near a dilapidated jetty  for some minor salvage (old solar cells, maybe some processed gator jerky).'
+        - 'Get back on your  airboat and embark.'
+      enemies:
+        - name: 'River Scum'
+          level: 1 2
+          description: 'thugs, armed with crude pipe guns and machetes'
+      npcs:
+        -  name: 'Bio-Tinkerer'
+          description: 'specializing in 1970s aesthetic  cybernetics and gator-leather accessories'
+          follow_up_location: 'Catfish Creek'
+       loot_items:
+        - 'Cage Latch Key (chunky, brass, very 1970s)' 
+        - 'minor salvage (old solar cells, maybe some processed gator jerky)'
+
+    - id: ' hidden_hoard_mangrove_islands'
+      title: 'Hidden Hoard'
+      level_equivalent : 19
+      summary: 'Find a hidden hoard on mangrove islands guarded by Feral Sky-Gators.'
+       actions:
+        - 'Pilot your airboat west towards a cluster of small, overgrown mangrove islands.'
+        -  'The skies above are patrolled by Feral Sky-Gators (Level 19), smaller, winged GE  alligator variants gone rogue – nasty biters with a screech like a busted synthesizer.'
+        - 'Land the airboat  on an island where you can get a clear shot, pick them out of the sky with your Harpoon Gun (it ''s got that satisfying *thunk*), and dispatch any survivors on the ground with your trusty machete.'
+         - 'Then, sail to the western-most island to find a "Hidden Hoard" marker.'
+         - 'Explore the eastern edge of this island to find a rusted-out, half-submerged airboat wreck.' 
+        - 'Inside, on a skeletal remain still clutching a cracked pair of aviators, is a "Datachip Key " (looks like an oversized 8-track tape).'
+        - 'Now you just need to make your way  onto the north-central, slightly elevated part of the island.'
+        - 'There''s no clear path up  through the dense sawgrass, but if you make your way west onto the southern part of the island, you can determined ly jump and scramble your way over the gnarled mangrove roots to reach the northern half.'
+        - 'There  you''ll find a reinforced footlocker (wood paneling, brass fittings) unlocked by the Datachip Key you  just picked up.'
+      enemies:
+        - name: 'Feral Sky-Gators'
+          level : 19
+          description: 'smaller, winged GE alligator variants gone rogue – nasty biters with a screech  like a busted synthesizer'
+      loot_items:
+        - 'Datachip Key (looks like an oversized  8-track tape)'
+        - 'advanced solar cell components'
+        - 'a pristine Burt Reynolds commemorative  belt buckle'
+
+    - id: 'salvage_floats_mutated_gar'
+      title:  'Salvage Floats'
+      level_equivalent: 13
+      summary: 'Loot submerged crates  at salvage floats, fending off Mutated Gar.'
+      actions:
+        - 'Board your airboat again  and pilot it north and slightly east to find a "Salvage Float" marker – usually a cluster of old oil drums  and salvaged buoys.'
+        - 'You know how this works by now: three submerged, tethered crates.  Dive down and score the easy loot.'
+        - 'There are some territorial Mutated Gar (Level 13 ) below the surface, their eyes glowing faintly, but they can be dispatched with a few well-aimed shots from  your underwater speargun (or by luring them close to the surface and whacking them).'
+        - 'There are several  similar salvage points to the north – the entire Bayou Delta must just be littered with forgotten stashes from optimistic post-C alamity entrepreneurs.'
+        - 'Pilot north-west and loot another three crates, then go north-east and score  another three.'
+      enemies:
+        - name: 'Mutated Gar'
+          level: 13 
+          description: 'territorial, eyes glowing faintly'
+      note: 'Mutated Gar are easy enough to kill  if you can get a clean shot. They don''t do massive damage individually, but they''re more of a nuisance, as  they''ll latch onto the pontoons of your airboat and try to rip chunks off. A swarm of hungry Gar  is more than capable of sinking your ride if you''re not careful with that 1970s-era  hull plating.'
+
+    - id: 'a_cherished_charm_intro'
+      title: 'A Cher ished Charm'
+      level_equivalent: 12
+      summary: 'Find Burt''s Lucky Fishing Lure and begin  the quest "A Cherished Charm".'
+      actions:
+        - 'If you remember back in The Glowering Sprawl  (Beetriot''s less fortunate cousin-city), we once promised a shifty character named Slim Jimbo that you ''d help him recover a Luminous Bayou Pearl.'
+        - 'To the west, you''ll find three mangrove  islands forming a broken line running north-south. Slim Jimbo awaits us on the southern end of the middle island.'
+        -  'Land towards the middle of the eastern end of the central island... more specifically, on a small spit of land to the south -east of the central island, which is connected to the larger landmass by a rickety-looking boardwalk.'
+         - 'On this small, almost-island, you''ll find some Desperate Poachers (Level 15 ), probably trying to snag some undersized gators from the Saurian Sanctuary''s periphery.'
+        - 'Deal with them  (they’re probably just hungry, but business is business).'
+        - 'Loot their makeshift campsite where,  in a water-damaged tackle box, you''ll find the "Tattered Journal of a Bayou Scavenger,  Part II" and "Burt''s Lucky Fishing Lure" (a garish, feathered thing, but rumored to be  blessed by the Man Himself).'
+        - 'Picking these up begins the quest "A Cherished Charm," normally started  by finding a faded flyer in the settlement of Crawdad Gulch, far to the south. Getting the lure directly just  skipped an inconsequential fetch.'
+      npcs:
+        - name: 'Slim Jimbo'
+          initial_location _description: 'southern end of the middle island (cluster of three mangrove islands)'
+      enemies:
+        - name: ' Desperate Poachers'
+          level: 15
+      loot_items:
+        - 'Tattered Journal of  a Bayou Scavenger, Part II'
+        - 'Burt''s Lucky Fishing Lure'
+      starts _quest: 'A Cherished Charm'
+
+    - id: 'hidden_hoard_pearls_of _the_bayou'
+      title: 'Hidden Hoard: Pearls of the Bayou' # Value contains a colon
+       level_equivalent: 13
+      summary: 'Defeat Bayou Raiders and find a submerged chest to start " Pearls of the Bayou".'
+      actions:
+        - 'Cross the boardwalk connecting the land you''re on to  the larger part of the island to the north-west, then head north when you can through the cypress knees to find another  "Hidden Hoard" marker.'
+        - 'At this location, some Bayou Raiders (Levels 12 and  14) have set up a camp, complete with a sputtering generator powering a single string of Christmas lights (even  raiders appreciate that 70s ambiance).'
+        - 'Eliminate them, and find a soggy duffel bag on  some boards, which contains a "Damp Logbook Entry."'
+        - 'Take it and read it (the  ink is smudged, but mostly legible) to start the quest "Pearls of the Bayou."'
+        - ' Time to get your swamp boots wet again – either head east and dive off a muddy embankment (if you''re feeling like Jerry  Reed in a high-speed chase) or return to the boardwalk and safely wade into the murky water like the cautious soul  you are.'
+        - 'Swim north past the spit of land where we found "Burt''s Lucky Fishing  Lure" and dive at the mouth of the inlet to find the submerged, algae-covered chest the Raiders were looking  for.'
+      enemies:
+        - name: 'Bayou Raiders'
+          level: '12 and  14'
+      loot_items:
+        - 'Damp Logbook Entry'
+        - 'The '' Gator Grinner'' Machete (a serrated beast with a custom gator-tooth handle)'
+         - 'other useful salvage'
+      starts_quest: 'Pearls of the Bayou'
+
+    - id:  'luminous_bayou_pearl_retrieval'
+      title: 'Luminous Bayou Pearl'
+       level_equivalent: 13
+      summary: 'Help Slim Jimbo find the Luminous Bayou Pearl and  deal with Bog Lurkers.'
+      actions:
+        - 'Return west to the central island and head south to find a  dilapidated bridge made of old tires and planks, upon which Slim Jimbo awaits, nervously swatting at mosquitos.'
+         - 'Talk to him and confirm your willingness to help him (for a cut, of course), then follow him north  along the western bank.'
+        - 'Once you arrive at a particularly murky stretch of water, Slim Jimbo will deliver  the news that *you''re* the one who is going to have to dive into the muck and exhaustively search for  the elusive Luminous Bayou Pearl.'
+        - 'Swim west until you find a search area marked by oddly glowing fungi on submerged  logs.'
+        - 'Dive to find the Giant Iridescent Clams you''ll need to search.'
+        - 'Kill  some more Mutated Gar (Level 13) with your speargun so you can hunt in peace, then start  investigating the shells on the mucky bottom.'
+        - 'The Luminous Bayou Pearl is in a clam east of the  center of the search area (it gives off a faint, pulsing light), but it doesn''t hurt to loot other  shells first, as you''ll get a regular (though still pretty) Pearl as your consolation prize each time.'
+        - ' Obtain the Luminous Bayou Pearl then swim to shore, where you''ll find that Slim Jimbo is under attack by some Bog  Lurkers (Level 12 – grotesque, vaguely humanoid figures, possibly mutated by Calamity-era bio-waste).' 
+        - 'Dispatch them with extreme prejudice, then talk to Slim Jimbo, who will reveal that he kinda sorta forgot to  bring your reward money... or the agreed-upon high-grade solar cells. Certainly, it was just an oversight.'
+         - 'Whatever you say in response to this unwelcome revelation, he''ll promise to pay you back in The Glowering Sprawl .'
+        - 'On your own time, return to The Glowering Sprawl and meet Slim Jimbo in " The Rusty Prop" cantina. He''ll tell you his sad tale of woe and bad investments, then give you a paltry handful  of Processed Gator Chunks (the local scrip) for helping him out.'
+      npcs:
+        -  name: 'Slim Jimbo'
+      enemies:
+        - name: 'Mutated Gar'
+          level : 13
+        - name: 'Bog Lurkers'
+          level: 12
+          description : 'grotesque, vaguely humanoid figures, possibly mutated by Calamity-era bio-waste'
+      loot_items :
+        - 'Luminous Bayou Pearl'
+        - 'Regular Pearl (from other clams)'
+      rewards _details:
+        - objective: 'For giving Slim Jimbo a Luminous Bayou Pearl'
+          reward: 'XP  Varies'
+        - objective: 'For talking to Slim Jimbo in The Rusty Prop'
+          reward:  '10 Processed Gator Chunks (or equivalent)'
+
+    - id: 'mudflat_town_arrival _and_contract'
+      title: 'Mudflat Town Arrival'
+      summary: 'Arrive at Mudflat Town,  meet Sparky, and find the contract for "The Haunting of Solar Relay 7".'
+      actions:
+        -  'Board your airboat and pilot it south, following the channel markers (some of which are just old tires on poles ) to find the stilt-village of Mudflat Town.'
+        - 'Here you''ll find a community notice board ( made of salvaged corrugated metal) that has a hand-scrawled notice: "Contract: The Haunting of Solar  Relay 7" on it, which starts a quest by the same name.'
+        - 'Also in this town , you''ll find the local Bio-Mechanic – "Sparky" – who is a big fan of Jerry Reed ''s music (thinks "East Bound and Down" is the true anthem of the post-Calamity age ) and hence has an over-inflated opinion of both you (if you hum a few bars) and the legend  himself.'
+        - 'He also plays a mean game of Swamp Snap (a local card game using bottle caps and carved  gator teeth), so it''s worth putting up with his enthusiastic ramblings.'
+      npcs:
+        -  name: 'Sparky'
+          description: 'Local Bio-Mechanic, Jerry Reed fan, Swamp Snap player' 
+      starts_quest: 'Contract: The Haunting of Solar Relay 7' # Value contains a colon
+
+     - id: 'haunting_of_solar_relay_7'
+      title: 'The Haunting  of Solar Relay 7'
+      level_equivalent: 17
+      summary: 'Investigate the haunted  Solar Relay 7, deal with Miasma Phantoms and the Sorrowful Echo.'
+      actions:
+        - ' Head into the floating cantina near the notice board (it''s an old converted houseboat with surprisingly funky lighting), where  you''ll be accosted by some uppity locals with a low opinion of "Mainlanders" or anyone not smelling  permanently of gator musk.'
+        - 'Another local, Old Man Tiber, a grizzled Erpenthrope with  eyes that have seen too many flood seasons, will defuse the situation with a quiet word. He''ll then offer to talk about  the contract.'
+        - 'Indulge him, and he''ll tell you about their troubles. Mysterious energy  drains, a vital Solar Relay Tower going offline, flickering lights, and whispers of Miasma Phantoms... typical stuff for a  capable Fixer.'
+        - 'Haggle for more Gator Chunks (or not, if you respect your elders)  then accept the quest.'
+        - 'Before you leave, be sure to talk to the Cantina Keeper. He  not only plays Swamp Snap but sells some rare pieces: the "Gram Parsons ''Drifter'' Token" (Functions like a Spy,  low value but lets you draw), the "Burt Reynolds ''Bandit'' Token" (High strength, Close Combat, Muster  ability), the "Jerry Reed ''Hauler'' Token" (Medium strength, Close Combat, Muster ability), and a  generic "Swamp Witch ''Familiar'' Token" (Decent strength).'
+        - 'Return north. You  can either pilot your airboat to the northernmost of the three swamp hummocks north of Mudflat Town, or do your best to  navigate treacherous, half-submerged boardwalks that used to connect these islets.'
+        - 'Dock the airboat on a rick ety jetty along the southern end of the island where Solar Relay 7 stands, then head north along a muddy, overgrown  path.'
+        - 'You''ll shortly reach the strange, shimmering Miasma and comment on its obviously unnatural, possibly  Calamity-linked, nature.'
+        - 'Head into the Miasma and fight off some Miasma Ph antoms (Level 15, spectral figures that flicker like bad TV reception) when they appear, continuing north as you  do so.'
+        - 'There are two hazmat-suited bodies you can investigate on the path, but their  old datalogs are corrupted beyond recovery.'
+        - 'Make your way north until you find a pre-fab  utility shack (utilitarian 70s design, faded paint) east of the path and knock on the door ( it’s metal and probably loud).'
+        - 'Silas, the nervous Solar Relay Technician, will open the door , eyes wide with fear. He''ll tell you what little he knows (mostly panicked babbling about flickering lights and cold spots ) before giving you a heavy brass key to the Relay Tower.'
+        - 'Continue north along the path and deeper  into the Miasma, where you''ll have to fend off another pair of Miasma Phantoms (Level 15 ).'
+        - 'A short distance later you''ll find the "Solar Relay Tower 7" signpost,  a short distance away from the actual towering structure (a lattice of metal and solar panels, humming ominously).'
+        - 'Head  across a swaying metal catwalk and up some external stairs to enter the Relay Tower''s control room.'
+        - 'Loot the  first level (mostly spare vacuum tubes and technical manuals with coffee stains), then climb a ladder to the second.'
+        - 'Search  some filing cabinets (gunmetal grey, of course) to the north to find a "Technician''s Log."' 
+        - 'Read it to find out about Silas''s dark secret – he cut corners on safety protocols, maybe  even rerouted power unsafely to impress a Swamp Witch he was sweet on, leading to an overload that fried a  predecessor and attracted… *something*.'
+        - 'Be sure to have some Echo-Repellent Grease applied to your primary  weapon (or just trust in your Erpenthrope resilience if you are one), then return to Silas''s shack and talk to  the dishonest relay operator.'
+        - 'He''ll make up an award-winningly lame excuse involving "rog ue solar flares" and "unshielded wiring," then try to cower out of doing the right thing.'
+         - 'You’ll have to convince him to go (maybe with a reminder of what Burt Reynolds would do, or a threat  involving his favorite CB radio).'
+        - 'As Silas predicted (or perhaps, as his guilt manifested), the Sorrow ful Echo (a powerful, tormented ghost, crackling with energy) shows up and attacks.'
+        - 'You decide  to hold the Echo''s attention while Silas goes to reset the primary breakers and re-align the solar collectors, giving  him some good incentive (like "do it or I let this thing have you!").'
+        - 'The Sorrow ful Echo is highly resistant to damage at first, its form flickering wildly. Just use your defensive maneuvers (and maybe a sw ig of whatever passes for a Quen potion in this world – "Gator-Hide Brew"?), and try to stay away from  its energy discharges.'
+        - 'Once in a while, it''ll dissipate and summon a quartet of lesser Miasma  Phantoms (Level 15) which you can dispatch.'
+        - 'Repeat the process of evading the  Sorrowful Echo and slaying its lesser Phantoms until the Solar Relay Tower is fully lit and humming steadily (at which point you'' ll comment on the matter – "Now that''s what I call solar power!").'
+        - 'Then , engage the Sorrowful Echo, which now fights more like a standard, albeit very angry, Miasma Phantom ( its energy shield disrupted by the restored power grid).'
+        - 'Once it''s banished (dissipating with a final,  mournful wail), loot its fading energies for "The ''Heartwrencher'' Power Wrench" (a massive industrial  tool, surprisingly well-balanced) and some valuable Ectoplasmic Residue.'
+        - 'After you claim your prize,  Silas will come to check on the situation. Decide whether to let him stay around (under strict supervision) or force him to leave  the island (and report his negligence).'
+      npcs:
+        - name: 'Old Man Tiber'
+          description : 'Grizzled Erpenthrope, quest giver'
+        - name: 'Cantina Keeper'
+           description: 'Sells Swamp Snap tokens'
+        - name: 'Silas'
+          description: ' Nervous Solar Relay Technician with a secret'
+      enemies:
+        - name: 'Uppity Locals'
+         - name: 'Miasma Phantoms'
+          level: 15
+          description: 'spectral  figures that flicker like bad TV reception'
+        - name: 'Sorrowful Echo'
+          description: ' powerful, tormented ghost, crackling with energy'
+      loot_items:
+        - 'Heavy brass key to the  Relay Tower'
+        - 'Technician''s Log'
+        - 'The ''Heartwrencher''  Power Wrench'
+        - 'Valuable Ectoplasmic Residue'
+      purchasable_items:
+        -  'Gram Parsons ''Drifter'' Token'
+        - 'Burt Reynolds ''Bandit'' Token'
+        - ' Jerry Reed ''Hauler'' Token'
+        - 'Swamp Witch ''Familiar'' Token'
+      note : 'If you want to farm Ectoplasmic Residue or strange energy readings for crafting, this is a good place to do  it. The Miasma Phantoms will respawn around Silas''s shack – two to the south and two to the  north – each time you rest or the miasma visibly thickens. Phantoms often drop Infused Dust (good for enhancing  70s tech), Specter Slime, and sometimes even faintly glowing, unstable energy cells.'
+      rewards _details:
+        - objective: 'For checking in on Silas the Tech'
+          reward: '25 XP' 
+        - objective: 'For discovering the nature of the Relay''s Haunting'
+          reward: '2 5 XP'
+        - objective: 'For banishing the Sorrowful Echo'
+          reward:
+            -  '260 XP'
+            - '184 Processed Gator Chunks (or equivalent)'
+
+     - id: 'post_haunting_confrontation_and_incarceration'
+      title: ' Cantina Confrontation & Incarceration'
+      summary: 'After completing the contract, face angry locals, fight  alongside Tiber, and get incarcerated, starting "Outsider in the Bayou".'
+      actions:
+        - ' Head to the Solar Relay Tower 7 signpost and fast-travel (or airboat) back to Mudflat Town,  then head into the floating cantina and talk to Old Man Tiber. Proclaim a job well done.'
+        - 'Tiber  grants you your coin (a hefty sack of Gator Chunks) and all is well.'
+        - 'As you go to  leave, however, the two rude Aggro Swamp Rats (local toughs) from before will return and try to pick a fight  over some perceived slight (maybe you looked at their prize-winning bullfrog the wrong way).'
+        - 'Whatever you say , a fight ensues – with Old Man Tiber surprisingly spry and supporting you with his walking stick.'
+        - ' As you and Tiber gain the upper hand, however, the two miscreants will resort to crude machetes. Respond in kind,  then check on Tiber.'
+        - 'When you''re done talking to Tiber, you''ll find yourself embroiled  in the quest "Outsider in the Bayou."'
+        - 'Leave the cantina, and you''ll be confronted  by some angry Mudflat Town residents, including the kin of the two thugs you just put down.'
+        - ' After threatening to take you down through sheer weight of numbers (and presumably not being willing to test that, bluff or not , especially if Tiber is vouching for your character but not your methods), you submit to be incarcerated in the town''s holding cell  (a reinforced gator pen), awaiting the judgment of "Mama Gator," the local matriarch and enforcer, whose  word is law in these parts.'
+      npcs:
+        - name: 'Old Man Tiber'
+        - name:  'Mama Gator'
+          description: 'Local matriarch and enforcer (mentioned)'
+      enemies:
+        - name : 'Aggro Swamp Rats'
+          description: 'local toughs'
+        - name: 'Angry Mud flat Town residents'
+      starts_quest: 'Outsider in the Bayou'
+      rewards_details: 
+        - objective: 'For submitting to the citizens of Mudflat Town'
+          reward: 'XP Varies '

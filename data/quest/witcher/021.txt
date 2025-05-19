@@ -1,0 +1,134 @@
+xNovigrad (Continued)
+Gwent: Big City Players
+You should have already defeat Vimme Vivaldi during "Pyres of Novigrad", so let's go to the next opponent. Once that's all done, head to Novigrad and find Vimme Vivaldi along the south-eastern edge of Hierarch Square. Talk to him and play him at Gwent-he's got an unusual Scoia'tael deck in that he doesn't play too many cards with the "Muster" ability. Instead, he relies on arbitrarily using "Decoy" Cards, and Dandelion, which has the same effect as as "Commander's Horn" Card. Beating him starts the quest "Gwent: Big City Players."
+
+Objective	Reward
+For defeating Vimme Vivaldi at Gwent	25 XP
+Vesemir Card
+Head over to the Passiflora, which is a high-end brothel just north-east of the "St. Gregory's Bridge" signpost and play Marquise Serenity. She plays a fairly mundane Nilfgaardian deck, stacked with weather effects, which can be easily countered with "Foltest, Lord Commander of the North" or "Clear Weather". When she loses she'll cough up the "Morvran Voorhis" Card, a 10 Strength Hero Card, and a fine addition to any Nilfgaardian deck. She'll also suggest your next challenge. Beating her postpones the quest "Gwent: Big City Players," which we'll pick up later when we advance the main story further. Before you go, be sure to buy her "Mahakaman Defender" Card, her "Dol Blathanna Archer" Card, and most of all, her "Catapult" Card. The first two are mediocre Scoia'tael cards, but the last is an 8 Strength Siege Combat card with the "Tight Bond" ability for the Northern Kingdoms.
+
+Objective	Reward
+For defeating Marquise Serenity	25 XP
+Morvran Voorhis Card
+High Stakes Gwent
+Entering the Tournament
+You have two ways to start the next quest-either head over to most any notice board in Novigrad and take the notice "High Stakes Gwent Tournament" or simply head north to find a Scribe denying a potential Gwent player entry into a tournament. After our sad reject departs, talk to the scribe, show him your cards, and pay the 1000 Crown entry fee. High stakes tournament, indeed! Don't worry about the level of this quest-it's easy enough to complete at any level... at least, the card games will give you more trouble than the combat will. If it's too rough, you can always come back at a later date.
+
+Once you pay up you'll get your ticket and head upstairs, where a woman named "Sasha" will pester you. Talk to her to learn the names of your competitors, including Patrick Hazelnutt, Bernard Tulle, Finneas and Count Tybalt. Follow Sasha's advice and talk to your competition while we wait for Count Tybalt.
+
+Geralt vs. Barnard Tulle
+After you're done talking to the last of the three the rules will be announced the players will be paired off-your first foe will be against Barnard Tulle. Talk to him to play him. He's got a powerful, but rather straight-forward Northern Kingdom decks, including 15 Strength Hero Cards like "Geralt of Rivia" and "Ciri". He's also fond of "Biting Frost" cards and not above using "Commander's Horns" and "Scorch". He will also make use of his "Foltest, the Steel-Forged" card, which will limit the usefulness of your siege cards-try to avoid playing too many of the same Strength at once to avoid this card. Sadly, your Catapults will have to be sacrificial lambs here. This is also the card you win if you defeat the halfling.
+
+Objective	Reward
+For defeating Barnard Tulle at Gwent	22 XP
+Foltest, the Steel-Forged Card
+After the match Sasha will bother you again and ask to talk to you on the balcony. Agree and follow her to hear her out, where she'll tell you what she's after here, and where she heard of you. Best case scenario you win the tournament and have control of the winner's purse yourself. If you fail to win... well, she insists it might be lucrative if you remain until the end anyways. We should have no intention of losing, however.
+
+Note: The quest follows a somewhat different course if you refuse Sasha's scheme or lose a round at Gwent, but since those both lead to sub-par rewards, they should be discounted as less than ideal ways to complete this quest, and won't be mentioned here.
+
+Geralt vs. Sasha
+Return back to the common room where the next two opponents will be named-seems like you're playing Sasha. Head back upstairs and talk to Sasha, who insists you play to the best of your capabilities. Oh, we shall. Her deck is a rather straight-forward Nilfgaardian deck, filled with "Scorch" cards, Spys, Medics, "Villentretenmerth" (which she doesn't bother using to great effect as well as the odd Hero Card (she can use Dandelion and Geralt, as well as a few of the Nilfgaardian heros you should have already won.) She''ll also use her "Emhyr var Emreis, the Relentless" leader card to snatch a card from your discard pile. Otherwise... she's not too fond of weather cards, nor can she often counter them, but since she's likely to have more hero cards than you, it might not be wise to carpet each game with weather effects.
+
+Objective	Reward
+For defeating Sasha at Gwent	45 XP
+Emhyr var Emreis, the Relentless Card
+Geralt vs. Finneas
+Defeat her and you'll immediately be put into a match with Finneas, who only agrees to play when faced with forfeiture. He's by far the easiest opponent we've faced, using a fairly standard Scoia'tael deck. He has a few Hero Cards, and high-strength cards, and some "Muster" cards, but honestly he can be easily defeated with a lucky hand of Spy/Decoy cards to simply out-spend him, or Villentretenmerth/Decoy, to blast away his "Muster" cards. Good news for us, since we can't save in between him and Sasha.
+
+Objective	Reward
+For defeating Finneas... at life	45 XP
+Francesca Findabair, Queen of Dol Blathanna Card
+After the match he'll take offense at losing, and start a fight. Although he's high level, if you know how to parry punches by now, he's no more difficult than any other fist-fighter. Just parry, counter, and continue until he falls. Once he does, you'll be able to challenge Count Tybalt for the grand prize. Save your game, then play Gwent with Tybalt.
+
+Geralt vs. Count Tybalt
+As you might expect, he's got a Monster deck. While these can be initially challenging, by now Monster decks are very predictable. Use Spys to out-card him (a tactic which doesn't work as well for him when he attempt to Decoy your Spys back at you, since the Monster deck relies heavily on "Muster" cards), and if you're lucky, you'll get Villentretenmerth, which you can spam with Decoy to obliterate said "Muster" combos. When you defeat him, you'll get yet another Leader card-"Eredin, Destroyer of Worlds."
+
+Objective	Reward
+For defeating Count Tybalt at Gwent	72 XP
+Eredin, Destroyer of Worlds Card
+The Heist
+Once you are victorious you-and Count Tybalt-will be informed that some dastardly thieves snuck off with the purse! Sasha proclaims her innocence to Geralt, and he takes her at face value. Agree to help her recover the coin-your coin-and she'll smooth talk her way past a guard. Follow the guard upstairs to the scene of the crime, where after more wordplay from Sasha we'll be left alone. Use your Witcher Senses and search dead guard, then investigate the scratch on the floor near the door to the north. Head out onto the balcony and search a crossbow bolt tied to a string to the east.
+
+Geralt and Sasha will talk some more and deduce a probable sequence of events. Head downstairs and leave the brothel to find a search area along the north-eastern corner of said brothel. Activate your Witcher Senses and investigate some rope, after which Geralt will detect a scent trail. Follow the trail south then up some stairs to find a box on the ground, which bears markings that lead Sasha to suggest a specific warehouse.
+
+Objective	Reward
+For following the thief's trail	45 XP
+Head to a warehouse along the south-western edge of Novigrad's central district, where you will rendezvous with Sasha, who is spouting a sensible change of attire. Circle around to the northern end of the warehouse (perhaps stumbling upon the wagon the thieves used earlier) and climb some boxes to reach a wooden platform that will grant us access to the warehouse.
+
+Go through a window and drop down to the floor to find our thieves loitering around along the south-eastern side of the building, led by their boss-as expected, one of our fellow Gwent players. Violence is, of course, unavoidable, and these Bandits are quite powerful (level twenty-six), but despite being possibly out-matched, there are a few factors that make this fight winnable. First, we have lots of room to retreat. Second, countering a few aggressive Bandits isn't too hard, regardless of their level. Third, we can use hit and run tactics, the good old Strong Attack/Dodge combo that works so well. Fourth, Sasha will help us, and she's powerful and invincible, so while we play defensively, she will likely do most of the work.
+
+After they're all dead, Sasha will invite you to dinner at the Kingfisher. Question her further and she'll give you her-almost-real name, then accept the dinner invitation. We'll rejoin our conspirators back at the aforementioned inn, where Geralt is telling a story. Sick of the small talk, Sasha-or whoever she really is-will invite Geralt upstairs for an intimate re-enactment of his past exploits. This ends the quest "High Stakes." We got a bit of coin, a few new Gwent cards, and got laid. All in all, a good day for Geralt. Read the note "Letter from Cantarella" on the bed when you come to... ah well, easy come, easy go.
+
+Objective	Reward
+For stealing back the tournament purse	4500 Crowns
+Note: The quest Geralt is telling Sasha about during their dinner date is the quest "Blue Eyes" from the first Witcher game. A member of the Order of the Flaming Rose (a militant branch of the cult of the Eternal Fire) asked you to look for his sister, who had taken up working at a brothel run by Vampires. It says something awfully bad about you when your sister would rather be under the protection of Vampires than you.
+
+The Dreamer and Dandelion
+Novigrad Dreaming (level 7)
+Alas, it's time to take a break from Gwent for a while. Head over to the dreamer's house, which is along the southern-most part of the central district, alongside the canal, in fact. When you approach the entrance of the house a braggart nobleman will accost you. Ask for Corinne and he'll confirm that she is, indeed, inside the house. Ask for more information about the house and he'll tell you about a rather mundane-sounding "haunting", after which he'll notice your swords and let you investigate his property.
+
+Head on inside and loot around, then head into another room to the west, where you'll hear Corinne talking... to herself? Open a trap door and use Aard on a wall to the west to reveal a coallapsed tunnel with some loot inside. Once you've gathered everything here, climb back up to the first floor, then head upstairs and into a room, where you'll witness some creature in a room with a fitfully sleeping Corinne. After Geralt intervenes, Corinne will give him some direction. Loot the room, then a smaller side-room to the north, before going through a door to the east.
+
+Climb a ladder to reach the attic, then loot around some more. When you're done, Aard some furniture to the west to clear the way to another room, wherein you'll find-aside from more lootable containers-the note "Drawing of a Crib" on a chair near the door, and a "Rag Doll" on a bench along the western end of the room. Grab both and read the former, then... well, do what Geralt suggests. Head back downstairs and place the Rag Doll in the crib, which is located in the small room north of where Corinne dreams.
+
+After placing the Rag Doll in the crib, the door will close. Investigate it to find another drawing, this one directing us to the oven in the cellar. Head downstairs and climb the ladder down into the cellar, then examine the oven, where you'll find the creature that was in the room with Corinne. You can play nice with the Godling and try to strike a deal, or you can try and force it out. In the latter case, you'll have to go to the Herbalist in the docks district and buy a "Bundle of Burdock" (11 Crowns) and bring it back to stink the Godling out. Put the Burdock in the oven and hit it with Igni to scare the critter off. Alternatively, if you want to keep the Godling happy, just agree to tell the noble outside that the house is irrevocably cursed and she'll let Corinne wake up.
+
+Head back to Corinne, who is now awake. Talk to her, and, after babbling about her dreams she'll tell you to meet her at the Golden Sturgeon, where she stays. As you leave the house the noble will question what occured. If you drove out the Godling Geralt will tell him the truth, and in return the noble promises to reward you for removing the Godling... after he sells the house, of course. On the other hand, if you let the Godling stay you can either lie and tell him the house is permanently cursed, or you can double-cross Sarah and tell the noble about her.
+
+Note: If you let Sarah stay, you can find the notice "Beware! Haunted House & Cheating Merchant!." Take it to start the quest "Haunted House." Head back to the house to get a scene involving Sarah and Corinne.
+
+Drunks and Dreams
+Head over to the Golden Sturgeon by heading west along the canal. Along the southern-dockside-entrance of the inn you'll find two drunkards who want Geralt to finance another round of drinks. Turns out they are butchers, which in their minds makes them professional cousins of ours... or something. Either pay them to go away (25 Crowns), use the Axii Sign to convince them to go home, or respond rudely-twice-to fistfight the one who is too stupid to avoid getting physical with a Witcher.
+
+Objective	Reward
+For defeating the drunk at fisticuffs	25 XP
+Once you're done dealing with the drunks, head into the Golden Sturgeon, then go upstairs to find Corinne. She'll tell you about her process-simply put, she's got to be nosy and you've got to be honest to get as clear of connection to Ciri as possible. Use this process to get Geralt to talk about his past with Ciri-which is useful if you want backstory, but haven't read any of the books. When you're done filling Corinne in, you'll be asked to name somebody Ciri might have gone to-say Dandelion to learn that he's in town, and the proprietor of a brothel called the "Rosemary and Thyme." This ends the quest "Novigrad Dreaming" and begins "Broken Flowers."
+
+Objective	Reward
+For dreaming	100 XP
+Broken Flowers (level 11)
+Leave the Golden Sturgeon (stopping only to play Gwent with the Innkeep before you leave) then peruse the notice board near the tavern to pick up the notice "Contract Issued by the Temple Guard of the City of Novigrad", which starts the quest "Deadly Delights." It's well within our means, but let's keep on track for a change and go visit Dandelion. His house is north-west of the "Gate of the Heirach" signpost, in the docks district, just north of the aforementioned bridge that connects to the nonhuman district.
+
+As you approach you'll hear the delightful tune of an angry dwarf doing what dwarves do best-beating people up. And this lovely voice happens to belong to that paragon of dwarfdom, our old friend Zoltan Chivay. Geralt will agree to help him do some spring cleaning, after which you'll need to lay the smackdown on four Vagrants (level five), after which the two old pals will chat and share their problems of the day. In this case, however, we've got common ground-Dandelion's gone missing, and its in both our interests to find him.
+
+Activate your Witcher Senses and have a look around the area. On a barrel near the door you can find a "Letter from Frann." Near some beds you can investigate a barrel and Dandelion's discarded lute. On the wall next to the north-western door you can find his diploma. Another note "Letter from Bohmil de Rabbe" can be found near a window along the north-eastern wall. Behind a table you can find another trophy of Dandelion's, near an absurd painting of the bard. Next, the note "Letter from a Female Admirer" can be found on some bedding in the southern corner of the tavern... All this ignores the mundane looting that can be done on this level and upstairs.
+
+All that's well and good and all, but to continue on investigate a wine rack under a window near the door to find "Dandelion's Planner," which includes Dandelion's latest meetings. Zoltan will split the work between the two of you, then proceed to ignore his share by sitting around and cleaning up the tavern. Read the book in your inventory to find a couple of names-Rosa var Attre, Molly, Vespula, Marabella and Elihal. After you're done reading talk to Zoltan again and ask about the names mentioned. Once done, we'll be blessed with five objectives-five ladies to talk to in our search for Dandelion. Joy.
+
+Flowers in the Nonhuman District
+Best to start off with the places we've explored most thoroughly. Return to the nonhuman district and head to the south-western end of the island to find Vespula, who is in a spot of trouble. Either pay what she owes (200 Crowns), convince them she's under the protection of the King of Beggars, or say anything else to pick a fight. After you get rid of the Bandits (levels ten and eleven)... one way or another... you can talk to Vespula and get some of the information you need to find Dandelion.
+
+Return to the merchant's shop north-east of the bridge that connects the nonhuman district to the larger island to the south, inside which you'll find Elihal. Ask about Dandelion and... well... elves. What else can you say? Question him and he'll mention a variety of things-including the demise of Kalkstein, an alchemist friend from the first Witcher game (a well paying one, at that). Damn witch hunters... Oh well. More importantly, speaking to Elihal advances our knowledge about where to look for Dandelion.
+
+Sewer Secrets
+The next three women can be found in close proximity to one another, as they all reside around a plaza along the northern end of Novigrad's central district (called "Gildorf" when you enter the area), just south-east of the Passiflora and the "St. Gregory's Bridge" signpost. Before you deal with any of the ladies, however, find a open sewer grate near the northern end of the square, near some stairs.
+
+Climb down the ladder to reach the sewers, then head north-east. Fight off an ambush of three Drowners (level eleven) then continue north-east, follow the tunnel down some stairs and into a chamber where you'll again be ambushed, this time by a Water Hag (level twelve) and a pair of Drowners (level eleven). Kill them, then loot some containers atop a wooden platform for some loot, then dispel a wall to the south-east, near said wooden platform, beyond which is a small chamber with unexceptional loot inside. Hmmm. Oh well. If you head down the tunnel to the north-east you'll exit into daylight, and from here if you turn north you'll find some ledges you can climb, which provides an alternate route to reach one of the Dandelion's "flowers"... speaking of which...
+
+The Gildorf Three
+Return to Gildorf square and head to the southern-most of the three markers first to find the estate of the baroness la Valette-a lady whom Geralt has history with. No, not THAT kind of history. When Geralt comes calling she'll come out to greet him, accompanied by, of all people, Morvran Voorhis. Anywhere north of the Pontar-even in a "neutral" city like Novigrad-seems like a most dangerous place for a Nilfgaardian general, but Morvran seems comfortable enough to go to some local races-which Geralt is invited to.
+
+Might as well accept, since doing so will allow us to travel instantly to the races which are our destination, anyways. Once at the races Morvran will babble about horses before challenging Geralt to a race. Might as well, as you'll score a prize if you win-it's especially fuh to snipe his pretty Nilfgaardian horse. The race is easy, just stay on course and mind your stamina. Once you win, Morvran will make good on his offer, and Molly will finally be pointed out to you. Talk to her and she'll tell your more information on Dandelion.
+
+Objective	Reward
+For winning the race	Superior Racing Saddle
+A Barnful of Trouble (level 11)
+While we're out here... well, we might as well discover some locations, right? First, head south from the race tracks to find the "Vegelbud Residence" signpost. Now you can easily fast-travel back to Novigrad, if you wish. If you head north-west of here you'll find the "Wheat Fields" signpost at a crossroads. If you head south-west along the road from the "Vegelbud Residence" signpost you'll find Carsten-the town and the signpost. Talk to some peasants near a barn and offer to help them out. They'll lock you inside to deal with the critters inside-which just so happen to be a quartet of Ghouls (level eleven). Kill them and head outside to collect your reward.
+
+Objective	Reward
+For killing the Ghouls	25 XP
+20 Crowns
+Find one of the new signposts out here and fast-travel back to Novigrad, then return to the plaza where the other two girls await. Head towards the eastern-most one this time, heading down some stairs to get to the lower elevations where Marabella dwells. Burst into her house to discover her busy teaching a class of children. Agree to wait for class to be over, then talk to her. Endure her poetry, learn some more information about Dandelion, loot the school, then leave.
+
+Return to the plaza and head north this time. We'll have to find a way to get into the var Attre estate. The easiest way to get inside is to tell the guard out from that you're the new swordplay instructor. Otherwise you'll have to head east of the the Passiflora and run south along ledges, jump a gap and scale some rock walls (on top of one of which is a dead body with a "Love Letter" nearby) to reach the back, where you should talk to Rosa. Either way, you end up having to give Rosa a fencing lesson. Follow the guard into the house and take a Wooden Sword, then head downstairs into a training chamber.
+
+After some chatter Geralt will get rid of his armor and ready the Wooden Sword-fight Rosa and whittle her down to half her life to get her to talk some more. She seems somewhat fascinated by the fact that you're a Witcher-moreso that you're Geralt of Rivia. After you ask her a bit about Dandelion, you'll end up sparring with her again. This time you'll have to take her life bar almost all the way down, after which she'll ask if you'll give her private lesson. Agree to start the quest "Fencing Lessons"... or not. Either way, her more traditional twin sister Edna will show up and talk about Dandelion, at length revealing more information you need. The timed response doesn't really matter, nor does the optional dialogue you can ask them about-just be sure to confirm your interest in teaching Rosa more swordplay.
+
+Head back To Dandelion's tavern, where you'll find Zoltan futilely trying to teach an owl to speak. Ask about his new friend, then compare notes to find that-unsurprisingly-you've been more productive with your time. Zoltan identifies Dandelion's mystery woman, who will be performing at the Kingfisher Inn at night.
+
+We'll get there soon enough. First, however, talk to Zoltan again and indulge him in small talk, if you wish. What you're really here for now, though, is Gwent. Of course old Zoltan plays Gwent! He played Dice Poker in the first game, arm wrestled in the second, now he's moved on to cards in the third. Play him and you'll find that he's got a fairly unsophisticated Scoia'tael deck-cards with the "Muster" ability, some weather cards, and "Commander's Horn" cards aplenty, but we've long since been able to handle brute force decks. Beat him to earn the "Eithne" card, a 10 Strength Hero Card for Scoia'tael decks. This starts the quest "Gwent: Old Pals." He also mentions Vernon Roche-seems the man who survived the death of his king also survived the death of his country... and he's got a nice deck of cards, if we're to believe Zoltan.
+
+Objective	Reward
+For beating Zoltan Chivay at Gwent	25 XP
+Eithne Card
+Anyways, head over to the Kingfisher, which is along the north-eastern end of Hierarch Square-the same bar where we played Gwent with the Innkeep Olivier. When you head inside you'll witness a performance, after which the innkeep from White Orchard will show up and accuse Geralt. Before things get ugly the bard who was performing will take us aside and out of the sight of our accuser. Ask about Dandelion, and after another diversion we'll learn what our friend has-uncharacteristically-been up to. This ends "Broken Flowers" and begins "Get Junior."

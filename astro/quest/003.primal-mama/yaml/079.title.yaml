@@ -1,0 +1,213 @@
+
+ # Primal Mama - Swamp Survival & Gear Fabrication Guide v0.1 YAML Data
+
+metadata:
+  title: Primal Mama  - Swamp Survival & Gear Fabrication Guide v0.1
+  subject: Gear Augmentation & Specialized Ordnance Protocols
+  source : Lickskillet Tinkerer's Guild (Unofficial Pamphlet)
+  distribution: "Need-to- Know (Don't let the Meat Oligarchs see you readin' this)"
+
+introduction: |
+  Alright,  swamp-dweller. Livin' ain't easy between the gator farms, the backwater weirdness,  and keepin' your rig runnin' on sunshine and sheer cussedness. To keep breathin' and maybe  put a bigger dent in those oversized GE lizards (or whatever else crawls out the muck), you need gear that works. Good  gear. And that means scroungin' and buildin'.
+
+  You'll find bits and pieces scattered around –  old pre-Calamity junk, discarded gator parts, maybe even some high-falutin' Beetriot tech someone  dropped off their sky-barge. Pullin' apart busted equipment or useless scrap is always an option. But sometimes , you need somethin' *better*. Somethin' refined. That's when you find yourself a local ** Tinkerer** – could be a back-alley welder in Lickskillet, a Hide Tanner out near the Saur ian Sanctuary boundary, maybe even one of them solar-savvy types who keeps the gator bio-batteries topped off.
+
+   They can take your common junk and, with the right know-how (and maybe a bit of swamp magic or  70s ingenuity), turn it into the good stuff. Most of these schematics are common knowledge, probably rattlin' around in  your head already. Just remember: everything's gotta have that *look* – chunky, maybe some wood paneling , definitely no sleek minimalist nonsense. Function over high fashion, but style still counts.
+
+essential_components:
+  section _title: I. Essential Fabricated Components
+  introduction: Basic materials needed for crafting and modifying weapons, armor ( think reinforced jumpsuits, gator-hide vests), traps, and tech.
+  items:
+    - component_name:  Reclaimed Steel Ingot
+      required_materials: Reclaimed Scrap Metal x2
+      tinkerer_requirement : Scrap-Welder (Amateur)
+      notes: Basic building block. Often salvaged from pre-Calamity  ruins.
+    - component_name: Hardened Steel Ingot
+      required_materials: |-
+        Reclaimed  Steel Ingot x1
+        Industrial Coolant x1
+      tinkerer_requirement: Scrap-Welder  (Amateur)
+      notes: Tougher stuff. Coolant often found near old industrial sites.
+    - component _name: Hardened Steel Plate
+      required_materials: Hardened Steel Ingot x2
+      tink erer_requirement: Scrap-Welder (Amateur)
+      notes: For reinforcing gear or vehicle hulls.
+     - component_name: Processed Gator Hide
+      required_materials: Raw Gator Hide Scraps x4 
+      tinkerer_requirement: Hide Tanner (Amateur)
+      notes: Basic leather substitute. Smells  faintly of swamp and ozone.
+    - component_name: Reinforced Gator Hide
+      required_materials: |-
+        Processed Gator  Hide x1
+        Industrial Resin x2
+      tinkerer_requirement: Hide Tanner (Amateur)
+      notes:  Tougher, slightly water-resistant. Resin harvested from specific trees.
+    - component_name: Alpha Gator Plate  Section
+      required_materials: |-
+        Reinforced Gator Hide x2
+        Intact Alpha Gator Scale x3
+       tinkerer_requirement: Hide Tanner (Journeyman)
+      notes: Harvested from particularly large/nasty GE  gators. Extremely durable.
+    - component_name: Swamp Cypress Timber
+      required_materials: |-
+         Cypress Wood x2
+        Curing Resin x1
+      tinkerer_requirement: Woodworker ( Amateur)
+      notes: Dense, water-resistant wood. Good for grips, stocks, basic structures.
+    - component _name: Resin-Infused Cypress
+      required_materials: |-
+        Swamp Cypress Timber x1
+         Hardening Sap x2
+      tinkerer_requirement: Woodworker (Amateur)
+      notes:  Even tougher, almost petrified. Used in heavy-duty applications.
+    - component_name: Charged Solar Cell Dust
+       required_materials: |-
+        Depleted Bio-Battery x1
+        Conductive Wire x2
+      tink erer_requirement: Solar Tech (Amateur)
+      notes: Used in energy weapon mods or recharging small devices. Sparky .
+    - component_name: Refined Solar Capacitor
+      required_materials: |-
+        Charged Solar Cell  Dust x2
+        Ceramic Insulator x1
+      tinkerer_requirement: Solar Tech (Journe yman)
+      notes: Stores a decent jolt. Key part of some advanced mods.
+    - component_name : Purified Conductor Bundle
+      required_materials: |-
+        Salvaged Copper Wire x5
+        Ins ulating Tape x1
+      tinkerer_requirement: Tinkerer (Amateur)
+      notes: Needed for  most tech fabrication requiring power transfer.
+    - component_name: Polished Conductor Ingot
+      required_materials:  Purified Conductor Bundle x2
+      tinkerer_requirement: Tinkerer (Journeyman)
+      notes : Higher efficiency conductors for sensitive Beetriot-level tech.
+    - component_name: Polished Conductor Plate
+       required_materials: Polished Conductor Ingot x2
+      tinkerer_requirement: Tinkerer (Jour neyman)
+      notes: Used in advanced solar arrays or energy shielding mods (rumored).
+    - component_name:  Lickskillet Pattern Steel
+      required_materials: |-
+        Reclaimed Steel Ingot x1
+         Bog Iron Ore x1
+      tinkerer_requirement: Scrap-Welder (Journeyman)
+      notes:  A local alloy known for resilience against swamp corrosion.
+    - component_name: Swamp Gas Condensate
+      required_ materials: |-
+        Methane Canister x1
+        Sulfuric Muck x1
+        Salt Flats Crystal  x3
+      tinkerer_requirement: Chem-Mixer (Amateur)
+      notes: Highly volatile . Used in explosives and certain engine additives.
+    - component_name: Gator Musk Gland Extract
+      required_materials : |-
+        Intact Gator Musk Gland x1
+        Preserving Alcohol x1
+      tinkerer_requirement:  Bio-Tech (Amateur)
+      notes: Potent lure for swamp life. Handle with gloves.
+     - component_name: 'Ritual Component: Gator Tooth Fetish'
+      required_materials: |-
+         Polished Gator Tooth x1
+        Charged Solar Cell Dust x1
+        Spanish Moss Cordage x1
+       tinkerer_requirement: Ritualist Scribe (Amateur)
+      notes: 'Seems to ward off minor swamp spirits...  or attract bigger ones?'
+    - component_name: 'Ritual Component: Ghost-Sight Dust'
+      required_materials : |-
+        Erpenthrope Scale Dust x1 (Rare!)
+        Powdered River Pearl x1
+       tinkerer_requirement: Ritualist Scribe (Journeyman)
+      notes: Said to momentarily reveal spectral  echoes. Highly unstable.
+    - component_name: 70s Synth-Weave Bolt
+      required_ materials: Polyester Thread x4
+      tinkerer_requirement: Weaver (Amateur)
+      notes: That  durable, slightly uncomfortable fabric so popular these days.
+    - component_name: Reinforced Synth-Weave
+       required_materials: 70s Synth-Weave Bolt x2
+      tinkerer_requirement: Weaver  (Journeyman)
+      notes: Double-layered for extra toughness. Good for basic armor padding.
+    -  component_name: Basic Wiring Loom
+      required_materials: Insulated Wire x2
+      tinkerer_ requirement: Tinkerer (Amateur)
+      notes: Essential for connecting components in any crafted tech.
+    - component_name : Chunky Circuit Board
+      required_materials: |-
+        Basic Wiring Loom x1
+        Salvaged Trans istors x3
+      tinkerer_requirement: Tinkerer (Amateur)
+      notes: The heart of  simple devices. Looks satisfyingly retro.
+
+specialized_ammunition:
+  section_title: II.  Specialized Harpoon Gun Ammunition
+  introduction: |
+    Standard harpoons get the job done on smaller gators , but sometimes you need a little extra persuasion for the big ones, rival claim jumpers, or those things the Swamp Witches  cook up. Remember, crafting this stuff might attract attention – especially if you need parts only found deep in the Saurian Sanctuary. 
+  note: Your standard Harpoon Gun likely came with a near-endless supply of basic Reclaimed Steel Tipped Har poons. These custom loads are for special occasions.
+  items:
+    - ammo_type: Pheromone Dart
+       required_materials: |-
+        Basic Harpoon Body x1
+        Gator Musk Gland Extract x1 
+        Feather Fletching x1
+      tech_level: 1
+      tinkerer_requirement : Bio-Tech (Amateur)
+      effects_stats: 'Effect: Attracts nearby aggressive fauna (esp. Gators ) to impact point. Radius: ~15m. Duration: 30s.'
+    - ammo_ type: Tranq Head Harpoon
+      required_materials: |-
+        Basic Harpoon Body x1
+         Swamp Lily Nectar x2
+        Reinforced Hypodermic x1
+      tech_level: 3
+       tinkerer_requirement: Bio-Tech (Amateur)
+      effects_stats: 'Effect: Chance to Sedate target  (non-lethal takedown on human-sized or smaller). Potency: Medium. Duration: 15 s.'
+    - ammo_type: Barbed Harpoon
+      required_materials: |-
+        Basic Har poon Body x1
+        Sharpened Gator Teeth x3
+        Processed Gator Hide Strips x1
+       tech_level: 5
+      tinkerer_requirement: Weaponsmith (Amateur)
+      effects_ stats: 'Damage: +10 Piercing. Effect: Causes Bleeding (Damage over Time). Duration: 10s .'
+    - ammo_type: Explosive Tip
+      required_materials: |-
+        Basic Harpoon Body x1
+         Swamp Gas Condensate x1
+        Impact Detonator (Chunky) x1
+        Alpha  Gator Plate Shard x1
+      tech_level: 12
+      tinkerer_requirement: Chem-Mixer  (Journeyman)
+      effects_stats: 'Damage: +15 Explosive (Area of Effect ~ 3m). Effect: High chance of Stagger. Destroys cover.'
+    - ammo_type: AP  Harpoon (Armor Piercing)
+      required_materials: |-
+        Basic Harpoon Body x1
+         Hardened Steel Ingot x1
+        Feather Fletching x2
+      tech_level: 7 
+      tinkerer_requirement: Weaponsmith (Amateur)
+      effects_stats: "Damage: + 20 Piercing. Effect: +50 Armor Penetration (Ignores portion of target's armor)." 
+    - ammo_type: Flechette Harpoon
+      required_materials: |-
+        Basic Harpoon Body  x1
+        Reclaimed Scrap Metal x3
+        Basic Wiring Loom x1 (for timer)
+      tech _level: 10
+      tinkerer_requirement: Tinkerer (Journeyman)
+      effects _stats: 'Damage: +5 Piercing (x5 projectiles). Effect: Spreads in a cone on impact . Good vs. swarms or unarmored targets.'
+    - ammo_type: Tracer Dart
+      required_materials:  |-
+        Basic Harpoon Body x1
+        Bioluminescent Algae Paste x1
+        Charged Solar Cell  Dust x1
+      tech_level: 2
+      tinkerer_requirement: Solar Tech (Amateur )
+      effects_stats: 'Effect: Target glows brightly, visible through fog/darkness. Duration: 120  seconds. Damage: Minimal.'
+    - ammo_type: Stun Head Harpoon
+      required_materials:  |-
+        Basic Harpoon Body x1
+        Refined Solar Capacitor x1
+        Purified Conductor Bundle  x1
+      tech_level: 9
+      tinkerer_requirement: Solar Tech (Journeyman )
+      effects_stats: 'Effect: Delivers powerful electric shock. High chance to Stun biological & technological targets. Duration : 5s.'
+
+disclaimer: |
+  This guide ain't official. Use this knowledge at your own risk . Messing with high-voltage solar capacitors or volatile swamp gas can ruin your day faster'n a gator chompin'  on a forbidden burger. Stay safe, stay sharp, and keep that 70s tech humming.

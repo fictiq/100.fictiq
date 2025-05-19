@@ -1,0 +1,180 @@
+
+World: Primal Mama
+Codex_Version: '0.2 - Character  Constitution'
+Last_Updated: '[Current Date]'
+Lead_Architects: '[Your Name/Studio Name]'
+
+ Character_Profile:
+  Entity_ID: 'CHAR_JoleenB_01'
+  Character _Name: 'Joleen "Jo-Jo" Broussard'
+  Entity_Type: 'Person (Human Citizen )'
+  Archetype: 'Resilient Homesteader / Small Business Owner'
+  Primary_Authentication_Sources : 'This Codex Entry; Primal Mama Coherence Protocol v0.1'
+  Canon_Tier: ' Tier 1'
+  Authentication_Status: 'Authenticated_Canonical_Active'
+
+Authenticated_Property_Bundle: 
+  Physical_Properties:
+    Purpose: 'Define the character''s tangible presence, reflecting the Primal Mama  aesthetic.'
+    Properties:
+      Appearance_General:
+        value: 'Human female, appears late 3 0s/early 40s, sturdy build from physical labor, sun-weathered skin common to Lick skillet residents.'
+        Auth: '[Primal Mama Setting Details]'
+      Appearance_Specific_Features:
+         value: 'Strong hands, often stained with organic matter or grease. Eyes are a practical hazel, usually assessing. Hair,  a sun-bleached brown, often tied back in a functional, slightly feathered 1970s style.' 
+        Auth: '[Visual Concept - 70s Influence]'
+      Appearance_Distinctive_Marks:
+         value: 'A faded, jagged scar along her left forearm from a misjudged gator tail whip during processing  years ago; a small, discreet Burt Reynolds "Bandit" silhouette tattooed on her right shoulder blade.'
+        Auth : '[Personal History Detail, Axiological Value Link]'
+      Typical_Attire:
+        value: 'Durable,  earth-toned (ochre, swamp green, faded denim) flared work pants or overalls, often with synthetic (but  1970s textured, e.g., nylon-esque) work shirts. Chunky, practical rubber  boots for swamp work, or platform-soled work shoes for town. Occasionally a fringed faux-suede vest  for "dressier" Lickskillet occasions.'
+        Auth: '[Primal Mama Aesthetic Constraint, Regional Culture]'
+       Voice_Speech_Pattern:
+        value: 'A warm, slightly husky voice with a noticeable Lickskillet  bayou drawl. Speech is direct, practical, peppered with local idioms. Prone to exclamations like  "Well, I''ll be a gator''s grandpappy!"'
+        Auth: '[Regional Culture]'
+       Gait_Mannerisms:
+        value: 'Purposeful, no-nonsense stride. Habit of wiping hands  on her pants, even if clean. Tends to squint slightly, a habit from working in sun glare or peering into murky processing v ats. Can expertly operate lever-and-dial based machinery.'
+        Auth: '[Occupational Detail, Tech Aesthetic]'
+       Associated_Scent_If_Any:
+        value: 'Faint, persistent smell of swamp water, processed alligator (a  slightly tangy, metallic note), and the cheap, vaguely floral aerosol deodorant popular in Lickskillet circa 19 78.'
+        Auth: '[Environmental Detail, Cultural Detail]'
+    Physical_Undersaturation: 'Exact  height/weight, specific dental records, preferred brand of (70s style) cigarettes if she smokes.'
+
+   Functional_Properties:
+    Purpose: 'Define what the character *can* and *cannot* do within Primal Mama''s  rules.'
+    Properties:
+      Skill_Expert_Alligator_Processing:
+        value: 'Expert in  small-scale alligator processing (butchering, tanning, meat preparation) using 1970s-aesthetic  analog machinery.'
+        Auth: '[Occupation, Tech Aesthetic Constraint]'
+      Skill_Proficient_Airboat_ Pilot:
+        value: 'Proficient airboat pilot and basic maintenance (diagnosing issues with chunky, analog gauges  and performing repairs with oversized, tactile tools).'
+        Auth: '[Environmental Necessity, Tech Aesthetic Constraint]'
+      Skill_Knowledgeable _Swamp_Flora:
+        value: 'Knowledgeable in local swamp flora for minor practical uses (e. g., bug repellent herbs, plants to reinforce small levees), but NOT Swamp Witch esoteric lore.'
+        Auth:  '[Local Knowledge, Distinction from Supernatural]'
+      Skill_Decent_Shot_Rifle_Shotgun:
+         value: 'Decent shot with a lever-action rifle or pump-action shotgun (common outside Beetriot).' 
+        Auth: '[Deontic Gun Ownership Norm]'
+      Ability_Situational_Bayou_Navigation: 
+        value: 'Can navigate familiar sections of the local bayou by memory, even in moderate fog, due to  lifelong experience.'
+        Auth: '[Local Expertise]'
+      Limitation_Economic:
+        value: 'Oper ates a small, family-run business ("Broussard''s Bayou Bites") constantly struggling against the "friction" from meat  processor oligarchies.'
+        Auth: '[Deontic - Oligarchy Influence]'
+      Limitation_Technological :
+        value: 'Can operate and repair her existing 1970s-style tech, but lacks  skills/resources for advanced genetic engineering (like GE Alligators) or high-level solar infrastructure.'
+        Auth:  '[Tech Aesthetic Constraint, Epistemic - Specialized Knowledge]'
+      Limitation_Social:
+        value: 'Has local respect  in Lickskillet but little to no influence in Beetriot or with the powerful oligarchs. Distrusts and avoids Automat ons/LLMs, thus limiting access to some information or efficiencies, reinforcing her "stain on reputation" if she were forced to  use them.'
+        Auth: '[Social Structure, Deontic - Automaton Stigma]'
+    Functional_Unders aturation: 'Ability to sing or play a musical instrument (e.g., a washboard); proficiency in advanced first  aid beyond basic swamp injuries.'
+
+  Psychological_Properties:
+    Purpose: 'Define the character''s text ually constituted inner life within Primal Mama''s context.'
+    Properties:
+      Core_Trait_Resilient _Pragmatic:
+        value: 'Resilient & Pragmatic – essential for survival in Lickskillet .'
+        Auth: '[Narrative Tone, Environmental Pressures]'
+      Core_Trait_Fiercely_Independent: 
+        value: 'Fiercely Independent – values self-reliance, dislikes oligarchy control.'
+        Auth : '[Axiological - Autonomy vs. Automation, Deontic - Gun Ownership]'
+      Core_Trait_Community _Minded_Lickskillet:
+        value: 'Community-Minded (for Lickskillet ) – protective of local ways and people.'
+        Auth: '[Social Setting]'
+      Dominant_Emotion_ Weary_Determination:
+        value: 'A weary determination, punctuated by flashes of dry humor or frustration.'
+         Auth: '[Inferred from struggles]'
+      Key_Motivator_Business_Family_Dignity :
+        value: 'To keep her family business alive and independent; to provide for her kin (if any are defined); to  maintain a sense of dignity against overwhelming economic forces.'
+        Auth: '[Core Conflict]'
+      Key_Belief _Honest_Work:
+        value: 'Believes in "an honest day''s work for an honest  day''s pay" – views oligarchy tactics as unfair and exploitative.'
+        Auth: '[Axiological Implication ]'
+      Key_Belief_Celebrity_Reverence:
+        value: 'Holds a genuine, un-iron ic reverence for the deified celebrities, particularly Burt Reynolds (symbol of charming defiance) and Jerry Reed (symbol of ro guish ingenuity). Gram Parsons represents a kind of soulful swamp melancholy for her.'
+        Auth: '[Axiological - Deified  Celebrities]'
+      Key_Belief_Invisible_Women_Conspiracy:
+        value: 'Believes  the "Invisible Women" conspiracy is likely true, blaming them for the broader societal issues that make life hard for folks like her, distinct  from the direct actions of the visible oligarchs.'
+        Auth: '[Epistemic - Conspiracy Belief]'
+       Internal_Conflict:
+        value: 'Desire for independence vs. the crushing reality of oligarchy power; loyalty  to traditional methods (and 1970s aesthetic) vs. the need to adapt to survive; suspicion of outsiders vs.  occasional need for help.'
+        Auth: '[Derived from World Rules & Personal Situation]'
+      Subjective_Memory_ Content:
+        value: 'Fond memories of Lickskillet festivals before the oligarchs got "too big for their brit ches." Remembers her grandmother''s stories about "the bad times" (Calamity aftermath) and how the community pulled together .'
+        Auth: '[Local History, Character Background]'
+    Psychological_Undersaturation: 'Specific childhood  traumas beyond general hardship; deep philosophical musings on the nature of the calamity (beyond blaming Invisible Women); romantic inclinations.'
+
+   Social_Relational_Categorical_Properties:
+    Purpose: 'Define the character''s place within Primal  Mama''s social networks.'
+    Properties:
+      Official_Role:
+        value: 'Owner-Operator , "Broussard''s Bayou Bites" (a small, independent alligator processing outfit in Lickskillet ).'
+        Auth: '[Economic Context]'
+      Social_Status:
+        value: 'Respected within the Licksk illet local community as a hard worker and fair dealer; viewed as insignificant or a minor obstacle by the meat processor oligarchies .'
+        Auth: '[World Social Dynamics]'
+      Primary_Affiliation:
+        value: 'Lick skillet community; the loose network of other mom-and-pop alligator businesses.'
+        Auth: '[Local Context]'
+       Secondary_Affiliations:
+        value: 'Informal member of the local "Smokey & The Bandit Appreciation Society" ( devoted to Burt Reynolds & Jerry Reed lore).'
+        Auth: '[Axiological - Celebrity Worship]'
+       Key_Relationship_1_Other_Processors:
+        value: 'To other small Lickskillet processors  (e.g., Thibodeaux Family Meats): A mix of friendly rivalry and solidarity against the oligarchs.'
+        Auth : '[Local Economic Dynamics]'
+      Key_Relationship_2_Solar_Tech:
+        value: 'To a local,  crusty Solar Tech (Old Man Fitzwilliam): Relies on him for maintaining her aging, 197 0s-style solar power converters for the processing plant; a relationship of grudging mutual dependence.'
+        Auth: '[Solar Domin ance, Tech Aesthetic]'
+      Key_Relationship_3_Oligarchy_Rep:
+        value: ' To a mid-level enforcer/representative of "MegaGator Corp" (Oligarchy): Antagonistic ; characterized by barely veiled threats and exploitative contract offers from the rep, and Jo-Jo''s stubborn resistance.' 
+        Auth: '[Deontic - Oligarchy Friction]'
+      Species_Type:
+        value: ' Human (Lickskillet local strain, post-Calamity lineage)'
+        Auth: '[World Demographics ]'
+    Social_Undersaturation: 'Specific family members (e.g., children, spouse, siblings – currently undefined);  close personal friendships beyond business associates; any contact with Erpenthropes or Swamp Witches (currently presumed none or highly superficial ).'
+
+  Modal_Properties:
+    Purpose: 'Define any inherent unique relationship to world laws.'
+    Note : 'Jo-Jo Broussard possesses NO unique modal properties. She operates fully under the general alethic, deontic , axiological, and epistemic rules of Primal Mama for a citizen of Lickskillet.'
+    Auth : '[Character Concept as "Ordinary Citizen"]'
+
+  Axiological_Properties:
+    Purpose: 'Define the character'' s value status *within* Primal Mama.'
+    Properties:
+      Reputation_Lickskillet: 
+        value: 'Authenticated as ''honest'', ''tough but fair'', ''a true daughter of the bayou'',  ''someone who’ll stand her ground''. Her adherence to the 1970s aesthetic in her business is seen as  ''proper'' and ''traditional''.'
+        Auth: '[Local Values, Axiological - 1970s Aesthetic]' 
+      Reputation_Meat_Oligarchies:
+        value: 'Authenticated as ''small fry'', '' stubborn traditionalist'', ''inefficient'', ''a minor holdout to be eventually absorbed or crushed''.'
+         Auth: '[Oligarchy Perspective]'
+      Reputation_Beetriot_Elite_If_Known:
+         value: 'Likely unknown or dismissed as an undifferentiated part of the "swamp folk" who supply the  city.'
+        Auth: '[Social Stratification]'
+      Moral_Alignment_Narrative_Framing:
+         value: 'Authenticated via narrative potential as embodying resilience, community values, and the struggle against impersonal corporate power; fundamentally  ''good'' within her context.'
+        Auth: '[Thematic Role]'
+    Axiological_Undersaturation: ' Her reputation among Swamp Witches or Erpenthropes (likely non-existent); specific views on her held by individual deified  celebrities (if they were manifest).'
+
+  Historical_Properties:
+    Purpose: 'Define the character''s known  origins and connections to past events within Primal Mama.'
+    Properties:
+      Origin:
+        value: ' Authenticated as born and raised in Lickskillet. The Broussard family has been in the alligator trade for at  least two generations post-Calamity, adapting from whatever came before.'
+        Auth: '[Local Context, Family  Business]'
+      Key_Past_Event_Connection_Personal:
+        value: 'Her grandfather lost his larger , more prosperous gator business to the first wave of oligarchy consolidation tactics 20 years ago; this event fuels  her distrust and determination.'
+        Auth: '[Backstory Detail, Motivation]'
+      Key_Past_Event_Connection_Cultural :
+        value: 'Participates annually in Lickskillet''s "Solar Solstice Gator Gras," a festival celebrating solar  power and the alligator bounty, featuring 1970s-era music and Burt Reynolds movie marathons on outdoor projectors.' 
+        Auth: '[Cultural Event, Axiological Links]'
+      Inherited_Items:
+        value: 'Authenticated to possess  her grandmother''s collection of 8-track tapes (mostly Jerry Reed and Gram Parsons); a set of heavy-duty,  wood-handled alligator processing tools with the family initial ''B'' stamped into them, designed with a distinct 19 70s functional chunkiness.'
+        Auth: '[Cultural Artifacts, Tech Aesthetic]'
+    Historical_Und ersaturation: 'Details of Broussard family life immediately post-Calamity; specific interactions with any now-deified celebrities  during their mortal lives (highly unlikely but not explicitly impossible for older family members'' stories); any direct family connection to the creation  of GE Alligators or the ''death by burger'' laws.'
+
+Character_Constitution_Summary_Narrative_Function:
+   Purpose: 'Synthesize the core identity, internal conflicts, and narrative role emerging from the authenticated property bundle.'
+  Core_Ess ence: 'Jo-Jo Broussard is constituted as a quintessential Lickskillet citizen: a resilient, pragmatic  small business owner deeply enmeshed in the alligator-based economy and the pervasive 1970s technological and cultural aesthetic  of Primal Mama. Her identity is forged by her family''s history in the bayou, her daily struggle against  the encroaching meat oligarchies, and her steadfast adherence to local values, including a genuine faith in the deified Southern  celebrities. She is a product of the post-Calamity world, her life dictated by its unique rules – from  the necessity of solar power to the cultural taboo of cattle consumption and the social stigma of LLMs (which she avoids).' 
+  Primary_Narrative_Function: 'To serve as a viewpoint character representing the everyday struggles and resilience of Lickskillet ''s independent populace. She can embody the "mom-and-pop" resistance to oligarchical control, showcase the practical implications  of the world''s core rules (1970s tech, solar reliance, gator economy), and act as a  conduit for local lore, superstitions (Invisible Women), and cultural expressions (celebrity worship, festivals).'
+  Key_ Internal_Conflicts_From_Bundle: 'Maintaining independence vs. economic annihilation by oligarchies; Upholding tradition ( including 70s aesthetic/methods) vs. the pressure to adopt more ''efficient'' (and likely oligarchy-controlled)  methods; Community solidarity vs. individual survival instincts; Pragmatism vs. a weary adherence to her belief in "fairness " in a world stacked against her.'
+  Potential_for_Development_Based_on_Bundle: 'Could be pushed  to become a reluctant leader of local resistance; forced to make morally grey choices to save her business (e.g., dealing  with shadier elements, considering ''forbidden'' tech if desperate); might uncover information related to the oligarchies or even local manifestations of  the supernatural (ghosts, witches) if her problems deepen; her faith in the deified celebrities or conspiracies could be challenged  or reinforced by events.'

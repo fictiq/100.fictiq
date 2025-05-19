@@ -1,0 +1,104 @@
+ 
+world: Primal Mama
+quest_title: Bayou Awakening
+location:
+  name: The Gutbucket Grotto
+   description: 'A well-fortified, solar-powered stilt-house compound on the fringes of the Saur ian Sanctuary, near Lickskillet'
+characters:
+  - name: Remy
+    description: 'Our protagonist, an  Erpenthrope, weary but resolute.'
+  - name: Mama Mambo
+    description: "A powerful , enigmatic Swamp Witch, Remy's sometime confidante and magical advisor."
+  - name: P'tit Gator  (Li'l Gator)
+    description: "A young, impulsive individual Remy is reluctantly mentoring in the ways of the  swamp and perhaps nascent Erpenthrope abilities."
+  - name: Old Man Bayou
+    description: "An  ancient Erpenthrope, weathered as a cypress stump, responsible for P'tit Gator's foundational training."
+
+ quest_flow:
+  - event_id: QS001_SceneSetting
+    type: scene_ setting
+    title: "The Grotto's Guest Shack"
+    description: |
+      The game begins with a  humid languor—the kind that makes your skin slick before breakfast. Remy, our Erpenthrope protagonist, is  soaking in a reclaimed, algae-stained porcelain tub, its water heated by a sputtering solar coil array with chunky, 70 s-era bakelite controls. The air is thick with the scent of chicory coffee and swamp jasmine. Peace,  however, is fleeting.
+  - event_id: QS002_Interaction_BunnyNip
+    type : interaction
+    description: |
+      A sudden, sharp nip at his... well, his *lower regions*, yanks  him from his reverie. It's not a gator, thankfully, but one of Mama Mambo's  damned Vampire Bunnies, its eyes glowing faintly red in the dim light of the shack. The Swamp Witch herself emerges from the shadows,  a wry smile playing on her lips beneath a wide-brimmed hat adorned with ethically sourced bird skulls and blinking LED  lights (70s style, of course).
+    dialogue:
+      - character: Mama Mambo
+        line:  "Still jumpy as a frog on a hot plate, *cher*?"
+      - character: Mama Mambo
+        line : "You need to be sharper if you're gonna keep that P'tit Gator from becoming gator bait. Old Man Bayou  says the young'un's got more spirit than sense."
+  - event_id: QS003 _CharacterAction_TowelingOff
+    type: character_action
+    description: |
+      She proceeds to give Remy  a piece of her mind about P'tit Gator's "unorthodox" training methods (apparently involving too much reliance  on salvaged tech and not enough on primal instinct), the two share a terse exchange while Remy towels off with a threadbare towel embroidered with  a faded Burt Reynolds silhouette. Time to face the muggy day.
+  - event_id: QS00 4_Tutorial_FindFob
+    type: tutorial_objective
+    title: Find the Security Fob
+     description: |
+      Or rather, the game's tutorial begins. Your first task is to find the security fob  for the shack's reinforced door. Remy, ever cautious of swamp pirates or overzealous Lickskillet revenuers, always  locks it. Aside from pointlessly flicking the chunky toggle switches on a non-functional pre-Calamity wall  panel (pure 70s wood grain) and examining various jars of pickled swamp oddities (getting some gruff commentary from Remy  and some mystical aphorisms from Mama Mambo), there's not much else to it.
+    objective_ item_location: "In the north-western corner of the shack, nestled within a tattered copy of “Solar Power for Swamp  Survivalists: 1978 Edition” on a table cluttered with alligator-tooth carving tools, you'll find your way ward fob."
+    tutorial_mechanic:
+      name: Erpenthrope Senses
+      button: L2
+       description: "Hold that button down, and the world shifts – important objects pulse with a faint, internal bio-luminescence , spectral traces of recent activity shimmer in the air, and you might even hear the faint whispers of ambient spirits (a  known perk of the permeable veil). In this case, the fob we need glows with a comforting, low-tech green ."
+    action_to_take: "Grab it (a satisfying *clunk* as it detaches from  its magnetic charger) and approach the door."
+    door_opening_tutorial: "Yes, the game even gives you a tutorial  for opening reinforced swamp doors. Turns out you have to face them and press [X] on the chunky, oversized keypad. Who knew  security could be so… analog?"
+  - event_id: QS005_GameNote_Navigator
+    type : game_note
+    content: "Note: All directions will be given in relation to your wrist-mounted \" Bayou Navigator\" (a bulky, 70s-style LED display device). It’s a pretty nifty  piece of salvaged tech that’ll make both our lives easier in this confusing swampland."
+  - event_id : QS006_SceneTransition_MainDeck
+    type: scene_transition
+    description: |
+      Unlock  the door and swagger out onto the Grotto's main deck, Remy-style (which involves a certain hip-swaying  saunter necessary for navigating uneven swamp terrain). Once on the main platform, constructed from weathered planks and salvaged industrial grating, Remy  will note that his elder mentor—Old Man Bayou—who was supposed to be supervising P'tit Gator's morning  drills, has clearly failed. Instead of some tedious solar panel maintenance or alligator lure whittling, P'tit Gator  is down on the lower dock, precariously balanced on a tilting oil drum, trying to "hypnotize" a  juvenile, genetically engineered alligator with a spinning hubcap while Old Man Bayou snoozes soundly in a patched-up  lawn chair, a battered copy of "The Sermons of Jerry Reed" resting on his chest.
+  - event _id: QS007_Interaction_OldManBayou_PtitGator
+    type: interaction 
+    description: |
+      After some grumbled pleasantries with a now-awakening (and slightly embarrassed)  Old Man Bayou, Remy heads down to the lower dock to speak with the overeager youngster.
+    dialogue _summary_ptit_gator: "P'tit Gator boasts about almost having the gator ready to fetch ( it mostly just looks confused and slightly annoyed)."
+  - event_id: QS008_TutorialOffer_ RunPylons
+    type: tutorial_offer
+    description: "After a bit of banter... P'tit Gator  will ask if Remy wants to \"run the pylons\", which is a handy, more in-depth tutorial covering basic  swamp traversal and agility."
+    tutorial_name: Run the Pylons
+    tutorial_focus: "Basic  swamp traversal and agility"
+
+consistency_check_summary:
+  alethic_modalities:
+    - rule: Biological  Calamity Aftermath
+      evidence: "Implied by salvaged tech, altered ecosystem."
+    - rule:  Alligator Biogenesis
+      evidence: "Juvenile GE alligator present."
+    - rule: Erpenthropic  Transformation
+      evidence: "Remy and Old Man Bayou are Erpenthropes; their unique senses are a core mechanic."
+     - rule: Spectral Interaction
+      evidence: "Erpenthrope Senses can perceive spectral traces/ghostly  whispers."
+    - rule: Solar Dominance
+      evidence: "Solar coil for bath, solar panel maintenance mentioned , Bayou Navigator likely solar/bio-battery."
+    - rule: Technological Aesthetic Constraint
+      evidence: "All  tech described (keypad, solar controls, Navigator, LEDs on hat) adheres to late 1970s  style."
+    - rule: Vampire Bunny Propagation
+      evidence: "Mama Mambo controls one."
+  de ontic_modalities:
+    - rule: Gun Ownership (Regional)
+      evidence: "Implied by  general swamp lawlessness/need for fortified homes (though no gun directly featured in *this* scene, it's background)."
+   axiological_values:
+    - value_type: Alligator Meat
+      evidence: "Alligator-tooth tools , P'tit Gator interacting with a GE gator."
+    - value_type: Solar Power & Ingenuity 
+      evidence: "Central to their dwelling's function."
+    - value_type: Late 19 70s Aesthetic
+      evidence: "Pervasive."
+    - value_type: Deified Celebr ities
+      evidence: "Burt Reynolds towel, Sermons of Jerry Reed book."
+    - value_type : Autonomy vs. Automation
+      evidence: "Focus on manual skills, salvaged tech."
+  epistemic _knowledge:
+    - knowledge_area: Erpenthrope Knowledge
+      evidence: "Erpenthrope Senses provide  unique insights. Old Man Bayou as a mentor."
+    - knowledge_area: Swamp Witch Lore
+      evidence:  "Mama Mambo and her vampire bunny."
+    - knowledge_area: Technical Knowledge
+      evidence: "“ Solar Power for Swamp Survivalists: 1978 Edition” book."
+
+conclusion_note: "This recontextual ization seems to fit snugly within the established rules and flavor of Primal Mama, transforming the original medieval fantasy tutorial into a  retro-futuristic, bayou-gothic experience."

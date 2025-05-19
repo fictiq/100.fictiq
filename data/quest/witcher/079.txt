@@ -1,0 +1,382 @@
+Oils
+Oils in The Witcher 3 are massively useful. You apply them to your swords (this uses up no charges, and costs you nothing besides the initial cost of crafting the oil) and you get a damage bonus against a specific foe based upon the grade of the oil-either 10%, 25% or 50%. These are hefty, free damage bonuses that only take a little foresight to gain. It's well worth your while to keep your Oils updated, and to apply them liberally.
+
+Oil	Required Components	Stats
+Beast Oil	Dog Tallow x1
+Wolf's Liver x2	Attack Power versus Beasts: 10%
+Cursed Oil	Dog Tallow x1
+Wolfsbane x1	Attack Power versus Cursed Ones: 10%
+Draconid Oil	Dog Tallow x1
+Ergot Seeds x1	Attack Power versus Draconids: 10%
+Elementa Oil	Dog Tallow x1
+Puffball x4	Attack Power versus Elementa: 10%
+Hanged Man's Venom	Dog Tallow x1
+Arenaria x1	Attack Power versus Humans and Nonhumans: 10%
+Hybrid Oil	Dog Tallow x1
+White Mytle Petals x4	Attack Power versus Hybrids: 10%
+Insectoid Oil	Dog Tallow x1
+Ranogrin x4	Attack Power versus Insectoids: 10%
+Necrophage Oil	Dog Tallow x1
+Blowball x1	Attack Power versus Necrophages: 10%
+Ogrid Oil	Bear Fat x1
+Ginatia Petals x1	Attack Power versus Ogroids: 10%
+Relict Oil	Dog Tallow x1
+Mistletoe x5	Attack Power versus Relicts: 10%
+Specter Oil	Bear Fat x1
+Arenaria x1	Attack Power versus Specters: 10%
+Vampire Oil	Dog Tallow x2
+Ducal Water x4	Attack Power versus Vampires : 10%
+Enhanced Beast Oil	Celandine x1
+Bear Fat x5
+Puffball x1
+Bison Graxx x1
+Beast Oil x1
+Bear Hide x1	Attack Power versus Beasts: 25%
+Enhanced Cursed Oil	Bear Fat x1
+Wolfsbane x1
+Balisse Fruit x1
+Cursed Oil x1
+Puffball x1
+Ekimmara Hide x1
+Wolf's Liver x1	Attack Power versus Cursed Ones: 25%
+Enhanced Draconid Oil	Nekker Warrior's Liver x1
+Bear Fat x1
+Moleyarrow x1
+Arenaria x1
+Draconid Oil x1
+Cockatrice Stomach x1
+Bryonia x1	Attack Power versus Draconids: 25%
+Enhanced Elementa Oil	Puffball x1
+Bear Fat x1
+Allspice x1
+Honeysuckle x1
+Elementa Oil x1
+Moleyarrow x1
+Buckthorn x1	Attack Power versus Elementa: 25%
+Enhanced Hanged Man's Venom	Nekker Eye x1
+Bear Fat x1
+Foo's Parsley Leaves x1
+Arenaria x1
+Hanged Man's Venom x1
+Han Fiber x1
+Mandrake Root x1	Attack Power versus Humans and Nonhumans: 25%
+Enhanced Hybrid Oil	Ginatia Petals x1
+Bear Fat x1
+White Myrtle Petals x1
+Hornwort x1
+Hybrid Oil x1
+Erynia Eye x1
+Bryonia x1	Attack Power versus Hybrids: 25%
+Enhanced Insectoid Oil	Puffball x1
+Bear Fat x1
+Ranogrin x1
+Hornwort x1
+Insectoid Oil x1
+Endrega Heart x1
+Honeysuckle x1	Attack Power versus Insectoids: 25%
+Enhanced Necrophage Oil	Blowball x1
+Bear Fat x4
+Arenaria x1
+Pringrape x1
+Necrophage Oil x1
+Rotfiend Blood x1
+Cortinarius x1	Attack Power versus Necrophages: 25%
+Enhanced Ogrid Oil	Longrube x1
+Bear Fat x2
+Ranogrin x1
+Ginatia Petals x1
+Ogroid Oil x1
+Cave Troll Liver x1
+Ribleaf x1	Attack Power versus Ogroids: 25%
+Enhanced Relict Oil	Cave Troll Liver x1
+Bear Fat x1
+Beggartick Blossoms x1
+Relict Oild x1
+Water Hag Tooth x1
+Green Mold x1	Attack Power versus Relicts: 25%
+Enhanced Specter Oil	Arenaria x1
+Bear Fat x1
+Mistletoe x1
+Specter Oil x1
+Wolf's Liver x1
+Essence of Wraith x1	Attack Power versus Specters: 25%
+Enhanced Vampire Oil	Wine Stone x1
+Bear Fat x2
+Cortinarius x1
+Wolfsbane x1
+Vampire Oil x1
+Fifth Essence x1
+Ribleaf x1	Attack Power versus Vampires: 25%
+Superior Beast Oil	Celandine x1
+Alchemy Paste x1
+Puffball x1
+Cockatrice Stomach x1
+Enhanced Beast Oil x1
+Bison Grass x1
+Rubedo x1	Attack Power versus Beasts: 50%
+Superior Cursed Oil	Mistletoe x1
+Alchemy Paste x1
+Ekimmara Hide x1
+Enhanced Cursed Oil x1
+Cave Troll Liver x1
+Rubedo x1	Attack Power versus Cursed Ones: 50%
+Superior Draconid Oil	Cockatrice Stomach x1
+Alchemy Paste x1
+Nekker Warrior's Liver x1
+Arenaria x1
+Enhanced Draconid Oil x1
+Bryonia x1
+Albedo x1	Attack Power versus Draconids: 50%
+Superior Elementa Oil	Essence of Wraith x1
+Alchemy Paste x1
+Allspice x1
+Honeysuckle x1
+Enhanced Elemental Oil x1
+Nostrix x1
+Albedo x1	Attack Power versus Elementa: 50%
+Superior Hanged Man's Venom	Devourer's Blood x1
+Alchemy Paste x1
+Fool's Parsley Leaves x1
+Green Mold x1
+Enhanced Hanged Man's Venom x1
+Bloodmoss x1
+Quebrith x1	Attack Power versus Humans and Nonhumans: 50%
+Superior Hybrid Oil	Ginatia Petals x1
+Alchemy Paste x1
+White Myrtle Petals x1
+Bison Grass x1
+Enhanced Hybrid Oil x1
+Erynia Eye x1
+Albedo x1	Attack Power versus Hybrids: 50%
+Superior Insectoid Oil	Puffball x1
+Alchemy Paste x1
+Hornwort x1
+Bloodmoss x1
+Enhanced Insectoid Oil x1
+Endrega Heart x1
+Hydragenum x1	Attack Power versus Insectoids: 50%
+Superior Necrophage Oil	Beggartick Blossoms x1
+Alchemy Paste x5
+Arenaria x1
+Pringrape x1
+Enhanced Necrophage Oil x1
+Devourer's Blood x1
+Hydragenum x1	Attack Power versus Necrophages: 50%
+Superior Ogrid Oil	Arenaria x1
+Alchemy Paste x2
+Ranogrin x1
+Ribleaf x1
+Enhanced Ogroid Oil x1
+Cave Troll Liver x1
+Aether x1	Attack Power versus Ogroids: 50%
+Superior Relict Oil	Hop Umbels x1
+Alchemy Paste x4
+Beggartick Blossoms x1
+Green Mold x1
+Enhanced Relict Oil x1
+Devourer's Blood x1
+Nigredo x1	Attack Power versus Relicts: 50%
+Superior Specter Oil	Longrube x1
+Alchemy Paste x1
+Mistletoe x1
+Ergot Seeds x1
+Enhanced Specter Oil x1
+Essence of Wraith x1
+Rebis x1	Attack Power versus Specters: 50%
+Superior Vampire Oil	Fifth Essence x1
+Alchemy Paste x2
+Wine Stone x1
+Cortinarius x1
+Enhanced Vampire Oil x1
+Wolfsbane x1
+Vermillion x1	Attack Power versus Vampires: 50%
+Potions
+One of the more basic-and effective-of a Witcher's tools are potions. You drink them, and you gain passive bonuses for a set duration. They have less toxicity and greater efficacy than Decoctions, but their duration is much shorter. Use these immediately before or during tough fights to make the most of them.
+
+Potions	Required Components
+Black Blood	Dwarven Spirit x1
+Ghouls's Blood x4
+Sewant Mushrooms x2
+Blizzard	Dwarven Spirit x1
+Golem's Heart x1
+White Myrtle Petals x5
+Cat	Dwarven Spirit x1
+Berbercane Fruit x4
+Water Essence x2
+Full Moon	Dark Essence x1
+Dwarven Spirit x1
+Wolfsbane x2
+Golden Oriole	Blowball x4
+Dwarven Spirit x1
+Light Essence x1
+Killer Whale	Balisse Fruit x5
+Buckthorn x6
+Drowner Tongue x5
+Dwarven Spirit x2
+Maribor Forest	Alghoul Bone Marrow x1
+Berbercane Fruit x3
+Dwarven Spirit x1
+Drowner Tongue x4
+Petri's Philter	Arenaria x5
+Dwarven Spirit x1
+Specter Dust x1
+Swallow	Dwarven Spirit x1
+Celandine x5
+Drowner Brain x1
+Tawny Owl	Dwarven Spirit x1
+Verbena x2
+Arachas Venom x1
+Thunderbolt	Dwarven Spirit x1
+Cortinarius x2
+Endgreda Embrya 1
+White Honey	Dwarven Spirit x1
+Honeysuckle x1
+White Rafford's Decoction	Dwarven Spirit x1
+Ribleaf x2
+Nekker Heart x4
+Enhanced Black Blood	Sewant Mushrooms x5
+Alcohest x1
+Ghoul's Blood x5
+Black Blood x1
+Hellebore Petals x1
+Enhanced Blizzard	White Myrtle Petals x5
+Alcohest x1
+Golem's Heart x1
+Blizzard x1
+Celandine x1
+Enhanced Cat	Alcohest x1
+Berbercane Fruit x5
+Cat x1
+Cotinarius x1
+Water Essence x3
+Enhanced Full Moon	Wolfsbane x5
+Alcohest x1
+Dark Essence x2
+Full Moon x1
+Crow's Eye x2
+Enhanced Golden Oriole	Celandine x1
+Alcohest x1
+Light Essence x1
+Golden Oriole x1
+Blowball x6
+Enhanced Maribor Forest	Crow's Eye x1
+Alcohest x1
+Drowner Tongue x2
+Maribor Forest x1
+Berbercane Fruit x5
+Enhanced Petri's Philter	Buckthorn x1
+Alcohest x1
+Specter Dust x2
+Petri's Philter x1
+Arenaria x6
+Enhanced Swallow	White Mytle Petals x4
+Alcohest x1
+Drowner Brain x5
+Swallow x1
+Celandine x6
+Enhanced Tawny Owl	Wolfsbane x2
+Alcohest x1
+Arachas Venom x1
+Tawny Owl x1
+Verbena x4
+Enhanced Thunderbolt	Fool's Parsley Leaves x1
+Alcohest x1
+Endrega Embryo x2
+Thunderbolt x2
+Cortinarius x2
+Enhanced White Honey	White Myrtle Petals x1
+Alcohest x1
+White Honey x1
+Honeysuckle x2
+Enhanced White Rafford's Decoction	Bryonia x1
+Alcohest x1
+Nekker Heart x5
+White Rafford's Decoction x1
+Ribleaf x4
+Superior Black Blood	
+Han Fiber x1
+Hellebore Petals x5
+Nostrix x1
+White Gull x1
+Enhanced Black Blood x1
+Sewent Mushrooms x5
+Rebis x1
+
+Superior Blizzard	Buckthorn x1
+Celandine x1
+Enhanced Blizzard x1
+Sewant Mushrooms x1
+White Gull x1
+White Myrtle Petals x4
+Rebis x1
+Superior Cat	Allspice x1
+Berbercane Fruit x4
+Cortinarius x4
+Enhanced Cat x1
+Moleyarrow x1
+White Gull x1
+Aether x1
+Superior Full Moon	Crow's Nest x4
+White Gull x1
+Mistletoe x1
+Verbena x1
+Enhanced Full Moon x1
+Wolfsbane x4
+Quebrith x1
+Superior Golden Oriole	Celandine x4
+White Gull x1
+Han Fiber x1
+Ranogrin x1
+Enhanced Golden Oriole x1
+Blowball x4
+Quebrith x1
+Superior Maribor Forest	Berbercane Fruit x4
+Crow's Eye x4
+White Gull x1
+Hellebore Petals x1
+Enhanced Maribor Forest x1
+Ribleaf x1
+Vermillion x1
+Superior Petri's Philter	Arenaria x4
+White Gull x1
+Buckthrown x4
+Enhanced Petri's Philter x1
+Longrube x1
+Ranogrin x1
+Rubedo x1
+Superior Swallow	Berbercane Fruit x6
+White Gull x1
+Celandine x4
+Enhanced Swallow x1
+Crow's Eye x4
+White Myrtle Petals x6
+Vitriol x1
+Superior Tawny Owl	Fool's Parsley Leaves v1
+White Gull x1
+Mandrake Root x1
+Enhanced Tawny Owl x1
+Verbena x4
+Wolfsbane x4
+Sewant Mushrooms x1
+Superior Thunderbolt	Bryonia x1
+White Gull x1
+Cotinarius x4
+Enhanced Thunderbolt x1
+Fool's Parsley Leaves x4
+Verbena x1
+Quebrith x1
+Superior White Honey	Balisse Fruit x1
+White Gull x1
+Honeysuckle x4
+Enhanced White Honey x1
+Hellebore Petals x1
+White Myrtle Petals x4
+Vitriol x1
+Superior White Rafford's Decoction	Rifleaf x4
+White Gull x1
+Bryonia x4
+Enhanced White Rafford's Decoction x1
+Bison Grass x1
+Pringrape x1
+Vermlion x1
+Gwent Information

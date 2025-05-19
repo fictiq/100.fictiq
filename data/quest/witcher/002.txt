@@ -1,0 +1,65 @@
+Guest Room
+The game begins pleasantly enough-the sexy feet that frustrated Conan so much belong to Geralt of Rivia, who just so happens to be enjoying a warm bath... Until he gets molested by a crustacean, the machinations of his sorceress lover Yennefer. She proceeds to chastise him about training Ciri, the two get dressed, and a day in the life of a Witcher begins.
+
+Or rather, the game's tutorial begins. You first task is to procure a key for the door, which you've rather wisely locked to keep prying eyes out. Aside from pointlessly extinguishing candles and examining various objects and getting some commentary from Geralt and Yennefer, there's not much to do. In the north-western corner of the room, on a book on a table near the door, you'll find your wayward key. Of course, you're supposed to be trying out your swanky new "Witcher Senses" [L2], so hold that button down and, if you've played any of the recent Batman games, you'll understand the purpose-it highlights interactable objects. In this case, the key we need. Grab it and open the door. Yes, the game even gives you a tutorial for opening doors. Turns out you have to face them and press [X]. Who knew?
+
+Note: All directions will be given in relation to the mini-map. It's a pretty nifty tool that'll make both our lives easier.
+
+Unlock the door and strut downstairs, Geralt-style. Once on the ground floor, Geralt will note that his master-Vesemir-who was supposed to be watching Ciri, has failed at his duties. Instead of some dull book work, Ciri decided to terrorize some training dummies while Vesemir caught forty winks. After some chatter with Vesemir, Geralt heads down to chastise the young aspiring Witcher. After chatting with Ciri for a bit, she'll ask if you want to "run the walls", which is a handy, more in-depth tutorial covering basic mobility.
+
+Running the Walls
+If you chose to "run the walls", start out by heading west and climbing a ladder [X], then scale two platforms to the north [Circle] and climb onto a wall to the west. Drop off a ledge to the north, then another to the south before climbing down a ladder to the east. Head down some stairs to the south and climb down another ladder, then navigate some wooden walkways to the west, going down two more flights of stairs and another ladder. Once all this is done, your goal is to head east into a sunken courtyard to find Vesemir, who is waiting with Lambert and Eskel, two other resident Witchers.
+
+Note: Kaer Morhen seems to have retained at least some of the same basic design from the first game. Very cool touch.
+
+Vesemir will give Ciri the angry old man treatment before finally moving on to combat training. Accept the tutorial if you wish to learn more about combat (why wouldn't you?) or pass.
+
+The Fundamentals
+Choose to "start with the fundamentals" and Geralt will claim a sword for him to use. The game will briefly introduce you to the three basic tools of a Witcher-swords, signs, and alchemy. For now, we're focusing on swords. Press [Left] on the D-pad to quick-draw your steel sword (useful for fighting humans, who tend to be clad in pesky armor). Silver swords [Right] will come into play later when we're hunting monsters, who are vulnerable to silver-plated weaponry.
+
+Once your sword is out, lock onto Vesemir by pressing down on the [R3] button, then perform a series of Fast Attacks [Square], followed by Strong Attacks [Triangle]. Next up, dodging [Circle]. Vesemir gives ample warning before he attacks, so you should have no trouble scoring two dodges that this task requires. Next you'll need to roll out of the way twice [X], which is more of the same, except Vesemir's attacks are even more obvious. What's the difference? Dodges are shorter and faster, best for dodging quick enemies and retaliating. Rolls are good for dodging heavy, slower attacks. Parrying is the next order of business-simply hold down [L2] to parry all of Vesemir's attacks. Finally, it's time to practice ripostes. Hit [L2] as Vesemir attacks to block-and-counter him.
+
+Now it's time to move onto Signs. Press [L1] to to open the Quick Menu, from which you can select your Signs. The first up is the Quen Sign. Select it, then cast it by pressing [R2]. Quen blocks damage, and is eminently useful for mitigating damage. Cast it and let Vesemir hit you-to no effect. Then switch to the Igni sign, which projects a cone of fire at your foe, which is handy for harming or dispatching a group of weaker foes, or perhaps setting a stronger critter on fire. Next up is the Axii Sign, which Geralt can use to disorient foes. It's also handy for gaining the upper hand in diplomacy. Last up is Yrden, which places a magical trap on the ground that slows enemies who enter.
+
+Swords and Signs are done, which leaves only alchemy. First up are bombs. Press [L1] again and access the lower half of your radial, which contains equipped alchemical items (potions, bombs and oils). Once selected, chuck a bomb at Vesemir [R1], then head to the selected spot and toss some more bombs at some training dummies, this time holding down [R1] to free-aim.
+
+You can now freely train with Vesemir, and it's nice to have the gloves off. Practice dodging, countering, attacking... all that good stuff. The training ends when you sheath your sword. After an unsettling intrusion, so does the dream in which the tutorial occurred.
+
+White Orchard
+The Hunt Begins
+In the Army's Wake...
+Geralt will wake up, and the old Witcher, Vesemir, will start chatting with him. Either reveal the details of your dream-tutorial, or not. Afterwards the two will decide to head out. According to a letter Geralt received from Yennefer, their destination was Wiloughby, a rendezvous somewhat complicated by the fact that the town was slightly pillaged. War rages in the northern lands, and where armies pass, Necrophages follow.
+
+This fact is punctuated by the Ghouls that will show up and attack you here. They're not challenging foes-dispatch them by using Fast Attacks with the Silver Sword, then loot them for any Venom and Ghoul's Blood they might drop. If you get injured, you can meditate by touching the [Touch Pad] and heading to the "Meditation" screen. At this point in the game, you've got more time than disposable healing items on your hands.
+
+Note: Geralt naturally regenerates one point of Vitality per second. Sadly, since he starts the game with 3500 Vitality, this amounts to... well, frankly, piss-poor regeneration. It will take nearly an hour to regenerate from near-death to full health.
+
+When you're done picking on Ghouls, return to Roach and from him head north-west, just past as small trail, where, with your Witcher Senses active, you should spot a Crystal Skull lying on the ground. Geralt will guess this odd object belongs to Yennefer. Might come in handy.
+
+Note: Using Witcher Sense will cause interactable (usually lootable) object to glow yellow. Quest-related interactable objects will glow red. Monsters will be shown as white ripples (of varying size, depending upon proximity). Objects that can be affected by specific Signs will have that Sign's symbol over them-typically objects that can be destroyed with Aard or ignited with Igni.
+
+That's enough goofing around for now. Time to head over to Roach, mount up, and follow Vesemir. Don't worry, we'll return to explore this area in more detail shortly. Summon Roach by double-tapping [L3]. While riding, hold down [X] to canter, double-tap and hold [X] to gallop, press [Circle] to jump, and hold [Circle] to dismount. [Square] and [Triangle] attack from horseback, but it's not an ideal way to fight.
+
+There are two larger dirt roads that eventually connect to the south-you want to follow the eastern of the two. Vesemir will comment on the state of the war as you ride, showing a decidedly un-Witchery view of politics (which Geralt doesn't fail to comment on.) When the road turns from heading south-east to south you'll spot a gallows east of the road with three swinging corpses in various states of decay. Follow the road south-west to find a "Ransacked Village". War hits the poor the hardest, and so it is here. Leave the people in
+peace for now and continue to follow Vesemir south, then south-east, eventually crossing over a small bridge.
+
+Note: Signposts serve as fast-travel waypoints. To use one, simply approach it and hit the [X] button, then select any other discover signpost to travel there.
+
+The Griffin and the Tavern
+Some time later, Geralt and Vesemir will run across a merchant being harassed by a Griffin. The Witchers will succeed at chasing the beast off (although, not in depriving it of its meal) and Vesemir will be superficially wounded in the process. Afterwards, the maligned merchant will emerge from under his cart and offer to pay you for your good deed. If you demand payment, you'll find yourself 50 Crowns richer. Afterwards, the merchant will overhear you talking, and refer you to the tavern in the village of White Orchard.
+
+Objective	Reward
+For asking the merchant for a reward	50 Crowns
+If you bother checking out your map you'll note that you've traveled north-west from where you were before the cutscene, and you should continue west along the road from the "Ford" marked on your map. Vesemir and Geralt will discuss the Griffin's odd hunting habits. Seems Witchers will gladly attribute any odd monster behavior to human activity. Keep riding east, cross "Woesong Bridge" to reach the village of White Orchard. Follow Vesemir to the tavern and he and Geralt will dismount and head inside.
+
+Witness some tension in the tavern, after which Geralt and Vesemir will talk to the innkeeper. If you didn't shakedown her cousin earlier, she'll be thankful and give you four Roasted Chicken Legs. Keep talking to her to learn that there's no contract for the Griffin yet. The Witchers might speculate on why the Griffin has chosen abnormal hunting habits, but the reason why there's no bounty can fully be blamed on the war. Other than that, she sells some food and alcohol, and hasn't seen Yennefer... although somebody else in the tavern may have.
+
+Note: Merchants have a fixed amount of money on them at any given time. Fortunately, the entire economy of the world isn't dependent upon our actions-if you meditate for a while, eventually the Merchants will replenish their money, and some of their wares.
+
+Objective	Reward
+For not taking the merchant's money earlier and talking to the innkeeper	4 Roasted Chicken Legs
+Start out by talking to a pair of Peasants sitting north of where Vesemir roosts. They're a pair of jack-asses, but if you use the Axii Sign on one of them, you'll get the information you seek-Yennefer passed through here a few days ago. In quite a hurry.
+
+Objective	Reward
+For using Axii to get the Peasant to talk	25 XP
+Of course, it's not the most reliable of information, so we might as well keep asking. Ignore the threesome playing cards east of the Innkeeper, and instead talk to Gaunter O'Dim further east. As far as tavern patrons go, he's a rather swell chap, if a bit wearing on the patience. Play as nice as the dialogue options will allow and you'll score some Nilfgaardian Lemon for free, as well as the information you seek. He not only knows Yennefer by her description, but he knows you, as well. Seems Dandelion's tales travel far. The Peasants from before were right, but lacked sufficient information. The local Nilfgaardia
